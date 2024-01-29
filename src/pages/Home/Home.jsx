@@ -7,52 +7,65 @@ function Home() {
     <HomeContainer>
       <div className="home_content">
         <div className="animatedBG"></div>
-        <img src="/src/assets/images/home/title.svg" className="title"></img>
+        <img src="/assets/images/home/title.svg" className="title"></img>
         <div className="home_content__expeditions">
-          <img
-            src="/src/assets/images/home/main_image.webp"
-            alt=""
-            className="home_content__main_image"
-          />
+          <div className="home_content__main_image_container">
+            <img
+              src="/assets/images/home/main_image.webp"
+              alt=""
+              className="home_content__main_image"
+            />
+          </div>
+
           <ButtonImage
             className="expedition_button expedition_button_one"
-            src="/src/assets/images/home/expedition_1.webp"
+            src="/assets/images/home/expedition_1.webp"
             delay="1"
+            tooltip={"Expedition 1"}
           ></ButtonImage>
           <ButtonImage
             className="expedition_button expedition_button_two"
-            src="/src/assets/images/home/expedition_2.webp"
+            src="/assets/images/home/expedition_2.webp"
             delay="1.5"
+            tooltip={"Expedition 2"}
           ></ButtonImage>
           <ButtonImage
             className="expedition_button expedition_button_three"
-            src="/src/assets/images/home/expedition_3.webp"
+            src="/assets/images/home/expedition_3.webp"
             delay="2"
+            tooltip="Octopus Odyssey"
+            href={'/expeditions/octopus_odyssey'}
           ></ButtonImage>
           <ButtonImage
             className="expedition_button expedition_button_four"
-            src="/src/assets/images/home/expedition_4.webp"
+            src="/assets/images/home/expedition_4.webp"
             delay="2.5"
+            tooltip={"Expedition 4"}
           ></ButtonImage>
           <ButtonImage
             className="expedition_button expedition_button_five"
-            src="/src/assets/images/home/expedition_5.webp"
+            src="/assets/images/home/expedition_5.webp"
             delay="3"
+            tooltip="Dynamics of Sinking Microplastics"
+            href={'/expeditions/dynamics_of_sinking_microplastics'}
           ></ButtonImage>
           <ButtonImage
             className="expedition_button expedition_button_six"
-            src="/src/assets/images/home/expedition_6.webp"
+            src="/assets/images/home/expedition_6.webp"
             delay="3.5"
+            tooltip={"Expedition 6"}
           ></ButtonImage>
           <ButtonImage
             className="expedition_button expedition_button_seven"
-            src="/src/assets/images/home/expedition_7.webp"
+            src="/assets/images/home/expedition_7.webp"
             delay="4"
+            tooltip={"Expedition 7"}
           ></ButtonImage>
           <ButtonImage
             className="expedition_button expedition_button_eight"
-            src="/src/assets/images/home/expedition_8.webp"
+            src="/assets/images/home/expedition_8.webp"
             delay="4.5"
+            tooltip={"Expedition 8"}
           ></ButtonImage>
         </div>
       </div>

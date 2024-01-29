@@ -1,5 +1,11 @@
 :root {
   --white: #ffffff;
+  --blue: #0e72bb;
+  --dark-blue: #21416b;
+}
+
+body{
+  background: var(--blue);
 }
 
 @keyframes fadein {
@@ -17,3 +23,36 @@
     transform: scale(1);
   }
 }
+
+.buttonimage_tooltip{
+  border-radius: 5px;
+  background: rgba(255,255,255,0.8);
+  color: var(--dark-blue);
+  text-shadow: 2px 2px 3px var(--blue);
+  font-weight: bold;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  animation: ease-in 1s opacityIn;
+  margin: 0.2rem 0;
+  z-index: 10;
+}
+
+@keyframes opacityIn {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  10% {
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+

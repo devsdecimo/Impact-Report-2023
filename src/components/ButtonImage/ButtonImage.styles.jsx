@@ -7,8 +7,8 @@ export const ButtonImageContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 15vh;
-    width: 15vh;
+    height: 12vh;
+    width: 12vh;
     max-width: 130px;
     max-height: 130px;
     border-radius: 100%;
@@ -20,6 +20,7 @@ export const ButtonImageContainer = styled.div`
     animation: fadein 1s linear ${(props) => props.delay || 0}s;
     animation-fill-mode: forwards;
     transition: 1s;
+    margin: 0.75rem;
 
     img {
       transition: 1s;
@@ -42,6 +43,7 @@ export const ButtonImageContainer = styled.div`
     @media (min-width: 768px) {
       height: 10vw;
       width: 10vw;
+      margin: 0;
       img {
         height: 10vw;
       }
