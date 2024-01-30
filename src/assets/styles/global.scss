@@ -1,11 +1,47 @@
 :root {
   --white: #ffffff;
   --blue: #0e72bb;
-  --dark-blue: #21416b;
+  --dark-blue: #013046;
+  --gray: #D5D5D5;
 }
 
+@font-face {
+  font-family: "Garamond";
+  src: url("/assets/fonts/EBGaramond-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Garamond";
+  src: url("/assets/fonts/EBGaramond-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Garamond";
+  src: url("/assets/fonts/EBGaramond-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Garamond";
+  src: url("/assets/fonts/EBGaramond-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Garamond Premier Pro";
+  src: url("/assets/fonts/Garamond Premier Pro Regular.ttf") format("truetype");
+}
+
+
 body{
-  background: var(--blue);
+  background: var(--gray);
+  font-family: 'Garamond', Times, serif;
 }
 
 @keyframes fadein {
@@ -24,35 +60,28 @@ body{
   }
 }
 
-.buttonimage_tooltip{
+
+.tippy-box[data-theme~='soi'] {
   border-radius: 5px;
-  background: rgba(255,255,255,0.8);
+  background: rgba(255,255,255,0.75);
   color: var(--dark-blue);
-  text-shadow: 2px 2px 3px var(--blue);
   font-weight: bold;
   padding: 0.5rem;
   font-size: 1.2rem;
   font-family: sans-serif;
-  animation: ease-in 1s opacityIn;
-  margin: 0.2rem 0;
   z-index: 10;
+  text-align: center;
 }
 
-@keyframes opacityIn {
-  0% {
-    opacity: 0;
-    transform: scale(0);
-  }
-
-  10% {
-    opacity: 0;
-    transform: scale(0);
-  }
-
-  100% {
-    opacity: 1;
-    transform: scale(1);
-  }
+.tippy-box[data-theme~='soi'][data-placement^='top'] > .tippy-arrow::before {
+  border-top-color: rgba(255,255,255,0.75);;
 }
-
-
+.tippy-box[data-theme~='soi'][data-placement^='bottom'] > .tippy-arrow::before {
+  border-bottom-color: rgba(255,255,255,0.75);;
+}
+.tippy-box[data-theme~='soi'][data-placement^='left'] > .tippy-arrow::before {
+  border-left-color: rgba(255,255,255,0.75);;
+}
+.tippy-box[data-theme~='soi'][data-placement^='right'] > .tippy-arrow::before {
+  border-right-color: rgba(255,255,255,0.75);;
+}

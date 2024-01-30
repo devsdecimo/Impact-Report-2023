@@ -16,21 +16,70 @@ function NavMenu({ className }) {
         onClick={toggleMenu}
       ></button>
       <div className={`menu ${openMenu ? "menu__open" : ""}`}>
-        <ul onClick={toggleMenu}>
-          <li>
-            <Link to="/">Home</Link>{" "}
-          </li>
-          <li>
-            <Link to="/a_word_from_our_founders">A Word From Our Founders</Link>{" "}
-          </li>
-          <li>
-            <Link to="/executive_directors_note">Executive Director's Note</Link>{" "}
-          </li>
-          <li>
-            <ul></ul>
-          </li>
-        </ul>
-      </div> 
+        <div className="menu_contents">
+        <img src="/assets/images/logo.webp" alt="soi logo" className="menu_logo"/>
+          <ul onClick={toggleMenu}>
+            <li>
+              <Link to="/">Welcome to a New SOI</Link>
+            </li>
+            <li>
+              <Link to="/a_word_from_our_founders">Word from our Founders</Link>
+            </li>
+            <li>
+              <Link to="/executive_directors_note">
+                Executive Director's Note
+              </Link>
+            </li>
+            <li className="submenu">
+              <ul>
+                <li className="title">Inaugural Year of Discovery</li>
+                <li>
+                  <Link>In Search of Hydrothermal Lost Cities</Link>
+                </li>
+                <li>
+                  <Link>Health Diagnosis of Deep Sea Coral</Link>
+                </li>
+                <li>
+                  <Link>Octopus Odessey/ Octopus Odessey (too)</Link>
+                </li>
+                <li>
+                  <Link>The Underworld of Hydrothermal Vents</Link>
+                </li>
+                <li>
+                  <Link>Dynamics of Sinking Microplastics</Link>
+                </li>
+                <li>
+                  <Link>Hydrothermal Vents of the Western Galápagos</Link>
+                </li>
+                <li>
+                  <Link>Vertical Reefs of the Galápagos</Link>
+                </li>
+                <li>
+                  <Link>Ultra Fine-Scale Seafloor Mapping</Link>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <Link to="/by_the_numbers">Inaugural Year - By The Numbers</Link>
+            </li>
+            <li>
+              <Link to="/new_species_and_seafloor_spotlight">
+                New Species & Seafloor Spotlight
+              </Link>
+            </li>
+            <li>
+              <Link to="/a_limitless_ocean_of_data">
+                A Limitless Ocean Of Data
+              </Link>
+            </li>
+            <li>
+              <Link to="/disseminating_the_depths">
+                Disseminating The Depths
+              </Link>
+            </li>
+          </ul>
+        </div>
+      </div>
     </NavMenuContainer>
   );
 }

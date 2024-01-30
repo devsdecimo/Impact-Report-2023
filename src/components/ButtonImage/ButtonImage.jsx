@@ -2,6 +2,9 @@ import React, { useState, useRef, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { ButtonImageContainer } from "./ButtonImage.styles.jsx";
 import Tippy from "@tippyjs/react";
+import {followCursor} from 'tippy.js';
+import 'tippy.js/dist/tippy.css';
+import 'tippy.js/animations/scale-extreme.css';
 
 function ButtonImage({ className, src, href, delay, tooltip }) {
   const [clickCount, setClickCount] = useState(0);
@@ -29,7 +32,7 @@ function ButtonImage({ className, src, href, delay, tooltip }) {
       }
       setTimeout(() => {
         navigate(href ? href : "#");
-      }, 1000);
+      }, 1300);
     } else {
       setClickCount(clickCount + 1);
     }
@@ -43,6 +46,12 @@ function ButtonImage({ className, src, href, delay, tooltip }) {
       <Tippy
         className="buttonimage_tooltip"
         content={<span>{`${tooltip ? tooltip : ""}`}</span>}
+        theme={'soi'}
+        animation={'scale-extreme'}
+        inertia={true}
+        duration={700}
+        plugins={[followCursor]}
+        followCursor={true}
       >
         <button ref={buttonRef} href={href} delay={delay} onClick={openPage}>
           <img src={src} alt="" />
