@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const HomeContainer = styled.div`
   padding: 0;
   margin: 0;
-  background-image: url("/assets/images/home/BG-watercolor.webp");
+  background-image: url("/assets/images/home/Background.webp");
   background-size: cover;
   background-repeat: repeat-y;
   min-height: 100vh;
@@ -29,7 +29,7 @@ export const HomeContainer = styled.div`
     background-size: 100% 100%;
     opacity: 0.3;
 
-    @media (min-width: 768px) {
+    @media (min-width: 830px) {
       display: grid;
       height: 50vh;
       top: 50%;
@@ -50,7 +50,7 @@ export const HomeContainer = styled.div`
       justify-content: center;
       flex-wrap: wrap;
 
-      @media (min-width: 768px) {
+      @media (min-width: 830px) {
         display: block;
         position: absolute;
         top: 50%;
@@ -68,12 +68,12 @@ export const HomeContainer = styled.div`
 
     &__main_image {
       max-width: 100%;
-      max-height: 35vh;
+      max-height: 40vh;
       animation: fadein 1.5s linear 0s;
       animation-fill-mode: forwards;
     }
 
-    @media (min-width: 768px) {
+    @media (min-width: 830px) {
       display: grid;
       &__expeditions {
         max-height: 75vh;
@@ -82,43 +82,43 @@ export const HomeContainer = styled.div`
         position: absolute;
 
         &_one {
-          bottom: 0%;
-          left: -1%;
+          bottom: 3%;
+          left: 1%;
         }
 
         &_two {
           bottom: 35%;
-          left: -17%;
+          left: -13%;
         }
 
         &_three {
           bottom: 70%;
-          left: -10%;
+          left: -7%;
         }
 
         &_four {
-          top: -12%;
-          left: 20%;
+          top: -10%;
+          left: 22%;
         }
 
         &_five {
-          top: -12%;
-          right: 20%;
+          top: -10%;
+          right: 22%;
         }
 
         &_six {
           bottom: 70%;
-          right: -10%;
+          right: -7%;
         }
 
         &_seven {
           bottom: 35%;
-          right: -17%;
+          right: -13%;
         }
 
         &_eight {
-          bottom: 0%;
-          right: -1%;
+          bottom: 3%;
+          right: 1%;
         }
       }
       .title {
@@ -141,6 +141,7 @@ export const HomeContainer = styled.div`
       max-width: 20vw;
       max-height: 45vh;
       padding: 1rem;
+      object-fit: contain
     }
   }
 
@@ -154,11 +155,11 @@ export const HomeContainer = styled.div`
     background-image: url("/assets/images/home/OceanTile.png");
     height: 100vh;
     width: 100vw;
-    opacity: 0.25;
-    animation: move 80s cubic-bezier(0.5, 0, 0.4, 1) infinite;
+    opacity: 0.15;
+    animation: move 120s ease-in-out infinite;
     background-size: contain;
 
-    @media (min-width: 768px) {
+    @media (min-width: 830px) {
       display: flex;
     }
   }
@@ -182,7 +183,7 @@ export const HomeContainer = styled.div`
     background: none;
     border: none;
     margin: -1.5rem 0;
-    @media (min-width: 768px) {
+    @media (min-width: 830px) {
       display: none;
     }
   }

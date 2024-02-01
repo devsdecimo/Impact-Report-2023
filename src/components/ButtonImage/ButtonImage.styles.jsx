@@ -7,12 +7,10 @@ export const ButtonImageContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 12vh;
-    width: 12vh;
-    max-width: 130px;
-    max-height: 130px;
+    height: 30vw;
+    width: 30vw;
     border-radius: 100%;
-    border: 0.5rem solid var(--white);
+    border: 0.4rem solid var(--white);
     background-color: var(--white);
     cursor: pointer;
     opacity: 0;
@@ -24,8 +22,7 @@ export const ButtonImageContainer = styled.div`
 
     img {
       transition: 1s;
-      height: 15vh;
-      max-height: 130px;
+      height: 30vw;
     }
 
     &:hover,
@@ -40,14 +37,23 @@ export const ButtonImageContainer = styled.div`
       transition: 0.01s;
     }
 
-    @media (min-width: 768px) {
-      height: 10vw;
-      width: 10vw;
+    @media (min-width: 830px) {
+      height: 13vh;
+      width: 13vh;
       margin: 0;
       img {
-        height: 10vw;
+        height: 13vh;
       }
     }
+
+    @media only screen and (min-width: 830px) and (max-height: 1400px) and (orientation: portrait){
+      height: 11vw;
+      width: 11vw;
+      img {
+        height: 11vw;
+      }
+    }
+    
   }
 
   .open_animation {

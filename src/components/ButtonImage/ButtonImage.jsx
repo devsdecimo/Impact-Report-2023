@@ -2,15 +2,16 @@ import React, { useState, useRef, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { ButtonImageContainer } from "./ButtonImage.styles.jsx";
 import Tippy from "@tippyjs/react";
-import {followCursor} from 'tippy.js';
-import 'tippy.js/dist/tippy.css';
-import 'tippy.js/animations/scale-extreme.css';
+import "tippy.js/dist/tippy.css";
 
-function ButtonImage({ className, src, href, delay, tooltip }) {
-  const [clickCount, setClickCount] = useState(0);
+function ButtonImage({ className, src, href, delay, tooltipTheme, tooltip, tooltipPlace }) {
   const [pageOpening, setPageOpening] = useState(false);
   const buttonRef = useRef(null);
   let navigate = useNavigate();
+
+  const [visible, setVisible] = useState(false);
+  const show = () => setVisible(true);
+  const hide = () => setVisible(false);
 
   useEffect(() => {
     function handleClickOutside(event) {
@@ -26,19 +27,12 @@ function ButtonImage({ className, src, href, delay, tooltip }) {
   }, [buttonRef]);
 
   const openPage = () => {
-    if (window.innerWidth > 768 || clickCount >= 1) {
-      if(href){
-        setPageOpening(true);
-      }
-      setTimeout(() => {
-        navigate(href ? href : "#");
-      }, 1300);
-    } else {
-      setClickCount(clickCount + 1);
+    if (href) {
+      setPageOpening(true);
     }
     setTimeout(() => {
-      setClickCount(0);
-    }, 3000);
+      navigate(href ? href : "#");
+    }, 1300);
   };
 
   return (
@@ -46,14 +40,23 @@ function ButtonImage({ className, src, href, delay, tooltip }) {
       <Tippy
         className="buttonimage_tooltip"
         content={<span>{`${tooltip ? tooltip : ""}`}</span>}
-        theme={'soi'}
-        animation={'scale-extreme'}
-        inertia={true}
+        theme={"soi"}
         duration={700}
-        plugins={[followCursor]}
-        followCursor={true}
+        arrow={false}
+        visible={visible}
+        placement={tooltipPlace}
       >
-        <button ref={buttonRef} href={href} delay={delay} onClick={openPage}>
+        <button
+          ref={buttonRef}
+          href={href}
+          delay={delay}
+          onClick={() => {
+            hide();
+            openPage();
+          }}
+          onMouseEnter={show}
+          onMouseLeave={hide}
+        >
           <img src={src} alt="" />
         </button>
       </Tippy>

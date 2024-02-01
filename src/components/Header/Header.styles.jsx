@@ -8,9 +8,9 @@ export const HeaderContainer = styled.div`
     position: absolute;
     top: 5%;
     left: 5%;
-    height: 8%;
+    height: 20%;
 
-    @media (min-width: 768px) {
+    @media (min-width: 830px) {
       top: 6%;
       left: 6%;
       height: 12%;
