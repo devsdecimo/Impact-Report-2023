@@ -35,6 +35,11 @@ function ButtonImage({ className, src, href, delay, tooltipTheme, tooltip, toolt
     }, 1300);
   };
 
+  const handleClick = () => {
+    setVisible(false);
+    openPage();
+  };
+
   return (
     <ButtonImageContainer className={className}>
       <Tippy
@@ -50,16 +55,14 @@ function ButtonImage({ className, src, href, delay, tooltipTheme, tooltip, toolt
           ref={buttonRef}
           href={href}
           delay={delay}
-          onClick={() => {
-            hide();
-            openPage();
-          }}
+          onClick={handleClick}
           onMouseEnter={show}
           onMouseLeave={hide}
         >
           <img src={src} alt="" />
         </button>
       </Tippy>
+      <a onClick={handleClick} className="expedition_tag_mobile">{tooltip}</a>
       <div className={`open_animation ${pageOpening ? "open" : ""}`}></div>
     </ButtonImageContainer>
   );
