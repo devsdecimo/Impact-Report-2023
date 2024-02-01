@@ -1,46 +1,37 @@
 import styled from "styled-components";
 
-export const ExpeditionsDataContainer = styled.div`
+export const TraveledDataContainer = styled.div`
   position: relative;
   display: inline-flex;
-  margin-left: 10vw;
+  margin-right: 10vw;
   font-weight: 700;
   min-width: 80vw;
   min-height: 15vh;
-  grid-row: 1 / 5;
-  justify-self: left;
+  grid-row: 4 / 8;
+  justify-self: right;
 
   @media (min-width: 830px) {
     min-width: 600px;
-    min-height: 260px;
+    min-height: 244px;
   }
 
   img {
     position: absolute;
   }
 
-  .circle-image {
-    width: 44%;
+  .circle-lightblue {
+    width: 40%;
     aspect-ratio: 1 / 1;
     top: 0;
     bottom: 0;
-    left: 0;
-  }
-
-  .circle-gray {
-    position: absolute;
-    width: 44%;
-    aspect-ratio: 1 / 1;
-    top: -10%;
-    left: -10%;
-    opacity: 0.5;
+    right: 20%;
   }
 
   .circle-blue,
   .circle-darkblue {
     position: absolute;
     background-size: contain;
-    width: 21%;
+    width: 12%;
     aspect-ratio: 1 / 1;
     display: flex;
     justify-content: center;
@@ -48,16 +39,17 @@ export const ExpeditionsDataContainer = styled.div`
   }
 
   .circle-darkblue {
-    right: 40%;
-    top: 36%;
+    right: 10%;
+    top: 45%;
     transform: translateY(-50%);
   }
 
   .circle-blue {
-    left: 13%;
-    top: -25%;
+    right: 16%;
+    top: 25%;
+    transform: translateY(-50%);
     @media (min-width: 830px) {
-      top: -30%;
+      top: 25%;
     }
   }
 
@@ -97,14 +89,14 @@ export const ExpeditionsDataContainer = styled.div`
     position: absolute;
     right: 0;
     margin: 0;
-    &-expeditions {
-      color: #56a1c8;
+    &-traveled {
+      color: #5A83A1;
       font-size: 8vw;
       text-transform: uppercase;
-      top: -20%;
-      left: 36%;
+      top: -22%;
+      left: 42%;
       @media (min-width: 830px) {
-        top: -24%;
+        top: -22%;
         font-size: 3.7rem;
       }
     }
@@ -116,19 +108,18 @@ export const ExpeditionsDataContainer = styled.div`
       top: 47%;
       transform: translateY(-50%);
       @media (min-width: 830px) {
-        font-size: 2.5rem;
+        font-size: 3.75rem;
       }
     }
   }
 
   * {
-    opacity: 0;
-    transform: scale(0);
+    /* opacity: 0;
+    transform: scale(0); */
   }
 
   &.animated {
-    .circle-gray,
-    .circle-image,
+    .circle-lightblue,
     .circle-blue,
     .circle-darkblue,
     .text,
@@ -136,7 +127,7 @@ export const ExpeditionsDataContainer = styled.div`
       animation: fade-in 1s ease-in-out;
       animation-fill-mode: forwards;
     }
-    .circle-image {
+    .circle-lightblue {
       animation-delay: 0.5s;
     }
     .circle-blue,
@@ -150,4 +141,6 @@ export const ExpeditionsDataContainer = styled.div`
       animation-delay: 2s;
     }
   }
+
+
 `;
