@@ -1,7 +1,14 @@
 import styled from "styled-components";
 
 export const ButtonImageContainer = styled.div`
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
   position: relative;
+  text-align: center;
+
   button {
     overflow: hidden;
     display: flex;
@@ -72,4 +79,24 @@ export const ButtonImageContainer = styled.div`
       position: absolute;
     }
   }
+
+  .expedition_tag_mobile {
+    animation: fadein 1s linear 0s;
+    animation-fill-mode: forwards;
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    opacity: 0;
+    padding: 0 15%;
+    text-align: center;
+    transform: scale(0);
+    transition: 1s;
+  }
+
+  @media (min-width: 830px) {
+    .expedition_tag_mobile {
+      display: none;
+    }
+  }
+
 `;
