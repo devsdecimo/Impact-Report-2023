@@ -4,7 +4,7 @@ export const HomeContainer = styled.div`
   padding: 0;
   margin: 0;
   background-image: url("/assets/images/home/Background.webp");
-  background-size: cover;
+  background-size: auto 100vh;
   background-repeat: repeat-y;
   min-height: 100vh;
   width: 100vw;
@@ -15,6 +15,11 @@ export const HomeContainer = styled.div`
   display: flex;
   justify-content: center;
   overflow: hidden;
+  background-attachment: fixed;
+
+  @media (min-width: 830px) {
+    background-size: cover;
+  }
 
   &::after {
     content: "";
@@ -141,7 +146,7 @@ export const HomeContainer = styled.div`
       max-width: 20vw;
       max-height: 45vh;
       padding: 1rem;
-      object-fit: contain
+      object-fit: contain;
     }
   }
 

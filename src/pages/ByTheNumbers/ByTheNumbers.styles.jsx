@@ -11,7 +11,7 @@ export const PageContainer = styled.div`
   }
   .content {
     display: grid;
-    grid-template-rows: repeat(8, auto);
+    grid-template-rows: repeat(12, auto);
     padding: 8vw 0;
     @media (min-width: 830px) {
       row-gap: 0;

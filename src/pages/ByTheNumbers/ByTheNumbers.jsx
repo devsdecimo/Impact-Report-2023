@@ -3,6 +3,7 @@ import { PageContainer } from "./ByTheNumbers.styles";
 import Page from "../../components/Page/Page";
 import ExpeditionsData from "./ExpeditionsData/ExpeditionsData";
 import TraveledData from "./TraveledData/TraveledData";
+import MappedData from "./MappedData/MappedData";
 
 function ByTheNumbers() {
   return (
@@ -29,6 +30,7 @@ function ByTheNumbers() {
         <div className="content">
           <ExpeditionsData></ExpeditionsData>
           <TraveledData></TraveledData>
+          <MappedData></MappedData>
 
           {/* <TraveledData></TraveledData>
           <TraveledData></TraveledData>
