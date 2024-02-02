@@ -48,11 +48,11 @@ export const NavMenuContainer = styled.nav`
     display: flex;
     min-height: 100vh;
     opacity: 0;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     z-index: 3;
     min-height: 100%;
     overflow: hidden;
-    padding-top: 2rem;
+    padding: 1rem;
 
     flex-direction: column;
     align-items: center;
@@ -91,7 +91,7 @@ export const NavMenuContainer = styled.nav`
       display: flex;
       list-style: none;
       flex-direction: column;
-      padding: 2rem;
+      padding: 1rem;
       margin-top: 0;
       text-align: center;
       gap: 0.75rem;
@@ -101,14 +101,14 @@ export const NavMenuContainer = styled.nav`
       .submenu {
         ul {
           display: flex;
-          gap: 2rem;
+          gap: 1rem;
           list-style: none;
           flex-direction: column;
           flex-direction: column;
           border-bottom: none;
 
           li:not(.title) {
-            font-size: 1rem;
+            font-size: 0.75rem;
           }
         }
 

@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import { TraveledDataContainer } from "./TraveledData.styles";
-import CountUp, { useCountUp } from "react-countup";
+import { useCountUp } from "react-countup";
 
 function TraveledData() {
   const ref = useRef(null);
@@ -10,7 +10,7 @@ function TraveledData() {
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            // entry.target.classList.add("animated");
+            entry.target.classList.add("animated");
           } else {
             // entry.target.classList.remove("animated");
           }
@@ -31,18 +31,19 @@ function TraveledData() {
   }, []);
 
   useCountUp({
-    ref: "counter-expeditions",
-    end: 9,
+    ref: "counter-countries",
+    start: 0,
+    end: 4,
     enableScrollSpy: true,
-    delay: 2.5,
+    delay: 3,
   });
 
   useCountUp({
-    ref: "counter-days",
-    start: 0,
-    end: 223,
+    ref: "counter-us",
+    start: 9,
+    end: 1,
     enableScrollSpy: true,
-    delay: 2.5,
+    delay: 3,
   });
 
   return (
@@ -62,12 +63,46 @@ function TraveledData() {
         src="/assets/images/by_the_numbers/traveled/CircleDarkblue.webp"
         className="circle-darkblue"
       />
-      <p className="numbers-days numbers"><span id="counter-days" /></p>
+
+      <img
+        src="/assets/images/by_the_numbers/traveled/Ship.webp"
+        className="ship"
+      />
+     
       <p className="text text-traveled">Traveled</p>
-      <p className="text text-days">visiting</p>
-      <p className="text text-days">countries</p>
-      <p className="text text-days">&</p>
-      <p className="text text-days">unincorporated <br/> U.S. territory</p>
+      <p className="text text-km">27,276 km</p>
+      <p className="text text-visiting">visiting</p>
+      <p className="text text-countries">countries</p>
+      <p className="text text-ampersand">&</p>
+      <p className="text text-us">
+        unincorporated <br /> U.S. territory
+      </p>
+      <p className="numbers-countries numbers">
+        <span id="counter-countries" />
+      </p>
+      <p className="numbers-us numbers">
+        <span id="counter-us" />
+      </p>
+      <div className="country country-spain">
+        <img src="/assets/images/by_the_numbers/traveled/Spain.webp" alt="" />
+        <p>Spain</p>
+      </div>
+      <div className="country country-puertorico">
+        <img src="/assets/images/by_the_numbers/traveled/PuertoRico.webp" alt="" />
+        <p>Puerto Rico</p>
+      </div>
+      <div className="country country-panama">
+        <img src="/assets/images/by_the_numbers/traveled/Panama.webp" alt="" />
+        <p>Panama</p>
+      </div>
+      <div className="country country-costarica">
+        <img src="/assets/images/by_the_numbers/traveled/CostaRica.webp" alt="" />
+        <p>Costa Rica</p>
+      </div>
+      <div className="country country-ecuador">
+        <img src="/assets/images/by_the_numbers/traveled/Ecuador.webp" alt="" />
+        <p>Ecuador</p>
+      </div>
     </TraveledDataContainer>
   );
 }

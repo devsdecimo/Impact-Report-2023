@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import { ExpeditionsDataContainer } from "./ExpeditionsData.styles";
-import CountUp, { useCountUp } from "react-countup";
+import { useCountUp } from "react-countup";
 
 function ExpeditionsData() {
   const ref = useRef(null);

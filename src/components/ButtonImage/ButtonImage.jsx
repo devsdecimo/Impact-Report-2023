@@ -4,7 +4,7 @@ import { ButtonImageContainer } from "./ButtonImage.styles.jsx";
 import Tippy from "@tippyjs/react";
 import "tippy.js/dist/tippy.css";
 
-function ButtonImage({ className, src, href, delay, tooltipTheme, tooltip, tooltipPlace }) {
+function ButtonImage({ className, src, href, delay, tooltip, tooltipPlace }) {
   const [pageOpening, setPageOpening] = useState(false);
   const buttonRef = useRef(null);
   let navigate = useNavigate();
@@ -62,7 +62,7 @@ function ButtonImage({ className, src, href, delay, tooltipTheme, tooltip, toolt
           <img src={src} alt="" />
         </button>
       </Tippy>
-      <a onClick={handleClick} className="expedition_tag_mobile">{tooltip}</a>
+      <a onClick={handleClick} className="expedition_tag_mobile" >{tooltip}</a>
       <div className={`open_animation ${pageOpening ? "open" : ""}`}></div>
     </ButtonImageContainer>
   );

@@ -84,8 +84,9 @@ export const ButtonImageContainer = styled.div`
     animation: fadein 1s linear 0s;
     animation-fill-mode: forwards;
     color: white;
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    margin: 1rem;
+    margin-top: 0;
     opacity: 0;
     padding: 0 15%;
     text-align: center;

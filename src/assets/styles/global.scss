@@ -12,40 +12,35 @@ html{
 
 @font-face {
   font-family: "Garamond";
-  src: url("/assets/fonts/EBGaramond-Regular.ttf") format("truetype");
+  src: url("/assets/fonts/AGaramondPro-Regular.otf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Garamond";
-  src: url("/assets/fonts/EBGaramond-Italic.ttf") format("truetype");
+  src: url("/assets/fonts/AGaramondPro-Italic.otf") format("truetype");
   font-weight: normal;
   font-style: italic;
 }
 
 @font-face {
   font-family: "Garamond";
-  src: url("/assets/fonts/EBGaramond-Bold.ttf") format("truetype");
+  src: url("/assets/fonts/AGaramondPro-Bold.otf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Garamond";
-  src: url("/assets/fonts/EBGaramond-BoldItalic.ttf") format("truetype");
+  src: url("/assets/fonts/AGaramondPro-BoldItalic.otf") format("truetype");
   font-weight: bold;
   font-style: italic;
-}
-
-@font-face {
-  font-family: "Garamond Premier Pro";
-  src: url("/assets/fonts/Garamond Premier Pro Regular.ttf") format("truetype");
 }
 
 body {
   background: var(--gray);
-  font-family: "Garamond Premier Pro", Times, serif;
+  font-family: "Garamond", Times, serif;
   box-sizing: border-box;
 }
 
@@ -65,25 +60,27 @@ body {
   }
 }
 
-.tippy-box[data-theme~="soi"],
-.tippy-box[data-theme~="soi-right"],
-.tippy-box[data-theme~="soi-left"] {
+.tippy-box[data-theme~="soi"] {
   border-radius: 5px;
   background: transparent;
   color: var(--white);
   font-weight: bold;
   padding: 0.5rem;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   z-index: 10;
   text-align: center;
   font-family: "Garamond", Times, serif;
+  max-width: 250px!important;
+  text-shadow: 1px 1px 10px var(--dark-blue);
 }
 
-.tippy-box[data-theme~="soi-right"] {
+.tippy-box[data-placement="right"] {
   text-align: left;
+  padding-left: 0;
 }
-.tippy-box[data-theme~="soi-left"] {
+.tippy-box[data-placement="left"] {
   text-align: right;
+  padding-right: 0;
 }
 
 @keyframes fade-in {

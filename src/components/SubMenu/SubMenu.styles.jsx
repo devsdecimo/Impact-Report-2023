@@ -39,7 +39,7 @@ export const SubMenuContainer = styled.div`
     &.submenu__open {
       max-height: 100vh;
       opacity: 1;
-      padding-top: 2rem;
+      padding-top: 0.75rem;
     }
 
     ul{

@@ -2,13 +2,20 @@ import styled from "styled-components";
 
 export const PageContainer = styled.div`
   background-image: url("/assets/images/by_the_numbers/Background.webp");
-  background-position: center -29%;
-  background-size: 100%;
-
+  background-position: center 50%;
+  background-size: cover;
+  @media (min-width: 830px) {
+    background-position: center -29%;
+    background-size: 100%;
+    row-gap: 0;
+  }
   .content {
     display: grid;
     grid-template-rows: repeat(8, auto);
-    padding: 10vw 0;
+    padding: 8vw 0;
+    @media (min-width: 830px) {
+      row-gap: 0;
+    }
   }
 
   .intro-text {
@@ -20,7 +27,6 @@ export const PageContainer = styled.div`
 
   .intro-text p {
     color: #3e5973;
-    font-family: "Adobe Garamond Pro";
     font-size: 1.2rem;
     font-style: normal;
     font-weight: 400;
