@@ -4,6 +4,9 @@ import Page from "../../components/Page/Page";
 import ExpeditionsData from "./ExpeditionsData/ExpeditionsData";
 import TraveledData from "./TraveledData/TraveledData";
 import MappedData from "./MappedData/MappedData";
+import HostedData from "./HostedData/HostedData";
+import ConductedData from "./ConductedData/ConductedData";
+import CollectedData from "./CollectedData/CollectedData";
 
 function ByTheNumbers() {
   return (
@@ -31,14 +34,14 @@ function ByTheNumbers() {
           <ExpeditionsData></ExpeditionsData>
           <TraveledData></TraveledData>
           <MappedData></MappedData>
+          <HostedData></HostedData>
+          <ConductedData></ConductedData>
+          <CollectedData></CollectedData>
 
-          {/* <TraveledData></TraveledData>
-          <TraveledData></TraveledData>
-          <TraveledData></TraveledData>
-          <TraveledData></TraveledData>
+          {/* 
+       
           <TraveledData></TraveledData>
           <TraveledData></TraveledData> */}
-
         </div>
       </Page>
     </PageContainer>

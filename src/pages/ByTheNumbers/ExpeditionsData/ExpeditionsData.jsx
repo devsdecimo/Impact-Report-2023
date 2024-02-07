@@ -12,7 +12,9 @@ function ExpeditionsData() {
           if (entry.isIntersecting) {
             entry.target.classList.add("animated");
           } else {
-            // entry.target.classList.remove("animated");
+            if(entry.target.classList.contains("animated")){
+              // entry.target.classList.remove("animated");
+            }
           }
         });
       },
@@ -34,7 +36,7 @@ function ExpeditionsData() {
     ref: "counter-expeditions",
     end: 9,
     enableScrollSpy: true,
-    delay: 3,
+    delay:  2.25,
   });
 
   useCountUp({
@@ -42,7 +44,7 @@ function ExpeditionsData() {
     start: 0,
     end: 223,
     enableScrollSpy: true,
-    delay: 3,
+    delay: 2.25,
   });
 
 

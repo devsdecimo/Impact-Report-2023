@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const MappedDataContainer = styled.div`
   position: relative;
   display: inline-flex;
-  margin-left: 10vw;
   font-weight: 700;
   min-width: 55vw;
   min-height: 15vh;
@@ -13,8 +12,9 @@ export const MappedDataContainer = styled.div`
   aspect-ratio: 1.35;
   @media (min-width: 830px) {
     min-width: 25vw;
-    grid-row: 8 / 12;
+    grid-row: 14 / 20;
     justify-self: left;
+    margin-left: 10vw;
   }
 
   img {
@@ -70,12 +70,22 @@ export const MappedDataContainer = styled.div`
 
     &-discovering {
       font-size: 7vw;
-      right: 44%;
-      top: 23%;
+      right: 50%;
+      bottom: 4%;
       transform: translateY(-50%);
+      ::after {
+        content: "+";
+        font-size: 3vw;
+        position: absolute;
+        top: 40%;
+        transform: translateY(-50%);
+      }
       @media (min-width: 830px) {
-        font-size: 2.8vw;
-        right: 43%;
+        font-size: 3.2vw;
+        right: 50%;
+        ::after {
+          font-size: 2.2vw;
+        }
       }
     }
 
@@ -88,8 +98,9 @@ export const MappedDataContainer = styled.div`
     position: absolute;
     right: 0;
     margin: 0;
+    color: #3e5973;
+
     &-mapped {
-      color: #3e5973;
       font-size: 6vw;
       text-transform: uppercase;
       top: -5%;
@@ -100,14 +111,43 @@ export const MappedDataContainer = styled.div`
       }
     }
 
-    &-days {
-      color: #3e5973;
-      font-size: 4.5vw;
-      right: 1%;
-      top: 22%;
+    &-km2 {
+      font-size: 5.8vw;
+      right: -26%;
+      top: 9%;
       transform: translateY(-50%);
       @media (min-width: 830px) {
-        font-size: 2.2vw;
+        font-size: 2.8vw;
+        right: -26%;
+      }
+    }
+
+    &-seafloor {
+      font-size: 4vw;
+      top: 23%;
+      right: -25%;
+      font-weight: 400;
+      @media (min-width: 830px) {
+        font-size: 1.6vw;
+      }
+    }
+
+    &-discovering {
+      font-size: 4.4vw;
+      bottom: 8%;
+      left: -2%;
+      font-weight: 400;
+      @media (min-width: 830px) {
+        font-size: 2vw;
+      }
+    }
+    &-underwater {
+      font-size: 4.4vw;
+      bottom: 8%;
+      right: -22%;
+      font-weight: 400;
+      @media (min-width: 830px) {
+        font-size: 2vw;
       }
     }
   }
@@ -118,11 +158,7 @@ export const MappedDataContainer = styled.div`
   }
 
   &.animated {
-    .circle-lightblue,
-    .circle-image1,
-    .circle-image2,
-    .circle-blue,
-    .circle-darkblue,
+    img,
     .text,
     .numbers {
       animation: fade-in 1s ease-in-out;

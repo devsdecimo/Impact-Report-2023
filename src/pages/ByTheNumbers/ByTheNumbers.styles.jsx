@@ -5,13 +5,13 @@ export const PageContainer = styled.div`
   background-position: center 50%;
   background-size: cover;
   @media (min-width: 830px) {
-    background-position: center -29%;
+    background-position: 0 60vh;
     background-size: 100%;
     row-gap: 0;
   }
   .content {
     display: grid;
-    grid-template-rows: repeat(12, auto);
+    grid-template-rows: repeat(36, auto);
     padding: 8vw 0;
     @media (min-width: 830px) {
       row-gap: 0;

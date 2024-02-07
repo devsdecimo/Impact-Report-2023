@@ -35,13 +35,21 @@ function TraveledData() {
     start: 0,
     end: 4,
     enableScrollSpy: true,
-    delay: 3,
+    delay: 3.25,
   });
 
   useCountUp({
     ref: "counter-us",
     start: 9,
     end: 1,
+    enableScrollSpy: true,
+    delay: 3.25,
+  });
+
+  useCountUp({
+    ref: "counter-km",
+    start: 0,
+    end: 27.276,
     enableScrollSpy: true,
     delay: 3,
   });
@@ -70,7 +78,7 @@ function TraveledData() {
       />
      
       <p className="text text-traveled">Traveled</p>
-      <p className="text text-km">27,276 km</p>
+      <p className="text text-km"><span id="counter-km" />27,276 km</p>
       <p className="text text-visiting">visiting</p>
       <p className="text text-countries">countries</p>
       <p className="text text-ampersand">&</p>

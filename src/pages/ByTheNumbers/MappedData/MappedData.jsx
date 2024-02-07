@@ -42,7 +42,7 @@ function MappedData() {
     start: 0,
     end: 223,
     enableScrollSpy: true,
-    delay: 3,
+    delay: 2.25,
   });
 
   return (
@@ -70,9 +70,9 @@ function MappedData() {
       </p>
       <p className="text text-mapped">Mapped</p>
       <p className="text text-km2">190,025.60 km²</p>
-      <p className="text text-seafoor">of seafloor</p>
+      <p className="text text-seafloor">of seafloor</p>
       <p className="text text-discovering">Discovering</p>
-      <p className="text text-discovering">underwater features</p>
+      <p className="text text-underwater">underwater features</p>
     </MappedDataContainer>
   );
 }

@@ -19,21 +19,21 @@ function Home() {
           <ButtonImage
             className="expedition_button expedition_button_one expedition_button_left"
             src="/assets/images/home/expedition_1.webp"
-            delay="1"
+            delay="0"
             tooltip="In Search of Hydrothermal Lost Cities"
             tooltipPlace="left"
           ></ButtonImage>
           <ButtonImage
             className="expedition_button expedition_button_two expedition_button_left"
             src="/assets/images/home/expedition_2.webp"
-            delay="1.5"
+            delay="0.25"
             tooltip="Health Diagnosis of Deep Sea Coral"
             tooltipPlace="left"
           ></ButtonImage>
           <ButtonImage
             className="expedition_button expedition_button_three expedition_button_left"
             src="/assets/images/home/expedition_3.webp"
-            delay="2"
+            delay="0.5"
             tooltip="Octopus Odessey/ Octopus Odessey (too)"
             tooltipPlace="left"
             href={"/expeditions/octopus_odyssey"}
@@ -41,14 +41,14 @@ function Home() {
           <ButtonImage
             className="expedition_button expedition_button_four expedition_button_left"
             src="/assets/images/home/expedition_4.webp"
-            delay="2.5"
+            delay="0.75"
             tooltip="The Underworld of Hydrothermal Vents"
             tooltipPlace="left"
           ></ButtonImage>
           <ButtonImage
             className="expedition_button expedition_button_five expedition_button_right"
             src="/assets/images/home/expedition_5.webp"
-            delay="3"
+            delay="1"
             tooltip="Dynamics of Sinking Microplastics"
             tooltipPlace="right"
             href={"/expeditions/dynamics_of_sinking_microplastics"}
@@ -56,23 +56,23 @@ function Home() {
           <ButtonImage
             className="expedition_button expedition_button_six expedition_button_right"
             src="/assets/images/home/expedition_6.webp"
-            delay="3.5"
+            delay="1.25"
             tooltip="Hydrothermal Vents of the Western Galápagos"
             tooltipPlace="right"
           ></ButtonImage>
           <ButtonImage
             className="expedition_button expedition_button_seven expedition_button_right"
             src="/assets/images/home/expedition_7.webp"
-            delay="4"
+            delay="1.5"
             tooltip="Vertical Reefs of the Galápagos"
-            tooltipPlace="right"
+            tooltipPlace="bottom"
           ></ButtonImage>
           <ButtonImage
             className="expedition_button expedition_button_eight expedition_button_right"
             src="/assets/images/home/expedition_8.webp"
-            delay="4.5"
+            delay="2"
             tooltip="Ultra Fine-Scale Seafloor Mapping"
-            tooltipPlace="right"
+            tooltipPlace="bottom"
           ></ButtonImage>
         </div>
       </div>

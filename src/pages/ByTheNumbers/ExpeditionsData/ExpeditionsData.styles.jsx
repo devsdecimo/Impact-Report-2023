@@ -130,10 +130,7 @@ export const ExpeditionsDataContainer = styled.div`
   }
 
   &.animated {
-    .circle-gray,
-    .circle-image,
-    .circle-blue,
-    .circle-darkblue,
+    img,
     .text,
     .numbers {
       animation: fade-in 1s ease-in-out;

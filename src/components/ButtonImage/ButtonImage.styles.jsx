@@ -22,7 +22,8 @@ export const ButtonImageContainer = styled.div`
     cursor: pointer;
     opacity: 0;
     transform: scale(0);
-    animation: fadein 1s linear ${(props) => props.delay || 0}s;
+    animation: fadein 1s linear;
+    animation-delay: ${(props) => props.delay || 0}s;
     animation-fill-mode: forwards;
     transition: 1s;
     margin: 0.75rem;
@@ -53,14 +54,13 @@ export const ButtonImageContainer = styled.div`
       }
     }
 
-    @media only screen and (min-width: 830px) and (max-height: 1400px) and (orientation: portrait){
+    @media only screen and (min-width: 830px) and (max-height: 1400px) and (orientation: portrait) {
       height: 11vw;
       width: 11vw;
       img {
         height: 11vw;
       }
     }
-    
   }
 
   .open_animation {
@@ -100,5 +100,4 @@ export const ButtonImageContainer = styled.div`
       display: none;
     }
   }
-
 `;

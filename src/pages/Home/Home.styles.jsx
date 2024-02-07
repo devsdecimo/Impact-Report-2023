@@ -15,7 +15,7 @@ export const HomeContainer = styled.div`
   display: flex;
   justify-content: center;
   overflow: hidden;
-  background-attachment: fixed;
+  background-attachment: fixed  !important;
 
   @media (min-width: 830px) {
     background-size: cover;
@@ -74,14 +74,13 @@ export const HomeContainer = styled.div`
     &__main_image {
       max-width: 100%;
       max-height: 40vh;
-      animation: fadein 1.5s linear 0s;
       animation-fill-mode: forwards;
     }
 
     @media (min-width: 830px) {
       display: grid;
       &__expeditions {
-        max-height: 75vh;
+        max-height: 70vh;
       }
       .expedition_button {
         position: absolute;
@@ -138,7 +137,7 @@ export const HomeContainer = styled.div`
         display: contents;
       }
       &__main_image {
-        max-height: 75vh;
+        max-height: 70vh;
       }
     }
 
@@ -160,7 +159,7 @@ export const HomeContainer = styled.div`
     background-image: url("/assets/images/home/OceanTile.png");
     height: 100vh;
     width: 100vw;
-    opacity: 0.15;
+    opacity: 0.25;
     animation: move 120s ease-in-out infinite;
     background-size: contain;
 

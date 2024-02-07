@@ -16,17 +16,13 @@ export const SubMenuContainer = styled.div`
       transform: scale(1.1);
     }
     &::after {
-      content: "";
-      height: 0.6rem;
-      width: 0.6rem;
-      border-bottom: 2px solid var(--dark-blue);
-      border-left: 2px solid var(--dark-blue);
-      transform: rotate(-45deg);
+      content: "▼";
       transition: 0.5s;
+      font-size: 0.75rem;
     }
     &.submenu__open {
       &::after {
-        transform: rotate(135deg);
+        transform: rotate(180deg);
       }
     }
   }
@@ -42,9 +38,19 @@ export const SubMenuContainer = styled.div`
       padding-top: 0.75rem;
     }
 
-    ul{
-        padding: 0;
-        overflow-x: visible;
+    ul {
+      display: flex;
+      gap: 1rem;
+      list-style: none;
+      flex-direction: column;
+      flex-direction: column;
+      border-bottom: none;
+      padding: 0;
+      overflow-x: visible;
+    }
+
+    li:not(.title) {
+      font-size: 1rem;
     }
   }
 `;
