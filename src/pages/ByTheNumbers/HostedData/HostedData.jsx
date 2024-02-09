@@ -1,6 +1,5 @@
 import React, { useRef, useEffect } from "react";
 import { HostedDataContainer } from "./HostedData.styles";
-import { useCountUp } from "react-countup";
 import Counter from "../../../components/Counter/Counter";
 
 function HostedData() {
@@ -30,30 +29,6 @@ function HostedData() {
       }
     };
   }, []);
-
-  useCountUp({
-    ref: "counter-scientists",
-    start: 0,
-    end: 84,
-    enableScrollSpy: true,
-    delay: 3.25,
-  });
-
-  useCountUp({
-    ref: "counter-students",
-    start: 0,
-    end: 56,
-    enableScrollSpy: true,
-    delay: 3.25,
-  });
-
-  useCountUp({
-    ref: "counter-artists",
-    start: 0,
-    end: 12,
-    enableScrollSpy: true,
-    delay: 3.25,
-  });
 
   return (
     <HostedDataContainer ref={ref}>
