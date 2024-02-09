@@ -179,23 +179,20 @@ export const ReachedDataContainer = styled.div`
       animation: fade-in 1s ease-in-out;
       animation-fill-mode: forwards;
     }
-    .circle-gray {
+    .circle-lighterblue {
       animation-delay: 0.5s;
     }
-    .circle-lighterblue {
+    .image {
       animation-delay: 1s;
     }
-    .image {
+    .circle-darkblue, .circle-lightblue {
       animation-delay: 1.5s;
     }
-    .circle-darkblue, .circle-lightblue {
+    .text {
       animation-delay: 2s;
     }
-    .text {
-      animation-delay: 2.5s;
-    }
     .numbers {
-      animation-delay: 3s;
+      animation-delay: 2.5s;
     }
   }
 `;

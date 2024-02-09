@@ -55,10 +55,10 @@ function ReachedData() {
         className="image"
       />
       <p className="numbers-people numbers">
-        <Counter delay={3.25}>8600</Counter>
+        <Counter delay={2.75}>8600</Counter>
       </p>
       <p className="numbers-social numbers">
-      <Counter delay={3.25}>12</Counter>,<Counter delay={3.25}>5</Counter> <span className="million">million</span>
+      <Counter delay={2.75}>12</Counter>,<Counter delay={2.75}>5</Counter> <span className="million">million</span>
       </p>
       <p className="text text-reached">Reached</p>
       <p className="text text-people">
