@@ -1,6 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import { HostedDataContainer } from "./HostedData.styles";
 import { useCountUp } from "react-countup";
+import Counter from "../../../components/Counter/Counter";
 
 function HostedData() {
   const ref = useRef(null);
@@ -96,13 +97,13 @@ function HostedData() {
       <p className="text text-ampersand">&</p>
       <p className="text text-berths">berths of opportunity</p>
       <p className="numbers-scientists numbers">
-        <span id="counter-scientists" />
+        <Counter delay={3.25}>84</Counter>
       </p>
       <p className="numbers-students numbers">
-        <span id="counter-students" />
+        <Counter delay={3.25}>56</Counter>
       </p>
       <p className="numbers-artists numbers">
-        <span id="counter-artists" />
+        <Counter delay={3.25}>12</Counter>
       </p>
     </HostedDataContainer>
   );

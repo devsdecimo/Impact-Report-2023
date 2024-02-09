@@ -129,7 +129,7 @@ export const CollectedDataContainer = styled.div`
     }
   }
 
-  * {
+  & > * {
     opacity: 0;
     transform: scale(0);
   }

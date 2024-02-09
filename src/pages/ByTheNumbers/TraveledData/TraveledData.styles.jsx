@@ -163,7 +163,8 @@ export const TraveledDataContainer = styled.div`
     }
   }
 
-  * {
+  & > *,
+  & > .country > * {
     opacity: 0;
     transform: scale(0);
   }

@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import { ExpeditionsDataContainer } from "./ExpeditionsData.styles";
-import { useCountUp } from "react-countup";
+import Counter from "../../../components/Counter/Counter";
 
 function ExpeditionsData() {
   const ref = useRef(null);
@@ -12,7 +12,7 @@ function ExpeditionsData() {
           if (entry.isIntersecting) {
             entry.target.classList.add("animated");
           } else {
-            if(entry.target.classList.contains("animated")){
+            if (entry.target.classList.contains("animated")) {
               // entry.target.classList.remove("animated");
             }
           }
@@ -32,22 +32,6 @@ function ExpeditionsData() {
     };
   }, []);
 
-  useCountUp({
-    ref: "counter-expeditions",
-    end: 9,
-    enableScrollSpy: true,
-    delay:  2.25,
-  });
-
-  useCountUp({
-    ref: "counter-days",
-    start: 0,
-    end: 223,
-    enableScrollSpy: true,
-    delay: 2.25,
-  });
-
-
   return (
     <ExpeditionsDataContainer ref={ref}>
       <img
@@ -63,13 +47,15 @@ function ExpeditionsData() {
         className="circle-blue"
       />
       <p className="numbers-expeditions numbers">
-        <span id="counter-expeditions" />
+        <Counter delay={2.25}>9</Counter>
       </p>
       <img
         src="/assets/images/by_the_numbers/expeditions/CircleDarkBlue.webp"
         className="circle-darkblue"
       />
-      <p className="numbers-days numbers"><span id="counter-days" /></p>
+      <p className="numbers-days numbers">
+        <Counter delay={2.25}>223</Counter>
+      </p>
       <p className="text text-expeditions">Expeditions</p>
       <p className="text text-days">days of science</p>
     </ExpeditionsDataContainer>

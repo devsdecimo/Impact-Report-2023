@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import { ReachedDataContainer } from "./ReachedData.styles";
-import { useCountUp } from "react-countup";
+import Counter from "../../../components/Counter/Counter";
 
 function ReachedData() {
   const ref = useRef(null);
@@ -32,25 +32,6 @@ function ReachedData() {
     };
   }, []);
 
-  useCountUp({
-    ref: "counter-people",
-    end: 8.6,
-    decimal: ",",
-    decimals: 3,
-    enableScrollSpy: true,
-    delay: 3.25,
-  });
-
-  useCountUp({
-    ref: "counter-social",
-    start: 0,
-    end: 12.5,
-    decimal: ",",
-    decimals: 1,
-    enableScrollSpy: true,
-    delay: 3.25,
-  });
-
   return (
     <ReachedDataContainer ref={ref}>
       <img
@@ -74,10 +55,10 @@ function ReachedData() {
         className="image"
       />
       <p className="numbers-people numbers">
-        <span id="counter-people" />
+        <Counter delay={3.25}>8600</Counter>
       </p>
       <p className="numbers-social numbers">
-        <span id="counter-social" /> <span className="million">million</span>
+      <Counter delay={3.25}>12</Counter>,<Counter delay={3.25}>5</Counter> <span className="million">million</span>
       </p>
       <p className="text text-reached">Reached</p>
       <p className="text text-people">

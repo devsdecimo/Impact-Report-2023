@@ -155,7 +155,7 @@ export const SharedDataContainer = styled.div`
     }
   }
 
-  * {
+  & > * {
     opacity: 0;
     transform: scale(0);
   }

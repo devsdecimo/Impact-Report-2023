@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import { TraveledDataContainer } from "./TraveledData.styles";
-import { useCountUp } from "react-countup";
+import Counter from "../../../components/Counter/Counter";
 
 function TraveledData() {
   const ref = useRef(null);
@@ -30,30 +30,6 @@ function TraveledData() {
     };
   }, []);
 
-  useCountUp({
-    ref: "counter-countries",
-    start: 0,
-    end: 4,
-    enableScrollSpy: true,
-    delay: 3.25,
-  });
-
-  useCountUp({
-    ref: "counter-us",
-    start: 9,
-    end: 1,
-    enableScrollSpy: true,
-    delay: 3.25,
-  });
-
-  useCountUp({
-    ref: "counter-km",
-    start: 0,
-    end: 27.276,
-    enableScrollSpy: true,
-    delay: 3,
-  });
-
   return (
     <TraveledDataContainer ref={ref}>
       <img
@@ -76,9 +52,11 @@ function TraveledData() {
         src="/assets/images/by_the_numbers/traveled/Ship.webp"
         className="ship"
       />
-     
+
       <p className="text text-traveled">Traveled</p>
-      <p className="text text-km"><span id="counter-km" />27,276 km</p>
+      <p className="text text-km">
+        <Counter delay={3.25}>27276</Counter> km
+      </p>
       <p className="text text-visiting">visiting</p>
       <p className="text text-countries">countries</p>
       <p className="text text-ampersand">&</p>
@@ -86,17 +64,20 @@ function TraveledData() {
         unincorporated <br /> U.S. territory
       </p>
       <p className="numbers-countries numbers">
-        <span id="counter-countries" />
+        <Counter delay={3.25}>4</Counter>
       </p>
       <p className="numbers-us numbers">
-        <span id="counter-us" />
+        <Counter delay={3.25}>1</Counter>
       </p>
       <div className="country country-spain">
         <img src="/assets/images/by_the_numbers/traveled/Spain.webp" alt="" />
         <p>Spain</p>
       </div>
       <div className="country country-puertorico">
-        <img src="/assets/images/by_the_numbers/traveled/PuertoRico.webp" alt="" />
+        <img
+          src="/assets/images/by_the_numbers/traveled/PuertoRico.webp"
+          alt=""
+        />
         <p>Puerto Rico</p>
       </div>
       <div className="country country-panama">
@@ -104,7 +85,10 @@ function TraveledData() {
         <p>Panama</p>
       </div>
       <div className="country country-costarica">
-        <img src="/assets/images/by_the_numbers/traveled/CostaRica.webp" alt="" />
+        <img
+          src="/assets/images/by_the_numbers/traveled/CostaRica.webp"
+          alt=""
+        />
         <p>Costa Rica</p>
       </div>
       <div className="country country-ecuador">

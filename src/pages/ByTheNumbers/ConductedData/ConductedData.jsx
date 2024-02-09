@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import { ConductedDataContainer } from "./ConductedData.styles";
-import { useCountUp } from "react-countup";
+import Counter from "../../../components/Counter/Counter";
 
 function ConductedData() {
   const ref = useRef(null);
@@ -31,33 +31,6 @@ function ConductedData() {
       }
     };
   }, []);
-
-  useCountUp({
-    ref: "counter-ctd",
-    start: 0,
-    end: 213,
-    enableScrollSpy: true,
-    delay: 3.25,
-  });
-
-  useCountUp({
-    ref: "counter-underwater",
-    start: 0,
-    end: 143,
-    enableScrollSpy: true,
-    delay: 3.25,
-  });
-
-  
-  useCountUp({
-    ref: "counter-hours",
-    start: 0,
-    end: 2.053,
-    enableScrollSpy: true,
-    delay: 3.25,
-    decimals: 3,
-    decimal:",",
-  });
 
   return (
     <ConductedDataContainer ref={ref}>
@@ -92,7 +65,7 @@ function ConductedData() {
         src="/assets/images/by_the_numbers/expeditions/CircleDarkBlue.webp"
         className="circle-darkblue"
       />
-      
+
       <p className="text text-conducted">Conducted</p>
       <p className="text text-ctd">CTD casts</p>
       <p className="text text-ampersand">&</p>
@@ -103,15 +76,16 @@ function ConductedData() {
       <p className="text text-hours">hours of deep-sea exploration</p>
 
       <p className="numbers-ctd numbers">
-        <span id="counter-ctd" />
+        <Counter delay={3.25}>213</Counter>
       </p>
 
       <p className="numbers-underwater numbers">
-        <span id="counter-underwater" />
+        <Counter delay={3.25}>143</Counter>
       </p>
 
       <p className="numbers-hours numbers">
         <span id="counter-hours" />
+        <Counter delay={3.25}>2053</Counter>
       </p>
     </ConductedDataContainer>
   );

@@ -153,7 +153,7 @@ export const MappedDataContainer = styled.div`
     }
   }
 
-  * {
+  & > * {
     opacity: 0;
     transform: scale(0);
   }

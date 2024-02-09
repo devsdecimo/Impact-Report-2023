@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import { SharedDataContainer } from "./SharedData.styles";
-import { useCountUp } from "react-countup";
+import Counter from "../../../components/Counter/Counter";
 
 function SharedData() {
   const ref = useRef(null);
@@ -29,24 +29,6 @@ function SharedData() {
       }
     };
   }, []);
-
-  useCountUp({
-    ref: "counter-articles",
-    start: 0,
-    end: 4.000,
-    enableScrollSpy: true,
-    delay: 3.25,
-    decimals: 3,
-    decimal: ",",
-  });
-
-  useCountUp({
-    ref: "counter-publications",
-    start: 0,
-    end: 27,
-    enableScrollSpy: true,
-    delay: 3.25,
-  });
 
   return (
     <SharedDataContainer ref={ref}>
@@ -83,10 +65,10 @@ function SharedData() {
       <p className="text text-more">more than</p>
       <p className="text text-articles">articles</p>
       <p className="numbers-publications numbers">
-        <span id="counter-publications" />
+        <Counter delay={3.25}>27</Counter>
       </p>
       <p className="numbers-articles numbers">
-        <span id="counter-articles" />
+        <Counter delay={3.25}>4000</Counter>
       </p>
     </SharedDataContainer>
   );

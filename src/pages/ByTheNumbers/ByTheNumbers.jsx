@@ -9,6 +9,7 @@ import ConductedData from "./ConductedData/ConductedData";
 import CollectedData from "./CollectedData/CollectedData";
 import ReachedData from "./ReachedData/ReachedData";
 import SharedData from "./SharedData/SharedData";
+import Counter from "../../components/Counter/Counter";
 
 function ByTheNumbers() {
   return (
@@ -23,6 +24,7 @@ function ByTheNumbers() {
         header_image="/assets/images/by_the_numbers/Header.webp"
         footer_image="/assets/images/by_the_numbers/Footer.webp"
       >
+        {/* <Counter>10000</Counter> */}
         <div className="intro-text">
           <p>
             It is a long established fact that a reader will be distracted by

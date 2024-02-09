@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import { CollectedDataContainer } from "./CollectedData.styles";
-import { useCountUp } from "react-countup";
+import Counter from "../../../components/Counter/Counter";
 
 function CollectedData() {
   const ref = useRef(null);
@@ -29,24 +29,6 @@ function CollectedData() {
       }
     };
   }, []);
-
-  useCountUp({
-    ref: "counter-samples",
-    start: 0,
-    end: 2.862,
-    enableScrollSpy: true,
-    delay: 3.25,
-    decimals: 3,
-    decimal:",",
-  });
-
-  useCountUp({
-    ref: "counter-terabytes",
-    start: 0,
-    end: 269,
-    enableScrollSpy: true,
-    delay: 3.25,
-  });
 
   return (
     <CollectedDataContainer ref={ref}>
@@ -81,13 +63,10 @@ function CollectedData() {
       <p className="text text-ampersand">&</p>
       <p className="text text-terabytes">Terabytes of data to advance <br/>scientific understanding of the <br/>Ocean and ocean processes</p>
       <p className="numbers-samples numbers">
-        <span id="counter-samples" />
+        <Counter delay={3.25}>2862</Counter>
       </p>
       <p className="numbers-terabytes numbers">
-        <span id="counter-terabytes" />
-      </p>
-      <p className="numbers-artists numbers">
-        <span id="counter-artists" />
+        <Counter delay={3.25}>269</Counter>
       </p>
     </CollectedDataContainer>
   );

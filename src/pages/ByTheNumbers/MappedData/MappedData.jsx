@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import { MappedDataContainer } from "./MappedData.styles";
-import { useCountUp } from "react-countup";
+import Counter from "../../../components/Counter/Counter";
 
 function MappedData() {
   const ref = useRef(null);
@@ -30,20 +30,6 @@ function MappedData() {
     };
   }, []);
 
-  useCountUp({
-    ref: "counter-discovering",
-    end: 5,
-    enableScrollSpy: true,
-    delay: 3,
-  });
-
-  useCountUp({
-    ref: "counter-days",
-    start: 0,
-    end: 223,
-    enableScrollSpy: true,
-    delay: 2.25,
-  });
 
   return (
     <MappedDataContainer ref={ref}>
@@ -66,10 +52,10 @@ function MappedData() {
         className="circle-darkblue"
       />
       <p className="numbers-discovering numbers">
-        <span id="counter-discovering" />
+        <Counter delay={2.75}>5</Counter>
       </p>
       <p className="text text-mapped">Mapped</p>
-      <p className="text text-km2">190,025.60 km²</p>
+      <p className="text text-km2"><Counter delay={3}>190025</Counter>.<Counter delay={2.75}>60</Counter> km²</p>
       <p className="text text-seafloor">of seafloor</p>
       <p className="text text-discovering">Discovering</p>
       <p className="text text-underwater">underwater features</p>
