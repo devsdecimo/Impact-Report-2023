@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const CollectedDataContainer = styled.div`
+export const SharedDataContainer = styled.div`
   position: relative;
   display: inline-flex;
   margin-right: 10vw;
@@ -10,41 +10,54 @@ export const CollectedDataContainer = styled.div`
   aspect-ratio: 1.78;
   justify-self: center;
   margin-top: 8rem;
+  margin-left: 6rem;
   @media (min-width: 830px) {
     min-width: 30vw;
-    grid-row: 31 / 38;
+    grid-row: 44 / 50;
     grid-column: 2 / 3;
     justify-self: right;
     margin-top: 0;
+    margin-left: 0;
   }
 
   img {
     position: absolute;
   }
 
-  .circle-gray {
-    left: 14%;
-    top: 14%;
-    height: 70%;
+  .circle-image {
+    top: 10%;
+    left: -4%;
+    height: 80%;
+    @media (min-width: 830px) {
+      left: 0&;
+    }
   }
 
-  .circle-image {
-    left: 0;
-    top: 0;
-    height: 70%;
+  .circle-lighterblue {
+    left: 28%;
+    top: 30%;
+    width: 39%;
+    mix-blend-mode: multiply;
   }
 
   .circle-lightblue {
-    left: 36%;
-    top: 18%;
-    width: 17%;
+    left: 58%;
+    top: 26%;
+    width: 21%;
+    mix-blend-mode: multiply;
+  }
+
+  .circle-blue {
+    left: 12%;
+    top: -10%;
+    width: 45%;
     mix-blend-mode: multiply;
   }
 
   .circle-darkblue {
-    left: 26%;
-    top: 50%;
-    width: 17%;
+    left: 33%;
+    top: 15%;
+    width: 14%;
     mix-blend-mode: multiply;
   }
 
@@ -54,21 +67,21 @@ export const CollectedDataContainer = styled.div`
     color: var(--white);
     margin: 0;
 
-    &-samples {
-      left: 37.5%;
-      top: 26%;
-      font-size: 4vw;
+    &-publications {
+      left: 36%;
+      top: 19%;
+      font-size: 5vw;
       @media (min-width: 830px) {
-        font-size: 1.8vw;
+        font-size: 2.2vw;
       }
     }
 
-    &-terabytes {
-      left: 28.5%;
-      top: 58%;
-      font-size: 4.6vw;
+    &-articles {
+      left: 61.5%;
+      top: 38%;
+      font-size: 4.5vw;
       @media (min-width: 830px) {
-        font-size: 2.2vw;
+        font-size: 1.75vw;
       }
     }
 
@@ -81,50 +94,63 @@ export const CollectedDataContainer = styled.div`
     position: absolute;
     right: 0;
     margin: 0;
-    &-collected {
-      color: #85ccf6;
+    color: #3e5973;
+    font-weight: 400;
+    font-size: 4vw;
+    @media (min-width: 830px) {
+      font-size: 1.4vw;
+    }
+    &-shared {
+      color: #3e5973;
       font-size: 6.5vw;
       text-transform: uppercase;
-      top: -3%;
-      right: 6%;
+      top: -5%;
+      right: 26.5%;
+      font-weight: 600;
       @media (min-width: 830px) {
         font-size: 2.8vw;
       }
     }
 
-    &-terabytes {
-      color: #3e5973;
-      font-size: 3.2vw;
-      position: absolute;
+    &-through {
       right: 2%;
-      bottom: 22%;
-      font-weight: 400;
+      top: 1%;
       @media (min-width: 830px) {
-        font-size: 1.3vw;
+        right: 10%;
       }
     }
 
-    &-samples {
-      color: #85ccf6;
-      font-size: 3.8vw;
-      position: absolute;
-      right: 20%;
-      top: 26%;
-      font-weight: 400;
+    &-science {
+      right: 25%;
+      top: -13%;
+    }
+
+    &-publications {
+      right: 4%;
+      top: 19%;
       @media (min-width: 830px) {
-        font-size: 1.6vw;
+        right: 13%;
       }
+    }
+
+    &-more {
+      right: 40%;
+      top: 38%;
+    }
+
+    &-articles {
+      right: 6%;
+      top: 38%;
     }
 
     &-ampersand {
       color: #5d8cab;
-      font-size: 3vw;
-      position: absolute;
-      right: 14%;
-      top: 30%;
-      font-weight: 400;
+      font-size: 4vw;
+      right: -2%;
+      top: 21%;
       @media (min-width: 830px) {
-        font-size: 1.6vw;
+        font-size: 1.9vw;
+        right: 6%;
       }
     }
   }

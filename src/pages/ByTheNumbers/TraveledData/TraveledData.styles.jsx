@@ -14,6 +14,7 @@ export const TraveledDataContainer = styled.div`
     min-width: 35vw;
     aspect-ratio: 2.2;
     grid-row: 4 / 8;
+    grid-column: 2 / 3;
     justify-self: right;
     margin-top: 0;
   }
@@ -179,7 +180,7 @@ export const TraveledDataContainer = styled.div`
     aspect-ratio: 0.65;
     text-align: center;
     color: #5d8baa;
-    font-size: 2vw;
+    font-size: 2.4vw;
 
     @media (min-width: 830px) {
       font-size: 1.1vw;

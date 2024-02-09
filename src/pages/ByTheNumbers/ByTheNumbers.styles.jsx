@@ -11,9 +11,10 @@ export const PageContainer = styled.div`
   }
   .content {
     display: grid;
-    grid-template-rows: repeat(36, auto);
+    grid-template-rows: repeat(50, auto);
     padding: 8vw 0;
     @media (min-width: 830px) {
+      grid-template-columns: repeat(2, auto);
       row-gap: 0;
     }
   }

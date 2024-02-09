@@ -7,6 +7,8 @@ import MappedData from "./MappedData/MappedData";
 import HostedData from "./HostedData/HostedData";
 import ConductedData from "./ConductedData/ConductedData";
 import CollectedData from "./CollectedData/CollectedData";
+import ReachedData from "./ReachedData/ReachedData";
+import SharedData from "./SharedData/SharedData";
 
 function ByTheNumbers() {
   return (
@@ -37,11 +39,8 @@ function ByTheNumbers() {
           <HostedData></HostedData>
           <ConductedData></ConductedData>
           <CollectedData></CollectedData>
-
-          {/* 
-       
-          <TraveledData></TraveledData>
-          <TraveledData></TraveledData> */}
+          <ReachedData></ReachedData>
+          <SharedData></SharedData>
         </div>
       </Page>
     </PageContainer>

@@ -9,11 +9,12 @@ export const ConductedDataContainer = styled.div`
   aspect-ratio: 1.7;
   justify-self: center;
   margin-top: 8rem;
-  margin-left: -10vw;
+  margin-left: -8rem;
   @media (min-width: 830px) {
     min-width: 30vw;
     aspect-ratio: 2.1;
     grid-row: 24 / 31;
+    grid-column: 1 / 2;
     justify-self: left;
     margin-top: 0;
     margin-left: 10vw;

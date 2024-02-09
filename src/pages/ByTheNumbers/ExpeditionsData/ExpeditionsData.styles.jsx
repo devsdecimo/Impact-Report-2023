@@ -13,6 +13,7 @@ export const ExpeditionsDataContainer = styled.div`
     min-width: 35vw;
     aspect-ratio: 2.1;
     grid-row: 1 / 5;
+    grid-column: 1 / 2;
     justify-self: left;
   }
 

@@ -13,6 +13,7 @@ export const HostedDataContainer = styled.div`
   @media (min-width: 830px) {
     min-width: 30vw;
     grid-row: 19 / 24;
+    grid-column: 2 / 3;
     justify-self: right;
     margin-top: 0;
   }

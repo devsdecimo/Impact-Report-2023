@@ -13,6 +13,7 @@ export const MappedDataContainer = styled.div`
   @media (min-width: 830px) {
     min-width: 25vw;
     grid-row: 14 / 20;
+    grid-column: 1 / 2;
     justify-self: left;
     margin-left: 10vw;
   }
