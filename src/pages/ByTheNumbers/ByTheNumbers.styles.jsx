@@ -5,7 +5,7 @@ export const PageContainer = styled.div`
   background-position: center 50%;
   background-size: cover;
   @media (min-width: 830px) {
-    background-position: 50% 39vh;
+    background-position: 50% 45vh;
     row-gap: 0;
   }
   .content {

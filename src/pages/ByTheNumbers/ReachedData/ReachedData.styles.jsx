@@ -30,47 +30,56 @@ export const ReachedDataContainer = styled.div`
     width: 90%;
   }
 
-  .circle-gray {
-    top: 5%;
-    left: 12%;
-    width: 41%;
-    mix-blend-mode: multiply;
-  }
+  .circle {
+    position: absolute;
+    aspect-ratio: 1 / 1;
+    border-radius: 100%;
 
-  .circle-lighterblue {
-    top: 0;
-    left: 45%;
-    width: 47%;
-    mix-blend-mode: multiply;
-  }
-
-  .circle-lightblue {
-    bottom: -2%;
-    right: -20%;
-    width: 28%;
-    @media (min-width: 830px) {
-      right: -33%;
-      width: 36%;
+    &-gray {
+      top: 5%;
+      left: 12%;
+      width: 41%;
+      mix-blend-mode: multiply;
+      background-color: #EBEDEF;
     }
-  }
 
-  .circle-darkblue {
-    mix-blend-mode: multiply;
-    top: 6%;
-    left: 80%;
-    width: 22%;
-    @media (min-width: 830px) {
-      top: 6%;
-      left: 86%;
+    &-lighterblue {
+      top: 0;
+      left: 45%;
+      width: 47%;
+      mix-blend-mode: multiply;
+      background-color: #A7E7F6;
+    }
+
+    &-lightblue {
+      bottom: -2%;
+      right: -20%;
+      width: 28%;
+      background-color: #84CBF5;
+      @media (min-width: 830px) {
+        right: -33%;
+        width: 36%;
+      }
+    }
+
+    &-darkblue {
+      mix-blend-mode: multiply;
+      top: 10%;
+      left: 80%;
       width: 22%;
+      background-color: #3E5973;
+      @media (min-width: 830px) {
+        left: 82%;
+        width: 22%;
+      }
     }
-  }
 
-  .circle-blue {
-    left: 13%;
-    top: -25%;
-    @media (min-width: 830px) {
-      top: -30%;
+    &-blue {
+      left: 13%;
+      top: -25%;
+      @media (min-width: 830px) {
+        top: -30%;
+      }
     }
   }
 
@@ -86,12 +95,12 @@ export const ReachedDataContainer = styled.div`
 
     &-people {
       font-size: 5vw;
-      top: 6%;
+      top: 10%;
       left: 80%;
       width: 22%;
       @media (min-width: 830px) {
         font-size: 2vw;
-        left: 86%;
+        left: 82%;
       }
     }
 
@@ -136,8 +145,8 @@ export const ReachedDataContainer = styled.div`
       width: 33%;
       @media (min-width: 830px) {
         font-size: 1.3vw;
-        right: -85%;
-        top: 14%;
+        right: -81%;
+        top: 17%;
         width: auto;
       }
     }
@@ -179,6 +188,7 @@ export const ReachedDataContainer = styled.div`
 
   &.animated {
     img,
+    .circle,
     .text,
     .numbers {
       animation: fade-in 1s ease-in-out;

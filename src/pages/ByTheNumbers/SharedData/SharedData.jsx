@@ -32,30 +32,14 @@ function SharedData() {
 
   return (
     <SharedDataContainer ref={ref}>
-      <img
-        src="/assets/images/by_the_numbers/shared/CircleBlue.webp"
-        className="circle-blue"
-      />
-
+      <div className="circle circle-blue"></div>
       <img
         src="/assets/images/by_the_numbers/shared/CircleImage.webp"
-        className="circle-image"
+        className="circle circle-image"
       />
-
-      <img
-        src="/assets/images/by_the_numbers/shared/CircleDarkblue.webp"
-        className="circle-darkblue"
-      />
-
-      <img
-        src="/assets/images/by_the_numbers/shared/CircleLightblue.webp"
-        className="circle-lightblue"
-      />
-
-      <img
-        src="/assets/images/by_the_numbers/shared/CircleLighterblue.webp"
-        className="circle-lighterblue"
-      />
+      <div className="circle circle-darkblue"></div>
+      <div className="circle circle-lightblue"></div>
+      <div className="circle circle-lighterblue"></div>
 
       <p className="text text-shared">Shared</p>
       <p className="text text-science">Science accomplishments</p>

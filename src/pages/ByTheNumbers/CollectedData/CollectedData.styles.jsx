@@ -22,30 +22,39 @@ export const CollectedDataContainer = styled.div`
     position: absolute;
   }
 
-  .circle-gray {
-    left: 14%;
-    top: 14%;
-    height: 70%;
-  }
+  .circle {
+    position: absolute;
+    aspect-ratio: 1 / 1;
+    border-radius: 100%;
 
-  .circle-image {
-    left: 0;
-    top: 0;
-    height: 70%;
-  }
+    &-gray {
+      left: 14%;
+      top: 14%;
+      height: 70%;
+      background-color: #EBEDEF;
+    }
 
-  .circle-lightblue {
-    left: 36%;
-    top: 18%;
-    width: 17%;
-    mix-blend-mode: multiply;
-  }
+    &-image {
+      left: 0;
+      top: 0;
+      height: 70%;
+    }
 
-  .circle-darkblue {
-    left: 26%;
-    top: 50%;
-    width: 17%;
-    mix-blend-mode: multiply;
+    &-lightblue {
+      left: 36%;
+      top: 18%;
+      width: 17%;
+      mix-blend-mode: multiply;
+      background-color: #84CBF5;
+    }
+
+    &-darkblue {
+      left: 26%;
+      top: 50%;
+      width: 17%;
+      mix-blend-mode: multiply;
+      background-color: #3E5973;
+    }
   }
 
   .numbers {
@@ -142,6 +151,7 @@ export const CollectedDataContainer = styled.div`
 
   &.animated {
     img,
+    .circle,
     .text,
     .numbers,
     .country > * {

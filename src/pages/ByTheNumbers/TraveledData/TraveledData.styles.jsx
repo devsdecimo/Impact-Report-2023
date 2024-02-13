@@ -23,45 +23,44 @@ export const TraveledDataContainer = styled.div`
     position: absolute;
   }
 
-  .circle-lightblue {
-    width: 46%;
+  .circle {
     aspect-ratio: 1 / 1;
-    top: 0;
-    bottom: 0;
-    right: 20%;
-  }
-
-  .circle-blue,
-  .circle-darkblue {
+    border-radius: 100%;
     position: absolute;
-    background-size: contain;
-    width: 11%;
-    aspect-ratio: 1 / 1;
-    display: flex;
-    justify-content: center;
-    mix-blend-mode: multiply;
-  }
 
-  .circle-darkblue {
-    right: 11%;
-    top: 39%;
-    transform: translateY(-50%);
-  }
+    &-lightblue {
+      width: 46%;
+      top: 0;
+      bottom: 0;
+      right: 20%;
+      background-color: #a7e7f6;
+    }
 
-  .circle-blue {
-    right: 16%;
-    top: 21%;
-    transform: translateY(-50%);
+    &-darkblue {
+      width: 11%;
+      right: 11%;
+      top: 39%;
+      background-color: #5d8cab;
+      mix-blend-mode: multiply;
+    }
+
+    &-blue {
+      width: 11%;
+      right: 16%;
+      top: 21%;
+      background-color: #56a1c8;
+      mix-blend-mode: multiply;
+    }
   }
 
   .ship {
     top: -15%;
-    right: 0;
-    width: 109%;
+    right: 2%;
+    width: 106%;
     @media (min-width: 830px) {
-      right: -8%;
-      top: -17%;
-      width: 119%;
+      right: 1%;
+      top: -24%;
+      width: 113%;
     }
   }
 
@@ -75,7 +74,7 @@ export const TraveledDataContainer = styled.div`
     line-height: 0;
     aspect-ratio: 1 / 1;
     width: 11%;
-    
+
     @media (min-width: 830px) {
       font-size: 2.4vw;
     }
@@ -229,9 +228,7 @@ export const TraveledDataContainer = styled.div`
   }
 
   &.animated {
-    .circle-lightblue,
-    .circle-blue,
-    .circle-darkblue,
+    .circle,
     .text,
     .numbers,
     .ship,

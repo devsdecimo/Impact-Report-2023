@@ -23,20 +23,22 @@ export const ExpeditionsDataContainer = styled.div`
 
   .circle {
     border-radius: 100%;
+    aspect-ratio: 1 / 1;
+    position: absolute;
 
     &-image {
       width: 44%;
-      aspect-ratio: 1 / 1;
-      top: -11%;
+      top: 6%;
       bottom: 0;
       left: 5%;
+      @media (min-width: 830px) {
+        top: 0;
+      }
     }
 
     &-gray {
-      position: absolute;
       width: 44%;
-      aspect-ratio: 1 / 1;
-      top: -21%;
+      top: -9%;
       left: -5%;
       mix-blend-mode: multiply;
       background-color: #eeeeee;
@@ -44,9 +46,7 @@ export const ExpeditionsDataContainer = styled.div`
 
     &-blue,
     &-darkblue {
-      position: absolute;
       width: 21%;
-      aspect-ratio: 1 / 1;
       display: flex;
       justify-content: center;
       mix-blend-mode: multiply;
@@ -59,7 +59,6 @@ export const ExpeditionsDataContainer = styled.div`
     }
 
     &-blue {
-      display: block;
       left: 13%;
       top: -25%;
       background-color: #56a1c8;

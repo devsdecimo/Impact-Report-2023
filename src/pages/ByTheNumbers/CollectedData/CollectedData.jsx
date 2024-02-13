@@ -32,27 +32,13 @@ function CollectedData() {
 
   return (
     <CollectedDataContainer ref={ref}>
-      <img
-        src="/assets/images/by_the_numbers/collected/CircleGray.webp"
-        className="circle-gray"
-      />
-      
+      <div className="circle circle-gray"></div>
       <img
         src="/assets/images/by_the_numbers/collected/CircleImage.webp"
-        className="circle-image"
+        className="circle circle-image"
       />
-
-
-      <img
-        src="/assets/images/by_the_numbers/collected/CircleLightblue.webp"
-        className="circle-lightblue"
-      />
-
-      <img
-        src="/assets/images/by_the_numbers/collected/CircleDarkblue.webp"
-        className="circle-darkblue"
-      />
-
+      <div className="circle circle-lightblue"></div>
+      <div className="circle circle-darkblue"></div>
 
       <p className="numbers-expeditions numbers">
         <span id="counter-expeditions" />
@@ -61,7 +47,11 @@ function CollectedData() {
       <p className="text text-collected">Collected</p>
       <p className="text text-samples">samples and</p>
       <p className="text text-ampersand">&</p>
-      <p className="text text-terabytes">Terabytes of data to advance <br/>scientific understanding of the <br/>Ocean and ocean processes</p>
+      <p className="text text-terabytes">
+        Terabytes of data to advance <br />
+        scientific understanding of the <br />
+        Ocean and ocean processes
+      </p>
       <p className="numbers-samples numbers">
         <Counter delay={3.25}>2826</Counter>
       </p>
