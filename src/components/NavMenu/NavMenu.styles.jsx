@@ -28,6 +28,7 @@ export const NavMenuContainer = styled.nav`
 
     &.menu__open {
       background-image: url("/assets/images/CloseButton.svg");
+      position: fixed;
     }
 
     @media (min-width: 830px) {
@@ -48,17 +49,18 @@ export const NavMenuContainer = styled.nav`
     display: flex;
     min-height: 100vh;
     opacity: 0;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    line-height: 1.7;
     z-index: 3;
     min-height: 100%;
     overflow: hidden;
-    padding-top: 2rem;
+    padding: 1rem;
 
     flex-direction: column;
     align-items: center;
 
     &.menu__open {
-      width: 100vw;
+      width: calc(100vw - 2rem);
       opacity: 1;
 
       li a {
@@ -69,8 +71,11 @@ export const NavMenuContainer = styled.nav`
     img.menu_logo {
       height: 80px;
       width: auto;
-    }
 
+      @media (min-width: 830px) {
+        height: 120px;
+      }
+    }
 
     li {
       transition: 0.7s;
@@ -91,7 +96,7 @@ export const NavMenuContainer = styled.nav`
       display: flex;
       list-style: none;
       flex-direction: column;
-      padding: 2rem;
+      padding: 1rem;
       margin-top: 0;
       text-align: center;
       gap: 0.75rem;
@@ -99,19 +104,6 @@ export const NavMenuContainer = styled.nav`
       padding-bottom: 4rem;
 
       .submenu {
-        ul {
-          display: flex;
-          gap: 2rem;
-          list-style: none;
-          flex-direction: column;
-          flex-direction: column;
-          border-bottom: none;
-
-          li:not(.title) {
-            font-size: 1rem;
-          }
-        }
-
         &:hover {
           transform: none;
         }

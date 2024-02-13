@@ -3,89 +3,103 @@ import styled from "styled-components";
 export const ExpeditionsDataContainer = styled.div`
   position: relative;
   display: inline-flex;
-  margin: 10vw;
+  margin-left: 10vw;
   font-weight: 700;
-  min-width: 80vw;
+  min-width: 70vw;
   min-height: 15vh;
+  justify-self: center;
 
   @media (min-width: 830px) {
-    min-width: 600px;
-    min-height: 260px;
+    min-width: 35vw;
+    aspect-ratio: 2.1;
+    grid-row: 1 / 5;
+    grid-column: 1 / 2;
+    justify-self: left;
   }
 
   img {
     position: absolute;
   }
 
-  .circle-image {
-    width: 44%;
-    aspect-ratio: 1 / 1;
-    top: 0;
-    bottom: 0;
-    left: 0;
-  }
+  .circle {
+    border-radius: 100%;
 
-  .circle-gray {
-    position: absolute;
-    width: 44%;
-    aspect-ratio: 1 / 1;
-    top: -10%;
-    left: -10%;
-    opacity: 0.5;
-  }
+    &-image {
+      width: 44%;
+      aspect-ratio: 1 / 1;
+      top: -11%;
+      bottom: 0;
+      left: 5%;
+    }
 
-  .circle-blue,
-  .circle-darkblue {
-    position: absolute;
-    background-size: contain;
-    width: 21%;
-    aspect-ratio: 1 / 1;
-    display: flex;
-    justify-content: center;
-    mix-blend-mode: multiply;
-  }
+    &-gray {
+      position: absolute;
+      width: 44%;
+      aspect-ratio: 1 / 1;
+      top: -21%;
+      left: -5%;
+      mix-blend-mode: multiply;
+      background-color: #eeeeee;
+    }
 
-  .circle-darkblue {
-    right: 40%;
-    top: 36%;
-    transform: translateY(-50%);
-  }
+    &-blue,
+    &-darkblue {
+      position: absolute;
+      width: 21%;
+      aspect-ratio: 1 / 1;
+      display: flex;
+      justify-content: center;
+      mix-blend-mode: multiply;
+    }
 
-  .circle-blue {
-    left: 13%;
-    top: -25%;
-    @media (min-width: 830px) {
-      top: -30%;
+    &-darkblue {
+      right: 40%;
+      top: 9%;
+      background-color: #3e5973;
+    }
+
+    &-blue {
+      display: block;
+      left: 13%;
+      top: -25%;
+      background-color: #56a1c8;
+      @media (min-width: 830px) {
+        top: -30%;
+      }
     }
   }
 
   .numbers {
     position: absolute;
-    align-items: center;
     color: var(--white);
     margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 0;
+    aspect-ratio: 1 / 1;
+    width: 21%;
 
     &-expeditions {
       font-size: 14vw;
-      left: 19.5%;
+      left: 13%;
       top: -25%;
-      transform: translateX(-50%);
       @media (min-width: 830px) {
-        top: -29%;
-        font-size: 6rem;
+        font-size: 6vw;
+        top: -30%;
       }
     }
 
     &-days {
       font-size: 7vw;
-      right: 44%;
-      top: 50%;
+      right: 40%;
+      top: 9%;
       transform: translateY(-50%);
       @media (min-width: 830px) {
-        font-size: 3rem;
+        font-size: 2.8vw;
       }
     }
-    
+
     span {
       display: contents;
     }
@@ -97,67 +111,54 @@ export const ExpeditionsDataContainer = styled.div`
     margin: 0;
     &-expeditions {
       color: #56a1c8;
-      font-size: 8vw;
+      font-size: 6vw;
       text-transform: uppercase;
       top: -20%;
       left: 36%;
       @media (min-width: 830px) {
         top: -24%;
-        font-size: 3.7rem;
+        font-size: 3.1vw;
       }
     }
 
     &-days {
       color: #3e5973;
-      font-size: 5.5vw;
-      right: -4%;
-      top: 47%;
+      font-size: 4.5vw;
+      right: 1%;
+      top: 22%;
       transform: translateY(-50%);
+      font-weight: 400;
       @media (min-width: 830px) {
-        font-size: 2.5rem;
+        font-size: 2.2vw;
       }
     }
   }
 
-  * {
+  & > * {
     opacity: 0;
     transform: scale(0);
   }
 
   &.animated {
-    .circle-gray,
-    .circle-image,
-    .circle-blue,
-    .circle-darkblue,
+    img,
+    .circle,
     .text,
     .numbers {
       animation: fade-in 1s ease-in-out;
       animation-fill-mode: forwards;
     }
     .circle-image {
-      animation-delay: 1s;
+      animation-delay: 0.5s;
     }
     .circle-blue,
     .circle-darkblue {
-      animation-delay: 2s;
+      animation-delay: 1s;
     }
     .text {
-      animation-delay: 3s;
+      animation-delay: 1.5s;
     }
     .numbers {
-      animation-delay: 4s;
-    }
-  }
-
-  @keyframes fade-in {
-    0% {
-      opacity: 0;
-      transform: scale(0);
-    }
-
-    100% {
-      opacity: 1;
-      transform: scale(1);
+      animation-delay: 2s;
     }
   }
 `;

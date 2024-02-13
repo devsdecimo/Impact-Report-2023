@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import { ExpeditionsDataContainer } from "./ExpeditionsData.styles";
-import CountUp, { useCountUp } from "react-countup";
+import Counter from "../../../components/Counter/Counter";
 
 function ExpeditionsData() {
   const ref = useRef(null);
@@ -12,7 +12,9 @@ function ExpeditionsData() {
           if (entry.isIntersecting) {
             entry.target.classList.add("animated");
           } else {
-            entry.target.classList.remove("animated");
+            if (entry.target.classList.contains("animated")) {
+              // entry.target.classList.remove("animated");
+            }
           }
         });
       },
@@ -30,43 +32,21 @@ function ExpeditionsData() {
     };
   }, []);
 
-  useCountUp({
-    ref: "counter-expeditions",
-    end: 9,
-    enableScrollSpy: true,
-    delay: 4.5,
-  });
-
-  useCountUp({
-    ref: "counter-days",
-    end: 223,
-    enableScrollSpy: true,
-    delay: 4.5,
-  });
-
-
   return (
     <ExpeditionsDataContainer ref={ref}>
-      <img
-        src="/assets/images/by_the_numbers/expeditions/CircleGray.webp"
-        className="circle-gray"
-      />
+      <div className="circle circle-gray"></div>
       <img
         src="/assets/images/by_the_numbers/expeditions/CircleImage.webp"
-        className="circle-image"
+        className="circle circle-image"
       />
-      <img
-        src="/assets/images/by_the_numbers/expeditions/CircleBlue.webp"
-        className="circle-blue"
-      />
-      <p className="numbers-expeditions numbers">
-        <span id="counter-expeditions" />
+      <div className="circle circle-blue"></div>
+      <div className="numbers-expeditions numbers">
+        <Counter delay={2.25}>9</Counter>
+      </div>
+      <div className="circle circle-darkblue"></div>
+      <p className="numbers-days numbers">
+        <Counter delay={2.25}>223</Counter>
       </p>
-      <img
-        src="/assets/images/by_the_numbers/expeditions/CircleDarkBlue.webp"
-        className="circle-darkblue"
-      />
-      <p className="numbers-days numbers"><span id="counter-days" /></p>
       <p className="text text-expeditions">Expeditions</p>
       <p className="text text-days">days of science</p>
     </ExpeditionsDataContainer>
