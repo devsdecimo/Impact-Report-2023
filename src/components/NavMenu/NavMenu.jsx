@@ -21,22 +21,29 @@ function NavMenu({ className }) {
         onClick={toggleMenu}
       ></button>
       <div className={`menu ${openMenu ? "menu__open" : ""}`}>
-        <img
-          src="/assets/images/logo.webp"
-          alt="soi logo"
-          className="menu_logo"
-        />
+        <Link to="/">
+          <img
+            src="/assets/images/logo.webp"
+            alt="soi logo"
+            className="menu_logo"
+          />
+        </Link>
         <ul onClick={toggleMenu}>
-          <li>
-            <Link to="/">Welcome to a New SOI</Link>
-          </li>
-          <li>
-            <Link to="/a_word_from_our_founders">Word from our Founders</Link>
-          </li>
-          <li>
-            <Link to="/executive_directors_note">
-              Executive Director's Note
-            </Link>
+          <li className="submenu">
+            <SubMenu href="/" title={"Welcome to a New SOI"}>
+              <ul>
+                <li>
+                  <Link to="/a_word_from_our_founders">
+                    Word from our Founders
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/executive_directors_note">
+                    Executive Director's Note
+                  </Link>
+                </li>
+              </ul>
+            </SubMenu>
           </li>
           <li className="submenu">
             <SubMenu title={"Inaugural Year of Discovery"}>
@@ -69,20 +76,87 @@ function NavMenu({ className }) {
             </SubMenu>
           </li>
           <li>
-            <Link to="/by_the_numbers">Inaugural Year - By The Numbers</Link>
+            <Link to="/by_the_numbers">Inaugural Year - By the Numbers</Link>
           </li>
           <li>
-            <Link to="/new_species_and_seafloor_spotlight">
-              New Species & Seafloor Spotlight
-            </Link>
+            <SubMenu
+              href="/new_species_and_seafloor_spotlight"
+              title={"New Species & Seafloor Spotlight"}
+            >
+              <ul>
+                <li>
+                  <Link to="/new_species_and_seafloor_spotlight/new_species_spotlight">
+                    New Species Spotlight
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/new_species_and_seafloor_spotlight/seafloor_wonders">
+                    Seafloor Wonders
+                  </Link>
+                </li>
+              </ul>
+            </SubMenu>
           </li>
           <li>
             <Link to="/a_limitless_ocean_of_data">
-              A Limitless Ocean Of Data
+              A Limitless Ocean of Data
             </Link>
           </li>
           <li>
-            <Link to="/disseminating_the_depths">Disseminating The Depths</Link>
+            <SubMenu
+              href="/the_deep_sea_continuum"
+              title={"The Deep Sea Continuum"}
+            >
+              <ul>
+                <li>
+                  <Link to="/the_deep_sea_continuum/grants">Grants</Link>
+                </li>
+                <li>
+                  <Link to="/the_deep_sea_continuum/thought_leadership">
+                    Thought Leadership
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/the_deep_sea_continuum/strategic_partnerships">
+                    Strategic Partnerships
+                  </Link>
+                </li>
+              </ul>
+            </SubMenu>
+          </li>
+          <li>
+            <SubMenu
+              href="/disseminating_the_depths"
+              title={"Disseminating the Depths"}
+            >
+              <ul>
+                <li>
+                  <Link to="/disseminating_the_depths/artist_at_sea">
+                    Artist-at-Sea
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/disseminating_the_depths/community_building">
+                    Community Building
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/disseminating_the_depths/divestreams_and_connections">
+                    Divestreams and Connections
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/disseminating_the_depths/press_and_footage">
+                    Press and Footage
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/disseminating_the_depths/on_the_big_screen">
+                    On the Big Screen
+                  </Link>
+                </li>
+              </ul>
+            </SubMenu>
           </li>
         </ul>
       </div>

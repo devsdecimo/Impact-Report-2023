@@ -9,6 +9,7 @@ export const SubMenuContainer = styled.div`
     border: none;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 1rem;
     width: 100%;
     transition: 0.7s;
