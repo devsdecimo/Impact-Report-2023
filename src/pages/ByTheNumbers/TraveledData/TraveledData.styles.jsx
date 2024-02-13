@@ -153,7 +153,7 @@ export const TraveledDataContainer = styled.div`
       top: 43%;
       transform: translateY(-50%);
       @media (min-width: 830px) {
-        font-size: 3vw;
+        font-size: 2.6vw;
       }
     }
 
