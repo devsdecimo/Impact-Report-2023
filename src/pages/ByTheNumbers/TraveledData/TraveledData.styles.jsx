@@ -204,6 +204,7 @@ export const TraveledDataContainer = styled.div`
       grid-row: 2/3;
       align-items: end;
       white-space: nowrap;
+      margin-top: 1.4rem;
     }
 
     &-spain {
