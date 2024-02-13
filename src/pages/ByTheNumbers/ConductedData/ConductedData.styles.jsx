@@ -45,6 +45,12 @@ export const ConductedDataContainer = styled.div`
     top: 7%;
   }
 
+  .circle-overbg {
+    left: 36%;
+    width: 28%;
+    top: 7%;
+  }
+
   .circle-darkblue {
     right: 25.5%;
     top: 30%;
@@ -80,39 +86,48 @@ export const ConductedDataContainer = styled.div`
 
   .numbers {
     position: absolute;
-    align-items: center;
     color: var(--white);
     margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1 / 1;
 
     &-ctd {
       font-size: 3.8vw;
-      right: 29%;
-      top: 39%;
+      right: 25.5%;
+      top: 30%;
+      width: 15%;
       @media (min-width: 830px) {
         font-size: 2.2vw;
-        top: 41%;
+        width: 18%;
       }
     }
 
     &-underwater {
       font-size: 3.8vw;
-      right: 28.5%;
-      top: 61%;
+      width: 15%;
+      right: 25%;
+      top: 53%;
       @media (min-width: 830px) {
         font-size: 2.2vw;
-        right: 26.5%;
-        top: 65%;
+        width: 18%;
+        right: 23%;
+        padding-top: 1%;
+
       }
     }
 
     &-hours {
       font-size: 3vw;
-      right: 33.5%;
-      top: 79%;
+      right: 31%;
+      top: 69%;
+      width: 15%;
       @media (min-width: 830px) {
         font-size: 1.9vw;
-        right: 30.5%;
-        top: 94%;
+        width: 18%;
+        right: 29%;
+        top: 83%;
       }
     }
 
@@ -219,7 +234,8 @@ export const ConductedDataContainer = styled.div`
     .image {
       animation-delay: 0.5s;
     }
-    .circle-over {
+    .circle-over,
+    .circle-overbg {
       animation-delay: 1s;
     }
     .circle-darkblue {

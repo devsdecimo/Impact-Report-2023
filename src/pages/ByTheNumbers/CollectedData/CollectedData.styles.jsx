@@ -50,23 +50,29 @@ export const CollectedDataContainer = styled.div`
 
   .numbers {
     position: absolute;
-    align-items: center;
     color: var(--white);
     margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 0;
+    aspect-ratio: 1 / 1;
+    font-size: 4vw;
 
     &-samples {
-      left: 37.5%;
-      top: 26%;
-      font-size: 4vw;
+      left: 36%;
+      top: 18%;
+      width: 17%;
       @media (min-width: 830px) {
         font-size: 1.8vw;
       }
     }
 
     &-terabytes {
-      left: 28.5%;
-      top: 58%;
       font-size: 4.6vw;
+      left: 26%;
+      top: 50%;
+      width: 17%;
       @media (min-width: 830px) {
         font-size: 2.2vw;
       }

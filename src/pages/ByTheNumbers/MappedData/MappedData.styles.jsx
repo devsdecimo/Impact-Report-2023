@@ -10,6 +10,8 @@ export const MappedDataContainer = styled.div`
   background-attachment: fixed;
   margin-top: 8rem;
   aspect-ratio: 1.35;
+  mix-blend-mode: multiply;
+  margin-left: -15vw;
   @media (min-width: 830px) {
     min-width: 25vw;
     grid-row: 14 / 20;
@@ -22,58 +24,78 @@ export const MappedDataContainer = styled.div`
     position: absolute;
   }
 
-  .circle-image1 {
-    width: 56%;
+  .circle {
+    border-radius: 100%;
     aspect-ratio: 1 / 1;
-    top: 0;
-    bottom: 0;
-    left: 0;
-  }
-
-  .circle-image2 {
-    width: 26%;
-    aspect-ratio: 1/1;
-    top: 37%;
-    left: 46%;
-  }
-
-  .circle-lightblue {
     position: absolute;
-    width: 43%;
-    aspect-ratio: 1/1;
-    top: -13%;
-    left: 33%;
-    mix-blend-mode: overlay;
-  }
+    &-image1 {
+      width: 56%;
+      top: 0;
+      bottom: 0;
+      left: 0;
+    }
 
-  .circle-darkblue {
-    position: absolute;
-    background-size: contain;
-    width: 18%;
-    aspect-ratio: 1 / 1;
-    bottom: 3%;
-    left: 39%;
-  }
+    &-image2 {
+      width: 26%;
+      top: 37%;
+      left: 46%;
+    }
 
-  .circle-blue {
-    left: 13%;
-    top: -25%;
-    @media (min-width: 830px) {
-      top: -30%;
+    &-lighterblue {
+      width: 43%;
+      top: -13%;
+      left: 33%;
+      mix-blend-mode: overlay;
+    }
+
+    &-lighterbluebg {
+      width: 43%;
+      top: -13%;
+      left: 33%;
+    }
+
+    &-darkblue {
+      background-color: #365974;
+      mix-blend-mode: multiply;
+      background-size: contain;
+      width: 20%;
+      bottom: 0%;
+      left: 36%;
+    }
+
+    &-lightblue {
+      background-color: #84cbf5;
+      mix-blend-mode: multiply;
+      width: 17%;
+      bottom: -14%;
+      left: 50%;
+    }
+
+    &-blue {
+      background-color: #5d8cab;
+      mix-blend-mode: multiply;
+      width: 17%;
+      bottom: -25%;
+      left: 37%;
     }
   }
 
   .numbers {
     position: absolute;
-    align-items: center;
     color: var(--white);
     margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 0;
+    aspect-ratio: 1 / 1;
 
-    &-discovering {
+    &-including {
       font-size: 7vw;
-      right: 50%;
-      bottom: 4%;
-      transform: translateY(-50%);
+      width: 20%;
+      bottom: 0%;
+      left: 36%;
+      margin-left: -1%;
       ::after {
         content: "+";
         font-size: 3vw;
@@ -83,10 +105,29 @@ export const MappedDataContainer = styled.div`
       }
       @media (min-width: 830px) {
         font-size: 3.2vw;
-        right: 50%;
         ::after {
           font-size: 2.2vw;
         }
+      }
+    }
+
+    &-seamount {
+      font-size: 7vw;
+      width: 17%;
+      bottom: -14%;
+      left: 50%;
+      @media (min-width: 830px) {
+        font-size: 3.2vw;
+      }
+    }
+
+    &-cold {
+      font-size: 7vw;
+      width: 17%;
+      bottom: -25%;
+      left: 37%;
+      @media (min-width: 830px) {
+        font-size: 3.2vw;
       }
     }
 
@@ -133,19 +174,41 @@ export const MappedDataContainer = styled.div`
       }
     }
 
-    &-discovering {
+    &-including {
       font-size: 4.4vw;
       bottom: 8%;
-      left: -2%;
+      left: 4%;
       font-weight: 400;
       @media (min-width: 830px) {
         font-size: 2vw;
       }
     }
-    &-underwater {
+    &-hydrothermal {
       font-size: 4.4vw;
       bottom: 8%;
-      right: -22%;
+      right: -48%;
+      font-weight: 400;
+      @media (min-width: 830px) {
+        font-size: 2vw;
+      }
+    }
+
+    &-seamounts {
+      font-size: 4.4vw;
+      color: #60a7d1;
+      bottom: -7%;
+      right: -1%;
+      font-weight: 400;
+      @media (min-width: 830px) {
+        font-size: 2vw;
+      }
+    }
+
+    &-cold {
+      font-size: 4.4vw;
+      color: #5d8baa;
+      bottom: -23%;
+      right: -35%;
       font-weight: 400;
       @media (min-width: 830px) {
         font-size: 2vw;
@@ -160,13 +223,16 @@ export const MappedDataContainer = styled.div`
 
   &.animated {
     img,
+    .circle,
     .text,
     .numbers {
       animation: fade-in 1s ease-in-out;
       animation-fill-mode: forwards;
     }
-    .circle-lightblue {
+    .circle-lightblue,
+    .circle-lightbluebg {
       animation-delay: 0.5s;
+      opacity: 0.25;
     }
 
     .circle-image2 {
@@ -177,7 +243,15 @@ export const MappedDataContainer = styled.div`
     }
 
     .circle-darkblue {
+      animation-delay: 1.25s;
+    }
+
+    .circle-lightblue {
       animation-delay: 1.5s;
+    }
+
+    .circle-blue {
+      animation-delay: 1.75s;
     }
 
     .text {

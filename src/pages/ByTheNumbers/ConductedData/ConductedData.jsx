@@ -35,6 +35,10 @@ function ConductedData() {
   return (
     <ConductedDataContainer ref={ref}>
       <img
+        src="/assets/images/by_the_numbers/conducted/CircleOver.webp"
+        className="circle-overbg"
+      />
+      <img
         src="/assets/images/by_the_numbers/conducted/CircleBG.webp"
         className="circle-bg"
       />
@@ -42,10 +46,7 @@ function ConductedData() {
         src="/assets/images/by_the_numbers/conducted/CircleBlue.webp"
         className="circle-blue"
       />
-      <img
-        src="/assets/images/by_the_numbers/conducted/CircleDarkblue.webp"
-        className="circle-darkblue"
-      />
+
       <img
         src="/assets/images/by_the_numbers/conducted/CircleLightblue.webp"
         className="circle-lightblue"
@@ -58,19 +59,16 @@ function ConductedData() {
         src="/assets/images/by_the_numbers/conducted/CircleOver.webp"
         className="circle-over"
       />
-      <p className="numbers-expeditions numbers">
-        <span id="counter-expeditions" />
-      </p>
       <img
-        src="/assets/images/by_the_numbers/expeditions/CircleDarkBlue.webp"
+        src="/assets/images/by_the_numbers/conducted/CircleDarkblue.webp"
         className="circle-darkblue"
       />
-
+      
       <p className="text text-conducted">Conducted</p>
       <p className="text text-ctd">CTD casts</p>
       <p className="text text-ampersand">&</p>
       <p className="text text-underwater">
-        underwater dives with ROV SuBastian
+        underwater dives with ROV <i>SuBastian</i>
       </p>
       <p className="text text-totaling">Totaling</p>
       <p className="text text-hours">hours of deep-sea exploration</p>

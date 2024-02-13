@@ -76,29 +76,34 @@ export const ReachedDataContainer = styled.div`
 
   .numbers {
     position: absolute;
-    align-items: center;
     color: var(--white);
     margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 0;
+    aspect-ratio: 1 / 1;
 
     &-people {
       font-size: 5vw;
-      top: 17%;
-      left: 83%;
+      top: 6%;
+      left: 80%;
+      width: 22%;
       @media (min-width: 830px) {
         font-size: 2vw;
-        top: 15%;
-        left: 89%;
+        left: 86%;
       }
     }
 
     &-social {
       font-size: 3.6vw;
-      bottom: 14%;
-      right: -19%;
+      bottom: -2%;
+      right: -20%;
+      width: 28%;
       @media (min-width: 830px) {
         font-size: 1.8vw;
-        bottom: 21%;
-        right: -31.5%;
+        right: -33%;
+        width: 36%;
       }
     }
 
@@ -110,7 +115,7 @@ export const ReachedDataContainer = styled.div`
   .text {
     position: absolute;
     right: 0;
-    margin: 0;    
+    margin: 0;
     &-reached {
       color: #5d8cab;
       font-size: 6vw;
@@ -185,7 +190,8 @@ export const ReachedDataContainer = styled.div`
     .image {
       animation-delay: 1s;
     }
-    .circle-darkblue, .circle-lightblue {
+    .circle-darkblue,
+    .circle-lightblue {
       animation-delay: 1.5s;
     }
     .text {

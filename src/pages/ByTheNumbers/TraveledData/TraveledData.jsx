@@ -40,9 +40,6 @@ function TraveledData() {
         src="/assets/images/by_the_numbers/traveled/CircleBlue.webp"
         className="circle-blue"
       />
-      <p className="numbers-expeditions numbers">
-        <span id="counter-expeditions" />
-      </p>
       <img
         src="/assets/images/by_the_numbers/traveled/CircleDarkblue.webp"
         className="circle-darkblue"
@@ -55,7 +52,7 @@ function TraveledData() {
 
       <p className="text text-traveled">Traveled</p>
       <p className="text text-km">
-        <Counter delay={3.25}>27276</Counter> km
+        <Counter delay={3.25}>39280</Counter> km
       </p>
       <p className="text text-visiting">visiting</p>
       <p className="text text-countries">countries</p>

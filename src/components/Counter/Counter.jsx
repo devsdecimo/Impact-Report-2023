@@ -36,7 +36,6 @@ function Counter({
   }, []);
 
   const animateCounter = (targetNumber) => {
-    console.log(wasRunRef.current);
     if (!wasRunRef.current) {
       wasRunRef.current = true;
       let start = 0;
@@ -59,14 +58,14 @@ function Counter({
   };
 
   return (
-    <div
+    <span
       ref={ref}
       className={className}
       id={id}
       style={{ display: "inline-block" }}
     >
       {counter.toFixed(toFixed).replace(/\B(?=(\d{3})+(?!\d))/g, ",")}
-    </div>
+    </span>
   );
 }
 

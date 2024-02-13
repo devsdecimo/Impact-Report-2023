@@ -32,7 +32,7 @@ export const HostedDataContainer = styled.div`
 
   .circle-image {
     position: absolute;
-    right: -12%;
+    right: -11%;
     top: 15%;
     height: 78%;
   }
@@ -82,9 +82,13 @@ export const HostedDataContainer = styled.div`
 
   .numbers {
     position: absolute;
-    align-items: center;
     color: var(--white);
     margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 0;
+    aspect-ratio: 1 / 1;
     font-size: 4vw;
 
     @media (min-width: 830px) {
@@ -92,21 +96,24 @@ export const HostedDataContainer = styled.div`
     }
 
     &-scientists {
-      right: 83%;
-      top: 38%;
+      right: 80%;
+      top: 34%;
+      width: 12%;
     }
 
     &-students {
-      right: 77.5%;
-      top: 53%;
+      right: 76%;
+      top: 50%;
+      width: 10%;
       @media (min-width: 830px) {
         font-size: 1.8vw;
       }
     }
 
     &-artists {
-      right: 83%;
-      top: 65%;
+      right: 81%;
+      top: 62%;
+      width: 10%;
       @media (min-width: 830px) {
         font-size: 1.8vw;
       }
@@ -122,7 +129,7 @@ export const HostedDataContainer = styled.div`
     right: 0;
     margin: 0;
     &-hosted {
-      color: #5a83a1;
+      color: #3e5973;
       font-size: 6vw;
       text-transform: uppercase;
       top: 15%;
@@ -171,12 +178,12 @@ export const HostedDataContainer = styled.div`
     &-ampersand {
       color: #5a83a1;
       font-size: 3.2vw;
-      right: 66%;
-      top: 67%;
+      right: 64%;
+      top: 69%;
       font-weight: 400;
       transform: translateY(-50%);
       @media (min-width: 830px) {
-        font-size: 1.4vw;
+        font-size: 1.5vw;
       }
     }
 
@@ -184,7 +191,7 @@ export const HostedDataContainer = styled.div`
       color: #99bed5;
       font-size: 3vw;
       right: 60%;
-      top: 75%;
+      top: 78%;
       font-weight: 400;
       width: 20%;
       transform: translateY(-50%);

@@ -63,23 +63,29 @@ export const SharedDataContainer = styled.div`
 
   .numbers {
     position: absolute;
-    align-items: center;
     color: var(--white);
     margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 0;
+    aspect-ratio: 1 / 1;
 
     &-publications {
-      left: 36%;
-      top: 19%;
       font-size: 5vw;
+      left: 33%;
+      top: 15%;
+      width: 14%;
       @media (min-width: 830px) {
         font-size: 2.2vw;
       }
     }
 
     &-articles {
-      left: 61.5%;
-      top: 38%;
       font-size: 4.5vw;
+      left: 58%;
+      top: 26%;
+      width: 21%;
       @media (min-width: 830px) {
         font-size: 1.75vw;
       }

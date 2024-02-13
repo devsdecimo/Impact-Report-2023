@@ -63,7 +63,7 @@ function CollectedData() {
       <p className="text text-ampersand">&</p>
       <p className="text text-terabytes">Terabytes of data to advance <br/>scientific understanding of the <br/>Ocean and ocean processes</p>
       <p className="numbers-samples numbers">
-        <Counter delay={3.25}>2862</Counter>
+        <Counter delay={3.25}>2826</Counter>
       </p>
       <p className="numbers-terabytes numbers">
         <Counter delay={3.25}>269</Counter>

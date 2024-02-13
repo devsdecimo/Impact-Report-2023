@@ -67,24 +67,28 @@ export const TraveledDataContainer = styled.div`
 
   .numbers {
     position: absolute;
-    align-items: center;
     color: var(--white);
     margin: 0;
-    font-size: 4vw;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 0;
+    aspect-ratio: 1 / 1;
+    width: 11%;
+    
     @media (min-width: 830px) {
       font-size: 2.4vw;
     }
 
     &-countries {
-      right: 20%;
-      top: 25.5%;
+      right: 16%;
+      top: 21%;
       transform: translateY(-50%);
     }
 
     &-us {
-      right: 14.5%;
-      top: 44%;
+      right: 11%;
+      top: 39%;
       transform: translateY(-50%);
     }
 
@@ -97,12 +101,14 @@ export const TraveledDataContainer = styled.div`
     position: absolute;
     right: 0;
     margin: 0;
+    font-weight: 400;
     &-traveled {
       color: #5a83a1;
       font-size: 8vw;
       text-transform: uppercase;
-      top: -17%;
-      left: 40%;
+      top: -16%;
+      left: 47%;
+      font-weight: 800;
       @media (min-width: 830px) {
         font-size: 3.4vw;
       }
@@ -111,10 +117,11 @@ export const TraveledDataContainer = styled.div`
     &-km {
       color: #5a83a1;
       font-size: 6vw;
-      top: 0%;
-      right: -6%;
+      top: 2%;
+      right: 3%;
+      font-weight: 800;
       @media (min-width: 830px) {
-        font-size: 3.4vw;
+        font-size: 2.45vw;
       }
     }
 
@@ -175,13 +182,14 @@ export const TraveledDataContainer = styled.div`
     position: absolute;
     bottom: -10%;
     display: grid;
-    grid-template-rows: 1fr auto;
+    grid-template-rows: 1.25fr 1fr;
     flex-direction: column;
-    width: 14%;
-    aspect-ratio: 0.65;
+    width: 15%;
+    aspect-ratio: unset;
     text-align: center;
     color: #5d8baa;
     font-size: 2.4vw;
+    font-weight: 400;
 
     @media (min-width: 830px) {
       font-size: 1.1vw;
@@ -248,6 +256,11 @@ export const TraveledDataContainer = styled.div`
       animation-delay: 2.5s;
     }
     .country {
+      img {
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+        border-radius: 100%;
+      }
+
       &-spain {
         img {
           animation-delay: 3s;

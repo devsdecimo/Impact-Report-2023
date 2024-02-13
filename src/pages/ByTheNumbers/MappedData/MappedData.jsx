@@ -30,35 +30,49 @@ function MappedData() {
     };
   }, []);
 
-
   return (
     <MappedDataContainer ref={ref}>
       <img
+        src="/assets/images/by_the_numbers/mapped/CircleLightblue.webp"
+        className="circle circle-lighterbluebg"
+      />
+
+      <img
         src="/assets/images/by_the_numbers/mapped/CircleImage1.webp"
-        className="circle-image1"
+        className="circle circle-image1"
       />
 
       <img
         src="/assets/images/by_the_numbers/mapped/CircleLightblue.webp"
-        className="circle-lightblue"
+        className="circle circle-lighterblue"
       />
 
       <img
         src="/assets/images/by_the_numbers/mapped/CircleImage2.webp"
-        className="circle-image2"
+        className="circle circle-image2"
       />
-      <img
-        src="/assets/images/by_the_numbers/expeditions/CircleDarkBlue.webp"
-        className="circle-darkblue"
-      />
-      <p className="numbers-discovering numbers">
+      <div className="circle circle-darkblue"></div>
+      <div className="circle circle-lightblue"></div>
+      <div className="circle circle-blue"></div>
+      <p className="text text-mapped">Mapped</p>
+      <p className="numbers-including numbers">
         <Counter delay={2.75}>5</Counter>
       </p>
-      <p className="text text-mapped">Mapped</p>
-      <p className="text text-km2"><Counter delay={3}>190025</Counter>.<Counter delay={2.75}>60</Counter> km²</p>
+      <p className="text text-km2">
+        <Counter delay={3}>190025</Counter>.<Counter delay={2.75}>60</Counter>{" "}
+        km²
+      </p>
+      <p className="numbers-seamount numbers">
+        <Counter delay={2.75}>3</Counter>
+      </p>
+      <p className="numbers-cold numbers">
+        <Counter delay={2.75}>2</Counter>
+      </p>
       <p className="text text-seafloor">of seafloor</p>
-      <p className="text text-discovering">Discovering</p>
-      <p className="text text-underwater">underwater features</p>
+      <p className="text text-including">Including</p>
+      <p className="text text-hydrothermal">new hydrothermal vent fields</p>
+      <p className="text text-seamounts">seamounts</p>
+      <p className="text text-cold">new cold water coral reefs</p>
     </MappedDataContainer>
   );
 }

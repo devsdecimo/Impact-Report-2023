@@ -5,8 +5,7 @@ export const PageContainer = styled.div`
   background-position: center 50%;
   background-size: cover;
   @media (min-width: 830px) {
-    background-position: 0 60vh;
-    background-size: 100%;
+    background-position: 50% 39vh;
     row-gap: 0;
   }
   .content {
@@ -37,7 +36,7 @@ export const PageContainer = styled.div`
 
     @media (min-width: 830px) {
       max-width: 60%;
-      font-size: 2.7rem;
+      font-size: 2.02vw;
     }
   }
 

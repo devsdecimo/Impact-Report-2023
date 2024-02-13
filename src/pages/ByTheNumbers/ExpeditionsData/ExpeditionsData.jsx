@@ -34,25 +34,16 @@ function ExpeditionsData() {
 
   return (
     <ExpeditionsDataContainer ref={ref}>
-      <img
-        src="/assets/images/by_the_numbers/expeditions/CircleGray.webp"
-        className="circle-gray"
-      />
+      <div className="circle circle-gray"></div>
       <img
         src="/assets/images/by_the_numbers/expeditions/CircleImage.webp"
-        className="circle-image"
+        className="circle circle-image"
       />
-      <img
-        src="/assets/images/by_the_numbers/expeditions/CircleBlue.webp"
-        className="circle-blue"
-      />
-      <p className="numbers-expeditions numbers">
+      <div className="circle circle-blue"></div>
+      <div className="numbers-expeditions numbers">
         <Counter delay={2.25}>9</Counter>
-      </p>
-      <img
-        src="/assets/images/by_the_numbers/expeditions/CircleDarkBlue.webp"
-        className="circle-darkblue"
-      />
+      </div>
+      <div className="circle circle-darkblue"></div>
       <p className="numbers-days numbers">
         <Counter delay={2.25}>223</Counter>
       </p>

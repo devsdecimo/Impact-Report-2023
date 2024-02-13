@@ -24,7 +24,6 @@ function ByTheNumbers() {
         header_image="/assets/images/by_the_numbers/Header.webp"
         footer_image="/assets/images/by_the_numbers/Footer.webp"
       >
-        {/* <Counter>10000</Counter> */}
         <div className="intro-text">
           <p>
             It is a long established fact that a reader will be distracted by
