@@ -32,20 +32,14 @@ function MappedData() {
 
   return (
     <MappedDataContainer ref={ref}>
-      <img
-        src="/assets/images/by_the_numbers/mapped/CircleLightblue.webp"
-        className="circle circle-lighterbluebg"
-      />
+      <div className="circle circle-lighterbluebg"></div>
 
       <img
         src="/assets/images/by_the_numbers/mapped/CircleImage1.webp"
         className="circle circle-image1"
       />
 
-      <img
-        src="/assets/images/by_the_numbers/mapped/CircleLightblue.webp"
-        className="circle circle-lighterblue"
-      />
+      <div className="circle circle-lighterblue"></div>
 
       <img
         src="/assets/images/by_the_numbers/mapped/CircleImage2.webp"
