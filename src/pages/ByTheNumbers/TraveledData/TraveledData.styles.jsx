@@ -3,11 +3,10 @@ import styled from "styled-components";
 export const TraveledDataContainer = styled.div`
   position: relative;
   display: inline-flex;
-  margin-right: 10vw;
   font-weight: 700;
   min-width: 70vw;
   min-height: 15vh;
-  aspect-ratio: 1.9;
+  aspect-ratio: 0.55;
   justify-self: center;
   margin-top: 8rem;
   @media (min-width: 830px) {
@@ -17,10 +16,7 @@ export const TraveledDataContainer = styled.div`
     grid-column: 2 / 3;
     justify-self: right;
     margin-top: 0;
-  }
-
-  img {
-    position: absolute;
+    margin-right: 10vw;
   }
 
   .circle {
@@ -29,34 +25,50 @@ export const TraveledDataContainer = styled.div`
     position: absolute;
 
     &-lightblue {
-      width: 46%;
-      top: 0;
-      bottom: 0;
-      right: 20%;
+      width: 70%;
+      top: -1%;
+      right: -1%;
       background-color: #a7e7f6;
+      @media (min-width: 830px) {
+        width: 46%;
+        right: 20%;
+      }
     }
 
     &-darkblue {
-      width: 11%;
-      right: 11%;
-      top: 39%;
       background-color: #5d8cab;
       mix-blend-mode: multiply;
+      width: 21%;
+      top: 84%;
+      left: 11%;
+      @media (min-width: 830px) {
+        width: 11%;
+        left: unset;
+        right: 11%;
+        top: 39%;
+      }
     }
 
     &-blue {
-      width: 11%;
-      right: 16%;
-      top: 21%;
+      width: 21%;
+      top: 72%;
+      left: 36%;
       background-color: #56a1c8;
       mix-blend-mode: multiply;
+      @media (min-width: 830px) {
+        width: 11%;
+        left: unset;
+        right: 16%;
+        top: 21%;
+      }
     }
   }
 
   .ship {
-    top: -15%;
-    right: 2%;
-    width: 106%;
+    position: absolute;
+    top: -8%;
+    right: -25%;
+    width: 140%;
     @media (min-width: 830px) {
       right: 1%;
       top: -24%;
@@ -73,22 +85,39 @@ export const TraveledDataContainer = styled.div`
     align-items: center;
     line-height: 0;
     aspect-ratio: 1 / 1;
-    width: 11%;
+    width: 21%;
+    font-size: 10vw;
+
+    span {
+      margin-top: 10%;
+    }
 
     @media (min-width: 830px) {
+      width: 11%;
       font-size: 2.4vw;
     }
 
     &-countries {
-      right: 16%;
-      top: 21%;
-      transform: translateY(-50%);
+      top: 72%;
+      left: 36%;
+      @media (min-width: 830px) {
+        width: 11%;
+        left: unset;
+        right: 16%;
+        top: 21%;
+      }
     }
 
     &-us {
-      right: 11%;
-      top: 39%;
-      transform: translateY(-50%);
+      width: 21%;
+      top: 84%;
+      left: 11%;
+      @media (min-width: 830px) {
+        width: 11%;
+        left: unset;
+        right: 11%;
+        top: 39%;
+      }
     }
 
     span {
@@ -103,68 +132,83 @@ export const TraveledDataContainer = styled.div`
     font-weight: 400;
     &-traveled {
       color: #5a83a1;
-      font-size: 8vw;
+      font-size: 12.7vw;
       text-transform: uppercase;
-      top: -16%;
-      left: 47%;
+      top: 52%;
+      left: 1%;
       font-weight: 800;
       @media (min-width: 830px) {
         font-size: 3.4vw;
+        top: -16%;
+        left: 47%;
       }
     }
 
     &-km {
       color: #5a83a1;
-      font-size: 6vw;
-      top: 2%;
-      right: 3%;
       font-weight: 800;
+
+      font-size: 10.2vw;
+      top: 62%;
+      left: 16%;
+
       @media (min-width: 830px) {
         font-size: 2.45vw;
+        top: 2%;
+        right: 3%;
+        left: unset;
       }
     }
 
     &-visiting {
       color: #56a1c8;
-      font-size: 3vw;
-      right: 28%;
-      top: 29%;
-      transform: translateY(-50%);
+      font-size: 7vw;
+      left: 5%;
+      top: 74%;
       @media (min-width: 830px) {
         font-size: 1.6vw;
+        left: unset;
+        right: 28%;
+        top: 29%;
       }
     }
 
     &-countries {
       color: #56a1c8;
-      font-size: 3vw;
-      right: -2%;
-      top: 29%;
-      transform: translateY(-50%);
+      font-size: 7vw;
+      left: 59.5%;
+      top: 74%;
       @media (min-width: 830px) {
         font-size: 1.6vw;
+        right: -2%;
+        left: unset;
+        top: 29%;
       }
     }
 
     &-ampersand {
       color: #5d8cab;
-      font-size: 5vw;
-      right: 23%;
-      top: 43%;
-      transform: translateY(-50%);
+      font-size: 7vw;
+      left: 0%;
+      top: 87%;
       @media (min-width: 830px) {
         font-size: 2.6vw;
+        right: 23%;
+        left: unset;
+        top: 43%;
       }
     }
 
     &-us {
       color: #5d8cab;
-      font-size: 3vw;
-      right: -17%;
-      top: 38%;
-      transform: translateY(-50%);
+      font-size: 7vw;
+      left: 36%;
+      top: 84%;
       @media (min-width: 830px) {
         font-size: 1.5vw;
+        right: -17%;
+        left: unset;
+        top: 38%;
       }
     }
   }
@@ -179,20 +223,25 @@ export const TraveledDataContainer = styled.div`
     opacity: 1;
     transform: scale(1);
     position: absolute;
-    bottom: -10%;
+    top: 33%;
     display: grid;
-    grid-template-rows: 1.25fr 1fr;
+    grid-template-rows: 1fr auto;
     flex-direction: column;
-    width: 15%;
+    width: 20%;
     aspect-ratio: unset;
     text-align: center;
     color: #5d8baa;
-    font-size: 2.4vw;
+    font-size: 3vw;
     font-weight: 400;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
 
     @media (min-width: 830px) {
       font-size: 1.1vw;
       bottom: -30%;
+      width: 15%;
+      top: unset;
     }
 
     img {
@@ -200,31 +249,54 @@ export const TraveledDataContainer = styled.div`
       grid-row: 1/2;
       align-items: start;
     }
+
     p {
       grid-row: 2/3;
       align-items: end;
       white-space: nowrap;
-      margin-top: 1.4rem;
+      margin: 0;
     }
 
     &-spain {
-      left: 2%;
+      left: -10%;
     }
 
     &-puertorico {
-      left: 18%;
+      left: 13%;
     }
 
     &-panama {
-      left: 34%;
+      left: 38%;
     }
 
     &-costarica {
-      left: 50%;
+      left: 62%;
     }
 
     &-ecuador {
-      left: 66%;
+      left: 85%;
+    }
+
+    @media (min-width: 830px) {
+      &-spain {
+        left: 0%;
+      }
+
+      &-puertorico {
+        left: 16%;
+      }
+
+      &-panama {
+        left: 32%;
+      }
+
+      &-costarica {
+        left: 48%;
+      }
+
+      &-ecuador {
+        left: 64%;
+      }
     }
   }
 

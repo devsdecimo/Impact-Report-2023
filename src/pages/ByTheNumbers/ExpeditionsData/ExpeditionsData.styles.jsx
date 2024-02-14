@@ -3,11 +3,11 @@ import styled from "styled-components";
 export const ExpeditionsDataContainer = styled.div`
   position: relative;
   display: inline-flex;
-  margin-left: 10vw;
   font-weight: 700;
   min-width: 70vw;
   min-height: 15vh;
   justify-self: center;
+  aspect-ratio: 0.9;
 
   @media (min-width: 830px) {
     min-width: 35vw;
@@ -15,6 +15,7 @@ export const ExpeditionsDataContainer = styled.div`
     grid-row: 1 / 5;
     grid-column: 1 / 2;
     justify-self: left;
+    margin-left: 10vw;
   }
 
   img {
@@ -27,42 +28,52 @@ export const ExpeditionsDataContainer = styled.div`
     position: absolute;
 
     &-image {
-      width: 44%;
-      top: 6%;
+      width: 64%;
+      top: 5%;
       bottom: 0;
-      left: 5%;
+      right: 10%;
       @media (min-width: 830px) {
+        width: 44%;
         top: 0;
+        right: unset;
+        left: 5%;
       }
     }
 
     &-gray {
-      width: 44%;
-      top: -9%;
-      left: -5%;
+      width: 64%;
+      top: 0;
+      left: 2%;
       mix-blend-mode: multiply;
       background-color: #eeeeee;
+      @media (min-width: 830px) {
+        width: 44%;
+        top: -9%;
+        left: -5%;
+      }
     }
 
-    &-blue,
     &-darkblue {
       width: 21%;
-      display: flex;
-      justify-content: center;
-      mix-blend-mode: multiply;
-    }
-
-    &-darkblue {
-      right: 40%;
-      top: 9%;
+      left: 10%;
+      top: 85%;
       background-color: #3e5973;
+      mix-blend-mode: multiply;
+      @media (min-width: 830px) {
+        left: unset;
+        right: 40%;
+        top: 9%;
+      }
     }
 
     &-blue {
-      left: 13%;
-      top: -25%;
+      width: 21%;
+      left: 2%;
+      top: 70%;
       background-color: #56a1c8;
+      mix-blend-mode: multiply;
       @media (min-width: 830px) {
+        left: 13%;
         top: -30%;
       }
     }
@@ -78,24 +89,31 @@ export const ExpeditionsDataContainer = styled.div`
     line-height: 0;
     aspect-ratio: 1 / 1;
     width: 21%;
+    span {
+      margin-top: 10%;
+    }
 
     &-expeditions {
-      font-size: 14vw;
-      left: 13%;
-      top: -25%;
+      font-size: 10vw;
+      left: 2%;
+      top: 70%;
       @media (min-width: 830px) {
         font-size: 6vw;
+        left: 13%;
         top: -30%;
       }
     }
 
     &-days {
       font-size: 7vw;
-      right: 40%;
-      top: 9%;
+      left: 10%;
+      top: 85%;
       transform: translateY(-50%);
       @media (min-width: 830px) {
         font-size: 2.8vw;
+        left: unset;
+        right: 40%;
+        top: 9%;
       }
     }
 
@@ -110,25 +128,29 @@ export const ExpeditionsDataContainer = styled.div`
     margin: 0;
     &-expeditions {
       color: #56a1c8;
-      font-size: 6vw;
+      font-size: 7vw;
       text-transform: uppercase;
-      top: -20%;
-      left: 36%;
+      top: 75%;
+      left: 28%;
       @media (min-width: 830px) {
         top: -24%;
+        left: 36%;
         font-size: 3.1vw;
       }
     }
 
     &-days {
       color: #3e5973;
-      font-size: 4.5vw;
-      right: 1%;
-      top: 22%;
+      font-size: 6.7vw;
+      left: 35%;
+      top: 88.5%;
       transform: translateY(-50%);
       font-weight: 400;
       @media (min-width: 830px) {
         font-size: 2.2vw;
+        left: unset;
+        right: 1%;
+        top: 23.5%;
       }
     }
   }
