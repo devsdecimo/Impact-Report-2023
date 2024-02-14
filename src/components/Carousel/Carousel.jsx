@@ -6,6 +6,7 @@ function Carousel({ slides, autoplay = true, loop = true, delay = 5000 }) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isDragging, setIsDragging] = useState(false);
   const [startX, setStartX] = useState(0);
+  const [dragDistance, setDragDistance] = useState(0);
   const timeoutRef = useRef(null);
 
   useEffect(() => {
@@ -66,13 +67,14 @@ function Carousel({ slides, autoplay = true, loop = true, delay = 5000 }) {
     e.preventDefault();
     setIsDragging(true);
     setStartX(e.clientX);
+    setDragDistance(0);
   };
 
   const handleMouseMove = (e) => {
     if (isDragging) {
       const currentX = e.clientX;
       const diffX = startX - currentX;
-
+      setDragDistance(dragDistance => dragDistance + Math.abs(diffX));
       if (Math.abs(diffX) > 50) {
         diffX > 0 ? nextSlide() : prevSlide();
         setIsDragging(false);
@@ -81,7 +83,10 @@ function Carousel({ slides, autoplay = true, loop = true, delay = 5000 }) {
   };
 
   const handleMouseUp = () => {
-    setIsDragging(false);
+    if (dragDistance < 5) {
+      setIsDragging(false);
+      setDragDistance(0);
+    }
   };
 
   const pauseAutoplay = () => {
@@ -131,7 +136,7 @@ function Carousel({ slides, autoplay = true, loop = true, delay = 5000 }) {
     };
     img.src = imgUrl;
   };
-  
+
   return (
     <CarouselContainer
       onMouseDown={handleMouseDown}
@@ -172,7 +177,7 @@ function Carousel({ slides, autoplay = true, loop = true, delay = 5000 }) {
         {slides.map((_, index) => (
           <Dot
             key={index}
-            actived={''+(index === currentIndex)}
+            actived={(index === currentIndex ? 1 : 0)}
             onClick={() => handleDotClick(index)}
           />
         ))}
