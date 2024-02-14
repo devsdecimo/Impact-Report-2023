@@ -24,41 +24,50 @@ export const SharedDataContainer = styled.div`
     position: absolute;
   }
 
-  .circle-image {
-    top: 10%;
-    left: -4%;
-    height: 80%;
-    @media (min-width: 830px) {
-      left: 0&;
+  .circle {
+    position: absolute;
+    aspect-ratio: 1 / 1;
+    border-radius: 100%;
+    &-image {
+      top: 10%;
+      left: -4%;
+      height: 80%;
+      @media (min-width: 830px) {
+        left: 0&;
+      }
     }
-  }
 
-  .circle-lighterblue {
-    left: 28%;
-    top: 30%;
-    width: 39%;
-    mix-blend-mode: multiply;
-  }
+    &-lighterblue {
+      left: 28%;
+      top: 30%;
+      width: 39%;
+      mix-blend-mode: multiply;
+      background-color: #a7e7f6;
+    }
 
-  .circle-lightblue {
-    left: 58%;
-    top: 26%;
-    width: 21%;
-    mix-blend-mode: multiply;
-  }
+    &-lightblue {
+      left: 58%;
+      top: 26%;
+      width: 21%;
+      mix-blend-mode: multiply;
+      background-color: #85ccf6;
+    }
 
-  .circle-blue {
-    left: 12%;
-    top: -10%;
-    width: 45%;
-    mix-blend-mode: multiply;
-  }
+    &-blue {
+      left: 12%;
+      top: -10%;
+      width: 45%;
+      mix-blend-mode: multiply;
+      background-color: #83caf4;
+    }
 
-  .circle-darkblue {
-    left: 33%;
-    top: 15%;
-    width: 14%;
-    mix-blend-mode: multiply;
+    &-darkblue {
+      left: 33%;
+      top: 15%;
+      width: 14%;
+      mix-blend-mode: multiply;
+      background-color: #56a1c8;
+    }
   }
 
   .numbers {
@@ -168,6 +177,7 @@ export const SharedDataContainer = styled.div`
 
   &.animated {
     img,
+    .circle,
     .text,
     .numbers,
     .country > * {

@@ -32,19 +32,9 @@ function TraveledData() {
 
   return (
     <TraveledDataContainer ref={ref}>
-      <img
-        src="/assets/images/by_the_numbers/traveled/CircleLightblue.webp"
-        className="circle-lightblue"
-      />
-      <img
-        src="/assets/images/by_the_numbers/traveled/CircleBlue.webp"
-        className="circle-blue"
-      />
-      <img
-        src="/assets/images/by_the_numbers/traveled/CircleDarkblue.webp"
-        className="circle-darkblue"
-      />
-
+      <div className="circle circle-lightblue"></div>
+      <div className="circle circle-blue"></div>
+      <div className="circle circle-darkblue"></div>
       <img
         src="/assets/images/by_the_numbers/traveled/Ship.webp"
         className="ship"

@@ -34,22 +34,10 @@ function ReachedData() {
 
   return (
     <ReachedDataContainer ref={ref}>
-      <img
-        src="/assets/images/by_the_numbers/reached/CircleGray.webp"
-        className="circle-gray"
-      />
-      <img
-        src="/assets/images/by_the_numbers/reached/CircleLighterblue.webp"
-        className="circle-lighterblue"
-      />
-      <img
-        src="/assets/images/by_the_numbers/reached/CircleDarkblue.webp"
-        className="circle-darkblue"
-      />
-      <img
-        src="/assets/images/by_the_numbers/reached/CircleLightblue.webp"
-        className="circle-lightblue"
-      />
+      <div className="circle circle-gray"></div>
+      <div className="circle circle-lighterblue"></div>
+      <div className="circle circle-darkblue"></div>
+      <div className="circle circle-lightblue"></div>
       <img
         src="/assets/images/by_the_numbers/reached/Image.webp"
         className="image"
@@ -58,7 +46,8 @@ function ReachedData() {
         <Counter delay={2.75}>8600</Counter>
       </p>
       <p className="numbers-social numbers">
-      <Counter delay={2.75}>12</Counter>,<Counter delay={2.75}>5</Counter> <span className="million">million</span>
+        <Counter delay={2.75}>12</Counter>,<Counter delay={2.75}>5</Counter>{" "}
+        <span className="million">million</span>
       </p>
       <p className="text text-reached">Reached</p>
       <p className="text text-people">

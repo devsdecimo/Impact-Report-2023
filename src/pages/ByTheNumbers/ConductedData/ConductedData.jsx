@@ -34,36 +34,17 @@ function ConductedData() {
 
   return (
     <ConductedDataContainer ref={ref}>
-      <img
-        src="/assets/images/by_the_numbers/conducted/CircleOver.webp"
-        className="circle-overbg"
-      />
-      <img
-        src="/assets/images/by_the_numbers/conducted/CircleBG.webp"
-        className="circle-bg"
-      />
-      <img
-        src="/assets/images/by_the_numbers/conducted/CircleBlue.webp"
-        className="circle-blue"
-      />
-
-      <img
-        src="/assets/images/by_the_numbers/conducted/CircleLightblue.webp"
-        className="circle-lightblue"
-      />
+      <div className="circle circle-overbg"></div>
+      <div className="circle circle-bg"></div>
+      <div className="circle circle-blue"></div>
+      <div className="circle circle circle-lightblue"></div>
       <img
         src="/assets/images/by_the_numbers/conducted/Image.webp"
         className="image"
       />
-      <img
-        src="/assets/images/by_the_numbers/conducted/CircleOver.webp"
-        className="circle-over"
-      />
-      <img
-        src="/assets/images/by_the_numbers/conducted/CircleDarkblue.webp"
-        className="circle-darkblue"
-      />
-      
+      <div className="circle circle-over"></div>
+      <div className="circle circle-darkblue"></div>
+
       <p className="text text-conducted">Conducted</p>
       <p className="text text-ctd">CTD casts</p>
       <p className="text text-ampersand">&</p>

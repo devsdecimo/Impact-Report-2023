@@ -31,56 +31,67 @@ export const ConductedDataContainer = styled.div`
     left: 0;
   }
 
-  .circle-bg {
+  .circle {
     position: absolute;
-    width: 42%;
-    left: 10%;
-    top: -8%;
-  }
+    aspect-ratio: 1/1;
+    border-radius: 100%;
 
-  .circle-over {
-    mix-blend-mode: overlay;
-    left: 36%;
-    width: 28%;
-    top: 7%;
-  }
-
-  .circle-overbg {
-    left: 36%;
-    width: 28%;
-    top: 7%;
-  }
-
-  .circle-darkblue {
-    right: 25.5%;
-    top: 30%;
-    width: 15%;
-    mix-blend-mode: multiply;
-    @media (min-width: 830px) {
-      width: 18%;
+    &-bg {
+      width: 42%;
+      left: 10%;
+      top: -8%;
+      background-color: #83caf4;
     }
-  }
 
-  .circle-blue {
-    right: 25%;
-    top: 53%;
-    width: 15%;
-    mix-blend-mode: multiply;
-    @media (min-width: 830px) {
-      width: 18%;
-      right: 23%;
+    &-over {
+      mix-blend-mode: overlay;
+      left: 36%;
+      width: 28%;
+      top: 7%;
+      background-color: #a7e7f6;
     }
-  }
 
-  .circle-lightblue {
-    right: 31%;
-    top: 69%;
-    width: 15%;
-    mix-blend-mode: multiply;
-    @media (min-width: 830px) {
-      width: 18%;
-      right: 29%;
-      top: 83%;
+    &-overbg {
+      left: 36%;
+      width: 28%;
+      top: 7%;
+      background-color: #a7e7f6;
+    }
+
+    &-darkblue {
+      right: 25.5%;
+      top: 30%;
+      width: 15%;
+      mix-blend-mode: multiply;
+      background-color: #3e5973;
+      @media (min-width: 830px) {
+        width: 18%;
+      }
+    }
+
+    &-blue {
+      right: 25%;
+      top: 53%;
+      width: 15%;
+      mix-blend-mode: multiply;
+      background-color: #56a1c8;
+      @media (min-width: 830px) {
+        width: 18%;
+        right: 23%;
+      }
+    }
+
+    &-lightblue {
+      right: 31%;
+      top: 69%;
+      width: 15%;
+      mix-blend-mode: multiply;
+      background-color: #84cbf5;
+      @media (min-width: 830px) {
+        width: 18%;
+        right: 29%;
+        top: 83%;
+      }
     }
   }
 
@@ -114,7 +125,6 @@ export const ConductedDataContainer = styled.div`
         width: 18%;
         right: 23%;
         padding-top: 1%;
-
       }
     }
 
@@ -226,6 +236,7 @@ export const ConductedDataContainer = styled.div`
 
   &.animated {
     img,
+    .circle,
     .text,
     .numbers {
       animation: fade-in 1s ease-in-out;

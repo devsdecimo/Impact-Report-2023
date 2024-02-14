@@ -30,43 +30,48 @@ export const HostedDataContainer = styled.div`
     pointer-events: none;
   }
 
-  .circle-image {
+  .circle {
     position: absolute;
-    right: -11%;
-    top: 15%;
-    height: 78%;
-  }
+    aspect-ratio: 1 / 1;
+    border-radius: 100%;
 
-  .circle-blue {
-    position: absolute;
-    right: 13%;
-    top: 10%;
-    height: 80%;
-    mix-blend-mode: multiply;
-  }
+    &-image {
+      right: -11%;
+      top: 15%;
+      height: 78%;
+    }
 
-  .circle-lightblue {
-    position: absolute;
-    right: 76%;
-    top: 50%;
-    width: 10%;
-    mix-blend-mode: darken;
-  }
+    &-blue {
+      background-color: #83caf4;
+      right: 13%;
+      top: 10%;
+      height: 80%;
+      mix-blend-mode: multiply;
+    }
 
-  .circle-mediumblue {
-    position: absolute;
-    right: 81%;
-    top: 62%;
-    width: 10%;
-    mix-blend-mode: multiply;
-  }
+    &-lightblue {
+      background-color: #83caf5;
+      right: 76%;
+      top: 50%;
+      width: 10%;
+      mix-blend-mode: darken;
+    }
 
-  .circle-darkblue {
-    position: absolute;
-    right: 80%;
-    top: 34%;
-    width: 12%;
-    mix-blend-mode: multiply;
+    &-mediumblue {
+      background-color: #5d8cab;
+      right: 81%;
+      top: 62%;
+      width: 10%;
+      mix-blend-mode: multiply;
+    }
+
+    &-darkblue {
+      background-color: #365974;
+      right: 80%;
+      top: 34%;
+      width: 12%;
+      mix-blend-mode: multiply;
+    }
   }
 
   .ship {
@@ -208,6 +213,7 @@ export const HostedDataContainer = styled.div`
 
   &.animated {
     img,
+    .circle,
     .text,
     .numbers,
     .country > * {
