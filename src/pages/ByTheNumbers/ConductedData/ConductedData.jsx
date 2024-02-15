@@ -53,10 +53,11 @@ function ConductedData() {
       <p className="text text-ctd">CTD casts</p>
       <p className="text text-ampersand">&</p>
       <p className="text text-underwater">
-        underwater dives with ROV <i>SuBastian</i>
+        underwater <br className="mobile"/> dives with ROV <br className="mobile"/><i>SuBastian</i>
       </p>
       <p className="text text-totaling">Totaling</p>
-      <p className="text text-hours">hours of deep-sea exploration</p>
+      <p className="text text-hours-desktop">hours of deep-sea exploration</p>
+      <p className="text text-hours">Total hours of deep-sea exploration</p>
 
       <p className="numbers-ctd numbers">
         <Counter condition={countersStart}>213</Counter>

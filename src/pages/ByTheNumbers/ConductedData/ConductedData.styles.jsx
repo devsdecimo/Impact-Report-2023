@@ -6,10 +6,9 @@ export const ConductedDataContainer = styled.div`
   font-weight: 700;
   min-width: 70vw;
   min-height: 15vh;
-  aspect-ratio: 1.7;
+  aspect-ratio: 0.55;
   justify-self: center;
   margin-top: 8rem;
-  margin-left: -8rem;
   @media (min-width: 830px) {
     min-width: 30vw;
     aspect-ratio: 2.1;
@@ -25,10 +24,16 @@ export const ConductedDataContainer = styled.div`
   }
 
   .image {
-    width: 100%;
+    width: 140%;
     top: 0;
     bottom: 0;
-    left: 0;
+    left: 2%;
+    @media (min-width: 830px) {
+      width: 100%;
+      top: 0;
+      bottom: 0;
+      left: 0;
+    }
   }
 
   .circle {
@@ -37,60 +42,82 @@ export const ConductedDataContainer = styled.div`
     border-radius: 100%;
 
     &-bg {
-      width: 42%;
-      left: 10%;
-      top: -8%;
+      width: 56%;
+      left: 12%;
+      top: -2%;
       background-color: #83caf4;
+      @media (min-width: 830px) {
+        width: 42%;
+        left: 10%;
+        top: -8%;
+      }
     }
 
     &-over {
       mix-blend-mode: overlay;
-      left: 36%;
-      width: 28%;
-      top: 7%;
+      left: 53%;
+      width: 40%;
+      top: 1%;
       background-color: #a7e7f6;
+      @media (min-width: 830px) {
+        left: 36%;
+        width: 28%;
+        top: 7%;
+      }
     }
 
     &-overbg {
-      left: 36%;
-      width: 28%;
-      top: 7%;
+      left: 53%;
+      width: 40%;
+      top: 1%;
+
       background-color: #a7e7f6;
+      @media (min-width: 830px) {
+        left: 36%;
+        width: 28%;
+        top: 7%;
+      }
     }
 
     &-darkblue {
-      right: 25.5%;
-      top: 30%;
-      width: 15%;
+      left: 2%;
+      top: 48%;
+      width: 25%;
       mix-blend-mode: multiply;
       background-color: #3e5973;
       @media (min-width: 830px) {
         width: 18%;
+        top: 30%;
+        right: 25.5%;
+        left: unset;
       }
     }
 
     &-blue {
-      right: 25%;
-      top: 53%;
-      width: 15%;
+      left: 2%;
+      width: 25%;
+      top: 65%;
       mix-blend-mode: multiply;
       background-color: #56a1c8;
       @media (min-width: 830px) {
         width: 18%;
         right: 23%;
+        top: 53%;
+        left: unset;
       }
     }
 
     &-lightblue {
-      right: 31%;
-      top: 69%;
-      width: 15%;
+      left: 2%;
+      top: 82%;
+      width: 25%;
       mix-blend-mode: multiply;
       background-color: #84cbf5;
       @media (min-width: 830px) {
         width: 18%;
         right: 29%;
         top: 83%;
+        left: unset;
       }
     }
   }
@@ -104,40 +131,49 @@ export const ConductedDataContainer = styled.div`
     align-items: center;
     aspect-ratio: 1 / 1;
 
+    span {
+      margin-top: 10%;
+    }
+
     &-ctd {
-      font-size: 3.8vw;
-      right: 25.5%;
-      top: 30%;
-      width: 15%;
+      font-size: 6.8vw;
+      left: 2%;
+      top: 48%;
+      width: 25%;
       @media (min-width: 830px) {
         font-size: 2.2vw;
         width: 18%;
+        top: 30%;
+        right: 25.5%;
+        left: unset;
       }
     }
 
     &-underwater {
-      font-size: 3.8vw;
-      width: 15%;
-      right: 25%;
-      top: 53%;
+      font-size: 6.8vw;
+      left: 2%;
+      width: 25%;
+      top: 65%;
       @media (min-width: 830px) {
         font-size: 2.2vw;
         width: 18%;
+        top: 53%;
         right: 23%;
-        padding-top: 1%;
+        left: unset;
       }
     }
 
     &-hours {
-      font-size: 3vw;
-      right: 31%;
-      top: 69%;
-      width: 15%;
+      font-size: 6.8vw;
+      left: 2%;
+      top: 82%;
+      width: 25%;
       @media (min-width: 830px) {
         font-size: 1.9vw;
         width: 18%;
         right: 29%;
         top: 83%;
+        left: unset;
       }
     }
 
@@ -152,50 +188,54 @@ export const ConductedDataContainer = styled.div`
     margin: 0;
     &-conducted {
       color: #56a1c8;
-      font-size: 6vw;
       text-transform: uppercase;
-      top: 5%;
-      left: 35%;
+      font-size: 10vw;
+      top: 38%;
+      left: 4%;
       @media (min-width: 830px) {
         font-size: 3vw;
+        top: 5%;
+        left: 35%;
       }
     }
 
     &-ctd {
       color: #3e5973;
-      font-size: 4.3vw;
+      font-size: 5.5vw;
       font-weight: 400;
-      right: -2%;
-      top: 38%;
+      left: 30%;
+      top: 53%;
       @media (min-width: 830px) {
         font-size: 2.1vw;
         right: -4%;
+        left: unset;
         top: 35%;
       }
     }
 
     &-ampersand {
       color: #3e5973;
-      font-size: 4.3vw;
-      font-weight: 400;
-      right: -9%;
-      top: 40%;
+      display: none;
       @media (min-width: 830px) {
+        display: block;
+        font-weight: 400;
         font-size: 2.1vw;
+        top: 40%;
         right: -11%;
       }
     }
 
     &-underwater {
       color: #56a1c8;
-      font-size: 4vw;
+      font-size: 5.5vw;
       font-weight: 400;
-      right: -24%;
-      top: 54%;
-      width: 48%;
+      top: 64%;
+      width: 90%;
+      left: 30%;
       @media (min-width: 830px) {
         font-size: 2.1vw;
         right: -37%;
+        left: unset;
         top: 57%;
         width: 58%;
       }
@@ -203,28 +243,34 @@ export const ConductedDataContainer = styled.div`
 
     &-totaling {
       color: #85ccf6;
-      font-size: 3vw;
-      font-weight: 400;
-      right: 47%;
-      top: 79%;
+      display: none;
       @media (min-width: 830px) {
+        display: block;
         font-size: 1.5vw;
         right: 49%;
-        top: 96%;
+        top: 97%;
       }
     }
 
     &-hours {
-      color: #85ccf6;
-      font-size: 3.2vw;
-      font-size: 3vw;
-      font-weight: 400;
-      right: -19%;
-      top: 79%;
+      font-size: 5.5vw;
+      color: #3e85af;
+      top: 83%;
+      left: 30%;
+      width: 40%;
       @media (min-width: 830px) {
+        display: none;
+      }
+    }
+
+    &-hours-desktop {
+      color: #85ccf6;
+      display: none;
+      @media (min-width: 830px) {
+        display: block;
         font-size: 1.5vw;
-        top: 96%;
-        right: -29%;
+        top: 97%;
+        right: -33%;
       }
     }
   }

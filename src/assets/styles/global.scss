@@ -96,3 +96,17 @@ body {
     transform: scale(1);
   }
 }
+
+.mobile{
+  display: block;
+  @media (min-width:830px) {
+    display: none;
+  }
+}
+
+.desktop{
+  display: none;
+  @media (min-width:830px) {
+    display: block;
+  }
+}
