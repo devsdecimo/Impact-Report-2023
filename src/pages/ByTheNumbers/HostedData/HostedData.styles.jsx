@@ -3,19 +3,20 @@ import styled from "styled-components";
 export const HostedDataContainer = styled.div`
   position: relative;
   display: inline-flex;
-  margin-right: 10vw;
   font-weight: 700;
   min-width: 70vw;
   min-height: 15vh;
-  aspect-ratio: 1.78;
   justify-self: center;
   margin-top: 8rem;
+  aspect-ratio: 0.65;
   @media (min-width: 830px) {
     min-width: 30vw;
     grid-row: 19 / 24;
     grid-column: 2 / 3;
     justify-self: right;
     margin-top: 0;
+    aspect-ratio: 1.78;
+    margin-right: 10vw;
   }
 
   img {
@@ -25,9 +26,13 @@ export const HostedDataContainer = styled.div`
   .image {
     top: 0;
     bottom: 0;
-    right: 0;
-    max-height: 100%;
+    right: 20%;
+    width: 120%;
     pointer-events: none;
+    @media (min-width: 830px) {
+      right: 0;
+      width: 100%;
+    }
   }
 
   .circle {
@@ -36,41 +41,69 @@ export const HostedDataContainer = styled.div`
     border-radius: 100%;
 
     &-image {
-      right: -11%;
-      top: 15%;
-      height: 78%;
+      right: 10%;
+      top: 8%;
+      width: 50%;
+      @media (min-width: 830px) {
+        right: -11%;
+        top: 15%;
+        width: 45%;
+      }
     }
 
     &-blue {
       background-color: #83caf4;
-      right: 13%;
-      top: 10%;
-      height: 80%;
+      right: 40%;
+      top: 5%;
+      width: 50%;
       mix-blend-mode: multiply;
+      @media (min-width: 830px) {
+        right: 13%;
+        top: 10%;
+        width: 45%;
+      }
     }
 
     &-lightblue {
       background-color: #83caf5;
-      right: 76%;
-      top: 50%;
-      width: 10%;
+      left: 21%;
+      top: 67%;
+      width: 21%;
       mix-blend-mode: darken;
+      @media (min-width: 830px) {
+        right: 76%;
+        left: unset;
+        top: 50%;
+        width: 10%;
+      }
     }
 
     &-mediumblue {
       background-color: #5d8cab;
-      right: 81%;
-      top: 62%;
-      width: 10%;
+      top: 75%;
+      width: 21%;
+      left: 10%;
       mix-blend-mode: multiply;
+      @media (min-width: 830px) {
+        right: 81%;
+        left: unset;
+        top: 62%;
+        width: 10%;
+      }
     }
 
     &-darkblue {
       background-color: #365974;
-      right: 80%;
-      top: 34%;
-      width: 12%;
+      top: 57%;
+      width: 23%;
+      left: 10%;
       mix-blend-mode: multiply;
+      @media (min-width: 830px) {
+        right: 80%;
+        left: unset;
+        top: 34%;
+        width: 12%;
+      }
     }
   }
 
@@ -96,31 +129,53 @@ export const HostedDataContainer = styled.div`
     aspect-ratio: 1 / 1;
     font-size: 4vw;
 
+    span {
+      margin-top: 10%;
+    }
+
     @media (min-width: 830px) {
       font-size: 2vw;
     }
 
     &-scientists {
-      right: 80%;
-      top: 34%;
-      width: 12%;
+      top: 57%;
+      width: 23%;
+      left: 10%;
+      font-size: 8vw;
+      @media (min-width: 830px) {
+        font-size: 1.8vw;
+        right: 80%;
+        left: unset;
+        top: 34%;
+        width: 12%;
+      }
     }
 
     &-students {
-      right: 76%;
-      top: 50%;
-      width: 10%;
+      left: 21%;
+      top: 67%;
+      width: 21%;
+      font-size: 7vw;
       @media (min-width: 830px) {
         font-size: 1.8vw;
+        right: 76%;
+        left: unset;
+        top: 50%;
+        width: 10%;
       }
     }
 
     &-artists {
-      right: 81%;
-      top: 62%;
-      width: 10%;
+      top: 75%;
+      width: 21%;
+      left: 10%;
+      font-size: 7vw;
       @media (min-width: 830px) {
         font-size: 1.8vw;
+        right: 81%;
+        left: unset;
+        top: 62%;
+        width: 10%;
       }
     }
 
@@ -133,75 +188,86 @@ export const HostedDataContainer = styled.div`
     position: absolute;
     right: 0;
     margin: 0;
+    font-size: 7vw;
+
+    @media (min-width: 830px) {
+      font-size: 1.3vw;
+    }
+
     &-hosted {
       color: #3e5973;
       font-size: 6vw;
+      font-size: 12.7vw;
       text-transform: uppercase;
-      top: 15%;
-      left: 7%;
+      top: 45%;
+      left: 11%;
       @media (min-width: 830px) {
         font-size: 2.8vw;
+        top: 15%;
+        left: 7%;
       }
     }
 
     &-scientists {
       color: #5a83a1;
-      font-size: 3vw;
       position: absolute;
-      right: 63%;
-      top: 40%;
+      right: 30%;
+      top: 60%;
       font-weight: 400;
       @media (min-width: 830px) {
-        font-size: 1.3vw;
+        right: 63%;
+        top: 40%;
       }
     }
 
     &-students {
       color: #9fc9f4;
-      font-size: 3vw;
       position: absolute;
-      right: 61%;
-      top: 52%;
+      right: 23%;
+      top: 69.5%;
       font-weight: 400;
       @media (min-width: 830px) {
-        font-size: 1.3vw;
+        right: 61%;
+        top: 52%;
       }
     }
 
     &-artists {
       color: #5d8baa;
-      font-size: 3vw;
       position: absolute;
-      right: 70%;
-      top: 66%;
+      right: 44%;
+      top: 78.5%;
       font-weight: 400;
       @media (min-width: 830px) {
-        font-size: 1.3vw;
+        right: 70%;
+        top: 66%;
       }
     }
 
     &-ampersand {
       color: #5a83a1;
-      font-size: 3.2vw;
-      right: 64%;
-      top: 69%;
+      right: 34%;
+      top: 80%;
       font-weight: 400;
       transform: translateY(-50%);
       @media (min-width: 830px) {
         font-size: 1.5vw;
+        right: 64%;
+        top: 69%;
       }
     }
 
     &-berths {
       color: #99bed5;
-      font-size: 3vw;
-      right: 60%;
-      top: 78%;
+      right: 20%;
+      top: 86%;
       font-weight: 400;
-      width: 20%;
+      width: 47%;
       transform: translateY(-50%);
       @media (min-width: 830px) {
-        font-size: 1.3vw;
+        right: 60%;
+        top: 78%;
+        width: 20%;
       }
     }
   }
