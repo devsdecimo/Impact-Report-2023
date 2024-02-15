@@ -287,25 +287,25 @@ export const HostedDataContainer = styled.div`
       animation-fill-mode: forwards;
     }
     .circle-blue {
-      animation-delay: 0.5s;
+      animation-delay: 0.3125s;
     }
     .circle-darkblue {
-      animation-delay: 1s;
+      animation-delay: 0.625s;
     }
     .circle-lightblue {
       animation-delay: 1.25s;
     }
     .circle-mediumblue {
-      animation-delay: 1.5s;
+      animation-delay: 1.5625s;
     }
     .image {
-      animation-delay: 2s;
+      animation-delay: 1.875s;
     }
     .text {
-      animation-delay: 2.5s;
+      animation-delay: 2.1875s;
     }
     .numbers {
-      animation-delay: 3s;
+      animation-delay: 2.5s;
     }
   }
 `;

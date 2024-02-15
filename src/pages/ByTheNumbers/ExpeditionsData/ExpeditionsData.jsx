@@ -14,7 +14,7 @@ function ExpeditionsData() {
             entry.target.classList.add("animated");
             setTimeout(() => {
               setCountersStart(true);
-            }, 2000);
+            }, 2600);
           } else {
             if (entry.target.classList.contains("animated")) {
               // entry.target.classList.remove("animated");

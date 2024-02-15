@@ -333,46 +333,46 @@ export const TraveledDataContainer = styled.div`
 
       &-spain {
         img {
-          animation-delay: 3s;
+          animation-delay: 2.1s;
         }
         p {
-          animation-delay: 4s;
+          animation-delay: 2.15s;;
         }
       }
 
       &-puertorico {
         img {
-          animation-delay: 3.2s;
+          animation-delay: 2.2s;
         }
         p {
-          animation-delay: 4.2s;
+          animation-delay: 2.25s;
         }
       }
 
       &-panama {
         img {
-          animation-delay: 3.4s;
+          animation-delay: 2.3s;
         }
         p {
-          animation-delay: 4.4s;
+          animation-delay: 2.35s;
         }
       }
 
       &-costarica {
         img {
-          animation-delay: 3.6s;
+          animation-delay: 2.4s;
         }
         p {
-          animation-delay: 4.6s;
+          animation-delay: 2.45s;
         }
       }
 
       &-ecuador {
         img {
-          animation-delay: 3.8s;
+          animation-delay: 2.5s;
         }
         p {
-          animation-delay: 4.8s;
+          animation-delay: 2.55s;
         }
       }
     }

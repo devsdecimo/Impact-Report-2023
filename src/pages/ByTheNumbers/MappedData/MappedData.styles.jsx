@@ -308,15 +308,15 @@ export const MappedDataContainer = styled.div`
     }
     .circle-lightblue,
     .circle-lightbluebg {
-      animation-delay: 0.5s;
+      animation-delay: 0.3125s;
       opacity: 0.25;
     }
 
     .circle-image2 {
-      animation-delay: 0.5s;
+      animation-delay: 0.625s;
     }
     .circle-image2 {
-      animation-delay: 1s;
+      animation-delay: 0.9375s;
     }
 
     .circle-darkblue {
@@ -324,15 +324,15 @@ export const MappedDataContainer = styled.div`
     }
 
     .circle-lightblue {
-      animation-delay: 1.5s;
+      animation-delay: 1.5625s;
     }
 
     .circle-blue {
-      animation-delay: 1.75s;
+      animation-delay: 1.875s;
     }
 
     .text {
-      animation-delay: 2s;
+      animation-delay: 2.1875s;
     }
     .numbers {
       animation-delay: 2.5s;

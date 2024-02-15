@@ -7,15 +7,16 @@ export const CollectedDataContainer = styled.div`
   font-weight: 700;
   min-width: 70vw;
   min-height: 15vh;
-  aspect-ratio: 1.78;
   justify-self: center;
   margin-top: 8rem;
+  aspect-ratio: 0.55;
   @media (min-width: 830px) {
     min-width: 30vw;
     grid-row: 31 / 38;
     grid-column: 2 / 3;
     justify-self: right;
     margin-top: 0;
+    aspect-ratio: 1.78;
   }
 
   img {
@@ -28,16 +29,25 @@ export const CollectedDataContainer = styled.div`
     border-radius: 100%;
 
     &-gray {
-      left: 14%;
-      top: 14%;
-      height: 70%;
-      background-color: #EBEDEF;
+      left: 30%;
+      top: 5%;
+      background-color: #ebedef;
+      width: 68%;
+      @media (min-width: 830px) {
+        width: 39%;
+        left: 14%;
+        top: 14%;
+      }
     }
 
     &-image {
-      left: 0;
-      top: 0;
-      height: 70%;
+      left: 10%;
+      width: 68%;
+      @media (min-width: 830px) {
+        width: 39%;
+        left: 0;
+        top: 0;
+      }
     }
 
     &-lightblue {
@@ -45,7 +55,7 @@ export const CollectedDataContainer = styled.div`
       top: 18%;
       width: 17%;
       mix-blend-mode: multiply;
-      background-color: #84CBF5;
+      background-color: #84cbf5;
     }
 
     &-darkblue {
@@ -53,7 +63,7 @@ export const CollectedDataContainer = styled.div`
       top: 50%;
       width: 17%;
       mix-blend-mode: multiply;
-      background-color: #3E5973;
+      background-color: #3e5973;
     }
   }
 
@@ -98,12 +108,15 @@ export const CollectedDataContainer = styled.div`
     margin: 0;
     &-collected {
       color: #85ccf6;
-      font-size: 6.5vw;
       text-transform: uppercase;
-      top: -3%;
-      right: 6%;
+      font-size: 10vw;
+      top: 44%;
+      left: 11%;
       @media (min-width: 830px) {
         font-size: 2.8vw;
+        top: -3%;
+        right: 6%;
+        left: unset;
       }
     }
 

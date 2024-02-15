@@ -169,17 +169,17 @@ export const ExpeditionsDataContainer = styled.div`
       animation-fill-mode: forwards;
     }
     .circle-image {
-      animation-delay: 0.5s;
+      animation-delay: 0.625s;
     }
     .circle-blue,
     .circle-darkblue {
-      animation-delay: 1s;
+      animation-delay: 1.25s;
     }
     .text {
-      animation-delay: 1.5s;
+      animation-delay: 1.875s;
     }
     .numbers {
-      animation-delay: 2s;
+      animation-delay: 2.5s;
     }
   }
 `;
