@@ -1,9 +1,10 @@
-import React, { useRef, useEffect } from "react";
+import React, { useRef, useEffect, useState } from "react";
 import { TraveledDataContainer } from "./TraveledData.styles";
 import Counter from "../../../components/Counter/Counter";
 
 function TraveledData() {
   const ref = useRef(null);
+  const [countersStart, setCountersStart] = useState(false);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -11,6 +12,9 @@ function TraveledData() {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             entry.target.classList.add("animated");
+            setTimeout(() => {
+              setCountersStart(true);
+            }, 2600);
           } else {
             // entry.target.classList.remove("animated");
           }
@@ -42,7 +46,7 @@ function TraveledData() {
 
       <p className="text text-traveled">Traveled</p>
       <p className="text text-km">
-        <Counter delay={3.25}>39280</Counter> km
+        <Counter condition={countersStart}>39280</Counter> km
       </p>
       <p className="text text-visiting">visiting</p>
       <p className="text text-countries">countries</p>
@@ -51,10 +55,10 @@ function TraveledData() {
         unincorporated <br /> U.S. territory
       </p>
       <p className="numbers-countries numbers">
-        <Counter delay={3.25}>4</Counter>
+        <Counter condition={countersStart}>4</Counter>
       </p>
       <p className="numbers-us numbers">
-        <Counter delay={3.25}>1</Counter>
+        <Counter condition={countersStart}>1</Counter>
       </p>
       <div className="country country-spain">
         <img src="/assets/images/by_the_numbers/traveled/Spain.webp" alt="" />

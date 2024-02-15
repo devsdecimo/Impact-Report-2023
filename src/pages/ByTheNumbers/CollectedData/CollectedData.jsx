@@ -1,9 +1,10 @@
-import React, { useRef, useEffect } from "react";
+import React, { useRef, useEffect, useState } from "react";
 import { CollectedDataContainer } from "./CollectedData.styles";
 import Counter from "../../../components/Counter/Counter";
 
 function CollectedData() {
   const ref = useRef(null);
+  const [countersStart, setCountersStart] = useState(false);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -11,6 +12,9 @@ function CollectedData() {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             entry.target.classList.add("animated");
+            setTimeout(() => {
+              setCountersStart(true);
+            }, 3000);
           } else {
             // entry.target.classList.remove("animated");
           }
@@ -53,10 +57,10 @@ function CollectedData() {
         Ocean and ocean processes
       </p>
       <p className="numbers-samples numbers">
-        <Counter delay={3.25}>2826</Counter>
+        <Counter condition={countersStart}>2826</Counter>
       </p>
       <p className="numbers-terabytes numbers">
-        <Counter delay={3.25}>269</Counter>
+        <Counter condition={countersStart}>269</Counter>
       </p>
     </CollectedDataContainer>
   );

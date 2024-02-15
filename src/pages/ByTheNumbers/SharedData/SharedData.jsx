@@ -1,9 +1,10 @@
-import React, { useRef, useEffect } from "react";
+import React, { useRef, useEffect, useState } from "react";
 import { SharedDataContainer } from "./SharedData.styles";
 import Counter from "../../../components/Counter/Counter";
 
 function SharedData() {
   const ref = useRef(null);
+  const [countersStart, setCountersStart] = useState(false);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -11,6 +12,9 @@ function SharedData() {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             entry.target.classList.add("animated");
+            setTimeout(() => {
+              setCountersStart(true);
+            }, 2500);
           } else {
             // entry.target.classList.remove("animated");
           }
@@ -49,10 +53,10 @@ function SharedData() {
       <p className="text text-more">more than</p>
       <p className="text text-articles">articles</p>
       <p className="numbers-publications numbers">
-        <Counter delay={3.25}>27</Counter>
+        <Counter condition={countersStart}>27</Counter>
       </p>
       <p className="numbers-articles numbers">
-        <Counter delay={3.25}>4000</Counter>
+        <Counter condition={countersStart}>4000</Counter>
       </p>
     </SharedDataContainer>
   );

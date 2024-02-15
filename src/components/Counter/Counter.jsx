@@ -6,34 +6,38 @@ function Counter({
   className,
   toFixed = 0,
   delay = 0,
-  backwards = false,
+  condition,
 }) {
   const wasRunRef = useRef(false);
   const [counter, setCounter] = useState(0);
   const ref = useRef(null);
 
   useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            animateCounter(Number(children));
-          }
-        });
-      },
-      { threshold: 0.1 }
-    );
+    if (typeof condition !== "boolean") {
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              animateCounter(Number(children));
+            }
+          });
+        },
+        { threshold: 0.1 }
+      );
 
-    if (ref.current) {
-      observer.observe(ref.current);
-    }
-
-    return () => {
       if (ref.current) {
-        observer.unobserve(ref.current);
+        observer.observe(ref.current);
       }
-    };
-  }, []);
+
+      return () => {
+        if (ref.current) {
+          observer.unobserve(ref.current);
+        }
+      };
+    } else if (condition) {
+      animateCounter(Number(children));
+    }
+  }, [condition]);
 
   const animateCounter = (targetNumber) => {
     if (!wasRunRef.current) {

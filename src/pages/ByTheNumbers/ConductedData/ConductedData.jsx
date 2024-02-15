@@ -1,9 +1,10 @@
-import React, { useRef, useEffect } from "react";
+import React, { useRef, useEffect, useState } from "react";
 import { ConductedDataContainer } from "./ConductedData.styles";
 import Counter from "../../../components/Counter/Counter";
 
 function ConductedData() {
   const ref = useRef(null);
+  const [countersStart, setCountersStart] = useState(false);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -11,6 +12,9 @@ function ConductedData() {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             entry.target.classList.add("animated");
+            setTimeout(() => {
+              setCountersStart(true);
+            }, 3000);
           } else {
             if (entry.target.classList.contains("animated")) {
               // entry.target.classList.remove("animated");
@@ -55,16 +59,16 @@ function ConductedData() {
       <p className="text text-hours">hours of deep-sea exploration</p>
 
       <p className="numbers-ctd numbers">
-        <Counter delay={3.25}>213</Counter>
+        <Counter condition={countersStart}>213</Counter>
       </p>
 
       <p className="numbers-underwater numbers">
-        <Counter delay={3.25}>143</Counter>
+        <Counter condition={countersStart}>143</Counter>
       </p>
 
       <p className="numbers-hours numbers">
         <span id="counter-hours" />
-        <Counter delay={3.25}>2053</Counter>
+        <Counter condition={countersStart}>2053</Counter>
       </p>
     </ConductedDataContainer>
   );

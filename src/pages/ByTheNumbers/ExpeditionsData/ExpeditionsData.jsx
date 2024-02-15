@@ -1,9 +1,10 @@
-import React, { useRef, useEffect } from "react";
+import React, { useRef, useEffect, useState } from "react";
 import { ExpeditionsDataContainer } from "./ExpeditionsData.styles";
 import Counter from "../../../components/Counter/Counter";
 
 function ExpeditionsData() {
   const ref = useRef(null);
+  const [countersStart, setCountersStart] = useState(false);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -11,6 +12,9 @@ function ExpeditionsData() {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             entry.target.classList.add("animated");
+            setTimeout(() => {
+              setCountersStart(true);
+            }, 2000);
           } else {
             if (entry.target.classList.contains("animated")) {
               // entry.target.classList.remove("animated");
@@ -41,11 +45,11 @@ function ExpeditionsData() {
       />
       <div className="circle circle-blue"></div>
       <div className="numbers-expeditions numbers">
-        <Counter delay={2.25}>9</Counter>
+        <Counter condition={countersStart}>9</Counter>
       </div>
       <div className="circle circle-darkblue"></div>
       <p className="numbers-days numbers">
-        <Counter delay={2.25}>223</Counter>
+        <Counter condition={countersStart}>223</Counter>
       </p>
       <p className="text text-expeditions">Expeditions</p>
       <p className="text text-days">days of science</p>

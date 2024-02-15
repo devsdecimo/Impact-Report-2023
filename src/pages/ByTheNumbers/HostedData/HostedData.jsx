@@ -1,9 +1,10 @@
-import React, { useRef, useEffect } from "react";
+import React, { useRef, useEffect, useState } from "react";
 import { HostedDataContainer } from "./HostedData.styles";
 import Counter from "../../../components/Counter/Counter";
 
 function HostedData() {
   const ref = useRef(null);
+  const [countersStart, setCountersStart] = useState(false);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -11,6 +12,9 @@ function HostedData() {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             entry.target.classList.add("animated");
+            setTimeout(() => {
+              setCountersStart(true);
+            }, 3000);
           } else {
             // entry.target.classList.remove("animated");
           }
@@ -56,13 +60,13 @@ function HostedData() {
       <p className="text text-ampersand">&</p>
       <p className="text text-berths">berths of opportunity</p>
       <p className="numbers-scientists numbers">
-        <Counter delay={3.25}>84</Counter>
+        <Counter condition={countersStart}>84</Counter>
       </p>
       <p className="numbers-students numbers">
-        <Counter delay={3.25}>56</Counter>
+        <Counter condition={countersStart}>56</Counter>
       </p>
       <p className="numbers-artists numbers">
-        <Counter delay={3.25}>12</Counter>
+        <Counter condition={countersStart}>12</Counter>
       </p>
     </HostedDataContainer>
   );

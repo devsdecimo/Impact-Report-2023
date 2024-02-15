@@ -1,9 +1,10 @@
-import React, { useRef, useEffect } from "react";
+import React, { useRef, useEffect, useState } from "react";
 import { ReachedDataContainer } from "./ReachedData.styles";
 import Counter from "../../../components/Counter/Counter";
 
 function ReachedData() {
   const ref = useRef(null);
+  const [countersStart, setCountersStart] = useState(false);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -11,6 +12,9 @@ function ReachedData() {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             entry.target.classList.add("animated");
+            setTimeout(() => {
+              setCountersStart(true);
+            }, 2500);
           } else {
             if (entry.target.classList.contains("animated")) {
               // entry.target.classList.remove("animated");
@@ -43,10 +47,10 @@ function ReachedData() {
         className="image"
       />
       <p className="numbers-people numbers">
-        <Counter delay={2.75}>8600</Counter>
+        <Counter condition={countersStart}>8600</Counter>
       </p>
       <p className="numbers-social numbers">
-        <Counter delay={2.75}>12</Counter>,<Counter delay={2.75}>5</Counter>{" "}
+        <Counter condition={countersStart}>12</Counter>,<Counter condition={countersStart}>5</Counter>{" "}
         <span className="million">million</span>
       </p>
       <p className="text text-reached">Reached</p>

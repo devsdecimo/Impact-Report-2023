@@ -1,9 +1,10 @@
-import React, { useRef, useEffect } from "react";
+import React, { useRef, useEffect, useState } from "react";
 import { MappedDataContainer } from "./MappedData.styles";
 import Counter from "../../../components/Counter/Counter";
 
 function MappedData() {
   const ref = useRef(null);
+  const [countersStart, setCountersStart] = useState(false);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -11,6 +12,9 @@ function MappedData() {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             entry.target.classList.add("animated");
+            setTimeout(() => {
+              setCountersStart(true);
+            }, 2600);
           } else {
             // entry.target.classList.remove("animated");
           }
@@ -50,17 +54,17 @@ function MappedData() {
       <div className="circle circle-blue"></div>
       <p className="text text-mapped">Mapped</p>
       <p className="numbers-including numbers">
-        <Counter delay={2.75}>5</Counter>
+        <Counter condition={countersStart}>5</Counter>
       </p>
       <p className="text text-km2">
-        <Counter delay={3}>190025</Counter>.<Counter delay={2.75}>60</Counter>{" "}
+        <Counter condition={countersStart}>190025</Counter>.<Counter condition={countersStart}>60</Counter>{" "}
         km²
       </p>
       <p className="numbers-seamount numbers">
-        <Counter delay={2.75}>3</Counter>
+        <Counter condition={countersStart}>3</Counter>
       </p>
       <p className="numbers-cold numbers">
-        <Counter delay={2.75}>2</Counter>
+        <Counter condition={countersStart}>2</Counter>
       </p>
       <p className="text text-seafloor">of seafloor</p>
       <p className="text text-including">Including</p>
