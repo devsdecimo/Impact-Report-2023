@@ -7,17 +7,16 @@ export const SharedDataContainer = styled.div`
   font-weight: 700;
   min-width: 70vw;
   min-height: 15vh;
-  aspect-ratio: 1.78;
+  aspect-ratio: 0.35;
   justify-self: center;
   margin-top: 8rem;
-  margin-left: 6rem;
   @media (min-width: 830px) {
     min-width: 30vw;
     grid-row: 44 / 50;
     grid-column: 2 / 3;
     justify-self: right;
     margin-top: 0;
-    margin-left: 0;
+    aspect-ratio: 1.78;
   }
 
   img {
@@ -29,20 +28,28 @@ export const SharedDataContainer = styled.div`
     aspect-ratio: 1 / 1;
     border-radius: 100%;
     &-image {
-      top: 10%;
-      left: -4%;
-      height: 80%;
+      top: 6%;
+      left: 14%;
+      width: 57%;
       @media (min-width: 830px) {
-        left: 0&;
+        top: 10%;
+        left: -4%;
+        width: 45%;
       }
     }
 
     &-lighterblue {
-      left: 28%;
-      top: 30%;
-      width: 39%;
+      left: 52%;
+      top: 11%;
+      width: 47%;
+
       mix-blend-mode: multiply;
       background-color: #a7e7f6;
+      @media (min-width: 830px) {
+        left: 28%;
+        top: 30%;
+        width: 39%;
+      }
     }
 
     &-lightblue {
@@ -54,11 +61,16 @@ export const SharedDataContainer = styled.div`
     }
 
     &-blue {
-      left: 12%;
-      top: -10%;
-      width: 45%;
+      left: 31%;
+      top: 0%;
+      width: 57%;
       mix-blend-mode: multiply;
       background-color: #83caf4;
+      @media (min-width: 830px) {
+        left: 12%;
+        top: -10%;
+        width: 45%;
+      }
     }
 
     &-darkblue {

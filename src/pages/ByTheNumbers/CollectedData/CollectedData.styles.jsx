@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const CollectedDataContainer = styled.div`
   position: relative;
   display: inline-flex;
-  margin-right: 10vw;
   font-weight: 700;
   min-width: 70vw;
   min-height: 15vh;
@@ -17,6 +16,7 @@ export const CollectedDataContainer = styled.div`
     justify-self: right;
     margin-top: 0;
     aspect-ratio: 1.78;
+    margin-right: 10vw;
   }
 
   img {
@@ -41,7 +41,7 @@ export const CollectedDataContainer = styled.div`
     }
 
     &-image {
-      left: 10%;
+      left: 7%;
       width: 68%;
       @media (min-width: 830px) {
         width: 39%;
@@ -51,19 +51,29 @@ export const CollectedDataContainer = styled.div`
     }
 
     &-lightblue {
-      left: 36%;
-      top: 18%;
-      width: 17%;
+      left: 8%;
+      top: 54%;
+      width: 30%;
       mix-blend-mode: multiply;
       background-color: #84cbf5;
+      @media (min-width: 830px) {
+        left: 36%;
+        top: 18%;
+        width: 17%;
+      }
     }
 
     &-darkblue {
-      left: 26%;
-      top: 50%;
-      width: 17%;
+      left: 0%;
+      top: 67%;
+      width: 30%;
       mix-blend-mode: multiply;
       background-color: #3e5973;
+      @media (min-width: 830px) {
+        left: 26%;
+        top: 50%;
+        width: 17%;
+      }
     }
   }
 
@@ -79,20 +89,27 @@ export const CollectedDataContainer = styled.div`
     font-size: 4vw;
 
     &-samples {
-      left: 36%;
-      top: 18%;
-      width: 17%;
+      font-size: 7vw;
+      left: 8%;
+      top: 54%;
+      width: 30%;
       @media (min-width: 830px) {
         font-size: 1.8vw;
+        left: 36%;
+        top: 18%;
+        width: 17%;
       }
     }
 
     &-terabytes {
-      font-size: 4.6vw;
-      left: 26%;
-      top: 50%;
-      width: 17%;
+      font-size: 7vw;
+      left: 0%;
+      top: 67%;
+      width: 30%;
       @media (min-width: 830px) {
+        left: 26%;
+        top: 50%;
+        width: 17%;
         font-size: 2.2vw;
       }
     }
@@ -109,9 +126,9 @@ export const CollectedDataContainer = styled.div`
     &-collected {
       color: #85ccf6;
       text-transform: uppercase;
-      font-size: 10vw;
+      font-size: 11.7vw;
       top: 44%;
-      left: 11%;
+      left: 0;
       @media (min-width: 830px) {
         font-size: 2.8vw;
         top: -3%;
@@ -122,37 +139,49 @@ export const CollectedDataContainer = styled.div`
 
     &-terabytes {
       color: #3e5973;
-      font-size: 3.2vw;
+      font-size: 7vw;
       position: absolute;
-      right: 2%;
-      bottom: 22%;
+      left: 34%;
+      top: 72%;
+      width: 75%;
       font-weight: 400;
       @media (min-width: 830px) {
         font-size: 1.3vw;
+        right: 2%;
+        bottom: 22%;
+        top: unset;
+        left: unset;
+        width: unset;
       }
     }
 
     &-samples {
       color: #85ccf6;
-      font-size: 3.8vw;
       position: absolute;
-      right: 20%;
-      top: 26%;
+      font-size: 7vw;
+      left: 44%;
+      top: 59%;
       font-weight: 400;
       @media (min-width: 830px) {
         font-size: 1.6vw;
+        left: unset;
+        right: 20%;
+        top: 26%;
       }
     }
 
     &-ampersand {
       color: #5d8cab;
-      font-size: 3vw;
+      font-size: 7vw;
       position: absolute;
-      right: 14%;
-      top: 30%;
+      left: 44%;
+      top: 65.5%;
       font-weight: 400;
       @media (min-width: 830px) {
         font-size: 1.6vw;
+        right: 14%;
+        top: 30%;
+        left: unset;
       }
     }
   }

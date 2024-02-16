@@ -55,14 +55,14 @@ function ReachedData() {
       </p>
       <p className="text text-reached">Reached</p>
       <p className="text text-people">
-        people via presentations & Ship-to-Shores <br /> in both English and
+        people via presentations & Ship-to-Shores <br className="desktop"/> in both English and
         Spanish
       </p>
       <p className="text text-and-more">
-        and <br /> more <br /> than
+        and <br className="desktop"/> more <br className="desktop"/> than
       </p>
       <p className="text text-social">
-        on Facebook <br /> Twitter, <br /> Youtube, <br />& Instagram
+        on Facebook <br className="desktop"/> Twitter, <br className="desktop"/> Youtube, <br className="desktop"/>& Instagram
       </p>
     </ReachedDataContainer>
   );

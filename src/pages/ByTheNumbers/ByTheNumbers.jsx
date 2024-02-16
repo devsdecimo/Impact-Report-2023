@@ -24,15 +24,7 @@ function ByTheNumbers() {
         header_image="/assets/images/by_the_numbers/Header.webp"
         footer_image="/assets/images/by_the_numbers/Footer.webp"
       >
-        <div className="intro-text">
-          <p>
-            It is a long established fact that a reader will be distracted by
-            the
-            <br></br>
-            readable content of a page when looking at its layout.
-          </p>
-          <span className="separator" />
-        </div>
+        <span className="separator" />
         <div className="content">
           <ExpeditionsData></ExpeditionsData>
           <TraveledData></TraveledData>

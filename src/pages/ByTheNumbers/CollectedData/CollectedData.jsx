@@ -52,8 +52,8 @@ function CollectedData() {
       <p className="text text-samples">samples and</p>
       <p className="text text-ampersand">&</p>
       <p className="text text-terabytes">
-        Terabytes of data to advance <br />
-        scientific understanding of the <br />
+        Terabytes of data to advance <br className="desktop"/>
+        scientific understanding of the <br className="desktop"/>
         Ocean and ocean processes
       </p>
       <p className="numbers-samples numbers">
