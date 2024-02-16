@@ -2,9 +2,10 @@ import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { IconWithTextContainer } from './IconWithText.styles.jsx';
 
-function IconWithText({ className, icon, numbers, text, alt = "", toFixed = 0, opacity = 1, href }) {
+function IconWithText({ className, icon, numbers, text, alt = "", toFixed = 0, opacity = 1, href, textBefore, numbers2, separator }) {
   const navigate = useNavigate();
   const [counter, setCounter] = useState(0);
+  const [counter2, setCounter2] = useState(0);
   const containerRef = useRef(null);
 
   const animateCounter = (targetNumber) => {
@@ -15,6 +16,17 @@ function IconWithText({ className, icon, numbers, text, alt = "", toFixed = 0, o
       if (start >= targetNumber) {
         clearInterval(interval);
         setCounter(targetNumber);
+      }
+    }, 10);
+  };
+  const animateCounter2 = (targetNumber) => {
+    let start = 0;
+    const interval = setInterval(() => {
+      start += targetNumber / 100;
+      setCounter2(start);
+      if (start >= targetNumber) {
+        clearInterval(interval);
+        setCounter2(targetNumber);
       }
     }, 10);
   };
@@ -41,6 +53,28 @@ function IconWithText({ className, icon, numbers, text, alt = "", toFixed = 0, o
     };
   }, [numbers]);
 
+  useEffect(() => {
+    const observer2 = new IntersectionObserver(
+      (entries, observer) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            animateCounter2(parseFloat(numbers2));
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
+
+    if (containerRef.current) {
+      observer2.observe(containerRef.current);
+    }
+
+    return () => {
+      observer2.disconnect();
+    };
+  }, [numbers2]);
+
   const openPage = () => {
     if (href) {
       setTimeout(() => {
@@ -53,11 +87,24 @@ function IconWithText({ className, icon, numbers, text, alt = "", toFixed = 0, o
 
   return (
     <IconWithTextContainer ref={containerRef} className={className} onClick={handleClick} style={{ opacity }}>
+      
       <img src={icon} alt={alt} />
-      {numbers && (
+      {numbers && !textBefore && (
         <span><strong>{counter.toFixed(toFixed).replace(/\B(?=(\d{3})+(?!\d))/g, ',')}</strong> {text}</span>
       )}
-      {!numbers && <span>{text}</span>}
+      {textBefore &&
+        <span className="ml-10 text-before"><strong>{textBefore}</strong></span>
+      }
+      {textBefore && numbers &&
+      <span className="ml-10">{counter.toFixed(toFixed).replace(/\B(?=(\d{3})+(?!\d))/g, ',')}</span>}
+      {separator && 
+      <span>{separator}</span>}
+      {numbers2 && 
+      <span>{counter2.toFixed(toFixed).replace(/\B(?=(\d{3})+(?!\d))/g, ',')}</span>
+      }
+      {text && textBefore && 
+      <span className="ml-10">{text}</span>}
+      {!numbers && !textBefore && <span>{text}</span>}
     </IconWithTextContainer>
   );
 }

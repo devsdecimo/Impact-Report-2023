@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const IconWithTextContainer = styled.div`
-  align-items: center;
+  align-items: flex-start;
   color: #3E5973;
   cursor: ${(props) => (props.href ? 'pointer' : 'default')};
   display: flex;
@@ -10,16 +10,26 @@ export const IconWithTextContainer = styled.div`
   font-size: 1.5rem;
   font-weight: 400;
   opacity: ${(props) => props.opacity || 1};
+  margin-top:10px;
 
   img {
-    height: 2em;
+    height: 1.5em;
     margin-right: 0.5rem;
     transition: margin-right 0.3s ease;
-    width: 2em;
+    width: 1.5em;
   }
 
   strong {
     font-weight: bold;
     transition: all 0.3s ease;
   }
+
+  span.ml-10{
+    margin-left:10px;
+  }
+  .text-before{
+    flex: 0 0 auto; 
+    white-space: nowrap;
+  }
+
 `;
