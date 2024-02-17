@@ -3,11 +3,10 @@ import styled from "styled-components";
 export const SharedDataContainer = styled.div`
   position: relative;
   display: inline-flex;
-  margin-right: 10vw;
   font-weight: 700;
   min-width: 70vw;
   min-height: 15vh;
-  aspect-ratio: 0.35;
+  aspect-ratio: 0.4;
   justify-self: center;
   margin-top: 8rem;
   @media (min-width: 830px) {
@@ -17,6 +16,7 @@ export const SharedDataContainer = styled.div`
     justify-self: right;
     margin-top: 0;
     aspect-ratio: 1.78;
+    margin-right: 10vw;
   }
 
   img {
@@ -29,7 +29,7 @@ export const SharedDataContainer = styled.div`
     border-radius: 100%;
     &-image {
       top: 6%;
-      left: 14%;
+      left: 6%;
       width: 57%;
       @media (min-width: 830px) {
         top: 10%;
@@ -39,7 +39,7 @@ export const SharedDataContainer = styled.div`
     }
 
     &-lighterblue {
-      left: 52%;
+      left: 50%;
       top: 11%;
       width: 47%;
 
@@ -53,15 +53,20 @@ export const SharedDataContainer = styled.div`
     }
 
     &-lightblue {
-      left: 58%;
-      top: 26%;
-      width: 21%;
+      left: 37%;
+      top: 69%;
+      width: 37%;
       mix-blend-mode: multiply;
       background-color: #85ccf6;
+      @media (min-width: 830px) {
+        left: 58%;
+        top: 26%;
+        width: 21%;
+      }
     }
 
     &-blue {
-      left: 31%;
+      left: 25%;
       top: 0%;
       width: 57%;
       mix-blend-mode: multiply;
@@ -74,11 +79,16 @@ export const SharedDataContainer = styled.div`
     }
 
     &-darkblue {
-      left: 33%;
-      top: 15%;
-      width: 14%;
+      left: 18%;
+      top: 44%;
+      width: 22%;
       mix-blend-mode: multiply;
       background-color: #56a1c8;
+      @media (min-width: 830px) {
+        left: 33%;
+        top: 15%;
+        width: 14%;
+      }
     }
   }
 
@@ -92,23 +102,36 @@ export const SharedDataContainer = styled.div`
     line-height: 0;
     aspect-ratio: 1 / 1;
 
+    span {
+      margin-top: 10%;
+    }
+
     &-publications {
-      font-size: 5vw;
-      left: 33%;
-      top: 15%;
-      width: 14%;
+      font-size: 6vw;
+      left: 18%;
+      top: 44%;
+      width: 22%;
       @media (min-width: 830px) {
         font-size: 2.2vw;
+        left: 33%;
+        top: 15%;
+        width: 14%;
       }
     }
 
     &-articles {
-      font-size: 4.5vw;
-      left: 58%;
-      top: 26%;
-      width: 21%;
+      font-size: 8vw;
+      left: 37%;
+      top: 69%;
+      width: 37%;
       @media (min-width: 830px) {
         font-size: 1.75vw;
+        left: 58%;
+        top: 26%;
+        width: 21%;
+        span {
+          margin-top: 0;
+        }
       }
     }
 
@@ -123,60 +146,80 @@ export const SharedDataContainer = styled.div`
     margin: 0;
     color: #3e5973;
     font-weight: 400;
-    font-size: 4vw;
+    font-size: 6vw;
     @media (min-width: 830px) {
       font-size: 1.4vw;
     }
     &-shared {
       color: #3e5973;
-      font-size: 6.5vw;
+      font-size: 10vw;
       text-transform: uppercase;
-      top: -5%;
-      right: 26.5%;
+      top: 33.5%;
+      left: 26.5%;
       font-weight: 600;
       @media (min-width: 830px) {
         font-size: 2.8vw;
+        top: -5%;
+        right: 26.5%;
+        left: unset;
       }
     }
 
     &-through {
-      right: 2%;
-      top: 1%;
+      right: 31%;
+      top: 38%;
       @media (min-width: 830px) {
+        top: 1%;
         right: 10%;
+        left: unset;
       }
     }
 
     &-science {
-      right: 25%;
-      top: -13%;
+      right: 4%;
+      top: 30%;
+      @media (min-width: 830px) {
+        right: 25%;
+        top: -13%;
+      }
     }
 
     &-publications {
-      right: 4%;
-      top: 19%;
+      right: 3%;
+      top: 44%;
+      width: 53%;
       @media (min-width: 830px) {
-        right: 13%;
+        top: 19%;
+        right: -1%;
       }
     }
 
     &-more {
-      right: 40%;
-      top: 38%;
+      right: 28.5%;
+      top: 63%;
+      @media (min-width: 830px) {
+        right: 40%;
+        top: 38%;
+      }
     }
 
     &-articles {
-      right: 6%;
-      top: 38%;
+      right: 33%;
+      top: 86%;
+      @media (min-width: 830px) {
+        right: 6%;
+        top: 38%;
+      }
     }
 
     &-ampersand {
       color: #5d8cab;
-      font-size: 4vw;
-      right: -2%;
-      top: 21%;
+      font-size: 10vw;
+      right: 39%;
+      top: 54%;
       @media (min-width: 830px) {
         font-size: 1.9vw;
+        top: 21%;
         right: 6%;
       }
     }

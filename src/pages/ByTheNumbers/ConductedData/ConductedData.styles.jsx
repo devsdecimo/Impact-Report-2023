@@ -186,6 +186,7 @@ export const ConductedDataContainer = styled.div`
     position: absolute;
     right: 0;
     margin: 0;
+      font-weight: 400;
     &-conducted {
       color: #56a1c8;
       text-transform: uppercase;
@@ -202,7 +203,6 @@ export const ConductedDataContainer = styled.div`
     &-ctd {
       color: #3e5973;
       font-size: 5.5vw;
-      font-weight: 400;
       left: 30%;
       top: 53%;
       @media (min-width: 830px) {
@@ -215,10 +215,10 @@ export const ConductedDataContainer = styled.div`
 
     &-ampersand {
       color: #3e5973;
-      display: none;
+      font-size: 5.8vw;
+      left: 67%;
+      top: 57%;
       @media (min-width: 830px) {
-        display: block;
-        font-weight: 400;
         font-size: 2.1vw;
         top: 40%;
         right: -11%;
@@ -228,7 +228,6 @@ export const ConductedDataContainer = styled.div`
     &-underwater {
       color: #56a1c8;
       font-size: 5.5vw;
-      font-weight: 400;
       top: 64%;
       width: 90%;
       left: 30%;

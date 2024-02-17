@@ -246,8 +246,8 @@ export const HostedDataContainer = styled.div`
 
     &-ampersand {
       color: #5a83a1;
-      right: 34%;
-      top: 80%;
+      right: 33%;
+      top: 82.5%;
       font-weight: 400;
       transform: translateY(-50%);
       @media (min-width: 830px) {
@@ -260,7 +260,7 @@ export const HostedDataContainer = styled.div`
     &-berths {
       color: #99bed5;
       right: 20%;
-      top: 86%;
+      top: 89%;
       font-weight: 400;
       width: 47%;
       transform: translateY(-50%);
