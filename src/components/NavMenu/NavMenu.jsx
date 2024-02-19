@@ -49,7 +49,7 @@ function NavMenu({ className }) {
             <SubMenu title={"Inaugural Year of Discovery"}>
               <ul>
                 <li>
-                  <Link>In Search of Hydrothermal Lost Cities</Link>
+                  <Link to="/in_search_of_hydrothermal_lost_cities">In Search of Hydrothermal Lost Cities</Link>
                 </li>
                 <li>
                   <Link>Health Diagnosis of Deep Sea Coral</Link>

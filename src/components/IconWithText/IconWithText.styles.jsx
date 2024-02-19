@@ -19,7 +19,7 @@ export const IconWithTextContainer = styled.div`
     width: 1.5em;
   }
 
-  strong {
+  strong, .text-bold {
     font-weight: bold;
     transition: all 0.3s ease;
   }
