@@ -5,9 +5,14 @@ import ButtonImage from "../../components/ButtonImage/ButtonImage.jsx";
 function Home() {
   return (
     <HomeContainer>
+      <div className="mobile-bg"></div>
       <div className="home_content">
         <div className="animatedBG"></div>
-        <img src="/assets/images/home/title.webp" className="title" alt="2023 Impact Report, The Return of the Luck Dragon"></img>
+        <img
+          src="/assets/images/home/title.webp"
+          className="title"
+          alt="2023 Impact Report, The Return of the Luck Dragon"
+        ></img>
         <div className="home_content__expeditions">
           <div className="home_content__main_image_container">
             <img

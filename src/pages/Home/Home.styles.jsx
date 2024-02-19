@@ -15,7 +15,7 @@ export const HomeContainer = styled.div`
   display: flex;
   justify-content: center;
   overflow: hidden;
-  background-attachment: fixed  !important;
+  background-attachment: fixed !important;
 
   @media (min-width: 830px) {
     background-size: cover;
@@ -33,7 +33,7 @@ export const HomeContainer = styled.div`
     background: url("/assets/images/home/center-line.webp");
     background-size: 100% 100%;
     opacity: 0.3;
-
+    z-index: 1;
     @media (min-width: 830px) {
       display: grid;
       height: 50vh;
@@ -46,7 +46,7 @@ export const HomeContainer = styled.div`
     display: flex;
     flex-direction: column;
     position: relative;
-    z-index: 1;
+    z-index: 2;
     width: 100vw;
 
     &__expeditions {
@@ -187,6 +187,22 @@ export const HomeContainer = styled.div`
     background: none;
     border: none;
     margin: -1.5rem 0;
+    @media (min-width: 830px) {
+      display: none;
+    }
+  }
+
+  .mobile-bg {
+    position: fixed;
+    top: -10vw;
+    bottom: -10vh;
+    left: -10vw;
+    right: -10vw;
+    height: 120vh;
+    width: 120vw;
+    background-image: url("/assets/images/home/Background.webp");
+    background-size: cover;
+    z-index: -2;
     @media (min-width: 830px) {
       display: none;
     }
