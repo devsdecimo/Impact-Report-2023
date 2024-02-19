@@ -221,7 +221,7 @@ export const HostedDataContainer = styled.div`
     }
 
     &-students {
-      color: #9fc9f4;
+      color: #2097D3;
       position: absolute;
       right: 23%;
       top: 69.5%;

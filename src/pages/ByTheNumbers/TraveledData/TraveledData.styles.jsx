@@ -263,6 +263,13 @@ export const TraveledDataContainer = styled.div`
 
     &-puertorico {
       left: 13%;
+
+      .us-extra {
+        position: absolute;
+        width: 55%;
+        bottom: -10%;
+        right: -10%;
+      }
     }
 
     &-panama {
@@ -336,7 +343,7 @@ export const TraveledDataContainer = styled.div`
           animation-delay: 2.1s;
         }
         p {
-          animation-delay: 2.15s;;
+          animation-delay: 2.15s;
         }
       }
 
@@ -345,6 +352,9 @@ export const TraveledDataContainer = styled.div`
           animation-delay: 2.2s;
         }
         p {
+          animation-delay: 2.25s;
+        }
+        .us-extra{
           animation-delay: 2.25s;
         }
       }

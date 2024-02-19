@@ -172,7 +172,7 @@ export const ReachedDataContainer = styled.div`
     }
 
     &-and-more {
-      color: #84cbf5;
+      color: #2097D3;
       font-size: 6vw;
       top: 60%;
       left: 0%;
@@ -187,7 +187,7 @@ export const ReachedDataContainer = styled.div`
     }
 
     &-social {
-      color: #84cbf5;
+      color: #2097D3;
       font-size: 6vw;
       top: 84%;
       left: 0%;

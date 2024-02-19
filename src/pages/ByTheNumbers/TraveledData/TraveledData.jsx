@@ -69,6 +69,10 @@ function TraveledData() {
           src="/assets/images/by_the_numbers/traveled/PuertoRico.webp"
           alt=""
         />
+        <img
+          src="/assets/images/by_the_numbers/traveled/US.webp"
+          className="us-extra"
+        />
         <p>Puerto Rico</p>
       </div>
       <div className="country country-panama">

@@ -43,6 +43,7 @@ export const NavMenuContainer = styled.nav`
     right: 0;
     width: 0;
     transition: 0.3s;
+    transition-timing-function: linear;
     background: var(--white);
     overflow: hidden;
     background-color: rgba(255, 255, 255, 0.9);
@@ -58,19 +59,12 @@ export const NavMenuContainer = styled.nav`
 
     @media (min-width: 830px) {
       transition: 1s;
+      font-size: 2rem;
+      gap: 1rem;
     }
 
     flex-direction: column;
     align-items: center;
-
-    &.menu__open {
-      width: calc(100vw - 2rem);
-      opacity: 1;
-
-      li a {
-        opacity: 1;
-      }
-    }
 
     img.menu_logo {
       height: 80px;
@@ -82,17 +76,27 @@ export const NavMenuContainer = styled.nav`
     }
 
     li {
-      transition: 0.7s;
+      opacity: 0;
+      transition: 0.3s;
 
       a {
         cursor: pointer;
         color: var(--dark-blue);
-        transition: 0.75s;
         text-decoration: none;
       }
 
       &:hover {
         transform: scale(1.1);
+      }
+    }
+
+    &.menu__open {
+      width: calc(100vw - 2rem);
+      opacity: 1;
+
+      li {
+        opacity: 1;
+        transition: 2s;
       }
     }
 
@@ -103,7 +107,7 @@ export const NavMenuContainer = styled.nav`
       padding: 1rem;
       margin-top: 0;
       text-align: center;
-      gap: 0.75rem;
+      gap: 1.5rem;
       margin: 0;
       padding-bottom: 4rem;
 

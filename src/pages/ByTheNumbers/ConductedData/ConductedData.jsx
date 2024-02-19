@@ -38,7 +38,7 @@ function ConductedData() {
 
   return (
     <ConductedDataContainer ref={ref}>
-      <div className="circle circle-overbg"></div>
+      <div className="circle circle-lighterblue"></div>
       <div className="circle circle-bg"></div>
       <div className="circle circle-blue"></div>
       <div className="circle circle circle-lightblue"></div>
@@ -46,7 +46,6 @@ function ConductedData() {
         src="/assets/images/by_the_numbers/conducted/Image.webp"
         className="image"
       />
-      <div className="circle circle-over"></div>
       <div className="circle circle-darkblue"></div>
 
       <p className="text text-conducted">Conducted</p>

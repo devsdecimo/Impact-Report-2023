@@ -92,7 +92,7 @@ export const ExpeditionsDataContainer = styled.div`
     span {
       margin-top: 10%;
     }
-
+    
     &-expeditions {
       font-size: 10vw;
       left: 2%;

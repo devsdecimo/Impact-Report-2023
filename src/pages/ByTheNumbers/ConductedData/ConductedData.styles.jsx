@@ -53,29 +53,16 @@ export const ConductedDataContainer = styled.div`
       }
     }
 
-    &-over {
-      mix-blend-mode: overlay;
+    &-lighterblue {
+      mix-blend-mode: multiply;
       left: 53%;
       width: 40%;
       top: 1%;
       background-color: #a7e7f6;
       @media (min-width: 830px) {
-        left: 36%;
-        width: 28%;
-        top: 7%;
-      }
-    }
-
-    &-overbg {
-      left: 53%;
-      width: 40%;
-      top: 1%;
-
-      background-color: #a7e7f6;
-      @media (min-width: 830px) {
-        left: 36%;
-        width: 28%;
-        top: 7%;
+        left: 38%;
+        width: 30%;
+        top: 0%;
       }
     }
 
@@ -186,13 +173,14 @@ export const ConductedDataContainer = styled.div`
     position: absolute;
     right: 0;
     margin: 0;
-      font-weight: 400;
+    font-weight: 400;
     &-conducted {
       color: #56a1c8;
       text-transform: uppercase;
       font-size: 10vw;
       top: 38%;
       left: 4%;
+      font-weight: 700;
       @media (min-width: 830px) {
         font-size: 3vw;
         top: 5%;
@@ -241,7 +229,7 @@ export const ConductedDataContainer = styled.div`
     }
 
     &-totaling {
-      color: #85ccf6;
+      color: #2097d3;
       display: none;
       @media (min-width: 830px) {
         display: block;
@@ -263,7 +251,7 @@ export const ConductedDataContainer = styled.div`
     }
 
     &-hours-desktop {
-      color: #85ccf6;
+      color: #2097d3;
       display: none;
       @media (min-width: 830px) {
         display: block;
@@ -290,8 +278,7 @@ export const ConductedDataContainer = styled.div`
     .image {
       animation-delay: 0.3125s;
     }
-    .circle-over,
-    .circle-overbg {
+    .circle-lighterblue {
       animation-delay: 0.625s;
     }
     .circle-darkblue {

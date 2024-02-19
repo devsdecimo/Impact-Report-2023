@@ -124,7 +124,7 @@ export const CollectedDataContainer = styled.div`
     right: 0;
     margin: 0;
     &-collected {
-      color: #85ccf6;
+      color: #2097D3;
       text-transform: uppercase;
       font-size: 11.7vw;
       top: 44%;
@@ -156,7 +156,7 @@ export const CollectedDataContainer = styled.div`
     }
 
     &-samples {
-      color: #85ccf6;
+      color: #2097D3;
       position: absolute;
       font-size: 7vw;
       left: 44%;

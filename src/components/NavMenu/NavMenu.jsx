@@ -6,11 +6,16 @@ import SubMenu from "../SubMenu/SubMenu.jsx";
 function NavMenu({ className }) {
   const [openMenu, setOpenMenu] = useState(false);
 
-  const toggleMenu = (event) => {
-    const isLink = event.target.closest("a");
-    const isOpenButton = event.target.classList.contains("menuButton");
-    if (isLink || isOpenButton) {
-      setOpenMenu(!openMenu);
+  const toggleMenu = (event, closeException = false) => {
+    if (!closeException) {
+      console.log(event);
+      const isLink = event.target.closest("a");
+      const isOpenButton = event.target.classList.contains("menuButton");
+      if (isLink || isOpenButton || isLogo) {
+        setOpenMenu(!openMenu);
+      }
+    } else {
+      setOpenMenu(false);
     }
   };
 
@@ -21,7 +26,7 @@ function NavMenu({ className }) {
         onClick={toggleMenu}
       ></button>
       <div className={`menu ${openMenu ? "menu__open" : ""}`}>
-        <Link to="/">
+        <Link to="/"  onClick={toggleMenu}>
           <img
             src="/assets/images/logo.webp"
             alt="soi logo"
@@ -30,7 +35,11 @@ function NavMenu({ className }) {
         </Link>
         <ul onClick={toggleMenu}>
           <li className="submenu">
-            <SubMenu href="/" title={"Welcome to a New SOI"}>
+            <SubMenu
+              href="/"
+              title={"Welcome to a New SOI"}
+              toggleMain={toggleMenu}
+            >
               <ul>
                 <li>
                   <Link to="/a_word_from_our_founders">
@@ -82,6 +91,7 @@ function NavMenu({ className }) {
             <SubMenu
               href="/new_species_and_seafloor_spotlight"
               title={"New Species & Seafloor Spotlight"}
+              toggleMain={toggleMenu}
             >
               <ul>
                 <li>
@@ -106,6 +116,7 @@ function NavMenu({ className }) {
             <SubMenu
               href="/the_deep_sea_continuum"
               title={"The Deep Sea Continuum"}
+              toggleMain={toggleMenu}
             >
               <ul>
                 <li>
@@ -128,6 +139,7 @@ function NavMenu({ className }) {
             <SubMenu
               href="/disseminating_the_depths"
               title={"Disseminating the Depths"}
+              toggleMain={toggleMenu}
             >
               <ul>
                 <li>

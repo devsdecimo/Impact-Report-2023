@@ -21,19 +21,6 @@ function ButtonImage({
   const show = () => setVisible(true);
   const hide = () => setVisible(false);
 
-  useEffect(() => {
-    function handleClickOutside(event) {
-      if (buttonRef.current && !buttonRef.current.contains(event.target)) {
-        setClickCount(0);
-      }
-    }
-    document.addEventListener("mousedown", handleClickOutside);
-
-    return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
-    };
-  }, [buttonRef]);
-
   const openPage = () => {
     if (href) {
       setPageOpening(true);

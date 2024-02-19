@@ -37,13 +37,13 @@ function SharedData() {
   return (
     <SharedDataContainer ref={ref}>
       <div className="circle circle-blue"></div>
+      <div className="circle circle-lighterblue"></div>
       <img
         src="/assets/images/by_the_numbers/shared/CircleImage.webp"
         className="circle circle-image"
       />
       <div className="circle circle-darkblue"></div>
       <div className="circle circle-lightblue"></div>
-      <div className="circle circle-lighterblue"></div>
 
       <p className="text text-shared">Shared</p>
       <p className="text text-science">Science accomplishments</p>

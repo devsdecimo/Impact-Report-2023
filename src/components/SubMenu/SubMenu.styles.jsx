@@ -53,5 +53,15 @@ export const SubMenuContainer = styled.div`
     li:not(.title) {
       font-size: 1rem;
     }
+
+    @media (min-width: 830px) {
+      li:not(.title) {
+        font-size: 1.5rem;
+      }
+      ul {
+        gap: 1.25rem;
+        margin-top: 1rem;
+      }
+    }
   }
 `;

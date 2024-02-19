@@ -56,19 +56,6 @@ export const MappedDataContainer = styled.div`
       width: 64%;
       top: -5%;
       left: 50%;
-      mix-blend-mode: overlay;
-      background-color: #a7e7f6;
-      @media (min-width: 830px) {
-        width: 43%;
-        top: -13%;
-        left: 40%;
-      }
-    }
-
-    &-lighterbluebg {
-      width: 64%;
-      top: -5%;
-      left: 50%;
       background-color: #a7e7f6;
       @media (min-width: 830px) {
         width: 43%;
