@@ -39,7 +39,7 @@ function NewSpeciesAndSeafloorSpotlight() {
         location="Jaco Summit, Costa Rica"
         size="1.5"
         sizeText = "cm"
-        image="/assets/images/new_species/images/image.webp"
+        image="/assets/images/new_species/images/mcortesi3-C.webp"
         alt="pulpo"
       />
       <Section
@@ -59,7 +59,7 @@ function NewSpeciesAndSeafloorSpotlight() {
         location="California, USA and Jaco Summit, Costa Rica"
         size="3"
         sizeText = "cm"
-        image="/assets/images/new_species/images/image.webp"
+        image="/assets/images/new_species/images/Munidopsis-girguisi-C.webp"
         alt="pulpo"
       />
       <Section
@@ -75,7 +75,7 @@ function NewSpeciesAndSeafloorSpotlight() {
         location="Great Barrier Reef, Australia"
         size="500"
         sizeText = "mm2"
-        image="/assets/images/new_species/images/image.webp"
+        image="/assets/images/new_species/images/Abyssocladia-falkor-C.webp"
         alt="pulpo"
       />
       <Section
@@ -91,7 +91,7 @@ function NewSpeciesAndSeafloorSpotlight() {
         location="Great Barrier Reef, Australia"
         size="120"
         sizeText = "mm2"
-        image="/assets/images/new_species/images/image.webp"
+        image="/assets/images/new_species/images/Abyssocladia-jeanvaceleti-C.webp"
         alt="pulpo"
       />
       <Section
@@ -107,7 +107,7 @@ function NewSpeciesAndSeafloorSpotlight() {
         location="Great Barrier Reef, Australia"
         size="30"
         sizeText = "mm2"
-        image="/assets/images/new_species/images/image.webp"
+        image="/assets/images/new_species/images/Axoniderma-wanda-C.webp"
         alt="pulpo"
       />
       <Section
@@ -125,7 +125,7 @@ function NewSpeciesAndSeafloorSpotlight() {
         location="Jaco Summit, Costa Rica"
         size="107"
         sizeText = "mm"
-        image="/assets/images/new_species/images/image.webp"
+        image="/assets/images/new_species/images/Pyrolycus-jaco-C.webp"
         alt="pulpo"
       />
       <Section
@@ -144,7 +144,7 @@ function NewSpeciesAndSeafloorSpotlight() {
         location="Gulf of California"
         size="10.5"
         sizeText = "mm"
-        image="/assets/images/new_species/images/image.webp"
+        image="/assets/images/new_species/images/Ophyrotrocha-marinae-C.webp"
         alt="pulpo"
       />
       
