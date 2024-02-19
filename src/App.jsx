@@ -8,6 +8,7 @@ import ByTheNumbers from './pages/ByTheNumbers/ByTheNumbers';
 import NewSpeciesAndSeafloorSpotlight from './pages/NewSpeciesAndSeafloorSpotlight/NewSpeciesAndSeafloorSpotlight';
 import ALimitlessOceanOfData from './pages/ALimitlessOceanOfData/ALimitlessOceanOfData';
 import DisseminatingTheDepths from './pages/DisseminatingTheDepths/DisseminatingTheDepths';
+import InSearchOfHydrothermalLostCities from './pages/InSearchOfHydrothermalLostCities/InSearchOfHydrothermalLostCities';
 
 //Expeditions
 import OctopusOddyssey from './pages/Expeditions/OctopusOdyssey/OctopusOddyssey';
@@ -30,6 +31,7 @@ function App() {
         <Route path="/new_species_and_seafloor_spotlight" element={<NewSpeciesAndSeafloorSpotlight />} />
         <Route path="/a_limitless_ocean_of_data" element={<ALimitlessOceanOfData/>} />
         <Route path="/disseminating_the_depths" element={<DisseminatingTheDepths/>} />
+        <Route path="/in_search_of_hydrothermal_lost_cities" element={<InSearchOfHydrothermalLostCities/>} />
       </Routes>
     </Router>
   )
