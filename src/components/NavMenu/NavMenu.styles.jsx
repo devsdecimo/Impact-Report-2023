@@ -42,7 +42,7 @@ export const NavMenuContainer = styled.nav`
     bottom: 0;
     right: 0;
     width: 0;
-    transition: 1s;
+    transition: 0.3s;
     background: var(--white);
     overflow: hidden;
     background-color: rgba(255, 255, 255, 0.9);
@@ -55,6 +55,10 @@ export const NavMenuContainer = styled.nav`
     min-height: 100%;
     overflow: hidden;
     padding: 1rem;
+
+    @media (min-width: 830px) {
+      transition: 1s;
+    }
 
     flex-direction: column;
     align-items: center;
