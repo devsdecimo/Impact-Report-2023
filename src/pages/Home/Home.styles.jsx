@@ -15,7 +15,8 @@ export const HomeContainer = styled.div`
   display: flex;
   justify-content: center;
   overflow: hidden;
-  background-attachment: fixed !important;
+  background-attachment: fixed  !important;
+  position: relative;
 
   @media (min-width: 830px) {
     background-size: cover;
@@ -26,14 +27,14 @@ export const HomeContainer = styled.div`
     width: 100vw;
     height: 18vh;
     position: absolute;
-    top: 40%;
+    top: 40vh;
     left: 0;
     right: 0;
     transform: translateY(-50%);
     background: url("/assets/images/home/center-line.webp");
     background-size: 100% 100%;
     opacity: 0.3;
-    z-index: 1;
+
     @media (min-width: 830px) {
       display: grid;
       height: 50vh;
@@ -46,7 +47,7 @@ export const HomeContainer = styled.div`
     display: flex;
     flex-direction: column;
     position: relative;
-    z-index: 2;
+    z-index: 1;
     width: 100vw;
 
     &__expeditions {
@@ -202,7 +203,6 @@ export const HomeContainer = styled.div`
     width: 120vw;
     background-image: url("/assets/images/home/Background.webp");
     background-size: cover;
-    z-index: -2;
     @media (min-width: 830px) {
       display: none;
     }
