@@ -6,7 +6,7 @@ export const GeneralButtonContainer = styled.div`
     @media (max-width:500px){
         width:100%;
     }
-  a{
+  button{
     border:3px solid #5D83A2;
     border-radius:15px;
     padding:10px 20px;
@@ -15,12 +15,14 @@ export const GeneralButtonContainer = styled.div`
     justify-content: space-between;
     align-items:center;
     gap:2rem;
-    font-size:1.5rem;
-    text-decoration:none;
+    font-size:1.7rem;
+    cursor:pointer;
     @media (max-width:500px){
         justify-content:center;
     }
-
+  }
+  a{
+    text-decoration:none;
   }
   img{
     height:30px;

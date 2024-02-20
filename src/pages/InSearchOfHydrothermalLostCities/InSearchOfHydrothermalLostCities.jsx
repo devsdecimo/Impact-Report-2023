@@ -34,7 +34,7 @@ function InSearchOfHydrothermalLostCities() {
       title={
         <img
           src="/assets/images/in_search_of_hydrothermal_lost_cities/Title.svg"
-          alt="New species and Seafloor Spotlight"
+          alt="In Search Of Hydrothermal Lost Cities"
         />
       }
       header_image="/assets/images/in_search_of_hydrothermal_lost_cities/Header.webp"

@@ -1,11 +1,14 @@
 import styled from "styled-components";
 
 export const SectionWithImageContainer = styled.div`
-    width:50vw;
+    width:60vw;
+    min-width:700px;
     margin:auto;
     padding-top:2rem;
     @media (max-width:829px){
         width:80vw;
+        min-width:80vw;
+        margin-bottom:3rem;
     }
 
     .image-container{
@@ -55,6 +58,7 @@ export const SectionWithImageContainer = styled.div`
         justify-content: center;
         gap:15px;
         color:#3E5973;
+        font-size:1.7rem;
     }
     .icons-container{
         width:90%;
@@ -62,6 +66,10 @@ export const SectionWithImageContainer = styled.div`
         @media (max-width:829px){
             width:100%;
         }
+    }
+
+    .text-container{
+        min-width:360px;
     }
 
   
