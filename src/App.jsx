@@ -13,6 +13,8 @@ import InSearchOfHydrothermalLostCities from './pages/InSearchOfHydrothermalLost
 //Expeditions
 import OctopusOddyssey from './pages/Expeditions/OctopusOdyssey/OctopusOddyssey';
 import DynamicsOfSinkingMicroplastics from './pages/Expeditions/DynamicsOfSinkingMicroplastics/DynamicsOfSinkingMicroplastics';
+import TheDeepSeaContinuum from './pages/TheDeepSeaContinuum/TheDeepSeaContinuum';
+import TheDeepSeaContinuumIndex from './pages/TheDeepSeaContinuum/Contents/TheDeepSeaContinuumIndex';
 
 function App() {
 
@@ -32,6 +34,10 @@ function App() {
         <Route path="/a_limitless_ocean_of_data" element={<ALimitlessOceanOfData/>} />
         <Route path="/disseminating_the_depths" element={<DisseminatingTheDepths/>} />
         <Route path="/in_search_of_hydrothermal_lost_cities" element={<InSearchOfHydrothermalLostCities/>} />
+        <Route path="/the_deep_sea_continuum" element={<TheDeepSeaContinuum/>} >
+          <Route index element={<TheDeepSeaContinuumIndex/>}/>
+          <Route path="dynamics_of_sinking_microplastics"  element={<DynamicsOfSinkingMicroplastics />}/>
+        </Route>
       </Routes>
     </Router>
   )

@@ -11,6 +11,14 @@ html{
   font-size: 16px;
 }
 
+body{
+  font-size: 1.6rem;
+  @media (min-width: 830px) {
+  font-size: 2rem;
+    
+  }
+}
+
 @font-face {
   font-family: "Garamond";
   src: url("/assets/fonts/AGaramondPro-Regular.otf") format("truetype");
