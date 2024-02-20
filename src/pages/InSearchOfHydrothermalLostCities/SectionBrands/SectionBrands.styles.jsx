@@ -14,10 +14,20 @@ export const SectionBrandsContainer = styled.div`
         margin:auto;
         
     }
-    
 
     img{
         height:80px;
+    }
+
+    .only-mobile{
+        @media (min-width:1100px){
+            display:none;
+        }
+    }
+    .only-desktop{
+        @media (max-width:1099px){
+            display:none;
+        }
     }
     /*
     img:nth-child(1){

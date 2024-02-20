@@ -16,10 +16,10 @@ function Section({title, subtitle, text, italicWords, namedBy, vessel, vesselAft
           <div className="images-container">
               <ImageWithCircle image={image} alt={alt}/>
               <div className="icons-container">
-                  <IconWithText className={'CTA'} icon={Depth} numbers={depth} numbers2={depth2} separator={depthSeparator} text={"m"} opacity={1} textBefore="Depth: "></IconWithText>
-                  <IconWithText className={'CTA'} icon={Year} numbers={year} numbers2={year2} separator={yearSeparator} text={""} opacity={1} textBefore="Year discovered: "></IconWithText>
-                  <IconWithText className={'CTA'} icon={Location}  text={location} opacity={1} textBefore="Location: "></IconWithText>
-                  <IconWithText className={'CTA'} icon={Size} numbers={size} text={sizeText} opacity={1} textBefore="Size: "></IconWithText>
+                  <IconWithText className={'CTA'} icon={Depth} numbers={depth} numbers2={depth2} separator={depthSeparator} text={"m"} opacity={0.9} textBefore="Depth: "></IconWithText>
+                  <IconWithText className={'CTA'} icon={Year} numbers={year} numbers2={year2} separator={yearSeparator} text={""} opacity={0.9} textBefore="Year discovered: "></IconWithText>
+                  <IconWithText className={'CTA'} icon={Location}  text={location} opacity={0.9} textBefore="Location: "></IconWithText>
+                  <IconWithText className={'CTA'} icon={Size} numbers={size} text={sizeText} opacity={0.9} textBefore="Size: "></IconWithText>
               </div>
           </div>
           <div className="paragraph-container">

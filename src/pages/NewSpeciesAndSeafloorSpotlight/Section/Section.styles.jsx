@@ -4,7 +4,7 @@ export const SectionContainer = styled.div`
   width:90vw;
   max-width:1300px;
   margin:auto;
-  padding: 80px 0;
+  padding: 2rem 0 6rem 0;
 
   .images-container{
     flex-basis: 45%;
