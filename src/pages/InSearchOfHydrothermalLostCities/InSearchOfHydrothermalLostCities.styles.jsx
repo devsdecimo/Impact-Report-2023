@@ -26,14 +26,16 @@ export const PageContainer = styled.div`
   }
 
   .CTA{
-    align-items:center !important;
+    @media (min-width:830px){
+      align-items:center !important;
+    }
   }
 
   .paragraph{
     width:80vw;
     max-width:1300px;
     margin:2rem auto;
-    font-size:1.5rem;
+    font-size:1.7rem;
     line-height: 3rem;
     @media (max-width:829px){
         width:90vw;
@@ -41,6 +43,11 @@ export const PageContainer = styled.div`
   }
   .paragraph p{
     margin-bottom:3rem;
+  }
+  .paragraph h3{
+    @media (max-width:829px){
+      text-align:center;
+    }
   }
   .btn-container{
     display:flex;

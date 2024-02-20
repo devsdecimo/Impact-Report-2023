@@ -34,16 +34,26 @@ export const PageContainer = styled.div`
     }
   }
 
-  .d-flex{
-    display:flex;
-    flex-direction:column;
-    gap:30px;
-    @media (min-width:830px){
-        flex-direction:row;
-    }
-  }
   .italic{
     font-style:italic;
+  }
+
+  .paragraph{
+    width: 80vw;
+    max-width: 1300px;
+    margin: 2rem auto;
+    font-size: 1.7rem;
+    line-height: 3rem;
+    @media (max-width:829px){
+        width:90vw;
+    }
+  }
+
+  .btn-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:3rem 0;
   }
 
 

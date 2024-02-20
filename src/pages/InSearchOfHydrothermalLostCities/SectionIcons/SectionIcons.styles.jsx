@@ -10,6 +10,7 @@ export const SectionIconsContainer = styled.div`
     gap:2rem;
     @media (max-width:829px){
         flex-direction:column;
+        gap:0;
     }
 
 `;

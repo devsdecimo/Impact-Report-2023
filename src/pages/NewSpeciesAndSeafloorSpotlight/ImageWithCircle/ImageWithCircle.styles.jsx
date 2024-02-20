@@ -22,7 +22,7 @@ export const ImageWithCircleContainer = styled.div`
         width:168px;
         height:168px;
         background-color:#80AED8;
-        opacity:0.4;
+        opacity:0.5;
         border-radius:50%;
         position:absolute;
         z-index:1;
@@ -33,7 +33,7 @@ export const ImageWithCircleContainer = styled.div`
         width:108px;
         height:108px;
         background-color:#80AED8;
-        opacity:0.6;
+        opacity:0.8;
         border-radius:50%;
         position:absolute;
         z-index:1;
