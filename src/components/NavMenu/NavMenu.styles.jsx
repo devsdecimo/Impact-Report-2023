@@ -54,7 +54,7 @@ export const NavMenuContainer = styled.nav`
     line-height: 1.7;
     z-index: 3;
     min-height: 100%;
-    overflow: hidden;
+    overflow: auto;
     padding: 1rem;
 
     @media (min-width: 830px) {

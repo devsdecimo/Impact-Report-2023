@@ -5,14 +5,26 @@ export const PageContainer = styled.div`
     width: 100%;
     display: flex;
     justify-content: center;
-    gap: 6rem;
+    column-gap: 6rem;
+    row-gap: 2rem;
+    flex-wrap: wrap;
   }
 
   .main_content {
-    max-width: 80vw;
+    max-width: 70vw;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 2rem;
+  }
+
+  .continumm_image{
+    width: 55vh;
+    float: left;
+  }
+
+  .content-body{
+    margin-top: 6rem;
   }
 `;

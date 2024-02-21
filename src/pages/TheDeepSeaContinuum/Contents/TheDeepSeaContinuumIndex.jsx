@@ -1,14 +1,15 @@
 import React from "react";
+import BubbleImage from "../../../components/BubbleImage/BubbleImage";
 
 function TheDeepSeaContinuumIndex({ children }) {
   return (
     <>
       <p>
-        <BubbleImage></BubbleImage>
+        <BubbleImage image="/assets/images/the_deep_sea_continuum/FKt230629-Bright_Gollner-DiscoveryBabyWormsInCrust-20230713-Naranjo-03497.webp" className="continumm_image"></BubbleImage>
         <h3>
           The Deep Sea Continuum/Grants: University of Rhode Island and Lehigh
           University
-        </h3>
+        </h3>{" "}
         Following the{" "}
         <a href="https://schmidtocean.org/cruise/hydrothermal-vents-of-the-galapagos/">
           Hydrothermal Vents of the Western Galapagos

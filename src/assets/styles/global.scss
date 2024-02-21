@@ -7,16 +7,22 @@
   --text-blue: #3e5973;
 }
 
-html{
+html {
   font-size: 16px;
 }
 
-body{
+body,
+h3 {
   font-size: 1.6rem;
+  line-height: 2.5;
   @media (min-width: 830px) {
-  font-size: 2rem;
-    
+    font-size: 2rem;
   }
+}
+
+h3 {
+  margin: 0;
+  display: inline;
 }
 
 @font-face {
@@ -54,7 +60,6 @@ body{
   font-style: italic;
 }
 
-
 @font-face {
   font-family: "Garamond";
   src: url("/assets/fonts/AGaramondPro-BoldItalic.otf") format("truetype");
@@ -90,13 +95,13 @@ body {
   background: transparent;
   color: var(--white);
   font-weight: bold;
-  padding:  0 0.5rem!important;
+  padding: 0 0.5rem !important;
   margin: 0;
   font-size: 1.6rem;
   z-index: 10;
   text-align: center;
   font-family: "Garamond", Times, serif;
-  max-width: 250px!important;
+  max-width: 250px !important;
   text-shadow: 1px 1px 10px var(--dark-blue);
 }
 
@@ -121,16 +126,16 @@ body {
   }
 }
 
-.mobile{
+.mobile {
   display: block;
-  @media (min-width:830px) {
+  @media (min-width: 830px) {
     display: none;
   }
 }
 
-.desktop{
+.desktop {
   display: none;
-  @media (min-width:830px) {
+  @media (min-width: 830px) {
     display: block;
   }
 }

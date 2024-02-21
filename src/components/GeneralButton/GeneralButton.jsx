@@ -3,9 +3,9 @@ import { GeneralButtonContainer } from "./GeneralButton.styles";
 import { Link } from "react-router-dom";
 
 
-function GeneralButton({href,icon, iconPosition = 'left', text}) {
+function GeneralButton({href,icon, iconPosition = 'left', text, className}) {
   return (
-    <GeneralButtonContainer>
+    <GeneralButtonContainer className={className}>
       <Link to={href}>
         <button>
             {iconPosition=='left' &&

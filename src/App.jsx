@@ -15,6 +15,9 @@ import OctopusOddyssey from './pages/Expeditions/OctopusOdyssey/OctopusOddyssey'
 import DynamicsOfSinkingMicroplastics from './pages/Expeditions/DynamicsOfSinkingMicroplastics/DynamicsOfSinkingMicroplastics';
 import TheDeepSeaContinuum from './pages/TheDeepSeaContinuum/TheDeepSeaContinuum';
 import TheDeepSeaContinuumIndex from './pages/TheDeepSeaContinuum/Contents/TheDeepSeaContinuumIndex';
+import Grants from './pages/TheDeepSeaContinuum/Contents/Grants';
+import ThroughtLeadership from './pages/TheDeepSeaContinuum/Contents/ThroughtLeadership';
+import StrategicPartnerships from './pages/TheDeepSeaContinuum/Contents/StrategicPartnerships';
 
 function App() {
 
@@ -36,7 +39,9 @@ function App() {
         <Route path="/in_search_of_hydrothermal_lost_cities" element={<InSearchOfHydrothermalLostCities/>} />
         <Route path="/the_deep_sea_continuum" element={<TheDeepSeaContinuum/>} >
           <Route index element={<TheDeepSeaContinuumIndex/>}/>
-          <Route path="dynamics_of_sinking_microplastics"  element={<DynamicsOfSinkingMicroplastics />}/>
+          <Route path="grants"  element={<Grants />}/>
+          <Route path="thought_leadership"  element={<ThroughtLeadership/>}/>
+          <Route path="strategic_partnerships"  element={<StrategicPartnerships/>}/>
         </Route>
       </Routes>
     </Router>
