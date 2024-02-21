@@ -21,7 +21,7 @@ export const PageContainer = styled.div`
 
   .intro-text p {
     color: #3e5973;
-    font-size: 1.7rem;
+    /*font-size: 1.7rem;*/
     font-style: normal;
     font-weight: 400;
     line-height: normal;

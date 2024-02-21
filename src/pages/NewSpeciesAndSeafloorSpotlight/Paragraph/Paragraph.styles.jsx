@@ -3,11 +3,11 @@ import styled from "styled-components";
 export const ParagraphContainer = styled.div`
   
   h2, h3, p{
-    font-size:1.7rem;
+    /*font-size:1.7rem;*/
   }
   h2{
     color:#395169;
-    font-size:1.7rem;
+    /*font-size:1.7rem;*/
     font-style:italic;
     margin-bottom:0;
     @media (max-width:829px){

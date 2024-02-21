@@ -35,7 +35,7 @@ export const PageContainer = styled.div`
     width:80vw;
     max-width:1300px;
     margin:2rem auto;
-    font-size:1.7rem;
+    /*font-size:1.7rem;*/
     line-height: 3rem;
     @media (max-width:829px){
         width:90vw;
