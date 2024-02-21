@@ -14,10 +14,13 @@ html {
 body,
 h3 {
   font-size: 1.6rem;
-  line-height: 2.5;
   @media (min-width: 830px) {
     font-size: 2rem;
   }
+}
+
+p, li {
+  line-height: 2.5;
 }
 
 h3 {

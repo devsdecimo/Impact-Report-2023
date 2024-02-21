@@ -20,7 +20,7 @@ export const PageContainer = styled.div`
   }
 
   .continumm_image{
-    width: 55vh;
+    width: 45vh;
     float: left;
   }
 
