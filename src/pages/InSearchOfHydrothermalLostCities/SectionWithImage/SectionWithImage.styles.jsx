@@ -58,7 +58,7 @@ export const SectionWithImageContainer = styled.div`
         justify-content: center;
         gap:15px;
         color:#3E5973;
-        font-size:1.7rem;
+        /*font-size:1.7rem;*/
     }
     .icons-container{
         width:90%;
