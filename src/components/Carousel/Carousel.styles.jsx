@@ -9,31 +9,31 @@ export const CarouselContainer = styled.div`
   height: 30em;
 
   @media (min-width: 0px) {
-    height: 10em;
+    height: 6em;
   }
 
   @media (min-width: 360px) {
-    height: 14em;
+    height: 8em;
   }
 
   @media (min-width: 515px) {
-    height: 18em;
+    height: 10em;
   }
 
   @media (min-width: 768px) {
-    height: 27.5em;
+    height: 12em;
   }
 
   @media (min-width: 992px) {
-    height: 28em;
+    height: 14em;
   }
 
   @media (min-width: 1600px) {
-    height: 30em;
+    height: 16em;
   }
 
   @media (min-width: 1700px) {
-    height: 31em;
+    height: 20em;
   }
 `;
 
@@ -121,12 +121,14 @@ export const DotContainer = styled.div`
 
 export const Dot = styled.span`
   padding: 5px;
-  margin-right: 5px;
+  margin-right: 10px;
+  margin-left:10px;
   cursor: pointer;
   border-radius: 50%;
-  width: ${(props) => (props.actived ? '10px' : '5px')};
-  height: ${(props) => (props.actived ? '10px' : '5px')};
+  width: ${(props) => (props.actived ? '10px' : '10px')};
+  height: ${(props) => (props.actived ? '10px' : '10px')};
   background: ${(props) => (props.actived ? '#5D808F' : 'white')};
+  border:1px solid #5D808F;
   transition: width 0.3s ease, height 0.3s ease;
   &:last-child {
     margin-right: 0;
@@ -164,7 +166,7 @@ export const ArrowButton = styled.button`
   }
 
   @media (min-width: 1600px) {
-    ${({ direction }) => (direction === 'left' ? 'left: calc(20% + 20px);' : 'right: calc(20% + 20px);')}
+    ${({ direction }) => (direction === 'left' ? 'left: calc(15% + 20px);' : 'right: calc(15% + 20px);')}
   }
 
   &:hover {

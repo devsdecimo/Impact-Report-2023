@@ -18,6 +18,7 @@ export const ParagraphContainer = styled.div`
     margin-top:10px;
     @media (max-width:829px){
         text-align:center;
+        display:block;
     }
   }
   p{

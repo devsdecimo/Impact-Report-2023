@@ -4,7 +4,7 @@ export const YoutubeVideoContainer = styled.div`
     display:flex;
     justify-content:center;
     align-items:center;
-    margin:4rem 0;
+    margin:6rem 0;
 
     iframe{
         width:741.33px;
