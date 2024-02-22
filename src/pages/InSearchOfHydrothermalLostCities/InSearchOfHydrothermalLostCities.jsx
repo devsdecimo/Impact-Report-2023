@@ -7,6 +7,7 @@ import SectionIcons from "./SectionIcons/SectionIcons";
 import Carousel from "../../components/Carousel/Carousel";
 import YouTubeVideo from "./YoutubeVideo/YoutubeVideo";
 import GeneralButton from "../../components/GeneralButton/GeneralButton";
+import ImageWithCircle from "./ImageWithCircle/ImageWithCircle";
 
 import Prev from "/assets/images/prev.svg";
 import Next from "/assets/images/next.svg";
@@ -15,6 +16,7 @@ import image2 from "/assets/images/in_search_of_hydrothermal_lost_cities/carouse
 import image3 from "/assets/images/in_search_of_hydrothermal_lost_cities/carousel/03-VentFaunaReflectiveP.webp";
 import image4 from "/assets/images/in_search_of_hydrothermal_lost_cities/carousel/04-CaressPaduanJeff.webp";
 import image5 from "/assets/images/in_search_of_hydrothermal_lost_cities/carousel/05-AUVLaunchAndRecovery.webp";
+import Personas from "/assets/images/a_word_from_our_founders/Personas.webp"
 
 
 
@@ -69,6 +71,11 @@ function InSearchOfHydrothermalLostCities() {
             </p>
             <p>Locating three active hydrothermal vent fields is the first discovery on this section of the Mid-Atlantic Ridge in more than 40 years. One of the discovered vent fields was located at the Puy des Folles volcano and has five active sites over 6.95 square miles, or 18 square kilometers. High-temperature black smoker vents were found at the Grappe Deux Vent System and Kane Fracture Zone.
             </p>
+            {/*}
+            <ImageWithCircle
+              image={Personas}
+              orientation='left'
+    />*/}
             <p>Hydrothermal mineral deposits at inactive vents on the Mid-Atlantic Ridge could be potential targets for deep-sea mining sites. Proponents of deep-sea mining suggest that mineral extraction does not pose a threat at inactive sites, as they suspect no animals live at these locations. To protect these understudied systems from mining, it is essential to establish where animal communities exist on the mid-Atlantic ridge and their relationship to the surrounding geological and chemical conditions. 
             </p>
             <p>The expedition combined the use of Autonomous Underwater Vehicles, or AUVs, to produce high-resolution maps of the seafloor, Miniature Autonomous Plume Recorders to sense the water column, and ROV <span className="italic">SuBastian</span> to conduct visual surveys and sampling of the seafloor. This nested approach demonstrated the effectiveness of combining technologies to illuminate how the current geologic setting controls hydrothermal chemistry and habitat conditions. 

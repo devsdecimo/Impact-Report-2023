@@ -32,12 +32,14 @@ export const Slide = styled.div`
     z-index: 1;
     opacity: 0.5;
     transform: translateX(calc(-50% + 40.333%)) scale(0.8);
+    visibility: hidden;
   }
 
   &.next {
     z-index: 1;
     opacity: 0;
     transform: translateX(calc(-50% + 40.333%)) scale(0.8);
+    visibility: hidden;
   }
 
   &.prev {
@@ -46,6 +48,7 @@ export const Slide = styled.div`
 
   &.first-next  {
     opacity: 0.5;
+    visibility: hidden;
   }
 
   &.center + &.next {

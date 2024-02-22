@@ -4,11 +4,11 @@ export const SectionWithImageContainer = styled.div`
     width:60vw;
     min-width:700px;
     margin:auto;
-    padding-top:2rem;
     @media (max-width:829px){
         width:80vw;
         min-width:80vw;
         margin-bottom:3rem;
+        padding-top:2rem;
     }
 
     .image-container{
@@ -16,9 +16,12 @@ export const SectionWithImageContainer = styled.div`
         height:250px;
         width:230px;
         margin-left:20px;
-        margin-bottom:50px;
+        margin-bottom:0px;
+        margin-top: 70px;
+        transform: scale(1.2);
         @media (max-width:829px){
             margin:auto;
+            transform:scale(1);
         }
     }
 
@@ -58,6 +61,9 @@ export const SectionWithImageContainer = styled.div`
         justify-content: center;
         gap:15px;
         color:#3E5973;
+        @media (max-width:829px){
+            flex-wrap:wrap;
+        }
         /*font-size:1.7rem;*/
     }
     .icons-container{
@@ -69,7 +75,10 @@ export const SectionWithImageContainer = styled.div`
     }
 
     .text-container{
-        min-width:360px;
+        @media (min-width:830px){
+            min-width:360px;
+        }
+        
     }
 
   
