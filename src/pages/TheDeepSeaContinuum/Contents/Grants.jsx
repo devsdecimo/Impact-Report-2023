@@ -6,8 +6,8 @@ function Grants({ children }) {
     <>
       <p>
         <BubbleImage
-          image="/assets/images/the_deep_sea_continuum/FKt230629-Bright_Gollner-DiscoveryBabyWormsInCrust-20230713-Naranjo-03497.webp"
-          className="continumm_image"
+          image="/assets/images/the_deep_sea_continuum/JoseSpanishHourDiveStream.webp"
+          className="grants_image"
         ></BubbleImage>
         <h3>
           The Deep Sea Continuum/Grants: University of Rhode Island and Lehigh

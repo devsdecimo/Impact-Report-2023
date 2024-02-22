@@ -4,12 +4,16 @@ import BubbleImage from "../../../components/BubbleImage/BubbleImage";
 function ThroughtLeadership({ children }) {
   return (
     <>
-      <h3>
-        <strong>
-          The Deep Sea Continuum/Thought Leadership: Conference Sponsorship
-        </strong>
-      </h3>
       <p>
+        <BubbleImage
+          image="/assets/images/the_deep_sea_continuum/JoseSpanishHourDiveStream.webp"
+          className="throught_image"
+        ></BubbleImage>
+        <h3>
+          <strong>
+            The Deep Sea Continuum/Thought Leadership: Conference Sponsorship
+          </strong>
+        </h3>
         Conferences, workshops, and symposia provide a platform for the
         oceanographic research and technology communities to network, educate,
         and collaborate. SOI remains committed to sponsoring events, and strives

@@ -1,6 +1,6 @@
 import React from "react";
 import { SectionIconsContainer } from "./SectionIcons.styles";
-import IconWithText from "../../../components/IconWithText/IconWithText";
+import IconWithText from "../../../../components/IconWithText/IconWithText";
 import Auv from "/assets/images/in_search_of_hydrothermal_lost_cities/icons/auv.svg"
 import Casts from "/assets/images/in_search_of_hydrothermal_lost_cities/icons/casts.svg"
 import Days from "/assets/images/in_search_of_hydrothermal_lost_cities/icons/days.svg"

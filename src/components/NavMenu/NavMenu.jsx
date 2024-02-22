@@ -26,7 +26,7 @@ function NavMenu({ className }) {
         onClick={toggleMenu}
       ></button>
       <div className={`menu ${openMenu ? "menu__open" : ""}`}>
-        <Link to="/"  onClick={toggleMenu}>
+        <Link to="/" onClick={toggleMenu}>
           <img
             src="/assets/images/logo.webp"
             alt="soi logo"
@@ -58,7 +58,9 @@ function NavMenu({ className }) {
             <SubMenu title={"Inaugural Year of Discovery"}>
               <ul>
                 <li>
-                  <Link to="/in_search_of_hydrothermal_lost_cities">In Search of Hydrothermal Lost Cities</Link>
+                  <Link to="/expeditions/in_search_of_hydrothermal_lost_cities">
+                    In Search of Hydrothermal Lost Cities
+                  </Link>
                 </li>
                 <li>
                   <Link>Health Diagnosis of Deep Sea Coral</Link>
@@ -89,13 +91,12 @@ function NavMenu({ className }) {
           </li>
           <li>
             <SubMenu
-              href="/new_species_and_seafloor_spotlight"
               title={"New Species & Seafloor Spotlight"}
               toggleMain={toggleMenu}
             >
               <ul>
                 <li>
-                  <Link to="/new_species_and_seafloor_spotlight/new_species_spotlight">
+                  <Link to="/new_species_spotlight">
                     New Species Spotlight
                   </Link>
                 </li>
@@ -114,7 +115,6 @@ function NavMenu({ className }) {
           </li>
           <li>
             <SubMenu
-              href="/the_deep_sea_continuum"
               title={"The Deep Sea Continuum"}
               toggleMain={toggleMenu}
             >
@@ -137,7 +137,6 @@ function NavMenu({ className }) {
           </li>
           <li>
             <SubMenu
-              href="/disseminating_the_depths"
               title={"Disseminating the Depths"}
               toggleMain={toggleMenu}
             >

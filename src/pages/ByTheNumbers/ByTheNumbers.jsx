@@ -13,7 +13,7 @@ import Counter from "../../components/Counter/Counter";
 
 function ByTheNumbers() {
   return (
-    <PageContainer>
+    <PageContainer className="by_the_numbers">
       <Page
         title={
           <img

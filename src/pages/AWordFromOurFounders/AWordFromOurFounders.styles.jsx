@@ -49,6 +49,10 @@ export const PageContainer = styled.div`
     }
   }
 
+  .paragraph p{
+    margin-bottom:4rem;
+  }
+
   .btn-container{
     display:flex;
     align-items: center;

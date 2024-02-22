@@ -53,12 +53,16 @@ export const PageContainer = styled.div`
     display:flex;
     justify-content:center;
     align-items:center;
-    gap:3rem;
+    gap:10rem;
     margin:5rem auto;
     max-width:90vw;
     @media (max-width:500px){
         flex-direction:column;
     }
+  }
+
+  li::marker{
+    font-size:2.5rem;
   }
 
 `;

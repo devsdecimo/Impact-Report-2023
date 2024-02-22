@@ -1,11 +1,11 @@
 import React from "react";
-import { PageContainer } from "./NewSpeciesAndSeafloorSpotlight.styles";
+import { PageContainer } from "./NewSpeciesSpotlight.styles";
 import Page from "../../components/Page/Page";
 import Section from "./Section/Section";
 
 
 
-function NewSpeciesAndSeafloorSpotlight() {
+function NewSpeciesSpotlight() {
   return (
     <PageContainer>
     <Page
@@ -154,4 +154,4 @@ function NewSpeciesAndSeafloorSpotlight() {
   );
 }
 
-export default NewSpeciesAndSeafloorSpotlight;
+export default NewSpeciesSpotlight;

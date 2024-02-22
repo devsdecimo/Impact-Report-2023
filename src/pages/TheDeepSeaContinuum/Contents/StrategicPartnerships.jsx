@@ -4,13 +4,18 @@ import BubbleImage from "../../../components/BubbleImage/BubbleImage";
 function StrategicPartnerships({ children }) {
   return (
     <>
-      <h3>
-        <strong>
-          The Deep Sea Continuum/Strategic Partnerships: All-Atlantic Floating
-          University
-        </strong>
-      </h3>
       <p>
+        <BubbleImage
+          image="/assets/images/the_deep_sea_continuum/JoseSpanishHourDiveStream.webp"
+          className="strategic_image"
+          direction="up"
+        ></BubbleImage>
+        <h3>
+          <strong>
+            The Deep Sea Continuum/Strategic Partnerships: All-Atlantic Floating
+            University
+          </strong>
+        </h3>
         Training at sea is critical for preparing new generations of early
         career ocean professionals and SOI offers multiple at-sea operations
         opportunities targeting academic and maritime sectors. To strengthen and
@@ -99,7 +104,7 @@ function StrategicPartnerships({ children }) {
       <p>
         Only 10% of ocean life has been discovered. This year, a new
         collaborative was formed to address this gap in knowledge.{" "}
-        <a href="http://oceancensus.org">Ocean Census</a>{" "}was created as an open
+        <a href="http://oceancensus.org">Ocean Census</a> was created as an open
         network of science, business, media, and civil society organizations
         with the goal of accelerating discovery and protection of ocean life.
         Founded by The Nippon Foundation and Nekton, SOI joined the global

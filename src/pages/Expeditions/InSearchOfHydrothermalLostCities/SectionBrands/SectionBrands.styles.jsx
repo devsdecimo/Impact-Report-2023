@@ -4,6 +4,7 @@ export const SectionBrandsContainer = styled.div`
     width:100vw;
     background-color:white;
     padding:20px 0;
+    margin-top:2rem;
 
     .brands-container{
         display:flex;
@@ -16,7 +17,11 @@ export const SectionBrandsContainer = styled.div`
     }
 
     img{
-        height:80px;
+        @media (min-width:1100px){
+            height:100px;
+            max-height:7.5vw;
+        }
+        
     }
 
     .only-mobile{

@@ -81,12 +81,14 @@ export const DotContainer = styled.div`
 
 export const Dot = styled.span`
   padding: 5px;
-  margin-right: 5px;
+  margin-right: 10px;
+  margin-left:10px;
   cursor: pointer;
   border-radius: 50%;
-  width: ${(props) => (props.actived ? "10px" : "5px")};
-  height: ${(props) => (props.actived ? "10px" : "5px")};
+  width: ${(props) => (props.actived ? "10px" : "10px")};
+  height: ${(props) => (props.actived ? "10px" : "10px")};
   background: ${(props) => (props.actived ? "#5D808F" : "white")};
+  border:1px solid #5D808F;
   transition: width 0.3s ease, height 0.3s ease;
   &:last-child {
     margin-right: 0;
@@ -135,8 +137,8 @@ export const ArrowButton = styled.button`
   @media (min-width: 1600px) {
     ${({ direction }) =>
       direction === "left"
-        ? "left: calc(20% + 20px);"
-        : "right: calc(20% + 20px);"}
+        ? "left: calc(15% + 20px);"
+        : "right: calc(15% + 20px);"}
   }
 
   &:hover {

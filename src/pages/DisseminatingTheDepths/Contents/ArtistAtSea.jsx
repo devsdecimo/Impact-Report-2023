@@ -15,7 +15,7 @@ function ArtistAtSea({ children }) {
   return (
     <>
       <p>
-        <BubbleImage image="/assets/images/the_deep_sea_continuum/FKt230629-Bright_Gollner-DiscoveryBabyWormsInCrust-20230713-Naranjo-03497.webp" className="disseminating-image" direction="up"/>
+        <BubbleImage image="/assets/images/disseminating_the_depths/ShanHuaArtistAtSea.webp" className="artist-image" direction="up"/>
         <h3>Disseminating the Depths: Artist-at-Sea</h3>{" "}
         The{" "}
         <a href="https://schmidtocean.org/apply/artist-residency-program/">

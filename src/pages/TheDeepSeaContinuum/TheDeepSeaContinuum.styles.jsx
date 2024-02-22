@@ -19,7 +19,17 @@ export const PageContainer = styled.div`
     margin-top: 2rem;
   }
 
-  .continumm_image{
+  .grants_image{
+    width: 45vh;
+    float: left;
+  }
+
+  .throught_image{
+    width: 45vh;
+    float: right;
+  }
+
+  .strategic_image{
     width: 45vh;
     float: left;
   }

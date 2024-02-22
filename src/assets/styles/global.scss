@@ -27,6 +27,11 @@ h3 {
   margin: 0;
 }
 
+:not(.by-the-numbers) p, h3 {
+  opacity: 0;
+  animation: frombottom 1s ease-in-out forwards;
+}
+
 @font-face {
   font-family: "Garamond";
   src: url("/assets/fonts/AGaramondPro-Regular.otf") format("truetype");
@@ -89,6 +94,18 @@ body {
   100% {
     opacity: 1;
     transform: scale(1);
+  }
+}
+
+@keyframes frombottom {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 

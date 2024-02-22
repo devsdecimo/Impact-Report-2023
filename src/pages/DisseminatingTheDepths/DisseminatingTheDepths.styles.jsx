@@ -19,12 +19,27 @@ export const PageContainer = styled.div`
     margin-top: 2rem;
   }
 
-  .disseminating-image{
+  .artist-image {
     width: 45vh;
     float: left;
   }
 
-  .content-body{
+  .community-image {
+    width: 45vh;
+    float: right;
+  }
+
+  .connections-image {
+    width: 45vh;
+    float: left;
+  }
+
+  .press-image {
+    width: 45vh;
+    float: right;
+  }
+
+  .content-body {
     margin-top: 6rem;
   }
 
@@ -35,12 +50,10 @@ export const PageContainer = styled.div`
     transition: 1s;
   }
 
-  .unhide{
+  .unhide {
     opacity: 1;
     transform: scale(1);
     max-width: 50vw;
     transition: 1s;
   }
-  
-
 `;

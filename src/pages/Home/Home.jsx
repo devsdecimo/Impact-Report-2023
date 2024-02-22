@@ -27,7 +27,8 @@ function Home() {
             delay="0"
             tooltip="In Search of Hydrothermal Lost Cities"
             tooltipPlace="left"
-          ></ButtonImage>
+            href={"/expeditions/in_search_of_hydrothermal_lost_cities"}
+            ></ButtonImage>
           <ButtonImage
             className="expedition_button expedition_button_two expedition_button_left"
             src="/assets/images/home/expedition_2.webp"

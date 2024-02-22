@@ -4,10 +4,13 @@ export const ImageWithCircleContainer = styled.div`
     position:relative;
     height:320px;
     width:320px;
-    margin-left:20px;
-    margin-bottom:50px;
+    margin-left: 3rem;
+    margin-bottom: 50px;
+    margin-top: 3rem;
+    transform: scale(1.2);
     @media (max-width:829px){
         margin:auto;
+        transform:scale(1)
     }
 
     img{
