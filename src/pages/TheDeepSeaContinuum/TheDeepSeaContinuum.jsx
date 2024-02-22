@@ -24,19 +24,29 @@ function TheDeepSeaContinuum({ children }) {
             href="grants"
             icon="/assets/images/icons/lightning.svg"
             text="Grants"
-            className={isActive("/the_deep_sea_continuum/grants") ? "active" : ""}
+            className={
+              isActive("/the_deep_sea_continuum/grants") ? "active" : ""
+            }
           />
           <GeneralButton
             href="thought_leadership"
             icon="/assets/images/icons/bulb.svg"
             text="Throught Leadership"
-            className={isActive("/the_deep_sea_continuum/thought_leadership") ? "active" : ""}
+            className={
+              isActive("/the_deep_sea_continuum/thought_leadership")
+                ? "active"
+                : ""
+            }
           />
           <GeneralButton
             href="strategic_partnerships"
             icon="/assets/images/icons/handshake.svg"
             text="Strategic Partnerships"
-            className={isActive("/the_deep_sea_continuum/strategic_partnerships") ? "active" : ""}
+            className={
+              isActive("/the_deep_sea_continuum/strategic_partnerships")
+                ? "active"
+                : ""
+            }
           />
         </nav>
         <div className="content-body">

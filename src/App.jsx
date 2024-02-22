@@ -14,10 +14,12 @@ import InSearchOfHydrothermalLostCities from './pages/InSearchOfHydrothermalLost
 import OctopusOddyssey from './pages/Expeditions/OctopusOdyssey/OctopusOddyssey';
 import DynamicsOfSinkingMicroplastics from './pages/Expeditions/DynamicsOfSinkingMicroplastics/DynamicsOfSinkingMicroplastics';
 import TheDeepSeaContinuum from './pages/TheDeepSeaContinuum/TheDeepSeaContinuum';
-import TheDeepSeaContinuumIndex from './pages/TheDeepSeaContinuum/Contents/TheDeepSeaContinuumIndex';
 import Grants from './pages/TheDeepSeaContinuum/Contents/Grants';
 import ThroughtLeadership from './pages/TheDeepSeaContinuum/Contents/ThroughtLeadership';
 import StrategicPartnerships from './pages/TheDeepSeaContinuum/Contents/StrategicPartnerships';
+import ArtistAtSea from './pages/DisseminatingTheDepths/Contents/ArtistAtSea';
+import CommunityBuilding from './pages/DisseminatingTheDepths/Contents/CommunityBuilding';
+import DivestreamsAndConnections from './pages/DisseminatingTheDepths/Contents/DivestreamsAndConnections';
 
 function App() {
 
@@ -35,10 +37,13 @@ function App() {
         <Route path="/by_the_numbers" element={<ByTheNumbers />} />
         <Route path="/new_species_and_seafloor_spotlight" element={<NewSpeciesAndSeafloorSpotlight />} />
         <Route path="/a_limitless_ocean_of_data" element={<ALimitlessOceanOfData/>} />
-        <Route path="/disseminating_the_depths" element={<DisseminatingTheDepths/>} />
+        <Route path="/disseminating_the_depths"  element={<DisseminatingTheDepths/>}>
+          <Route path="artist_at_sea"  element={<ArtistAtSea />}/>
+          <Route path="community_building"  element={<CommunityBuilding />}/>
+          <Route path="divestreams_and_connections"  element={<DivestreamsAndConnections />}/>
+        </Route>
         <Route path="/in_search_of_hydrothermal_lost_cities" element={<InSearchOfHydrothermalLostCities/>} />
         <Route path="/the_deep_sea_continuum" element={<TheDeepSeaContinuum/>} >
-          <Route index element={<TheDeepSeaContinuumIndex/>}/>
           <Route path="grants"  element={<Grants />}/>
           <Route path="thought_leadership"  element={<ThroughtLeadership/>}/>
           <Route path="strategic_partnerships"  element={<StrategicPartnerships/>}/>

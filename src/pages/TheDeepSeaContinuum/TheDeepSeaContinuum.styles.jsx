@@ -5,13 +5,13 @@ export const PageContainer = styled.div`
     width: 100%;
     display: flex;
     justify-content: center;
-    column-gap: 6rem;
+    column-gap: 4rem;
     row-gap: 2rem;
     flex-wrap: wrap;
   }
 
   .main_content {
-    max-width: 70vw;
+    max-width: 76vw;
     margin: 0 auto;
     display: flex;
     flex-direction: column;

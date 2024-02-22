@@ -21,6 +21,7 @@ export const GeneralButtonContainer = styled.div`
     @media (max-width: 500px) {
       justify-content: center;
     }
+    transition: 1s;
   }
   a {
     text-decoration: none;

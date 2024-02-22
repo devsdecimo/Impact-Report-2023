@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const CarouselContainer = styled.div`
   display: flex;
@@ -6,34 +6,11 @@ export const CarouselContainer = styled.div`
   align-items: center;
   overflow: hidden;
   position: relative;
-  height: 30em;
+  width: 100%;
+  aspect-ratio: 5 / 4;
 
-  @media (min-width: 0px) {
-    height: 10em;
-  }
-
-  @media (min-width: 360px) {
-    height: 14em;
-  }
-
-  @media (min-width: 515px) {
-    height: 18em;
-  }
-
-  @media (min-width: 768px) {
-    height: 27.5em;
-  }
-
-  @media (min-width: 992px) {
-    height: 28em;
-  }
-
-  @media (min-width: 1600px) {
-    height: 30em;
-  }
-
-  @media (min-width: 1700px) {
-    height: 31em;
+  @media (min-width: 830px) {
+    aspect-ratio: 11 / 5;
   }
 `;
 
@@ -71,7 +48,7 @@ export const Slide = styled.div`
     transform: translateX(calc(-50% - 40.333%)) scale(0.8);
   }
 
-  &.first-next  {
+  &.first-next {
     opacity: 0.5;
   }
 
@@ -79,7 +56,9 @@ export const Slide = styled.div`
     opacity: 0.5;
   }
 
-  &.first-next, &.prev, &.next {
+  &.first-next,
+  &.prev,
+  &.next {
     @media (max-width: 767px) {
       opacity: 0.02;
     }
@@ -98,25 +77,6 @@ export const DotContainer = styled.div`
   position: absolute;
   bottom: 10px;
   width: 100%;
-
-  @media (min-width: 280px) {
-    bottom: 29%;
-  }
-  @media (min-width: 360px) {
-    bottom: 22%;
-  }
-  @media (min-width: 515px) {
-    bottom: 14%;
-  }
-  @media (min-width: 768px), (min-width: 1600px) {
-    bottom: 2em;
-  }
-  @media (min-width: 992px) {
-    bottom: 0;
-  }
-  @media (min-width: 1700px) {
-    bottom: 0;
-  }
 `;
 
 export const Dot = styled.span`
@@ -124,9 +84,9 @@ export const Dot = styled.span`
   margin-right: 5px;
   cursor: pointer;
   border-radius: 50%;
-  width: ${(props) => (props.actived ? '10px' : '5px')};
-  height: ${(props) => (props.actived ? '10px' : '5px')};
-  background: ${(props) => (props.actived ? '#5D808F' : 'white')};
+  width: ${(props) => (props.actived ? "10px" : "5px")};
+  height: ${(props) => (props.actived ? "10px" : "5px")};
+  background: ${(props) => (props.actived ? "#5D808F" : "white")};
   transition: width 0.3s ease, height 0.3s ease;
   &:last-child {
     margin-right: 0;
@@ -141,34 +101,45 @@ export const ArrowButton = styled.button`
   border: none;
   cursor: pointer;
   font-size: 3em;
-  color: #5D808F;
+  color: #5d808f;
   z-index: 99;
 
-  ${({ direction }) => (direction === 'left' ? 'left: 1%;' : 'right: 1%;')}
+  ${({ direction }) => (direction === "left" ? "left: 1%;" : "right: 1%;")}
   padding: 10px;
 
   @media (min-width: 515px) {
-    ${({ direction }) => (direction === 'left' ? 'left: 0;' : 'right: 0;')}
+    ${({ direction }) => (direction === "left" ? "left: 0;" : "right: 0;")}
   }
 
   @media (min-width: 768px) {
-    ${({ direction }) => (direction === 'left' ? 'left: calc(5% + 10px);' : 'right: calc(5% + 10px);')}
+    ${({ direction }) =>
+      direction === "left"
+        ? "left: calc(5% + 10px);"
+        : "right: calc(5% + 10px);"}
   }
 
   @media (min-width: 992px) {
-    ${({ direction }) => (direction === 'left' ? 'left: calc(5% + 20px);' : 'right: calc(5% + 20px);')}
+    ${({ direction }) =>
+      direction === "left"
+        ? "left: calc(5% + 20px);"
+        : "right: calc(5% + 20px);"}
   }
 
   @media (min-width: 1200px) {
-    ${({ direction }) => (direction === 'left' ? 'left: calc(10% + 20px);' : 'right: calc(10% + 20px);')}
+    ${({ direction }) =>
+      direction === "left"
+        ? "left: calc(10% + 20px);"
+        : "right: calc(10% + 20px);"}
   }
 
   @media (min-width: 1600px) {
-    ${({ direction }) => (direction === 'left' ? 'left: calc(20% + 20px);' : 'right: calc(20% + 20px);')}
+    ${({ direction }) =>
+      direction === "left"
+        ? "left: calc(20% + 20px);"
+        : "right: calc(20% + 20px);"}
   }
 
   &:hover {
     color: #344349;
   }
 `;
-
