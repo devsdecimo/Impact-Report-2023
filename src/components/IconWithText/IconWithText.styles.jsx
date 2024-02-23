@@ -13,7 +13,7 @@ export const IconWithTextContainer = styled.div`
   margin-top:10px;
 
   img {
-    height: 1.5em;
+    height: 1.7rem;
     margin-right: 0.5rem;
     transition: margin-right 0.3s ease;
     width: 1.5em;
