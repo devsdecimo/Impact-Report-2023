@@ -21,16 +21,16 @@ export const PageContainer = styled.div`
 
   .intro-text p {
     color: #3e5973;
-    /*font-size: 1.7rem;*/
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    max-width: 70%;
+    max-width: 90%;
     text-align: center;
+    font-size: 1.5rem;
 
     @media (min-width: 830px) {
       max-width: 60%;
-      font-size: 2.02vw;
+      font-size: 1.5vw;
     }
   }
 
@@ -42,7 +42,6 @@ export const PageContainer = styled.div`
     width: 80vw;
     max-width: 1300px;
     margin: 2rem auto;
-    font-size: 1.7rem;
     line-height: 3rem;
     @media (max-width:829px){
         width:90vw;
