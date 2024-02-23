@@ -10,6 +10,12 @@ import ImageWithCircle from "../ImageWithCircle/ImageWithCircle";
 
 
 function Section({title, subtitle, text, italicWords, namedBy, vessel, vesselAfterText, photo, depth, depth2, depthSeparator, year, year2, yearSeparator, location,size, sizeText, image, alt}) {
+
+
+  function esEntero(numero) {
+    return numero % 1 === 0 ? true:false;
+  }
+
   return (
     <SectionContainer>
         <section className="d-flex">
@@ -19,7 +25,11 @@ function Section({title, subtitle, text, italicWords, namedBy, vessel, vesselAft
                   <IconWithText className={'CTA'} icon={Depth} numbers={depth} numbers2={depth2} separator={depthSeparator} text={"m"} opacity={0.9} textBefore="Depth: "></IconWithText>
                   <IconWithText className={'CTA'} icon={Year} numbers={year} numbers2={year2} separator={yearSeparator} text={""} opacity={0.9} textBefore="Year discovered: "></IconWithText>
                   <IconWithText className={'CTA'} icon={Location}  text={location} opacity={0.9} textBefore="Location: "></IconWithText>
-                  <IconWithText className={'CTA'} icon={Size} numbers={size} text={sizeText} opacity={0.9} textBefore="Size: "></IconWithText>
+                  {esEntero(size)?
+                  <IconWithText className={'CTA'} icon={Size} numbers={size} text={sizeText} opacity={0.9} textBefore="Size: "></IconWithText>:
+                  <IconWithText className={'CTA'} icon={Size} numbers={Math.floor(size)} numbers2={(size - Math.floor(size))*10} separator={'.'} text={sizeText} opacity={0.9} textBefore="Size: "></IconWithText>
+                  }
+                  
               </div>
           </div>
           <div className="paragraph-container">
