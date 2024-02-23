@@ -7,7 +7,7 @@ function ImageWithCircle({image,alt, circleImage, orientation = 'left'}) {
         <img src={image} alt={alt} />
         <div className="circle1"></div>
         <div className="circle3"></div>
-        <img src={circleImage} className="circle2"/>
+        <div className="circle2"></div>
     </ImageWithCircleContainer>
     
   );

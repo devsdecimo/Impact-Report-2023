@@ -69,15 +69,18 @@ function InSearchOfHydrothermalLostCities() {
          <div className="paragraph">
             <p>The first scientific expedition of SOI’s new research vessel <span className="italic">Falkor (too)</span> was a multi-pronged exploration developed to accelerate the discovery and characterization of deep-sea hydrothermal systems, targeting oceanic core complexes at the Mid-Atlantic Ridge, the world's longest underwater mountain range. Oceanic core complexes are locations where mantle rock is exposed to cold seawater.
             </p>
-            <p>Locating three active hydrothermal vent fields is the first discovery on this section of the Mid-Atlantic Ridge in more than 40 years. One of the discovered vent fields was located at the Puy des Folles volcano and has five active sites over 6.95 square miles, or 18 square kilometers. High-temperature black smoker vents were found at the Grappe Deux Vent System and Kane Fracture Zone.
-            </p>
-            {/*}
-            <ImageWithCircle
-              image={Personas}
-              orientation='left'
-    />*/}
-            <p>Hydrothermal mineral deposits at inactive vents on the Mid-Atlantic Ridge could be potential targets for deep-sea mining sites. Proponents of deep-sea mining suggest that mineral extraction does not pose a threat at inactive sites, as they suspect no animals live at these locations. To protect these understudied systems from mining, it is essential to establish where animal communities exist on the mid-Atlantic ridge and their relationship to the surrounding geological and chemical conditions. 
-            </p>
+            <div className="paragraph">
+              <span>
+                Locating three active hydrothermal vent fields is the first discovery on this section of the Mid-Atlantic Ridge in more than 40 years. One of the discovered vent fields was located at the Puy des Folles volcano and has five active 
+              </span>
+              <ImageWithCircle image={Personas} orientation='left' />
+              <span>
+                sites over 6.95 square miles, or 18 square kilometers. High-temperature black smoker vents were found at the Grappe Deux Vent System and Kane Fracture Zone.
+              </span>
+
+              <p>Hydrothermal mineral deposits at inactive vents on the Mid-Atlantic Ridge could be potential targets for deep-sea mining sites. Proponents of deep-sea mining suggest that mineral extraction does not pose a threat at inactive sites, as they suspect no animals live at these locations. To protect these understudied systems from mining, it is essential to establish where animal communities exist on the mid-Atlantic ridge and their relationship to the surrounding geological and chemical conditions. 
+              </p>
+            </div>
             <p>The expedition combined the use of Autonomous Underwater Vehicles, or AUVs, to produce high-resolution maps of the seafloor, Miniature Autonomous Plume Recorders to sense the water column, and ROV <span className="italic">SuBastian</span> to conduct visual surveys and sampling of the seafloor. This nested approach demonstrated the effectiveness of combining technologies to illuminate how the current geologic setting controls hydrothermal chemistry and habitat conditions. 
             </p>
         </div>

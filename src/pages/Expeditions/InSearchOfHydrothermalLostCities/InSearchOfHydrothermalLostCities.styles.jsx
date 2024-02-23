@@ -44,6 +44,10 @@ export const PageContainer = styled.div`
   .paragraph p{
     margin-bottom:3rem;
   }
+  .paragraph span{
+    line-height: 2.5;
+    margin-right:6px;
+  }
   .paragraph h3{
     @media (max-width:829px){
       text-align:center;
