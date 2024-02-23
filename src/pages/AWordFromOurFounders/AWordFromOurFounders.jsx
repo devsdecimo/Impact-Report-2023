@@ -6,11 +6,11 @@ import ImageWithCircle2 from "./ImageWithCircle2/ImageWithCircle2";
 
 import Founders from "/assets/images/a_word_from_our_founders/Founders.webp"
 import CircleBg from "/assets/images/a_word_from_our_founders/CircleBg.webp"
-import Barco from "/assets/images/a_word_from_our_founders/Barco.webp"
-import Personas from "/assets/images/a_word_from_our_founders/Personas.webp"
-import GeneralButton from "../../components/GeneralButton/GeneralButton";
+import Subastian from "/assets/images/a_word_from_our_founders/Subastian.webp"
+import Octopus from "/assets/images/a_word_from_our_founders/Octopus.webp"
+import GeneralButton from "../../components/GeneralButton/GeneralButton"
 
-import Next from "/assets/images/next.svg";
+import Next from "/assets/images/next.svg"
 
 function AWordFromOurFounders() {
   return (
@@ -41,8 +41,8 @@ function AWordFromOurFounders() {
           With every expedition in the inaugural year of Schmidt Ocean Institute’s Research Vessel <span className="italic">Falkor (too)</span>, scientists brought new insights and images to light. Hundreds of wriggling shrimp atop black smoker hydrothermal vents revealed a marine community thriving in total darkness at the bottom of the Atlantic. An elusive squid species, rarely captured on film, floated by ROV <span className="italic">SuBastian</span> cameras, pink and feathery even at 2,000 meters beneath the surface. Mother octopuses, tentacles curled around their bodies, protected their precious eggs among dark rocks at the fifth known such site in the world. Tubeworms the size of a forearm living underneath the seafloor, part of a never-before-seen ecosystem, were observed. New massive coral reefs, towering sea mounts, and vast unknown vent fields came thunderously into view.
           </p>
           <ImageWithCircle2
-            image={Personas}
-            circleImage={Barco}
+            image={Octopus}
+            circleImage={Subastian}
             orientation='right'
           />
           <p>
