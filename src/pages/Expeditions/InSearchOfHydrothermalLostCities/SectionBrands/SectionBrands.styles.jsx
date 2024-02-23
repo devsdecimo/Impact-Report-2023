@@ -13,13 +13,15 @@ export const SectionBrandsContainer = styled.div`
         width:90vw;
         max-width:1400px;
         margin:auto;
+        gap: 1.5rem;
         
     }
 
     img{
         @media (min-width:1100px){
-            height:100px;
+            max-width:100px;
             max-height:7.5vw;
+            width: 100%;
         }
         
     }

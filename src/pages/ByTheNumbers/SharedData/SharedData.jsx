@@ -45,19 +45,19 @@ function SharedData() {
       <div className="circle circle-darkblue"></div>
       <div className="circle circle-lightblue"></div>
 
-      <p className="text text-shared">Shared</p>
-      <p className="text text-science">Science accomplishments</p>
-      <p className="text text-through">through</p>
-      <p className="text text-publications">scientific publications</p>
-      <p className="text text-ampersand">&</p>
-      <p className="text text-more">more than</p>
-      <p className="text text-articles">articles</p>
-      <p className="numbers-publications numbers">
+      <span className="text text-shared">Shared</span>
+      <span className="text text-science">Science accomplishments</span>
+      <span className="text text-through">through</span>
+      <span className="text text-publications">scientific publications</span>
+      <span className="text text-ampersand">&</span>
+      <span className="text text-more">more than</span>
+      <span className="text text-articles">articles</span>
+      <span className="numbers-publications numbers">
         <Counter condition={countersStart}>27</Counter>
-      </p>
-      <p className="numbers-articles numbers">
+      </span>
+      <span className="numbers-articles numbers">
         <Counter condition={countersStart}>4000</Counter>
-      </p>
+      </span>
     </SharedDataContainer>
   );
 }

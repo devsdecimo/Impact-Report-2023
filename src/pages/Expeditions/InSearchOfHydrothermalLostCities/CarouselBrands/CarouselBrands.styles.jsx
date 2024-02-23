@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const CarouselBrandsContainer = styled.div`
   display: flex;
@@ -7,7 +7,6 @@ export const CarouselBrandsContainer = styled.div`
   overflow: hidden;
   position: relative;
   height: 14em;
-
 `;
 
 export const Slide = styled.div`
@@ -46,7 +45,7 @@ export const Slide = styled.div`
     transform: translateX(calc(-50% - 40.333%)) scale(0.8);
   }
 
-  &.first-next  {
+  &.first-next {
     opacity: 0.5;
     visibility: hidden;
   }
@@ -55,12 +54,13 @@ export const Slide = styled.div`
     opacity: 0.5;
   }
 
-
   img {
     width: auto;
-    margin:auto;
+    margin: auto;
     display: block;
     cursor: grab;
+    object-fit: contain;
+    width: 70%;
   }
 `;
 
@@ -77,10 +77,10 @@ export const Dot = styled.span`
   margin-right: 5px;
   cursor: pointer;
   border-radius: 50%;
-  width: ${(props) => (props.actived ? '10px' : '5px')};
-  height: ${(props) => (props.actived ? '10px' : '5px')};
-  background: ${(props) => (props.actived ? '#5D808F' : 'white')};
-  border:1px solid #5D808F;
+  width: ${(props) => (props.actived ? "10px" : "5px")};
+  height: ${(props) => (props.actived ? "10px" : "5px")};
+  background: ${(props) => (props.actived ? "#5D808F" : "white")};
+  border: 1px solid #5d808f;
   transition: width 0.3s ease, height 0.3s ease;
   &:last-child {
     margin-right: 0;
@@ -95,34 +95,45 @@ export const ArrowButton = styled.button`
   border: none;
   cursor: pointer;
   font-size: 3em;
-  color: #5D808F;
+  color: #5d808f;
   z-index: 99;
 
-  ${({ direction }) => (direction === 'left' ? 'left: 1%;' : 'right: 1%;')}
+  ${({ direction }) => (direction === "left" ? "left: 1%;" : "right: 1%;")}
   padding: 10px;
 
   @media (min-width: 515px) {
-    ${({ direction }) => (direction === 'left' ? 'left: 0;' : 'right: 0;')}
+    ${({ direction }) => (direction === "left" ? "left: 0;" : "right: 0;")}
   }
 
   @media (min-width: 768px) {
-    ${({ direction }) => (direction === 'left' ? 'left: calc(5% + 10px);' : 'right: calc(5% + 10px);')}
+    ${({ direction }) =>
+      direction === "left"
+        ? "left: calc(5% + 10px);"
+        : "right: calc(5% + 10px);"}
   }
 
   @media (min-width: 992px) {
-    ${({ direction }) => (direction === 'left' ? 'left: calc(5% + 20px);' : 'right: calc(5% + 20px);')}
+    ${({ direction }) =>
+      direction === "left"
+        ? "left: calc(5% + 20px);"
+        : "right: calc(5% + 20px);"}
   }
 
   @media (min-width: 1200px) {
-    ${({ direction }) => (direction === 'left' ? 'left: calc(10% + 20px);' : 'right: calc(10% + 20px);')}
+    ${({ direction }) =>
+      direction === "left"
+        ? "left: calc(10% + 20px);"
+        : "right: calc(10% + 20px);"}
   }
 
   @media (min-width: 1600px) {
-    ${({ direction }) => (direction === 'left' ? 'left: calc(20% + 20px);' : 'right: calc(20% + 20px);')}
+    ${({ direction }) =>
+      direction === "left"
+        ? "left: calc(20% + 20px);"
+        : "right: calc(20% + 20px);"}
   }
 
   &:hover {
     color: #344349;
   }
 `;
-

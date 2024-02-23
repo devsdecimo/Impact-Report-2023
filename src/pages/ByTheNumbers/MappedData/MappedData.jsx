@@ -51,25 +51,25 @@ function MappedData() {
       <div className="circle circle-darkblue"></div>
       <div className="circle circle-lightblue"></div>
       <div className="circle circle-blue"></div>
-      <p className="text text-mapped">Mapped</p>
-      <p className="numbers-including numbers">
+      <span className="text text-mapped">Mapped</span>
+      <span className="numbers-including numbers">
         <Counter condition={countersStart}>5</Counter>
-      </p>
-      <p className="text text-km2">
+      </span>
+      <span className="text text-km2">
         <Counter condition={countersStart}>190025</Counter>.<Counter condition={countersStart}>60</Counter>{" "}
         km²
-      </p>
-      <p className="numbers-seamount numbers">
+      </span>
+      <span className="numbers-seamount numbers">
         <Counter condition={countersStart}>3</Counter>
-      </p>
-      <p className="numbers-cold numbers">
+      </span>
+      <span className="numbers-cold numbers">
         <Counter condition={countersStart}>2</Counter>
-      </p>
-      <p className="text text-seafloor">of seafloor</p>
-      <p className="text text-including">Including</p>
-      <p className="text text-hydrothermal">new hydrothermal vent fields</p>
-      <p className="text text-seamounts">seamounts</p>
-      <p className="text text-cold">new cold water coral reefs</p>
+      </span>
+      <span className="text text-seafloor">of seafloor</span>
+      <span className="text text-including">Including</span>
+      <span className="text text-hydrothermal">new hydrothermal vent fields</span>
+      <span className="text text-seamounts">seamounts</span>
+      <span className="text text-cold">new cold water coral reefs</span>
     </MappedDataContainer>
   );
 }

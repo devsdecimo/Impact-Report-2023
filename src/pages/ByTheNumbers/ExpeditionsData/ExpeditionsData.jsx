@@ -48,11 +48,11 @@ function ExpeditionsData() {
         <Counter condition={countersStart}>9</Counter>
       </div>
       <div className="circle circle-darkblue"></div>
-      <p className="numbers-days numbers">
+      <span className="numbers-days numbers">
         <Counter condition={countersStart}>223</Counter>
-      </p>
-      <p className="text text-expeditions">Expeditions</p>
-      <p className="text text-days">days of science</p>
+      </span>
+      <span className="text text-expeditions">Expeditions</span>
+      <span className="text text-days">days of science</span>
     </ExpeditionsDataContainer>
   );
 }

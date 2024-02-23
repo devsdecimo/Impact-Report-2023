@@ -17,10 +17,11 @@ export const NavMenuContainer = styled.nav`
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    transition: 0.5s;
     cursor: pointer;
     z-index: 4;
-
+    @media (min-width: 830px) {
+      transition: 0.5s;
+    }
     &:hover,
     &:focus {
       @media (min-width: 830px) {
@@ -31,6 +32,8 @@ export const NavMenuContainer = styled.nav`
     &.menu__open {
       background-image: url("/assets/images/CloseButton.svg");
       position: fixed;
+      height: 25px;
+      width: 25px;
     }
 
     @media (min-width: 830px) {

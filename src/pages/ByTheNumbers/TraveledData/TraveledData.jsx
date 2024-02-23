@@ -44,25 +44,25 @@ function TraveledData() {
         className="ship"
       />
 
-      <p className="text text-traveled">Traveled</p>
-      <p className="text text-km">
+      <span className="text text-traveled">Traveled</span>
+      <span className="text text-km">
         <Counter condition={countersStart}>39280</Counter> km
-      </p>
-      <p className="text text-visiting">visiting</p>
-      <p className="text text-countries">countries</p>
-      <p className="text text-ampersand">&</p>
-      <p className="text text-us">
+      </span>
+      <span className="text text-visiting">visiting</span>
+      <span className="text text-countries">countries</span>
+      <span className="text text-ampersand">&</span>
+      <span className="text text-us">
         unincorporated <br /> U.S. territory
-      </p>
-      <p className="numbers-countries numbers">
+      </span>
+      <span className="numbers-countries numbers">
         <Counter condition={countersStart}>4</Counter>
-      </p>
-      <p className="numbers-us numbers">
+      </span>
+      <span className="numbers-us numbers">
         <Counter condition={countersStart}>1</Counter>
-      </p>
+      </span>
       <div className="country country-spain">
         <img src="/assets/images/by_the_numbers/traveled/Spain.webp" alt="" />
-        <p>Spain</p>
+        <span>Spain</span>
       </div>
       <div className="country country-puertorico">
         <img
@@ -73,22 +73,22 @@ function TraveledData() {
           src="/assets/images/by_the_numbers/traveled/US.webp"
           className="us-extra"
         />
-        <p>Puerto Rico</p>
+        <span>Puerto Rico</span>
       </div>
       <div className="country country-panama">
         <img src="/assets/images/by_the_numbers/traveled/Panama.webp" alt="" />
-        <p>Panama</p>
+        <span>Panama</span>
       </div>
       <div className="country country-costarica">
         <img
           src="/assets/images/by_the_numbers/traveled/CostaRica.webp"
           alt=""
         />
-        <p>Costa Rica</p>
+        <span>Costa Rica</span>
       </div>
       <div className="country country-ecuador">
         <img src="/assets/images/by_the_numbers/traveled/Ecuador.webp" alt="" />
-        <p>Ecuador</p>
+        <span>Ecuador</span>
       </div>
     </TraveledDataContainer>
   );

@@ -4,16 +4,19 @@ import CarouselBrands from "../CarouselBrands/CarouselBrands";
 import { Link } from "react-router-dom";
 
 import WHOI from "/assets/images/in_search_of_hydrothermal_lost_cities/brands/WHOI.webp";
-import OceanExploration from "/assets/images/in_search_of_hydrothermal_lost_cities/brands/ocean-exploration.webp";
-import ASU from "/assets/images/in_search_of_hydrothermal_lost_cities/brands/ASU.webp";
-import UVIC from "/assets/images/in_search_of_hydrothermal_lost_cities/brands/uvic.webp";
-import MBARI from "/assets/images/in_search_of_hydrothermal_lost_cities/brands/MBARI.webp";
-import Dalhousie from "/assets/images/in_search_of_hydrothermal_lost_cities/brands/Dalhousie.webp"
-import UW from "/assets/images/in_search_of_hydrothermal_lost_cities/brands/university-of-washington.webp"
-import NASA from "/assets/images/in_search_of_hydrothermal_lost_cities/brands/nasa.webp"
-import PMEL from "/assets/images/in_search_of_hydrothermal_lost_cities/brands/pmel.webp"
 import OECI from "/assets/images/in_search_of_hydrothermal_lost_cities/brands/OECI.webp"
-import PAAaN from "/assets/images/in_search_of_hydrothermal_lost_cities/brands/PAAaN.webp"
+import MBARI from "/assets/images/in_search_of_hydrothermal_lost_cities/brands/MBARI.webp";
+
+
+import OceanExploration from "/assets/images/in_search_of_hydrothermal_lost_cities/brands/ocean-exploration.svg";
+import ASU from "/assets/images/in_search_of_hydrothermal_lost_cities/brands/ASU.svg";
+import UVIC from "/assets/images/in_search_of_hydrothermal_lost_cities/brands/uvic.svg";
+import Dalhousie from "/assets/images/in_search_of_hydrothermal_lost_cities/brands/Dalhousie.svg"
+import UW from "/assets/images/in_search_of_hydrothermal_lost_cities/brands/university-of-washington.svg"
+import NASA from "/assets/images/in_search_of_hydrothermal_lost_cities/brands/nasa.svg"
+import PMEL from "/assets/images/in_search_of_hydrothermal_lost_cities/brands/pmel.svg"
+import PAAaN from "/assets/images/in_search_of_hydrothermal_lost_cities/brands/PAAaN.svg"
+
 
 function SectionBrands({image,alt}) {
   let [slides, setSlides] = useState([])
@@ -23,7 +26,7 @@ function SectionBrands({image,alt}) {
       { img: WHOI, href: 'https://www.whoi.edu/', target: '_blank' , alt:'WHOI'},
       { img: OceanExploration, href: 'https://oceanexplorer.noaa.gov/', target: '_blank' , alt:'Ocean Exploration'},
       { img: ASU, href: 'https://www.asu.edu/', target: '_blank' , alt:'ASU'},
-      { img: UVIC, href: 'https://www.uvic.ca/' , alt:'UVIC'},
+      { img: UVIC, href: 'https://www.uvic.ca/', target: '_blank' , alt:'UVIC'},
       { img: MBARI, href: 'https://www.mbari.org/', target: '_blank' , alt:'MBARI'},
       { img: Dalhousie, href: 'https://www.dal.ca/', target: '_blank', alt:'Dalhousie'},
       { img: UW, href: 'https://www.washington.edu/', target: '_blank' , alt:'Washington University'},

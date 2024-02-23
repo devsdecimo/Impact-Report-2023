@@ -48,28 +48,28 @@ function ConductedData() {
       />
       <div className="circle circle-darkblue"></div>
 
-      <p className="text text-conducted">Conducted</p>
-      <p className="text text-ctd">CTD casts</p>
-      <p className="text text-ampersand">&</p>
-      <p className="text text-underwater">
+      <span className="text text-conducted">Conducted</span>
+      <span className="text text-ctd">CTD casts</span>
+      <span className="text text-ampersand">&</span>
+      <span className="text text-underwater">
         underwater <br className="mobile"/> dives with ROV <br className="mobile"/><i>SuBastian</i>
-      </p>
-      <p className="text text-totaling">Totaling</p>
-      <p className="text text-hours-desktop">hours of deep-sea exploration</p>
-      <p className="text text-hours">Total hours of deep-sea exploration</p>
+      </span>
+      <span className="text text-totaling">Totaling</span>
+      <span className="text text-hours-desktop">hours of deep-sea exploration</span>
+      <span className="text text-hours">Total hours of deep-sea exploration</span>
 
-      <p className="numbers-ctd numbers">
+      <span className="numbers-ctd numbers">
         <Counter condition={countersStart}>213</Counter>
-      </p>
+      </span>
 
-      <p className="numbers-underwater numbers">
+      <span className="numbers-underwater numbers">
         <Counter condition={countersStart}>143</Counter>
-      </p>
+      </span>
 
-      <p className="numbers-hours numbers">
+      <span className="numbers-hours numbers">
         <span id="counter-hours" />
         <Counter condition={countersStart}>2053</Counter>
-      </p>
+      </span>
     </ConductedDataContainer>
   );
 }

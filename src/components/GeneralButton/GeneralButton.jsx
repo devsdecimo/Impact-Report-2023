@@ -7,13 +7,11 @@ function GeneralButton({href,icon, iconPosition = 'left', text, className}) {
   return (
     <GeneralButtonContainer className={className}>
       <Link to={href}>
-        <button>
             {iconPosition=='left' &&
             <img src={icon} alt=''/>}
             <span>{text}</span>
             {iconPosition=='right' &&
             <img src={icon} alt=''/>}
-        </button>   
         </Link> 
     </GeneralButtonContainer>
   );

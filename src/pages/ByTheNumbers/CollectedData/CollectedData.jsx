@@ -44,24 +44,24 @@ function CollectedData() {
       <div className="circle circle-lightblue"></div>
       <div className="circle circle-darkblue"></div>
 
-      <p className="numbers-expeditions numbers">
+      <span className="numbers-expeditions numbers">
         <span id="counter-expeditions" />
-      </p>
+      </span>
 
-      <p className="text text-collected">Collected</p>
-      <p className="text text-samples">samples and</p>
-      <p className="text text-ampersand">&</p>
-      <p className="text text-terabytes">
+      <span className="text text-collected">Collected</span>
+      <span className="text text-samples">samples and</span>
+      <span className="text text-ampersand">&</span>
+      <span className="text text-terabytes">
         Terabytes of data to advance <br className="desktop"/>
         scientific understanding of the <br className="desktop"/>
         Ocean and ocean processes
-      </p>
-      <p className="numbers-samples numbers">
+      </span>
+      <span className="numbers-samples numbers">
         <Counter condition={countersStart}>2826</Counter>
-      </p>
-      <p className="numbers-terabytes numbers">
+      </span>
+      <span className="numbers-terabytes numbers">
         <Counter condition={countersStart}>269</Counter>
-      </p>
+      </span>
     </CollectedDataContainer>
   );
 }

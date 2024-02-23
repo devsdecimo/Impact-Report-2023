@@ -51,25 +51,25 @@ function HostedData() {
         className="image"
       />
 
-      <p className="numbers-expeditions numbers">
+      <span className="numbers-expeditions numbers">
         <span id="counter-expeditions" />
-      </p>
+      </span>
 
-      <p className="text text-hosted">Hosted</p>
-      <p className="text text-scientists">scientists</p>
-      <p className="text text-students">students</p>
-      <p className="text text-artists">artists</p>
-      <p className="text text-ampersand">&</p>
-      <p className="text text-berths">berths of opportunity</p>
-      <p className="numbers-scientists numbers">
+      <span className="text text-hosted">Hosted</span>
+      <span className="text text-scientists">scientists</span>
+      <span className="text text-students">students</span>
+      <span className="text text-artists">artists</span>
+      <span className="text text-ampersand">&</span>
+      <span className="text text-berths">berths of opportunity</span>
+      <span className="numbers-scientists numbers">
         <Counter condition={countersStart}>84</Counter>
-      </p>
-      <p className="numbers-students numbers">
+      </span>
+      <span className="numbers-students numbers">
         <Counter condition={countersStart}>56</Counter>
-      </p>
-      <p className="numbers-artists numbers">
+      </span>
+      <span className="numbers-artists numbers">
         <Counter condition={countersStart}>12</Counter>
-      </p>
+      </span>
     </HostedDataContainer>
   );
 }

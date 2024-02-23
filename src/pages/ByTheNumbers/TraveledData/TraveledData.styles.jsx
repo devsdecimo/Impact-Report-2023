@@ -250,7 +250,7 @@ export const TraveledDataContainer = styled.div`
       align-items: start;
     }
 
-    p {
+    span {
       grid-row: 2/3;
       align-items: end;
       white-space: nowrap;
@@ -342,7 +342,7 @@ export const TraveledDataContainer = styled.div`
         img {
           animation-delay: 1.6s;
         }
-        p {
+        span {
           animation-delay: 1.65s;
         }
       }
@@ -351,7 +351,7 @@ export const TraveledDataContainer = styled.div`
         img {
           animation-delay: 1.7s;
         }
-        p {
+        span {
           animation-delay: 1.75s;
         }
         .us-extra{
@@ -363,7 +363,7 @@ export const TraveledDataContainer = styled.div`
         img {
           animation-delay: 1.8s;
         }
-        p {
+        span {
           animation-delay: 1.85s;
         }
       }
@@ -372,7 +372,7 @@ export const TraveledDataContainer = styled.div`
         img {
           animation-delay: 1.9s;
         }
-        p {
+        span {
           animation-delay: 1.95s;
         }
       }
@@ -381,7 +381,7 @@ export const TraveledDataContainer = styled.div`
         img {
           animation-delay: 2s;
         }
-        p {
+        span {
           animation-delay: 2.05s;
         }
       }

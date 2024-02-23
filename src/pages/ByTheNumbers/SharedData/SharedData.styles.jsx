@@ -8,7 +8,7 @@ export const SharedDataContainer = styled.div`
   min-height: 15vh;
   aspect-ratio: 0.4;
   justify-self: center;
-  margin-top: 8rem;
+  margin-top: 2rem;
   @media (min-width: 830px) {
     min-width: 30vw;
     grid-row: 44 / 50;

@@ -4,9 +4,10 @@ export const GeneralButtonContainer = styled.div`
   width: auto;
   display: inline-block;
   @media (max-width: 500px) {
-    width: 100%;
+    width: 95%;
+    margin: 0 2.5%;
   }
-  button {
+  a {
     background: transparent;
     border: 3px solid #5d83a2;
     border-radius: 15px;
@@ -17,6 +18,7 @@ export const GeneralButtonContainer = styled.div`
     align-items: center;
     gap: 2rem;
     cursor: pointer;
+    text-decoration: none;
     @media (max-width: 500px) {
       justify-content: center;
     }
@@ -24,9 +26,6 @@ export const GeneralButtonContainer = styled.div`
       
     }
     transition: 1s;
-  }
-  a {
-    text-decoration: none;
   }
   img {
     height: 30px;
