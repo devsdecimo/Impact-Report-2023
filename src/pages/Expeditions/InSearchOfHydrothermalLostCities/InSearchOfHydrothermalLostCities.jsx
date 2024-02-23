@@ -16,7 +16,7 @@ import image2 from "/assets/images/in_search_of_hydrothermal_lost_cities/carouse
 import image3 from "/assets/images/in_search_of_hydrothermal_lost_cities/carousel/03-VentFaunaReflectiveP.webp";
 import image4 from "/assets/images/in_search_of_hydrothermal_lost_cities/carousel/04-CaressPaduanJeff.webp";
 import image5 from "/assets/images/in_search_of_hydrothermal_lost_cities/carousel/05-AUVLaunchAndRecovery.webp";
-import Personas from "/assets/images/a_word_from_our_founders/Personas.webp"
+import Cientifico from "/assets/images/in_search_of_hydrothermal_lost_cities/Cientifico.webp"
 
 
 
@@ -73,7 +73,7 @@ function InSearchOfHydrothermalLostCities() {
               <span>
                 Locating three active hydrothermal vent fields is the first discovery on this section of the Mid-Atlantic Ridge in more than 40 years. One of the discovered vent fields was located at the Puy des Folles volcano and has five active 
               </span>
-              <ImageWithCircle image={Personas} orientation='left' />
+              <ImageWithCircle image={Cientifico} orientation='left' />
               <span>
                 sites over 6.95 square miles, or 18 square kilometers. High-temperature black smoker vents were found at the Grappe Deux Vent System and Kane Fracture Zone.
               </span>

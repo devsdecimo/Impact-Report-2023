@@ -7,7 +7,7 @@ export const IconWithTextContainer = styled.div`
   display: flex;
   font-family: 'Adobe Garamond Pro', serif;
   font-style: normal;
-  font-size: 1.7rem;
+  font-size: 1.2rem;
   font-weight: 400;
   opacity: ${(props) => props.opacity || 1};
   margin-top:10px;

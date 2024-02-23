@@ -6,8 +6,8 @@ export const ImageWithCircleContainer = styled.div`
     width:320px;
     margin-left: 3rem;
     margin-bottom: 50px;
-    margin-top: 3rem;
-    transform: scale(1.2);
+    /*margin-top: 3rem;
+    transform: scale(1.2);*/
     @media (max-width:829px){
         margin:auto;
         transform:scale(1)
