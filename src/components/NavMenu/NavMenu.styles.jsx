@@ -51,7 +51,7 @@ export const NavMenuContainer = styled.nav`
     min-height: 100vh;
     opacity: 0;
     font-size: 1.3rem;
-    line-height: 1.7;
+    line-height: 1.5;
     z-index: 3;
     min-height: 100%;
     overflow: auto;
@@ -59,8 +59,12 @@ export const NavMenuContainer = styled.nav`
 
     @media (min-width: 830px) {
       transition: 1s;
-      font-size: 2rem;
+      font-size: 1.7vw;
       gap: 1rem;
+    }
+
+    @media (min-width: 1800) {
+      font-size: 1.375vw;
     }
 
     flex-direction: column;
@@ -71,7 +75,7 @@ export const NavMenuContainer = styled.nav`
       width: auto;
 
       @media (min-width: 830px) {
-        height: 120px;
+        height: 7rem;
       }
     }
 
@@ -83,6 +87,7 @@ export const NavMenuContainer = styled.nav`
         cursor: pointer;
         color: var(--dark-blue);
         text-decoration: none;
+        line-height: 1.6;
       }
 
       &:hover {

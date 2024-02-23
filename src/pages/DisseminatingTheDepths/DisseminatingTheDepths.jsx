@@ -19,19 +19,28 @@ function DisseminatingTheDepths({ children }) {
         header_image="/assets/images/the_deep_sea_continuum/Header.webp"
         footer_image="/assets/images/the_deep_sea_continuum/Footer.webp"
       >
+        <div className="content-body">
+          <Outlet />
+        </div>
         <nav>
           <GeneralButton
             href="artist_at_sea"
             icon="/assets/images/icons/brush.svg"
             text="Artist-at-Sea"
-            className={isActive("/disseminating_the_depths/artist_at_sea") ? "active" : ""}
+            className={
+              isActive("/disseminating_the_depths/artist_at_sea")
+                ? "active"
+                : ""
+            }
           />
           <GeneralButton
             href="community_building"
             icon="/assets/images/icons/expansion.svg"
             text="Community Building"
             className={
-              isActive("/disseminating_the_depths/community_building") ? "active" : ""
+              isActive("/disseminating_the_depths/community_building")
+                ? "active"
+                : ""
             }
           />
           <GeneralButton
@@ -65,9 +74,6 @@ function DisseminatingTheDepths({ children }) {
             }
           />
         </nav>
-        <div className="content-body">
-          <Outlet />
-        </div>
       </Page>
     </PageContainer>
   );

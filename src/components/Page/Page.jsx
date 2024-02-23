@@ -3,9 +3,9 @@ import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import {PageContainer} from "./Page.styles"
 
-function Page({ children, title, header_image, footer_image }) {
+function Page({ children, title, header_image, footer_image, className }) {
   return (
-    <PageContainer>
+    <PageContainer className={className}>
       <Header background={header_image}>{title}</Header>
       <div className="main_content">
         {children}

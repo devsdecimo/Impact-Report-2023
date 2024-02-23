@@ -21,6 +21,8 @@ import ArtistAtSea from './pages/DisseminatingTheDepths/Contents/ArtistAtSea';
 import CommunityBuilding from './pages/DisseminatingTheDepths/Contents/CommunityBuilding';
 import DivestreamsAndConnections from './pages/DisseminatingTheDepths/Contents/DivestreamsAndConnections';
 import PressAndFootage from './pages/DisseminatingTheDepths/Contents/PressAndFootage';
+import OnTheBigScreen from './pages/DisseminatingTheDepths/Contents/OnTheBigScreen';
+import NotFound from './pages/NotFound/NotFound';
 
 function App() {
 
@@ -28,6 +30,7 @@ function App() {
     <Router>
       <NavMenu/>
       <Routes>
+        <Route path='*' element={<NotFound/>}></Route>
         <Route path="/" element={<Home />} />
         <Route path="/expeditions">
           <Route index element={<Navigate to="/" replace />} />
@@ -43,9 +46,10 @@ function App() {
         <Route path="/disseminating_the_depths"  element={<DisseminatingTheDepths/>}>
           <Route index element={<Navigate to="/disseminating_the_depths/artist_at_sea" replace />} />
           <Route path="artist_at_sea"  element={<ArtistAtSea />}/>
-          <Route path="community_building"  element={<CommunityBuilding />}/>
+          <Route path="community_building"  element={<CommunityBuilding />}/> 
           <Route path="divestreams_and_connections"  element={<DivestreamsAndConnections />}/>
           <Route path="press_and_footage"  element={<PressAndFootage />}/>
+          <Route path="on_the_big_screen"  element={<OnTheBigScreen />}/>
         </Route>
         <Route path="/the_deep_sea_continuum" element={<TheDeepSeaContinuum/>} >
           <Route index element={<Navigate to="/the_deep_sea_continuum/grants" replace />} />
