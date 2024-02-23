@@ -38,7 +38,7 @@ function Carousel({ slides, autoplay = true, loop = true, delay = 5000 }) {
 
   useEffect(() => {
     if (autoplay) {
-      timeoutRef.current = setTimeout(nextSlide, delay);
+      // timeoutRef.current = setTimeout(nextSlide, delay);
     }
     return () => {
       if (timeoutRef.current) {
@@ -96,7 +96,7 @@ function Carousel({ slides, autoplay = true, loop = true, delay = 5000 }) {
   const handleMouseLeave = () => {
     setIsDragging(false);
     if (autoplay) {
-      timeoutRef.current = setTimeout(nextSlide, delay);
+      // timeoutRef.current = setTimeout(nextSlide, delay);
     }
   };
 

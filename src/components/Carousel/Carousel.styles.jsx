@@ -58,9 +58,10 @@ export const Slide = styled.div`
 
   &.first-next,
   &.prev,
-  &.next {
+  &.next,
+  &.center + &.next {
     @media (max-width: 767px) {
-      opacity: 0.02;
+      opacity: 0;
     }
   }
 
@@ -106,7 +107,7 @@ export const ArrowButton = styled.button`
   color: #5d808f;
   z-index: 99;
 
-  ${({ direction }) => (direction === "left" ? "left: 1%;" : "right: 1%;")}
+  ${({ direction }) => (direction === "left" ? "left: -2%;" : "right: -2%;")}
   padding: 10px;
 
   @media (min-width: 515px) {
