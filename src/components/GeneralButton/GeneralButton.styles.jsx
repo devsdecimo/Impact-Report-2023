@@ -16,7 +16,6 @@ export const GeneralButtonContainer = styled.div`
     justify-content: space-between;
     align-items: center;
     gap: 2rem;
-    font-size: 1.2rem;
     cursor: pointer;
     @media (max-width: 500px) {
       justify-content: center;

@@ -23,7 +23,9 @@ export const NavMenuContainer = styled.nav`
 
     &:hover,
     &:focus {
-      transform: scale(1.2);
+      @media (min-width: 830px) {
+        transform: scale(1.2);
+      }
     }
 
     &.menu__open {
@@ -91,7 +93,9 @@ export const NavMenuContainer = styled.nav`
       }
 
       &:hover {
-        transform: scale(1.1);
+        @media (min-width: 830px) {
+          transform: scale(1.1);
+        }
       }
     }
 
