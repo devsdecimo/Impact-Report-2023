@@ -30,7 +30,7 @@ export const PageContainer = styled.div`
 
     @media (min-width: 830px) {
       max-width: 60%;
-      font-size: 2.5rem;
+      font-size: 2rem;
     }
   }
 
