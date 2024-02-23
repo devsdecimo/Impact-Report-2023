@@ -240,19 +240,19 @@ export const SharedDataContainer = styled.div`
       animation-fill-mode: forwards;
     }
     .circle-image {
-      animation-delay: 0.5s;
+      animation-delay: 0.3s;
     }
     .circle-lightblue {
-      animation-delay: 1s;
+      animation-delay: 0.375s;
     }
     .circle-darkblue {
-      animation-delay: 1.5s;
+      animation-delay: 0.5s;
     }
     .text {
-      animation-delay: 2s;
+      animation-delay: 0.75s;
     }
     .numbers {
-      animation-delay: 2.5s;
+      animation-delay: 1.5s;
     }
   }
 `;

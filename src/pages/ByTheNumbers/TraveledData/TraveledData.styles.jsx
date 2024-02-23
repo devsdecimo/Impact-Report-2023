@@ -317,20 +317,20 @@ export const TraveledDataContainer = styled.div`
       animation-fill-mode: forwards;
     }
     .circle-lightblue {
-      animation-delay: 0.5s;
+      animation-delay: 0.3s;
     }
     .circle-blue,
     .circle-darkblue {
-      animation-delay: 1s;
+      animation-delay: 0.375s;
     }
     .ship {
-      animation-delay: 1.5s;
+      animation-delay: 0.5s;
     }
     .text {
-      animation-delay: 2s;
+      animation-delay: 0.75s;
     }
     .numbers {
-      animation-delay: 2.5s;
+      animation-delay: 1.5s;
     }
     .country {
       img {
@@ -340,49 +340,49 @@ export const TraveledDataContainer = styled.div`
 
       &-spain {
         img {
-          animation-delay: 2.1s;
+          animation-delay: 1.6s;
         }
         p {
-          animation-delay: 2.15s;
+          animation-delay: 1.65s;
         }
       }
 
       &-puertorico {
         img {
-          animation-delay: 2.2s;
+          animation-delay: 1.7s;
         }
         p {
-          animation-delay: 2.25s;
+          animation-delay: 1.75s;
         }
         .us-extra{
-          animation-delay: 2.25s;
+          animation-delay: 1.75s;
         }
       }
 
       &-panama {
         img {
-          animation-delay: 2.3s;
+          animation-delay: 1.8s;
         }
         p {
-          animation-delay: 2.35s;
+          animation-delay: 1.85s;
         }
       }
 
       &-costarica {
         img {
-          animation-delay: 2.4s;
+          animation-delay: 1.9s;
         }
         p {
-          animation-delay: 2.45s;
+          animation-delay: 1.95s;
         }
       }
 
       &-ecuador {
         img {
-          animation-delay: 2.5s;
+          animation-delay: 2s;
         }
         p {
-          animation-delay: 2.55s;
+          animation-delay: 2.05s;
         }
       }
     }

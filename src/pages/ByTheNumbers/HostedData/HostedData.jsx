@@ -14,7 +14,7 @@ function HostedData() {
             entry.target.classList.add("animated");
             setTimeout(() => {
               setCountersStart(true);
-            }, 2600);
+            }, 1600);
           } else {
             // entry.target.classList.remove("animated");
           }
@@ -45,7 +45,7 @@ function HostedData() {
         src="/assets/images/by_the_numbers/hosted/CircleImage.webp"
         className="circle circle-image"
       />
-      
+
       <img
         src="/assets/images/by_the_numbers/hosted/Image.webp"
         className="image"

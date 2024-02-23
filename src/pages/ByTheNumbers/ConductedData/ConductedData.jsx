@@ -14,7 +14,7 @@ function ConductedData() {
             entry.target.classList.add("animated");
             setTimeout(() => {
               setCountersStart(true);
-            }, 3000);
+            }, 1600);
           } else {
             if (entry.target.classList.contains("animated")) {
               // entry.target.classList.remove("animated");

@@ -276,25 +276,25 @@ export const ConductedDataContainer = styled.div`
       animation-fill-mode: forwards;
     }
     .image {
-      animation-delay: 0.3125s;
+      animation-delay: 1.5s;
     }
     .circle-lighterblue {
-      animation-delay: 0.625s;
+      animation-delay: 0.25s;
     }
     .circle-darkblue {
-      animation-delay: 1.25s;
+      animation-delay: 0.3s;
     }
     .circle-blue {
-      animation-delay: 1.5625s;
+      animation-delay: 0.375s;
     }
     .circle-lightblue {
-      animation-delay: 1.875s;
+      animation-delay: 0.5s;
     }
     .text {
-      animation-delay: 2.1875s;
+      animation-delay: 0.75s;
     }
     .numbers {
-      animation-delay: 2.5s;
+      animation-delay: 1.5s;
     }
   }
 `;

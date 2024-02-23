@@ -14,7 +14,7 @@ function ReachedData() {
             entry.target.classList.add("animated");
             setTimeout(() => {
               setCountersStart(true);
-            }, 2600);
+            }, 1600);
           } else {
             if (entry.target.classList.contains("animated")) {
               // entry.target.classList.remove("animated");
