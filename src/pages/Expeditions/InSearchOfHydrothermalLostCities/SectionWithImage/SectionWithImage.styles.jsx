@@ -79,7 +79,6 @@ export const SectionWithImageContainer = styled.div`
     .text-container{
         @media (min-width:830px){
             min-width:360px;
-            margin-top: 1.2rem;
         }
         
     }
