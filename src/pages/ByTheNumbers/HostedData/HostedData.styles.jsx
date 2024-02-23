@@ -258,7 +258,7 @@ export const HostedDataContainer = styled.div`
     }
 
     &-berths {
-      color: #99bed5;
+      color: #2097D3;
       right: 20%;
       top: 89%;
       font-weight: 400;

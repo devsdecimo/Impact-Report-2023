@@ -106,6 +106,9 @@ export const CollectedDataContainer = styled.div`
       left: 0%;
       top: 67%;
       width: 30%;
+      span{
+        padding-top: 10%;
+      }
       @media (min-width: 830px) {
         left: 26%;
         top: 50%;
