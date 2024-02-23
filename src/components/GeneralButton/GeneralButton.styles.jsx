@@ -16,10 +16,13 @@ export const GeneralButtonContainer = styled.div`
     justify-content: space-between;
     align-items: center;
     gap: 2rem;
-    font-size: 1.7rem;
+    font-size: 1.2rem;
     cursor: pointer;
     @media (max-width: 500px) {
       justify-content: center;
+    }
+    @media (min-width: 830px) {
+      
     }
     transition: 1s;
   }

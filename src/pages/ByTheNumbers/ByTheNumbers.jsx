@@ -23,6 +23,7 @@ function ByTheNumbers() {
         }
         header_image="/assets/images/by_the_numbers/Header.webp"
         footer_image="/assets/images/by_the_numbers/Footer.webp"
+        className="by_the_numbers"
       >
         <span className="separator" />
         <div className="content">

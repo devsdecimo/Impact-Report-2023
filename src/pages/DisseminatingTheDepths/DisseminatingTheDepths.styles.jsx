@@ -8,6 +8,7 @@ export const PageContainer = styled.div`
     column-gap: 4rem;
     row-gap: 2rem;
     flex-wrap: wrap;
+    margin: 4rem 0;
   }
 
   .main_content {
@@ -37,6 +38,11 @@ export const PageContainer = styled.div`
   .press-image {
     width: 45vh;
     float: right;
+  }
+
+  .screen-image {
+    width: 45vh;
+    float: left;
   }
 
   .content-body {

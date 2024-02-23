@@ -36,14 +36,16 @@ function HostedData() {
 
   return (
     <HostedDataContainer ref={ref}>
-      <img
-        src="/assets/images/by_the_numbers/hosted/CircleImage.webp"
-        className="circle circle-image"
-      />
+     
       <div className="circle circle-blue"></div>
       <div className="circle circle-lightblue"></div>
       <div className="circle circle-darkblue"></div>
       <div className="circle circle-mediumblue"></div>
+      <img
+        src="/assets/images/by_the_numbers/hosted/CircleImage.webp"
+        className="circle circle-image"
+      />
+      
       <img
         src="/assets/images/by_the_numbers/hosted/Image.webp"
         className="image"
