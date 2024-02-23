@@ -17,8 +17,10 @@ export const SectionWithImageContainer = styled.div`
         width:230px;
         margin-left:20px;
         margin-bottom:0px;
+        margin-top:2rem;
+        /*
         margin-top: 70px;
-        transform: scale(1.2);
+        transform: scale(1.2);*/
         @media (max-width:829px){
             margin:auto;
             transform:scale(1);
@@ -67,7 +69,7 @@ export const SectionWithImageContainer = styled.div`
         /*font-size:1.7rem;*/
     }
     .icons-container{
-        width:90%;
+        width:80%;
         margin:auto;
         @media (max-width:829px){
             width:100%;
@@ -77,6 +79,7 @@ export const SectionWithImageContainer = styled.div`
     .text-container{
         @media (min-width:830px){
             min-width:360px;
+            margin-top: 1.2rem;
         }
         
     }

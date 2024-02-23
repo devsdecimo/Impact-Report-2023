@@ -66,7 +66,7 @@ export const PageContainer = styled.div`
   }
 
   li::marker{
-    font-size:2.5rem;
+    font-size:1.2;
   }
 
 `;
