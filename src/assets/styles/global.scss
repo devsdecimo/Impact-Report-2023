@@ -30,6 +30,11 @@ h3 {
   animation: frombottom 1s ease-in-out forwards;
 }
 
+.no-scroll {
+  overflow: hidden;
+  height: 100vh;
+}
+
 @font-face {
   font-family: "Garamond";
   src: url("/assets/fonts/AGaramondPro-Regular.otf") format("truetype");

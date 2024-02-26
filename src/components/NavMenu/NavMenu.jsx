@@ -8,14 +8,19 @@ function NavMenu({ className }) {
 
   const toggleMenu = (event, closeException = false) => {
     if (!closeException) {
-      console.log(event);
       const isLink = event.target.closest("a");
       const isOpenButton = event.target.classList.contains("menuButton");
-      if (isLink || isOpenButton || isLogo) {
+      if (isLink || isOpenButton) {
         setOpenMenu(!openMenu);
+        if (!openMenu) {
+          document.body.classList.add('no-scroll');
+        } else {
+          document.body.classList.remove('no-scroll');
+        }
       }
     } else {
       setOpenMenu(false);
+      document.body.classList.remove('no-scroll');
     }
   };
 
