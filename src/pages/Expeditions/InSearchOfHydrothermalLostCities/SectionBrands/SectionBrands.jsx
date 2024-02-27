@@ -1,6 +1,5 @@
 import React, {useState, useEffect} from "react";
 import { SectionBrandsContainer } from "./SectionBrands.styles";
-import CarouselBrands from "../CarouselBrands/CarouselBrands";
 import { Link } from "react-router-dom";
 
 import WHOI from "/assets/images/in_search_of_hydrothermal_lost_cities/brands/WHOI.webp";
@@ -16,6 +15,7 @@ import UW from "/assets/images/in_search_of_hydrothermal_lost_cities/brands/univ
 import NASA from "/assets/images/in_search_of_hydrothermal_lost_cities/brands/nasa.svg"
 import PMEL from "/assets/images/in_search_of_hydrothermal_lost_cities/brands/pmel.svg"
 import PAAaN from "/assets/images/in_search_of_hydrothermal_lost_cities/brands/PAAaN.svg"
+import CarouselBrands from "../../../../components/CarouselBrands/CarouselBrands";
 
 
 function SectionBrands({image,alt}) {

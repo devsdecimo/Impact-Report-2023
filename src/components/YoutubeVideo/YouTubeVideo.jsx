@@ -1,5 +1,5 @@
 import React from 'react';
-import { YoutubeVideoContainer } from './YoutubeVideo.styles';
+import { YoutubeVideoContainer } from './YouTubeVideo.styles';
 
 const YouTubeVideo = ({videoId}) => {
 

@@ -13,14 +13,14 @@ function NavMenu({ className }) {
       if (isLink || isOpenButton) {
         setOpenMenu(!openMenu);
         if (!openMenu) {
-          document.body.classList.add('no-scroll');
+          document.body.classList.add("no-scroll");
         } else {
-          document.body.classList.remove('no-scroll');
+          document.body.classList.remove("no-scroll");
         }
       }
     } else {
       setOpenMenu(false);
-      document.body.classList.remove('no-scroll');
+      document.body.classList.remove("no-scroll");
     }
   };
 
@@ -71,7 +71,7 @@ function NavMenu({ className }) {
                   <Link>Health Diagnosis of Deep Sea Coral</Link>
                 </li>
                 <li>
-                  <Link>Octopus Odessey/ Octopus Odessey (too)</Link>
+                  <Link>Octopus Odyssey/ Octopus Odyssey (too)</Link>
                 </li>
                 <li>
                   <Link>The Underworld of Hydrothermal Vents</Link>
@@ -92,26 +92,10 @@ function NavMenu({ className }) {
             </SubMenu>
           </li>
           <li>
-            <Link to="/by_the_numbers">Inaugural Year - By the Numbers</Link>
+            <Link to="/new_species_spotlight">New Species Spotlight</Link>
           </li>
           <li>
-            <SubMenu
-              title={"New Species & Seafloor Spotlight"}
-              toggleMain={toggleMenu}
-            >
-              <ul>
-                <li>
-                  <Link to="/new_species_spotlight">
-                    New Species Spotlight
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/new_species_and_seafloor_spotlight/seafloor_wonders">
-                    Seafloor Wonders
-                  </Link>
-                </li>
-              </ul>
-            </SubMenu>
+            <Link to="/by_the_numbers">Inaugural Year - By the Numbers</Link>
           </li>
           <li>
             <Link to="/a_limitless_ocean_of_data">
@@ -119,10 +103,7 @@ function NavMenu({ className }) {
             </Link>
           </li>
           <li>
-            <SubMenu
-              title={"The Deep Sea Continuum"}
-              toggleMain={toggleMenu}
-            >
+            <SubMenu title={"The Deep Sea Continuum"} toggleMain={toggleMenu}>
               <ul>
                 <li>
                   <Link to="/the_deep_sea_continuum/grants">Grants</Link>
@@ -141,10 +122,7 @@ function NavMenu({ className }) {
             </SubMenu>
           </li>
           <li>
-            <SubMenu
-              title={"Disseminating the Depths"}
-              toggleMain={toggleMenu}
-            >
+            <SubMenu title={"Disseminating the Depths"} toggleMain={toggleMenu}>
               <ul>
                 <li>
                   <Link to="/disseminating_the_depths/artist_at_sea">

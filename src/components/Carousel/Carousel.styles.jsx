@@ -83,13 +83,13 @@ export const DotContainer = styled.div`
 export const Dot = styled.span`
   padding: 5px;
   margin-right: 10px;
-  margin-left:10px;
+  margin-left: 10px;
   cursor: pointer;
   border-radius: 50%;
   width: ${(props) => (props.actived ? "10px" : "10px")};
   height: ${(props) => (props.actived ? "10px" : "10px")};
   background: ${(props) => (props.actived ? "#5D808F" : "white")};
-  border:1px solid #5D808F;
+  border: 1px solid #5d808f;
   transition: width 0.3s ease, height 0.3s ease;
   &:last-child {
     margin-right: 0;
@@ -103,7 +103,8 @@ export const ArrowButton = styled.button`
   background-color: transparent;
   border: none;
   cursor: pointer;
-  font-size: 3em;
+  font-size: 1.5em;
+  opacity: 0.5;
   color: #5d808f;
   z-index: 99;
 
@@ -122,6 +123,7 @@ export const ArrowButton = styled.button`
   }
 
   @media (min-width: 992px) {
+    font-size: 2em;
     ${({ direction }) =>
       direction === "left"
         ? "left: calc(5% + 20px);"

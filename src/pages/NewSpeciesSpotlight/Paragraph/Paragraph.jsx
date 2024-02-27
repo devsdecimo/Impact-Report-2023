@@ -29,7 +29,7 @@ function Paragraph({title, subtitle, text, italicWords, namedBy, vessel, vesselA
         <h2>{title}</h2>
         <h3>{subtitle}</h3>
         <p className="text">{italicWords && italicWords.length>0 ? resaltarPalabras(text, italicWords) : text}</p>
-        <p>{title=='Pyrolycus jaco'?'Feature named by: '+namedBy:'Species named by: '+namedBy}</p>
+        <p>{title=='Pyrolycus jaco'?'Species named by: '+namedBy:'Species named by: '+namedBy}</p>
         <p>Vessel discovered on: R/V  
           <span className="italic ml-10">{vessel}</span>
           <br/>

@@ -32,7 +32,7 @@ export const GeneralButtonContainer = styled.div`
   }
 
   &.active {
-    button {
+    a {
       background-color: #5d83a2;
       color: #ffffff;
       border-color: #ffffff;

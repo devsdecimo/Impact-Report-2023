@@ -40,7 +40,7 @@ function Home() {
             className="expedition_button expedition_button_three expedition_button_left"
             src="/assets/images/home/expedition_3.webp"
             delay="0.5"
-            tooltip="Octopus Odessey/ Octopus Odessey (too)"
+            tooltip="Octopus Odyssey/ Octopus Odyssey (too)"
             tooltipPlace="left"
             href={"/expeditions/octopus_odyssey"}
           ></ButtonImage>

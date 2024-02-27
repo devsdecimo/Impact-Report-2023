@@ -6,7 +6,7 @@ import Year from "/assets/images/new_species/icons/Year.svg";
 import Location from "/assets/images/new_species/icons/Location.svg";
 import Size from "/assets/images/new_species/icons/Size.svg";
 import Paragraph from "../Paragraph/Paragraph";
-import ImageWithCircle from "../ImageWithCircle/ImageWithCircle";
+import BubbleImage from "../../../components/BubbleImage/BubbleImage";
 
 
 function Section({title, subtitle, text, italicWords, namedBy, vessel, vesselAfterText, photo, depth, depth2, depthSeparator, year, year2, yearSeparator, location,size, sizeText, image, alt}) {
@@ -20,7 +20,7 @@ function Section({title, subtitle, text, italicWords, namedBy, vessel, vesselAft
     <SectionContainer>
         <section className="d-flex">
           <div className="images-container">
-              <ImageWithCircle image={image} alt={alt}/>
+              <BubbleImage image={image} alt={alt} type={2}/>
               <div className="icons-container">
                   <IconWithText className={'CTA'} icon={Depth} numbers={depth} numbers2={depth2} separator={depthSeparator} text={"m"} opacity={0.9} textBefore="Depth: "></IconWithText>
                   <IconWithText className={'CTA'} icon={Year} numbers={year} numbers2={year2} separator={yearSeparator} text={""} opacity={0.9} textBefore="Year discovered: "></IconWithText>
