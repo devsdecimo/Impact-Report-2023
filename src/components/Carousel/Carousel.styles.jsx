@@ -90,7 +90,7 @@ export const DotContainer = styled.div`
   display: flex;
   justify-content: center;
   position: absolute;
-  bottom: 10px;
+  bottom: 0;
   width: 100%;
 `;
 

@@ -1,20 +1,18 @@
 import styled from "styled-components";
 
 export const YoutubeVideoContainer = styled.div`
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    margin:6rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 6rem 0;
 
-    iframe{
-        width:741.33px;
-        height:417px;
-        border: none;
-        @media (max-width:829px){
-            width:90vw;
-            height:50.62vw;
-        }
+  iframe {
+    width: 40vw;
+    max-width: 768px;
+    aspect-ratio: 16 / 9;
+    border: none;
+    @media (min-width: 1400px) {
+      max-width: 45.5vw;
     }
-
-  
+  }
 `;

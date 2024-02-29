@@ -25,7 +25,6 @@ function SectionIcons() {
                 className={'CTA'} 
                 icon={Travel} 
                 numbers='1184'
-                separator='.'
                 text={"km traveled"} 
                 opacity={0.8}
             />

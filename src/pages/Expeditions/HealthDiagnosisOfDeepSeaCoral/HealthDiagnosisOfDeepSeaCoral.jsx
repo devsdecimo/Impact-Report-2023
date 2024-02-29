@@ -149,7 +149,7 @@ function HealthDiagnosisOfDeepSeaCoral() {
               text="Previous Expedition"
             />
             <GeneralButton
-              href="#"
+              href="/expeditions/octopus_odyssey"
               icon={Next}
               iconPosition="right"
               text="Next Expedition"

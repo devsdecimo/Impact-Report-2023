@@ -67,21 +67,21 @@ export const PageContainer = styled.div`
 
   .btn-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    column-gap: 10rem;
     row-gap: 0.5rem;
     margin: 5rem auto;
-    max-width: 90vw;
+    max-width: 60vw;
     flex-wrap: wrap;
     align-items: center;
     flex-direction: column;
-    @media (min-width: 830px) {
-      flex-direction: row;
+
+    @media (min-width: 1400px) {
+      max-width: 45.5vw;
     }
 
-    a {
-      min-width: 270px;
+    @media (min-width: 830px) {
+      flex-direction: row;
     }
   }
 

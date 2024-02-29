@@ -11,7 +11,7 @@ export const GeneralButtonContainer = styled.div`
     background: transparent;
     border: 3px solid #5d83a2;
     border-radius: 15px;
-    padding: 1rem 2rem;
+    padding: 0.5rem 1.5rem;
     color: #5d83a2;
     display: flex;
     justify-content: space-between;
@@ -21,9 +21,6 @@ export const GeneralButtonContainer = styled.div`
     text-decoration: none;
     @media (max-width: 500px) {
       justify-content: center;
-    }
-    @media (min-width: 830px) {
-      
     }
     transition: 1s;
   }

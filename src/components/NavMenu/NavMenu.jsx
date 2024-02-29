@@ -71,7 +71,7 @@ function NavMenu({ className }) {
                   <Link to="/expeditions/health_diagnosis_of_deep_sea_coral">Health Diagnosis of Deep Sea Coral</Link>
                 </li>
                 <li>
-                  <Link>Octopus Odyssey/ Octopus Odyssey (too)</Link>
+                  <Link to="/expeditions/octopus_odyssey">Octopus Odyssey/ Octopus Odyssey (too)</Link>
                 </li>
                 <li>
                   <Link>The Underworld of Hydrothermal Vents</Link>

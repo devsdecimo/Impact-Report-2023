@@ -18,9 +18,9 @@ function SectionWithImage({image,alt}) {
             </div>
             <div className="text-container">
                 <h2 className="title">
-                    <span>FKt230417</span>
+                    <span>FKt230602 & FKt231202</span>
                     <span>|</span>
-                    <span>#DiagnosingDeepCoral</span>
+                    <span>#OctoOdyssey</span>
                 </h2>
                 <div className="icons-container">
                 <IconWithText  

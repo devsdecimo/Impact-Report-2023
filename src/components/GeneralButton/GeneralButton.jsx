@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function GeneralButton({href,icon, iconPosition = 'left', text, className}) {
   return (
-    <GeneralButtonContainer className={className}>
+    <GeneralButtonContainer className={className} position={iconPosition}>
       <Link to={href}>
             {iconPosition=='left' &&
             <img src={icon} alt=''/>}
