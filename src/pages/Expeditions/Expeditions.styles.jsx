@@ -71,17 +71,19 @@ export const PageContainer = styled.div`
     align-items: center;
     row-gap: 0.5rem;
     margin: 5rem auto;
-    max-width: 60vw;
+    width: 70vw;
     flex-wrap: wrap;
     align-items: center;
     flex-direction: column;
 
-    @media (min-width: 1400px) {
-      max-width: 45.5vw;
+    @media (min-width: 830px) {
+      width: 60vw;
+      flex-direction: row;
     }
 
-    @media (min-width: 830px) {
-      flex-direction: row;
+    @media (min-width: 1200px) {
+      width: 45.5vw;
+      max-width: 880px
     }
   }
 
