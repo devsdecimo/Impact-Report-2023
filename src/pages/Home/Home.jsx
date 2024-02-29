@@ -35,6 +35,7 @@ function Home() {
             delay="0.25"
             tooltip="Health Diagnosis of Deep Sea Coral"
             tooltipPlace="left"
+            href={"/expeditions/health_diagnosis_of_deep_sea_coral"}
           ></ButtonImage>
           <ButtonImage
             className="expedition_button expedition_button_three expedition_button_left"

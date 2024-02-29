@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { CarouselContainer, Slide, DotContainer, Dot, ArrowButton } from './Carousel.styles.jsx';
 
-function Carousel({ slides, autoplay = true, loop = true, delay = 5000 }) {
+function Carousel({ slides, autoplay = true, loop = true, delay = 5000, className }) {
   const [currentSlides, setCurrentSlides] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isDragging, setIsDragging] = useState(false);
@@ -10,18 +10,7 @@ function Carousel({ slides, autoplay = true, loop = true, delay = 5000 }) {
   const timeoutRef = useRef(null);
 
   useEffect(() => {
-    const loadImages = async () => {
-      const loadedImages = await Promise.all(slides.map(slide => {
-        return new Promise(resolve => {
-          adjustImageToAspectRatio(slide.img, (newImgSrc) => {
-            resolve({ ...slide, img: newImgSrc });
-          });
-        });
-      }));
-      setCurrentSlides(loadedImages);
-    };
-
-    loadImages();
+    setCurrentSlides(slides);
   }, [slides]);
 
   const nextSlide = () => {
@@ -38,7 +27,7 @@ function Carousel({ slides, autoplay = true, loop = true, delay = 5000 }) {
 
   useEffect(() => {
     if (autoplay) {
-      // timeoutRef.current = setTimeout(nextSlide, delay);
+      timeoutRef.current = setTimeout(nextSlide, delay);
     }
     return () => {
       if (timeoutRef.current) {
@@ -96,45 +85,8 @@ function Carousel({ slides, autoplay = true, loop = true, delay = 5000 }) {
   const handleMouseLeave = () => {
     setIsDragging(false);
     if (autoplay) {
-      // timeoutRef.current = setTimeout(nextSlide, delay);
+      timeoutRef.current = setTimeout(nextSlide, delay);
     }
-  };
-
-  const adjustImageToAspectRatio = (imgUrl, callback) => {
-    const img = new Image();
-    img.onload = () => {
-      const targetWidth = 533;
-      const targetHeight = 300;
-      const canvas = document.createElement('canvas');
-      canvas.width = targetWidth;
-      canvas.height = targetHeight;
-      const ctx = canvas.getContext('2d');
-  
-      const imgAspectRatio = img.width / img.height;
-      const canvasAspectRatio = targetWidth / targetHeight;
-  
-      let drawWidth, drawHeight, offsetX, offsetY;
-      if (imgAspectRatio > canvasAspectRatio) {
-        drawHeight = targetHeight;
-        drawWidth = img.width * (targetHeight / img.height);
-        offsetX = (targetWidth - drawWidth) / 2;
-        offsetY = 0;
-      } else {
-        drawWidth = targetWidth;
-        drawHeight = img.height * (targetWidth / img.width);
-        offsetX = 0;
-        offsetY = (targetHeight - drawHeight) / 2;
-      }
-  
-      ctx.drawImage(img, offsetX, offsetY, drawWidth, drawHeight);
-  
-      const quality = 0.85;
-      callback(canvas.toDataURL('image/jpeg', quality));
-    };
-    img.onerror = (e) => {
-      console.error("Error loading image", e);
-    };
-    img.src = imgUrl;
   };
 
   return (
@@ -144,6 +96,7 @@ function Carousel({ slides, autoplay = true, loop = true, delay = 5000 }) {
       onMouseUp={handleMouseUp}
       onMouseLeave={handleMouseLeave}
       onMouseEnter={pauseAutoplay}
+      className={className}
     >
       <ArrowButton direction="left" onClick={prevSlide}>
         &#10094;

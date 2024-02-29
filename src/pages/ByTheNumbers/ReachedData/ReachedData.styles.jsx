@@ -7,7 +7,7 @@ export const ReachedDataContainer = styled.div`
   min-width: 70vw;
   min-height: 15vh;
   justify-self: center;
-  margin-top: 10rem;
+  margin-top: 11rem;
   aspect-ratio: 0.35;
   @media (min-width: 830px) {
     min-width: 28vw;

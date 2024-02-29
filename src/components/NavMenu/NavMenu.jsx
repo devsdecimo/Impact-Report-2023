@@ -68,7 +68,7 @@ function NavMenu({ className }) {
                   </Link>
                 </li>
                 <li>
-                  <Link>Health Diagnosis of Deep Sea Coral</Link>
+                  <Link to="/expeditions/health_diagnosis_of_deep_sea_coral">Health Diagnosis of Deep Sea Coral</Link>
                 </li>
                 <li>
                   <Link>Octopus Odyssey/ Octopus Odyssey (too)</Link>

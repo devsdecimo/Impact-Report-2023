@@ -2,19 +2,19 @@ import React, {useState, useEffect} from "react";
 import { SectionBrandsContainer } from "./SectionBrands.styles";
 import { Link } from "react-router-dom";
 
-import WHOI from "/assets/images/in_search_of_hydrothermal_lost_cities/brands/WHOI.webp";
-import OECI from "/assets/images/in_search_of_hydrothermal_lost_cities/brands/OECI.webp"
-import MBARI from "/assets/images/in_search_of_hydrothermal_lost_cities/brands/MBARI.webp";
+import WHOI from "/assets/images/brands/WHOI.webp";
+import OECI from "/assets/images/brands/OECI.webp"
+import MBARI from "/assets/images/brands/MBARI.webp";
 
 
-import OceanExploration from "/assets/images/in_search_of_hydrothermal_lost_cities/brands/ocean-exploration.svg";
-import ASU from "/assets/images/in_search_of_hydrothermal_lost_cities/brands/ASU.svg";
-import UVIC from "/assets/images/in_search_of_hydrothermal_lost_cities/brands/uvic.svg";
-import Dalhousie from "/assets/images/in_search_of_hydrothermal_lost_cities/brands/Dalhousie.svg"
-import UW from "/assets/images/in_search_of_hydrothermal_lost_cities/brands/university-of-washington.svg"
-import NASA from "/assets/images/in_search_of_hydrothermal_lost_cities/brands/nasa.svg"
-import PMEL from "/assets/images/in_search_of_hydrothermal_lost_cities/brands/pmel.svg"
-import PAAaN from "/assets/images/in_search_of_hydrothermal_lost_cities/brands/PAAaN.svg"
+import OceanExploration from "/assets/images/brands/ocean-exploration.svg";
+import ASU from "/assets/images/brands/ASU.svg";
+import UVIC from "/assets/images/brands/uvic.svg";
+import Dalhousie from "/assets/images/brands/Dalhousie.svg"
+import UW from "/assets/images/brands/university-of-washington.svg"
+import NASA from "/assets/images/brands/nasa.svg"
+import PMEL from "/assets/images/brands/pmel.svg"
+import PAAaN from "/assets/images/brands/PAAaN.svg"
 import CarouselBrands from "../../../../components/CarouselBrands/CarouselBrands";
 
 

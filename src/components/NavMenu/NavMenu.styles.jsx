@@ -45,7 +45,7 @@ export const NavMenuContainer = styled.nav`
     position: fixed;
     top: 0;
     bottom: 0;
-    right: 0;
+    right: -10%;
     width: 0;
     transition: 0.3s;
     transition-timing-function: linear;
@@ -105,6 +105,7 @@ export const NavMenuContainer = styled.nav`
     &.menu__open {
       width: calc(100vw - 2rem);
       opacity: 1;
+      right: 0;
 
       li {
         opacity: 1;

@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const BubbleImageContainer = styled.span`
-  .circle {
+  .circle,
+  .image {
     opacity: 0;
     transform: scale(0);
   }
@@ -237,6 +238,68 @@ export const BubbleImageContainer = styled.span`
         animation-delay: 0.375s;
       }
       .circle-image {
+        animation-delay: 0.75s;
+      }
+    }
+  }
+
+  &.type-4 {
+    display: flex;
+    position: relative;
+    height: 250px;
+    width: 230px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    margin-top: 2rem;
+    @media (max-width: 829px) {
+      margin: auto;
+      transform: scale(1);
+    }
+
+    .image {
+      position: absolute;
+      width: 350px;
+      height: auto;
+      z-index: 2;
+      top: -30px;
+      right: -30px;
+    }
+
+    .circle {
+      &-1 {
+        width: 180px;
+        height: 180px;
+        background-color: #80aed8;
+        mix-blend-mode: multiply;
+        border-radius: 50%;
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        right: 35px;
+      }
+      &-2 {
+        width: 120px;
+        height: 120px;
+        background-color: #a3cadb;
+        mix-blend-mode: multiply;
+        border-radius: 50%;
+        position: absolute;
+        z-index: 1;
+        top: 100px;
+        right: 110px;
+      }
+    }
+
+    &.animated {
+      .circle,
+      .image {
+        animation: fade-in 1s ease-in-out;
+        animation-fill-mode: forwards;
+      }
+      .circle-2 {
+        animation-delay: 0.375s;
+      }
+      .image {
         animation-delay: 0.75s;
       }
     }

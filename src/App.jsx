@@ -23,6 +23,7 @@ import DivestreamsAndConnections from './pages/DisseminatingTheDepths/Contents/D
 import PressAndFootage from './pages/DisseminatingTheDepths/Contents/PressAndFootage';
 import OnTheBigScreen from './pages/DisseminatingTheDepths/Contents/OnTheBigScreen';
 import NotFound from './pages/NotFound/NotFound';
+import HealthDiagnosisOfDeepSeaCoral from './pages/Expeditions/HealthDiagnosisOfDeepSeaCoral/HealthDiagnosisOfDeepSeaCoral';
 
 function App() {
 
@@ -34,9 +35,10 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/expeditions">
           <Route index element={<Navigate to="/" replace />} />
-          <Route path="octopus_odyssey"  element={<OctopusOddyssey />}/>btn-container
-          <Route path="dynamics_of_sinking_microplastics"  element={<DynamicsOfSinkingMicroplastics />}/>
           <Route path="in_search_of_hydrothermal_lost_cities" element={<InSearchOfHydrothermalLostCities/>} />
+          <Route path="health_diagnosis_of_deep_sea_coral" element={<HealthDiagnosisOfDeepSeaCoral/>} />
+          <Route path="octopus_odyssey"  element={<OctopusOddyssey />}/>
+          <Route path="dynamics_of_sinking_microplastics"  element={<DynamicsOfSinkingMicroplastics />}/>
         </Route>
         <Route path="/a_word_from_our_founders" element={<AWordFromOurFounders />} />
         <Route path="/executive_directors_note" element={<ExecutiveDirectorsNote />} />

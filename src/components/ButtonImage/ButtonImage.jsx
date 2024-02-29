@@ -18,7 +18,11 @@ function ButtonImage({
   let navigate = useNavigate();
 
   const [visible, setVisible] = useState(false);
-  const show = () => setVisible(true);
+  const show = () => {
+    if(window.innerWidth >= 830){
+      setVisible(true)
+    }
+  };
   const hide = () => setVisible(false);
 
   const openPage = () => {

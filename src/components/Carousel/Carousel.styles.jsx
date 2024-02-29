@@ -29,23 +29,27 @@ export const Slide = styled.div`
   &.center {
     z-index: 2;
     opacity: 1;
-    transform: translateX(-50%) scale(1.2);
+    transform: translateX(-50%) scale(1.1);
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
   }
 
   &.prev {
     z-index: 1;
     opacity: 0.5;
-    transform: translateX(calc(-50% + 40.333%)) scale(0.8);
+    transform: translateX(calc(-50% + 40.333%));
+    height: 62%;
   }
 
   &.next {
     z-index: 1;
     opacity: 0;
-    transform: translateX(calc(-50% + 40.333%)) scale(0.8);
+    transform: translateX(calc(-50% + 40.333%));
+    height: 62%;
   }
 
   &.prev {
-    transform: translateX(calc(-50% - 40.333%)) scale(0.8);
+    transform: translateX(calc(-50% - 40.333%));
+    height: 62%;
   }
 
   &.first-next {
@@ -60,6 +64,7 @@ export const Slide = styled.div`
   &.prev,
   &.next,
   &.center + &.next {
+    display: flex;
     @media (max-width: 767px) {
       opacity: 0;
     }
@@ -67,9 +72,13 @@ export const Slide = styled.div`
 
   img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
     display: block;
     cursor: grab;
+    aspect-ratio: 16 / 9;
   }
+
 `;
 
 export const DotContainer = styled.div`
@@ -106,13 +115,13 @@ export const ArrowButton = styled.button`
   font-size: 1.5em;
   opacity: 0.5;
   color: #5d808f;
-  z-index: 99;
+  z-index: 2;
 
   ${({ direction }) => (direction === "left" ? "left: -2%;" : "right: -2%;")}
   padding: 10px;
 
   @media (min-width: 515px) {
-    ${({ direction }) => (direction === "left" ? "left: 0;" : "right: 0;")}
+    ${({ direction }) => (direction === "left" ? "left: 1%;" : "right: 1%;")}
   }
 
   @media (min-width: 768px) {
@@ -140,8 +149,8 @@ export const ArrowButton = styled.button`
   @media (min-width: 1600px) {
     ${({ direction }) =>
       direction === "left"
-        ? "left: calc(15% + 20px);"
-        : "right: calc(15% + 20px);"}
+        ? "left: calc(-2% + 20px);"
+        : "right: calc(-2% + 20px);"}
   }
 
   &:hover {

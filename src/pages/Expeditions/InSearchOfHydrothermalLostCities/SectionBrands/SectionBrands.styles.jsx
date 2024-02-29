@@ -1,41 +1,40 @@
 import styled from "styled-components";
 
 export const SectionBrandsContainer = styled.div`
-    width:100vw;
-    background-color:white;
-    padding:20px 0;
-    margin-top:2rem;
+  width: 100vw;
+  background-color: white;
+  padding: 20px 0;
+  margin-top: 2rem;
 
-    .brands-container{
-        display:flex;
-        justify-content: space-between;
-        align-items: center;
-        width:90vw;
-        max-width:1400px;
-        margin:auto;
-        gap: 2rem;
-    }
+  .brands-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+    max-width: 1400px;
+    margin: auto;
+    gap: 2rem;
+  }
 
-    img{
-        @media (min-width:1100px){
-            max-width:100px;
-            max-height:7.5vw;
-            width: 100%;
-        }
-        
+  img {
+    @media (min-width: 1100px) {
+      max-width: 100px;
+      max-height: 4.5vw;
+      width: 100%;
     }
+  }
 
-    .only-mobile{
-        @media (min-width:1100px){
-            display:none;
-        }
+  .only-mobile {
+    @media (min-width: 1100px) {
+      display: none;
     }
-    .only-desktop{
-        @media (max-width:1099px){
-            display:none;
-        }
+  }
+  .only-desktop {
+    @media (max-width: 1099px) {
+      display: none;
     }
-    /*
+  }
+  /*
     img:nth-child(1){
         height:100px;
     }
@@ -69,7 +68,4 @@ export const SectionBrandsContainer = styled.div`
     img:nth-child(11){
         height:100px;
     }*/
-    
-
-  
 `;

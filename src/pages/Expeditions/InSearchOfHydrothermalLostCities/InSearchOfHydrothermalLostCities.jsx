@@ -87,7 +87,7 @@ function InSearchOfHydrothermalLostCities() {
               </li>
             </ul>
           </div>
-          <Carousel slides={slides}></Carousel>
+          <Carousel slides={slides} className="expedition-carousel"></Carousel>
           <div className="paragraph">
             <p>
               The first scientific expedition of SOI’s new research vessel{" "}
@@ -142,7 +142,7 @@ function InSearchOfHydrothermalLostCities() {
               text="Previous Expedition"
             />
             <GeneralButton
-              href="#"
+              href="/expeditions/health_diagnosis_of_deep_sea_coral"
               icon={Next}
               iconPosition="right"
               text="Next Expedition"

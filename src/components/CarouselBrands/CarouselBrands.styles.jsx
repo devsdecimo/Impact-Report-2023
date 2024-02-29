@@ -96,13 +96,14 @@ export const ArrowButton = styled.button`
   cursor: pointer;
   font-size: 3em;
   color: #5d808f;
-  z-index: 99;
+  opacity: 0.5;
+  z-index: 2;
 
-  ${({ direction }) => (direction === "left" ? "left: 1%;" : "right: 1%;")}
+  ${({ direction }) => (direction === "left" ? "left: 2%;" : "right: 2%;")}
   padding: 10px;
 
   @media (min-width: 515px) {
-    ${({ direction }) => (direction === "left" ? "left: 0;" : "right: 0;")}
+    ${({ direction }) => (direction === "left" ? "left: 2%;" : "right: 2%;")}
   }
 
   @media (min-width: 768px) {

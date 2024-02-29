@@ -3,7 +3,14 @@ import { BubbleImageContainer } from "./BubbleImage.styles.jsx";
 import Tippy from "@tippyjs/react";
 import "tippy.js/dist/tippy.css";
 
-function BubbleImage({ image, alt, direction = "down", className, type = 1, orientation = 'left' }) {
+function BubbleImage({
+  image,
+  alt,
+  direction = "down",
+  className,
+  type = 1,
+  orientation = "left",
+}) {
   const ref = useRef(null);
 
   useEffect(() => {
@@ -36,14 +43,15 @@ function BubbleImage({ image, alt, direction = "down", className, type = 1, orie
       direction={direction}
       orientation={orientation}
     >
-      {type === 1 || type === 3 && (
-        <>
-          <span className="circle circle-1"></span>
-          <span className="circle circle-2"></span>
-          <span className="circle circle-3"></span>
-          <img src={image} className="circle circle-image" alt={alt} />
-        </>
-      )}
+      {type === 1 ||
+        (type === 3 && (
+          <>
+            <span className="circle circle-1"></span>
+            <span className="circle circle-2"></span>
+            <span className="circle circle-3"></span>
+            <img src={image} className="circle circle-image" alt={alt} />
+          </>
+        ))}
 
       {type === 2 && (
         <>
@@ -53,6 +61,13 @@ function BubbleImage({ image, alt, direction = "down", className, type = 1, orie
         </>
       )}
 
+      {type === 4 && (
+        <>
+          <img className="image" src={image} alt={alt} />
+          <div className="circle circle-1"></div>
+          <div className="circle circle-2"></div>
+        </>
+      )}
     </BubbleImageContainer>
   );
 }
