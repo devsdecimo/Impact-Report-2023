@@ -12,7 +12,7 @@ import Next from "/assets/images/next.svg";
 import BubbleImage from "../../../components/BubbleImage/BubbleImage";
 import YoutubeVideo from "../../../components/YoutubeVideo/YouTubeVideo";
 
-function HealthDiagnosisOfDeepSeaCoral() {
+function OctopusOdyssey() {
   const slidesPath = "/assets/images/expeditions/health_diagnosis_of_deep_sea_coral/carousel/"
   const slides = [
     { img:  `${slidesPath}01-Reef_Solaris.webp`, href: "#", target: "_blank" },
@@ -161,4 +161,4 @@ function HealthDiagnosisOfDeepSeaCoral() {
   );
 }
 
-export default HealthDiagnosisOfDeepSeaCoral;
+export default OctopusOdyssey;

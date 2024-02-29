@@ -1,6 +1,6 @@
 import React from "react";
 import Page from "../../../components/Page/Page";
-import { PageContainer } from "./InSearchOfHydrothermalLostCities.styles";
+import { PageContainer } from "../Expeditions.styles";
 import SectionWithImage from "./SectionWithImage/SectionWithImage";
 import SectionBrands from "./SectionBrands/SectionBrands";
 import SectionIcons from "./SectionIcons/SectionIcons";

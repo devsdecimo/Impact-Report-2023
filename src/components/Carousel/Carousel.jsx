@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { CarouselContainer, Slide, DotContainer, Dot, ArrowButton } from './Carousel.styles.jsx';
 
-function Carousel({ slides, autoplay = true, loop = true, delay = 5000, className }) {
+function Carousel({ slides, autoplay = false, loop = true, delay = 5000, className }) {
   const [currentSlides, setCurrentSlides] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isDragging, setIsDragging] = useState(false);

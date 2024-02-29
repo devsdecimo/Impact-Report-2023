@@ -9,6 +9,7 @@ export const YoutubeVideoContainer = styled.div`
     iframe{
         width:741.33px;
         height:417px;
+        border: none;
         @media (max-width:829px){
             width:90vw;
             height:50.62vw;

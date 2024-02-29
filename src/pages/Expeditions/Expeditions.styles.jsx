@@ -43,6 +43,9 @@ export const PageContainer = styled.div`
   .paragraph p {
     margin-bottom: 3rem;
   }
+  .paragraph ul {
+    padding-left: 1em;
+  }
   .paragraph span {
     line-height: 2.5;
     margin-right: 6px;
@@ -75,6 +78,10 @@ export const PageContainer = styled.div`
     flex-direction: column;
     @media (min-width: 830px) {
       flex-direction: row;
+    }
+
+    a {
+      min-width: 270px;
     }
   }
 

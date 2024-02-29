@@ -3,52 +3,58 @@ import styled from "styled-components";
 export const CarouselContainer = styled.div`
   display: flex;
   justify-content: center;
-  align-items: center;
   overflow: hidden;
   position: relative;
   width: 100%;
-  aspect-ratio: 5 / 4;
+  aspect-ratio: 7 / 4;
 
   @media (min-width: 830px) {
-    aspect-ratio: 11 / 5;
+    aspect-ratio: 14 / 5;
   }
 `;
 
 export const Slide = styled.div`
-  min-width: 33.333%;
+  min-width: 70%;
   transition: transform 0.5s ease, opacity 0.5s ease;
   position: absolute;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateY(-50%) translateX(-50%);
   opacity: 0.7;
 
-  @media (max-width: 767px) {
-    min-width: 70%;
+  @media (min-width: 830px) {
+    min-width: 33.333%;
   }
 
   &.center {
     z-index: 2;
     opacity: 1;
-    transform: translateX(-50%) scale(1.1);
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    transform: translateY(-50%) translateX(-50%) scale(1.1);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  }
+
+  &.prev,
+  &.next,
+  &.first-next,
+  &.center {
+    top: 42%;
   }
 
   &.prev {
     z-index: 1;
     opacity: 0.5;
-    transform: translateX(calc(-50% + 40.333%));
+    transform: translateY(-50%) translateX(calc(-70% + 40.333%));
     height: 62%;
   }
 
   &.next {
     z-index: 1;
     opacity: 0;
-    transform: translateX(calc(-50% + 40.333%));
+    transform: translateY(-50%) translateX(calc(-30% + 40.333%));
     height: 62%;
   }
 
   &.prev {
-    transform: translateX(calc(-50% - 40.333%));
+    transform: translateY(-50%) translateX(calc(-70% - 40.333%));
     height: 62%;
   }
 
@@ -65,7 +71,7 @@ export const Slide = styled.div`
   &.next,
   &.center + &.next {
     display: flex;
-    @media (max-width: 767px) {
+    @media (max-width: 830px) {
       opacity: 0;
     }
   }
@@ -78,7 +84,6 @@ export const Slide = styled.div`
     cursor: grab;
     aspect-ratio: 16 / 9;
   }
-
 `;
 
 export const DotContainer = styled.div`
@@ -95,10 +100,10 @@ export const Dot = styled.span`
   margin-left: 10px;
   cursor: pointer;
   border-radius: 50%;
-  width: ${(props) => (props.actived ? "10px" : "10px")};
-  height: ${(props) => (props.actived ? "10px" : "10px")};
-  background: ${(props) => (props.actived ? "#5D808F" : "white")};
-  border: 1px solid #5d808f;
+  width: 5px;
+  height: 5px;
+  background: ${(props) => (props.actived ? "#5D808F" : "transparent")};
+  border: 2px solid #5d808f;
   transition: width 0.3s ease, height 0.3s ease;
   &:last-child {
     margin-right: 0;
@@ -107,7 +112,7 @@ export const Dot = styled.span`
 
 export const ArrowButton = styled.button`
   position: absolute;
-  top: 50%;
+  top: 42%;
   transform: translateY(-50%);
   background-color: transparent;
   border: none;
@@ -122,35 +127,6 @@ export const ArrowButton = styled.button`
 
   @media (min-width: 515px) {
     ${({ direction }) => (direction === "left" ? "left: 1%;" : "right: 1%;")}
-  }
-
-  @media (min-width: 768px) {
-    ${({ direction }) =>
-      direction === "left"
-        ? "left: calc(5% + 10px);"
-        : "right: calc(5% + 10px);"}
-  }
-
-  @media (min-width: 992px) {
-    font-size: 2em;
-    ${({ direction }) =>
-      direction === "left"
-        ? "left: calc(5% + 20px);"
-        : "right: calc(5% + 20px);"}
-  }
-
-  @media (min-width: 1200px) {
-    ${({ direction }) =>
-      direction === "left"
-        ? "left: calc(10% + 20px);"
-        : "right: calc(10% + 20px);"}
-  }
-
-  @media (min-width: 1600px) {
-    ${({ direction }) =>
-      direction === "left"
-        ? "left: calc(-2% + 20px);"
-        : "right: calc(-2% + 20px);"}
   }
 
   &:hover {
