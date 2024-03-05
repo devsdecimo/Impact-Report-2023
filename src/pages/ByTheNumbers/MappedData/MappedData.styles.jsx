@@ -4,7 +4,7 @@ export const MappedDataContainer = styled.div`
   position: relative;
   display: inline-flex;
   font-weight: 700;
-  min-width: 55vw;
+  width: 55vw;
   min-height: 15vh;
   justify-self: center;
   background-attachment: fixed;
@@ -12,13 +12,15 @@ export const MappedDataContainer = styled.div`
   aspect-ratio: 0.4;
   mix-blend-mode: multiply;
   margin-left: -15vw;
-  @media (min-width: 830px) {
-    min-width: 25vw;
-    grid-row: 14 / 20;
+  @media (min-width: 768px) {
+    width: 25vw;
+    grid-row: 4 / 8;
     grid-column: 1 / 2;
     justify-self: left;
     margin-left: 10vw;
     aspect-ratio: 1.35;
+    margin-top: 4rem;
+    align-self: center;
   }
 
   img {
@@ -35,7 +37,7 @@ export const MappedDataContainer = styled.div`
       bottom: 0;
       left: 5%;
 
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         width: 56%;
         left: 0;
       }
@@ -45,7 +47,7 @@ export const MappedDataContainer = styled.div`
       width: 46%;
       top: 14%;
       left: 60%;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         width: 26%;
         top: 37%;
         left: 46%;
@@ -57,7 +59,7 @@ export const MappedDataContainer = styled.div`
       top: -5%;
       left: 50%;
       background-color: #a7e7f6;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         width: 43%;
         top: -13%;
         left: 40%;
@@ -71,7 +73,7 @@ export const MappedDataContainer = styled.div`
       width: 36%;
       bottom: 19%;
       left: 9%;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         width: 20%;
         bottom: 0%;
         left: 36%;
@@ -84,7 +86,7 @@ export const MappedDataContainer = styled.div`
       width: 26%;
       bottom: 8%;
       left: 31%;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         width: 17%;
         bottom: -14%;
         left: 50%;
@@ -97,7 +99,7 @@ export const MappedDataContainer = styled.div`
       width: 26%;
       bottom: 2%;
       left: 14%;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         width: 17%;
         bottom: -25%;
         left: 37%;
@@ -131,7 +133,7 @@ export const MappedDataContainer = styled.div`
         top: 40%;
         transform: translateY(-50%);
       }
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         width: 20%;
         bottom: 0%;
         left: 36%;
@@ -147,7 +149,7 @@ export const MappedDataContainer = styled.div`
       width: 26%;
       bottom: 8%;
       left: 31%;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         font-size: 3.2vw;
         width: 17%;
         bottom: -14%;
@@ -160,7 +162,7 @@ export const MappedDataContainer = styled.div`
       width: 26%;
       bottom: 2%;
       left: 14%;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         font-size: 3.2vw;
         width: 17%;
         bottom: -25%;
@@ -186,7 +188,7 @@ export const MappedDataContainer = styled.div`
       left: 17%;
       font-weight: 800;
 
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         top: -5%;
         left: unset;
         right: -3%;
@@ -200,7 +202,7 @@ export const MappedDataContainer = styled.div`
       top: 46%;
       left: 3%;
       width: 125%;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         width: auto;
         font-size: 2.8vw;
         left: unset;
@@ -214,7 +216,7 @@ export const MappedDataContainer = styled.div`
       top: 54%;
       left: 40%;
       font-weight: 400;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         font-size: 1.6vw;
         top: 23%;
         right: -25%;
@@ -227,7 +229,7 @@ export const MappedDataContainer = styled.div`
       bottom: 33%;
       left: 4%;
       font-weight: 400;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         font-size: 2vw;
         bottom: 8%;
         left: 4%;
@@ -240,7 +242,7 @@ export const MappedDataContainer = styled.div`
       left: 49%;
       font-weight: 400;
       width: 100%;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         font-size: 2vw;
         bottom: 8%;
         right: -48%;
@@ -255,7 +257,7 @@ export const MappedDataContainer = styled.div`
       bottom: 11%;
       left: 63%;
       font-weight: 400;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         font-size: 2vw;
         bottom: -7%;
         right: -1%;
@@ -270,7 +272,7 @@ export const MappedDataContainer = styled.div`
       bottom: -3%;
       left: 42%;
       width: 100%;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         font-size: 2vw;
         bottom: -23%;
         right: -35%;

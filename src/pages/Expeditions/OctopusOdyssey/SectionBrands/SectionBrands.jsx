@@ -1,11 +1,19 @@
 import React, {useState, useEffect} from "react";
-import { SectionBrandsContainer } from "./SectionBrands.styles";
+import { SectionBrandsContainer } from "../../SectionBrands.styles";
 import { Link } from "react-router-dom";
 
+import Bigelow  from "/assets/images/brands/Bigelow_Secondary.webp";
+import UCR from "/assets/images/brands/UCR.webp";
 import WHOI from "/assets/images/brands/WHOI.webp";
-import SI from "/assets/images/brands/SI_logo.webp";
-import LehighU from "/assets/images/brands/LehighU.webp";
-import UPR from "/assets/images/brands/UPR.webp";
+import UNA from "/assets/images/brands/UNA.webp";
+import Temple from "/assets/images/brands/Temple-University.webp";
+import UCalgary from "/assets/images/brands/UCalgary.webp";
+import SpeSeas from "/assets/images/brands/speseas.webp";
+import FieldMuseum from "/assets/images/brands/FieldMuseum.webp";
+import CalStateLA from "/assets/images/brands/CalStateLA.webp";
+import CIMAR from "/assets/images/brands/CIMAR.webp";
+import OVSICORI from "/assets/images/brands/OVSICORI.webp";
+import Scripps from "/assets/images/brands/Scripps.webp";
 
 import CarouselBrands from "../../../../components/CarouselBrands/CarouselBrands";
 
@@ -15,10 +23,18 @@ function SectionBrands({image,alt}) {
 
   useEffect(() => {
     setSlides([
+      { img: Bigelow , href: 'https://www.bigelow.org/', target: '_blank' , alt:'Bigelow Laboratory for Ocean Sciences'},
+      { img: UCR, href: 'https://www.ucr.ac.cr/', target: '_blank' , alt:'Universidad de Costa Rica'},
       { img: WHOI, href: 'https://www.whoi.edu/', target: '_blank' , alt:'Woods Hole Oceanographic Institution'},
-      { img: LehighU, href: 'https://www2.lehigh.edu/', target: '_blank' , alt:'Lehigh University'},
-      { img: UPR, href: 'https://www.uprm.edu/', target: '_blank' , alt:'University of Puerto Rico'},
-      { img: SI, href: 'https://www.uvic.ca/', target: '_blank' , alt:'Smithsonian Institute'},
+      { img: UNA, href: 'https://www.una.ac.cr/', target: '_blank' , alt:'Universidad Nacional de Costa Rica'},
+      { img: Temple, href: 'https://www.temple.edu/', target: '_blank' , alt:'Temple University'},
+      { img: UCalgary, href: 'https://www.ucalgary.ca/', target: '_blank' , alt:'University of Calgary'},
+      { img: SpeSeas, href: 'https://speseas.org/', target: '_blank' , alt:'SpeSeas'},
+      { img: FieldMuseum, href: 'https://www.fieldmuseum.org/', target: '_blank' , alt:' Field Museum'},
+      { img: CalStateLA, href: 'https://www.calstatela.edu/', target: '_blank' , alt:'California State University Los Angeles'},
+      { img: CIMAR, href: 'https://vinv.ucr.ac.cr/es/unidades/centro-de-investigacion-en-ciencias-del-mar-y-limnologia-cimar', target: '_blank' , alt:' Centro de Investigación en Ciencias del Mar y Limnología (CIMAR)'},
+      { img: OVSICORI, href: 'http://www.ovsicori.una.ac.cr/', target: '_blank' , alt:'OVISCO-UNA'},
+      { img: Scripps, href: 'https://www.scripps.edu/', target: '_blank' , alt:'Scripps Research'},
     ])
   }, []);
 

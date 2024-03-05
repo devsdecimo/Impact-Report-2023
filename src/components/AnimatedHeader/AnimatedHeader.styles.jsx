@@ -12,7 +12,7 @@ export const AnimatedHeaderContainer = styled.div`
     z-index: 2;
     cursor: pointer;
 
-    @media (min-width: 830px) {
+    @media (min-width: 768px) {
       top: 6%;
       left: 6%;
       height: 12%;
@@ -50,10 +50,10 @@ export const AnimatedHeaderContainer = styled.div`
     bottom: 0;
     left: 0;
     right: 0;
-    animation: wave 30s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
+    animation: wave 60s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
     transform: translate3d(0, 0, 0);
 
-    @media (min-width: 830px) {
+    @media (min-width: 768px) {
       height: 160px;
     }
   }

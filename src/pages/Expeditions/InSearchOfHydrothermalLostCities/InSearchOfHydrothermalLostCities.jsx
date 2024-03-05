@@ -9,21 +9,23 @@ import GeneralButton from "../../../components/GeneralButton/GeneralButton";
 
 import Prev from "/assets/images/prev.svg";
 import Next from "/assets/images/next.svg";
-import image from "/assets/images/in_search_of_hydrothermal_lost_cities/carousel/01-SunriseOnTheBridge.webp";
-import image2 from "/assets/images/in_search_of_hydrothermal_lost_cities/carousel/02-Dive491.webp";
-import image3 from "/assets/images/in_search_of_hydrothermal_lost_cities/carousel/03-VentFaunaReflectiveP.webp";
-import image4 from "/assets/images/in_search_of_hydrothermal_lost_cities/carousel/04-CaressPaduanJeff.webp";
-import image5 from "/assets/images/in_search_of_hydrothermal_lost_cities/carousel/05-AUVLaunchAndRecovery.webp";
-import Cientifico from "/assets/images/in_search_of_hydrothermal_lost_cities/Cientifico.webp";
+import image from "/assets/images/expeditions/in_search_of_hydrothermal_lost_cities/carousel/01-SunriseOnTheBridge.webp";
+import image2 from "/assets/images/expeditions/in_search_of_hydrothermal_lost_cities/carousel/02-Dive491.webp";
+import image3 from "/assets/images/expeditions/in_search_of_hydrothermal_lost_cities/carousel/03-VentFaunaReflectiveP.webp";
+import image4 from "/assets/images/expeditions/in_search_of_hydrothermal_lost_cities/carousel/04-CaressPaduanJeff.webp";
+import image5 from "/assets/images/expeditions/in_search_of_hydrothermal_lost_cities/carousel/05-AUVLaunchAndRecovery.webp";
+import Cientifico from "/assets/images/expeditions/in_search_of_hydrothermal_lost_cities/Cientifico.webp";
 import BubbleImage from "../../../components/BubbleImage/BubbleImage";
 import YoutubeVideo from "../../../components/YoutubeVideo/YouTubeVideo";
+import CarouselNav from "../../../components/CarouselNav/CarouselNav";
+import ExpeditionsNav from "../ExpeditionsNav";
 
 function InSearchOfHydrothermalLostCities() {
   const slides = [
-    { img: image, href: "#", target: "_blank" },
-    { img: image2, href: "#", target: "_blank" },
-    { img: image3, href: "#", target: "_blank" },
-    { img: image4, href: "#" },
+    { img: image },
+    { img: image2 },
+    { img: image3 },
+    { img: image4 },
     { img: image5 },
   ];
 
@@ -32,16 +34,16 @@ function InSearchOfHydrothermalLostCities() {
       <Page
         title={
           <img
-            src="/assets/images/in_search_of_hydrothermal_lost_cities/Title.svg"
+            src="/assets/images/expeditions/in_search_of_hydrothermal_lost_cities/Title.svg"
             alt="In Search Of Hydrothermal Lost Cities"
           />
         }
-        header_image="/assets/images/in_search_of_hydrothermal_lost_cities/Header.webp"
-        footer_image="/assets/images/in_search_of_hydrothermal_lost_cities/Footer.webp"
+        header_image="/assets/images/expeditions/in_search_of_hydrothermal_lost_cities/Header.webp"
+        footer_image="/assets/images/expeditions/in_search_of_hydrothermal_lost_cities/Footer.webp"
       >
         <div className="content">
           <SectionWithImage
-            image="/assets/images/in_search_of_hydrothermal_lost_cities/Cruise.webp"
+            image="/assets/images/expeditions/in_search_of_hydrothermal_lost_cities/Cruise.webp"
             alt="Cruise"
           />
           <SectionBrands />
@@ -61,8 +63,8 @@ function InSearchOfHydrothermalLostCities() {
               <li>
                 Demonstrate the effectiveness of using a combination of
                 technologies — such as multibeam sonar from{" "}
-                <span className="italic">Falkor (too)</span> and AUVs — to
-                rapidly locate and characterize hydrothermal vents
+                <em>Falkor (too)</em> and AUVs — to rapidly locate and
+                characterize hydrothermal vents
               </li>
             </ul>
           </div>
@@ -70,11 +72,10 @@ function InSearchOfHydrothermalLostCities() {
             <h3>Resulting highlights:</h3>
             <ul>
               <li>
-                The first research expedition on board R/V{" "}
-                <span className="italic">Falkor (too)</span> found
-                high-temperature hydrothermal vent fields present at all three
-                study areas, including Puy des Folles, which was previously
-                thought to be inactive.{" "}
+                The first research expedition on board R/V <em>Falkor (too)</em>{" "}
+                found high-temperature hydrothermal vent fields present at all
+                three study areas, including Puy des Folles, which was
+                previously thought to be inactive.{" "}
               </li>
               <li>
                 The team discovered a new vent field, nicknamed the Birthday
@@ -91,12 +92,12 @@ function InSearchOfHydrothermalLostCities() {
           <div className="paragraph">
             <p>
               The first scientific expedition of SOI’s new research vessel{" "}
-              <span className="italic">Falkor (too)</span> was a multi-pronged
-              exploration developed to accelerate the discovery and
-              characterization of deep-sea hydrothermal systems, targeting
-              oceanic core complexes at the Mid-Atlantic Ridge, the world's
-              longest underwater mountain range. Oceanic core complexes are
-              locations where mantle rock is exposed to cold seawater.
+              <em>Falkor (too)</em> was a multi-pronged exploration developed to
+              accelerate the discovery and characterization of deep-sea
+              hydrothermal systems, targeting oceanic core complexes at the
+              Mid-Atlantic Ridge, the world's longest underwater mountain range.
+              Oceanic core complexes are locations where mantle rock is exposed
+              to cold seawater.
             </p>
             <div className="paragraph">
               <p>
@@ -126,28 +127,15 @@ function InSearchOfHydrothermalLostCities() {
               The expedition combined the use of Autonomous Underwater Vehicles,
               or AUVs, to produce high-resolution maps of the seafloor,
               Miniature Autonomous Plume Recorders to sense the water column,
-              and ROV <span className="italic">SuBastian</span> to conduct
-              visual surveys and sampling of the seafloor. This nested approach
-              demonstrated the effectiveness of combining technologies to
-              illuminate how the current geologic setting controls hydrothermal
-              chemistry and habitat conditions.
+              and ROV <em>SuBastian</em> to conduct visual surveys and sampling
+              of the seafloor. This nested approach demonstrated the
+              effectiveness of combining technologies to illuminate how the
+              current geologic setting controls hydrothermal chemistry and
+              habitat conditions.
             </p>
           </div>
           <YoutubeVideo videoId="2RSCnSUe6Nc" />
-          <div className="btn-container">
-            <GeneralButton
-              href="#"
-              icon={Prev}
-              iconPosition="left"
-              text="Previous Expedition"
-            />
-            <GeneralButton
-              href="/expeditions/health_diagnosis_of_deep_sea_coral"
-              icon={Next}
-              iconPosition="right"
-              text="Next Expedition"
-            />
-          </div>
+          <ExpeditionsNav/>
         </div>
       </Page>
     </PageContainer>

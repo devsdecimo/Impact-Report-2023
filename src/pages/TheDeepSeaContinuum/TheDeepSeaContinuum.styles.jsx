@@ -19,22 +19,36 @@ export const PageContainer = styled.div`
     margin-top: 2rem;
   }
 
-  .grants_image{
-    width: 45vh;
+  .grants_image {
+    width: 70vw;
     float: left;
   }
 
-  .throught_image{
-    width: 45vh;
+  .throught_image {
+    width: 70vw;
     float: right;
   }
 
-  .strategic_image{
-    width: 45vh;
+  .strategic_image {
+    width: 70vw;
     float: left;
   }
 
-  .content-body{
+  @media (min-width: 768px) {
+    .grants_image {
+      width: 25vw;
+    }
+
+    .throught_image {
+      width: 25vw;
+    }
+
+    .strategic_image {
+      width: 25vw;
+    }
+  }
+
+  .content-body {
     margin-top: 6rem;
   }
 `;

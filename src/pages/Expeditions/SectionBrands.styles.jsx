@@ -11,17 +11,19 @@ export const SectionBrandsContainer = styled.div`
     justify-content: center;
     align-items: center;
     width: 90vw;
-    max-width: 1400px;
     margin: auto;
-    gap: 4rem;
+    gap: 2rem;
+    flex-wrap: wrap;
   }
 
   img {
-    max-height: 200px;
+    max-width: 55%;
     @media (min-width: 1100px) {
-      max-width: 120px;
-      max-height: 4.5vw;
-      width: 100%;
+      max-width: unset;
+      max-height: 2.7vw;
+    }
+    @media (min-width: 1190px) {
+      max-height: 3vw;
     }
   }
 

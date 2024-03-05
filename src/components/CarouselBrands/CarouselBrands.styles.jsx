@@ -79,9 +79,10 @@ export const Dot = styled.span`
   border-radius: 50%;
   width: ${(props) => (props.actived ? "10px" : "5px")};
   height: ${(props) => (props.actived ? "10px" : "5px")};
-  background: ${(props) => (props.actived ? "#5D808F" : "white")};
-  border: 1px solid #5d808f;
+  background: ${(props) => (props.actived ? "#3E5973" : "white")};
+  border: 1px solid #3E5973;
   transition: width 0.3s ease, height 0.3s ease;
+  z-index: 2;
   &:last-child {
     margin-right: 0;
   }
@@ -95,8 +96,7 @@ export const ArrowButton = styled.button`
   border: none;
   cursor: pointer;
   font-size: 3em;
-  color: #5d808f;
-  opacity: 0.5;
+  color: #3E5973;
   z-index: 2;
 
   ${({ direction }) => (direction === "left" ? "left: 2%;" : "right: 2%;")}
@@ -134,7 +134,4 @@ export const ArrowButton = styled.button`
         : "right: calc(20% + 20px);"}
   }
 
-  &:hover {
-    color: #344349;
-  }
 `;

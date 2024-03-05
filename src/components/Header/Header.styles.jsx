@@ -8,14 +8,14 @@ export const HeaderContainer = styled.div`
     position: absolute;
     top: 5%;
     left: 5%;
-    height: 20%;
+    height: 15%;
     z-index: 2;
     cursor: pointer;
 
-    @media (min-width: 830px) {
+    @media (min-width: 768px) {
       top: 6%;
       left: 6%;
-      height: 12%;
+      height: 9%;
     }
   }
 
@@ -38,7 +38,7 @@ export const HeaderContainer = styled.div`
     gap: 2rem;
 
     img {
-        max-width: 60%;
+        max-width: 45%;
     }
   }
 `;

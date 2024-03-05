@@ -50,7 +50,6 @@ function CollectedData() {
 
       <span className="text text-collected">Collected</span>
       <span className="text text-samples">samples and</span>
-      <span className="text text-ampersand">&</span>
       <span className="text text-terabytes">
         Terabytes of data to advance <br className="desktop"/>
         scientific understanding of the <br className="desktop"/>

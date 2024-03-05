@@ -4,19 +4,20 @@ export const ConductedDataContainer = styled.div`
   position: relative;
   display: inline-flex;
   font-weight: 700;
-  min-width: 70vw;
+  width: 70vw;
   min-height: 15vh;
   aspect-ratio: 0.55;
   justify-self: center;
   margin-top: 8rem;
-  @media (min-width: 830px) {
-    min-width: 30vw;
+  @media (min-width: 768px) {
+    width: 30vw;
     aspect-ratio: 2.1;
-    grid-row: 24 / 31;
+    grid-row: 9 / 11;
     grid-column: 1 / 2;
     justify-self: left;
     margin-top: 0;
     margin-left: 10vw;
+    align-self: center;
   }
 
   img {
@@ -28,7 +29,7 @@ export const ConductedDataContainer = styled.div`
     top: 0;
     bottom: 0;
     left: 2%;
-    @media (min-width: 830px) {
+    @media (min-width: 768px) {
       width: 100%;
       top: 0;
       bottom: 0;
@@ -46,7 +47,7 @@ export const ConductedDataContainer = styled.div`
       left: 12%;
       top: -2%;
       background-color: #83caf4;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         width: 42%;
         left: 10%;
         top: -8%;
@@ -59,7 +60,7 @@ export const ConductedDataContainer = styled.div`
       width: 40%;
       top: 1%;
       background-color: #a7e7f6;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         left: 38%;
         width: 30%;
         top: 0%;
@@ -72,7 +73,7 @@ export const ConductedDataContainer = styled.div`
       width: 25%;
       mix-blend-mode: multiply;
       background-color: #3e5973;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         width: 18%;
         top: 30%;
         right: 25.5%;
@@ -86,7 +87,7 @@ export const ConductedDataContainer = styled.div`
       top: 65%;
       mix-blend-mode: multiply;
       background-color: #56a1c8;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         width: 18%;
         right: 23%;
         top: 53%;
@@ -100,7 +101,7 @@ export const ConductedDataContainer = styled.div`
       width: 25%;
       mix-blend-mode: multiply;
       background-color: #84cbf5;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         width: 18%;
         right: 29%;
         top: 83%;
@@ -127,7 +128,7 @@ export const ConductedDataContainer = styled.div`
       left: 2%;
       top: 48%;
       width: 25%;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         font-size: 2.2vw;
         width: 18%;
         top: 30%;
@@ -141,7 +142,7 @@ export const ConductedDataContainer = styled.div`
       left: 2%;
       width: 25%;
       top: 65%;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         font-size: 2.2vw;
         width: 18%;
         top: 53%;
@@ -155,7 +156,7 @@ export const ConductedDataContainer = styled.div`
       left: 2%;
       top: 82%;
       width: 25%;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         font-size: 1.9vw;
         width: 18%;
         right: 29%;
@@ -181,7 +182,7 @@ export const ConductedDataContainer = styled.div`
       top: 38%;
       left: 4%;
       font-weight: 700;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         font-size: 3vw;
         top: 5%;
         left: 35%;
@@ -193,7 +194,7 @@ export const ConductedDataContainer = styled.div`
       font-size: 5.5vw;
       left: 30%;
       top: 53%;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         font-size: 2.1vw;
         right: -4%;
         left: unset;
@@ -206,7 +207,7 @@ export const ConductedDataContainer = styled.div`
       font-size: 5.8vw;
       left: 67%;
       top: 57%;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         font-size: 2.1vw;
         top: 40%;
         right: -11%;
@@ -219,7 +220,7 @@ export const ConductedDataContainer = styled.div`
       top: 64%;
       width: 90%;
       left: 30%;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         font-size: 2.1vw;
         right: -37%;
         left: unset;
@@ -231,7 +232,7 @@ export const ConductedDataContainer = styled.div`
     &-totaling {
       color: #2097d3;
       display: none;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         display: block;
         font-size: 1.5vw;
         right: 49%;
@@ -245,7 +246,7 @@ export const ConductedDataContainer = styled.div`
       top: 83%;
       left: 30%;
       width: 40%;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         display: none;
       }
     }
@@ -253,7 +254,7 @@ export const ConductedDataContainer = styled.div`
     &-hours-desktop {
       color: #2097d3;
       display: none;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         display: block;
         font-size: 1.5vw;
         top: 97%;

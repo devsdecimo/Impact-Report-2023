@@ -1,10 +1,9 @@
 import styled from "styled-components";
 
 export const PageContainer = styled.div`
-  background-image: url("/assets/images/by_the_numbers/Background.webp");
   background-position: center 50%;
   background-size: cover;
-  @media (min-width: 830px) {
+  @media (min-width: 768px) {
     background-position: 50% 45vh;
     row-gap: 0;
   }
@@ -16,7 +15,7 @@ export const PageContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     gap: 30px;
-    @media (min-width: 830px) {
+    @media (min-width: 768px) {
       flex-direction: row;
     }
   }
@@ -25,7 +24,7 @@ export const PageContainer = styled.div`
   }
 
   .CTA {
-    @media (min-width: 830px) {
+    @media (min-width: 768px) {
       align-items: center !important;
     }
   }
@@ -69,21 +68,21 @@ export const PageContainer = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    row-gap: 0.5rem;
+    row-gap: 1.5rem;
     margin: 5rem auto;
     width: 70vw;
+    max-width: 880px;
     flex-wrap: wrap;
     align-items: center;
     flex-direction: column;
+    flex-direction: row;
 
-    @media (min-width: 830px) {
-      width: 60vw;
+    @media (min-width: 870px) {
       flex-direction: row;
+      width: 80vw;
     }
 
-    @media (min-width: 1200px) {
-      width: 45.5vw;
-      max-width: 880px
+    @media (min-width: 768px) {
     }
   }
 

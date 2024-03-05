@@ -12,22 +12,29 @@ html {
 }
 
 body,
-h3 {
-  font-size: 1.5rem;
-}
-
-p, li {
-  line-height: 2;
-  hyphens: auto;
+h3,
+p,
+li {
+  // font-size: 1.5rem;
+  font-size: 1.135rem;
+  line-height: 1.375rem;
+  color: #434343;
 }
 
 h3 {
   margin: 0;
 }
 
-:not(.by-the-numbers) p, h2, h3, li {
+:not(.by-the-numbers) p,
+h2,
+h3,
+li {
   opacity: 0;
   animation: frombottom 1s ease-in-out forwards;
+}
+
+ul {
+  padding-left: 1em;
 }
 
 .no-scroll {
@@ -77,9 +84,22 @@ h3 {
   font-style: italic;
 }
 
+@font-face {
+  font-family: "EBGaramond";
+  src: url("/assets/fonts/EBGaramond-VariableFont_wght.ttf");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "EBGaramond";
+  src: url("/assets/fonts/EBGaramond-Italic-VariableFont_wght.ttf");
+  font-style: italic;
+}
+
 body {
   background: var(--gray);
   font-family: "Garamond", Times, serif;
+  // font-family: "EBGaramond", Times, serif;
   box-sizing: border-box;
   font-weight: normal;
 }
@@ -122,7 +142,8 @@ body {
   font-size: 1.6rem;
   z-index: 10;
   text-align: center;
-  font-family: "Garamond", Times, serif;
+  // font-family: "Garamond", Times, serif;
+  font-family: "EBGaramond", Times, serif;
   max-width: 260px !important;
   min-width: none;
   text-shadow: 1px 1px 10px var(--dark-blue);
@@ -151,14 +172,14 @@ body {
 
 .mobile {
   display: block;
-  @media (min-width: 830px) {
+  @media (min-width: 768px) {
     display: none;
   }
 }
 
 .desktop {
   display: none;
-  @media (min-width: 830px) {
+  @media (min-width: 768px) {
     display: block;
   }
 }

@@ -11,26 +11,18 @@ import Prev from "/assets/images/prev.svg";
 import Next from "/assets/images/next.svg";
 import BubbleImage from "../../../components/BubbleImage/BubbleImage";
 import YoutubeVideo from "../../../components/YoutubeVideo/YouTubeVideo";
+import ExpeditionsNav from "../ExpeditionsNav";
 
 function OctopusOdyssey() {
-  const slidesPath =
-    "/assets/images/expeditions/health_diagnosis_of_deep_sea_coral/carousel/";
+  const slidesPath = "/assets/images/expeditions/octopus_odyssey/carousel/";
   const slides = [
-    { img: `${slidesPath}01-Reef_Solaris.webp`, href: "#", target: "_blank" },
-    {
-      img: `${slidesPath}02-ShipToShoreCallWithUPRMstudents.webp`,
-      href: "#",
-      target: "_blank",
-    },
-    {
-      img: `${slidesPath}03-FirstDeploymentMissionControl.webp`,
-      href: "#",
-      target: "_blank",
-    },
-    { img: `${slidesPath}04-FirstSampleRecovery.webp`, href: "#" },
-    { img: `${slidesPath}05-Light_coral.webp` },
-    { img: `${slidesPath}06-SOLARISIntegrationIntoROV.webp` },
-    { img: `${slidesPath}07-ProcessingSamplesInTheMainLab.webp` },
+    { img: `${slidesPath}01-octoShrimp.webp` },
+    { img: `${slidesPath}02-Sample.webp` },
+    { img: `${slidesPath}03-FirstOctopus.webp` },
+    { img: `${slidesPath}04-FirstOctopus.webp`},
+    { img: `${slidesPath}05-Michel_BroodingWatercolor.webp` },
+    { img: `${slidesPath}06-ROVGlowInWater.webp` },
+    { img: `${slidesPath}07-ROVSampleProcessing.webp` },
   ];
 
   return (
@@ -47,7 +39,8 @@ function OctopusOdyssey() {
       >
         <div className="content">
           <SectionWithImage
-            image="/assets/images/expeditions/health_diagnosis_of_deep_sea_coral/FKt230417.webp"
+            image="/assets/images/expeditions/octopus_odyssey/Cienti1.webp"
+            image2="/assets/images/expeditions/octopus_odyssey/Cienti2.webp"
             alt="Dr. Colleen Hansel"
           />
           <SectionBrands />
@@ -196,20 +189,7 @@ function OctopusOdyssey() {
           </div>
           <YoutubeVideo videoId="U5jo9IhO8NA" />
           <YoutubeVideo videoId="JYMaz6AW7f0" />
-          <div className="btn-container">
-            <GeneralButton
-              href="/expeditions/health_diagnosis_of_deep_sea_coral"
-              icon={Prev}
-              iconPosition="left"
-              text="Previous Expedition"
-            />
-            <GeneralButton
-              href="#"
-              icon={Next}
-              iconPosition="right"
-              text="Next Expedition"
-            />
-          </div>
+          <ExpeditionsNav/>
         </div>
       </Page>
     </PageContainer>

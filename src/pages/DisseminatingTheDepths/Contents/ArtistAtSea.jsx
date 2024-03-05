@@ -16,7 +16,7 @@ function ArtistAtSea({ children }) {
     <>
       <p>
         <BubbleImage image="/assets/images/disseminating_the_depths/ShanHuaArtistAtSea.webp" className="artist-image" direction="up"/>
-        <h3>Disseminating the Depths: Artist-at-Sea</h3>{" "}
+        <h3>Artist-at-Sea</h3>{" "}
         The{" "}
         <a href="https://schmidtocean.org/apply/artist-residency-program/">
           Artist-at-Sea program

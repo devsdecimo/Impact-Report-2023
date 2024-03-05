@@ -15,14 +15,15 @@ export const HomeContainer = styled.div`
   display: flex;
   justify-content: center;
   overflow: hidden;
-  background-attachment: fixed  !important;
+  background-attachment: fixed !important;
   position: relative;
 
-  @media (min-width: 830px) {
+  @media (min-width: 768px) {
     background-size: cover;
   }
 
   &::after {
+    display: none;
     content: "";
     width: 100vw;
     height: 18vh;
@@ -35,7 +36,7 @@ export const HomeContainer = styled.div`
     background-size: 100% 100%;
     opacity: 0.3;
 
-    @media (min-width: 830px) {
+    @media (min-width: 768px) {
       display: grid;
       height: 50vh;
       top: 50%;
@@ -56,7 +57,7 @@ export const HomeContainer = styled.div`
       justify-content: center;
       flex-wrap: wrap;
 
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         display: block;
         position: absolute;
         top: 50%;
@@ -73,15 +74,21 @@ export const HomeContainer = styled.div`
     }
 
     &__main_image {
-      max-width: 100%;
-      max-height: 40vh;
       animation-fill-mode: forwards;
+      max-height: 27vh;
+      margin-top: -24vh;
+      margin-left: 3vh;
+      @media (min-width: 768px) {
+        max-width: 100%;
+        max-height: 70vh;
+        margin-top: 0;
+        margin-left: 0;
+      }
     }
 
-    @media (min-width: 830px) {
+    @media (min-width: 768px) {
       display: grid;
       &__expeditions {
-        max-height: 70vh;
       }
       .expedition_button {
         position: absolute;
@@ -138,15 +145,19 @@ export const HomeContainer = styled.div`
         display: contents;
       }
       &__main_image {
-        max-height: 70vh;
+        max-height: 74vh;
       }
     }
 
     .title {
-      max-width: 20vw;
-      max-height: 45vh;
+      max-width: 25vw;
+      height: 24vh;
       padding: 1rem;
       object-fit: contain;
+      @media (min-width: 768px) {
+        width: 20vw;
+        height: 50vh;
+      }
     }
   }
 
@@ -164,7 +175,7 @@ export const HomeContainer = styled.div`
     animation: move 120s ease-in-out infinite;
     background-size: contain;
 
-    @media (min-width: 830px) {
+    @media (min-width: 768px) {
       display: flex;
     }
   }
@@ -188,7 +199,7 @@ export const HomeContainer = styled.div`
     background: none;
     border: none;
     margin: -1.5rem 0;
-    @media (min-width: 830px) {
+    @media (min-width: 768px) {
       display: none;
     }
   }
@@ -203,7 +214,7 @@ export const HomeContainer = styled.div`
     width: 120vw;
     background-image: url("/assets/images/home/Background.webp");
     background-size: cover;
-    @media (min-width: 830px) {
+    @media (min-width: 768px) {
       display: none;
     }
   }

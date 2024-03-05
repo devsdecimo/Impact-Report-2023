@@ -19,12 +19,12 @@ export const NavMenuContainer = styled.nav`
     background-size: contain;
     cursor: pointer;
     z-index: 4;
-    @media (min-width: 830px) {
+    @media (min-width: 768px) {
       transition: 0.5s;
     }
     &:hover,
     &:focus {
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         transform: scale(1.2);
       }
     }
@@ -36,7 +36,7 @@ export const NavMenuContainer = styled.nav`
       width: 25px;
     }
 
-    @media (min-width: 830px) {
+    @media (min-width: 768px) {
       margin: 4rem;
     }
   }
@@ -51,20 +51,16 @@ export const NavMenuContainer = styled.nav`
     transition-timing-function: linear;
     background: var(--white);
     overflow: hidden;
-    background-color: rgba(255, 255, 255, 0.9);
     display: flex;
     min-height: 100vh;
     opacity: 0;
-    font-size: 1.3rem;
-    line-height: 1.5;
     z-index: 3;
     min-height: 100%;
     overflow: auto;
     padding: 1rem;
 
-    @media (min-width: 830px) {
+    @media (min-width: 768px) {
       transition: 1s;
-      font-size: 1.7vw;
       gap: 1rem;
     }
 
@@ -79,7 +75,7 @@ export const NavMenuContainer = styled.nav`
       height: 80px;
       width: auto;
 
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         height: 7rem;
       }
     }
@@ -87,6 +83,7 @@ export const NavMenuContainer = styled.nav`
     li {
       opacity: 0;
       transition: 0.3s;
+      line-height: 1.5;
 
       a {
         cursor: pointer;
@@ -94,10 +91,13 @@ export const NavMenuContainer = styled.nav`
         text-decoration: none;
         line-height: 1.6;
       }
-
+      @media (min-width: 768px) {
+        font-size: 1.5vw;
+      }
       &:hover {
-        @media (min-width: 830px) {
-          transform: scale(1.1);
+        @media (min-width: 768px) {
+          font-size: 1.6vw;
+          transition: 1s;
         }
       }
     }

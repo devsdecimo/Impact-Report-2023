@@ -15,7 +15,7 @@ function Paragraph({title, subtitle, text, italicWords, namedBy, vessel, vesselA
     // Creamos un array para almacenar las partes y resaltamos las palabras coincidentes
     const elementosResaltados = partes.map((parte, index) => {
       if (palabras.includes(parte.toLowerCase())) {
-        return <span key={index} className="italic">{parte}</span>;
+        return <em key={index}>{parte}</em>;
       }
       return parte;
     });
@@ -31,9 +31,9 @@ function Paragraph({title, subtitle, text, italicWords, namedBy, vessel, vesselA
         <p className="text">{italicWords && italicWords.length>0 ? resaltarPalabras(text, italicWords) : text}</p>
         <p>{title=='Pyrolycus jaco'?'Species named by: '+namedBy:'Species named by: '+namedBy}</p>
         <p>Vessel discovered on: R/V  
-          <span className="italic ml-10">{vessel}</span>
+          <em className="ml-10">{vessel}</em>
           <br/>
-          <span className="italic">{vesselAfterText&&vesselAfterText}</span>
+          <em>{vesselAfterText&&vesselAfterText}</em>
         </p>
         <p>Photo credit: {photo}</p>
     </ParagraphContainer>

@@ -4,19 +4,20 @@ export const SharedDataContainer = styled.div`
   position: relative;
   display: inline-flex;
   font-weight: 700;
-  min-width: 70vw;
+  width: 70vw;
   min-height: 15vh;
   aspect-ratio: 0.4;
   justify-self: center;
   margin-top: 4rem;
-  @media (min-width: 830px) {
-    min-width: 30vw;
-    grid-row: 44 / 50;
+  @media (min-width: 768px) {
+    width: 30vw;
+    grid-row: 14 / 16;
     grid-column: 2 / 3;
     justify-self: right;
     margin-top: 0;
     aspect-ratio: 1.78;
     margin-right: 10vw;
+    align-self: center;
   }
 
   img {
@@ -31,7 +32,7 @@ export const SharedDataContainer = styled.div`
       top: 6%;
       left: 6%;
       width: 57%;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         top: 10%;
         left: -4%;
         width: 45%;
@@ -45,7 +46,7 @@ export const SharedDataContainer = styled.div`
 
       mix-blend-mode: multiply;
       background-color: #a7e7f6;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         left: 28%;
         top: 30%;
         width: 39%;
@@ -54,12 +55,12 @@ export const SharedDataContainer = styled.div`
 
     &-lightblue {
       left: 37%;
-      top: 69%;
+      top: 63%;
       width: 37%;
       mix-blend-mode: multiply;
       background-color: #85ccf6;
-      @media (min-width: 830px) {
-        left: 58%;
+      @media (min-width: 768px) {
+        left: 59%;
         top: 26%;
         width: 21%;
       }
@@ -71,7 +72,7 @@ export const SharedDataContainer = styled.div`
       width: 57%;
       mix-blend-mode: multiply;
       background-color: #83caf4;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         left: 12%;
         top: -10%;
         width: 45%;
@@ -84,7 +85,7 @@ export const SharedDataContainer = styled.div`
       width: 22%;
       mix-blend-mode: multiply;
       background-color: #56a1c8;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         left: 33%;
         top: 15%;
         width: 14%;
@@ -111,7 +112,7 @@ export const SharedDataContainer = styled.div`
       left: 18%;
       top: 44%;
       width: 22%;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         font-size: 2.2vw;
         left: 33%;
         top: 15%;
@@ -122,11 +123,11 @@ export const SharedDataContainer = styled.div`
     &-articles {
       font-size: 8vw;
       left: 37%;
-      top: 69%;
+      top: 63%;
       width: 37%;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         font-size: 1.75vw;
-        left: 58%;
+        left: 59%;
         top: 26%;
         width: 21%;
         span {
@@ -147,7 +148,7 @@ export const SharedDataContainer = styled.div`
     color: #3e5973;
     font-weight: 400;
     font-size: 6vw;
-    @media (min-width: 830px) {
+    @media (min-width: 768px) {
       font-size: 1.4vw;
     }
     &-shared {
@@ -157,7 +158,7 @@ export const SharedDataContainer = styled.div`
       top: 33.5%;
       left: 26.5%;
       font-weight: 600;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         font-size: 2.8vw;
         top: -5%;
         right: 26.5%;
@@ -167,8 +168,8 @@ export const SharedDataContainer = styled.div`
 
     &-through {
       right: 31%;
-      top: 38%;
-      @media (min-width: 830px) {
+      top: 39%;
+      @media (min-width: 768px) {
         top: 1%;
         right: 10%;
         left: unset;
@@ -178,9 +179,9 @@ export const SharedDataContainer = styled.div`
     &-science {
       right: 4%;
       top: 30%;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         right: 25%;
-        top: -13%;
+        top: -17%;
       }
     }
 
@@ -188,7 +189,7 @@ export const SharedDataContainer = styled.div`
       right: 3%;
       top: 44%;
       width: 53%;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         top: 19%;
         right: -1%;
       }
@@ -196,18 +197,18 @@ export const SharedDataContainer = styled.div`
 
     &-more {
       right: 28.5%;
-      top: 63%;
-      @media (min-width: 830px) {
+      top: 58%;
+      @media (min-width: 768px) {
         right: 40%;
         top: 38%;
       }
     }
 
     &-articles {
-      right: 33%;
-      top: 86%;
-      @media (min-width: 830px) {
-        right: 6%;
+      right: 24%;
+      top: 80%;
+      @media (min-width: 768px) {
+        right: -3%;
         top: 38%;
       }
     }
@@ -216,8 +217,8 @@ export const SharedDataContainer = styled.div`
       color: #5d8cab;
       font-size: 10vw;
       right: 39%;
-      top: 54%;
-      @media (min-width: 830px) {
+      top: 52%;
+      @media (min-width: 768px) {
         font-size: 1.9vw;
         top: 21%;
         right: 6%;

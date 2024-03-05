@@ -50,16 +50,16 @@ function ReachedData() {
         <Counter condition={countersStart}>8600</Counter>
       </span>
       <span className="numbers-social numbers">
-        <Counter condition={countersStart}>33</Counter>,<Counter condition={countersStart}>3</Counter>{" "}
+        <Counter condition={countersStart}>33</Counter>.<Counter condition={countersStart}>3</Counter>{" "}
         <span className="million">million</span>
       </span>
       <span className="text text-reached">Reached</span>
       <span className="text text-people">
-        people via presentations & Ship-to-Shores <br className="desktop"/> in both English and
+        people via in-person presentations & Ship-to-Shores <br className="desktop"/> in both English and
         Spanish
       </span>
       <span className="text text-and-more">
-        and <br className="desktop"/> more <br className="desktop"/> than
+        and more than
       </span>
       <span className="text text-social">
         on Facebook <br className="desktop"/> Twitter, <br className="desktop"/> Youtube, <br className="desktop"/>& Instagram

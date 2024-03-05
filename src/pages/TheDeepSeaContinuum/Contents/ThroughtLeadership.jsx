@@ -11,7 +11,7 @@ function ThroughtLeadership({ children }) {
         ></BubbleImage>
         <h3>
           <strong>
-            The Deep Sea Continuum/Thought Leadership: Conference Sponsorship
+            Conference Sponsorship
           </strong>
         </h3>
         Conferences, workshops, and symposia provide a platform for the
@@ -70,7 +70,7 @@ function ThroughtLeadership({ children }) {
       </p>
       <h3>
         <strong>
-          The Deep Sea Continuum/Thought Leadership: NSF Decadal Survey of Ocean
+          NSF Decadal Survey of Ocean
           Science
         </strong>
       </h3>
@@ -99,7 +99,7 @@ function ThroughtLeadership({ children }) {
       </p>
       <h3>
         <strong>
-          The Deep Sea Continuum/Thought Leadership: Pink Flamingo Society
+          Pink Flamingo Society
         </strong>
       </h3>
       <p>
@@ -121,7 +121,7 @@ function ThroughtLeadership({ children }) {
       </p>
       <h3>
         <strong>
-          The Deep Sea Continuum/Thought Leadership: Scientific Ocean Vehicle
+          Scientific Ocean Vehicle
           Alliance
         </strong>
       </h3>
@@ -154,7 +154,7 @@ function ThroughtLeadership({ children }) {
       </p>
       <h3>
         <strong>
-          The Deep Sea Continuum/Thought Leadership: UN Decade of Ocean Science
+          UN Decade of Ocean Science
         </strong>
       </h3>
       <p>
@@ -186,7 +186,7 @@ function ThroughtLeadership({ children }) {
       </p>
       <h3>
         <strong>
-          The Deep Sea Continuum/Thought Leadership: Virtual Symposium
+          Virtual Symposium
         </strong>
       </h3>
       <p>

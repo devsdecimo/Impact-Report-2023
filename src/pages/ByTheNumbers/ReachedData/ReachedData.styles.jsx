@@ -4,18 +4,19 @@ export const ReachedDataContainer = styled.div`
   position: relative;
   display: inline-flex;
   font-weight: 700;
-  min-width: 70vw;
+  width: 70vw;
   min-height: 15vh;
   justify-self: center;
   margin-top: 11rem;
   aspect-ratio: 0.35;
-  @media (min-width: 830px) {
-    min-width: 28vw;
-    grid-row: 40 / 45;
+  @media (min-width: 768px) {
+    width: 28vw;
+    grid-row: 12 / 15;
     grid-column: 1 / 2;
     justify-self: left;
     margin-top: 0;
     aspect-ratio: 1.5;
+    align-self: center;
   }
 
   img {
@@ -26,7 +27,7 @@ export const ReachedDataContainer = styled.div`
     top: 0;
     left: -15%;
     width: 110%;
-    @media (min-width: 830px) {
+    @media (min-width: 768px) {
       width: 90%;
       left: 0;
     }
@@ -43,7 +44,7 @@ export const ReachedDataContainer = styled.div`
       width: 50%;
       mix-blend-mode: multiply;
       background-color: #ebedef;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         top: 5%;
         left: 12%;
         width: 41%;
@@ -56,7 +57,7 @@ export const ReachedDataContainer = styled.div`
       width: 55%;
       mix-blend-mode: multiply;
       background-color: #a7e7f6;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         left: 45%;
         width: 47%;
       }
@@ -67,9 +68,9 @@ export const ReachedDataContainer = styled.div`
       bottom: 17%;
       right: 28%;
       width: 48%;
-      @media (min-width: 830px) {
-        bottom: -2%;
-        right: -33%;
+      @media (min-width: 768px) {
+        bottom: -5%;
+        right: -22%;
         width: 36%;
       }
     }
@@ -80,7 +81,7 @@ export const ReachedDataContainer = styled.div`
       top: 35%;
       left: 31%;
       width: 34%;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         top: 10%;
         left: 82%;
         width: 22%;
@@ -90,7 +91,7 @@ export const ReachedDataContainer = styled.div`
     &-blue {
       left: 13%;
       top: -25%;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         top: -30%;
       }
     }
@@ -111,7 +112,7 @@ export const ReachedDataContainer = styled.div`
       top: 35%;
       left: 31%;
       width: 34%;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         font-size: 2vw;
         top: 10%;
         left: 82%;
@@ -124,10 +125,10 @@ export const ReachedDataContainer = styled.div`
       bottom: 17%;
       right: 28%;
       width: 48%;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         font-size: 1.8vw;
-        bottom: -2%;
-        right: -33%;
+        bottom: -5%;
+        right: -22%;
         width: 36%;
       }
     }
@@ -148,7 +149,7 @@ export const ReachedDataContainer = styled.div`
       font-size: 11.7vw;
       top: 28%;
       left: 10%;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         font-size: 3.1vw;
         top: -10%;
         left: 54%;
@@ -162,9 +163,9 @@ export const ReachedDataContainer = styled.div`
       left: 0%;
       top: 48%;
       text-align: center;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         font-size: 1.3vw;
-        right: -81%;
+        right: -100%;
         top: 17%;
         left: unset;
         text-align: left;
@@ -172,32 +173,33 @@ export const ReachedDataContainer = styled.div`
     }
 
     &-and-more {
-      color: #2097D3;
+      color: #2097d3;
       font-size: 6vw;
       top: 60%;
       left: 0%;
       text-align: center;
       line-height: 1.5;
       font-weight: 400;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         font-size: 1.2vw;
-        right: 6%;
+        right: -17%;
+        top: 42%;
         left: unset;
       }
     }
 
     &-social {
-      color: #2097D3;
+      color: #2097d3;
       font-size: 6vw;
       top: 84%;
       left: 0%;
       text-align: center;
       line-height: 1.5;
       font-weight: 400;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         font-size: 1.2vw;
-        right: -58%;
-        top: 57%;
+        right: -45%;
+        top: 60%;
         left: unset;
         text-align: left;
       }

@@ -2,6 +2,8 @@ import React from "react";
 import { HomeContainer } from "./Home.styles.jsx";
 import ButtonImage from "../../components/ButtonImage/ButtonImage.jsx";
 
+import title from "/assets/images/home/Title.svg";
+
 function Home() {
   return (
     <HomeContainer>
@@ -9,7 +11,7 @@ function Home() {
       <div className="home_content">
         <div className="animatedBG"></div>
         <img
-          src="/assets/images/home/title.webp"
+          src={title}
           className="title"
           alt="2023 Impact Report, The Return of the Luck Dragon"
         ></img>

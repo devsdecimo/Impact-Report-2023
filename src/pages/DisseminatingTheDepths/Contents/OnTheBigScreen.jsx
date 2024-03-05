@@ -6,7 +6,7 @@ function OnTheBigScreen({ children }) {
     <>
      
       <h3>
-        <strong>Disseminating the Depths: On the Big Screen</strong>
+        <strong>On the Big Screen</strong>
       </h3>
       <p>
         SOI&rsquo;s commitment to scientific exploration and marine discovery

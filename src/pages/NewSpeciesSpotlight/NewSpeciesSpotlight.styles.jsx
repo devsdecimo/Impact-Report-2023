@@ -4,7 +4,7 @@ export const PageContainer = styled.div`
   background-image: url("/assets/images/by_the_numbers/Background.webp");
   background-position: center 50%;
   background-size: cover;
-  @media (min-width: 830px) {
+  @media (min-width: 768px) {
     background-position: 50% 45vh;
     row-gap: 0;
   }
@@ -28,9 +28,8 @@ export const PageContainer = styled.div`
     text-align: center;
     font-size: 1.5rem;
 
-    @media (min-width: 830px) {
+    @media (min-width: 768px) {
       max-width: 60%;
-      font-size: 2rem;
     }
   }
 
@@ -38,7 +37,7 @@ export const PageContainer = styled.div`
     display:flex;
     flex-direction:column;
     gap:30px;
-    @media (min-width:830px){
+    @media (min-width:768px){
         flex-direction:row;
     }
   }

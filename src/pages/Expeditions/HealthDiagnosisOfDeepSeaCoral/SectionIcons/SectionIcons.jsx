@@ -1,13 +1,13 @@
 import React from "react";
 import { SectionIconsContainer } from "./SectionIcons.styles";
 import IconWithText from "../../../../components/IconWithText/IconWithText";
-import Auv from "/assets/images/in_search_of_hydrothermal_lost_cities/icons/auv.svg"
-import Casts from "/assets/images/in_search_of_hydrothermal_lost_cities/icons/casts.svg"
-import Days from "/assets/images/in_search_of_hydrothermal_lost_cities/icons/days.svg"
-import Dives from "/assets/images/in_search_of_hydrothermal_lost_cities/icons/dives.svg"
-import Map from "/assets/images/in_search_of_hydrothermal_lost_cities/icons/map.svg"
-import Samples from "/assets/images/in_search_of_hydrothermal_lost_cities/icons/samples.svg"
-import Travel from "/assets/images/in_search_of_hydrothermal_lost_cities/icons/travel.svg"
+import Auv from "/assets/images/icons/auv.svg"
+import Casts from "/assets/images/icons/casts.svg"
+import Days from "/assets/images/icons/days.svg"
+import Dives from "/assets/images/icons/dives.svg"
+import Map from "/assets/images/icons/map.svg"
+import Samples from "/assets/images/icons/samples.svg"
+import Travel from "/assets/images/icons/travel.svg"
 
 
 function SectionIcons() {

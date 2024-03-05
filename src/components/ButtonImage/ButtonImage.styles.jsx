@@ -8,6 +8,7 @@ export const ButtonImageContainer = styled.div`
   justify-content: center;
   position: relative;
   text-align: center;
+  max-width: 40vw;
 
   button {
     overflow: hidden;
@@ -45,16 +46,17 @@ export const ButtonImageContainer = styled.div`
       transition: 0.01s;
     }
 
-    @media (min-width: 830px) {
-      height: 13vh;
-      width: 13vh;
+    @media (min-width: 768px) {
+      height: 16vh;
+      width: 16vh;
       margin: 0;
       img {
-        height: 13vh;
+        height: 16vh;
       }
     }
+    
 
-    @media only screen and (min-width: 830px) and (max-height: 1400px) and (orientation: portrait) {
+    @media only screen and (min-width: 768px) and (max-height: 1400px) and (orientation: portrait) {
       height: 11vw;
       width: 11vw;
       img {
@@ -95,7 +97,7 @@ export const ButtonImageContainer = styled.div`
     width: 11rem;
   }
 
-  @media (min-width: 830px) {
+  @media (min-width: 768px) {
     .expedition_tag_mobile {
       display: none;
     }

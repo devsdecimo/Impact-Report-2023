@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from "react";
-import { SectionBrandsContainer } from "./SectionBrands.styles";
+import { SectionBrandsContainer } from "../../SectionBrands.styles";
 import { Link } from "react-router-dom";
 
 import WHOI from "/assets/images/brands/WHOI.webp";
@@ -7,14 +7,14 @@ import OECI from "/assets/images/brands/OECI.webp"
 import MBARI from "/assets/images/brands/MBARI.webp";
 
 
-import OceanExploration from "/assets/images/brands/ocean-exploration.svg";
-import ASU from "/assets/images/brands/ASU.svg";
-import UVIC from "/assets/images/brands/uvic.svg";
-import Dalhousie from "/assets/images/brands/Dalhousie.svg"
-import UW from "/assets/images/brands/university-of-washington.svg"
-import NASA from "/assets/images/brands/nasa.svg"
-import PMEL from "/assets/images/brands/pmel.svg"
-import PAAaN from "/assets/images/brands/PAAaN.svg"
+import OceanExploration from "/assets/images/brands/ocean-exploration.webp";
+import ASU from "/assets/images/brands/ASU.webp";
+import UVIC from "/assets/images/brands/uvic.webp";
+import Dalhousie from "/assets/images/brands/Dalhousie.webp"
+import UW from "/assets/images/brands/university-of-washington.webp"
+import NASA from "/assets/images/brands/NASA.webp"
+import PMEL from "/assets/images/brands/pmel.webp"
+import PAAaN from "/assets/images/brands/PAAaN.webp"
 import CarouselBrands from "../../../../components/CarouselBrands/CarouselBrands";
 
 

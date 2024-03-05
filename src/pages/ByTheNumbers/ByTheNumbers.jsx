@@ -25,7 +25,6 @@ function ByTheNumbers() {
         footer_image="/assets/images/by_the_numbers/Footer.webp"
         className="by_the_numbers"
       >
-        <span className="separator" />
         <div className="content">
           <ExpeditionsData></ExpeditionsData>
           <TraveledData></TraveledData>

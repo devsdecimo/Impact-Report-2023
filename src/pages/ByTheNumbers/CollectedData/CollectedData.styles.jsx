@@ -4,19 +4,21 @@ export const CollectedDataContainer = styled.div`
   position: relative;
   display: inline-flex;
   font-weight: 700;
-  min-width: 70vw;
+  width: 70vw;
   min-height: 15vh;
   justify-self: center;
   margin-top: 8rem;
   aspect-ratio: 0.55;
-  @media (min-width: 830px) {
-    min-width: 30vw;
-    grid-row: 31 / 38;
+  
+  @media (min-width: 768px) {
+    width: 32vw;
+    grid-row: 10 / 13;
     grid-column: 2 / 3;
     justify-self: right;
     margin-top: 0;
     aspect-ratio: 1.78;
     margin-right: 10vw;
+    align-self: center;
   }
 
   img {
@@ -33,7 +35,7 @@ export const CollectedDataContainer = styled.div`
       top: 5%;
       background-color: #ebedef;
       width: 68%;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         width: 39%;
         left: 14%;
         top: 14%;
@@ -43,7 +45,7 @@ export const CollectedDataContainer = styled.div`
     &-image {
       left: 7%;
       width: 68%;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         width: 39%;
         left: 0;
         top: 0;
@@ -56,7 +58,7 @@ export const CollectedDataContainer = styled.div`
       width: 30%;
       mix-blend-mode: multiply;
       background-color: #84cbf5;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         left: 36%;
         top: 18%;
         width: 17%;
@@ -69,7 +71,7 @@ export const CollectedDataContainer = styled.div`
       width: 30%;
       mix-blend-mode: multiply;
       background-color: #3e5973;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         left: 26%;
         top: 50%;
         width: 17%;
@@ -93,7 +95,7 @@ export const CollectedDataContainer = styled.div`
       left: 8%;
       top: 54%;
       width: 30%;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         font-size: 1.8vw;
         left: 36%;
         top: 18%;
@@ -109,7 +111,7 @@ export const CollectedDataContainer = styled.div`
       span{
         padding-top: 10%;
       }
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         left: 26%;
         top: 50%;
         width: 17%;
@@ -132,7 +134,7 @@ export const CollectedDataContainer = styled.div`
       font-size: 11.7vw;
       top: 44%;
       left: 0;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         font-size: 2.8vw;
         top: -3%;
         right: 6%;
@@ -148,7 +150,7 @@ export const CollectedDataContainer = styled.div`
       top: 72%;
       width: 75%;
       font-weight: 400;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         font-size: 1.3vw;
         right: 2%;
         bottom: 22%;
@@ -165,26 +167,11 @@ export const CollectedDataContainer = styled.div`
       left: 44%;
       top: 59%;
       font-weight: 400;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         font-size: 1.6vw;
         left: unset;
         right: 20%;
         top: 26%;
-      }
-    }
-
-    &-ampersand {
-      color: #5d8cab;
-      font-size: 7vw;
-      position: absolute;
-      left: 44%;
-      top: 65.5%;
-      font-weight: 400;
-      @media (min-width: 830px) {
-        font-size: 1.6vw;
-        right: 14%;
-        top: 30%;
-        left: unset;
       }
     }
   }

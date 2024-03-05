@@ -54,10 +54,15 @@ export const SubMenuContainer = styled.div`
       font-size: 1rem;
     }
 
-    @media (min-width: 830px) {
+    @media (min-width: 768px) {
       li:not(.title) {
         font-size: 1.3vw;
-        font-size: 1v;
+        a {
+          &:hover {
+            font-size: 1.2vw;
+            transition: 1s;
+          }
+        }
       }
       ul {
         gap: 1.25rem;
@@ -68,7 +73,6 @@ export const SubMenuContainer = styled.div`
     @media (min-width: 1800px) {
       li:not(.title) {
         font-size: 1.1vw;
-        font-size: 1v;
       }
       ul {
         gap: 1.25rem;

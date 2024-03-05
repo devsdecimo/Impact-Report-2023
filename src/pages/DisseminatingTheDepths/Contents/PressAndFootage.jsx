@@ -5,7 +5,7 @@ function PressAndFootage({ children }) {
   return (
     <>
       <h3>
-        <strong>Disseminating the Depths: Press and Footage</strong>
+        <strong>Press and Footage</strong>
       </h3>
       <p>
         A year of discoveries led to a plethora of media coverage. SOI published

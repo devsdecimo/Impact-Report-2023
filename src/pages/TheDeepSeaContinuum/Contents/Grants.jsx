@@ -10,7 +10,7 @@ function Grants({ children }) {
           className="grants_image"
         ></BubbleImage>
         <h3>
-          The Deep Sea Continuum/Grants: University of Rhode Island and Lehigh
+          University of Rhode Island and Lehigh
           University
         </h3>{" "}
         Following the{" "}
@@ -33,8 +33,8 @@ function Grants({ children }) {
         unique region. These data analytics grants were the first of their kind
         for SOI, and we hope to offer support for data analysis in the future.
       </p>
-      
-      <h3>The Deep Sea Continuum/Grants: MATE ROV</h3>
+
+      <h3>MATE ROV</h3>
       <p>
         SOI was pleased to continue support to the MATE ROV program in 2023. The
         Schmidt Ocean Coalition provided a one-year grant of $75,000 for
@@ -63,7 +63,7 @@ function Grants({ children }) {
         their students&rsquo; interest in pursuing a STEM career.
       </p>
       <h3>
-        The Deep Sea Continuum/Grants: MTS Oceans Student Poster Competition
+        MTS Oceans Student Poster Competition
       </h3>
       <p>
         For the third consecutive year, SOI supported awards for the MTS/IEEE
@@ -75,25 +75,27 @@ function Grants({ children }) {
         and provides exposure to the international ocean science and engineering
         community. The 2023 awards went to:
       </p>
-      <p>
-        ● First place: Amelia Ritger, University of California Santa Barbara,
-        <em>
-          Developing Low-cost, Simplified, and Open-source Durafet-based pH
-          Instrument Electronics
-        </em>
-      </p>
-      <p>
-        ● Second place: Jard McFadden, Florida Atlantic University,
-        <em>
-          Design and Failure Analysis of Multi-Component Mooring Lines with
-          Non-Linear Polymer Springs for Floating Offshore Wind Turbines
-        </em>
-      </p>
-      <p>
-        ● Third place: Patrick McGuire, Woods Hole Oceanographic Institution,
-        <em>TideRider: A Low-Cost Coastal Profiling Float</em>
-      </p>
-      <h3>The Deep Sea Continuum/Grants: Nautilus Magazine</h3>
+      <ul>
+        <li>
+          First place: Amelia Ritger, University of California Santa Barbara,
+          <em>
+            Developing Low-cost, Simplified, and Open-source Durafet-based pH
+            Instrument Electronics
+          </em>
+        </li>
+        <li>
+          Second place: Jard McFadden, Florida Atlantic University,
+          <em>
+            Design and Failure Analysis of Multi-Component Mooring Lines with
+            Non-Linear Polymer Springs for Floating Offshore Wind Turbines
+          </em>
+        </li>
+        <li>
+          Third place: Patrick McGuire, Woods Hole Oceanographic Institution,
+          <em>TideRider: A Low-Cost Coastal Profiling Float</em>
+        </li>
+      </ul>
+      <h3>Nautilus Magazine</h3>
       <p>
         SOI continued a robust and productive collaboration with{" "}
         <a href="https://nautil.us/">Nautilus Magazine</a> by exhibiting our
@@ -135,7 +137,7 @@ function Grants({ children }) {
         vertical has published 135 articles since its launch in 2020 and has
         received more than two million page views.
       </p>
-      <h3>The Deep Sea Continuum/Grants: National Ocean Sciences Bowl</h3>
+      <h3>National Ocean Sciences Bowl</h3>
       <p>
         The National Ocean Sciences Bowl, or NOSB, took a year hiatus from
         competition in 2023 to establish its new office within the University
@@ -147,7 +149,7 @@ function Grants({ children }) {
         strengthen their experiences with and understanding of marine
         environments, and showcase their knowledge of the Ocean.
       </p>
-      <h3>The Deep Sea Continuum/Grants: Ocean Coalition</h3>
+      <h3>Ocean Coalition</h3>
       <p>
         Since 2020, a coalition of Schmidt entities, including SOI, 11th Hour
         Racing, the Schmidt Family Foundation, and Schmidt Marine Technology
@@ -167,7 +169,7 @@ function Grants({ children }) {
         Black Women in Ecology, Evolution, and Marine Science, MoonJelly, and
         more.
       </p>
-      <h3>The Deep Sea Continuum/Grants: Ocean Keeling Curve</h3>
+      <h3>Ocean Keeling Curve</h3>
       <p>
         SOI continued support for one of the longest-running daily records of
         global atmospheric carbon dioxide concentration, the{" "}
@@ -185,7 +187,7 @@ function Grants({ children }) {
         amount of extracted CO<sub>2</sub> gas and it is now ready to support
         future analyses.
       </p>
-      <p>&nbsp;The Deep Sea Continuum/Grants: Peerside</p>
+      <h3>&nbsp;Peerside</h3>
       <p>
         SOI supports the{" "}
         <a href="https://www.fio.usf.edu/peerside/">
@@ -209,7 +211,7 @@ function Grants({ children }) {
         and educators and celebrates this partnership for working to build a
         robust ocean science workforce.
       </p>
-      <h3>The Deep Sea Continuum/Grants: University of Puerto Rico</h3>
+      <h3>University of Puerto Rico</h3>
       <p>
         During R/V <em>Falkor</em>
         <em>(too)</em>&rsquo;s{" "}
@@ -227,7 +229,7 @@ function Grants({ children }) {
         participated in outreach by drafting blog posts and engaging in social
         media activities.
       </p>
-      <h3>The Deep Sea Continuum/Grants: Local Technology Support</h3>
+      <h3>Local Technology Support</h3>
       <p>
         This year, SOI granted $5,000 to two organizations in the region where
         <em>Falkor (too) </em>teams were working in order to support learning
@@ -240,7 +242,7 @@ function Grants({ children }) {
         community groups and create new opportunities to connect with
         scientists.
       </p>
-      <h3>The Deep Sea Continuum/Grants: World Ocean Observatory</h3>
+      <h3>World Ocean Observatory</h3>
       <p>
         The
         <a href="http://worldoceanexplorer.org/deep-sea-aquarium.html">

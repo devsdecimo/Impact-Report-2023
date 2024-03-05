@@ -51,7 +51,7 @@ function SharedData() {
       <span className="text text-publications">scientific publications</span>
       <span className="text text-ampersand">&</span>
       <span className="text text-more">more than</span>
-      <span className="text text-articles">articles</span>
+      <span className="text text-articles">press articles</span>
       <span className="numbers-publications numbers">
         <Counter condition={countersStart}>27</Counter>
       </span>

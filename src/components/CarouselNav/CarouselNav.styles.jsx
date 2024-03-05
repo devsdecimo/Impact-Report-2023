@@ -1,0 +1,106 @@
+import styled from "styled-components";
+
+export const CarouselNavContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  height: 14em;
+  flex-wrap: nowrap;
+  margin: 2rem 0;
+`;
+
+export const SlidesContainer = styled.div`
+  display: flex;
+  width: calc(150px * ${(props) => props.totalSlides});
+  transition:  ${props=>props.enabledTransition? 'transform 0.2s ease-in-out' : '0s'};
+  transform: translateX(
+    calc(50% - ${(props) => (props.currentIndex + 0.5) * 160}px)
+  );
+  ${props=> props.allVisible && `justify-content:center; width: auto; transform: none;`}
+`;
+
+export const Slide = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+  transition:  ${props=>props.enabledTransition? ' opacity 0.2s ease' : '0s'};
+  opacity: 1;
+  width: 120px;
+
+  .slide-image {
+    border-radius: 100%;
+    border: 0.4rem solid #3e5973;
+    aspect-ratio: 1/1;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    img {
+      width: auto;
+      height: 100%;
+      display: block;
+      object-fit: contain;
+      transition: 1s;
+    }
+  }
+
+  a {
+    display: flex;
+    text-decoration: none;
+    flex-direction: column;
+    row-gap: 0.5rem;
+  }
+
+  .slide-text {
+    text-align: center;
+    color: #3e5973;
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+
+  &:hover {
+    .image-container img {
+    }
+  }
+
+  &.hidden {
+    opacity: 0;
+  }
+
+  &.active {
+    .slide-image {
+      border-width: 0.5rem;
+      border-color: #77a2ca;
+      transform: scale(1.1);
+    }
+
+    .slide-text{
+      color: #77a2ca;
+      font-weight: 900;
+    }
+  }
+`;
+
+export const ArrowButton = styled.button`
+  position: absolute;
+  top: 50%;
+  box-shadow: 0 0 7px var(--white);
+  background-color: transparent;
+  background: rgba(255,255,255,0.8);
+  height: 100%;
+  width: 10%;
+  transform: translateY(-50%);
+  border: none;
+  cursor: pointer;
+  font-size: 3em;
+  color: #3e5973;
+  z-index: 2;
+
+
+    ${({ direction }) => (direction === "left" ? "left: 0%;" : "right: 0%;")}
+`;

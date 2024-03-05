@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from "react";
-import { SectionBrandsContainer } from "./SectionBrands.styles";
+import { SectionBrandsContainer } from "../../SectionBrands.styles";
 import { Link } from "react-router-dom";
 
 import WHOI from "/assets/images/brands/WHOI.webp";
@@ -18,7 +18,7 @@ function SectionBrands({image,alt}) {
       { img: WHOI, href: 'https://www.whoi.edu/', target: '_blank' , alt:'Woods Hole Oceanographic Institution'},
       { img: LehighU, href: 'https://www2.lehigh.edu/', target: '_blank' , alt:'Lehigh University'},
       { img: UPR, href: 'https://www.uprm.edu/', target: '_blank' , alt:'University of Puerto Rico'},
-      { img: SI, href: 'https://www.uvic.ca/', target: '_blank' , alt:'Smithsonian Institute'},
+      { img: SI, href: 'https://www.si.edu/', target: '_blank' , alt:'Smithsonian Institute'},
     ])
   }, []);
 

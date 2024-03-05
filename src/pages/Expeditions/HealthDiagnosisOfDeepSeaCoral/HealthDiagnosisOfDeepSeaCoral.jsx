@@ -11,14 +11,15 @@ import Prev from "/assets/images/prev.svg";
 import Next from "/assets/images/next.svg";
 import BubbleImage from "../../../components/BubbleImage/BubbleImage";
 import YoutubeVideo from "../../../components/YoutubeVideo/YouTubeVideo";
+import ExpeditionsNav from "../ExpeditionsNav";
 
 function HealthDiagnosisOfDeepSeaCoral() {
   const slidesPath = "/assets/images/expeditions/health_diagnosis_of_deep_sea_coral/carousel/"
   const slides = [
-    { img:  `${slidesPath}01-Reef_Solaris.webp`, href: "#", target: "_blank" },
-    { img:  `${slidesPath}02-ShipToShoreCallWithUPRMstudents.webp`, href: "#", target: "_blank" },
-    { img:  `${slidesPath}03-FirstDeploymentMissionControl.webp`, href: "#", target: "_blank" },
-    { img:  `${slidesPath}04-FirstSampleRecovery.webp`, href: "#" },
+    { img:  `${slidesPath}01-Reef_Solaris.webp`},
+    { img:  `${slidesPath}02-ShipToShoreCallWithUPRMstudents.webp`},
+    { img:  `${slidesPath}03-FirstDeploymentMissionControl.webp` },
+    { img:  `${slidesPath}04-FirstSampleRecovery.webp` },
     { img:  `${slidesPath}05-Light_coral.webp` },
     { img:  `${slidesPath}06-SOLARISIntegrationIntoROV.webp` },
     { img:  `${slidesPath}07-ProcessingSamplesInTheMainLab.webp` },
@@ -141,20 +142,7 @@ function HealthDiagnosisOfDeepSeaCoral() {
             </p>
           </div>
           <YoutubeVideo videoId="L7UwooHRrL0" />
-          <div className="btn-container">
-            <GeneralButton
-              href="/expeditions/in_search_of_hydrothermal_lost_cities"
-              icon={Prev}
-              iconPosition="left"
-              text="Previous Expedition"
-            />
-            <GeneralButton
-              href="/expeditions/octopus_odyssey"
-              icon={Next}
-              iconPosition="right"
-              text="Next Expedition"
-            />
-          </div>
+          <ExpeditionsNav/>
         </div>
       </Page>
     </PageContainer>

@@ -4,18 +4,15 @@ import BubbleImage from "../../../components/BubbleImage/BubbleImage";
 function StrategicPartnerships({ children }) {
   return (
     <>
+      <h3>
+        <strong>All-Atlantic Floating University</strong>
+      </h3>
       <p>
         <BubbleImage
           image="/assets/images/the_deep_sea_continuum/JoseSpanishHourDiveStream.webp"
           className="strategic_image"
           direction="up"
         ></BubbleImage>
-        <h3>
-          <strong>
-            The Deep Sea Continuum/Strategic Partnerships: All-Atlantic Floating
-            University
-          </strong>
-        </h3>
         Training at sea is critical for preparing new generations of early
         career ocean professionals and SOI offers multiple at-sea operations
         opportunities targeting academic and maritime sectors. To strengthen and
@@ -28,10 +25,7 @@ function StrategicPartnerships({ children }) {
         through this network when operating in Atlantic waters.
       </p>
       <h3>
-        <strong>
-          The Deep Sea Continuum/Strategic Partnerships: National Geographic
-          Society
-        </strong>
+        <strong>National Geographic Society</strong>
       </h3>
       <p>
         SOI and National Geographic Society celebrated bringing the first
@@ -66,10 +60,7 @@ function StrategicPartnerships({ children }) {
         Colombia.
       </p>
       <h3>
-        <strong>
-          The Deep Sea Continuum/Strategic Partnerships: Ocean Biodiversity
-          Virtual Institute (OBVI)
-        </strong>
+        <strong>Ocean Biodiversity Virtual Institute (OBVI)</strong>
       </h3>
       <p>
         To accelerate society&rsquo;s response to climate change, SOI is
@@ -97,9 +88,7 @@ function StrategicPartnerships({ children }) {
         of carbon in the Ocean and the resilience of marine ecosystems.
       </p>
       <h3>
-        <strong>
-          The Deep Sea Continuum/Strategic Partnerships: Ocean Census
-        </strong>
+        <strong>Ocean Census</strong>
       </h3>
       <p>
         Only 10% of ocean life has been discovered. This year, a new
@@ -124,9 +113,7 @@ function StrategicPartnerships({ children }) {
         <em>Falkor (too) </em>to support this ambitious effort.
       </p>
       <h3>
-        <strong>
-          The Deep Sea Continuum/Strategic Partnerships: Ocean Rising
-        </strong>
+        <strong>Ocean Rising</strong>
       </h3>
       <p>
         Popular culture challenges and drives how people interact with the world
@@ -169,9 +156,7 @@ function StrategicPartnerships({ children }) {
         experience.
       </p>
       <h3>
-        <strong>
-          The Deep Sea Continuum/Strategic Partnerships: Seabed 2030{" "}
-        </strong>
+        <strong>Seabed 2030 </strong>
       </h3>
       <p>
         Since 2019, SOI has played a substantial role as a partner in the{" "}

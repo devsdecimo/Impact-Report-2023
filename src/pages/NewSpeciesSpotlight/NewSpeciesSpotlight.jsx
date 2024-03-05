@@ -22,7 +22,7 @@ function NewSpeciesSpotlight() {
         <p>
         These are species that were discovered to be new to science on 
           <br></br>
-        R/V <span className="italic">Falkor</span> and were scientifically described in publications this year.
+        R/V <em>Falkor</em> and were scientifically described in publications this year.
         </p>
       </div>
       <div className="content">

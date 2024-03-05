@@ -11,7 +11,7 @@ export const YoutubeVideoContainer = styled.div`
     max-width: 768px;
     aspect-ratio: 16 / 9;
     border: none;
-    @media (min-width: 830px) {
+    @media (min-width: 768px) {
       width: 40vw;
     }
   }

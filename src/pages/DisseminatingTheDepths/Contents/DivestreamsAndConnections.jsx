@@ -6,7 +6,7 @@ function DivestreamsAndConnections({ children }) {
     <>
       <p>
         <h3>
-          <strong>Disseminating the Depths: Divestreams and Connections</strong>
+          <strong>Divestreams and Connections</strong>
         </h3>
         During <em>Falkor (too)&rsquo;s </em>inaugural year<em>, </em>SOI made
         significant improvements to two popular ship-based outreach initiatives:

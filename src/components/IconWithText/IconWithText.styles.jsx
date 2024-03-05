@@ -5,7 +5,8 @@ export const IconWithTextContainer = styled.div`
   color: #3E5973;
   cursor: ${(props) => (props.href ? 'pointer' : 'default')};
   display: flex;
-  font-family: 'Adobe Garamond Pro', serif;
+  font-family: 'Garamond', serif;
+  /* font-family: 'EBGaramond', serif; */
   font-style: normal;
   font-weight: 400;
   opacity: ${(props) => props.opacity || 1};

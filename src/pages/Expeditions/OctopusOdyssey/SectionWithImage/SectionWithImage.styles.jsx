@@ -83,7 +83,7 @@ export const SectionWithImageContainer = styled.div`
     justify-content: start;
     align-items: center;
 
-    @media (min-width: 830px) {
+    @media (min-width: 768px) {
       min-width: 360px;
       align-items: start;
     }

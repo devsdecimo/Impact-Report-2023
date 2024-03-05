@@ -16,8 +16,8 @@ function DisseminatingTheDepths({ children }) {
             alt="Disseminating the Depths"
           />
         }
-        header_image="/assets/images/the_deep_sea_continuum/Header.webp"
-        footer_image="/assets/images/the_deep_sea_continuum/Footer.webp"
+        header_image="/assets/images/disseminating_the_depths/Header.webp"
+        footer_image="/assets/images/disseminating_the_depths/Footer.webp"
       >
         <div className="content-body">
           <Outlet />

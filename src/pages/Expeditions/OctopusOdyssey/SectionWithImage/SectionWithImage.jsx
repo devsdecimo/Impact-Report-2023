@@ -1,21 +1,18 @@
 import React from "react";
 import { SectionWithImageContainer } from "./SectionWithImage.styles";
 import IconWithText from "../../../../components/IconWithText/IconWithText";
-import Pin from "/assets/images/in_search_of_hydrothermal_lost_cities/icons/pin.svg"
-import Flag from "/assets/images/in_search_of_hydrothermal_lost_cities/icons/flag.svg"
-import Discovered from "/assets/images/in_search_of_hydrothermal_lost_cities/icons/discovered.svg"
+import Pin from "/assets/images/icons/pin.svg"
+import Flag from "/assets/images/icons/flag.svg"
+import Discovered from "/assets/images/icons/discovered.svg"
+import BubbleImage from "../../../../components/BubbleImage/BubbleImage";
 
 
 
-function SectionWithImage({image,alt}) {
+function SectionWithImage({image, image2 ,alt}) {
   return (
     <SectionWithImageContainer>
         <div className="d-flex">
-            <div className="image-container">
-                <img className="pos-absolute" src={image} alt={alt} />
-                <div className="circle1"></div>
-                <div className="circle2"></div>
-            </div>
+            <BubbleImage type={5} image={image} image2={image2}/>
             <div className="text-container">
                 <h2 className="title">
                     <span>FKt230602 & FKt231202</span>
@@ -26,19 +23,19 @@ function SectionWithImage({image,alt}) {
                 <IconWithText  
                     className={'CTA'} 
                     icon={Pin} 
-                    text={"San Juan, Puerto Rico"} 
+                    text={"Costa Rica"} 
                     opacity={1}
                 />
-                {/* <IconWithText  
+                <IconWithText  
                     className={'CTA'} 
                     icon={Flag} 
-                    text={"Mid-Atlantic Ridge"} 
+                    text={"Dorado Outcrop"} 
                     opacity={1}
-                /> */}
+                />
                 <IconWithText  
                     className={'CTA'} 
                     icon={Discovered} 
-                    text={"Dr. Colleen Hansel"} 
+                    text={"Drs. Beth Orcutt and Jorge Cortés"} 
                     opacity={1}
                 />
                 </div>

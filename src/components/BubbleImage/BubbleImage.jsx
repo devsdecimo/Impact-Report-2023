@@ -5,6 +5,7 @@ import "tippy.js/dist/tippy.css";
 
 function BubbleImage({
   image,
+  image2,
   alt,
   direction = "down",
   className,
@@ -43,15 +44,14 @@ function BubbleImage({
       direction={direction}
       orientation={orientation}
     >
-      {type === 1 ||
-        (type === 3 && (
-          <>
-            <span className="circle circle-1"></span>
-            <span className="circle circle-2"></span>
-            <span className="circle circle-3"></span>
-            <img src={image} className="circle circle-image" alt={alt} />
-          </>
-        ))}
+      {(type === 1 || type === 3) && (
+        <>
+          <span className="circle circle-1"></span>
+          <span className="circle circle-2"></span>
+          <span className="circle circle-3"></span>
+          <img src={image} className="circle circle-image" alt={alt} />
+        </>
+      )}
 
       {type === 2 && (
         <>
@@ -66,6 +66,18 @@ function BubbleImage({
           <img className="image" src={image} alt={alt} />
           <div className="circle circle-1"></div>
           <div className="circle circle-2"></div>
+        </>
+      )}
+
+      {type === 5 && (
+        <>
+          
+          <div className="circle circle-1"></div>
+          <div className="circle circle-2"></div>
+          <div className="circle circle-3"></div>
+          <img className="image image-2" src={image2} alt={alt} />
+          <div className="circle circle-4"></div>
+          <img className="image image-1" src={image} alt={alt} />
         </>
       )}
     </BubbleImageContainer>

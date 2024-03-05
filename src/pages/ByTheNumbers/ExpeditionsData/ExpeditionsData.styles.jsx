@@ -4,18 +4,19 @@ export const ExpeditionsDataContainer = styled.div`
   position: relative;
   display: inline-flex;
   font-weight: 700;
-  min-width: 70vw;
+  width: 70vw;
   min-height: 15vh;
   justify-self: center;
   aspect-ratio: 0.9;
 
-  @media (min-width: 830px) {
-    min-width: 35vw;
+  @media (min-width: 768px) {
+    width: 35vw;
     aspect-ratio: 2.1;
-    grid-row: 1 / 5;
+    grid-row: 2 / 4;
     grid-column: 1 / 2;
     justify-self: left;
     margin-left: 10vw;
+    align-self: center;
   }
 
   img {
@@ -32,7 +33,7 @@ export const ExpeditionsDataContainer = styled.div`
       top: 5%;
       bottom: 0;
       right: 10%;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         width: 44%;
         top: 0;
         right: unset;
@@ -46,7 +47,7 @@ export const ExpeditionsDataContainer = styled.div`
       left: 2%;
       mix-blend-mode: multiply;
       background-color: #eeeeee;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         width: 44%;
         top: -9%;
         left: -5%;
@@ -59,7 +60,7 @@ export const ExpeditionsDataContainer = styled.div`
       top: 85%;
       background-color: #3e5973;
       mix-blend-mode: multiply;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         left: unset;
         right: 40%;
         top: 9%;
@@ -72,7 +73,7 @@ export const ExpeditionsDataContainer = styled.div`
       top: 70%;
       background-color: #56a1c8;
       mix-blend-mode: multiply;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         left: 13%;
         top: -30%;
       }
@@ -92,12 +93,12 @@ export const ExpeditionsDataContainer = styled.div`
     span {
       margin-top: 10%;
     }
-    
+
     &-expeditions {
       font-size: 10vw;
       left: 2%;
       top: 70%;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         font-size: 6vw;
         left: 13%;
         top: -30%;
@@ -109,7 +110,7 @@ export const ExpeditionsDataContainer = styled.div`
       left: 10%;
       top: 85%;
       transform: translateY(-50%);
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         font-size: 2.8vw;
         left: unset;
         right: 40%;
@@ -132,7 +133,7 @@ export const ExpeditionsDataContainer = styled.div`
       text-transform: uppercase;
       top: 75%;
       left: 28%;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         top: -24%;
         left: 36%;
         font-size: 3.1vw;
@@ -146,7 +147,7 @@ export const ExpeditionsDataContainer = styled.div`
       top: 88.5%;
       transform: translateY(-50%);
       font-weight: 400;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         font-size: 2.2vw;
         left: unset;
         right: 1%;

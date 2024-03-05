@@ -127,7 +127,7 @@ export const BubbleImageContainer = styled.span`
         background-color: #80aed8;
         mix-blend-mode: multiply;
         opacity: 0.5;
-        border-radius: 50%;
+        border-radius: 100%;
         position: absolute;
         z-index: 1;
         top: 0;
@@ -140,7 +140,7 @@ export const BubbleImageContainer = styled.span`
         background-color: #80aed8;
         mix-blend-mode: multiply;
         opacity: 0.8;
-        border-radius: 50%;
+        border-radius: 100%;
         position: absolute;
         z-index: 1;
         top: 100px;
@@ -199,7 +199,7 @@ export const BubbleImageContainer = styled.span`
         height: 200px;
         background-color: #b7cee3;
         mix-blend-mode: multiply;
-        border-radius: 50%;
+        border-radius: 100%;
         position: absolute;
         top: 0;
         right: 0;
@@ -209,7 +209,7 @@ export const BubbleImageContainer = styled.span`
         height: 170px;
         background-color: #d8e1e9;
         mix-blend-mode: multiply;
-        border-radius: 50%;
+        border-radius: 100%;
         position: absolute;
         top: -1rem;
         right: 100px;
@@ -219,7 +219,7 @@ export const BubbleImageContainer = styled.span`
         height: 330px;
         background-color: #8ab4d9;
         mix-blend-mode: multiply;
-        border-radius: 50%;
+        border-radius: 100%;
         position: absolute;
         top: 30px;
         left: 0;
@@ -271,7 +271,7 @@ export const BubbleImageContainer = styled.span`
         height: 180px;
         background-color: #80aed8;
         mix-blend-mode: multiply;
-        border-radius: 50%;
+        border-radius: 100%;
         position: absolute;
         z-index: 1;
         top: 0;
@@ -282,7 +282,7 @@ export const BubbleImageContainer = styled.span`
         height: 120px;
         background-color: #a3cadb;
         mix-blend-mode: multiply;
-        border-radius: 50%;
+        border-radius: 100%;
         position: absolute;
         z-index: 1;
         top: 100px;
@@ -302,6 +302,113 @@ export const BubbleImageContainer = styled.span`
       .image {
         animation-delay: 0.75s;
       }
+    }
+  }
+
+  &.type-5 {
+    display: flex;
+    position: relative;
+    height: 250px;
+    width: 230px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    @media (min-width: 829px) {
+      width: 15vw;
+      height: auto;
+      aspect-ratio: 7 / 7;
+    }
+
+    .image-1 {
+      position: absolute;
+      width: 75%;
+      height: auto;
+      bottom: 0;
+      right: 0;
+    }
+
+    .image-2 {
+      position: absolute;
+      width: 54%;
+      height: auto;
+      top: 0;
+      left: 0;
+    }
+
+    .circle {
+      &-1 {
+        width: 17%;
+        aspect-ratio: 1 / 1;
+        background-color: #80aed8;
+        mix-blend-mode: multiply;
+        border-radius: 100%;
+        position: absolute;
+        top: 38%;
+        left: -1%;
+      }
+      &-2 {
+        width: 30%;
+        aspect-ratio: 1 / 1;
+        background-color: #5d808f;
+        mix-blend-mode: multiply;
+        border-radius: 100%;
+        position: absolute;
+        top: 49%;
+        left: 7%;
+      }
+      &-3 {
+        width: 53%;
+        aspect-ratio: 1 / 1;
+        background-color: #a3cadb;
+        mix-blend-mode: multiply;
+        border-radius: 100%;
+        position: absolute;
+        top: 9%;
+        left: 5%;
+      }
+      &-4 {
+        width: 67%;
+        aspect-ratio: 1 / 1;
+        background-color: #80aed8;
+        border-radius: 100%;
+        position: absolute;
+        bottom: -1%;
+        right: 2%;
+      }
+    }
+
+    &.animated {
+      .circle:not(.circle-4),
+      .image {
+        animation: fade-in 1s ease-in-out;
+        animation-fill-mode: forwards;
+      }
+      .circle-2 {
+        animation-delay: 0.1875s;
+      }
+      .circle-3 {
+        animation-delay: 0.25s;
+      }
+      .circle-4 {
+        animation: fadein60 1s ease-in-out;
+        animation-fill-mode: forwards;
+        animation-delay: 0.375s;
+        opacity: 0.6;
+      }
+      .image {
+        animation-delay: 0.75s;
+      }
+    }
+  }
+
+  @keyframes fadein60 {
+    0% {
+      opacity: 0;
+      transform: scale(0);
+    }
+
+    100% {
+      opacity: 0.6;
+      transform: scale(1);
     }
   }
 `;

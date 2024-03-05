@@ -8,7 +8,7 @@ export const CarouselContainer = styled.div`
   width: 100%;
   aspect-ratio: 7 / 4;
 
-  @media (min-width: 830px) {
+  @media (min-width: 768px) {
     aspect-ratio: 14 / 5;
   }
 `;
@@ -21,7 +21,7 @@ export const Slide = styled.div`
   transform: translateY(-50%) translateX(-50%);
   opacity: 0.7;
 
-  @media (min-width: 830px) {
+  @media (min-width: 768px) {
     min-width: 33.333%;
   }
 
@@ -71,7 +71,7 @@ export const Slide = styled.div`
   &.next,
   &.center + &.next {
     display: flex;
-    @media (max-width: 830px) {
+    @media (max-width: 768px) {
       opacity: 0;
     }
   }
@@ -102,9 +102,10 @@ export const Dot = styled.span`
   border-radius: 50%;
   width: 5px;
   height: 5px;
-  background: ${(props) => (props.actived ? "#5D808F" : "transparent")};
-  border: 2px solid #5d808f;
+  background: ${(props) => (props.actived ? "#3E5973" : "transparent")};
+  border: 2px solid #3E5973;
   transition: width 0.3s ease, height 0.3s ease;
+  z-index: 2;
   &:last-child {
     margin-right: 0;
   }
@@ -118,8 +119,7 @@ export const ArrowButton = styled.button`
   border: none;
   cursor: pointer;
   font-size: 1.5em;
-  opacity: 0.5;
-  color: #5d808f;
+  color: #3E5973;
   z-index: 2;
 
   ${({ direction }) => (direction === "left" ? "left: -2%;" : "right: -2%;")}
@@ -129,7 +129,4 @@ export const ArrowButton = styled.button`
     ${({ direction }) => (direction === "left" ? "left: 1%;" : "right: 1%;")}
   }
 
-  &:hover {
-    color: #344349;
-  }
 `;

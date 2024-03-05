@@ -4,19 +4,20 @@ export const TraveledDataContainer = styled.div`
   position: relative;
   display: inline-flex;
   font-weight: 700;
-  min-width: 70vw;
+  width: 70vw;
   min-height: 15vh;
   aspect-ratio: 0.55;
   justify-self: center;
   margin-top: 8rem;
-  @media (min-width: 830px) {
-    min-width: 35vw;
+  @media (min-width: 768px) {
+    width: 35vw;
     aspect-ratio: 2.2;
-    grid-row: 4 / 8;
+    grid-row: 3 / 5;
     grid-column: 2 / 3;
     justify-self: right;
     margin-top: 0;
     margin-right: 10vw;
+    align-self: center;
   }
 
   .circle {
@@ -29,7 +30,7 @@ export const TraveledDataContainer = styled.div`
       top: -1%;
       right: -1%;
       background-color: #a7e7f6;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         width: 46%;
         right: 20%;
       }
@@ -41,7 +42,7 @@ export const TraveledDataContainer = styled.div`
       width: 21%;
       top: 84%;
       left: 11%;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         width: 11%;
         left: unset;
         right: 11%;
@@ -55,7 +56,7 @@ export const TraveledDataContainer = styled.div`
       left: 36%;
       background-color: #56a1c8;
       mix-blend-mode: multiply;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         width: 11%;
         left: unset;
         right: 16%;
@@ -69,7 +70,7 @@ export const TraveledDataContainer = styled.div`
     top: -8%;
     right: -25%;
     width: 140%;
-    @media (min-width: 830px) {
+    @media (min-width: 768px) {
       right: 1%;
       top: -24%;
       width: 113%;
@@ -92,7 +93,7 @@ export const TraveledDataContainer = styled.div`
       margin-top: 10%;
     }
 
-    @media (min-width: 830px) {
+    @media (min-width: 768px) {
       width: 11%;
       font-size: 2.4vw;
     }
@@ -100,7 +101,7 @@ export const TraveledDataContainer = styled.div`
     &-countries {
       top: 72%;
       left: 36%;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         width: 11%;
         left: unset;
         right: 16%;
@@ -112,7 +113,7 @@ export const TraveledDataContainer = styled.div`
       width: 21%;
       top: 84%;
       left: 11%;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         width: 11%;
         left: unset;
         right: 11%;
@@ -137,7 +138,7 @@ export const TraveledDataContainer = styled.div`
       top: 52%;
       left: 1%;
       font-weight: 800;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         font-size: 3.4vw;
         top: -16%;
         left: 47%;
@@ -152,7 +153,7 @@ export const TraveledDataContainer = styled.div`
       top: 62%;
       left: 16%;
 
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         font-size: 2.45vw;
         top: 2%;
         right: 3%;
@@ -165,7 +166,7 @@ export const TraveledDataContainer = styled.div`
       font-size: 7vw;
       left: 5%;
       top: 74%;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         font-size: 1.6vw;
         left: unset;
         right: 28%;
@@ -178,7 +179,7 @@ export const TraveledDataContainer = styled.div`
       font-size: 7vw;
       left: 59.5%;
       top: 74%;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         font-size: 1.6vw;
         right: -2%;
         left: unset;
@@ -191,7 +192,7 @@ export const TraveledDataContainer = styled.div`
       font-size: 7vw;
       left: 0%;
       top: 87%;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         font-size: 2.6vw;
         right: 23%;
         left: unset;
@@ -204,7 +205,7 @@ export const TraveledDataContainer = styled.div`
       font-size: 7vw;
       left: 36%;
       top: 84%;
-      @media (min-width: 830px) {
+      @media (min-width: 768px) {
         font-size: 1.5vw;
         right: -17%;
         left: unset;
@@ -237,7 +238,7 @@ export const TraveledDataContainer = styled.div`
     align-items: center;
     gap: 0.8rem;
 
-    @media (min-width: 830px) {
+    @media (min-width: 768px) {
       font-size: 1.1vw;
       bottom: -30%;
       width: 15%;
@@ -284,7 +285,7 @@ export const TraveledDataContainer = styled.div`
       left: 85%;
     }
 
-    @media (min-width: 830px) {
+    @media (min-width: 768px) {
       &-spain {
         left: 0%;
       }
