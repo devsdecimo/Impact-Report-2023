@@ -14,11 +14,13 @@ export const CarouselNavContainer = styled.div`
 export const SlidesContainer = styled.div`
   display: flex;
   width: calc(150px * ${(props) => props.totalSlides});
-  transition:  ${props=>props.enabledTransition? 'transform 0.2s ease-in-out' : '0s'};
+  transition: ${(props) =>
+    props.enabledTransition ? "transform 0.2s ease-in-out" : "0s"};
   transform: translateX(
     calc(50% - ${(props) => (props.currentIndex + 0.5) * 160}px)
   );
-  ${props=> props.allVisible && `justify-content:center; width: auto; transform: none;`}
+  ${(props) =>
+    props.allVisible && `justify-content:center; width: auto; transform: none;`}
 `;
 
 export const Slide = styled.div`
@@ -26,7 +28,8 @@ export const Slide = styled.div`
   flex-direction: column;
   align-items: center;
   margin: 0 20px;
-  transition:  ${props=>props.enabledTransition? ' opacity 0.2s ease' : '0s'};
+  transition: ${(props) =>
+    props.enabledTransition ? " opacity 0.2s ease" : "0s"};
   opacity: 1;
   width: 120px;
 
@@ -61,6 +64,7 @@ export const Slide = styled.div`
     color: #3e5973;
     font-weight: 600;
     font-size: 1.2rem;
+    padding-top: 0.4rem;
   }
 
   &:hover {
@@ -79,7 +83,7 @@ export const Slide = styled.div`
       transform: scale(1.1);
     }
 
-    .slide-text{
+    .slide-text {
       color: #77a2ca;
       font-weight: 900;
     }
@@ -89,11 +93,11 @@ export const Slide = styled.div`
 export const ArrowButton = styled.button`
   position: absolute;
   top: 50%;
-  box-shadow: 0 0 7px var(--white);
+  box-shadow: 0 0 7px rgba(238, 238, 238, 1);
   background-color: transparent;
-  background: rgba(255,255,255,0.8);
+  background: rgba(238, 238, 238, 0.8);
   height: 100%;
-  width: 10%;
+  width:30%;
   transform: translateY(-50%);
   border: none;
   cursor: pointer;
@@ -101,6 +105,9 @@ export const ArrowButton = styled.button`
   color: #3e5973;
   z-index: 2;
 
+  @media (min-width: 400px) {
+    width: 10%;
+  }
 
-    ${({ direction }) => (direction === "left" ? "left: 0%;" : "right: 0%;")}
+  ${({ direction }) => (direction === "left" ? "left: 0%;" : "right: 0%;")}
 `;

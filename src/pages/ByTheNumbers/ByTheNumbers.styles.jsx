@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const PageContainer = styled.div`
+  font-family: "Garamond", Times, serif;
   background-position: center 50%;
   background-size: cover;
   @media (min-width: 768px) {

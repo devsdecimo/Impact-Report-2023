@@ -29,7 +29,8 @@ export const PageContainer = styled.div`
     font-size: 1.5rem;
 
     @media (min-width: 768px) {
-      max-width: 60%;
+      width: 60%;
+      max-width: 1000px;
     }
   }
 

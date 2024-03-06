@@ -14,9 +14,9 @@ function CarouselNav({
   delay = 5000,
 }) {
   const extendedSlides = [
-    ...slides.slice(-2),
+    ...slides.slice(-slides.length),
     ...slides,
-    ...slides.slice(0, 2),
+    ...slides.slice(0, slides.length),
   ];
   const [currentIndex, setCurrentIndex] = useState(2);
   const [isDragging, setIsDragging] = useState(false);
@@ -33,7 +33,7 @@ function CarouselNav({
     setEnabledPrevNext(false);
     setCurrentIndex((prevIndex) => {
       const newIndex = prevIndex + 1;
-      if (newIndex >= extendedSlides.length - 2) {
+      if (newIndex >= extendedSlides.length - slides.length) {
         setTimeout(() => {
           setTransitionEnabled(false);
           setCurrentIndex(2);
@@ -55,7 +55,7 @@ function CarouselNav({
       if (newIndex < 2) {
         setTimeout(() => {
           setTransitionEnabled(false);
-          setCurrentIndex(extendedSlides.length - 3);
+          setCurrentIndex(extendedSlides.length - (slides.length+1));
         }, 200);
       }
       setTimeout(() => {
@@ -71,10 +71,10 @@ function CarouselNav({
     setEnabledPrevNext(false);
     setCurrentIndex((prevIndex) => {
       const newIndex = prevIndex + direction;
-      if (newIndex >= extendedSlides.length - 2 || newIndex < 2) {
+      if (newIndex >= extendedSlides.length - slides.length || newIndex < slides.length) {
         setTimeout(() => {
           setTransitionEnabled(false);
-          setCurrentIndex(direction > 0 ? 2 : extendedSlides.length - 3);
+          setCurrentIndex(direction > 0 ? slides.length : extendedSlides.length - (slides.length+1));
         }, 200);
       }
       setTimeout(() => {
@@ -120,7 +120,7 @@ function CarouselNav({
         const index = slides.findIndex(
           (expedition) => expedition.href === location.pathname
         );
-        setCurrentIndex(index + 2);
+        setCurrentIndex(index + slides.length);
       } else {
         setCurrentIndex(slides.length / 2);
       }

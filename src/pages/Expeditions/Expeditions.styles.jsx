@@ -8,6 +8,7 @@ export const PageContainer = styled.div`
     row-gap: 0;
   }
   .content {
+    max-width: 1200px;
   }
 
   .d-flex {
@@ -29,29 +30,30 @@ export const PageContainer = styled.div`
     }
   }
 
-  .paragraph {
-    width: 80vw;
+  .content {
+    width: 90vw;
     max-width: 1300px;
     margin: 2rem auto;
-    /*font-size:1.7rem;*/
-    line-height: 3rem;
-    @media (max-width: 829px) {
-      width: 90vw;
+    @media (min-width: 768px) {
+      width: 80vw;
     }
   }
-  .paragraph p {
-    margin-bottom: 3rem;
-  }
-  .paragraph ul {
+  .content ul {
     padding-left: 1em;
   }
-  .paragraph span {
-    line-height: 2.5;
-    margin-right: 6px;
+
+  .content h3 {
+    text-align: center;
+    @media (min-width: 768px) {
+      text-align: left;
+    }
   }
-  .paragraph h3 {
-    @media (max-width: 829px) {
-      text-align: center;
+
+  .img-column {
+    display: flex;
+    flex-direction: column;
+    @media (min-width: 768px) {
+      flex-direction: row;
     }
   }
 

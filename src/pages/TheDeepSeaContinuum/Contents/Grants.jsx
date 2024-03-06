@@ -34,8 +34,9 @@ function Grants({ children }) {
         for SOI, and we hope to offer support for data analysis in the future.
       </p>
 
-      <h3>MATE ROV</h3>
+     
       <p>
+      <h3>MATE ROV</h3>
         SOI was pleased to continue support to the MATE ROV program in 2023. The
         Schmidt Ocean Coalition provided a one-year grant of $75,000 for
         first-time MATE team scholarships to lessen the financial barriers to

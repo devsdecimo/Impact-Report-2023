@@ -165,38 +165,31 @@ export const BubbleImageContainer = styled.span`
   &.type-3 {
     display: flex;
     position: relative;
-    height: 380px;
-    width: 450px;
+    aspect-ratio: 45 / 38;
+    height: 40vw;
     margin-right: ${(props) =>
-      props.orientation && props.orientation == "left" ? "2rem" : "0"};
+    props.orientation && props.orientation == "left" ? "2rem" : "0"};
     margin-left: ${(props) =>
-      props.orientation && props.orientation == "right" ? "2rem" : "0"};
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    @media (max-width: 829px) {
-      margin: auto;
-      margin-bottom: 1rem;
+    props.orientation && props.orientation == "right" ? "2rem" : "0"};
+    margin: 1rem;
+    @media (min-width: 768px) {
+      height: 12vw;
     }
     @media (min-width: 930px) {
       float: ${(props) => (props.orientation ? props.orientation : "left")};
-      /*margin-top:-2rem;*/
-    }
-    @media (max-width: 500px) {
-      transform: scale(0.8);
-      margin-left: -10%;
     }
 
     img {
       position: absolute;
-      width: 350px;
-      height: auto;
-      top: 50px;
-      right: 40px;
+      height: 92.11%;
+      aspect-ratio: 1 / 1;
+      top: 13%;
+      right: 9%;
     }
     .circle {
       &-1 {
-        width: 200px;
-        height: 200px;
+        height: 52.63%;
+        aspect-ratio: 1 / 1;
         background-color: #b7cee3;
         mix-blend-mode: multiply;
         border-radius: 100%;
@@ -205,23 +198,23 @@ export const BubbleImageContainer = styled.span`
         right: 0;
       }
       &-2 {
-        width: 170px;
-        height: 170px;
+        height: 44.74%;
+        aspect-ratio: 1 / 1;
         background-color: #d8e1e9;
         mix-blend-mode: multiply;
         border-radius: 100%;
         position: absolute;
-        top: -1rem;
-        right: 100px;
+        top: -4%;
+        right: 22%;
       }
       &-3 {
-        width: 330px;
-        height: 330px;
+        height: 86.84%;
+        aspect-ratio: 1 / 1;
         background-color: #8ab4d9;
         mix-blend-mode: multiply;
         border-radius: 100%;
         position: absolute;
-        top: 30px;
+        top: 8%;
         left: 0;
       }
     }

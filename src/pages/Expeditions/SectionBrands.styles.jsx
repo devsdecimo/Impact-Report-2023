@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const SectionBrandsContainer = styled.div`
   width: 100vw;
-  background-color: white;
+  background-color: var(--white);
   padding: 20px 0;
   margin-top: 2rem;
 
