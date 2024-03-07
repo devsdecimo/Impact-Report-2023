@@ -1,9 +1,8 @@
 import React from "react";
 import CarouselNav from "../../components/CarouselNav/CarouselNav";
-
+import ScrollToTop from "../../components/ScrollToTop/ScrollToTop";
 
 function ExpeditionsNav() {
-
   const navSlides = [
     {
       img: "/assets/images/home/expedition_1.webp",
@@ -41,13 +40,18 @@ function ExpeditionsNav() {
       text: "Vertical Reefs of the Galápagos",
     },
     {
-        img: "/assets/images/home/expedition_8.webp",
-        href: "/expeditions/ultra_fine_scale_seafloor_mapping",
-        text: "Ultra Fine-Scale Seafloor Mapping",
-      },
+      img: "/assets/images/home/expedition_8.webp",
+      href: "/expeditions/ultra_fine_scale_seafloor_mapping",
+      text: "Ultra Fine-Scale Seafloor Mapping",
+    },
   ];
 
-  return <CarouselNav slides={navSlides} />;
+  return (
+    <>
+      <ScrollToTop />
+      <CarouselNav slides={navSlides} />;
+    </>
+  );
 }
 
 export default ExpeditionsNav;

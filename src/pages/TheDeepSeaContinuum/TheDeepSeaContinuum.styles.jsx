@@ -11,7 +11,8 @@ export const PageContainer = styled.div`
   }
 
   .main_content {
-    max-width: 76vw;
+    max-width: 1200px;
+    width: 80vw;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -19,36 +20,30 @@ export const PageContainer = styled.div`
     margin-top: 2rem;
   }
 
-  .grants_image {
-    width: 70vw;
-    float: left;
+  .content-group {
+    margin-bottom: 4rem;
   }
-
-  .throught_image {
+  .continuum-image {
     width: 70vw;
-    float: right;
-  }
-
-  .strategic_image {
-    width: 70vw;
-    float: left;
+    max-width: 340px;
   }
 
   @media (min-width: 768px) {
-    .grants_image {
-      width: 25vw;
-    }
-
-    .throught_image {
-      width: 25vw;
-    }
-
-    .strategic_image {
-      width: 25vw;
+    .continuum-image {
+      width: 30vw;
+      max-width: 300px;
     }
   }
 
-  .content-body {
-    margin-top: 6rem;
+  @media (min-width: 1400px) {
+    .continuum-image {
+      width: 20vw;
+    }
+  }
+
+  @media (min-width: 1620px) {
+    .continuum-image {
+      width: 16vw;
+    }
   }
 `;

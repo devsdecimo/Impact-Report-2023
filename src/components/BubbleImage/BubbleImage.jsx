@@ -10,7 +10,7 @@ function BubbleImage({
   direction = "down",
   className,
   type = 1,
-  orientation = "left",
+  orientation,
 }) {
   const ref = useRef(null);
 

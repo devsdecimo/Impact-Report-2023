@@ -6,9 +6,11 @@ export const CarouselNavContainer = styled.div`
   align-items: center;
   overflow: hidden;
   position: relative;
-  height: 14em;
   flex-wrap: nowrap;
   margin: 2rem 0;
+  &.all-visible{
+    overflow: visible;
+  }
 `;
 
 export const SlidesContainer = styled.div`
@@ -19,8 +21,13 @@ export const SlidesContainer = styled.div`
   transform: translateX(
     calc(50% - ${(props) => (props.currentIndex + 0.5) * 160}px)
   );
-  ${(props) =>
-    props.allVisible && `justify-content:center; width: auto; transform: none;`}
+
+  &.all-visible{
+    justify-content: center;
+    column-gap: 2vw;
+    transform: none;
+    min-width: 80vw;
+  }
 `;
 
 export const Slide = styled.div`
@@ -45,10 +52,16 @@ export const Slide = styled.div`
 
     img {
       width: auto;
-      height: 100%;
+      height: 105%;
       display: block;
       object-fit: contain;
       transition: 1s;
+    }
+
+    &:hover{
+      img{
+        transform: scale(1.1);
+      }
     }
   }
 
@@ -93,11 +106,11 @@ export const Slide = styled.div`
 export const ArrowButton = styled.button`
   position: absolute;
   top: 50%;
-  box-shadow: 0 0 7px rgba(238, 238, 238, 1);
+  box-shadow: 0 0 7px rgba(250, 250, 250, 1);
   background-color: transparent;
-  background: rgba(238, 238, 238, 0.8);
+  background: rgba(250, 250, 250, 0.8);
   height: 100%;
-  width:30%;
+  width: 30%;
   transform: translateY(-50%);
   border: none;
   cursor: pointer;

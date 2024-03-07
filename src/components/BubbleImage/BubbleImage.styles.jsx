@@ -77,7 +77,6 @@ export const BubbleImageContainer = styled.span`
         bottom: 62%;
         right: 78%;
       }
-      }
     `};
     }
 
@@ -167,16 +166,9 @@ export const BubbleImageContainer = styled.span`
     position: relative;
     aspect-ratio: 45 / 38;
     height: 40vw;
-    margin-right: ${(props) =>
-    props.orientation && props.orientation == "left" ? "2rem" : "0"};
-    margin-left: ${(props) =>
-    props.orientation && props.orientation == "right" ? "2rem" : "0"};
     margin: 1rem;
     @media (min-width: 768px) {
       height: 12vw;
-    }
-    @media (min-width: 930px) {
-      float: ${(props) => (props.orientation ? props.orientation : "left")};
     }
 
     img {
@@ -391,6 +383,14 @@ export const BubbleImageContainer = styled.span`
         animation-delay: 0.75s;
       }
     }
+  }
+
+  @media (min-width: 768px) {
+    float: ${(props) => props.orientation};
+    margin-right: ${(props) =>
+      props.orientation && props.orientation == "left" ? "2rem" : "0"};
+    margin-left: ${(props) =>
+      props.orientation && props.orientation == "right" ? "2rem" : "0"};
   }
 
   @keyframes fadein60 {

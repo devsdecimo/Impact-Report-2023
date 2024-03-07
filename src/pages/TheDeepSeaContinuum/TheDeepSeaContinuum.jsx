@@ -2,11 +2,30 @@ import React from "react";
 import { PageContainer } from "./TheDeepSeaContinuum.styles";
 import Page from "../../components/Page/Page";
 import GeneralButton from "../../components/GeneralButton/GeneralButton";
+import CarouselNav from "../../components/CarouselNav/CarouselNav";
 import { Outlet, useLocation } from "react-router-dom";
 
-function TheDeepSeaContinuum({ children }) {
+function TheDeepSeaContinuum() {
   const location = useLocation();
   const isActive = (path) => location.pathname === path;
+
+  const navSlides =[
+    {
+      img: "/assets/images/the_deep_sea_continuum/grants/g.webp",
+      href: "/the_deep_sea_continuum/grants",
+      text: "Grants",
+    },
+    {
+      img: "/assets/images/the_deep_sea_continuum/JoseSpanishHourDiveStream.webp",
+      href: "/the_deep_sea_continuum/thought_leadership",
+      text: "Throught Leadership",
+    },
+    {
+      img: "/assets/images/the_deep_sea_continuum/JoseSpanishHourDiveStream.webp",
+      href: "/the_deep_sea_continuum/strategic_partnerships",
+      text: "Strategic Partnerships",
+    },
+  ]
   return (
     <PageContainer>
       <Page
@@ -19,36 +38,7 @@ function TheDeepSeaContinuum({ children }) {
         header_image="/assets/images/the_deep_sea_continuum/Header.webp"
         footer_image="/assets/images/the_deep_sea_continuum/Footer.webp"
       >
-        <nav>
-          <GeneralButton
-            href="grants"
-            icon="/assets/images/icons/lightning.svg"
-            text="Grants"
-            className={
-              isActive("/the_deep_sea_continuum/grants") ? "active" : ""
-            }
-          />
-          <GeneralButton
-            href="thought_leadership"
-            icon="/assets/images/icons/bulb.svg"
-            text="Throught Leadership"
-            className={
-              isActive("/the_deep_sea_continuum/thought_leadership")
-                ? "active"
-                : ""
-            }
-          />
-          <GeneralButton
-            href="strategic_partnerships"
-            icon="/assets/images/icons/handshake.svg"
-            text="Strategic Partnerships"
-            className={
-              isActive("/the_deep_sea_continuum/strategic_partnerships")
-                ? "active"
-                : ""
-            }
-          />
-        </nav>
+        <CarouselNav slides={navSlides}/>
         <div className="content-body">
           <Outlet />
         </div>

@@ -35,7 +35,6 @@ import HealthDiagnosisOfDeepSeaCoral from "./pages/Expeditions/HealthDiagnosisOf
 function App() {
   return (
     <Router>
-      <ScrollToTop />
       <NavMenu />
       <Routes>
         <Route path="*" element={<NotFound />}></Route>
