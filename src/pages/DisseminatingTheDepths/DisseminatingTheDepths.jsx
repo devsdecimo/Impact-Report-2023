@@ -48,62 +48,10 @@ function DisseminatingTheDepths() {
         header_image="/assets/images/disseminating_the_depths/Header.webp"
         footer_image="/assets/images/disseminating_the_depths/Footer.webp"
       >
+        <CarouselNav slides={navSlides} />
         <div className="content-body">
-          <CarouselNav slides={navSlides}/>
           <Outlet />
         </div>
-        <nav>
-          <GeneralButton
-            href="artist_at_sea"
-            icon="/assets/images/icons/brush.svg"
-            text="Artist-at-Sea"
-            className={
-              isActive("/disseminating_the_depths/artist_at_sea")
-                ? "active"
-                : ""
-            }
-          />
-          <GeneralButton
-            href="community_building"
-            icon="/assets/images/icons/expansion.svg"
-            text="Community Building"
-            className={
-              isActive("/disseminating_the_depths/community_building")
-                ? "active"
-                : ""
-            }
-          />
-          <GeneralButton
-            href="divestreams_and_connections"
-            icon="/assets/images/icons/screen.svg"
-            text="Divestreams & Connections"
-            className={
-              isActive("/disseminating_the_depths/divestreams_and_connections")
-                ? "active"
-                : ""
-            }
-          />
-          <GeneralButton
-            href="press_and_footage"
-            icon="/assets/images/icons/mic.svg"
-            text="Press & Footage"
-            className={
-              isActive("/disseminating_the_depths/press_and_footage")
-                ? "active"
-                : ""
-            }
-          />
-          <GeneralButton
-            href="on_the_big_screen"
-            icon="/assets/images/icons/eye.svg"
-            text="On the Big Screen"
-            className={
-              isActive("/disseminating_the_depths/on_the_big_screen")
-                ? "active"
-                : ""
-            }
-          />
-        </nav>
       </Page>
     </PageContainer>
   );
