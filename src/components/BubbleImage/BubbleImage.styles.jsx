@@ -236,10 +236,6 @@ export const BubbleImageContainer = styled.span`
     margin-left: 20px;
     margin-bottom: 0px;
     margin-top: 2rem;
-    @media (max-width: 829px) {
-      margin: auto;
-      transform: scale(1);
-    }
 
     .image {
       position: absolute;

@@ -45,10 +45,6 @@ export const PageContainer = styled.div`
     float: left;
   }
 
-  .content-body {
-    margin-top: 6rem;
-  }
-
   .hide {
     opacity: 0;
     transform: scale(0);
