@@ -12,7 +12,7 @@ import ASU from "/assets/images/brands/ASU.webp";
 import UVIC from "/assets/images/brands/uvic.webp";
 import Dalhousie from "/assets/images/brands/Dalhousie.webp"
 import UW from "/assets/images/brands/university-of-washington.webp"
-import NASA from "/assets/images/brands/NASA.webp"
+import NASA from "/assets/images/brands/nasa.webp"
 import PMEL from "/assets/images/brands/pmel.webp"
 import PAAaN from "/assets/images/brands/PAAaN.webp"
 import CarouselBrands from "../../../../components/CarouselBrands/CarouselBrands";

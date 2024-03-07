@@ -80,10 +80,10 @@ function NavMenu({ className }) {
                   <Link>Dynamics of Sinking Microplastics</Link>
                 </li>
                 <li>
-                  <Link>Hydrothermal Vents of the Western Galápagos</Link>
+                  <Link to="/expeditions/hydrothermal_vents_of_the_galapagos">Hydrothermal Vents of the Western Galápagos</Link>
                 </li>
                 <li>
-                  <Link>Vertical Reefs of the Galápagos</Link>
+                  <Link to="/expeditions/vertical_reefs_of_the_galapagos">Vertical Reefs of the Galápagos</Link>
                 </li>
                 <li>
                   <Link>Ultra Fine-Scale Seafloor Mapping</Link>
