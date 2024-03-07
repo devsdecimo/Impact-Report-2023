@@ -1,13 +1,10 @@
 import React from "react";
 import { PageContainer } from "./DisseminatingTheDepths.styles";
 import Page from "../../components/Page/Page";
-import GeneralButton from "../../components/GeneralButton/GeneralButton";
 import CarouselNav from "../../components/CarouselNav/CarouselNav";
-import { Outlet, useLocation } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 
 function DisseminatingTheDepths() {
-  const location = useLocation();
-  const isActive = (path) => location.pathname === path;
   const navSlides = [
     {
       img: "/assets/images/disseminating_the_depths/artist-at-sea/ShanHuaArtistAtSea.webp",
