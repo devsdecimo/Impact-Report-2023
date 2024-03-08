@@ -53,6 +53,7 @@ function Home() {
             delay="0.75"
             tooltip="The Underworld of Hydrothermal Vents"
             tooltipPlace="left"
+            href={"/expeditions/the_underworld_of_hydrothermal_vents"}
           ></ButtonImage>
           <ButtonImage
             className="expedition_button expedition_button_five expedition_button_right"
