@@ -74,10 +74,10 @@ function NavMenu({ className }) {
                   <Link to="/expeditions/octopus_odyssey">Octopus Odyssey/ Octopus Odyssey (too)</Link>
                 </li>
                 <li>
-                  <Link>The Underworld of Hydrothermal Vents</Link>
+                  <Link to="/expeditions/the_underworld_of_hydrothermal_vents">The Underworld of Hydrothermal Vents</Link>
                 </li>
                 <li>
-                  <Link>Dynamics of Sinking Microplastics</Link>
+                  <Link to="/expeditions/dynamics_of_sinking_microplastics">Dynamics of Sinking Microplastics</Link>
                 </li>
                 <li>
                   <Link>Hydrothermal Vents of the Western Galápagos</Link>

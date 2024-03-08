@@ -20,6 +20,7 @@ import InSearchOfHydrothermalLostCities from "./pages/Expeditions/InSearchOfHydr
 //Expeditions
 import OctopusOdyssey from "./pages/Expeditions/OctopusOdyssey/OctopusOdyssey";
 import DynamicsOfSinkingMicroplastics from "./pages/Expeditions/DynamicsOfSinkingMicroplastics/DynamicsOfSinkingMicroplastics";
+import TheUnderworldOfHydrothermalVents from "./pages/Expeditions/TheUnderworldOfHydrothermalVents/TheUnderworldOfHydrothermalVents";
 import TheDeepSeaContinuum from "./pages/TheDeepSeaContinuum/TheDeepSeaContinuum";
 import Grants from "./pages/TheDeepSeaContinuum/Contents/Grants";
 import ThroughtLeadership from "./pages/TheDeepSeaContinuum/Contents/ThroughtLeadership";
@@ -54,6 +55,10 @@ function App() {
           <Route
             path="dynamics_of_sinking_microplastics"
             element={<DynamicsOfSinkingMicroplastics />}
+          />
+          <Route
+            path="the_underworld_of_hydrothermal_vents"
+            element={<TheUnderworldOfHydrothermalVents />}
           />
         </Route>
         <Route
