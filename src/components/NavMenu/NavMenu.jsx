@@ -86,7 +86,7 @@ function NavMenu({ className }) {
                   <Link to="/expeditions/vertical_reefs_of_the_galapagos">Vertical Reefs of the Galápagos</Link>
                 </li>
                 <li>
-                  <Link>Ultra Fine-Scale Seafloor Mapping</Link>
+                  <Link to="/expeditions/ultra_fine_scale_seafloor_mapping">Ultra Fine-Scale Seafloor Mapping</Link>
                 </li>
               </ul>
             </SubMenu>
