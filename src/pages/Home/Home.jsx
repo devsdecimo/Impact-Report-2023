@@ -69,21 +69,24 @@ function Home() {
             delay="1.25"
             tooltip="Hydrothermal Vents of the Western Galápagos"
             tooltipPlace="right"
-          ></ButtonImage>
+            href={"/expeditions/hydrothermal_vents_of_the_galapagos"}
+            ></ButtonImage>
           <ButtonImage
             className="expedition_button expedition_button_seven expedition_button_right"
             src="/assets/images/home/expedition_7.webp"
             delay="1.5"
             tooltip="Vertical Reefs of the Galápagos"
             tooltipPlace="bottom"
-          ></ButtonImage>
+            href={"/expeditions/vertical_reefs_of_the_galapagos"}
+            ></ButtonImage>
           <ButtonImage
             className="expedition_button expedition_button_eight expedition_button_right"
             src="/assets/images/home/expedition_8.webp"
             delay="2"
             tooltip="Ultra Fine-Scale Seafloor Mapping"
             tooltipPlace="bottom"
-          ></ButtonImage>
+            href={"/expeditions/ultra_fine_scale_seafloor_mapping"}
+            ></ButtonImage>
         </div>
       </div>
     </HomeContainer>

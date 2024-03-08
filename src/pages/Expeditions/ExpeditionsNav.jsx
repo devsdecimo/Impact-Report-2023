@@ -49,7 +49,7 @@ function ExpeditionsNav() {
   return (
     <>
       <ScrollToTop />
-      <CarouselNav slides={navSlides} />;
+      <CarouselNav slides={navSlides} />
     </>
   );
 }

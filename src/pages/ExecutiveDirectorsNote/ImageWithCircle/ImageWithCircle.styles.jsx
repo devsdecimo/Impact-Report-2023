@@ -7,11 +7,10 @@ export const ImageWithCircleContainer = styled.div`
   margin: 2%;
   width: 40vw;
 
- 
   @media (min-width: 768px) {
-    max-width: 350px;
+    max-width: 400px;
     width: 18vw;
-    float: ${props=> props.orientation};
+    float: ${(props) => props.orientation};
     margin-right: ${(props) =>
       props.orientation && props.orientation == "left" ? "2rem" : "0"};
     margin-left: ${(props) =>
@@ -20,44 +19,70 @@ export const ImageWithCircleContainer = styled.div`
 
   @media (min-width: 1400px) {
     align-self: start;
-    max-width: 260px;
+    max-width: 300px;
   }
 
-
-  img {
+  .circleImage {
     position: absolute;
-    height: 88.32%;
+    height: 75%;
     width: auto;
-    top: 13.25%;
-    right: 0px;
+    top: -10%;
+    left: 10%;
   }
-  .circle1 {
-    height: 84.21%;
+
+  .image {
+    position: absolute;
+    height: 99%;
+    width: auto;
+    bottom: 0;
+    left: 0;
+  }
+
+  .circle-1 {
+    height: 78%;
     aspect-ratio: 1 / 1;
     background-color: #80aed8;
-    opacity: 0.1;
-    border-radius: 50%;
+    mix-blend-mode: multiply;
+    border-radius: 100%;
     position: absolute;
-    top: 0;
-    right: 0;
+    bottom: 0;
+    left: 0;
   }
-  .circle2 {
-    height: 86.84%;
+  .circle-2 {
+    height: 64%;
     aspect-ratio: 1 / 1;
-    opacity: 1;
-    border-radius: 50%;
+    background-color: #d9dbdd;
+    mix-blend-mode: multiply;
+    border-radius: 100%;
     position: absolute;
-    top: 0;
-    left: -16%;
+    top: 22%;
+    right: 0%;
   }
-  .circle3 {
-    height: 84.21%;
-    aspect-ratio: 1 / 1;
-    background-color: #80aed8;
-    opacity: 0.9;
-    border-radius: 50%;
-    position: absolute;
-    top: 0;
-    right: 0;
+
+  .circle,
+  .image,
+  .circleImage {
+    transform: scale(0);
+  }
+
+  &.animated {
+    .circle,
+    .image,
+    .circleImage {
+      animation: fade-in 1s ease-in-out;
+      animation-fill-mode: forwards;
+    }
+    .circle-2 {
+      animation-delay: 0.1875s;
+    }
+    .circleImage {
+      animation-delay: 0.25s;
+    }
+    .circle-1 {
+      animation-delay: 0.375s;
+    }
+    .image {
+      animation-delay: 0.75s;
+    }
   }
 `;

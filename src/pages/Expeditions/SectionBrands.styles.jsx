@@ -14,6 +14,7 @@ export const SectionBrandsContainer = styled.div`
     margin: auto;
     gap: 2rem;
     flex-wrap: wrap;
+    
   }
 
   img {
@@ -25,7 +26,26 @@ export const SectionBrandsContainer = styled.div`
     @media (min-width: 1190px) {
       max-height: 3vw;
     }
+
+/* 
+    object-fit: contain;
+    max-width: unset;
+    max-height: unset;
+    width: 100%;
+    height: 100%;*/ //ajustes precarrusel
+
   }
+
+  /* a{
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+    width: unset;
+    height: 100px;
+    object-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
 
   .only-mobile {
     @media (min-width: 1100px) {

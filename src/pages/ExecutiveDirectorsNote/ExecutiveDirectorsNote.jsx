@@ -18,12 +18,12 @@ function ExecutiveDirectorsNote() {
       <Page
         title={
           <img
-            src="/assets/images/a_word_from_our_founders/Title.svg"
+            src="/assets/images/executive_directors_note/Title.svg"
             alt="A Word From Our Founders"
           />
         }
-        header_image="/assets/images/a_word_from_our_founders/Header.webp"
-        footer_image="/assets/images/a_word_from_our_founders/Footer.webp"
+        header_image="/assets/images/executive_directors_note/Header.webp"
+        footer_image="/assets/images/executive_directors_note/Footer.webp"
       >
         <div className="intro-text">
           <p>
@@ -51,6 +51,7 @@ function ExecutiveDirectorsNote() {
           </p>
         </div>
         <div className="content">
+          <ImageWithCircle  image={'/assets/images/executive_directors_note/BubbleImage1.webp'} circleImage={'/assets/images/executive_directors_note/BubbleImage2.webp'}/>
           <p>
             I&rsquo;m proud of all that Schmidt Ocean Institute and the
             scientists and artists we have hosted have accomplished. The
@@ -103,6 +104,7 @@ function ExecutiveDirectorsNote() {
             in the Ocean, assess the health of the Ocean, and increase our
             knowledge about the seabed and the creatures that reside there.
           </p>
+          <ImageWithCircle2 orientation="right"/>
           <p>
             Robust partnerships and collaborations strengthen our ability to
             boldly explore our Ocean. This year, we joined the Nippon Foundation
