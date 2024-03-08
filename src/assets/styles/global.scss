@@ -47,73 +47,73 @@ ul {
 }
 
 @font-face {
-  font-family: "Garamond";
+  font-family: "AGaramond";
   src: url("/assets/fonts/AGaramondPro-Regular.otf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Garamond";
+  font-family: "AGaramond";
   src: url("/assets/fonts/AGaramondPro-Italic.otf") format("truetype");
   font-weight: normal;
   font-style: italic;
 }
 
 @font-face {
-  font-family: "Garamond";
+  font-family: "AGaramond";
   src: url("/assets/fonts/AGaramond-Semibold.otf") format("truetype");
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Garamond";
+  font-family: "AGaramond";
   src: url("/assets/fonts/AGaramondPro-Bold.otf") format("truetype");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Garamond";
+  font-family: "AGaramond";
   src: url("/assets/fonts/AGaramond-SemiboldItalic.otf") format("truetype");
   font-weight: 600;
   font-style: italic;
 }
 
 @font-face {
-  font-family: "Garamond";
+  font-family: "AGaramond";
   src: url("/assets/fonts/AGaramondPro-BoldItalic.otf") format("truetype");
   font-weight: 700;
   font-style: italic;
 }
 
-@font-face {
-  font-family: "EBGaramond";
-  // src: url("/assets/fonts/EBGaramond-VariableFont_wght.ttf");
-  src: url("/assets/fonts/EBGaramond2022.ttf");
-  font-style: normal;
-}
 
+//
 @font-face {
-  font-family: "EBGaramond";
-  // src: url("/assets/fonts/EBGaramond-Italic-VariableFont_wght.ttf");
-  src: url("/assets/fonts/EBGaramondBold2022.ttf");
-  font-style: normal;
+  font-family: "Garamond";
+  src: url("/assets/fonts/GARABD.TTF") format("truetype");
   font-weight: bold;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: "EBGaramond";
-  // src: url("/assets/fonts/EBGaramond-Italic-VariableFont_wght.ttf");
-  src: url("/assets/fonts/EBGaramondItalic2022.ttf");
+  font-family: "Garamond";
+  src: url("/assets/fonts//GARA.TTF") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Garamond";
+  src: url("/assets/fonts/EBGaramond-Italic-VariableFont_wght.ttf") format("truetype");
   font-style: italic;
 }
 
+
 body {
-  background: var(--gray);
-  // font-family: "Garamond", Times, serif;
-  font-family: "EBGaramond", Times, serif;
+  background: var(--white);
+  font-family: "Garamond", Times, serif;
   box-sizing: border-box;
   font-weight: normal;
 }
@@ -157,7 +157,7 @@ body {
   z-index: 10;
   text-align: center;
   // font-family: "Garamond", Times, serif;
-  font-family: "EBGaramond", Times, serif;
+  font-family: "Garamond", Times, serif;
   max-width: 260px !important;
   min-width: none;
   text-shadow: 1px 1px 10px var(--dark-blue);

@@ -130,9 +130,9 @@ export const HostedDataContainer = styled.div`
     aspect-ratio: 1 / 1;
     font-size: 4vw;
 
-    span {
+    /* span {
       margin-top: 10%;
-    }
+    } */
 
     @media (min-width: 768px) {
       font-size: 2vw;

@@ -116,9 +116,9 @@ export const MappedDataContainer = styled.div`
     align-items: center;
     line-height: 0;
     aspect-ratio: 1 / 1;
-    span {
+    /* span {
       margin-top: 10%;
-    }
+    } */
 
     &-including {
       font-size: 10vw;

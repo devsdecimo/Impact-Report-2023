@@ -119,9 +119,9 @@ export const ConductedDataContainer = styled.div`
     align-items: center;
     aspect-ratio: 1 / 1;
 
-    span {
+    /* span {
       margin-top: 10%;
-    }
+    } */
 
     &-ctd {
       font-size: 6.8vw;

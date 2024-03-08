@@ -103,9 +103,9 @@ export const SharedDataContainer = styled.div`
     line-height: 0;
     aspect-ratio: 1 / 1;
 
-    span {
+    /* span {
       margin-top: 10%;
-    }
+    } */
 
     &-publications {
       font-size: 6vw;

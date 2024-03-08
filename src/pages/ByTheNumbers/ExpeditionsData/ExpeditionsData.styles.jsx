@@ -90,9 +90,9 @@ export const ExpeditionsDataContainer = styled.div`
     line-height: 0;
     aspect-ratio: 1 / 1;
     width: 21%;
-    span {
+    /* span {
       margin-top: 10%;
-    }
+    } */
 
     &-expeditions {
       font-size: 10vw;

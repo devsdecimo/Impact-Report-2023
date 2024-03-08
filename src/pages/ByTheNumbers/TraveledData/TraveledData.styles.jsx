@@ -89,9 +89,9 @@ export const TraveledDataContainer = styled.div`
     width: 21%;
     font-size: 10vw;
 
-    span {
+    /* span {
       margin-top: 10%;
-    }
+    } */
 
     @media (min-width: 768px) {
       width: 11%;

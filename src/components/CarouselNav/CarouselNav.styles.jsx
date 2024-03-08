@@ -59,11 +59,6 @@ export const Slide = styled.div`
       transition: 1s;
     }
 
-    &:hover{
-      img{
-        transform: scale(1.1);
-      }
-    }
   }
 
   a {
