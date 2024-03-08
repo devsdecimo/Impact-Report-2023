@@ -34,6 +34,7 @@ import NotFound from "./pages/NotFound/NotFound";
 import HealthDiagnosisOfDeepSeaCoral from "./pages/Expeditions/HealthDiagnosisOfDeepSeaCoral/HealthDiagnosisOfDeepSeaCoral";
 import HydrothermalVentsOfTheWesternGalapagos from "./pages/Expeditions/HydrothermalVentsOfTheWesternGalapagos/HydrothermalVentsOfTheWesternGalapagos";
 import VerticalReefsOfTheGalapagos from "./pages/Expeditions/VerticalReefsOfTheGalapagos/VerticalReefsOfTheGalapagos"; 
+import UltrafineScaleSeafloorMapping from "./pages/Expeditions/UltrafineScaleSeafloorMapping/UltrafineScaleSeafloorMapping";
 
 function App() {
   return (
@@ -68,6 +69,10 @@ function App() {
           <Route
             path="vertical_reefs_of_the_galapagos"
             element={<VerticalReefsOfTheGalapagos />}
+          />
+          <Route
+            path="ultra_fine_scale_seafloor_mapping"
+            element={<UltrafineScaleSeafloorMapping />}
           />
         </Route>
         <Route
