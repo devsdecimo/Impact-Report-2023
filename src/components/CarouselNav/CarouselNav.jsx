@@ -55,7 +55,7 @@ function CarouselNav({
       if (newIndex < 2) {
         setTimeout(() => {
           setTransitionEnabled(false);
-          setCurrentIndex(extendedSlides.length - (slides.length+1));
+          setCurrentIndex(extendedSlides.length - (slides.length + 1));
         }, 200);
       }
       setTimeout(() => {
@@ -71,10 +71,17 @@ function CarouselNav({
     setEnabledPrevNext(false);
     setCurrentIndex((prevIndex) => {
       const newIndex = prevIndex + direction;
-      if (newIndex >= extendedSlides.length - slides.length || newIndex < slides.length) {
+      if (
+        newIndex >= extendedSlides.length - slides.length ||
+        newIndex < slides.length
+      ) {
         setTimeout(() => {
           setTransitionEnabled(false);
-          setCurrentIndex(direction > 0 ? slides.length : extendedSlides.length - (slides.length+1));
+          setCurrentIndex(
+            direction > 0
+              ? slides.length
+              : extendedSlides.length - (slides.length + 1)
+          );
         }, 200);
       }
       setTimeout(() => {
@@ -174,13 +181,14 @@ function CarouselNav({
       onMouseUp={handleMouseUp}
       onMouseLeave={handleMouseLeave}
       onMouseEnter={pauseAutoplay}
+      className={visibleSlides >= slides.length && "all-visible"}
     >
       <SlidesContainer
         currentIndex={currentIndex}
         totalSlides={slides.length}
         visibleSlides={visibleSlides}
-        allVisible={visibleSlides >= slides.length}
         enabledTransition={enabledTransition}
+        className={visibleSlides >= slides.length && "all-visible"}
       >
         {(visibleSlides < slides.length ? extendedSlides : slides).map(
           (slide, index) => {

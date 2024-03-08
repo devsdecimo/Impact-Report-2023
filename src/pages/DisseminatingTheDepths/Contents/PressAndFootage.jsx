@@ -4,9 +4,12 @@ import BubbleImage from "../../../components/BubbleImage/BubbleImage";
 function PressAndFootage({ children }) {
   return (
     <>
-      <h3>
-        <strong>Press and Footage</strong>
-      </h3>
+      <BubbleImage
+        image="/assets/images/disseminating_the_depths/press_and_footage/Press and Footage  -  FKt230812-RicardoStuartOutreachCall-20230901-Ingle-3776-APPROVED.webp"
+        className="press-image"
+        direction="down"
+      />
+      <h3>Press and Footage</h3>
       <p>
         A year of discoveries led to a plethora of media coverage. SOI published
         13 press releases in 2023, citing 13 findings and resulting in more than
@@ -23,11 +26,6 @@ function PressAndFootage({ children }) {
         .
       </p>
       <p>
-        <BubbleImage
-          image="/assets/images/disseminating_the_depths/ShanHuaArtistAtSea.webp"
-          className="press-image"
-          direction="down"
-        />
         Footage collected by SOI&rsquo;s ROV <em>SuBastian</em> was licensed 24
         times appearing in an BBC Planet Earth III episode, X, and X. Our new
         Creative Commons licensing allowed X people to download footage with

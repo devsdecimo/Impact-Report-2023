@@ -32,11 +32,12 @@ import PressAndFootage from "./pages/DisseminatingTheDepths/Contents/PressAndFoo
 import OnTheBigScreen from "./pages/DisseminatingTheDepths/Contents/OnTheBigScreen";
 import NotFound from "./pages/NotFound/NotFound";
 import HealthDiagnosisOfDeepSeaCoral from "./pages/Expeditions/HealthDiagnosisOfDeepSeaCoral/HealthDiagnosisOfDeepSeaCoral";
+import HydrothermalVentsOfTheWesternGalapagos from "./pages/Expeditions/HydrothermalVentsOfTheWesternGalapagos/HydrothermalVentsOfTheWesternGalapagos";
+import VerticalReefsOfTheGalapagos from "./pages/Expeditions/VerticalReefsOfTheGalapagos/VerticalReefsOfTheGalapagos"; 
 
 function App() {
   return (
     <Router>
-      <ScrollToTop />
       <NavMenu />
       <Routes>
         <Route path="*" element={<NotFound />}></Route>
@@ -59,6 +60,14 @@ function App() {
           <Route
             path="the_underworld_of_hydrothermal_vents"
             element={<TheUnderworldOfHydrothermalVents />}
+          />
+          <Route
+            path="hydrothermal_vents_of_the_galapagos"
+            element={<HydrothermalVentsOfTheWesternGalapagos />}
+          />
+          <Route
+            path="vertical_reefs_of_the_galapagos"
+            element={<VerticalReefsOfTheGalapagos />}
           />
         </Route>
         <Route

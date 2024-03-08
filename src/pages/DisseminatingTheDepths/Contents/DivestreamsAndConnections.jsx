@@ -4,17 +4,15 @@ import BubbleImage from "../../../components/BubbleImage/BubbleImage";
 function DivestreamsAndConnections({ children }) {
   return (
     <>
+      <BubbleImage
+        image="/assets/images/disseminating_the_depths/divestreams_and_connections/Divestreams and Connections  -  FKt230812-AndreaShipToShoreGalapagos-20230825-Ingle-1869.webp"
+        className="connections-image"
+        direction="down"
+      />
+      <h3>Divestreams and Connections</h3>
       <p>
-        <h3>
-          <strong>Divestreams and Connections</strong>
-        </h3>
         During <em>Falkor (too)&rsquo;s </em>inaugural year<em>, </em>SOI made
         significant improvements to two popular ship-based outreach initiatives:
-        <BubbleImage
-          image="/assets/images/disseminating_the_depths/ShanHuaArtistAtSea.webp"
-          className="connections-image"
-          direction="down"
-        />
         the ROV Divestream and the Ship-to-Shore program. We added a new crew
         position &mdash; a multimedia technician &mdash; and rebranded the ROV
         Livestream as{" "}
