@@ -29,15 +29,15 @@ export const NavMenuContainer = styled.nav`
       }
     }
 
+    @media (min-width: 768px) {
+      margin: 3.25rem 4rem;
+    }
+
     &.menu__open {
       background-image: url("/assets/images/CloseButton.svg");
       position: fixed;
       height: 25px;
       width: 25px;
-    }
-
-    @media (min-width: 768px) {
-      margin: 4rem;
     }
   }
 
@@ -120,6 +120,8 @@ export const NavMenuContainer = styled.nav`
       padding: 1rem;
       margin-top: 0;
       text-align: center;
+      justify-content: center;
+      align-items: center;
       gap: 1.5rem;
       margin: 0;
       padding-bottom: 4rem;

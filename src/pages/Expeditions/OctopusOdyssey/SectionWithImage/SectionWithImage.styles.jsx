@@ -88,4 +88,16 @@ export const SectionWithImageContainer = styled.div`
       align-items: start;
     }
   }
+
+  .type-5 {
+    .image-1 {
+      width: 90%;
+      bottom: -1%;
+      right: -11%;
+    }
+    .image-2 {
+      width: 65%;
+      
+    }
+  }
 `;

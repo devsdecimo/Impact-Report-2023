@@ -42,7 +42,7 @@ function InSearchOfHydrothermalLostCities() {
         footer_image="/assets/images/expeditions/in_search_of_hydrothermal_lost_cities/Footer.webp"
       >
         <SectionWithImage
-          image="/assets/images/expeditions/in_search_of_hydrothermal_lost_cities/Cruise.webp"
+          image="/assets/images/expeditions/in_search_of_hydrothermal_lost_cities/David.webp"
           alt="Cruise"
         />
         <SectionBrands />

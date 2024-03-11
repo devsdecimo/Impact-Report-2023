@@ -89,14 +89,16 @@ export const SectionWithImageContainer = styled.div`
     }
   }
 
-  .image-1{
-    width: 67% !important;
-    right: 2% !important;
-    bottom: -2px !important;
+  .type-5 {
+    .image-1 {
+      width: 80%;
+      bottom: -1%;
+      right: -8%;
+    }
+    .image-2 {
+      width: 100%;
+      left: -52%;
+      top: -3%;
+    }
   }
-  .image-2 {
-    width: 70% !important;
-    top: 3% !important;
-    left: -12% !important;
-}
 `;

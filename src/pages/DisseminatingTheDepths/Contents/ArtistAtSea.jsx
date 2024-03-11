@@ -1,23 +1,48 @@
 import React from "react";
 import BubbleImage from "../../../components/BubbleImage/BubbleImage";
 import Carousel from "../../../components/Carousel/Carousel";
+import DisseminatingTheDepths from "../DisseminatingTheDepths";
 
-function ArtistAtSea({ children }) {
+function ArtistAtSea() {
   const slides = [
-    { img:"/assets/images/disseminating_the_depths/artist-at-sea/carousel/Artists_Lab.webp" },
-    { img: "/assets/images/disseminating_the_depths/artist-at-sea/carousel/FalkorToo-Pei-Wen.webp"},
-    { img: "/assets/images/disseminating_the_depths/artist-at-sea/carousel/MaxHooperSchneiderTestsArtInstallation.webp" },
-    { img: "/assets/images/disseminating_the_depths/artist-at-sea/carousel/PeiWenFashionSketches.webp" },
-    { img: "/assets/images/disseminating_the_depths/artist-at-sea/carousel/scitoo-max1Recover1.webp" },
-    { img: "/assets/images/disseminating_the_depths/artist-at-sea/carousel/Shan-DigitalArtist.webp" }
-]
+    {
+      img: "/assets/images/disseminating_the_depths/artist-at-sea/carousel/Artists_Lab.webp",
+    },
+    {
+      img: "/assets/images/disseminating_the_depths/artist-at-sea/carousel/FalkorToo-Pei-Wen.webp",
+    },
+    {
+      img: "/assets/images/disseminating_the_depths/artist-at-sea/carousel/MaxHooperSchneiderTestsArtInstallation.webp",
+    },
+    {
+      img: "/assets/images/disseminating_the_depths/artist-at-sea/carousel/PeiWenFashionSketches.webp",
+    },
+    {
+      img: "/assets/images/disseminating_the_depths/artist-at-sea/carousel/scitoo-max1Recover1.webp",
+    },
+    {
+      img: "/assets/images/disseminating_the_depths/artist-at-sea/carousel/Shan-DigitalArtist.webp",
+    },
+  ];
 
   return (
-    <>
+    <DisseminatingTheDepths
+      title={
+        <img
+          src="/assets/images/disseminating_the_depths/artist-at-sea/Title.svg"
+          alt="Artist-at-Sea"
+        />
+      }
+      header_image="/assets/images/disseminating_the_depths/artist-at-sea//Header.webp"
+      footer_image="/assets/images/disseminating_the_depths/artist-at-sea/Footer.webp"
+    >
       <p>
-        <BubbleImage image="/assets/images/disseminating_the_depths/artist-at-sea/ShanHuaArtistAtSea.webp" className="artist-image" direction="up"/>
-        <h3>Artist-at-Sea</h3>{" "}
-        The{" "}
+        <BubbleImage
+          image="/assets/images/disseminating_the_depths/artist-at-sea/ShanHuaArtistAtSea.webp"
+          className="artist-image"
+          direction="up"
+        />
+        <h3>Artist-at-Sea</h3> The{" "}
         <a href="https://schmidtocean.org/apply/artist-residency-program/">
           Artist-at-Sea program
         </a>{" "}
@@ -56,8 +81,8 @@ function ArtistAtSea({ children }) {
         Artist-at-sea pieces at the exhibition, and the Ocean, science, and art
         were celebrated all week.
       </p>
-       <Carousel slides={slides}/>
-    </>
+      <Carousel slides={slides} />
+    </DisseminatingTheDepths>
   );
 }
 

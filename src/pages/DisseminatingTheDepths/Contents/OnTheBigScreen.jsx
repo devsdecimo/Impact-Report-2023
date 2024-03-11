@@ -1,9 +1,19 @@
 import React from "react";
 import BubbleImage from "../../../components/BubbleImage/BubbleImage";
+import DisseminatingTheDepths from "../DisseminatingTheDepths";
 
 function OnTheBigScreen({ children }) {
   return (
-    <>
+    <DisseminatingTheDepths
+      title={
+        <img
+          src="/assets/images/disseminating_the_depths/on_the_big_screen/Title.svg"
+          alt="On the BigScreen"
+        />
+      }
+      header_image="/assets/images/disseminating_the_depths/on_the_big_screen//Header.webp"
+      footer_image="/assets/images/disseminating_the_depths/on_the_big_screen/Footer.webp"
+    >
       <BubbleImage
         image="/assets/images/disseminating_the_depths/on_the_big_screen/On the Big Screen  -  Deep_Rising-Poster_vertical.webp"
         className="screen-image"
@@ -53,7 +63,7 @@ function OnTheBigScreen({ children }) {
         International Ocean Film Festival in San Francisco, where he served on
         panels and discussed working with SOI on the projects.
       </p>
-    </>
+    </DisseminatingTheDepths>
   );
 }
 

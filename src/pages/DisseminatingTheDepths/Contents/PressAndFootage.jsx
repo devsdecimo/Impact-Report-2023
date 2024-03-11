@@ -1,9 +1,19 @@
 import React from "react";
 import BubbleImage from "../../../components/BubbleImage/BubbleImage";
+import DisseminatingTheDepths from "../DisseminatingTheDepths";
 
-function PressAndFootage({ children }) {
+function PressAndFootage() {
   return (
-    <>
+    <DisseminatingTheDepths
+      title={
+        <img
+          src="/assets/images/disseminating_the_depths/press_and_footage/Title.svg"
+          alt="Press and Footage"
+        />
+      }
+      header_image="/assets/images/disseminating_the_depths/press_and_footage//Header.webp"
+      footer_image="/assets/images/disseminating_the_depths/press_and_footage/Footer.webp"
+    >
       <BubbleImage
         image="/assets/images/disseminating_the_depths/press_and_footage/Press and Footage  -  FKt230812-RicardoStuartOutreachCall-20230901-Ingle-3776-APPROVED.webp"
         className="press-image"
@@ -41,7 +51,7 @@ function PressAndFootage({ children }) {
         filming on SOI expeditions where the footage will contribute to a global
         and prominent series scheduled for 2025.
       </p>
-    </>
+    </DisseminatingTheDepths>
   );
 }
 

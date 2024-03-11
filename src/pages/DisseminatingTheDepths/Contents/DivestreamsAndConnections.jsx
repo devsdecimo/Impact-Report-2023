@@ -1,9 +1,19 @@
 import React from "react";
 import BubbleImage from "../../../components/BubbleImage/BubbleImage";
+import DisseminatingTheDepths from "../DisseminatingTheDepths";
 
-function DivestreamsAndConnections({ children }) {
+function DivestreamsAndConnections() {
   return (
-    <>
+    <DisseminatingTheDepths
+      title={
+        <img
+          src="/assets/images/disseminating_the_depths/divestreams_and_connections/Title.svg"
+          alt="Divestreams and Connections"
+        />
+      }
+      header_image="/assets/images/disseminating_the_depths/divestreams_and_connections//Header.webp"
+      footer_image="/assets/images/disseminating_the_depths/divestreams_and_connections/Footer.webp"
+    >
       <BubbleImage
         image="/assets/images/disseminating_the_depths/divestreams_and_connections/Divestreams and Connections  -  FKt230812-AndreaShipToShoreGalapagos-20230825-Ingle-1869.webp"
         className="connections-image"
@@ -57,7 +67,7 @@ function DivestreamsAndConnections({ children }) {
         resulted in eleven connections reaching over 350 children living on the
         Gal&aacute;pagos islands.
       </p>
-    </>
+    </DisseminatingTheDepths>
   );
 }
 

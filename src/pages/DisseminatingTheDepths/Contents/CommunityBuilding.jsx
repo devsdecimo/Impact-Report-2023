@@ -1,9 +1,19 @@
 import React from "react";
 import BubbleImage from "../../../components/BubbleImage/BubbleImage";
+import DisseminatingTheDepths from "../DisseminatingTheDepths";
 
-function CommunityBuilding({ children }) {
+function CommunityBuilding() {
   return (
-    <>
+    <DisseminatingTheDepths
+      title={
+        <img
+          src="/assets/images/disseminating_the_depths/community_building/Title.svg"
+          alt="Community Building"
+        />
+      }
+      header_image="/assets/images/disseminating_the_depths/community_building//Header.webp"
+      footer_image="/assets/images/disseminating_the_depths/community_building/Footer.webp"
+    >
       <BubbleImage
         image="/assets/images/disseminating_the_depths/community_building/Community Building  -  Presentation-20231012-CD_Foundation-Galapagos-3.webp"
         className="community-image"
@@ -30,7 +40,7 @@ function CommunityBuilding({ children }) {
         unforgettable and enriching, deepening their ocean understanding and
         advancing their career pathways in ocean science fields.
       </p>
-    </>
+    </DisseminatingTheDepths>
   );
 }
 

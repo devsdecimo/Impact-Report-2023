@@ -1,8 +1,9 @@
 import styled from "styled-components";
 
 export const ImageWithCircle2Container = styled.div`
+  display: flex;
   position: relative;
-  aspect-ratio: 22 / 19;
+  aspect-ratio: 19 / 21;
   width: 40vw;
 
   @media (min-width: 1200px) {
@@ -19,34 +20,65 @@ export const ImageWithCircle2Container = styled.div`
     float: ${(props) => props.orientation};
   }
 
-  .circle1 {
-    height: 57.89%;
+  .circle {
     aspect-ratio: 1 / 1;
-    background-color: #aae4f2;
-    opacity: 0.9;
-    border-radius: 50%;
-    position: absolute;
-    z-index: 0;
-    top: -2.25%;
-    left: 54.5%;
-  }
-  .circle2 {
-    height: 44.74%;
-    aspect-ratio: 1 / 1;
-    opacity: 1;
-    border-radius: 50%;
-    position: absolute;
-    z-index: 2;
-    top: 50.5%;
-    left: 58.25%;
+    border-radius: 100%;
+
+    &-image {
+      object-fit: cover;
+      height: 80%;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+
+    &-1 {
+      height: 35%;
+      background-color: #77b9e0;
+      mix-blend-mode: multiply;
+      position: absolute;
+      top: 23%;
+      right: -12%;
+    }
+
+    &-2 {
+      height: 35%;
+      background-color: #344b62;
+      mix-blend-mode: multiply;
+      position: absolute;
+      top: 48%;
+      left: 62.5%;
+    }
+
+    &-3 {
+      position: absolute;
+      background-color: #d9dbdd;
+      height: 75%;
+      bottom: -5%;
+      right: -16%;
+    }
   }
 
-  .circle3 {
-    position: absolute;
-    height: 92.11%;
-    aspect-ratio: 1 / 1;
-    z-index: 1;
-    top: 0px;
-    left: 0px;
+  .circle,
+  .image {
+    transform: scale(0);
+  }
+
+  &.animated {
+    .circle,
+    .image,
+    .circleImage {
+      animation: fade-in 1s ease-in-out;
+      animation-fill-mode: forwards;
+    }
+    .circle-2 {
+      animation-delay: 0.25s;
+    }
+    .circle-4 {
+      animation-delay: 0.375s;
+    }
+    .circle-image {
+      animation-delay: 0.75s;
+    }
   }
 `;

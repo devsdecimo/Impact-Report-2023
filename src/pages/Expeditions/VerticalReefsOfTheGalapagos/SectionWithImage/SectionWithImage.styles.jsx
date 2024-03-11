@@ -42,10 +42,7 @@ export const SectionWithImageContainer = styled.div`
     }
   }
 
-  .image {
-      width: 180px !important;
-      top: -30px !important;
-      right: 30px !important;
-      border-radius: 50% !important;
+  .type-4 .image {
+    right: 8%;
   }
 `;

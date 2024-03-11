@@ -231,19 +231,23 @@ export const BubbleImageContainer = styled.span`
   &.type-4 {
     display: flex;
     position: relative;
-    height: 250px;
-    width: 230px;
+    width: 250px;
+    aspect-ratio: 25 / 30;
     margin-left: 20px;
     margin-bottom: 0px;
     margin-top: 2rem;
 
     .image {
       position: absolute;
-      width: 350px;
+      width: 100%;
       height: auto;
       z-index: 2;
-      top: -30px;
-      right: -30px;
+      top: -4%;
+      right: 0%;
+      border-radius: 100%;
+      aspect-ratio: 1 / 1;
+      object-position: bottom right;
+      object-fit: contain;
     }
 
     .circle {
@@ -255,8 +259,8 @@ export const BubbleImageContainer = styled.span`
         border-radius: 100%;
         position: absolute;
         z-index: 1;
-        top: 0;
-        right: 35px;
+        top: 19%;
+        right: 18%;
       }
       &-2 {
         width: 120px;
@@ -266,8 +270,8 @@ export const BubbleImageContainer = styled.span`
         border-radius: 100%;
         position: absolute;
         z-index: 1;
-        top: 100px;
-        right: 110px;
+        top: 50%;
+        right: 60%;
       }
     }
 

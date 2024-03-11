@@ -39,7 +39,7 @@ function HealthDiagnosisOfDeepSeaCoral() {
         footer_image="/assets/images/expeditions/health_diagnosis_of_deep_sea_coral/Footer.webp"
       >
         <SectionWithImage
-          image="/assets/images/expeditions/health_diagnosis_of_deep_sea_coral/FKt230417.webp"
+          image="/assets/images/expeditions/health_diagnosis_of_deep_sea_coral/Colleen.webp"
           alt="Dr. Colleen Hansel"
         />
         <SectionBrands />

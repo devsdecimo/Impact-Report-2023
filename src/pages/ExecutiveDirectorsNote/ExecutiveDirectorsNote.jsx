@@ -29,7 +29,18 @@ function ExecutiveDirectorsNote() {
           <p>
             This was a truly historic and momentous year at Schmidt Ocean
             Institute as we embarked on new adventures of scientific discovery
-            with R/V <em>Falkor (too)</em>. The awe of finding{" "}
+            with R/V <em>Falkor (too)</em>.
+          </p>
+        </div>
+        <div className="content">
+          <ImageWithCircle
+            image={"/assets/images/executive_directors_note/BubbleImage1.webp"}
+            circleImage={
+              "/assets/images/executive_directors_note/BubbleImage2.webp"
+            }
+          />
+          <p>
+            The awe of finding{" "}
             <a href="https://schmidtocean.org/cruise/in-search-of-hydrothermal-lost-cities/#news">
               new hydrothermal vent fields teeming with life
             </a>{" "}
@@ -49,9 +60,6 @@ function ExecutiveDirectorsNote() {
             </a>
             - hidden just under the seafloor.
           </p>
-        </div>
-        <div className="content">
-          <ImageWithCircle  image={'/assets/images/executive_directors_note/BubbleImage1.webp'} circleImage={'/assets/images/executive_directors_note/BubbleImage2.webp'}/>
           <p>
             I&rsquo;m proud of all that Schmidt Ocean Institute and the
             scientists and artists we have hosted have accomplished. The
@@ -104,7 +112,10 @@ function ExecutiveDirectorsNote() {
             in the Ocean, assess the health of the Ocean, and increase our
             knowledge about the seabed and the creatures that reside there.
           </p>
-          <ImageWithCircle2 orientation="right"/>
+          <ImageWithCircle2
+            image={"/assets/images/executive_directors_note/TimesSquare.webp"}
+            orientation="right"
+          />
           <p>
             Robust partnerships and collaborations strengthen our ability to
             boldly explore our Ocean. This year, we joined the Nippon Foundation

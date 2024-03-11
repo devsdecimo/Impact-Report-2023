@@ -42,9 +42,7 @@ export const SectionWithImageContainer = styled.div`
     }
   }
 
-  .image {
-    width: 180px !important;
-    top: -35px !important;
-    right: 35px !important;
+  .type-4 .image {
+    right: 8%;
   }
 `;

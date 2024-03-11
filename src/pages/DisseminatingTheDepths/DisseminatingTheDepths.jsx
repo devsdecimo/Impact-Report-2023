@@ -4,25 +4,25 @@ import Page from "../../components/Page/Page";
 import CarouselNav from "../../components/CarouselNav/CarouselNav";
 import { Outlet } from "react-router-dom";
 
-function DisseminatingTheDepths() {
+function DisseminatingTheDepths({ children, header_image, footer_image, title }) {
   const navSlides = [
     {
-      img: "/assets/images/disseminating_the_depths/artist-at-sea/ShanHuaArtistAtSea.webp",
+      img: "/assets/images/disseminating_the_depths/artist-at-sea/HEADER-FKt230602-ArtistAtSeaShowcase-20230613-Ingle-0767.webp",
       href: "/disseminating_the_depths/artist_at_sea",
       text: "Artist-at-Sea",
     },
     {
-      img: "/assets/images/disseminating_the_depths/community_building/Community Building  -  Presentation-20231012-CD_Foundation-Galapagos-3.webp",
+      img: "/assets/images/disseminating_the_depths/community_building/HEADER - FKt230629-Rodriguez_Sievert_Bacteria-20230719-Naranjo-04143.webp",
       href: "/disseminating_the_depths/community_building",
       text: "Community Building",
     },
     {
-      img: "/assets/images/disseminating_the_depths/divestreams_and_connections/Divestreams and Connections  -  FKt230812-AndreaShipToShoreGalapagos-20230825-Ingle-1869.webp",
+      img: "/assets/images/disseminating_the_depths/divestreams_and_connections/HEADER - FKt230417-JoseSpanishHourDiveStream-20230428-Ingle-8396.webp",
       href: "/disseminating_the_depths/divestreams_and_connections",
       text: "Divestreams & Connections",
     },
     {
-      img: "/assets/images/disseminating_the_depths/press_and_footage/Press and Footage  -  FKt230812-RicardoStuartOutreachCall-20230901-Ingle-3776-APPROVED.webp",
+      img: "/assets/images/disseminating_the_depths/press_and_footage/HEADER - CBSmornings-Panama-20230911-5108.webp",
       href: "/disseminating_the_depths/press_and_footage",
       text: "Press & Footage",
     },
@@ -36,18 +36,13 @@ function DisseminatingTheDepths() {
   return (
     <PageContainer>
       <Page
-        title={
-          <img
-            src="/assets/images/disseminating_the_depths/Title.svg"
-            alt="Disseminating the Depths"
-          />
-        }
-        header_image="/assets/images/disseminating_the_depths/Header.webp"
-        footer_image="/assets/images/disseminating_the_depths/Footer.webp"
+        title={title}
+        header_image={header_image}
+        footer_image={footer_image}
       >
         <CarouselNav slides={navSlides} />
         <div className="content-body">
-          <Outlet />
+          {children}
         </div>
       </Page>
     </PageContainer>
