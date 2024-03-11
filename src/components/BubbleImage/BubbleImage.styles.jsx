@@ -164,11 +164,11 @@ export const BubbleImageContainer = styled.span`
   &.type-3 {
     display: flex;
     position: relative;
+    width: 40vw;
     aspect-ratio: 45 / 38;
-    height: 40vw;
     margin: 1rem;
     @media (min-width: 768px) {
-      height: 12vw;
+      width: 10vw;
     }
 
     img {

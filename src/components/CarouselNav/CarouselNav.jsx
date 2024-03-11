@@ -98,6 +98,9 @@ function CarouselNav({
         const containerWidth = containerRef.current.offsetWidth;
         const slideWidth = 145;
         const newVisibleSlides = Math.floor(containerWidth / slideWidth);
+        console.log(containerWidth);
+        console.log(slideWidth);
+        console.log(newVisibleSlides);
         setVisibleSlides(newVisibleSlides);
       }
     };

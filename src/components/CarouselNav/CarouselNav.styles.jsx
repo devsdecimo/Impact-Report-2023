@@ -9,6 +9,7 @@ export const CarouselNavContainer = styled.div`
   flex-wrap: nowrap;
   margin: 2rem 0;
   padding: 1rem 0;
+  max-width: 100vw;
   &.all-visible{
     overflow: visible;
   }

@@ -11,6 +11,7 @@ export const PageContainer = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     max-width: 1200px;
     @media (min-width: 768px) {
       display: block;
@@ -21,6 +22,7 @@ export const PageContainer = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 30px;
     @media (min-width: 768px) {
       flex-direction: row;
