@@ -21,28 +21,43 @@ export const PageContainer = styled.div`
   }
 
   .artist-image {
-    width: 45vh;
-    float: left;
+    width: 30vh;
+    @media (min-width: 768px) {
+      float: left;
+      min-width: 45vh;
+    }
   }
 
   .community-image {
-    width: 45vh;
-    float: right;
+    width: 30vh;
+    @media (min-width: 768px) {
+      float: right;
+      min-width: 45vh;
+    }
   }
 
   .connections-image {
-    width: 45vh;
-    float: left;
+    width: 30vh;
+    @media (min-width: 768px) {
+      float: left;
+      min-width: 45vh;
+    }
   }
 
   .press-image {
-    width: 45vh;
-    float: right;
+    width: 30vh;
+    @media (min-width: 768px) {
+      float: right;
+      min-width: 45vh;
+    }
   }
 
   .screen-image {
-    width: 45vh;
-    float: left;
+    width: 30vh;
+    @media (min-width: 768px) {
+      float: left;
+      min-width: 45vh;
+    }
   }
 
   .hide {

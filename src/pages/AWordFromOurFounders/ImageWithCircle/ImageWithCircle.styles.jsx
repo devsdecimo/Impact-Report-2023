@@ -26,9 +26,9 @@ export const ImageWithCircleContainer = styled.div`
 
   img {
     position: absolute;
-    height: 88.32%;
+    height: 100%;
     width: auto;
-    top: 13.25%;
+    top: 3%;
     right: 0px;
   }
   .circle1 {

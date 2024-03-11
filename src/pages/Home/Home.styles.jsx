@@ -53,9 +53,10 @@ export const HomeContainer = styled.div`
 
     &__expeditions {
       display: flex;
-      align-items: center;
+      align-items: flex-start;
       justify-content: center;
       flex-wrap: wrap;
+      gap: 0.7rem;
 
       @media (min-width: 768px) {
         display: block;

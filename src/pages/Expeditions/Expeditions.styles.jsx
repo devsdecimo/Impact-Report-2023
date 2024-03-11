@@ -8,7 +8,13 @@ export const PageContainer = styled.div`
     row-gap: 0;
   }
   .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     max-width: 1200px;
+    @media (min-width: 768px) {
+      display: block;
+    }
   }
 
   .d-flex {

@@ -94,7 +94,7 @@ export const ButtonImageContainer = styled.div`
     text-align: center;
     transform: scale(0);
     transition: 1s;
-    width: 11rem;
+    width: 9rem;
   }
 
   @media (min-width: 768px) {

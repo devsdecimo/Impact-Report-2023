@@ -5,10 +5,7 @@ import SectionWithImage from "./SectionWithImage/SectionWithImage";
 import SectionBrands from "./SectionBrands/SectionBrands";
 import SectionIcons from "./SectionIcons/SectionIcons";
 import Carousel from "../../../components/Carousel/Carousel";
-import GeneralButton from "../../../components/GeneralButton/GeneralButton";
 
-import Prev from "/assets/images/prev.svg";
-import Next from "/assets/images/next.svg";
 import image from "/assets/images/expeditions/in_search_of_hydrothermal_lost_cities/carousel/01-SunriseOnTheBridge.webp";
 import image2 from "/assets/images/expeditions/in_search_of_hydrothermal_lost_cities/carousel/02-Dive491.webp";
 import image3 from "/assets/images/expeditions/in_search_of_hydrothermal_lost_cities/carousel/03-VentFaunaReflectiveP.webp";
@@ -17,7 +14,6 @@ import image5 from "/assets/images/expeditions/in_search_of_hydrothermal_lost_ci
 import Cientifico from "/assets/images/expeditions/in_search_of_hydrothermal_lost_cities/Cientifico.webp";
 import BubbleImage from "../../../components/BubbleImage/BubbleImage";
 import YoutubeVideo from "../../../components/YoutubeVideo/YouTubeVideo";
-import CarouselNav from "../../../components/CarouselNav/CarouselNav";
 import ExpeditionsNav from "../ExpeditionsNav";
 
 function InSearchOfHydrothermalLostCities() {
