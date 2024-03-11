@@ -75,7 +75,7 @@ function DynamicsOfSinkingMicroplastics() {
             </li>
             <li>
               The team conducted a comparison study on two different
-              sampling methodologies — R/V Falkor (too)’s CTD and a
+              sampling methodologies — R/V <em>Falkor (too)</em>’s CTD and a
               McLane large water pump to enhance understanding of
               the most effective and accurate technique for
               sampling microplastics in the Ocean.
@@ -109,7 +109,7 @@ function DynamicsOfSinkingMicroplastics() {
           <p>
             Our understanding of the vertical movement of microplastics
             in the marine environment remains limited, primarily due
-            to a scarcity of in situ measurements. Studying
+            to a scarcity of <em>in situ</em> measurements. Studying
             microplastics beyond the surface requires building new tools
             to address knowledge gaps and improve data collection.
             The major obstacle to studying microplastics in the water
@@ -117,7 +117,7 @@ function DynamicsOfSinkingMicroplastics() {
             samples and small enough filtration resolution. To tackle
             these challenges, the team used a novel piece of equipment
             called a UFO built explicitly for studying microplastics.
-            They also used the McLane large water pump and the CTD to
+            They also used the McLane large water pump and <a href="https://oceanexplorer.noaa.gov/technology/ctd/ctd.html" target="_blank">the CTD</a> to
             collect water samples from matching depths — building an
             essential picture of what microplastics exist at different
             levels in the Ocean.
