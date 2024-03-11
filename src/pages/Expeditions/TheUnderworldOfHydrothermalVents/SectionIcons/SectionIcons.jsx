@@ -33,18 +33,19 @@ function SectionIcons() {
         />
         <IconWithText
           className={"CTA"}
-          icon={Samples}
-          numbers="228"
-          text={"ROV samples collected"}
+          icon={Dives}
+          numbers="19"
+          text={"ROV dives"}
           opacity={0.8}
         />
+        
       </div>
       <div className="columna">
         <IconWithText
           className={"CTA"}
-          icon={Dives}
-          numbers="19"
-          text={"ROV dives"}
+          icon={Samples}
+          numbers="228"
+          text={"ROV samples collected"}
           opacity={0.8}
         />
       </div>
