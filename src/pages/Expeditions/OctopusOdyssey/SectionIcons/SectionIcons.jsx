@@ -23,7 +23,7 @@ function SectionIcons() {
         <IconWithText
           className={"CTA"}
           icon={Map}
-          numbers="1184"
+          numbers="21404"
           numbers2="53"
           separator="."
           text={"sq km mapped"}

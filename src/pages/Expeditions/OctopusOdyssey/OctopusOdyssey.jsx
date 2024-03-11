@@ -15,6 +15,16 @@ import ExpeditionsNav from "../ExpeditionsNav";
 
 function OctopusOdyssey() {
   const slidesPath = "/assets/images/expeditions/octopus_odyssey/carousel/";
+
+  const slides = [
+    { img: `${slidesPath}01-Rovs.webp` },
+    { img: `${slidesPath}02-Octo.webp` },
+    { img: `${slidesPath}03-Ship.webp` },
+    { img: `${slidesPath}04-Shrimp.webp` },
+    { img: `${slidesPath}05-Baby.webp` },
+  ];
+  /*OLD CAROUSEL:*/
+  /*
   const slides = [
     { img: `${slidesPath}01-octoShrimp.webp` },
     { img: `${slidesPath}02-Sample.webp` },
@@ -24,6 +34,7 @@ function OctopusOdyssey() {
     { img: `${slidesPath}06-ROVGlowInWater.webp` },
     { img: `${slidesPath}07-ROVSampleProcessing.webp` },
   ];
+  */
 
   return (
     <PageContainer>
@@ -70,8 +81,7 @@ function OctopusOdyssey() {
           <ul>
             <li>
               The team confirmed the Dorado Outcrop in Costa Rica&rsquo;s
-              Pacific waters hosts a year-round octopus nursery with hundreds of
-              <em>Muusoctopus</em> brooding viable eggs in low-temperature
+              Pacific waters hosts a year-round octopus nursery with hundreds of <em>Muusoctopus</em> brooding viable eggs in low-temperature
               hydrothermal fluids.
             </li>
             <li>

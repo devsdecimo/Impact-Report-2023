@@ -69,10 +69,6 @@ function TheUnderworldOfHydrothermalVents() {
               habitats exist both above and below the seafloor.
             </li>
             <li>
-              Scientists believe they have discovered four new octopus species
-              during the Octopus Odyssey and Octopus Odyssey (too) expeditions.
-            </li>
-            <li>
               Researchers found evidence of vent animals, like tubeworms,
               traveling underneath the seafloor through vent fluid to colonize new habitats.
             </li>
@@ -87,12 +83,12 @@ function TheUnderworldOfHydrothermalVents() {
           <p>
             A new ecosystem was discovered in the form of small, shallow cavities
             beneath hydrothermal vents at a deep sea volcano on the East
-            Pacific Rise. ROV SuBastian pilots overturned volcanic crust
+            Pacific Rise. ROV <em>SuBastian</em> pilots overturned volcanic crust
             to reveal cavities of lobate lava are teeming with worms, snails,
             and chemosynthetic bacteria in 23.9 degrees Celsius water.
           </p>
           <p>
-            The team of scientists on R/V Falkor (too) set out to observe and
+            The team of scientists on R/V <em>Falkor (too)</em> set out to observe and
             describe the diversity of life beneath deep-sea hydrothermal vents.
             They validated their hypotheses that (1) eukaryotic life is an
             integral component of habitats below hydrothermal vents, (2) the
@@ -108,16 +104,6 @@ function TheUnderworldOfHydrothermalVents() {
             communities above and below vents will allow the scientists to
             assess the connection between these communities upon data and
             sample analysis in the upcoming months.
-          </p>
-          <p>
-            Scientists believe they have discovered four new octopus species
-            during the two expeditions; these discoveries will go through a
-            rigorous analysis process to be confirmed and published in the
-            coming months. One octopus may be a new species of{" "}
-            <em>Muusoctopus</em>, which was the only one observed brooding their
-            eggs on low-temperature hydrothermal vents; this adds to the
-            hypothesis that only the <em>Muusoctopus </em>genus has evolved to
-            brood their eggs in warm springs on the seafloor.
           </p>
           <p>
             Ultimately, this discovery transforms our current understanding of
