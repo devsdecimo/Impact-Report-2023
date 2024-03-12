@@ -28,44 +28,6 @@ function CarouselNav({
   const [enabledTransition, setTransitionEnabled] = useState(true);
   const [enabledPrevNext, setEnabledPrevNext] = useState(true);
 
-  const nextSlide = () => {
-    if (!enabledPrevNext) return;
-    setEnabledPrevNext(false);
-    setCurrentIndex((prevIndex) => {
-      const newIndex = prevIndex + 1;
-      if (newIndex >= extendedSlides.length - slides.length) {
-        setTimeout(() => {
-          setTransitionEnabled(false);
-          setCurrentIndex(2);
-        }, 500);
-      }
-      setTimeout(() => {
-        setTransitionEnabled(true);
-        setEnabledPrevNext(true);
-      }, 550);
-      return newIndex;
-    });
-  };
-
-  const prevSlide = () => {
-    if (!enabledPrevNext) return;
-    setEnabledPrevNext(false);
-    setCurrentIndex((prevIndex) => {
-      const newIndex = prevIndex - 1;
-      if (newIndex < 2) {
-        setTimeout(() => {
-          setTransitionEnabled(false);
-          setCurrentIndex(extendedSlides.length - (slides.length + 1));
-        }, 200);
-      }
-      setTimeout(() => {
-        setTransitionEnabled(true);
-        setEnabledPrevNext(true);
-      }, 250);
-      return newIndex;
-    });
-  };
-
   const changeSlide = (direction) => {
     if (!enabledPrevNext) return;
     setEnabledPrevNext(false);
@@ -98,9 +60,6 @@ function CarouselNav({
         const containerWidth = containerRef.current.offsetWidth;
         const slideWidth = 145;
         const newVisibleSlides = Math.floor(containerWidth / slideWidth);
-        console.log(containerWidth);
-        console.log(slideWidth);
-        console.log(newVisibleSlides);
         setVisibleSlides(newVisibleSlides);
       }
     };
@@ -115,7 +74,7 @@ function CarouselNav({
 
   useEffect(() => {
     if (autoplay) {
-      timeoutRef.current = setTimeout(this.nextSlide, delay);
+      timeoutRef.current = setTimeout(changeSlide(1), delay);
     }
     return () => {
       if (timeoutRef.current) {
@@ -150,7 +109,7 @@ function CarouselNav({
       const diffX = startX - currentX;
       setDragDistance((dragDistance) => dragDistance + Math.abs(diffX));
       if (Math.abs(diffX) > 50) {
-        diffX > 0 ? nextSlide() : prevSlide();
+        diffX > 0 ? changeSlide(1) : changeSlide(-1);
         setIsDragging(false);
       }
     }
@@ -172,7 +131,7 @@ function CarouselNav({
   const handleMouseLeave = () => {
     setIsDragging(false);
     if (autoplay) {
-      timeoutRef.current = setTimeout(nextSlide, delay);
+      timeoutRef.current = setTimeout(changeSlide(1), delay);
     }
   };
 

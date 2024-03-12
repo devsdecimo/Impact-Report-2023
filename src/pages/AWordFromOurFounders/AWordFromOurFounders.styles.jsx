@@ -74,11 +74,12 @@ export const PageContainer = styled.div`
     line-height: normal;
     max-width: 90%;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 
     @media (min-width: 830px) {
       width: 60%;
       max-width: 1000px;
+      font-size: 1.5rem;
     }
   }
 

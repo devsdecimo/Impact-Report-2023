@@ -5,6 +5,7 @@ import ImageWithCircle from "./ImageWithCircle/ImageWithCircle";
 import ImageWithCircle2 from "./ImageWithCircle2/ImageWithCircle2";
 
 import CarouselNav from "../../components/CarouselNav/CarouselNav";
+import ScrollToTop from "../../components/ScrollToTop/ScrollToTop";
 
 function ExecutiveDirectorsNote() {
   const navSlides = [
@@ -162,15 +163,7 @@ function ExecutiveDirectorsNote() {
             <em>Dr. Jyotika Virmani</em>
           </p>
         </div>
-
-        {/* <div className="btn-container">
-          <GeneralButton
-            text="Executive Director's Note"
-            href="/executive_directors_note"
-            icon={Next}
-            iconPosition="right"
-          />
-        </div> */}
+        <ScrollToTop />
         <CarouselNav slides={navSlides} />
       </Page>
     </PageContainer>

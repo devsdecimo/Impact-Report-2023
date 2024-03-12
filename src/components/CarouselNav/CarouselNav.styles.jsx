@@ -3,13 +3,14 @@ import styled from "styled-components";
 export const CarouselNavContainer = styled.div`
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   overflow: hidden;
   position: relative;
   flex-wrap: nowrap;
   margin: 2rem 0;
   padding: 1rem 0;
   max-width: 100vw;
+  min-height: 250px;
   &.all-visible{
     overflow: visible;
   }
@@ -38,15 +39,18 @@ export const Slide = styled.div`
   align-items: center;
   margin: 0 20px;
   transition: ${(props) =>
-    props.enabledTransition ? " opacity 0.2s ease" : "0s"};
+  props.enabledTransition ? " opacity 0.2s ease" : "0s"};
   opacity: 1;
   width: 120px;
+  height: 120px;
+  aspect-ratio: 1/1;
 
   .slide-image {
     border-radius: 100%;
     border: 0.4rem solid #3e5973;
     aspect-ratio: 1/1;
     width: 120px;
+    height: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,6 +83,7 @@ export const Slide = styled.div`
 
   &:hover {
     .image-container img {
+      /* transform: scale(1.1); */
     }
   }
 
@@ -107,7 +112,7 @@ export const ArrowButton = styled.button`
   background-color: transparent;
   background: rgba(250, 250, 250, 0.8);
   height: 100%;
-  width: 30%;
+  width: 21%;
   transform: translateY(-50%);
   border: none;
   cursor: pointer;

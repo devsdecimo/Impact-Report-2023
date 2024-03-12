@@ -9,6 +9,7 @@ import CircleBg from "/assets/images/a_word_from_our_founders/CircleBg.webp";
 import Subastian from "/assets/images/a_word_from_our_founders/Subastian.webp";
 import Octopus from "/assets/images/a_word_from_our_founders/Octopus.webp";
 import CarouselNav from "../../components/CarouselNav/CarouselNav";
+import ScrollToTop from "../../components/ScrollToTop/ScrollToTop";
 
 function AWordFromOurFounders() {
   const navSlides = [
@@ -91,6 +92,7 @@ function AWordFromOurFounders() {
             <em>Eric & Wendy Schmidt</em>
           </p>
         </div>
+        <ScrollToTop />
         <CarouselNav slides={navSlides} />
       </Page>
     </PageContainer>

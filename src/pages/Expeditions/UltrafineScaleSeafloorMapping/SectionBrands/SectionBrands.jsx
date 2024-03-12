@@ -55,33 +55,26 @@ function SectionBrands({image,alt}) {
 
   useEffect(() => {
     setSlides([
-      { img: Memorial, href: 'https://www.mun.ca/', target: '_blank' , alt:'Memorial University'},
-      { img: Victoria, href: 'https://www.uvic.ca/', target: '_blank' , alt:'University of Victoria, Canada'},
-      { img: Dalhousie, href: 'https://www.dal.ca/', target: '_blank' , alt:'Dalhousie University, Canada'},
-      { img: Ottawa, href: 'https://www.uottawa.ca/en', target: '_blank', alt:'University of Ottawa, Canada'},
-      { img: Toronto, href: 'https://www.utoronto.ca/', target: '_blank' , alt:'University of Toronto, Canada'},
-      { img: JAMSTEC, href: 'https://www.jamstec.go.jp/e/', target: '_blank' , alt:'JAMSTEC, Japan'},
-      { img: USGS, href: 'https://www.usgs.gov/', target: '_blank' , alt:'United States Geological Survey'},
-      { img: UQAR, href: 'https://www.uqar.ca/', target: '_blank' , alt:'University de Quebec a Rimouski, Canada'},
-      { img: NOC, href: 'https://noc.ac.uk/', target: '_blank' , alt:'NOC'},
-      { img: Canada, href: 'https://www.dfo-mpo.gc.ca/index-eng.html', target: '_blank' , alt:'Fisheries and Oceans Canada'},
-      { img: Darwin, href: 'https://www.darwinfoundation.org/en/', target: '_blank' , alt:'Charles Darwin Foundation (CDF)'},
-      { img: GalapagosPark, href: 'https://galapagos.gob.ec/parque-nacional-galapagos/', target: '_blank' , alt:'Galápagos National Park'},
-      { img: INOCAR, href: 'https://www.inocar.mil.ec/web/index.php', target: '_blank' , alt:'the Ecuadorian Navy’s Oceanographic and Antarctic Institute (INOCAR)'},
-      { img: KRAKEN, href: 'https://krakenrobotics.com/', target: '_blank' , alt:'KRAKEN'},     
+      { img: Memorial, href: 'https://www.mun.ca/', target: '_blank' , alt:'Memorial University', orientation: 'horizontal'},
+      { img: Victoria, href: 'https://www.uvic.ca/', target: '_blank' , alt:'University of Victoria, Canada', orientation: 'vertical'},
+      { img: Dalhousie, href: 'https://www.dal.ca/', target: '_blank' , alt:'Dalhousie University, Canada', orientation: 'vertical'},
+      { img: Ottawa, href: 'https://www.uottawa.ca/en', target: '_blank', alt:'University of Ottawa, Canada', orientation: 'vertical'},
+      { img: Toronto, href: 'https://www.utoronto.ca/', target: '_blank' , alt:'University of Toronto, Canada', orientation: 'vertical'},
+      { img: JAMSTEC, href: 'https://www.jamstec.go.jp/e/', target: '_blank' , alt:'JAMSTEC, Japan', orientation: 'vertical'},
+      { img: USGS, href: 'https://www.usgs.gov/', target: '_blank' , alt:'United States Geological Survey', orientation: 'horizontal'},
+      { img: UQAR, href: 'https://www.uqar.ca/', target: '_blank' , alt:'University de Quebec a Rimouski, Canada', orientation: 'horizontal'},
+      { img: NOC, href: 'https://noc.ac.uk/', target: '_blank' , alt:'NOC', orientation: 'vertical'},
+      { img: Canada, href: 'https://www.dfo-mpo.gc.ca/index-eng.html', target: '_blank' , alt:'Fisheries and Oceans Canada', orientation: 'vertical'},
+      { img: Darwin, href: 'https://www.darwinfoundation.org/en/', target: '_blank' , alt:'Charles Darwin Foundation (CDF)', orientation: 'vertical'},
+      { img: GalapagosPark, href: 'https://galapagos.gob.ec/parque-nacional-galapagos/', target: '_blank' , alt:'Galápagos National Park', orientation: 'horizontal'},
+      { img: INOCAR, href: 'https://www.inocar.mil.ec/web/index.php', target: '_blank' , alt:'the Ecuadorian Navy’s Oceanographic and Antarctic Institute (INOCAR)', orientation: 'vertical'},
+      { img: KRAKEN, href: 'https://krakenrobotics.com/', target: '_blank' , alt:'KRAKEN',orientation: 'horizontal'},     
     ])
   }, []);
 
   return (
     <SectionBrandsContainer>
-        <div className="brands-container only-desktop">
-          {slides.map((slide, index)=>
-          <Link to={slide.href} target={slide.target} key={index}>
-            <img src={slide.img} alt={slide.alt}/>
-          </Link>
-            )}
-        </div>
-        <div className="only-mobile">
+        <div>
           <CarouselBrands slides={slides}/>
         </div>
         

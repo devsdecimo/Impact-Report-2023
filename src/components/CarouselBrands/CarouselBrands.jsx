@@ -1,51 +1,114 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { CarouselBrandsContainer, Slide, DotContainer, Dot, ArrowButton } from './CarouselBrands.styles.jsx';
+import React, { useState, useEffect, useRef, useCallback } from "react";
+import {
+  CarouselBrandsContainer,
+  Slide,
+  ArrowButton,
+  SlidesContainer,
+} from "./CarouselBrands.styles.jsx";
 
-function CarouselBrands({ slides, autoplay = true, loop = true, delay = 5000 }) {
-  const [currentIndex, setCurrentIndex] = useState(0);
+import { Link } from "react-router-dom";
+
+function CarouselBrands({
+  slides = [],
+  autoplay = true,
+  loop = true,
+  delay = 5000,
+}) {
+  const extendedSlides = [
+    ...slides.slice(-slides.length),
+    ...slides,
+    ...slides.slice(0, slides.length),
+  ];
+  
+  const [currentIndex, setCurrentIndex] = useState(2);
   const [isDragging, setIsDragging] = useState(false);
   const [startX, setStartX] = useState(0);
   const [dragDistance, setDragDistance] = useState(0);
   const timeoutRef = useRef(null);
+  const containerRef = useRef(null);
+  const [visibleSlides, setVisibleSlides] = useState(3);
+  const [enabledTransition, setTransitionEnabled] = useState(true);
+  const [enabledPrevNext, setEnabledPrevNext] = useState(true);
 
-  const nextSlide = () => {
-    setCurrentIndex((prevIndex) =>
-      prevIndex === slides.length - 1 ? (loop ? 0 : prevIndex) : prevIndex + 1
-    );
-  };
+  const changeSlide = useCallback((direction) => {
+    if (!enabledPrevNext) return;
+    setEnabledPrevNext(false);
+    setCurrentIndex((prevIndex) => {
+      const newIndex = prevIndex + direction;
+      if (
+        newIndex >= extendedSlides.length - slides.length ||
+        newIndex < slides.length
+      ) {
+        setTimeout(() => {
+          setTransitionEnabled(false);
+          setCurrentIndex(
+            direction > 0
+              ? slides.length
+              : extendedSlides.length - (slides.length + 1)
+          );
+        }, 200);
+      }
+      setTimeout(() => {
+        setTransitionEnabled(true);
+        setEnabledPrevNext(true);
+      }, 250);
+      return newIndex;
+    });
+  },[slides, enabledPrevNext, extendedSlides]);
 
-  const prevSlide = () => {
-    setCurrentIndex((prevIndex) =>
-      prevIndex === 0 ? (loop ? slides.length - 1 : prevIndex) : prevIndex - 1
-    );
-  };
+  useEffect(() => {
+    const updateVisibleSlides = () => {
+      if (containerRef.current) {
+        const containerWidth = containerRef.current.offsetWidth;
+        const slideWidth = 145;
+        const newVisibleSlides = Math.floor(containerWidth / slideWidth);
+        setVisibleSlides(newVisibleSlides);
+      }
+    };
+
+    window.addEventListener("resize", updateVisibleSlides);
+    updateVisibleSlides();
+
+    return () => {
+      window.removeEventListener("resize", updateVisibleSlides);
+    };
+  }, []);
 
   useEffect(() => {
     if (autoplay) {
-      timeoutRef.current = setTimeout(nextSlide, delay);
+      timeoutRef.current = setTimeout(() => {
+        if (enabledPrevNext) {
+          changeSlide(1);
+        }
+      }, delay);
     }
     return () => {
       if (timeoutRef.current) {
         clearTimeout(timeoutRef.current);
       }
     };
-  }, [currentIndex, autoplay, delay, loop, slides.length]);
+  }, [
+    currentIndex,
+    autoplay,
+    delay,
+    loop,
+    slides.length,
+    enabledPrevNext,
+    changeSlide,
+  ]);
 
-  const handleDotClick = (index) => {
-    setCurrentIndex(index);
-  };
-
-  const getSlidePosition = (index) => {
-    let position = 'next';
-    if (index === currentIndex) {
-      position = 'center';
-    } else if (index === (currentIndex - 1 + slides.length) % slides.length) {
-      position = 'prev';
-    } else if (currentIndex === slides.length - 1 && index === 0) {
-      position += ' first-next';
+  useEffect(() => {
+    if (slides.length > 1) {
+      if (visibleSlides < slides.length) {
+        const index = slides.findIndex(
+          (expedition) => expedition.href === location.pathname
+        );
+        setCurrentIndex(index + slides.length);
+      } else {
+        setCurrentIndex(slides.length / 2);
+      }
     }
-    return position;
-  };
+  }, [slides, visibleSlides]);
 
   const handleMouseDown = (e) => {
     e.preventDefault();
@@ -55,12 +118,12 @@ function CarouselBrands({ slides, autoplay = true, loop = true, delay = 5000 }) 
   };
 
   const handleMouseMove = (e) => {
-    if (isDragging) {
+    if (isDragging && visibleSlides < slides.length) {
       const currentX = e.clientX;
       const diffX = startX - currentX;
-      setDragDistance(dragDistance => dragDistance + Math.abs(diffX));
+      setDragDistance((dragDistance) => dragDistance + Math.abs(diffX));
       if (Math.abs(diffX) > 50) {
-        diffX > 0 ? nextSlide() : prevSlide();
+        diffX > 0 ? changeSlide(1) : changeSlide(-1);
         setIsDragging(false);
       }
     }
@@ -80,55 +143,89 @@ function CarouselBrands({ slides, autoplay = true, loop = true, delay = 5000 }) 
   const handleMouseLeave = () => {
     setIsDragging(false);
     if (autoplay) {
-      timeoutRef.current = setTimeout(nextSlide, delay);
+      timeoutRef.current = setTimeout(changeSlide(1), delay);
     }
   };
 
   return (
     <CarouselBrandsContainer
+      ref={containerRef}
       onMouseDown={handleMouseDown}
       onMouseMove={handleMouseMove}
       onMouseUp={handleMouseUp}
       onMouseLeave={handleMouseLeave}
       onMouseEnter={pauseAutoplay}
+      className={visibleSlides >= slides.length && "all-visible"}
     >
-      <ArrowButton direction="left" onClick={prevSlide}>
-        &#10094;
-      </ArrowButton>
+      <SlidesContainer
+        currentIndex={currentIndex}
+        totalSlides={slides.length}
+        visibleSlides={visibleSlides}
+        enabledTransition={enabledTransition}
+        className={visibleSlides >= slides.length && "all-visible"}
+      >
+        {(visibleSlides < slides.length ? extendedSlides : slides).map(
+          (slide, index) => {
+            let className = "";
+            if (
+              index < currentIndex - visibleSlides / 2 ||
+              index > currentIndex + visibleSlides / 2
+            ) {
+              className = "hidden";
+            }
+            return (
+              <Slide
+                key={index}
+                className={`${className} ${
+                  visibleSlides >= slides.length && "all-visible"
+                }`}
+                enabledTransition={enabledTransition}
+              >
+                <Link
+                  to={slide.href || ""}
+                  target={slide.target || "_self"}
+                  onClick={(e) => {
+                    if (isDragging || !slide.href) {
+                      e.preventDefault();
+                    }
+                  }}
+                >
+                  <div className="slide-image">
+                    <img
+                      src={slide.img}
+                      alt={slide.text}
+                      draggable={false}
+                      className={slide.orientation}
+                    />
+                  </div>
+                  <div className="slide-text">{slide.text}</div>
+                </Link>
+              </Slide>
+            );
+          }
+        )}
+      </SlidesContainer>
 
-      {slides.map((slide, index) => (
-        <Slide key={slide.img} className={getSlidePosition(index)}>
-          <a
-            href={slide.href || ''}
-            target={slide.target || '_self'}
-            onClick={(e) => {
-              if (isDragging || !slide.href) {
-                e.preventDefault();
-              }
+      {visibleSlides < slides.length && (
+        <>
+          <ArrowButton
+            direction="left"
+            onClick={() => {
+              changeSlide(-1);
             }}
           >
-            <img
-              src={slide.img}
-              alt={`Slide ${index}`}
-              draggable={false}
-            />
-          </a>
-        </Slide>
-      ))}
-
-      <ArrowButton direction="right" onClick={nextSlide}>
-        &#10095;
-      </ArrowButton>
-
-      <DotContainer>
-        {slides.map((_, index) => (
-          <Dot
-            key={index}
-            actived={(index === currentIndex ? 1 : 0)}
-            onClick={() => handleDotClick(index)}
-          />
-        ))}
-      </DotContainer>
+            &#10094;
+          </ArrowButton>
+          <ArrowButton
+            direction="right"
+            onClick={() => {
+              changeSlide(1);
+            }}
+          >
+            &#10095;
+          </ArrowButton>
+        </>
+      )}
     </CarouselBrandsContainer>
   );
 }

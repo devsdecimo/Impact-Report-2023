@@ -35,7 +35,7 @@ function SectionWithImage({image, image2 ,alt}) {
                 <IconWithText  
                     className={'CTA'} 
                     icon={Discovered} 
-                    text={"Chief Scientist: Dr. Monika Bright"} 
+                    text={"Dr. Monika Bright"} 
                     opacity={1}
                 />
                 </div>
