@@ -258,7 +258,7 @@ export const ConductedDataContainer = styled.div`
         display: block;
         font-size: 1.5vw;
         top: 97%;
-        right: -33%;
+        right: -31%;
       }
     }
   }
