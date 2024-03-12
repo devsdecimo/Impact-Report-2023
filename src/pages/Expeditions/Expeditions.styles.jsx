@@ -99,4 +99,12 @@ export const PageContainer = styled.div`
   li::marker {
     font-size: 1.2;
   }
+
+  .expedition-bubble-image {
+    width: 30vh;
+    @media (min-width: 768px) {
+      float: left;
+      min-width: 40vh;
+    }
+  }
 `;

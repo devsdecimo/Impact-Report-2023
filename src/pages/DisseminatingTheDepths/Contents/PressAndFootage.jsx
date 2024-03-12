@@ -25,12 +25,12 @@ function PressAndFootage() {
         13 press releases in 2023, citing 13 findings and resulting in more than
         4,000 new stories. Of note was co-founder and president Wendy
         Schmidt&rsquo;s interview on{" "}
-        <a href="https://www.today.com/video/scientists-use-new-vessel-for-never-before-seen-look-in-deep-sea-170792517749">
+        <a href="https://www.today.com/video/scientists-use-new-vessel-for-never-before-seen-look-in-deep-sea-170792517749" target="_blank">
           The Today Show
         </a>{" "}
         in April and a sit-down with Ben Tracey onboard <em>Falkor (too)</em>{" "}
         for{" "}
-        <a href="https://www.cbs.com/shows/video/YBqTWkkVaYdHYFCPIguiXXNrZeCXhldx/">
+        <a href="https://www.cbs.com/shows/video/YBqTWkkVaYdHYFCPIguiXXNrZeCXhldx/" target="_blank">
           CBS Saturday Morning
         </a>
         .

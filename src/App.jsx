@@ -143,7 +143,7 @@ function App() {
               />
               <Route path="grants" element={<Grants />} />
               <Route
-                path="thought_leadership"
+                path="throught_leadership"
                 element={<ThroughtLeadership />}
               />
               <Route

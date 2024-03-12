@@ -109,8 +109,8 @@ function NavMenu({ className }) {
                   <Link to="/the_deep_sea_continuum/grants">Grants</Link>
                 </li>
                 <li>
-                  <Link to="/the_deep_sea_continuum/thought_leadership">
-                    Thought Leadership
+                  <Link to="/the_deep_sea_continuum/throught_leadership">
+                    Throught Leadership
                   </Link>
                 </li>
                 <li>

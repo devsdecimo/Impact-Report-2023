@@ -17,7 +17,7 @@ function TheDeepSeaContinuum() {
     },
     {
       img: "/assets/images/the_deep_sea_continuum/JoseSpanishHourDiveStream.webp",
-      href: "/the_deep_sea_continuum/thought_leadership",
+      href: "/the_deep_sea_continuum/throught_leadership",
       text: "Throught Leadership",
     },
     {

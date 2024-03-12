@@ -42,11 +42,11 @@ function StrategicPartnerships() {
           the first investigator, and brought her exploration team of four to
           study microplastic distribution and movement in the water column off
           the coast of Panama. The{" "}
-          <a href="https://schmidtocean.org/cruise/dynamics-of-sinking-microplastics/">
+          <a href="https://schmidtocean.org/cruise/dynamics-of-sinking-microplastics/" target="_blank">
             Dynamics of Sinking Microplastics expedition
           </a>{" "}
           was{" "}
-          <a href="https://www.cbs.com/shows/video/2bYZkzAy1kVplIKmgUQD_9bz3phVMPra/">
+          <a href="https://www.cbs.com/shows/video/2bYZkzAy1kVplIKmgUQD_9bz3phVMPra/" target="_blank">
             covered by CBS Mornings
           </a>
           .
@@ -55,7 +55,7 @@ function StrategicPartnerships() {
           Dr. Ana-Belen Yanez Suarez, another National Geographic Explorer,
           expanded on Dr. Simon-Sanchez&rsquo;s research alongside Dr. Katleen
           Robert during the
-          <a href="https://schmidtocean.org/cruise/vertical-reefs-of-the-galapagos/#about">
+          <a href="https://schmidtocean.org/cruise/vertical-reefs-of-the-galapagos/#about" target="_blank">
             Vertical Reefs of the Gal&aacute;pagos expedition
           </a>
           . Yanez Suarez and the team explored seamounts southwest of Isla del
@@ -81,7 +81,7 @@ function StrategicPartnerships() {
         <p>
           To accelerate society&rsquo;s response to climate change, SOI is
           partnering with Schmidt Futures&rsquo;{" "}
-          <a href="https://www.schmidtfutures.com/our-work/obvi/">
+          <a href="https://www.schmidtfutures.com/our-work/obvi/" target="_blank">
             Ocean Biogeochemistry Virtual Institute
           </a>
           , or OBVI, tackling challenging data and modeling problems in ocean
@@ -114,7 +114,7 @@ function StrategicPartnerships() {
         <p>
           Only 10% of ocean life has been discovered. This year, a new
           collaborative was formed to address this gap in knowledge.{" "}
-          <a href="http://oceancensus.org">Ocean Census</a> was created as an
+          <a href="http://oceancensus.org" target="_blank">Ocean Census</a> was created as an
           open network of science, business, media, and civil society
           organizations with the goal of accelerating discovery and protection
           of ocean life. Founded by The Nippon Foundation and Nekton, SOI joined
@@ -132,7 +132,7 @@ function StrategicPartnerships() {
           of success for the census. Since April, SOI has participated in
           planning discussions focused on establishing taxonomic workshops in
           developing areas where research will occur and bringing taxonomists on
-          board R/V
+          board R/V{" "}
           <em>Falkor (too) </em>to support this ambitious effort.
         </p>
       </div>
@@ -150,7 +150,7 @@ function StrategicPartnerships() {
           from clothes we wear to the games we play &mdash; with the undersea
           world is a powerful avenue for nurturing a new generation of ocean
           ambassadors.{" "}
-          <a href="https://schmidtocean.org/ocean-rising/">Ocean Rising</a>,{" "}
+          <a href="https://schmidtocean.org/ocean-rising/" target="_blank">Ocean Rising</a>,{" "}
           established in 2021 by SOI and Nekton, deepens people&rsquo;s
           relationship with the Ocean by galvanizing connections through global
           popular culture. Since the initiative&rsquo;s inception, workshops
@@ -164,24 +164,24 @@ function StrategicPartnerships() {
           through the fashion workshop. Global luxury designer Jenny Packham
           used SOI imagery as inspiration for a resort wear collection that was
           featured in{" "}
-          <a href="https://www.vogue.com/fashion-shows/resort-2024/jenny-packham">
+          <a href="https://www.vogue.com/fashion-shows/resort-2024/jenny-packham" target="_blank">
             Vogue
           </a>
           . Taiwanese designer Pei-Wen Jin{" "}
-          <a href="https://www.youtube.com/watch?v=I5qVjM1Q55s&amp;t=43s">
+          <a href="https://www.youtube.com/watch?v=I5qVjM1Q55s&amp;t=43s" target="_blank">
             sailed on <em>Falkor (too)</em>
           </a>{" "}
           during the{" "}
-          <a href="https://schmidtocean.org/cruise/dynamics-of-sinking-microplastics/">
+          <a href="https://schmidtocean.org/cruise/dynamics-of-sinking-microplastics/" target="_blank">
             Dynamics of Sinking Microplastics
           </a>{" "}
           expedition as an{" "}
-          <a href="https://schmidtocean.org/collection/artist-at-sea/">
+          <a href="https://schmidtocean.org/collection/artist-at-sea/" target="_blank">
             Artist-at-Sea
           </a>
           ; she sketched a sustainable, research vessel-inspired clothing line
           with plans to implement the designs on the horizon.{" "}
-          <a href="https://www.instagram.com/shanhua.me/">Shan Hua</a>, digital
+          <a href="https://www.instagram.com/shanhua.me/" target="_blank">Shan Hua</a>, digital
           art winner of the Vogue China Fashion Fund, also joined the expedition
           and worked with Vogue journalists to produce a video about her
           experience.
@@ -196,7 +196,7 @@ function StrategicPartnerships() {
         <h3>Seabed 2030</h3>
         <p>
           Since 2019, SOI has played a substantial role as a partner in the{" "}
-          <a href="https://seabed2030.org/">
+          <a href="https://seabed2030.org/" target="_blank">
             Nippon Foundation-GEBCO Seabed 2030 Project
           </a>
           . This international collaboration is working to create a detailed,
@@ -204,7 +204,7 @@ function StrategicPartnerships() {
           mapped to an adequate resolution when the undertaking was launched;
           today, almost 25% of the seafloor has been mapped, with more than 1
           million square kilometers of mapping data contributed by SOI. In 2023,
-          the team aboard Research Vessel Falkor (too) mapped 190,025.60 square
+          the team aboard Research Vessel <em>Falkor (too)</em> mapped 190,025.60 square
           kilometers of seafloor, including 5 new hydrothermal vent fields, 3
           seamounts, and 2 new cold water coral reefs.
         </p>
@@ -214,7 +214,7 @@ function StrategicPartnerships() {
           In her remarks, she highlighted the power of the alumni network to
           catalyze technologies for seafloor mapping, which advances ocean
           discovery for the greater good. In November, SOI sponsored the{" "}
-          <a href="https://www.youtube.com/@mapthegaps/streams">
+          <a href="https://www.youtube.com/@mapthegaps/streams" target="_blank">
             Map the Gaps Conference
           </a>{" "}
           in Monaco, alongside GEBCO week.
@@ -227,7 +227,7 @@ function StrategicPartnerships() {
           orientation="right"
           direction="up"
         ></BubbleImage>
-        <h3>The Deep Sea Continuum/Strategic Partnerships: MTS/IEEE</h3>
+        <h3>MTS/IEEE</h3>
         <p>
           SOI&rsquo;s partnership with the Marine Technology Society and IEEE
           Oceanic Engineering Society, or IEEE-OES, focuses on the effective
@@ -241,13 +241,13 @@ function StrategicPartnerships() {
           activities to engage women in marine science and technology, and
           special events in the United States. This summer, in partnership with
           IEEE-OES, SOI welcomed{" "}
-          <a href="https://schmidtocean.org/person/monika-aggarwal/">
+          <a href="https://schmidtocean.org/person/monika-aggarwal/" target="_blank">
             Professor Monika Aggarwal from IIT Delhi, India
           </a>{" "}
-          on board R/V <em>Falkor (too)</em> via our berth of opportuntiy
+          on board R/V <em>Falkor (too)</em>{" "}via our berth of opportuntiy
           program to supplement her expertise in image and signal processing
           with an at-sea experience. In October, SOI co-sponsored a tour of the
-          R/V
+          R/V{" "}
           <em>Thomas G. Thompson </em>in Seattle, welcoming the local maritime
           community to tour the ship.
         </p>
