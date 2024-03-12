@@ -152,7 +152,7 @@ export const CollectedDataContainer = styled.div`
       font-weight: 400;
       @media (min-width: 768px) {
         font-size: 1.3vw;
-        right: 2%;
+        right: 7%;
         bottom: 22%;
         top: unset;
         left: unset;
@@ -164,13 +164,13 @@ export const CollectedDataContainer = styled.div`
       color: #2097D3;
       position: absolute;
       font-size: 7vw;
-      left: 44%;
+      left: 42%;
       top: 59%;
       font-weight: 400;
       @media (min-width: 768px) {
         font-size: 1.6vw;
         left: unset;
-        right: 20%;
+        right: 22%;
         top: 26%;
       }
     }
