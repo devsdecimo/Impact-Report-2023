@@ -4,16 +4,22 @@ import Page from "../../components/Page/Page";
 import ImageWithCircle from "./ImageWithCircle/ImageWithCircle";
 import ImageWithCircle2 from "./ImageWithCircle2/ImageWithCircle2";
 
-import Founders from "/assets/images/a_word_from_our_founders/Founders.webp";
-import CircleBg from "/assets/images/a_word_from_our_founders/CircleBg.webp";
-import Subastian from "/assets/images/a_word_from_our_founders/Subastian.webp";
-import Octopus from "/assets/images/a_word_from_our_founders/Octopus.webp";
-import GeneralButton from "../../components/GeneralButton/GeneralButton";
-
-import Next from "/assets/images/next.svg";
-import ExpeditionsNav from "../Expeditions/ExpeditionsNav";
+import CarouselNav from "../../components/CarouselNav/CarouselNav";
 
 function ExecutiveDirectorsNote() {
+  const navSlides = [
+    {
+      img: "/assets/images/a_word_from_our_founders/Falkor_Sunrise.webp",
+      href: "/a_word_from_our_founders",
+      text: "A Word from our Founders",
+    },
+    {
+      img: "/assets/images/executive_directors_note/Seamount.webp",
+      href: "/executive_directors_note",
+      text: "Executive Director's Note",
+    },
+  ];
+
   return (
     <PageContainer>
       <Page
@@ -98,8 +104,8 @@ function ExecutiveDirectorsNote() {
               Divestream footage
             </a>{" "}
             was being transmitted in real time, scientists and engineers on
-            board <em>Falkor (too)</em> were testing new technologies that push our
-            collective research and monitoring capabilities. These tools for
+            board <em>Falkor (too)</em> were testing new technologies that push
+            our collective research and monitoring capabilities. These tools for
             sampling microplastics, detecting{" "}
             <a href="https://schmidtocean.org/scientists-use-new-technology-to-examine-health-of-deep-sea-corals/">
               coral superoxides
@@ -138,9 +144,8 @@ function ExecutiveDirectorsNote() {
             <a href="https://schmidtocean.org/ocean-rising/">Ocean Rising</a>{" "}
             collaboration with Nekton, we continued to inspire new ocean
             ambassadors within popular culture sectors as we hosted fashion
-            designers on <em>Falkor (too)</em> and shared beautiful 
-            undersea imagery in music
-            festivals.
+            designers on <em>Falkor (too)</em> and shared beautiful undersea
+            imagery in music festivals.
           </p>
           <p>
             Reflecting on our inaugural year with <em>Falkor (too)</em>, we are
@@ -166,7 +171,7 @@ function ExecutiveDirectorsNote() {
             iconPosition="right"
           />
         </div> */}
-        <ExpeditionsNav />
+        <CarouselNav slides={navSlides} />
       </Page>
     </PageContainer>
   );

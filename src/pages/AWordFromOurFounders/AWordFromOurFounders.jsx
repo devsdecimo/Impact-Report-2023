@@ -13,12 +13,12 @@ import CarouselNav from "../../components/CarouselNav/CarouselNav";
 function AWordFromOurFounders() {
   const navSlides = [
     {
-      img: "/assets/images/home/expedition_1.webp",
+      img: "/assets/images/a_word_from_our_founders/Falkor_Sunrise.webp",
       href: "/a_word_from_our_founders",
       text: "A Word from our Founders",
     },
     {
-      img: "/assets/images/home/expedition_2.webp",
+      img: "/assets/images/executive_directors_note/Seamount.webp",
       href: "/executive_directors_note",
       text: "Executive Director's Note",
     },
