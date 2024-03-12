@@ -72,6 +72,9 @@ export const PageContainer = styled.div`
     @media (max-width: 829px) {
       width: 90vw;
     }
+    @media (min-width: 768px) {
+      margin-top: 2em;
+    }
   }
 
   .btn-container {
