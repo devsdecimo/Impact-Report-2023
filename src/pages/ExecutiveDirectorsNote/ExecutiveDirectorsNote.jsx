@@ -11,6 +11,7 @@ import Octopus from "/assets/images/a_word_from_our_founders/Octopus.webp";
 import GeneralButton from "../../components/GeneralButton/GeneralButton";
 
 import Next from "/assets/images/next.svg";
+import ExpeditionsNav from "../Expeditions/ExpeditionsNav";
 
 function ExecutiveDirectorsNote() {
   return (
@@ -97,8 +98,7 @@ function ExecutiveDirectorsNote() {
               Divestream footage
             </a>{" "}
             was being transmitted in real time, scientists and engineers on
-            board
-            <em>Falkor (too)</em> were testing new technologies that push our
+            board <em>Falkor (too)</em> were testing new technologies that push our
             collective research and monitoring capabilities. These tools for
             sampling microplastics, detecting{" "}
             <a href="https://schmidtocean.org/scientists-use-new-technology-to-examine-health-of-deep-sea-corals/">
@@ -138,8 +138,8 @@ function ExecutiveDirectorsNote() {
             <a href="https://schmidtocean.org/ocean-rising/">Ocean Rising</a>{" "}
             collaboration with Nekton, we continued to inspire new ocean
             ambassadors within popular culture sectors as we hosted fashion
-            designers on
-            <em>Falkor (too)</em> and shared beautiful undersea imagery in music
+            designers on <em>Falkor (too)</em> and shared beautiful 
+            undersea imagery in music
             festivals.
           </p>
           <p>
@@ -158,14 +158,15 @@ function ExecutiveDirectorsNote() {
           </p>
         </div>
 
-        <div className="btn-container">
+        {/* <div className="btn-container">
           <GeneralButton
             text="Executive Director's Note"
             href="/executive_directors_note"
             icon={Next}
             iconPosition="right"
           />
-        </div>
+        </div> */}
+        <ExpeditionsNav />
       </Page>
     </PageContainer>
   );
