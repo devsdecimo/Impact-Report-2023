@@ -17,9 +17,6 @@ export const ParagraphContainer = styled.div`
         display:block;
     }
   }
-  p{
-    line-height: 3rem;
-  }
   p.text{
     margin-bottom:3rem;
   }

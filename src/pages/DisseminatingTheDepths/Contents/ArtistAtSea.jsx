@@ -4,6 +4,7 @@ import Carousel from "../../../components/Carousel/Carousel";
 import DisseminatingTheDepths from "../DisseminatingTheDepths";
 
 function ArtistAtSea() {
+  /* CAROUSEL OLD:
   const slides = [
     {
       img: "/assets/images/disseminating_the_depths/artist-at-sea/carousel/Artists_Lab.webp",
@@ -22,6 +23,23 @@ function ArtistAtSea() {
     },
     {
       img: "/assets/images/disseminating_the_depths/artist-at-sea/carousel/Shan-DigitalArtist.webp",
+    },
+  ];*/
+  const slides = [
+    {
+      img: "/assets/images/disseminating_the_depths/artist-at-sea/carousel/01-Showcase.webp",
+    },
+    {
+      img: "/assets/images/disseminating_the_depths/artist-at-sea/carousel/02-Michael.webp",
+    },
+    {
+      img: "/assets/images/disseminating_the_depths/artist-at-sea/carousel/03-Max.webp",
+    },
+    {
+      img: "/assets/images/disseminating_the_depths/artist-at-sea/carousel/04-Max2.webp",
+    },
+    {
+      img: "/assets/images/disseminating_the_depths/artist-at-sea/carousel/05-Shan.webp",
     },
   ];
 
@@ -43,7 +61,7 @@ function ArtistAtSea() {
           direction="up"
         />
         <h3>Artist-at-Sea</h3> The{" "}
-        <a href="https://schmidtocean.org/apply/artist-residency-program/">
+        <a href="https://schmidtocean.org/apply/artist-residency-program/" target="_blank">
           Artist-at-Sea program
         </a>{" "}
         exhibited in three U.S.-based locations and welcomed seven artists on
@@ -55,7 +73,7 @@ function ArtistAtSea() {
       </p>
       <p>
         Twenty pieces from the{" "}
-        <a href="https://schmidtocean.org/collection/artist-at-sea/">
+        <a href="https://schmidtocean.org/collection/artist-at-sea/" target="_blank">
           Artist-at-Sea collection
         </a>{" "}
         were displayed at the Port of Seattle in Washington for six months. The
@@ -68,13 +86,13 @@ function ArtistAtSea() {
       </p>
       <p>
         SOI concluded the year by participating in{" "}
-        <a href="https://schmidtocean.org/soi-partners-ocean-programme-art-basel-miami/">
+        <a href="https://schmidtocean.org/soi-partners-ocean-programme-art-basel-miami/" target="_blank">
           Art Basel Miami Beach
         </a>{" "}
         for the first time, working in collaboration with Nautilus Magazine.
         Founded in 1970, Art Basel is one of the world&rsquo;s largest art
         exhibitions with fairs in Basel, Hong Kong, Paris, and Miami Beach. New
-        works from Artist-at-Sea participants during the inaugural year aboard
+        works from Artist-at-Sea participants during the inaugural year aboard{" "}
         <em>Falkor (too)</em> were displayed at the Miami Convention Center and
         the Phillip and Patricia Frost Science Museum. Artists Michel Droge,
         Carlos Hiller, Shan Hua, and Max Hooper Schneider debuted their 2023

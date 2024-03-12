@@ -11,6 +11,7 @@ import ExpeditionsNav from "../ExpeditionsNav";
 
 function UltrafineScaleSeafloorMapping() {
     const slidesPath = "/assets/images/expeditions/ultra_fine_scale_seafloor_mapping/carousel/";
+    /*OLD CAROUSEL
     const slides = [
       { img: `${slidesPath}ControlRoom.webp` },
       { img: `${slidesPath}Huellos.webp` },
@@ -19,6 +20,13 @@ function UltrafineScaleSeafloorMapping() {
       { img: `${slidesPath}Vent.webp` },
       { img: `${slidesPath}Working.webp` },
       { img: `${slidesPath}Working2.webp` },
+    ];*/
+    const slides = [
+      { img: `${slidesPath}01-Vent.webp` },
+      { img: `${slidesPath}02-Huellos.webp` },
+      { img: `${slidesPath}03-Julian.webp` },
+      { img: `${slidesPath}04-Sas.webp` },
+      { img: `${slidesPath}05-ControlRoom.webp` },
     ];
 
   return (

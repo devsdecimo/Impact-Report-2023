@@ -19,7 +19,7 @@ function ThroughtLeadership({ children }) {
           sponsored:
         </p>
         <p>
-          <a href="https://www.mapthegaps.org/symposium-2023">
+          <a href="https://www.mapthegaps.org/symposium-2023" target="_blank">
             <strong>Map the Gaps</strong>
           </a>
           , a symposium that brought together experts in ocean floor discovery,
@@ -27,7 +27,7 @@ function ThroughtLeadership({ children }) {
           accomplishments in exploration.
         </p>
         <p>
-          <a href="https://www.imarest.org/events/oceans-of-knowledge-2023.html">
+          <a href="https://www.imarest.org/events/oceans-of-knowledge-2023.html" target="_blank">
             <strong>
               Beyond Net Zero: The Role of the Ocean in Climate Change
             </strong>
@@ -38,7 +38,7 @@ function ThroughtLeadership({ children }) {
           dioxide removal.
         </p>
         <p>
-          <a href="https://events.geomar.de/event/165/">
+          <a href="https://events.geomar.de/event/165/" target="_blank">
             <strong>Stronger Together - Oceanic Volcanism</strong>
           </a>
           <strong>, </strong>a workshop for ocean experts with scientific
@@ -47,7 +47,7 @@ function ThroughtLeadership({ children }) {
           research projects and technological needs.
         </p>
         <p>
-          <a href="https://oceanworlds.space/">
+          <a href="https://oceanworlds.space/" target="_blank">
             <strong>Network for Ocean Worlds</strong>
           </a>
           <strong>, </strong>a retreat held on Catalina Island to explore the
@@ -58,11 +58,11 @@ function ThroughtLeadership({ children }) {
           astrobiology explorations.
         </p>
         <p>
-          <a href="https://inclusivescicomm.org/">
+          <a href="https://inclusivescicomm.org/" target="_blank">
             <strong>Inclusive SciComm Symposium</strong>
           </a>
           , a{" "}
-          <a href="https://inclusivescicomm.org/symposia/">
+          <a href="https://inclusivescicomm.org/symposia/" target="_blank">
             biennial symposium
           </a>{" "}
           organized by the Metcalf Institute at the University of Rhode Island
@@ -82,7 +82,7 @@ function ThroughtLeadership({ children }) {
           Allison Miller, research portfolio senior manager for SOI, is serving
           on a National Academies of Sciences, Engineering, and Medicine
           committee charged with developing and publishing the{" "}
-          <a href="https://www.nationalacademies.org/our-work/2025-2035-decadal-survey-of-ocean-sciences-for-the-national-science-foundation">
+          <a href="https://www.nationalacademies.org/our-work/2025-2035-decadal-survey-of-ocean-sciences-for-the-national-science-foundation" target="_blank">
             Decadal Survey of Ocean Sciences for the National Science Foundation
           </a>
           , or NSF. Three public listening sessions were held across the ocean
@@ -121,7 +121,7 @@ function ThroughtLeadership({ children }) {
           new challenges around safety standards, environmental standards,
           marine scientific research authorizations, and building new research
           vessels. Ideas were shared for presentations at upcoming meetings, the{" "}
-          <a href="https://en.unesco.org/underwater-heritage/UN-decade">
+          <a href="https://en.unesco.org/underwater-heritage/UN-decade" target="_blank">
             UN Decade of Ocean Science,
           </a>{" "}
           and other potential new initiatives.
@@ -208,7 +208,7 @@ function ThroughtLeadership({ children }) {
         <p>
           SOI held its second virtual symposium, <em>Setting the Course,</em> in
           the spring of 2023, kicking off our inaugural year of science on board
-          R/V<em>Falkor</em>
+          R/V{" "}<em>Falkor</em>
           <em>(too)</em>. The event provided the community with a guided first
           tour of the ship and shared SOI&rsquo;s long-term strategy for boldly
           exploring our unknown Ocean. SOI Executive Director Dr. Jyotika
@@ -223,7 +223,7 @@ function ThroughtLeadership({ children }) {
         </p>
         <p>
           <em>Recorded sessions of the symposium are </em>
-          <a href="https://schmidtocean.org/setting-the-course-2023/">
+          <a href="https://schmidtocean.org/setting-the-course-2023/" target="_blank">
             <em>available for viewing here</em>
           </a>
           .

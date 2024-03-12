@@ -13,7 +13,7 @@ function Grants({ children }) {
         <h3>University of Rhode Island and Lehigh University</h3>
         <p>
           Following the{" "}
-          <a href="https://schmidtocean.org/cruise/hydrothermal-vents-of-the-galapagos/">
+          <a href="https://schmidtocean.org/cruise/hydrothermal-vents-of-the-galapagos/" target="_blank">
             Hydrothermal Vents of the Western Galapagos
           </a>{" "}
           expedition, researchers at University of Rhode Island, or URI, and
@@ -120,26 +120,26 @@ function Grants({ children }) {
         <h3>Nautilus Magazine</h3>
         <p>
           SOI continued a robust and productive collaboration with{" "}
-          <a href="https://nautil.us/">Nautilus Magazine</a> by exhibiting our
+          <a href="https://nautil.us/" target="_blank">Nautilus Magazine</a> by exhibiting our
           Artist-at-Sea collection at Art Basel Miami Beach. More than{" "}
-          <a href="https://schmidtocean.org/collection/artist-at-sea/">
+          <a href="https://schmidtocean.org/collection/artist-at-sea/" target="_blank">
             40 pieces from our Artist-at-Sea collection
           </a>{" "}
           were displayed alongside several ocean-focused events at the Miami
           Convention Center and the Phillip and Patricia Frost Museum of
           Science. A series of public events includeD a panel discussion with{" "}
-          <a href="https://schmidtocean.org/apply/artist-residency-program/">
+          <a href="https://schmidtocean.org/apply/artist-residency-program/" target="_blank">
             Artist-at-Sea
           </a>{" "}
           participants Rebecca Rutstein, Carol Mickett and Robert Stackhouse,
           Lizzy Taber, Michel Droge, and guests Runa Ray and Jane McCarthy
           (Taiji Terasaki Studios). A film night featured SSOIs award-winning
           films &ldquo;{" "}
-          <a href="https://www.youtube.com/watch?v=OB8IjCJQMoE">
+          <a href="https://www.youtube.com/watch?v=OB8IjCJQMoE" target="_blank">
             Climate Under Pressure
           </a>{" "}
           &rdquo; and &ldquo;{" "}
-          <a href="https://www.youtube.com/watch?v=thYkeWuyVwE">
+          <a href="https://www.youtube.com/watch?v=thYkeWuyVwE" target="_blank">
             The Art of Exploration
           </a>
           ,&rdquo; a live connection to research vessel <em>Falkor (too) </em>
@@ -149,7 +149,7 @@ function Grants({ children }) {
         <p>
           Nautilus Magazine produces six issues per year, and they have
           published two special{" "}
-          <a href="https://nautil.us/ocean/?_sp=8d5a6f42-ddf9-4cf0-8162-6f0e20f347b8.1704757030230">
+          <a href="https://nautil.us/ocean/?_sp=8d5a6f42-ddf9-4cf0-8162-6f0e20f347b8.1704757030230" target="_blank">
             Ocean issues in 2023
           </a>{" "}
           that included 37 articles on pressing topics like seafloor mapping,
@@ -217,7 +217,7 @@ function Grants({ children }) {
         <p>
           SOI continued support for one of the longest-running daily records of
           global atmospheric carbon dioxide concentration, the{" "}
-          <a href="https://keelingcurve.ucsd.edu/">
+          <a href="https://keelingcurve.ucsd.edu/" target="_blank">
             Ocean Keeling Curve project.
           </a>{" "}
           These measurements are critical for assessing changes in the
@@ -242,7 +242,7 @@ function Grants({ children }) {
         <h3>Peerside</h3>
         <p>
           SOI supports the{" "}
-          <a href="https://www.fio.usf.edu/peerside/">
+          <a href="https://www.fio.usf.edu/peerside/" target="_blank">
             Florida Institute of Oceanography&rsquo;s (FIO) Peerside program
           </a>{" "}
           for career networking and mentorship in ocean STEAM disciplines.
@@ -274,7 +274,7 @@ function Grants({ children }) {
         <p>
           During R/V <em>Falkor</em>
           <em>(too)</em>&rsquo;s{" "}
-          <a href="https://schmidtocean.org/cruise/health-diagnostics-of-deep-sea-coral/">
+          <a href="https://schmidtocean.org/cruise/health-diagnostics-of-deep-sea-coral/" target="_blank">
             Health Diagnostics Deep-Sea Coral expedition
           </a>
           , SOI provided four University of Puerto Rico students, Leira Centeno
@@ -298,7 +298,7 @@ function Grants({ children }) {
         ></BubbleImage>
         <h3>Local Technology Support</h3>
         <p>
-          This year, SOI granted $5,000 to two organizations in the region where
+          This year, SOI granted $5,000 to two organizations in the region where{" "}
           <em>Falkor (too) </em>teams were working in order to support learning
           about the Ocean. The Jos&eacute; Fabio Garnier Ugalde School in Costa
           Rica used the funds to purchase an interactive screen and IT
@@ -319,7 +319,7 @@ function Grants({ children }) {
         <h3>World Ocean Observatory</h3>
         <p>
           The{" "}
-          <a href="http://worldoceanexplorer.org/deep-sea-aquarium.html">
+          <a href="http://worldoceanexplorer.org/deep-sea-aquarium.html" target="_blank">
             World Ocean Explorer Observatory
           </a>{" "}
           continued to develop and expand throughout 2023, resulting in a robust
@@ -331,7 +331,7 @@ function Grants({ children }) {
           education-based aquarium, loaded with SOI imagery and video, grew to
           include 20,000 new subscribers and won a Gold Award in Digital
           Simulations from the{" "}
-          <a href="https://www.seriousplayconf.com/international-serious-play-award-programs/">
+          <a href="https://www.seriousplayconf.com/international-serious-play-award-programs/" target="_blank">
             International Serious Play Awards 2023
           </a>
           .

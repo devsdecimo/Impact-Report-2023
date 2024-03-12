@@ -26,7 +26,7 @@ function DivestreamsAndConnections() {
         the ROV Divestream and the Ship-to-Shore program. We added a new crew
         position &mdash; a multimedia technician &mdash; and rebranded the ROV
         Livestream as{" "}
-        <a href="https://www.youtube.com/@SchmidtOcean/streams">
+        <a href="https://www.youtube.com/@SchmidtOcean/streams" target="_blank">
           the SOI Divestream
         </a>
         . Working alongside Data Architect Corinne Bassin, the multimedia
@@ -47,13 +47,13 @@ function DivestreamsAndConnections() {
       <p>
         Additionally, SOI adapted the Ship-to-Shore program from<em> Falkor</em>{" "}
         to <em>Falkor (too) </em>with a more efficient{" "}
-        <a href="https://schmidtocean.org/ship-to-shore-program/">
+        <a href="https://schmidtocean.org/ship-to-shore-program/" target="_blank">
           sign-up process
         </a>{" "}
         and a new virtual assembly format. For 2023 and beyond, ship-to-shore
         encounters will happen primarily with community groups living in the
         country where the ship is operating. Regular{" "}
-        <a href="https://www.youtube.com/live/wv3_ZsQkixk?feature=shared">
+        <a href="https://www.youtube.com/live/wv3_ZsQkixk?feature=shared" target="_blank">
           SOI Open Houses
         </a>{" "}
         will provide ship-to-shore experiences to a broader audience.

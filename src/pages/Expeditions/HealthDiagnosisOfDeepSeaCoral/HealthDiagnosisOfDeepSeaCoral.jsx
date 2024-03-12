@@ -52,7 +52,7 @@ function HealthDiagnosisOfDeepSeaCoral() {
               overall productivity, biodiversity, and health of deep-sea corals
             </li>
             <li>
-              Integrate and use two newly designed instruments on ROV
+              Integrate and use two newly designed instruments on ROV{" "}
               <em>SuBastian</em> for measuring reactive oxygen species, or ROS,
               in situ using an instrument called SOLARIS, and at shallow depths
               and in the lab using a DISCO device
