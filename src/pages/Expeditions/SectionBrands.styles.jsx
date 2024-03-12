@@ -31,13 +31,15 @@ export const SectionBrandsContainer = styled.div`
     object-fit: contain;
     max-width: unset;
     max-height: unset;
-    width: 100%;
     height: 100%;*/ //ajustes precarrusel
 
   }
 
   /* a{
+    //vertical
     aspect-ratio: 1 / 1;
+    // horizontal 
+    aspect-ratio: 2 / 1;
     object-fit: contain;
     width: unset;
     height: 100px;

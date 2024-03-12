@@ -8,11 +8,21 @@ import Founders from "/assets/images/a_word_from_our_founders/Founders.webp";
 import CircleBg from "/assets/images/a_word_from_our_founders/CircleBg.webp";
 import Subastian from "/assets/images/a_word_from_our_founders/Subastian.webp";
 import Octopus from "/assets/images/a_word_from_our_founders/Octopus.webp";
-import GeneralButton from "../../components/GeneralButton/GeneralButton";
-
-import Next from "/assets/images/next.svg";
+import CarouselNav from "../../components/CarouselNav/CarouselNav";
 
 function AWordFromOurFounders() {
+  const navSlides = [
+    {
+      img: "/assets/images/home/expedition_1.webp",
+      href: "/a_word_from_our_founders",
+      text: "A Word from our Founders",
+    },
+    {
+      img: "/assets/images/home/expedition_2.webp",
+      href: "/executive_directors_note",
+      text: "Executive Director's Note",
+    },
+  ];
   return (
     <PageContainer>
       <Page
@@ -81,14 +91,7 @@ function AWordFromOurFounders() {
             <em>Eric & Wendy Schmidt</em>
           </p>
         </div>
-        <div className="btn-container">
-          <GeneralButton
-            text="Executive Director's Note"
-            href="/executive_directors_note"
-            icon={Next}
-            iconPosition="right"
-          />
-        </div>
+        <CarouselNav slides={navSlides} />
       </Page>
     </PageContainer>
   );
