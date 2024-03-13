@@ -67,21 +67,31 @@ export const PageContainer = styled.div`
     flex-direction: column;
   }
 
-  .intro-text p {
-    color: #3e5973;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    max-width: 90%;
-    text-align: center;
-    font-size: 1.3rem;
+  .intro-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
-    @media (min-width: 830px) {
-      width: 60%;
-      max-width: 1000px;
+    p {
+      color: #3e5973;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      max-width: 90%;
+      text-align: center;
       font-size: 1.5rem;
+
+      @media (min-width: 830px) {
+        width: 60%;
+        max-width: 1000px;
+      }
+    }
+    a {
+      color: #3e5973;
     }
   }
+
 
   .italic {
     font-style: italic;

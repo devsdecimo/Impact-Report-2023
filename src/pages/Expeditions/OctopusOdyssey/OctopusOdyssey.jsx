@@ -153,11 +153,11 @@ function OctopusOdyssey() {
           <p>
             The observed deep-sea octopus and skate nurseries exhibit all of the
             characteristics of{" "}
-            <a href="https://www.fao.org/in-action/vulnerable-marine-ecosystems/definitions/en/">
+            <a href="https://www.fao.org/in-action/vulnerable-marine-ecosystems/definitions/en/" taget="_blank">
               Vulnerable Marine Ecosystems
             </a>{" "}
             and{" "}
-            <a href="https://gobi.org/ebsas/">
+            <a href="https://gobi.org/ebsas/" taget="_blank">
               Ecologically and Biologically Sensitive Areas
             </a>{" "}
             because: they are required for the survival of these populations,
@@ -173,7 +173,7 @@ function OctopusOdyssey() {
           </p>
           <p>
             Over{" "}
-            <a href="https://youtu.be/JYMaz6AW7f0?feature=shared">
+            <a href="https://youtu.be/JYMaz6AW7f0?feature=shared" taget="_blank">
               160 deep-sea animal specimens
             </a>{" "}
             collected from these expeditions will be stored at the Museum of
