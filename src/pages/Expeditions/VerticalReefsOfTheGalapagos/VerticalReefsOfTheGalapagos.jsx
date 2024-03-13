@@ -76,7 +76,7 @@ function VerticalReefsOfTheGalapagos() {
             During this expedition, Chief Scientist Katleen Robert and her multidisciplinary team successfully mapped, studied, and sampled coral reefs located on steep vertical cliffs. The deep waters of the Galápagos National Park are home to a dazzling array of cold-water corals. While they are understudied compared to those in shallow waters,  these deep-dwelling animals are even more shrouded in mystery because the depth and inaccessibility of vertical cold-water corals by ship-based sensors present significant hurdles to studying them.
           </p>
           
-          <BubbleImage type={3} image={image} className="expedition-bubble-image" direction="up"/>
+          <BubbleImage image={image} orientation="left" type={3} />
           <p>
             Robert and the team discovered thriving cold-water coral reefs with high biodiversity of associated organisms in an area for which there was little deep sea information. This new information will support the local marine protected area, and advance our understanding of the distribution of cold-water coral globally. As the Galápagos National Park is a protected area with little human impact, its cliff-dwelling coral reefs represent ecosystems in pristine condition and will serve as a baseline for understanding future and past changes.
           </p>

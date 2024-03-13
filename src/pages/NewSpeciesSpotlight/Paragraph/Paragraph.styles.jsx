@@ -20,6 +20,9 @@ export const ParagraphContainer = styled.div`
   p.text{
     margin-bottom:3rem;
   }
+  p.dato{
+    margin:1rem 0;
+  }
   .ml-10{
     margin-left:5px;
   }

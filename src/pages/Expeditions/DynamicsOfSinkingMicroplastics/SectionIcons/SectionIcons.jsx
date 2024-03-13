@@ -42,6 +42,7 @@ function SectionIcons() {
       <IconWithText
           className={"CTA"}
           icon={Sea}
+          textBefore="~"
           numbers="55000"
           text={"liters of seawater filtered"}
           opacity={0.8}
