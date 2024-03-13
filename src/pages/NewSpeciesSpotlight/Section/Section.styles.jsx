@@ -14,12 +14,15 @@ export const SectionContainer = styled.div`
   }
   .paragraph-container{
     flex:1;
+    margin-top: 2rem;
     @media (max-width:829px){
         order:1;
+        margin-top: 0;
     }
   }
   .icons-container{
     max-width:500px;
+    margin-left: 3rem;
     @media (max-width:829px){
         width:320px;
         margin:auto;
