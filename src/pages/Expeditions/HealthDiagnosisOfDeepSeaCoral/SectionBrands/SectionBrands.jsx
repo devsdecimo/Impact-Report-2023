@@ -15,23 +15,16 @@ function SectionBrands({image,alt}) {
 
   useEffect(() => {
     setSlides([
-      { img: WHOI, href: 'https://www.whoi.edu/', target: '_blank' , alt:'Woods Hole Oceanographic Institution'},
-      { img: LehighU, href: 'https://www2.lehigh.edu/', target: '_blank' , alt:'Lehigh University'},
-      { img: UPR, href: 'https://www.uprm.edu/', target: '_blank' , alt:'University of Puerto Rico'},
-      { img: SI, href: 'https://www.si.edu/', target: '_blank' , alt:'Smithsonian Institute'},
+      { img: WHOI, href: 'https://www.whoi.edu/', target: '_blank' , alt:'Woods Hole Oceanographic Institution', orientation: 'horizontal'},
+      { img: LehighU, href: 'https://www2.lehigh.edu/', target: '_blank' , alt:'Lehigh University', orientation: 'horizontal'},
+      { img: UPR, href: 'https://www.uprm.edu/', target: '_blank' , alt:'University of Puerto Rico', orientation: 'vertical'},
+      { img: SI, href: 'https://www.si.edu/', target: '_blank' , alt:'Smithsonian Institute', orientation: 'vertical'},
     ])
   }, []);
 
   return (
     <SectionBrandsContainer>
-        <div className="brands-container only-desktop">
-          {slides.map((slide, index)=>
-          <Link to={slide.href} target={slide.target} key={index}>
-            <img src={slide.img} alt={slide.alt}/>
-          </Link>
-            )}
-        </div>
-        <div className="only-mobile">
+        <div>
           <CarouselBrands slides={slides}/>
         </div>
         

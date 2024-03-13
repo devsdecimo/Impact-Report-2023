@@ -59,7 +59,7 @@ export const Slide = styled.div`
   }
 
   .slide-image {
-    height: 80px;
+    height: 70px;
     width: 140px;
     display: flex;
     justify-content: center;
@@ -72,7 +72,7 @@ export const Slide = styled.div`
       transition: 1s;
       &.vertical {
         max-height: unset;
-        height: 80px;
+        height: 70px;
       }
       &.horizontal {
         max-width: unset;
