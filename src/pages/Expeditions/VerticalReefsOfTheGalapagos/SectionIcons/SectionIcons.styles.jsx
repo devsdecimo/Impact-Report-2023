@@ -4,7 +4,7 @@ export const SectionIconsContainer = styled.div`
     display:flex;
     flex-direction:row;
     width:80vw;
-    max-width:1300px;
+    max-width:1200px;
     margin:3rem auto;
     justify-content: space-between;
     gap:2rem;

@@ -12,7 +12,7 @@ export const PageContainer = styled.div`
   }
 
   .main_content {
-    max-width: 70vw;
+    max-width: 80vw;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -73,4 +73,17 @@ export const PageContainer = styled.div`
     max-width: 50vw;
     transition: 1s;
   }
+
+  /*centrar bubbles en mobile*/
+  @media (max-width:767px){
+    .artist-image, .community-image, .press-image, .screen-image, .connections-image{
+      margin:auto;
+      margin-bottom:2rem;
+    }
+    /*centrar titulos */
+    h3{
+      text-align: center;
+    }
+  }
+  
 `;
