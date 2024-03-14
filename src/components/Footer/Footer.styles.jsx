@@ -24,7 +24,7 @@ export const FooterContainer = styled.footer`
     p {
       padding-top: 2rem;
       color: var(--white);
-      font-size: 3vw;
+      font-size: 2vw;
       font-weight: bold;
       text-shadow: 0 0 20px rgba(0,0,0,1);
     }
