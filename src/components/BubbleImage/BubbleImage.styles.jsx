@@ -100,29 +100,27 @@ export const BubbleImageContainer = styled.span`
   &.type-2 {
     display: flex;
     position: relative;
-    height: 320px;
-    width: 320px;
+    width: 57vw;
+    max-width: 320px;
+    aspect-ratio: 1 / 1;
     margin-left: 3rem;
     margin-bottom: 50px;
-    /*margin-top: 3rem;
-    transform: scale(1.2);*/
     @media (max-width: 829px) {
       margin: auto;
-      transform: scale(1);
     }
 
     img {
       position: absolute;
-      width: 250px;
+      width: 78%;
       height: auto;
       z-index: 2;
-      top: 50px;
+      top: 15%;
       right: 0px;
     }
     .circle {
+      aspect-ratio: 1 / 1;
       &-1 {
-        width: 168px;
-        height: 168px;
+        width: 52%;
         background-color: #80aed8;
         mix-blend-mode: multiply;
         opacity: 0.5;
@@ -130,19 +128,18 @@ export const BubbleImageContainer = styled.span`
         position: absolute;
         z-index: 1;
         top: 0;
-        left: 30px;
+        left: 10%;
       }
 
       &-2 {
-        width: 108px;
-        height: 108px;
+        width: 34%;
         background-color: #80aed8;
         mix-blend-mode: multiply;
         opacity: 0.8;
         border-radius: 100%;
         position: absolute;
         z-index: 1;
-        top: 100px;
+        top: 31%;
         left: 00px;
       }
     }
@@ -164,10 +161,10 @@ export const BubbleImageContainer = styled.span`
   &.type-3 {
     display: flex;
     position: relative;
-    width: 50vw;
+    width: 39vw;
     aspect-ratio: 45 / 38;
     margin: 1rem;
-    min-width: 330px;
+    min-width: 300px;
     @media (min-width: 768px) {
       width: 17vw;
     }
