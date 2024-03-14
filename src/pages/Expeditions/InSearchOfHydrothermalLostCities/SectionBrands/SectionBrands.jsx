@@ -23,30 +23,23 @@ function SectionBrands({image,alt}) {
 
   useEffect(() => {
     setSlides([
-      { img: WHOI, href: 'https://www.whoi.edu/', target: '_blank' , alt:'WHOI'},
-      { img: OceanExploration, href: 'https://oceanexplorer.noaa.gov/', target: '_blank' , alt:'Ocean Exploration'},
-      { img: ASU, href: 'https://www.asu.edu/', target: '_blank' , alt:'ASU'},
-      { img: UVIC, href: 'https://www.uvic.ca/', target: '_blank' , alt:'UVIC'},
-      { img: MBARI, href: 'https://www.mbari.org/', target: '_blank' , alt:'MBARI'},
-      { img: Dalhousie, href: 'https://www.dal.ca/', target: '_blank', alt:'Dalhousie'},
-      { img: UW, href: 'https://www.washington.edu/', target: '_blank' , alt:'Washington University'},
-      { img: NASA, href: 'https://www.nasa.gov/', target: '_blank' , alt:'NASA'},
-      { img: PMEL, href: 'https://www.pmel.noaa.gov/', target: '_blank' , alt:'PMEL'},
-      { img: OECI, href: 'https://web.uri.edu/oeci/', target: '_blank' , alt:'OECI'},
-      { img: PAAaN, href: 'https://ceoas.oregonstate.edu/', target: '_blank' , alt:'CEOAS'},
+      { img: WHOI, href: 'https://www.whoi.edu/', target: '_blank' , alt:'WHOI', orientation:'horizontal'},
+      { img: OceanExploration, href: 'https://oceanexplorer.noaa.gov/', target: '_blank' , alt:'Ocean Exploration', orientation:'horizontal'},
+      { img: ASU, href: 'https://www.asu.edu/', target: '_blank' , alt:'ASU', orientation:'vertical'},
+      { img: UVIC, href: 'https://www.uvic.ca/', target: '_blank' , alt:'UVIC', orientation:'vertical'},
+      { img: MBARI, href: 'https://www.mbari.org/', target: '_blank' , alt:'MBARI', orientation:'horizontal'},
+      { img: Dalhousie, href: 'https://www.dal.ca/', target: '_blank', alt:'Dalhousie', orientation:'vertical'},
+      { img: UW, href: 'https://www.washington.edu/', target: '_blank' , alt:'Washington University', orientation:'horizontal'},
+      { img: NASA, href: 'https://www.nasa.gov/', target: '_blank' , alt:'NASA', orientation:'vertical'},
+      { img: PMEL, href: 'https://www.pmel.noaa.gov/', target: '_blank' , alt:'PMEL', orientation:'horizontal'},
+      { img: OECI, href: 'https://web.uri.edu/oeci/', target: '_blank' , alt:'OECI', orientation:'horizontal'},
+      { img: PAAaN, href: 'https://ceoas.oregonstate.edu/', target: '_blank' , alt:'CEOAS', orientation:'vertical'},
     ])
   }, []);
 
   return (
     <SectionBrandsContainer>
-        <div className="brands-container only-desktop">
-          {slides.map((slide, index)=>
-          <Link to={slide.href} target={slide.target} key={index}>
-            <img src={slide.img} alt={slide.alt}/>
-          </Link>
-            )}
-        </div>
-        <div className="only-mobile">
+        <div>
           <CarouselBrands slides={slides}/>
         </div>
         

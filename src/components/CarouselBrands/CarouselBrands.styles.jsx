@@ -43,7 +43,7 @@ export const Slide = styled.div`
   transition: ${(props) =>
     props.enabledTransition ? " opacity 0.2s ease" : "0s"};
   opacity: 1;
-  height: 80px;
+  height: 60px;
   width: 140px;
 
   &.all-visible {
@@ -59,7 +59,7 @@ export const Slide = styled.div`
   }
 
   .slide-image {
-    height: 70px;
+    height: 60px;
     width: 140px;
     display: flex;
     justify-content: center;
@@ -72,7 +72,7 @@ export const Slide = styled.div`
       transition: 1s;
       &.vertical {
         max-height: unset;
-        height: 70px;
+        height: 60px;
       }
       &.horizontal {
         max-width: unset;
