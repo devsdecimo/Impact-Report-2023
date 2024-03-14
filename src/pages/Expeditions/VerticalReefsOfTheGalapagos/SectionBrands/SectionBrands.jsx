@@ -38,35 +38,27 @@ function SectionBrands({image,alt}) {
 
   useEffect(() => {
     setSlides([
-      { img: MemorialUniversity, href: 'https://www.mun.ca/', target: '_blank' , alt:'Memorial University'},
-      { img: MarineInstitute, href: 'https://www.mi.mun.ca/', target: '_blank' , alt:'Marine Institute'},
-      { img: MBARI, href: 'https://www.mbari.org/', target: '_blank' , alt:'Monterey Bay Aquarium Research Institute (MBARI)'},
-      { img: Bristol, href: 'https://www.bristol.ac.uk/', target: '_blank', alt:'University of Bristol'},
-      { img: NatGeo, href: 'https://www.nationalgeographic.com/', target: '_blank' , alt:'National Geographic Society'},
-      { img: Darwin, href: 'https://www.darwinfoundation.org/en/', target: '_blank' , alt:'Charles Darwin Foundation (CDF)'},
-      { img: GalapagosPark, href: 'https://galapagos.gob.ec/', target: '_blank' , alt:'Galápagos National Park Directorate (GNPD)'},
-      { img: INOCAR, href: 'https://www.inocar.mil.ec/web/index.php', target: '_blank' , alt:'the Ecuadorian Navy’s Oceanographic and Antarctic Institute (INOCAR)'},
-      { img: WHOI, href: 'https://www2.whoi.edu/site/miso/', target: '_blank' , alt:'Woods Hole Oceanographic Institution (WHOI)'},
-      { img: OceanCentre, href: 'https://noc.ac.uk/', target: '_blank' , alt:'the UK National Oceanography Centre'},
-      { img: CSIC, href: 'https://www.csic.es/en/csic', target: '_blank' , alt:'Instituto de Ciencies del Mar in Barcelona, Spain'},
-      { img: UEA, href: 'https://www.uea.ac.uk/', target: '_blank' , alt:'the University of East Anglia-UK'},
-      { img: UCR, href: 'https://www.ucr.ac.cr/', target: '_blank' , alt:'University of Costa Rica'},
+      { img: MemorialUniversity, href: 'https://www.mun.ca/', target: '_blank' , alt:'Memorial University', orientation:'vertical'},
+      { img: MarineInstitute, href: 'https://www.mi.mun.ca/', target: '_blank' , alt:'Marine Institute', orientation:'vertical'},
+      { img: MBARI, href: 'https://www.mbari.org/', target: '_blank' , alt:'Monterey Bay Aquarium Research Institute (MBARI)', orientation:'horizontal'},
+      { img: Bristol, href: 'https://www.bristol.ac.uk/', target: '_blank', alt:'University of Bristol', orientation:'vertical'},
+      { img: NatGeo, href: 'https://www.nationalgeographic.com/', target: '_blank' , alt:'National Geographic Society', orientation:'vertical'},
+      { img: Darwin, href: 'https://www.darwinfoundation.org/en/', target: '_blank' , alt:'Charles Darwin Foundation (CDF)', orientation:'vertical'},
+      { img: GalapagosPark, href: 'https://galapagos.gob.ec/', target: '_blank' , alt:'Galápagos National Park Directorate (GNPD)', orientation:'horizontal'},
+      { img: INOCAR, href: 'https://www.inocar.mil.ec/web/index.php', target: '_blank' , alt:'the Ecuadorian Navy’s Oceanographic and Antarctic Institute (INOCAR)', orientation:'vertical'},
+      { img: WHOI, href: 'https://www2.whoi.edu/site/miso/', target: '_blank' , alt:'Woods Hole Oceanographic Institution (WHOI)', orientation:'horizontal'},
+      { img: OceanCentre, href: 'https://noc.ac.uk/', target: '_blank' , alt:'the UK National Oceanography Centre', orientation:'vertical'},
+      { img: CSIC, href: 'https://www.csic.es/en/csic', target: '_blank' , alt:'Instituto de Ciencies del Mar in Barcelona, Spain', orientation:'vertical'},
+      { img: UEA, href: 'https://www.uea.ac.uk/', target: '_blank' , alt:'the University of East Anglia-UK', orientation:'vertical'},
+      { img: UCR, href: 'https://www.ucr.ac.cr/', target: '_blank' , alt:'University of Costa Rica', orientation:'vertical'},
     ])
   }, []);
 
   return (
     <SectionBrandsContainer>
-        <div className="brands-container only-desktop">
-          {slides.map((slide, index)=>
-          <Link to={slide.href} target={slide.target} key={index}>
-            <img src={slide.img} alt={slide.alt}/>
-          </Link>
-            )}
-        </div>
-        <div className="only-mobile">
+        <div >
           <CarouselBrands slides={slides}/>
         </div>
-        
     </SectionBrandsContainer>
     
   );

@@ -6,6 +6,10 @@ export const YoutubeVideoContainer = styled.div`
   align-items: center;
   margin: 6rem 0;
 
+  @media (max-width: 829px) {
+    margin: 2rem 0;
+  }
+
   iframe {
     width: 70vw;
     max-width: 768px;

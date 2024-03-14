@@ -43,6 +43,10 @@ export const SectionWithImageContainer = styled.div`
   }
 
   .type-4 .image {
-    right: -2%;
+    /*
+    right: -2%;*/
+    right: 18.3%;
+    width: 93%;
+    top: 1.5%;
   }
 `;

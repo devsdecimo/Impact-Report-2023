@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 
 function CarouselBrands({
   slides = [],
-  autoplay = true,
+  autoplay = false,
   loop = true,
   delay = 5000,
 }) {

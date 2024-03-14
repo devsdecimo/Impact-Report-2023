@@ -14,22 +14,15 @@ function SectionBrands({image,alt}) {
 
   useEffect(() => {
     setSlides([
-      { img: Aalborg , href: 'https://www.en.aau.dk/', target: '_blank' , alt:'AALBORG UNIVERSITY'},
-      { img: NAMC, href: 'https://namc.no/', target: '_blank' , alt:'North Atlantic Microplastic Center'},
-      { img: NationalGeo, href: 'https://www.nationalgeographic.com/', target: '_blank' , alt:'National Geographic'},
+      { img: Aalborg , href: 'https://www.en.aau.dk/', target: '_blank' , alt:'AALBORG UNIVERSITY', orientation:'vertical'},
+      { img: NAMC, href: 'https://namc.no/', target: '_blank' , alt:'North Atlantic Microplastic Center', orientation:'horizontal'},
+      { img: NationalGeo, href: 'https://www.nationalgeographic.com/', target: '_blank' , alt:'National Geographic', orientation:'horizontal'},
     ])
   }, []);
 
   return (
     <SectionBrandsContainer>
-        <div className="brands-container only-desktop">
-          {slides.map((slide, index)=>
-          <Link to={slide.href} target={slide.target} key={index}>
-            <img src={slide.img} alt={slide.alt}/>
-          </Link>
-            )}
-        </div>
-        <div className="only-mobile">
+        <div>
           <CarouselBrands slides={slides}/>
         </div>
         

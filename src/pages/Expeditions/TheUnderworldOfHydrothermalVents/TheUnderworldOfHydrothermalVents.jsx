@@ -38,7 +38,7 @@ function TheUnderworldOfHydrothermalVents() {
         footer_image="/assets/images/expeditions/the_underworld_of_hydrothermal_vents/Footer.webp"
       >
         <SectionWithImage
-          image="/assets/images/expeditions/the_underworld_of_hydrothermal_vents/FKt230629.webp"
+          image="/assets/images/expeditions/the_underworld_of_hydrothermal_vents/Cientifica.webp"
           alt="Dr. Monika Bright"
         />
         <SectionBrands />
