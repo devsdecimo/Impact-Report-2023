@@ -5,9 +5,12 @@ import SectionWithImage from "./SectionWithImage/SectionWithImage";
 import SectionBrands from "./SectionBrands/SectionBrands";
 import SectionIcons from "./SectionIcons/SectionIcons";
 import Carousel from "../../../components/Carousel/Carousel";
+import BubbleImage from "../../../components/BubbleImage/BubbleImage";
 
 import YoutubeVideo from "../../../components/YoutubeVideo/YouTubeVideo";
 import ExpeditionsNav from "../ExpeditionsNav";
+
+import image from "/assets/images/expeditions/ultra_fine_scale_seafloor_mapping/image.webp"
 
 function UltrafineScaleSeafloorMapping() {
     const slidesPath = "/assets/images/expeditions/ultra_fine_scale_seafloor_mapping/carousel/";
@@ -74,7 +77,7 @@ function UltrafineScaleSeafloorMapping() {
             The team expertly tested a sonar system new to scientific seafloor mapping, <a href="https://www.youtube.com/watch?v=m7_I4kYlchU" target="_blank">Interferometric Synthetic Aperture Sonar (InSAS)</a>, which enabled them to locate seafloor features with greater accuracy and produce detailed, high-resolution maps. The InSAS technology combines bathymetric data with acoustic imagery, generating detailed maps using sound. Using this technology could transform the ability to map, explore, classify, and monitor the seafloor environment.
           </p>
 
-          {/*<BubbleImage image={Cientifico} orientation="left" type={3} />*/}
+          <BubbleImage image={image} orientation="left" type={3} />
           <p>
             Using InSAS, the science team imaged individual pillows, chimneys, and faults — features that would not necessarily be identifiable in traditional high-resolution multibeam data. They were able to determine whether the hydrothermal vents were active or inactive by visualizing the thermal distortion caused by the hot fluids. The combination of InSAS and multibeam mapping by the ROV created high-resolution bathymetry that improved the efficiency of ROV exploration.  Detailed mapping data led the scientists to discover several sites of active and inactive venting on the seafloor,  exceeding their exploration and sampling expectations for the expedition.
           </p>
