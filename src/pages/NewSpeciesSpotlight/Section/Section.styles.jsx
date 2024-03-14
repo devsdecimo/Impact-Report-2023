@@ -14,7 +14,6 @@ export const SectionContainer = styled.div`
   }
   .paragraph-container{
     flex:1;
-    margin-top: 2rem;
     @media (max-width:829px){
         order:1;
         margin-top: 0;
