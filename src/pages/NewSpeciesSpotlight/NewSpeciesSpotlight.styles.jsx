@@ -37,7 +37,9 @@ export const PageContainer = styled.div`
   .d-flex{
     display:flex;
     flex-direction:column;
-    gap:30px;
+    justify-items: center;
+    align-items: center;
+    gap:15px;
     @media (min-width:768px){
         flex-direction:row;
     }

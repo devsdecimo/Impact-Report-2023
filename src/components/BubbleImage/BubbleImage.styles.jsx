@@ -103,9 +103,6 @@ export const BubbleImageContainer = styled.span`
     height: 320px;
     width: 320px;
     margin-left: 3rem;
-    margin-bottom: 50px;
-    /*margin-top: 3rem;
-    transform: scale(1.2);*/
     @media (max-width: 829px) {
       margin: auto;
       transform: scale(1);
@@ -113,16 +110,16 @@ export const BubbleImageContainer = styled.span`
 
     img {
       position: absolute;
-      width: 250px;
+      width: 230px;
       height: auto;
       z-index: 2;
       top: 50px;
-      right: 0px;
+      right: 45px;
     }
     .circle {
       &-1 {
-        width: 168px;
-        height: 168px;
+        width: 148px;
+        height: 148px;
         background-color: #80aed8;
         mix-blend-mode: multiply;
         opacity: 0.5;
@@ -134,8 +131,8 @@ export const BubbleImageContainer = styled.span`
       }
 
       &-2 {
-        width: 108px;
-        height: 108px;
+        width: 88px;
+        height: 88px;
         background-color: #80aed8;
         mix-blend-mode: multiply;
         opacity: 0.8;
