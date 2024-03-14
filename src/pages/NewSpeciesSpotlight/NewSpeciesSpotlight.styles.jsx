@@ -9,7 +9,8 @@ export const PageContainer = styled.div`
     row-gap: 0;
   }
   .content {
-    
+    max-width:80vw;
+    margin:auto;
   }
 
   .intro-text {

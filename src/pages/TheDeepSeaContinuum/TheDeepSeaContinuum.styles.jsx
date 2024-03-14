@@ -46,4 +46,16 @@ export const PageContainer = styled.div`
       width: 16vw;
     }
   }
+  /*centrar bubbles en mobile*/
+  @media (max-width: 767px) {
+    .continuum-image {
+      margin:auto;
+      margin-bottom:3rem;
+    }
+    /*centrar titulos */
+    h3{
+      text-align: center;
+    }
+  }
+
 `;

@@ -39,8 +39,8 @@ export const PageContainer = styled.div`
   }
 
   .content {
-    width: 90vw;
-    max-width: 1300px;
+    width: 80vw;
+    max-width: 1200px;
     margin: 2rem auto;
     @media (min-width: 768px) {
       width: 80vw;
@@ -67,7 +67,7 @@ export const PageContainer = styled.div`
 
   .expedition-carousel {
     width: 80vw;
-    max-width: 1300px;
+    max-width: 1200px;
     margin: 0 auto;
     @media (max-width: 829px) {
       width: 90vw;
