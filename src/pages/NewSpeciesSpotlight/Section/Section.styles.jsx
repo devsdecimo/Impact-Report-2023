@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
 export const SectionContainer = styled.div`
-  width:90vw;
-  max-width:1300px;
+  max-width:1200px;
   margin:auto;
   padding: 2rem 0 6rem 0;
 
