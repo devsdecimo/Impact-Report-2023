@@ -70,7 +70,7 @@ export const PageContainer = styled.div`
     max-width: 1200px;
     margin: 0 auto;
     @media (max-width: 829px) {
-      width: 90vw;
+      width: 100%;
     }
     @media (min-width: 768px) {
       margin-top: 2em;

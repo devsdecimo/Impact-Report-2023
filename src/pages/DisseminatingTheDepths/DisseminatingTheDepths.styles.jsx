@@ -12,7 +12,8 @@ export const PageContainer = styled.div`
   }
 
   .main_content {
-    max-width: 80vw;
+    width: 80vw;
+    max-width: 1200px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -25,6 +26,7 @@ export const PageContainer = styled.div`
     @media (min-width: 768px) {
       float: left;
       min-width: 45vh;
+      margin-right:2rem;
     }
   }
 
@@ -41,6 +43,7 @@ export const PageContainer = styled.div`
     @media (min-width: 768px) {
       float: left;
       min-width: 45vh;
+      margin-right:2rem;
     }
   }
 
@@ -57,6 +60,7 @@ export const PageContainer = styled.div`
     @media (min-width: 768px) {
       float: left;
       min-width: 45vh;
+      margin-right:2rem;
     }
   }
 
