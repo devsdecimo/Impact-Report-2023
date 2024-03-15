@@ -1,10 +1,10 @@
 import React from "react";
 import { SectionContainer } from "./Section.styles";
 import IconWithText from "../../../components/IconWithText/IconWithText";
-import Depth from "/assets/images/new_species/icons/Depth.svg";
-import Year from "/assets/images/new_species/icons/Year.svg";
-import Location from "/assets/images/new_species/icons/Location.svg";
-import Size from "/assets/images/new_species/icons/Size.svg";
+import Depth from "/assets/images/new_species/icons/DEPTH.svg";
+import Year from "/assets/images/new_species/icons/YEAR.svg";
+import Location from "/assets/images/new_species/icons/LOCATION.svg";
+import Size from "/assets/images/new_species/icons/SIZE.svg";
 import Paragraph from "../Paragraph/Paragraph";
 import BubbleImage from "../../../components/BubbleImage/BubbleImage";
 
