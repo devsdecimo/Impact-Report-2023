@@ -19,14 +19,14 @@ function SectionIcons() {
                 icon={Days} 
                 numbers='20'
                 text={"science days"} 
-                opacity={0.8}
+                opacity={1}
             />
              <IconWithText  
                 className={'CTA'} 
                 icon={Travel} 
                 numbers='1184'
                 text={"km traveled"} 
-                opacity={0.8}
+                opacity={1}
             />
         </div>
         <div className="columna">
@@ -36,14 +36,14 @@ function SectionIcons() {
                 icon={Casts} 
                 numbers='36'
                 text={"CTD casts"} 
-                opacity={0.8}
+                opacity={1}
             />
             <IconWithText  
                 className={'CTA'} 
                 icon={Dives} 
                 numbers='26'
                 text={"ROV dives"} 
-                opacity={0.8}
+                opacity={1}
             />
         </div>
         <div className="columna">
@@ -52,7 +52,7 @@ function SectionIcons() {
                 icon={Samples} 
                 numbers='671'
                 text={"ROV samples collected"} 
-                opacity={0.8}
+                opacity={1}
             />
         </div>
     </SectionIconsContainer>

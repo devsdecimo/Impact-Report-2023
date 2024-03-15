@@ -9,7 +9,8 @@ export const PageContainer = styled.div`
     row-gap: 0;
   }
   .content {
-    
+    max-width:80vw;
+    margin:auto;
   }
 
   .intro-text {
@@ -37,7 +38,9 @@ export const PageContainer = styled.div`
   .d-flex{
     display:flex;
     flex-direction:column;
-    gap:30px;
+    justify-items: center;
+    align-items: center;
+    gap:15px;
     @media (min-width:768px){
         flex-direction:row;
     }

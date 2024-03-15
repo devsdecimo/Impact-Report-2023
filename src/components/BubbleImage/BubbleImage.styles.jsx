@@ -10,7 +10,9 @@ export const BubbleImageContainer = styled.span`
   &.type-1 {
     position: relative;
     display: flex;
-    aspect-ratio: 4/3.2;
+    aspect-ratio: 4/3.8;
+    //margin-right:2rem;
+    //margin-bottom:2rem;
 
     .circle {
       border-radius: 100%;
@@ -19,21 +21,21 @@ export const BubbleImageContainer = styled.span`
 
       &-image {
         object-fit: cover;
-        width: 65%;
+        width: 73%;
       }
       &-1 {
         mix-blend-mode: multiply;
-        width: 55%;
+        width: 61.8%;
         background-color: #a3cadb;
       }
       &-2 {
         mix-blend-mode: normal;
-        width: 30%;
+        width: 33.71%;
         background-color: #5d808f;
       }
       &-3 {
         mix-blend-mode: multiply;
-        width: 15%;
+        width: 16.85%;
         background-color: #80aed8;
       }
 
@@ -46,15 +48,15 @@ export const BubbleImageContainer = styled.span`
       }
       &-1 {
         top: 36%;
-        left: 20%;
+        left: 22.47%;
       }
       &-2 {
         top: 30%;
-        left: 59%;
+        left: 66.29%;
       }
       &-3 {
-        top: 62%;
-        left: 68%;
+        top: 60%;
+        left: 76.4%;
       }
     `};
 
@@ -63,19 +65,19 @@ export const BubbleImageContainer = styled.span`
         `
       &-image {
         bottom: 0%;
-        right: 10%;
+        right: 0%;
       }
       &-1 {
         bottom: 36%;
-        right: 30%;
+        right: 22.36%;
       }
       &-2 {
         bottom: 30%;
-        right: 69%;
+        right: 64.43%;
       }
       &-3 {
-        bottom: 62%;
-        right: 78%;
+        bottom: 60%;
+        right: 74.13%;
       }
     `};
     }
@@ -100,29 +102,27 @@ export const BubbleImageContainer = styled.span`
   &.type-2 {
     display: flex;
     position: relative;
-    height: 320px;
-    width: 320px;
+    width: 57vw;
+    max-width: 320px;
+    aspect-ratio: 1 / 1;
     margin-left: 3rem;
     margin-bottom: 50px;
-    /*margin-top: 3rem;
-    transform: scale(1.2);*/
     @media (max-width: 829px) {
       margin: auto;
-      transform: scale(1);
     }
 
     img {
       position: absolute;
-      width: 250px;
+      width: 78%;
       height: auto;
       z-index: 2;
-      top: 50px;
+      top: 15%;
       right: 0px;
     }
     .circle {
+      aspect-ratio: 1 / 1;
       &-1 {
-        width: 168px;
-        height: 168px;
+        width: 52%;
         background-color: #80aed8;
         mix-blend-mode: multiply;
         opacity: 0.5;
@@ -130,19 +130,18 @@ export const BubbleImageContainer = styled.span`
         position: absolute;
         z-index: 1;
         top: 0;
-        left: 30px;
+        left: 10%;
       }
 
       &-2 {
-        width: 108px;
-        height: 108px;
+        width: 34%;
         background-color: #80aed8;
         mix-blend-mode: multiply;
         opacity: 0.8;
         border-radius: 100%;
         position: absolute;
         z-index: 1;
-        top: 100px;
+        top: 31%;
         left: 00px;
       }
     }
@@ -164,10 +163,10 @@ export const BubbleImageContainer = styled.span`
   &.type-3 {
     display: flex;
     position: relative;
-    width: 50vw;
+    width: 39vw;
     aspect-ratio: 45 / 38;
     margin: 1rem;
-    min-width: 330px;
+    min-width: 300px;
     @media (min-width: 768px) {
       width: 17vw;
     }

@@ -39,12 +39,13 @@ export const PageContainer = styled.div`
   }
 
   .content {
-    width: 90vw;
-    max-width: 1300px;
+    width: 80vw;
+    max-width: 1200px;
     margin-top: 0;
     margin-bottom: 2rem;
     margin-left: auto;
     margin-right: auto;
+
     @media (min-width: 768px) {
       width: 80vw;
       margin: 2rem auto;
@@ -71,10 +72,10 @@ export const PageContainer = styled.div`
 
   .expedition-carousel {
     width: 80vw;
-    max-width: 1300px;
+    max-width: 1200px;
     margin: 0 auto;
     @media (max-width: 829px) {
-      width: 90vw;
+      width: 100%;
     }
     @media (min-width: 768px) {
       margin-top: 2em;

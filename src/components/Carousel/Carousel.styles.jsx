@@ -95,7 +95,7 @@ export const DotContainer = styled.div`
 `;
 
 export const Dot = styled.span`
-  padding: 5px;
+  padding: 2px;
   margin-right: 10px;
   margin-left: 10px;
   cursor: pointer;

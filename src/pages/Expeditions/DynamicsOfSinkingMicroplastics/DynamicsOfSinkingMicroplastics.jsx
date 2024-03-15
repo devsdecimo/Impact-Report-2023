@@ -13,8 +13,6 @@ import BubbleImage from "../../../components/BubbleImage/BubbleImage";
 import YoutubeVideo from "../../../components/YoutubeVideo/YouTubeVideo";
 import ExpeditionsNav from "../ExpeditionsNav";
 
-import image from "/assets/images/expeditions/dynamics_of_sinking_microplastics/image.webp"
-
 
 function DynamicsOfSinkingMicroplastics() {
   const slidesPath = "/assets/images/expeditions/dynamics_of_sinking_microplastics/carousel/";
@@ -94,7 +92,7 @@ function DynamicsOfSinkingMicroplastics() {
             through the Panama Canal each year and encompassed a wide
             bathymetric gradient from coastal waters to the deep sea.
           </p>
-          <BubbleImage image={image} orientation="left" type={3} />
+          {/*<BubbleImage image={image} orientation="left" type={3} />*/}
           <p>
             Globally, the seafloor is widely recognized as the final
             repository for microplastics. While larger microplastics
