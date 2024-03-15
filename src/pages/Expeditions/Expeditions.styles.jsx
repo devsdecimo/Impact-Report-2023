@@ -41,9 +41,13 @@ export const PageContainer = styled.div`
   .content {
     width: 90vw;
     max-width: 1300px;
-    margin: 2rem auto;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
     @media (min-width: 768px) {
       width: 80vw;
+      margin: 2rem auto;
     }
   }
   .content ul {
@@ -108,6 +112,13 @@ export const PageContainer = styled.div`
     @media (min-width: 768px) {
       float: left;
       min-width: 40vh;
+    }
+  }
+
+  .columna {
+    div {
+      margin-top: 0;
+      margin-bottom: 10px;
     }
   }
 `;

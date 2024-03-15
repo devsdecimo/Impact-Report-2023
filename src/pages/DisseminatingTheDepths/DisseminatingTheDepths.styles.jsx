@@ -73,4 +73,8 @@ export const PageContainer = styled.div`
     max-width: 50vw;
     transition: 1s;
   }
+
+  .artist-sea-carousel {
+    margin: 2rem 0;
+  }
 `;

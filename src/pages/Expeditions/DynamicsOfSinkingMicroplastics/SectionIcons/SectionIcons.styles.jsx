@@ -11,6 +11,10 @@ export const SectionIconsContainer = styled.div`
     @media (max-width:829px){
         flex-direction:column;
         gap:0;
+        margin-top: 0;
+        margin-bottom: 2rem;
+        margin-left: auto;
+        margin-right: auto;
     }
 
 `;
