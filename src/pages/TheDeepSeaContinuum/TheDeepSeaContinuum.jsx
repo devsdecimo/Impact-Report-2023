@@ -16,7 +16,7 @@ function TheDeepSeaContinuum() {
       text: "Grants",
     },
     {
-      img: "/assets/images/the_deep_sea_continuum/JoseSpanishHourDiveStream.webp",
+      img: "/assets/images/the_deep_sea_continuum/strategic_partnerships/2023_Oceanic_Volcanism_Workshop_Group_picture_Samuel_J_Mitchell_Bristol_University Burbuja.webp",
       href: "/the_deep_sea_continuum/throught_leadership",
       text: "Throught Leadership",
     },

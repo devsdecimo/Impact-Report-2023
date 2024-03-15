@@ -6,7 +6,7 @@ function ThroughtLeadership({ children }) {
     <>
       <div className="content-group">
         <BubbleImage
-          image="/assets/images/the_deep_sea_continuum/JoseSpanishHourDiveStream.webp"
+          image="/assets/images/the_deep_sea_continuum/strategic_partnerships/2023_Oceanic_Volcanism_Workshop_Group_picture_Samuel_J_Mitchell_Bristol_University Burbuja.webp"
           className="continuum-image"
           orientation="left"
         />
