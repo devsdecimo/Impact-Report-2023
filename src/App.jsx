@@ -4,17 +4,14 @@ import {
   Routes,
   Route,
   Navigate,
-  useLocation,
 } from "react-router-dom";
 import NavMenu from "./components/NavMenu/NavMenu";
-import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import Home from "./pages/Home/Home";
 import AWordFromOurFounders from "./pages/AWordFromOurFounders/AWordFromOurFounders";
 import ExecutiveDirectorsNote from "./pages/ExecutiveDirectorsNote/ExecutiveDirectorsNote";
 import ByTheNumbers from "./pages/ByTheNumbers/ByTheNumbers";
 import NewSpeciesSpotlight from "./pages/NewSpeciesSpotlight/NewSpeciesSpotlight";
 import ALimitlessOceanOfData from "./pages/ALimitlessOceanOfData/ALimitlessOceanOfData";
-import DisseminatingTheDepths from "./pages/DisseminatingTheDepths/DisseminatingTheDepths";
 import InSearchOfHydrothermalLostCities from "./pages/Expeditions/InSearchOfHydrothermalLostCities/InSearchOfHydrothermalLostCities";
 
 //Expeditions
@@ -40,20 +37,60 @@ import LoadScreen from "./components/LoadScreen/LoadScreen";
 function App() {
   const [loading, setLoading] = useState(true);
 
+  const handleStartLoading = () => setLoading(true);
+  const handleStopLoading = () => setLoading(false);
+
   useEffect(() => {
-    const domLoadedTimeout = setTimeout(() => {
-      setLoading(false);
-    }, 2500);
+    handleStartLoading();
+
+    const handleRouteChange = () => {
+      handleStartLoading();
+    };
+
+    const loadImage = (image) => {
+      return new Promise((resolve, reject) => {
+        const loadImg = new Image();
+        loadImg.src = image.src;
+        loadImg.onload = () => resolve(image.src);
+        loadImg.onerror = (err) => reject(err);
+      });
+    };
+
+    const loadAllImages = () => {
+      const images = document.images;
+      const promises = Array.from(images).map(loadImage);
+      Promise.all(promises)
+        .then(setTimeout(handleStopLoading, 2000))
+        .catch(handleStopLoading);
+    };
+
+    window.addEventListener("popstate", handleRouteChange);
+    window.addEventListener("pushstate", handleRouteChange);
+    window.addEventListener("replacestate", handleRouteChange);
+
+    loadAllImages();
 
     return () => {
-      clearTimeout(domLoadedTimeout);
+      window.removeEventListener("popstate", handleRouteChange);
+      window.removeEventListener("pushstate", handleRouteChange);
+      window.removeEventListener("replacestate", handleRouteChange);
     };
   }, []);
+
+  // useEffect(() => {
+  //   const domLoadedTimeout = setTimeout(() => {
+  //     setLoading(false);
+  //   }, 2500);
+
+  //   return () => {
+  //     clearTimeout(domLoadedTimeout);
+  //   };
+  // }, []);
 
   return (
     <Router>
       {loading ? (
-        <LoadScreen/>
+        <LoadScreen />
       ) : (
         <>
           <NavMenu />

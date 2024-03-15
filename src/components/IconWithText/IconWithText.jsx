@@ -93,8 +93,8 @@ function IconWithText({ className, icon, numbers, text, alt = "", toFixed = 0, o
         <span className="ml-10 text-before"><strong>{textBefore}</strong></span>
       }
       {numbers && textBefore=='Year discovered: '?
-      <span className={textBefore?"ml-10":"ml-10 text-bold"}>{counter.toFixed(toFixed)}</span>:numbers &&
-      <span className={textBefore?"ml-10":"ml-10 text-bold"}>{counter.toFixed(toFixed).replace(/\B(?=(\d{3})+(?!\d))/g, ',')}</span>}
+      <span className={textBefore && textBefore !== '~'?"ml-10":"ml-10 text-bold"}>{counter.toFixed(toFixed)}</span>:numbers &&
+      <span className={textBefore && textBefore !== '~'?"ml-10":"ml-10 text-bold"}>{counter.toFixed(toFixed).replace(/\B(?=(\d{3})+(?!\d))/g, ',')}</span>}
       {separator && 
       <span className={textBefore?'':'text-bold'}>{separator}</span>}
       {numbers2 && textBefore=='Year discovered: '?

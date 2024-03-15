@@ -47,6 +47,7 @@ function SubMenu({ children, className, title, href, toggleMain }) {
     <SubMenuContainer
       onMouseEnter={() => toggleSubMenu(true)}
       onMouseLeave={() => toggleSubMenu(false)}
+      onClick={()=>{toggleSubMenu(!openSubMenu)}}
     >
       <button className={`submenu_title ${openSubMenu ? "submenu__open" : ""}`}>
         {href ? (

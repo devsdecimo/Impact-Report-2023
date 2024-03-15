@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 
 export const CarouselNavContainer = styled.div`
   display: flex;
@@ -11,7 +11,8 @@ export const CarouselNavContainer = styled.div`
   padding: 1rem 0;
   max-width: 100vw;
   min-height: 250px;
-  &.all-visible{
+  animation: frombottomwait 1s ease-in-out;
+  &.all-visible {
     overflow: visible;
   }
 `;
@@ -19,13 +20,16 @@ export const CarouselNavContainer = styled.div`
 export const SlidesContainer = styled.div`
   display: flex;
   width: calc(150px * ${(props) => props.totalSlides});
-  transition: ${(props) =>
-    props.enabledTransition ? "transform 0.2s ease-in-out" : "0s"};
+  &:not(.all-visible) {
+    transition: ${(props) =>
+      props.enabledTransition ? "transform 0.2s ease-in-out" : "0s"};
+  }
+
   transform: translateX(
     calc(50% - ${(props) => (props.currentIndex + 0.5) * 160}px)
   );
 
-  &.all-visible{
+  &.all-visible {
     justify-content: center;
     column-gap: 2vw;
     transform: none;
@@ -39,7 +43,7 @@ export const Slide = styled.div`
   align-items: center;
   margin: 0 20px;
   transition: ${(props) =>
-  props.enabledTransition ? " opacity 0.2s ease" : "0s"};
+    props.enabledTransition ? " opacity 0.2s ease" : "0s"};
   opacity: 1;
   width: 120px;
   height: 120px;
@@ -63,7 +67,6 @@ export const Slide = styled.div`
       object-fit: contain;
       transition: 1s;
     }
-
   }
 
   a {
@@ -107,10 +110,8 @@ export const Slide = styled.div`
 
 export const ArrowButton = styled.button`
   position: absolute;
-  top: 50%;
-  box-shadow: 0 0 7px rgba(250, 250, 250, 1);
+  top: 70%;
   background-color: transparent;
-  background: rgba(250, 250, 250, 0.8);
   height: 100%;
   width: 21%;
   transform: translateY(-50%);
@@ -118,10 +119,17 @@ export const ArrowButton = styled.button`
   cursor: pointer;
   font-size: 3em;
   color: #3e5973;
+  text-shadow: 0 0 20px rgba(255, 255, 255, 1);
   z-index: 2;
 
   @media (min-width: 400px) {
     width: 10%;
+  }
+
+  @media (min-width: 768px) {
+    box-shadow: 0 0 7px rgba(250, 250, 250, 1);
+    background: rgba(250, 250, 250, 0.8);
+    top: 50%;
   }
 
   ${({ direction }) => (direction === "left" ? "left: 0%;" : "right: 0%;")}
