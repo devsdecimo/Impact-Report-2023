@@ -10,7 +10,7 @@ function Footer({children, background}) {
           />
           <div className="footer_content">
             <h1>{children}</h1>
-            <p>Schmidt Ocean Institute | Impact Report 2023</p>
+            <p>Schmidt Ocean Institute</p>
           </div>
         </FooterContainer>
       );

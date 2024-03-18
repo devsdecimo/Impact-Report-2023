@@ -12,7 +12,7 @@ import Next from "/assets/images/next.svg";
 import BubbleImage from "../../../components/BubbleImage/BubbleImage";
 import YoutubeVideo from "../../../components/YoutubeVideo/YouTubeVideo";
 import ExpeditionsNav from "../ExpeditionsNav";
-
+import headerImage from "/assets/images/expeditions/dynamics_of_sinking_microplastics/Header.webp";
 
 function DynamicsOfSinkingMicroplastics() {
   const slidesPath = "/assets/images/expeditions/dynamics_of_sinking_microplastics/carousel/";
@@ -35,7 +35,7 @@ function DynamicsOfSinkingMicroplastics() {
             alt="Dynamics of Sinking Microplastics"
           />
         }
-        header_image="/assets/images/expeditions/dynamics_of_sinking_microplastics/Header.webp"
+        header_image={headerImage}
         footer_image="/assets/images/expeditions/dynamics_of_sinking_microplastics/Footer.webp"
       >
         <SectionWithImage

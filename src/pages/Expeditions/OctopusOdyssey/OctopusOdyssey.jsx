@@ -5,13 +5,11 @@ import SectionWithImage from "./SectionWithImage/SectionWithImage";
 import SectionBrands from "./SectionBrands/SectionBrands";
 import SectionIcons from "./SectionIcons/SectionIcons";
 import Carousel from "../../../components/Carousel/Carousel";
-import GeneralButton from "../../../components/GeneralButton/GeneralButton";
 
-import Prev from "/assets/images/prev.svg";
-import Next from "/assets/images/next.svg";
-import BubbleImage from "../../../components/BubbleImage/BubbleImage";
 import YoutubeVideo from "../../../components/YoutubeVideo/YouTubeVideo";
 import ExpeditionsNav from "../ExpeditionsNav";
+import headerImage from "/assets/images/expeditions/octopus_odyssey/Header.webp";
+import BubbleImage from "../../../components/BubbleImage/BubbleImage";
 
 function OctopusOdyssey() {
   const slidesPath = "/assets/images/expeditions/octopus_odyssey/carousel/";
@@ -23,18 +21,6 @@ function OctopusOdyssey() {
     { img: `${slidesPath}04-Shrimp.webp` },
     { img: `${slidesPath}05-Baby.webp` },
   ];
-  /*OLD CAROUSEL:*/
-  /*
-  const slides = [
-    { img: `${slidesPath}01-octoShrimp.webp` },
-    { img: `${slidesPath}02-Sample.webp` },
-    { img: `${slidesPath}03-FirstOctopus.webp` },
-    { img: `${slidesPath}04-FirstOctopus.webp` },
-    { img: `${slidesPath}05-Michel_BroodingWatercolor.webp` },
-    { img: `${slidesPath}06-ROVGlowInWater.webp` },
-    { img: `${slidesPath}07-ROVSampleProcessing.webp` },
-  ];
-  */
 
   return (
     <PageContainer>
@@ -42,10 +28,10 @@ function OctopusOdyssey() {
         title={
           <img
             src="/assets/images/expeditions/octopus_odyssey/Title.svg"
-            alt="Health Diagnosis Of Deep Sea Coral"
+            alt="Octopus Odyssey"
           />
         }
-        header_image="/assets/images/expeditions/octopus_odyssey/Header.webp"
+        header_image={headerImage}
         footer_image="/assets/images/expeditions/octopus_odyssey/Footer.webp"
       >
         <SectionWithImage
@@ -81,7 +67,8 @@ function OctopusOdyssey() {
           <ul>
             <li>
               The team confirmed the Dorado Outcrop in Costa Rica&rsquo;s
-              Pacific waters hosts a year-round octopus nursery with hundreds of <em>Muusoctopus</em> brooding viable eggs in low-temperature
+              Pacific waters hosts a year-round octopus nursery with hundreds of{" "}
+              <em>Muusoctopus</em> brooding viable eggs in low-temperature
               hydrothermal fluids.
             </li>
             <li>
@@ -108,6 +95,7 @@ function OctopusOdyssey() {
             the nursery were viable, as past expeditions to the outcrop had
             never seen evidence of developing embryos.
           </p>
+          <BubbleImage image={'/assets/images/expeditions/octopus_odyssey/FKt230602-Dive-531-Octo-1.webp'} orientation="right" type={3} />
           <p>
             The team documented nurseries with hundreds of <em>Muusoctopus </em>
             species brooding viable eggs in low-temperature hydrothermal fluids
@@ -153,7 +141,10 @@ function OctopusOdyssey() {
           <p>
             The observed deep-sea octopus and skate nurseries exhibit all of the
             characteristics of{" "}
-            <a href="https://www.fao.org/in-action/vulnerable-marine-ecosystems/definitions/en/" target="_blank">
+            <a
+              href="https://www.fao.org/in-action/vulnerable-marine-ecosystems/definitions/en/"
+              target="_blank"
+            >
               Vulnerable Marine Ecosystems
             </a>{" "}
             and{" "}
@@ -173,7 +164,10 @@ function OctopusOdyssey() {
           </p>
           <p>
             Over{" "}
-            <a href="https://youtu.be/JYMaz6AW7f0?feature=shared" target="_blank">
+            <a
+              href="https://youtu.be/JYMaz6AW7f0?feature=shared"
+              target="_blank"
+            >
               160 deep-sea animal specimens
             </a>{" "}
             collected from these expeditions will be stored at the Museum of

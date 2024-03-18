@@ -10,7 +10,7 @@ function NotFound() {
           title={
             <img
               src="/assets/images/not-found/Title.svg"
-              alt="New species and Seafloor Spotlight"
+              alt="Not Found"
             />
           }
         header_image="/assets/images/not-found/Header.webp"
@@ -18,7 +18,6 @@ function NotFound() {
       >
         <div>
           <h2>404 Not Found</h2>
-          <h3>Work in Process 🚧</h3>
           <h3><Link to="/">Return to Home </Link></h3>
         </div>
       </Page>

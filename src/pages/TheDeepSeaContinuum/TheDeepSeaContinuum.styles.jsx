@@ -11,17 +11,18 @@ export const PageContainer = styled.div`
   }
 
   .main_content {
-    max-width: 1200px;
-    width: 80vw;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-top: 2rem;
+    align-items: center;
   }
 
   .content-group {
     margin-bottom: 4rem;
+    max-width: 1200px;
+    width: 80vw;
   }
   .continuum-image {
     width: 70vw;

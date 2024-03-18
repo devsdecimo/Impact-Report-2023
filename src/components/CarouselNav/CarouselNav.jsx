@@ -179,7 +179,7 @@ function CarouselNav({
                   }}
                 >
                   <div className="slide-image">
-                    <img src={slide.img} alt={slide.text} draggable={false} />
+                    <img src={slide.img} alt={slide.text} draggable={false}/>
                   </div>
                   <div className="slide-text">{slide.text}</div>
                 </Link>

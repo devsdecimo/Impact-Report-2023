@@ -30,9 +30,9 @@ function ImageWithCircle2({image,alt, orientation = 'left'}) {
 
   return (
     <ImageWithCircle2Container orientation={orientation} ref={ref}>
-        <img className="circle circle-3"/>
+        <div className="circle circle-3"/>
         <div className="circle circle-1"/>
-        <img className="circle circle-2"/>
+        <div className="circle circle-2"/>
         <img src={image} alt={alt} className="circle circle-image"/>
     </ImageWithCircle2Container>
     

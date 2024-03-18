@@ -5,24 +5,20 @@ import SectionWithImage from "./SectionWithImage/SectionWithImage";
 import SectionBrands from "./SectionBrands/SectionBrands";
 import SectionIcons from "./SectionIcons/SectionIcons";
 import Carousel from "../../../components/Carousel/Carousel";
-import GeneralButton from "../../../components/GeneralButton/GeneralButton";
 
-import Prev from "/assets/images/prev.svg";
-import Next from "/assets/images/next.svg";
-import BubbleImage from "../../../components/BubbleImage/BubbleImage";
 import YoutubeVideo from "../../../components/YoutubeVideo/YouTubeVideo";
 import ExpeditionsNav from "../ExpeditionsNav";
+
+import headerImage from "/assets/images/expeditions/hydrothermal_vents_of_the_western_galapagos/Header.webp";
 
 function HydrothermalVentsOfTheWesternGalapagos() {
   const slidesPath = "/assets/images/expeditions/hydrothermal_vents_of_the_western_galapagos/carousel/";
   const slides = [
-    { img: `${slidesPath}CirrateOctopus.webp` },
-    { img: `${slidesPath}Dive562MissionControl.webp` },
-    { img: `${slidesPath}DramaticIgt4.webp` },
-    { img: `${slidesPath}Grimalditeuthis.webp` },
-    { img: `${slidesPath}JRodAndDan.webp` },
-    { img: `${slidesPath}Planctoteuthis.webp` },
-    { img: `${slidesPath}RiftiaGlam.webp` },
+    { img: `${slidesPath}FKt230812-Dive562MissionControl-20230818-Ingle-7938-Approved.webp` },
+    { img: `${slidesPath}FKt230812-PeteAndreaAndPhilPressureExperiment-20230901-Ingle-3752-APPROVED.webp` },
+    { img: `${slidesPath}FKt230812-S0566-20230824T163304Z-Approved-SubastianBothArmsIgt.webp` },
+    { img: `${slidesPath}Fkt230812-S0570-20230830T133535Z-scitoo-Grimalditeuthis-APPROVED.webp` },
+    { img: `${slidesPath}FKt230812-ScienceTeamMobilisation-20230812-Ingle-5175-APPROVED.webp` },
   ];
 
   return (
@@ -34,7 +30,7 @@ function HydrothermalVentsOfTheWesternGalapagos() {
             alt="Hydrothermal Vents of the Western Galapagos"
           />
         }
-        header_image="/assets/images/expeditions/hydrothermal_vents_of_the_western_galapagos/Header.webp"
+        header_image={headerImage}
         footer_image="/assets/images/expeditions/hydrothermal_vents_of_the_western_galapagos/Footer.webp"
       >
         <SectionWithImage

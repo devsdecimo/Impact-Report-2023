@@ -122,6 +122,10 @@ export const ArrowButton = styled.button`
   text-shadow: 0 0 20px rgba(255, 255, 255, 1);
   z-index: 2;
 
+  &:active{
+    background: transparent;
+  }
+
   @media (min-width: 400px) {
     width: 10%;
   }

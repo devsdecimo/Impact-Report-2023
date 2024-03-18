@@ -58,9 +58,10 @@ function App() {
 
     const loadAllImages = () => {
       const images = document.images;
+      console.log(images);
       const promises = Array.from(images).map(loadImage);
       Promise.all(promises)
-        .then(setTimeout(handleStopLoading, 2000))
+        .then(setTimeout(handleStopLoading, 2500))
         .catch(handleStopLoading);
     };
 
@@ -147,24 +148,11 @@ function App() {
               element={<ALimitlessOceanOfData />}
             />
             <Route path="/disseminating_the_depths">
-              <Route
-                index
-                element={
-                  <Navigate
-                    to="/disseminating_the_depths/artist_at_sea"
-                    replace
-                  />
-                }
+              <Route index element={ <Navigate to="/disseminating_the_depths/artist_at_sea" replace />}
               />
               <Route path="artist_at_sea" element={<ArtistAtSea />} />
-              <Route
-                path="community_building"
-                element={<CommunityBuilding />}
-              />
-              <Route
-                path="divestreams_and_connections"
-                element={<DivestreamsAndConnections />}
-              />
+              <Route path="community_building" element={<CommunityBuilding />} />
+              <Route path="divestreams_and_connections" element={<DivestreamsAndConnections />} />
               <Route path="press_and_footage" element={<PressAndFootage />} />
               <Route path="on_the_big_screen" element={<OnTheBigScreen />} />
             </Route>

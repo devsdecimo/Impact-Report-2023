@@ -33,9 +33,10 @@ function TheDeepSeaContinuum() {
           <img
             src="/assets/images/the_deep_sea_continuum/Title.svg"
             alt="By the Numbers"
+            loading="lazy"
           />
         }
-        header_image="/assets/images/the_deep_sea_continuum/Header.webp"
+        header_image={"/assets/images/the_deep_sea_continuum/Header.webp"}
         footer_image="/assets/images/the_deep_sea_continuum/Footer.webp"
       >
         <CarouselNav slides={navSlides}/>

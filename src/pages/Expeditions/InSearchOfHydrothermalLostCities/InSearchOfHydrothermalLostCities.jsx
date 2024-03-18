@@ -16,6 +16,8 @@ import BubbleImage from "../../../components/BubbleImage/BubbleImage";
 import YoutubeVideo from "../../../components/YoutubeVideo/YouTubeVideo";
 import ExpeditionsNav from "../ExpeditionsNav";
 
+import headerImage from "/assets/images/expeditions/in_search_of_hydrothermal_lost_cities/Header.webp";
+
 function InSearchOfHydrothermalLostCities() {
   const slides = [
     { img: image },
@@ -34,7 +36,7 @@ function InSearchOfHydrothermalLostCities() {
             alt="In Search Of Hydrothermal Lost Cities"
           />
         }
-        header_image="/assets/images/expeditions/in_search_of_hydrothermal_lost_cities/Header.webp"
+        header_image={headerImage}
         footer_image="/assets/images/expeditions/in_search_of_hydrothermal_lost_cities/Footer.webp"
       >
         <SectionWithImage

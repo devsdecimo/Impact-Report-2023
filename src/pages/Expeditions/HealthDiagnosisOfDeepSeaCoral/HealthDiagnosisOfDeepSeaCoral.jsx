@@ -5,13 +5,9 @@ import SectionWithImage from "./SectionWithImage/SectionWithImage";
 import SectionBrands from "./SectionBrands/SectionBrands";
 import SectionIcons from "./SectionIcons/SectionIcons";
 import Carousel from "../../../components/Carousel/Carousel";
-import GeneralButton from "../../../components/GeneralButton/GeneralButton";
-
-import Prev from "/assets/images/prev.svg";
-import Next from "/assets/images/next.svg";
-import BubbleImage from "../../../components/BubbleImage/BubbleImage";
 import YoutubeVideo from "../../../components/YoutubeVideo/YouTubeVideo";
 import ExpeditionsNav from "../ExpeditionsNav";
+import headerImage from "/assets/images/expeditions/health_diagnosis_of_deep_sea_coral/Header.webp";
 
 function HealthDiagnosisOfDeepSeaCoral() {
   const slidesPath =
@@ -35,7 +31,7 @@ function HealthDiagnosisOfDeepSeaCoral() {
             alt="Health Diagnosis Of Deep Sea Coral"
           />
         }
-        header_image="/assets/images/expeditions/health_diagnosis_of_deep_sea_coral/Header.webp"
+        header_image={headerImage}
         footer_image="/assets/images/expeditions/health_diagnosis_of_deep_sea_coral/Footer.webp"
       >
         <SectionWithImage

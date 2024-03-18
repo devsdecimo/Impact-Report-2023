@@ -88,7 +88,7 @@ function IconWithText({ className, icon, numbers, text, alt = "", toFixed = 0, o
   return (
     <IconWithTextContainer ref={containerRef} className={className} onClick={handleClick} style={{ opacity }}>
       
-      <img src={icon} alt={alt} />
+      <img src={icon} alt={alt}/>
       {textBefore &&
         <span className="ml-10 text-before"><strong>{textBefore}</strong></span>
       }

@@ -12,54 +12,58 @@ export const PageContainer = styled.div`
   }
 
   .main_content {
-    width: 80vw;
-    max-width: 1200px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-top: 2rem;
+    align-items: center;
+  }
+
+  .content-body {
+    width: 80vw;
+    max-width: 1200px;
   }
 
   .artist-image {
-    width: 30vh;
+    width: 70vw;
     @media (min-width: 768px) {
       float: left;
-      min-width: 45vh;
-      margin-right:2rem;
+      width: 15.625vw;
+      margin-right: 2rem;
     }
   }
 
   .community-image {
-    width: 30vh;
+    width: 70vw;
     @media (min-width: 768px) {
       float: right;
-      min-width: 45vh;
+      width: 15.625vw;
     }
   }
 
   .connections-image {
-    width: 30vh;
+    width: 70vw;
     @media (min-width: 768px) {
       float: left;
-      min-width: 45vh;
-      margin-right:2rem;
+      width: 15.625vw;
+      margin-right: 2rem;
     }
   }
 
   .press-image {
-    width: 30vh;
+    width: 70vw;
     @media (min-width: 768px) {
       float: right;
-      min-width: 45vh;
+      width: 15.625vw;
     }
   }
 
   .screen-image {
-    width: 30vh;
+    width: 70vw;
     @media (min-width: 768px) {
       float: left;
-      min-width: 45vh;
+      width: 15.625vw;
       margin-right:2rem;
     }
   }
@@ -79,15 +83,18 @@ export const PageContainer = styled.div`
   }
 
   /*centrar bubbles en mobile*/
-  @media (max-width:767px){
-    .artist-image, .community-image, .press-image, .screen-image, .connections-image{
-      margin:auto;
-      margin-bottom:2rem;
+  @media (max-width: 767px) {
+    .artist-image,
+    .community-image,
+    .press-image,
+    .screen-image,
+    .connections-image {
+      margin: auto;
+      margin-bottom: 2rem;
     }
     /*centrar titulos */
-    h3{
+    h3 {
       text-align: center;
     }
   }
-  
 `;

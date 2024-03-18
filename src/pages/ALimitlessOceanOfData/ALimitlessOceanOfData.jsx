@@ -2,6 +2,8 @@ import React from "react";
 import { PageContainer } from "./ALimitlessOceanOfData.styles";
 import Page from "../../components/Page/Page";
 
+import headerImage from "/assets/images/a_limitless_ocean_of_data/Header.webp";
+
 
 function ALimistlessOceanOfData() {
   return (
@@ -13,7 +15,7 @@ function ALimistlessOceanOfData() {
             alt="A Limitless Ocean Of Data"
           />
         }
-        header_image="/assets/images/a_limitless_ocean_of_data/Header.webp"
+        header_image={headerImage}
         footer_image="/assets/images/a_limitless_ocean_of_data/Footer.webp"
       >
         <div className="content">

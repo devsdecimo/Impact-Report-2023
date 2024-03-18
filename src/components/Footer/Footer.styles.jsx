@@ -24,9 +24,12 @@ export const FooterContainer = styled.footer`
     p {
       padding-top: 2rem;
       color: var(--white);
-      font-size: 2vw;
+      font-size: 7vw;
       font-weight: bold;
       text-shadow: 0 0 20px rgba(0,0,0,1);
+      @media (min-width: 768px) {
+        font-size: 4vw;
+      }
     }
   }
 `;

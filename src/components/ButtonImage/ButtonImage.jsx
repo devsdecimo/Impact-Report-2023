@@ -58,7 +58,7 @@ function ButtonImage({
           onMouseEnter={show}
           onMouseLeave={hide}
         >
-          <img src={src} alt="" />
+          <img src={src} alt=""/>
         </button>
       </Tippy>
       <a onClick={handleClick} className="expedition_tag_mobile">
