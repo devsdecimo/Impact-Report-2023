@@ -10,6 +10,7 @@ import YoutubeVideo from "../../../components/YoutubeVideo/YouTubeVideo";
 import ExpeditionsNav from "../ExpeditionsNav";
 
 import headerImage from "/assets/images/expeditions/hydrothermal_vents_of_the_western_galapagos/Header.webp";
+import BubbleImage from "../../../components/BubbleImage/BubbleImage";
 
 function HydrothermalVentsOfTheWesternGalapagos() {
   const slidesPath = "/assets/images/expeditions/hydrothermal_vents_of_the_western_galapagos/carousel/";
@@ -69,6 +70,7 @@ function HydrothermalVentsOfTheWesternGalapagos() {
           <p>
             Chief Scientists Roxanne Beinart and Jill McDermott led this expedition in the Galápagos to uncover the mysteries of unexplored hydrothermal vents at the Western Galápagos Spreading Center, or WGSC. The science team examined and sampled the site’s unique chemistry, geology, and biology — revealing variations from nearby vents and across the eastern Pacific. Over the last forty-five years, hydrothermal vents have been uncovered in all five Ocean basins. Much progress has been made in understanding their inner workings, yet they remain one of Earth’s most mysterious and understudied ecosystems. 
           </p>
+          <BubbleImage image={"/assets/images/expeditions/hydrothermal_vents_of_the_western_galapagos/Fkt230812-S0562-055056Z-Approved-VentLandscape.webp"} orientation="right" type={3} />
           <p>
             Beinart and her team explored the WGSC, just a few hundred kilometers from the original site where hydrothermal vent communities were discovered in the late 1970s. The team worked at four under or unexplored deep-sea hydrothermal vent sites along the WGSC in Ecuadorian waters. Two of the sites, Iguanas and Pinguinos, are located within the Galápagos Marine Reserve. These sites had been visited previously by deep-sea research expeditions a few times, most recently in 2015. One site, Navidad, had only been detected previously by a towed camera, so the ROV dives there were the first visit to the site by a deep-submergence vehicle. They also conducted operations at two additional sites to locate previously detected but unconfirmed vent fields and successfully located vents at one of these two sites, now called Sendero del Cangrejo.
           </p>
