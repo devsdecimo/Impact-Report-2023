@@ -272,7 +272,7 @@ function Grants({ children }) {
         ></BubbleImage>
         <h3>University of Puerto Rico</h3>
         <p>
-          During R/V <em>Falkor</em>
+          During R/V <em>Falkor</em>{" "}
           <em>(too)</em>&rsquo;s{" "}
           <a href="https://schmidtocean.org/cruise/health-diagnostics-of-deep-sea-coral/" target="_blank">
             Health Diagnostics Deep-Sea Coral expedition

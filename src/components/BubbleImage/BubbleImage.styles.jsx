@@ -106,8 +106,8 @@ export const BubbleImageContainer = styled.span`
     max-width: 320px;
     aspect-ratio: 1 / 1;
     margin-left: 3rem;
-    margin-bottom: 50px;
-    @media (max-width: 829px) {
+    margin-bottom: 0;
+    @media (max-width: 768px) {
       margin: auto;
     }
 

@@ -4,7 +4,7 @@ export const SectionContainer = styled.div`
   width:80vw;
   max-width:1200px;
   margin:auto;
-  padding: 2rem 0 6rem 0;
+  padding: 2rem 0 3rem 0;
 
   .images-container{
     flex-basis: 38%;
@@ -22,7 +22,7 @@ export const SectionContainer = styled.div`
   .icons-container{
     max-width:500px;
     margin-left: 3rem;
-    margin-top: 3rem;
+    margin-top: 0;
     @media (max-width:829px){
         width:320px;
         margin:auto;

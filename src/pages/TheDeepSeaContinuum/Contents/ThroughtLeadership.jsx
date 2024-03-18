@@ -208,7 +208,7 @@ function ThroughtLeadership({ children }) {
         <p>
           SOI held its second virtual symposium, <em>Setting the Course,</em> in
           the spring of 2023, kicking off our inaugural year of science on board
-          R/V{" "}<em>Falkor</em>
+          R/V{" "}<em>Falkor</em>{" "}
           <em>(too)</em>. The event provided the community with a guided first
           tour of the ship and shared SOI&rsquo;s long-term strategy for boldly
           exploring our unknown Ocean. SOI Executive Director Dr. Jyotika
