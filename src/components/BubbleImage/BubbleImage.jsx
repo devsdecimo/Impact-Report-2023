@@ -49,7 +49,7 @@ function BubbleImage({
           <span className="circle circle-1"></span>
           <span className="circle circle-2"></span>
           <span className="circle circle-3"></span>
-          <img src={image} className="circle circle-image" alt={alt} />
+          <img src={image} className="circle circle-image" alt={alt}/>
         </>
       )}
 

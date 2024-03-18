@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const HeaderContainer = styled.div`
   position: relative;
   max-width: 100vw;
+  aspect-ratio: 400 / 115;
 
   .header_logo {
     position: absolute;

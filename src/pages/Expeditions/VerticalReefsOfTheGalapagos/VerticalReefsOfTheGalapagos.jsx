@@ -5,13 +5,13 @@ import SectionWithImage from "./SectionWithImage/SectionWithImage";
 import SectionBrands from "./SectionBrands/SectionBrands";
 import SectionIcons from "./SectionIcons/SectionIcons";
 import Carousel from "../../../components/Carousel/Carousel";
-import GeneralButton from "../../../components/GeneralButton/GeneralButton";
 
 import YoutubeVideo from "../../../components/YoutubeVideo/YouTubeVideo";
 import ExpeditionsNav from "../ExpeditionsNav";
 
 import BubbleImage from "../../../components/BubbleImage/BubbleImage";
 import image from "/assets/images/expeditions/vertical_reefs_of_the_galapagos/Burbuja.webp"
+import headerImage from "/assets/images/expeditions/vertical_reefs_of_the_galapagos/Header.webp";
 
 function VerticalReefsOfTheGalapagos() {
     const slidesPath = "/assets/images/expeditions/vertical_reefs_of_the_galapagos/carousel/";
@@ -32,7 +32,7 @@ function VerticalReefsOfTheGalapagos() {
             alt="Vertical Reefs of the Galapagos"
           />
         }
-        header_image="/assets/images/expeditions/vertical_reefs_of_the_galapagos/Header.webp"
+        header_image={headerImage}
         footer_image="/assets/images/expeditions/vertical_reefs_of_the_galapagos/Footer.webp"
       >
         <SectionWithImage

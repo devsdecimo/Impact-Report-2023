@@ -5,13 +5,10 @@ import SectionWithImage from "./SectionWithImage/SectionWithImage";
 import SectionBrands from "./SectionBrands/SectionBrands";
 import SectionIcons from "./SectionIcons/SectionIcons";
 import Carousel from "../../../components/Carousel/Carousel";
-import GeneralButton from "../../../components/GeneralButton/GeneralButton";
 
-import Prev from "/assets/images/prev.svg";
-import Next from "/assets/images/next.svg";
-import BubbleImage from "../../../components/BubbleImage/BubbleImage";
 import YoutubeVideo from "../../../components/YoutubeVideo/YouTubeVideo";
 import ExpeditionsNav from "../ExpeditionsNav";
+import headerImage from "/assets/images/expeditions/the_underworld_of_hydrothermal_vents/Header.webp";
 
 function TheUnderworldOfHydrothermalVents() {
   const slidesPath = "/assets/images/expeditions/the_underworld_of_hydrothermal_vents/carousel/";
@@ -31,10 +28,10 @@ function TheUnderworldOfHydrothermalVents() {
         title={
           <img
             src="/assets/images/expeditions/the_underworld_of_hydrothermal_vents/Title.svg"
-            alt="Health Diagnosis Of Deep Sea Coral"
+            alt="The Underworld Of Hydrothermal Vents"
           />
         }
-        header_image="/assets/images/expeditions/the_underworld_of_hydrothermal_vents/Header.webp"
+        header_image={headerImage}
         footer_image="/assets/images/expeditions/the_underworld_of_hydrothermal_vents/Footer.webp"
       >
         <SectionWithImage

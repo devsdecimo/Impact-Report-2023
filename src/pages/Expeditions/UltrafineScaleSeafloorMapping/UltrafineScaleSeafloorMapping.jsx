@@ -12,18 +12,10 @@ import ExpeditionsNav from "../ExpeditionsNav";
 
 import image from "/assets/images/expeditions/ultra_fine_scale_seafloor_mapping/image.webp"
 
+import headerImage from "/assets/images/expeditions/ultra_fine_scale_seafloor_mapping/Header.webp";
+
 function UltrafineScaleSeafloorMapping() {
     const slidesPath = "/assets/images/expeditions/ultra_fine_scale_seafloor_mapping/carousel/";
-    /*OLD CAROUSEL
-    const slides = [
-      { img: `${slidesPath}ControlRoom.webp` },
-      { img: `${slidesPath}Huellos.webp` },
-      { img: `${slidesPath}Labwork.webp` },
-      { img: `${slidesPath}Naranjo.webp` },
-      { img: `${slidesPath}Vent.webp` },
-      { img: `${slidesPath}Working.webp` },
-      { img: `${slidesPath}Working2.webp` },
-    ];*/
     const slides = [
       { img: `${slidesPath}01-Vent.webp` },
       { img: `${slidesPath}02-Huellos.webp` },
@@ -38,10 +30,10 @@ function UltrafineScaleSeafloorMapping() {
         title={
           <img
             src="/assets/images/expeditions/ultra_fine_scale_seafloor_mapping/Title.svg"
-            alt="Vertical Reefs of the Galapagos"
+            alt="Ultrafine Scale Seafloor Mapping"
           />
         }
-        header_image="/assets/images/expeditions/ultra_fine_scale_seafloor_mapping/Header.webp"
+        header_image={headerImage}
         footer_image="/assets/images/expeditions/ultra_fine_scale_seafloor_mapping/Footer.webp"
       >
         <SectionWithImage

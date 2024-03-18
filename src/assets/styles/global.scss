@@ -146,6 +146,23 @@ body {
   }
 }
 
+@keyframes frombottomwait{
+  0%{
+    opacity: 0;
+    transform: translateY(50px);
+  }
+
+  50%{
+    opacity: 0;
+    transform: translateY(50px);
+  }
+
+  100%{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .tippy-box[data-theme~="soi"] {
   border-radius: 5px;
   background: transparent;

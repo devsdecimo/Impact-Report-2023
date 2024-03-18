@@ -16,7 +16,7 @@ function AnimatedHeader({ children, background }) {
       <div className="header_bottom" />
       <div className="header_bottom_over" />
       <img src="" alt="" />
-      <div className="header_content">
+      <div className="header_content" >
         {children}
       </div>
     </AnimatedHeaderContainer>

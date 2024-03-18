@@ -3,8 +3,14 @@ import { PageContainer } from "./DisseminatingTheDepths.styles";
 import Page from "../../components/Page/Page";
 import CarouselNav from "../../components/CarouselNav/CarouselNav";
 import { Outlet } from "react-router-dom";
+import ScrollToTop from "../../components/ScrollToTop/ScrollToTop";
 
-function DisseminatingTheDepths({ children, header_image, footer_image, title }) {
+function DisseminatingTheDepths({
+  children,
+  header_image,
+  footer_image,
+  title,
+}) {
   const navSlides = [
     {
       img: "/assets/images/disseminating_the_depths/artist-at-sea/HEADER-FKt230602-ArtistAtSeaShowcase-20230613-Ingle-0767.webp",
@@ -41,9 +47,7 @@ function DisseminatingTheDepths({ children, header_image, footer_image, title })
         footer_image={footer_image}
       >
         <CarouselNav slides={navSlides} />
-        <div className="content-body">
-          {children}
-        </div>
+        <div className="content-body">{children}</div>
       </Page>
     </PageContainer>
   );

@@ -10,6 +10,7 @@ import Subastian from "/assets/images/a_word_from_our_founders/Subastian.webp";
 import Octopus from "/assets/images/a_word_from_our_founders/Octopus.webp";
 import CarouselNav from "../../components/CarouselNav/CarouselNav";
 import ScrollToTop from "../../components/ScrollToTop/ScrollToTop";
+import headerImage from "/assets/images/a_word_from_our_founders/Header.webp";
 
 function AWordFromOurFounders() {
   const navSlides = [
@@ -33,7 +34,7 @@ function AWordFromOurFounders() {
             alt="A Word From Our Founders"
           />
         }
-        header_image="/assets/images/a_word_from_our_founders/Header.webp"
+        header_image={headerImage}
         footer_image="/assets/images/a_word_from_our_founders/Footer.webp"
       >
         <div className="intro-text">
