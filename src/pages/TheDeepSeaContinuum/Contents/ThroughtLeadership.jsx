@@ -97,7 +97,7 @@ function ThroughtLeadership({ children }) {
           been tasked with developing and reporting on a compelling research and
           infrastructure strategy to advance understanding of the Ocean&rsquo;s
           role in Earth systems and the sustainable blue economy. The committee
-          will alsorecommend ways NSF could develop capacity to respond nimbly
+          will also recommend ways NSF could develop capacity to respond nimbly
           as priorities change and new opportunities emerge over the 2025-2035
           decade.
         </p>
