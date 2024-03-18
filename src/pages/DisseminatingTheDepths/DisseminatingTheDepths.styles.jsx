@@ -81,16 +81,15 @@ export const PageContainer = styled.div`
     max-width: 50vw;
     transition: 1s;
   }
+  
+  .artist-sea-carousel {
+    margin: 2rem 0;
+  }
 
-  /*centrar bubbles en mobile*/
-  @media (max-width: 767px) {
-    .artist-image,
-    .community-image,
-    .press-image,
-    .screen-image,
-    .connections-image {
-      margin: auto;
-      margin-bottom: 2rem;
+  @media (max-width:767px){
+    .artist-image, .community-image, .press-image, .screen-image, .connections-image{
+      margin:auto;
+      margin-bottom:2rem;
     }
     /*centrar titulos */
     h3 {
