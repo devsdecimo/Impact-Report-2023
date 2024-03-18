@@ -207,12 +207,12 @@ export const HomeContainer = styled.div`
 
   .mobile-bg {
     position: fixed;
-    top: -10vw;
-    bottom: -10vh;
+    bottom: -20vh;
     left: -10vw;
     right: -10vw;
     height: 120vh;
     width: 120vw;
+    transform: translateY(-10vh);
     background-image: url("/assets/images/home/Background.webp");
     background-size: cover;
     @media (min-width: 768px) {
