@@ -99,7 +99,7 @@ function ArtistAtSea() {
         Artist-at-sea pieces at the exhibition, and the Ocean, science, and art
         were celebrated all week.
       </p>
-      <Carousel slides={slides} />
+      <Carousel slides={slides} className="artist-sea-carousel"/>
     </DisseminatingTheDepths>
   );
 }

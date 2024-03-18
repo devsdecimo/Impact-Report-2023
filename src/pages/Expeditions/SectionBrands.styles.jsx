@@ -5,6 +5,7 @@ export const SectionBrandsContainer = styled.div`
   background-color: var(--white);
   padding: 20px 0;
   margin-top: 2rem;
+  margin-bottom: 2rem;
 
   .brands-container {
     display: flex;

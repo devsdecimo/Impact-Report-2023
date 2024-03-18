@@ -7,7 +7,6 @@ export const SectionWithImageContainer = styled.div`
   @media (max-width: 829px) {
     width: 80vw;
     min-width: 80vw;
-    margin-bottom: 3rem;
     padding-top: 2rem;
   }
 
@@ -65,6 +64,7 @@ export const SectionWithImageContainer = styled.div`
     color: #3e5973;
     @media (max-width: 829px) {
       flex-wrap: wrap;
+      margin-top: 0;
     }
     /*font-size:1.7rem;*/
   }
