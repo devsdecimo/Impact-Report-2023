@@ -9,23 +9,23 @@ function TheDeepSeaContinuum() {
   const location = useLocation();
   const isActive = (path) => location.pathname === path;
 
-  const navSlides =[
+  const navSlides = [
     {
       img: "/assets/images/the_deep_sea_continuum/grants/g.webp",
       href: "/the_deep_sea_continuum/grants",
       text: "Grants",
     },
     {
-      img: "/assets/images/the_deep_sea_continuum/throught_leadership/2023_Oceanic_Volcanism_Workshop_Group_picture_Samuel_J_Mitchell_Bristol_University Burbuja.webp",
-      href: "/the_deep_sea_continuum/throught_leadership",
-      text: "Throught Leadership",
+      img: "/assets/images/the_deep_sea_continuum/thought_leadership/2023_Oceanic_Volcanism_Workshop_Group_picture_Samuel_J_Mitchell_Bristol_University Burbuja.webp",
+      href: "/the_deep_sea_continuum/thought_leadership",
+      text: "Thought Leadership",
     },
     {
       img: "/assets/images/the_deep_sea_continuum/strategic_partnerships/All-Atlantic.webp",
       href: "/the_deep_sea_continuum/strategic_partnerships",
       text: "Strategic Partnerships",
     },
-  ]
+  ];
   return (
     <PageContainer>
       <Page
@@ -39,10 +39,10 @@ function TheDeepSeaContinuum() {
         header_image={"/assets/images/the_deep_sea_continuum/Header.webp"}
         footer_image="/assets/images/the_deep_sea_continuum/Footer.webp"
       >
-        <CarouselNav slides={navSlides}/>
         <div className="content-body">
           <Outlet />
         </div>
+        <CarouselNav slides={navSlides} />
       </Page>
     </PageContainer>
   );

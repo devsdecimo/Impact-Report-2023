@@ -4,24 +4,23 @@ export const NavMenuContainer = styled.nav`
   display: contents;
 
   .menuButton {
-    position: absolute;
-    background-color: transparent;
+    position: fixed;
     border: none;
-    background-image: url("/assets/images/MenuButton.svg");
-    height: 25px;
-    width: 25px;
-    padding: 1rem;
+    background-color: transparent;
     top: 0;
     right: 0;
     margin: 2rem;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
     cursor: pointer;
     z-index: 4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
     @media (min-width: 768px) {
+      margin: 3.25rem 4rem;
       transition: 0.5s;
     }
+
     &:hover,
     &:focus {
       @media (min-width: 768px) {
@@ -29,15 +28,48 @@ export const NavMenuContainer = styled.nav`
       }
     }
 
-    @media (min-width: 768px) {
-      margin: 3.25rem 4rem;
+    &:before {
+      content: "";
+      display: flex;
+      background-color: rgba(0, 0, 0, 0.5);
+      height: 25px;
+      width: 25px;
+      padding: 1rem;
+      border-radius: 100%;
+      background-image: url("/assets/images/MenuButton.svg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 50% 50%;
+      box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+      @media (min-width: 768px) {
+        padding: 1.5rem;
+      }
+    }
+
+    &::after {
+      content: "MENU";
+      font-family: "Garamond", Times, serif;
+      color: rgba(0, 0, 0, 0.5);
+      font-weight: bold;
+      transform: translateY(-1rem);
+      font-size: 1rem;
+      @media (min-width: 768px) {
+        font-size: 1.25rem;
+      }
     }
 
     &.menu__open {
-      background-image: url("/assets/images/CloseButton.svg");
-      position: fixed;
-      height: 25px;
-      width: 25px;
+      &:before {
+        background-image: url("/assets/images/CloseButton.svg");
+        background-color: transparent;
+        height: 25px;
+        width: 25px;
+        background-size: 50% auto;
+        box-shadow: none;
+      }
+      &::after {
+        content: "";
+      }
     }
   }
 

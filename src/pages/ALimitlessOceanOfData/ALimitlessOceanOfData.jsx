@@ -3,6 +3,7 @@ import { PageContainer } from "./ALimitlessOceanOfData.styles";
 import Page from "../../components/Page/Page";
 
 import headerImage from "/assets/images/a_limitless_ocean_of_data/Header.webp";
+import BubbleImage from "../../components/BubbleImage/BubbleImage";
 
 
 function ALimistlessOceanOfData() {
@@ -19,6 +20,7 @@ function ALimistlessOceanOfData() {
         footer_image="/assets/images/a_limitless_ocean_of_data/Footer.webp"
       >
         <div className="content">
+          <BubbleImage image="/assets/images/a_limitless_ocean_of_data/SubastianBothArms.webp" className="limitless-image" type={3} orientation="left"/>
           <p>
             One of Schmidt Ocean Institute’s (SOI) objectives is quality data collection. The ship and deployable systems, such as ROV <em>SuBastian</em>, transmit data in a variety of ways, ensuring  timely, correct data. After 18 months of planning and preparation, we were able to test new ship-to-shore data architecture when Research Vessel <em>Falkor (too)</em> left Vigo, Spain at the start of the year. Many of the features could only be completed once systems came online. With the ship underway, our team was able to get all systems ready for the inaugural science expedition.
           </p>

@@ -11,7 +11,6 @@ import image2 from "/assets/images/expeditions/in_search_of_hydrothermal_lost_ci
 import image3 from "/assets/images/expeditions/in_search_of_hydrothermal_lost_cities/carousel/03-VentFaunaReflectiveP.webp";
 import image4 from "/assets/images/expeditions/in_search_of_hydrothermal_lost_cities/carousel/04-CaressPaduanJeff.webp";
 import image5 from "/assets/images/expeditions/in_search_of_hydrothermal_lost_cities/carousel/05-AUVLaunchAndRecovery.webp";
-import Cientifico from "/assets/images/expeditions/in_search_of_hydrothermal_lost_cities/Cientifico.webp";
 import BubbleImage from "../../../components/BubbleImage/BubbleImage";
 import YoutubeVideo from "../../../components/YoutubeVideo/YouTubeVideo";
 import ExpeditionsNav from "../ExpeditionsNav";
@@ -86,12 +85,11 @@ function InSearchOfHydrothermalLostCities() {
             <em>Falkor (too)</em> was a multi-pronged exploration developed to
             accelerate the discovery and characterization of deep-sea
             hydrothermal systems, targeting oceanic core complexes at the
-            Mid-Atlantic Ridge, the world's longest underwater mountain range.
+            Mid-Atlantic Ridge, the world{"'"}s longest underwater mountain range.
             Oceanic core complexes are locations where mantle rock is exposed to
             cold seawater.
           </p>
-
-          <BubbleImage image={Cientifico} orientation="left" type={3} />
+          <BubbleImage image={'/assets/images/expeditions/in_search_of_hydrothermal_lost_cities/ChalcopyrateFromBlackSmokerDive.webp'} orientation="left" type={3} />
           <p>
             Locating three active hydrothermal vent fields is the first
             discovery on this section of the Mid-Atlantic Ridge in more than 40

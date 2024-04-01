@@ -19,16 +19,18 @@ export const FooterContainer = styled.footer`
     right: 0;
     bottom: 0;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
     p {
-      padding-top: 2rem;
+      margin: 0;
       color: var(--white);
-      font-size: 7vw;
+      font-size: 3vw;
       font-weight: bold;
-      text-shadow: 0 0 20px rgba(0,0,0,1);
+      text-shadow: 0 0 20px rgba(0, 0, 0, 1);
       @media (min-width: 768px) {
-        font-size: 4vw;
+        font-size: 1.7vw;
+        padding: 0.5rem;
       }
     }
   }

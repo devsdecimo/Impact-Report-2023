@@ -41,7 +41,7 @@ function NavMenu({ className }) {
         <ul onClick={toggleMenu}>
           <li className="submenu">
             <SubMenu
-              href="/"
+              href="/a_word_from_our_founders"
               title={"Welcome to a New SOI"}
               toggleMain={toggleMenu}
             >
@@ -109,8 +109,8 @@ function NavMenu({ className }) {
                   <Link to="/the_deep_sea_continuum/grants">Grants</Link>
                 </li>
                 <li>
-                  <Link to="/the_deep_sea_continuum/throught_leadership">
-                    Throught Leadership
+                  <Link to="/the_deep_sea_continuum/thought_leadership">
+                    Thought Leadership
                   </Link>
                 </li>
                 <li>

@@ -1,9 +1,10 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useContext, createContext } from "react";
 import {
   BrowserRouter as Router,
   Routes,
   Route,
   Navigate,
+  useLocation,
 } from "react-router-dom";
 import NavMenu from "./components/NavMenu/NavMenu";
 import Home from "./pages/Home/Home";
@@ -20,7 +21,7 @@ import DynamicsOfSinkingMicroplastics from "./pages/Expeditions/DynamicsOfSinkin
 import TheUnderworldOfHydrothermalVents from "./pages/Expeditions/TheUnderworldOfHydrothermalVents/TheUnderworldOfHydrothermalVents";
 import TheDeepSeaContinuum from "./pages/TheDeepSeaContinuum/TheDeepSeaContinuum";
 import Grants from "./pages/TheDeepSeaContinuum/Contents/Grants";
-import ThroughtLeadership from "./pages/TheDeepSeaContinuum/Contents/ThroughtLeadership";
+import ThoughtLeadership from "./pages/TheDeepSeaContinuum/Contents/ThoughtLeadership";
 import StrategicPartnerships from "./pages/TheDeepSeaContinuum/Contents/StrategicPartnerships";
 import ArtistAtSea from "./pages/DisseminatingTheDepths/Contents/ArtistAtSea";
 import CommunityBuilding from "./pages/DisseminatingTheDepths/Contents/CommunityBuilding";
@@ -34,8 +35,15 @@ import VerticalReefsOfTheGalapagos from "./pages/Expeditions/VerticalReefsOfTheG
 import UltrafineScaleSeafloorMapping from "./pages/Expeditions/UltrafineScaleSeafloorMapping/UltrafineScaleSeafloorMapping";
 import LoadScreen from "./components/LoadScreen/LoadScreen";
 
-function App() {
+// Contexto para el estado de carga
+const LoadingContext = createContext({
+  setLoading: () => {},
+});
+
+// Componente para manejar el estado de carga
+function LoadingManager({ children }) {
   const [loading, setLoading] = useState(true);
+  const location = useLocation();
 
   const handleStartLoading = () => setLoading(true);
   const handleStopLoading = () => setLoading(false);
@@ -58,10 +66,9 @@ function App() {
 
     const loadAllImages = () => {
       const images = document.images;
-      console.log(images);
       const promises = Array.from(images).map(loadImage);
       Promise.all(promises)
-        .then(setTimeout(handleStopLoading, 2500))
+        .then(setTimeout(handleStopLoading, 1000))
         .catch(handleStopLoading);
     };
 
@@ -76,109 +83,113 @@ function App() {
       window.removeEventListener("pushstate", handleRouteChange);
       window.removeEventListener("replacestate", handleRouteChange);
     };
-  }, []);
-
-  // useEffect(() => {
-  //   const domLoadedTimeout = setTimeout(() => {
-  //     setLoading(false);
-  //   }, 2500);
-
-  //   return () => {
-  //     clearTimeout(domLoadedTimeout);
-  //   };
-  // }, []);
+  }, [location]);
 
   return (
+    <LoadingContext.Provider value={{ setLoading }}>
+      {loading ? <LoadScreen /> : children}
+    </LoadingContext.Provider>
+  );
+}
+
+// Hook personalizado para cambiar el estado de carga
+export function useLoading() {
+  return useContext(LoadingContext);
+}
+
+function App() {
+  return (
     <Router>
-      {loading ? (
-        <LoadScreen />
-      ) : (
-        <>
-          <NavMenu />
-          <Routes>
-            <Route path="*" element={<NotFound />}></Route>
-            <Route path="/" element={<Home />} />
-            <Route path="/expeditions">
-              <Route index element={<Navigate to="/" replace />} />
-              <Route
-                path="in_search_of_hydrothermal_lost_cities"
-                element={<InSearchOfHydrothermalLostCities />}
-              />
-              <Route
-                path="health_diagnosis_of_deep_sea_coral"
-                element={<HealthDiagnosisOfDeepSeaCoral />}
-              />
-              <Route path="octopus_odyssey" element={<OctopusOdyssey />} />
-              <Route
-                path="dynamics_of_sinking_microplastics"
-                element={<DynamicsOfSinkingMicroplastics />}
-              />
-              <Route
-                path="the_underworld_of_hydrothermal_vents"
-                element={<TheUnderworldOfHydrothermalVents />}
-              />
-              <Route
-                path="hydrothermal_vents_of_the_galapagos"
-                element={<HydrothermalVentsOfTheWesternGalapagos />}
-              />
-              <Route
-                path="vertical_reefs_of_the_galapagos"
-                element={<VerticalReefsOfTheGalapagos />}
-              />
-              <Route
-                path="ultra_fine_scale_seafloor_mapping"
-                element={<UltrafineScaleSeafloorMapping />}
-              />
-            </Route>
+      <LoadingManager>
+        <NavMenu />
+        <Routes>
+          <Route path="*" element={<NotFound />}></Route>
+          <Route path="/" element={<Home />} />
+          <Route path="/expeditions">
+            <Route index element={<Navigate to="/" replace />} />
             <Route
-              path="/a_word_from_our_founders"
-              element={<AWordFromOurFounders />}
+              path="in_search_of_hydrothermal_lost_cities"
+              element={<InSearchOfHydrothermalLostCities />}
             />
             <Route
-              path="/executive_directors_note"
-              element={<ExecutiveDirectorsNote />}
+              path="health_diagnosis_of_deep_sea_coral"
+              element={<HealthDiagnosisOfDeepSeaCoral />}
             />
-            <Route path="/by_the_numbers" element={<ByTheNumbers />} />
+            <Route path="octopus_odyssey" element={<OctopusOdyssey />} />
             <Route
-              path="/new_species_spotlight"
-              element={<NewSpeciesSpotlight />}
+              path="dynamics_of_sinking_microplastics"
+              element={<DynamicsOfSinkingMicroplastics />}
             />
             <Route
-              path="/a_limitless_ocean_of_data"
-              element={<ALimitlessOceanOfData />}
+              path="the_underworld_of_hydrothermal_vents"
+              element={<TheUnderworldOfHydrothermalVents />}
             />
-            <Route path="/disseminating_the_depths">
-              <Route index element={ <Navigate to="/disseminating_the_depths/artist_at_sea" replace />}
-              />
-              <Route path="artist_at_sea" element={<ArtistAtSea />} />
-              <Route path="community_building" element={<CommunityBuilding />} />
-              <Route path="divestreams_and_connections" element={<DivestreamsAndConnections />} />
-              <Route path="press_and_footage" element={<PressAndFootage />} />
-              <Route path="on_the_big_screen" element={<OnTheBigScreen />} />
-            </Route>
             <Route
-              path="/the_deep_sea_continuum"
-              element={<TheDeepSeaContinuum />}
-            >
-              <Route
-                index
-                element={
-                  <Navigate to="/the_deep_sea_continuum/grants" replace />
-                }
-              />
-              <Route path="grants" element={<Grants />} />
-              <Route
-                path="throught_leadership"
-                element={<ThroughtLeadership />}
-              />
-              <Route
-                path="strategic_partnerships"
-                element={<StrategicPartnerships />}
-              />
-            </Route>
-          </Routes>
-        </>
-      )}
+              path="hydrothermal_vents_of_the_galapagos"
+              element={<HydrothermalVentsOfTheWesternGalapagos />}
+            />
+            <Route
+              path="vertical_reefs_of_the_galapagos"
+              element={<VerticalReefsOfTheGalapagos />}
+            />
+            <Route
+              path="ultra_fine_scale_seafloor_mapping"
+              element={<UltrafineScaleSeafloorMapping />}
+            />
+          </Route>
+          <Route
+            path="/a_word_from_our_founders"
+            element={<AWordFromOurFounders />}
+          />
+          <Route
+            path="/executive_directors_note"
+            element={<ExecutiveDirectorsNote />}
+          />
+          <Route path="/by_the_numbers" element={<ByTheNumbers />} />
+          <Route
+            path="/new_species_spotlight"
+            element={<NewSpeciesSpotlight />}
+          />
+          <Route
+            path="/a_limitless_ocean_of_data"
+            element={<ALimitlessOceanOfData />}
+          />
+          <Route path="/disseminating_the_depths">
+            <Route
+              index
+              element={
+                <Navigate
+                  to="/disseminating_the_depths/artist_at_sea"
+                  replace
+                />
+              }
+            />
+            <Route path="artist_at_sea" element={<ArtistAtSea />} />
+            <Route path="community_building" element={<CommunityBuilding />} />
+            <Route
+              path="divestreams_and_connections"
+              element={<DivestreamsAndConnections />}
+            />
+            <Route path="press_and_footage" element={<PressAndFootage />} />
+            <Route path="on_the_big_screen" element={<OnTheBigScreen />} />
+          </Route>
+          <Route
+            path="/the_deep_sea_continuum"
+            element={<TheDeepSeaContinuum />}
+          >
+            <Route
+              index
+              element={<Navigate to="/the_deep_sea_continuum/grants" replace />}
+            />
+            <Route path="grants" element={<Grants />} />
+            <Route path="thought_leadership" element={<ThoughtLeadership />} />
+            <Route
+              path="strategic_partnerships"
+              element={<StrategicPartnerships />}
+            />
+          </Route>
+        </Routes>
+      </LoadingManager>
     </Router>
   );
 }

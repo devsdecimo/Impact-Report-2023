@@ -1,12 +1,12 @@
 import React from "react";
 import BubbleImage from "../../../components/BubbleImage/BubbleImage";
 
-function ThroughtLeadership({ children }) {
+function ThoughtLeadership({ children }) {
   return (
     <>
       <div className="content-group">
         <BubbleImage
-          image="/assets/images/the_deep_sea_continuum/throught_leadership/2023_Oceanic_Volcanism_Workshop_Group_picture_Samuel_J_Mitchell_Bristol_University Burbuja.webp"
+          image="/assets/images/the_deep_sea_continuum/thought_leadership/2023_Oceanic_Volcanism_Workshop_Group_picture_Samuel_J_Mitchell_Bristol_University Burbuja.webp"
           className="continuum-image"
           orientation="left"
         />
@@ -72,7 +72,7 @@ function ThroughtLeadership({ children }) {
       </div>
       <div className="content-group">
         <BubbleImage
-          image="/assets/images/the_deep_sea_continuum/throught_leadership/NSF Decadal Survey of Ocean Science.webp"
+          image="/assets/images/the_deep_sea_continuum/thought_leadership/NSF Decadal Survey of Ocean Science.webp"
           className="continuum-image"
           orientation="right"
           direction="up"
@@ -104,7 +104,7 @@ function ThroughtLeadership({ children }) {
       </div>
       <div className="content-group">
         <BubbleImage
-          image="/assets/images/the_deep_sea_continuum/throught_leadership/PinkFlamingoSociety.webp"
+          image="/assets/images/the_deep_sea_continuum/thought_leadership/PinkFlamingoSociety.webp"
           className="continuum-image"
           orientation="left"
         />
@@ -129,7 +129,7 @@ function ThroughtLeadership({ children }) {
       </div>
       <div className="content-group">
         <BubbleImage
-          image="/assets/images/the_deep_sea_continuum/throught_leadership/Scientific Ocean Vehicle Alliance.webp"
+          image="/assets/images/the_deep_sea_continuum/thought_leadership/Scientific Ocean Vehicle Alliance.webp"
           className="continuum-image"
           orientation="right"
           direction="up"
@@ -165,7 +165,7 @@ function ThroughtLeadership({ children }) {
       </div>
       <div className="content-group">
         <BubbleImage
-          image="/assets/images/the_deep_sea_continuum/throught_leadership/UN Decade of Ocean Science.webp"
+          image="/assets/images/the_deep_sea_continuum/thought_leadership/UN Decade of Ocean Science.webp"
           className="continuum-image"
           orientation="left"
         />
@@ -200,7 +200,7 @@ function ThroughtLeadership({ children }) {
       </div>
       <div className="content-group">
         <BubbleImage
-          image="/assets/images/the_deep_sea_continuum/throught_leadership/Virtual Symposium.webp"
+          image="/assets/images/the_deep_sea_continuum/thought_leadership/Virtual Symposium.webp"
           className="continuum-image"
           orientation="right"
         />
@@ -233,4 +233,4 @@ function ThroughtLeadership({ children }) {
   );
 }
 
-export default ThroughtLeadership;
+export default ThoughtLeadership;

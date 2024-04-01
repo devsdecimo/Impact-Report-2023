@@ -46,8 +46,8 @@ function DisseminatingTheDepths({
         header_image={header_image}
         footer_image={footer_image}
       >
-        <CarouselNav slides={navSlides} />
         <div className="content-body">{children}</div>
+        <CarouselNav slides={navSlides} />
       </Page>
     </PageContainer>
   );

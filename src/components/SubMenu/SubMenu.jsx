@@ -29,7 +29,6 @@ function SubMenu({ children, className, title, href, toggleMain }) {
     if (href) {
       if (window.innerWidth <= 830) {
         setClickCount(clickCount + 1);
-        console.log(clickCount);
         if (clickCount >= 1) {
           navigate(href);
           setClickCount(0);
