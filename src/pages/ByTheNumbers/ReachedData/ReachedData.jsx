@@ -50,7 +50,7 @@ function ReachedData() {
         <Counter condition={countersStart}>8600</Counter>
       </span>
       <span className="numbers-social numbers">
-        <Counter condition={countersStart}>33</Counter>.<Counter condition={countersStart}>3</Counter>{" "}
+        <Counter condition={countersStart} className={"counter"}>33</Counter>{" "}
         <span className="million">million</span>
       </span>
       <span className="text text-reached">Reached</span>
@@ -62,7 +62,7 @@ function ReachedData() {
         and more than
       </span>
       <span className="text text-social">
-        on Facebook <br className="desktop"/> Twitter, <br className="desktop"/> Youtube, <br className="desktop"/>& Instagram
+        on Facebook <br className="desktop"/> X, Youtube, <br className="desktop"/>& Instagram
       </span>
     </ReachedDataContainer>
   );

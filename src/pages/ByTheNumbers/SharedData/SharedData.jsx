@@ -56,7 +56,7 @@ function SharedData() {
         <Counter condition={countersStart}>27</Counter>
       </span>
       <span className="numbers-articles numbers">
-        <Counter condition={countersStart}>4000</Counter>
+        <Counter condition={countersStart} className={'counter'}>4000</Counter>
       </span>
     </SharedDataContainer>
   );

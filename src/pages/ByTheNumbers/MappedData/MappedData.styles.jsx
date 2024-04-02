@@ -125,14 +125,14 @@ export const MappedDataContainer = styled.div`
       width: 36%;
       bottom: 19%;
       left: 9%;
-      margin-left: -1%;
-      ::after {
+      /* margin-left: -1%; */
+      /* ::after {
         content: "+";
         font-size: 8vw;
         position: absolute;
         top: 40%;
         transform: translateY(-50%);
-      }
+      } */
       @media (min-width: 768px) {
         width: 20%;
         bottom: 0%;
@@ -232,7 +232,7 @@ export const MappedDataContainer = styled.div`
       @media (min-width: 768px) {
         font-size: 2vw;
         bottom: 8%;
-        left: 4%;
+        left: -2%;
       }
     }
 

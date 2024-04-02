@@ -15,10 +15,12 @@ export const NavMenuContainer = styled.nav`
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1.25rem;
+    justify-content: center;
+    gap: 0.25rem;
     @media (min-width: 768px) {
       margin: 3.25rem 4rem;
       transition: 0.5s;
+      flex-direction: row-reverse;
     }
 
     &:hover,
@@ -26,12 +28,18 @@ export const NavMenuContainer = styled.nav`
       @media (min-width: 768px) {
         transform: scale(1.2);
       }
+      &:before {
+        background-color: #3f5970;
+      }
+      &::after{
+        color: #3f5970;
+      }
     }
 
     &:before {
       content: "";
       display: flex;
-      background-color: rgba(63,89,114, 0.7);
+      background-color: rgba(63, 89, 114, 0.7);
       height: 25px;
       width: 25px;
       padding: 1rem;
@@ -41,20 +49,18 @@ export const NavMenuContainer = styled.nav`
       background-position: center;
       background-size: 50% 50%;
       box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
-      @media (min-width: 768px) {
-        padding: 1.5rem;
-      }
+      transition: 0.5s;
     }
 
     &::after {
       content: "MENU";
       font-family: "Garamond", Times, serif;
       color: #3f5970;
+      color: rgba(63, 89, 114, 0.7);
       font-weight: 900;
-      transform: translateY(-1rem);
       font-size: 1rem;
       padding: 0.2rem;
-      border-radius: 20%;
+      transition: 0.5s;
       @media (min-width: 768px) {
         font-size: 1.25rem;
       }

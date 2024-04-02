@@ -125,6 +125,16 @@ export const ReachedDataContainer = styled.div`
       bottom: 17%;
       right: 28%;
       width: 48%;
+      .counter {
+        position: relative;
+        padding-right: 15%;
+        &::after {
+          content: "+";
+          position: absolute;
+          top: 20%;
+          transform: translateY(-50%);
+        }
+      }
       @media (min-width: 768px) {
         font-size: 1.8vw;
         bottom: -5%;

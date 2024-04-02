@@ -56,20 +56,20 @@ function MappedData() {
         <Counter condition={countersStart}>5</Counter>
       </span>
       <span className="text text-km2">
-        <Counter condition={countersStart}>190025</Counter>.<Counter condition={countersStart}>60</Counter>{" "}
+        <Counter condition={countersStart}>190026</Counter>{" "}
         km²
       </span>
       <span className="numbers-seamount numbers">
-        <Counter condition={countersStart}>3</Counter>
+        <Counter condition={countersStart}>7</Counter>
       </span>
       <span className="numbers-cold numbers">
         <Counter condition={countersStart}>2</Counter>
       </span>
       <span className="text text-seafloor">of seafloor</span>
-      <span className="text text-including">Including</span>
+      <span className="text text-including">Discovering</span>
       <span className="text text-hydrothermal">new hydrothermal vent fields</span>
       <span className="text text-seamounts">seamounts</span>
-      <span className="text text-cold">new cold water coral reefs</span>
+      <span className="text text-cold">new cold-water coral reefs</span>
     </MappedDataContainer>
   );
 }
