@@ -12,7 +12,7 @@ function SectionWithImage({image, image2 ,alt}) {
   return (
     <SectionWithImageContainer>
         <div className="d-flex">
-            <BubbleImage type={4} image={image}/>
+            <BubbleImage type={4} image={image} alt={alt}/>
             <div className="text-conta5iner">
                 <h2 className="title">
                     <span>FKt230628</span>

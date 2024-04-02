@@ -13,13 +13,13 @@ function HealthDiagnosisOfDeepSeaCoral() {
   const slidesPath =
     "/assets/images/expeditions/health_diagnosis_of_deep_sea_coral/carousel/";
   const slides = [
-    { img: `${slidesPath}01-Reef_Solaris.webp` },
-    { img: `${slidesPath}02-ShipToShoreCallWithUPRMstudents.webp` },
-    { img: `${slidesPath}03-FirstDeploymentMissionControl.webp` },
-    { img: `${slidesPath}04-FirstSampleRecovery.webp` },
-    { img: `${slidesPath}05-Light_coral.webp` },
-    { img: `${slidesPath}06-SOLARISIntegrationIntoROV.webp` },
-    { img: `${slidesPath}07-ProcessingSamplesInTheMainLab.webp` },
+    { img: `${slidesPath}01-Reef_Solaris.webp`, alt: "The developmental chemical sensor (SOLARIS) is used underwater to make measurements of a fleetingly scarce compound called superoxide, a reactive oxygen species."},
+    { img: `${slidesPath}02-ShipToShoreCallWithUPRMstudents.webp`, alt: "Cathrine Hernandez Rodriguez (MS Student, University of Puerto Rico) gives a live ship-to-shore call, taking students on a tour of R/V Falkor (too)'s labs." },
+    { img: `${slidesPath}03-FirstDeploymentMissionControl.webp`, alt: "Marine Technician Julianna Diehl works in Mission Control during the first dive of the Health Diagnostics of Deep-Sea Coral Expedition."},
+    { img: `${slidesPath}04-FirstSampleRecovery.webp`, alt: "A sample of Sargassum on ROV SuBastian." },
+    { img: `${slidesPath}05-Light_coral.webp`, alt:"Some dives during the expedition took place at shallower depths, where ambient light is available." },
+    { img: `${slidesPath}06-SOLARISIntegrationIntoROV.webp`, alt: "In the hangar, scientists calibrate the SOLARIS sensor system that has been attached to the vehicle." },
+    { img: `${slidesPath}07-ProcessingSamplesInTheMainLab.webp`, alt: "In R/V Falkor (too)'s main lab, Jeremy Horowitz (Postdoc, Smithsonian Institution) photographs coral samples before preserving and sealing them." },
   ];
 
   return (
@@ -32,11 +32,13 @@ function HealthDiagnosisOfDeepSeaCoral() {
           />
         }
         header_image={headerImage}
+        header_alt="A piece of coral is removed from one of ROV SuBastian's bio boxes and placed into water for transportation to the lab."
         footer_image="/assets/images/expeditions/health_diagnosis_of_deep_sea_coral/Footer.webp"
+        footer_alt="Corallium off the coast of Puerto Rico."
       >
         <SectionWithImage
           image="/assets/images/expeditions/health_diagnosis_of_deep_sea_coral/Colleen.webp"
-          alt="Dr. Colleen Hansel"
+          alt="Chief Scientist Dr. Colleen Hansel"
         />
         <SectionBrands />
         <div className="content">

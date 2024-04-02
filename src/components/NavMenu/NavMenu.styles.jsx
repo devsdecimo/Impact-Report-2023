@@ -31,7 +31,7 @@ export const NavMenuContainer = styled.nav`
     &:before {
       content: "";
       display: flex;
-      background-color: rgba(0, 0, 0, 0.5);
+      background-color: rgba(63,89,114, 0.7);
       height: 25px;
       width: 25px;
       padding: 1rem;
@@ -49,10 +49,12 @@ export const NavMenuContainer = styled.nav`
     &::after {
       content: "MENU";
       font-family: "Garamond", Times, serif;
-      color: rgba(0, 0, 0, 0.5);
-      font-weight: bold;
+      color: #3f5970;
+      font-weight: 900;
       transform: translateY(-1rem);
       font-size: 1rem;
+      padding: 0.2rem;
+      border-radius: 20%;
       @media (min-width: 768px) {
         font-size: 1.25rem;
       }

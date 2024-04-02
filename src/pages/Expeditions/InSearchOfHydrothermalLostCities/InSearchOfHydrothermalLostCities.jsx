@@ -19,11 +19,11 @@ import headerImage from "/assets/images/expeditions/in_search_of_hydrothermal_lo
 
 function InSearchOfHydrothermalLostCities() {
   const slides = [
-    { img: image },
-    { img: image2 },
-    { img: image3 },
-    { img: image4 },
-    { img: image5 },
+    { img: image, alt: "Sunrise on the bridge of R/V Falkor (too) during the expedition over the Mid-Atlantic Ridge."},
+    { img: image2, alt: "Large amounts of shrimp (possibly Rimacaris exoculata) were observed on high-temperature hydrothermal vent chimneys with black smoke; the tallest chimney was about 20 meters high." },
+    { img: image3, alt: "Many creatures at hydrothermal vent sites — such as tube worms, mussels, or shrimps — often have symbiotic relationships with chemosynthetic bacteria" },
+    { img: image4, alt: "Scientists look at bathymetry renderings of target destinations, trying to discern the story behind the many geological features of the areas."},
+    { img: image5, alt: "R/V Falkor (too) during the launch and recovery of the Dorado-class mapping AUVs." },
   ];
 
   return (
@@ -36,11 +36,13 @@ function InSearchOfHydrothermalLostCities() {
           />
         }
         header_image={headerImage}
+        header_alt="A high-temperature hydrothermal vent field discovered during an expedition to the Mid-Atlantic Ridge."
         footer_image="/assets/images/expeditions/in_search_of_hydrothermal_lost_cities/Footer.webp"
+        footer_alt="A detailed image of coral polyps off the coast of Puerto Rico."
       >
         <SectionWithImage
           image="/assets/images/expeditions/in_search_of_hydrothermal_lost_cities/David.webp"
-          alt="Cruise"
+          alt="Chief Scientist Dr. David Butterfield"
         />
         <SectionBrands />
         <div className="content">

@@ -115,7 +115,7 @@ function Carousel({ slides, autoplay = true, loop = true, delay = 5000, classNam
           >
             <img
               src={slide.img}
-              alt={`Slide ${index}`}
+              alt={slide.alt}
               draggable={false}
             />
           </a>

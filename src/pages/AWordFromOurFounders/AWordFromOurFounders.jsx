@@ -35,7 +35,9 @@ function AWordFromOurFounders() {
           />
         }
         header_image={headerImage}
+        header_alt="R/V Falkor (too) at sunrise"
         footer_image="/assets/images/a_word_from_our_founders/Footer.webp"
+        footer_alt="A hermit crab crawls on Corallium off the coast of Puerto Rico."
       >
         <div className="intro-text">
           <p>
@@ -49,6 +51,8 @@ function AWordFromOurFounders() {
             image={Founders}
             circleImage={CircleBg}
             orientation="left"
+            alt="Wendy Schmidt and Eric Schmidt, Co-Founders of Schmidt Ocean Institute"
+            alt2="A seabird darts past the ship, silhouetted against a gap in the stormy sky behind."
           />
           <p>
             With every expedition in the inaugural year of Schmidt Ocean
@@ -69,6 +73,8 @@ function AWordFromOurFounders() {
             image={Octopus}
             circleImage={Subastian}
             orientation="right"
+            alt="A cirrate octopus documented off the Galapagos Islands."
+            alt2="ROV SuBastian is lifted back on board R/V Falkor (too)."
           />
           <p>
             The Ocean never ceases to surprise us. With each discovery, we find

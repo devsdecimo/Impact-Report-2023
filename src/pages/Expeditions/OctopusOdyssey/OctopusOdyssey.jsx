@@ -15,11 +15,11 @@ function OctopusOdyssey() {
   const slidesPath = "/assets/images/expeditions/octopus_odyssey/carousel/";
 
   const slides = [
-    { img: `${slidesPath}01-Rovs.webp` },
-    { img: `${slidesPath}02-Octo.webp` },
-    { img: `${slidesPath}03-Ship.webp` },
-    { img: `${slidesPath}04-Shrimp.webp` },
-    { img: `${slidesPath}05-Baby.webp` },
+    { img: `${slidesPath}01-Rovs.webp`, alt: "In the Dirty Wet Lab, the research team moves sediment push core samples." },
+    { img: `${slidesPath}02-Octo.webp`, alt: "An octopus — thought to be a species unknown to science — is documented during Dive 531." },
+    { img: `${slidesPath}03-Ship.webp`, alt: "Sergio Cambronero (Scientist, Universidad Nacional) takes part in a ship-to-shore call with a Costa Rican high school." },
+    { img: `${slidesPath}04-Shrimp.webp`, alt: "The expedition located a second site of low temperature (7 degrees Celsius) hydrothermal venting with brooding octopus." },
+    { img: `${slidesPath}05-Baby.webp`, alt: "A new octopus hatchling swims away from its egg near a small outcrop of rock unofficially called El Dorado Hill." },
   ];
 
   return (
@@ -32,12 +32,15 @@ function OctopusOdyssey() {
           />
         }
         header_image={headerImage}
+        header_alt="A new octopus hatchling swims away from its egg."
         footer_image="/assets/images/expeditions/octopus_odyssey/Footer.webp"
+        footer_alt="Researchers inspect an octopus and quickly confirm this is a new species."
       >
         <SectionWithImage
           image="/assets/images/expeditions/octopus_odyssey/Cienti1.webp"
           image2="/assets/images/expeditions/octopus_odyssey/Cienti2.webp"
-          alt="Dr. Colleen Hansel"
+          alt="Chief Scientist Dr. Beth Orcutt"
+          alt2="Chief Scientist Dr. Jorge Cortés"
         />
         <SectionBrands />
         <div className="content">
@@ -95,7 +98,7 @@ function OctopusOdyssey() {
             the nursery were viable, as past expeditions to the outcrop had
             never seen evidence of developing embryos.
           </p>
-          <BubbleImage image={'/assets/images/expeditions/octopus_odyssey/FKt230602-Dive-531-Octo-1.webp'} orientation="right" type={3} />
+          <BubbleImage image={'/assets/images/expeditions/octopus_odyssey/FKt230602-Dive-531-Octo-1.webp'} orientation="right" type={3} alt="An octopus — thought to be a species unknown to science — is documented during Dive 531."/>
           <p>
             The team documented nurseries with hundreds of <em>Muusoctopus </em>
             species brooding viable eggs in low-temperature hydrothermal fluids

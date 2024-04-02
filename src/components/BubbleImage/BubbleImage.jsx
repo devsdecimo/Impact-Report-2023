@@ -7,6 +7,7 @@ function BubbleImage({
   image,
   image2,
   alt,
+  alt2,
   direction = "down",
   className,
   type = 1,
@@ -75,7 +76,7 @@ function BubbleImage({
           <div className="circle circle-1"></div>
           <div className="circle circle-2"></div>
           <div className="circle circle-3"></div>
-          <img className="image image-2" src={image2} alt={alt} />
+          <img className="image image-2" src={image2} alt={alt2} />
           <div className="circle circle-4"></div>
           <img className="image image-1" src={image} alt={alt} />
         </>

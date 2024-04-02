@@ -5,11 +5,7 @@ import SectionWithImage from "./SectionWithImage/SectionWithImage";
 import SectionBrands from "./SectionBrands/SectionBrands";
 import SectionIcons from "./SectionIcons/SectionIcons";
 import Carousel from "../../../components/Carousel/Carousel";
-import GeneralButton from "../../../components/GeneralButton/GeneralButton";
 
-import Prev from "/assets/images/prev.svg";
-import Next from "/assets/images/next.svg";
-import BubbleImage from "../../../components/BubbleImage/BubbleImage";
 import YoutubeVideo from "../../../components/YoutubeVideo/YouTubeVideo";
 import ExpeditionsNav from "../ExpeditionsNav";
 import headerImage from "/assets/images/expeditions/dynamics_of_sinking_microplastics/Header.webp";
@@ -17,13 +13,13 @@ import headerImage from "/assets/images/expeditions/dynamics_of_sinking_micropla
 function DynamicsOfSinkingMicroplastics() {
   const slidesPath = "/assets/images/expeditions/dynamics_of_sinking_microplastics/carousel/";
   const slides = [
-    { img: `${slidesPath}01-FirstCTDDeployment01.webp` },
-    { img: `${slidesPath}02-FirstCTDDeployment02.webp` },
-    { img: `${slidesPath}03-FirstCTDDeployment03.webp` },
-    { img: `${slidesPath}04-LauraAndAlviseMc.webp` },
-    { img: `${slidesPath}05-PeiWenFashionSketches.webp` },
-    { img: `${slidesPath}06-WaterSamplingAndFiltration01.webp` },
-    { img: `${slidesPath}07-WaterSamplingAndFiltration02.webp` },
+    { img: `${slidesPath}01-FirstCTDDeployment01.webp`, alt:'Laura Simon Sanchez, Chief Scientist, prepares the UFO water filtration systems.' },
+    { img: `${slidesPath}02-FirstCTDDeployment02.webp`, alt:'The team switches out filters in between pump deployments.' },
+    { img: `${slidesPath}03-FirstCTDDeployment03.webp`, alt:'Alvise Vianello prepares the UFO water filtration systems at sunset near the CTD Launch and Recovery (LARS) system.' },
+    { img: `${slidesPath}04-LauraAndAlviseMc.webp`, alt:'Laura Simon Sanchez, Chief Scientist, handles a water sample near the McLane pump sampler.' },
+    { img: `${slidesPath}05-PeiWenFashionSketches.webp`, alt:'Artist-at-Sea Pei-Wen Jin discusses her fashion design sketch ideas with the research team while on R/V Falkor(too).' },
+    { img: `${slidesPath}06-WaterSamplingAndFiltration01.webp`, alt:'Jeanette Lykkemark works on the UFO water filtration systems.' },
+    { img: `${slidesPath}07-WaterSamplingAndFiltration02.webp`, alt:'Asbjørn Haaning Nielsen (L) and Jeanette Lykkemark monitor data from sensors installed on the CTD.' },
   ];
 
   return (
@@ -36,11 +32,13 @@ function DynamicsOfSinkingMicroplastics() {
           />
         }
         header_image={headerImage}
+        header_alt="Alvise Vianello prepares the UFO water filtration systems."
         footer_image="/assets/images/expeditions/dynamics_of_sinking_microplastics/Footer.webp"
+        footer_alt="The team prepares sensors on the CTD rosette before a deployment."
       >
         <SectionWithImage
           image="/assets/images/expeditions/dynamics_of_sinking_microplastics/FKt230802.webp"
-          alt="Dr. Laura Simon Sanchez"
+          alt="Laura Simon Sanchez, Chief Scientist"
         />
         <SectionBrands />
         <div className="content">

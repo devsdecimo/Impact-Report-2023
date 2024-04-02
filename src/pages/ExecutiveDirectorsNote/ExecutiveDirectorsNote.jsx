@@ -31,7 +31,9 @@ function ExecutiveDirectorsNote() {
           />
         }
         header_image="/assets/images/executive_directors_note/Header.webp"
+        header_alt="The third of four seamounts discovered by mapping experts on board R/V Falkor (too) is 1,644 meters in height."
         footer_image="/assets/images/executive_directors_note/Footer.webp"
+        footer_alt="Prickly shark seen near Gemales II Seamount in the Galapagos Islands."
       >
         <div className="intro-text">
           <p>
@@ -46,6 +48,8 @@ function ExecutiveDirectorsNote() {
             circleImage={
               "/assets/images/executive_directors_note/BubbleImage2.webp"
             }
+            alt="Dr. Jyotika Virmani, Executive Director of Schmidt Ocean Institute"
+            alt2="R/V Falkor (too) testing the launch and recovery of mapping AUVs."
           />
           <p>
             The awe of finding{" "}
@@ -122,6 +126,7 @@ function ExecutiveDirectorsNote() {
           <ImageWithCircle2
             image={"/assets/images/executive_directors_note/TimesSquare.webp"}
             orientation="right"
+            alt="Deep sea scenes from SOI Galapagos expeditions play on the Nasdaq Exchange big screen in Times Square for New York Climate Week."
           />
           <p>
             Robust partnerships and collaborations strengthen our ability to

@@ -13,13 +13,13 @@ import headerImage from "/assets/images/expeditions/the_underworld_of_hydrotherm
 function TheUnderworldOfHydrothermalVents() {
   const slidesPath = "/assets/images/expeditions/the_underworld_of_hydrothermal_vents/carousel/";
   const slides = [
-    { img: `${slidesPath}01-DiscoveryBabyWormsInCrus.webp` },
-    { img: `${slidesPath}02-Bright_Sample.webp` },
-    { img: `${slidesPath}03-ControlRoom.webp` },
-    { img: `${slidesPath}04-DiscoveryOfBabyWormsInCrust.webp` },
-    { img: `${slidesPath}05-RockSample_YoungTubeworms.webp` },
-    { img: `${slidesPath}06-scitoo-dyeFill.webp` },
-    { img: `${slidesPath}07-vulcanoctopus.webp` },
+    { img: `${slidesPath}01-DiscoveryBabyWormsInCrus.webp`, alt: "Monika Bright and Sabine Gollner do not hide their relief and happiness as they witness the results of their experiments." },
+    { img: `${slidesPath}02-Bright_Sample.webp`, alt: "Monika Bright examines tubeworm larvae samples." },
+    { img: `${slidesPath}03-ControlRoom.webp`, alt: "In the Control Room of R/V Falkor (too), Monika Bright and Andre Luiz de Oliveira document essential moments of their deep-sea experiments and observations." },
+    { img: `${slidesPath}04-DiscoveryOfBabyWormsInCrust.webp`, alt: "Monika Bright, Sabine Gollner, and Stefan Sievert react as a large sample of crust is turned upside down, providing proof to the idea that animals disperse underground." },
+    { img: `${slidesPath}05-RockSample_YoungTubeworms.webp`, alt: "A rock crust sample, upside down, reveals Oasisia and Riftia tubeworms, as well as other organisms." },
+    { img: `${slidesPath}06-scitoo-dyeFill.webp`, alt: "Experiments, nick-named Mesh Box Staining Gadgets, are sealed to the seafloor at the Tica Vent, a site on the East Pacific Rise 2,500 meters deep." },
+    { img: `${slidesPath}07-vulcanoctopus.webp`, alt: "A vulcanoctopus (a small benthic octopus endemic to hydrothermal vents) is seen near muscles and tubeworms near Tica Vent on the East Pacific Rise 2,500 meters deep. " },
   ];
 
   return (
@@ -32,11 +32,13 @@ function TheUnderworldOfHydrothermalVents() {
           />
         }
         header_image={headerImage}
+        header_alt="An upside-down rock crust sample reveals Oasisia and Riftia tubeworms; a strong argument in favor of Monika Bright's and Sabine Gollner's theory of species dispersal through cracks in the Earth's crust."
         footer_image="/assets/images/expeditions/the_underworld_of_hydrothermal_vents/Footer.webp"
+        footer_alt="Experiments, nick-named Mesh Box Staining Gadgets, are sealed to the seafloor at the Tica Vent, a site on the East Pacific Rise 2,500 meters deep."
       >
         <SectionWithImage
           image="/assets/images/expeditions/the_underworld_of_hydrothermal_vents/Cientifica.webp"
-          alt="Dr. Monika Bright"
+          alt="Chief Scientist Dr. Monika Bright"
         />
         <SectionBrands />
         <div className="content">

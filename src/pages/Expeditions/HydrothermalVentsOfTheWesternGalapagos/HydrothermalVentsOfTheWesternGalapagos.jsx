@@ -15,11 +15,11 @@ import BubbleImage from "../../../components/BubbleImage/BubbleImage";
 function HydrothermalVentsOfTheWesternGalapagos() {
   const slidesPath = "/assets/images/expeditions/hydrothermal_vents_of_the_western_galapagos/carousel/";
   const slides = [
-    { img: `${slidesPath}FKt230812-Dive562MissionControl-20230818-Ingle-7938-Approved.webp` },
-    { img: `${slidesPath}FKt230812-PeteAndreaAndPhilPressureExperiment-20230901-Ingle-3752-APPROVED.webp` },
-    { img: `${slidesPath}FKt230812-S0566-20230824T163304Z-Approved-SubastianBothArmsIgt.webp` },
-    { img: `${slidesPath}Fkt230812-S0570-20230830T133535Z-scitoo-Grimalditeuthis-APPROVED.webp` },
-    { img: `${slidesPath}FKt230812-ScienceTeamMobilisation-20230812-Ingle-5175-APPROVED.webp` },
+    { img: `${slidesPath}FKt230812-Dive562MissionControl-20230818-Ingle-7938-Approved.webp`, alt:'Jaycee Favela (Physical Scientist, USGS - Santa Cruz) watches black smokers on Mission Control screens.' },
+    { img: `${slidesPath}FKt230812-PeteAndreaAndPhilPressureExperiment-20230901-Ingle-3752-APPROVED.webp`, alt:'Peter Girguis (Professor, Harvard University) shows Philip Yang (Student, University of Rhode Island) and Andrea Unzueta Martinez (Postdoctoral Researcher, Harvard University) a titanium pressure vessel in a laboratory container. This enables the team to keep specimens at deep sea pressures in order to better understand them.' },
+    { img: `${slidesPath}FKt230812-S0566-20230824T163304Z-Approved-SubastianBothArmsIgt.webp`, alt:' ROV SuBastian taking samples of hydrothermal vent fluid at Pinguinos (Western Galapagos Spreading Center).' },
+    { img: `${slidesPath}Fkt230812-S0570-20230830T133535Z-scitoo-Grimalditeuthis-APPROVED.webp`, alt:'This rare encounter with a Grimalditeuthis squid took place near the Navidad Vent Field in the Galapagos Islands.' },
+    { img: `${slidesPath}FKt230812-ScienceTeamMobilisation-20230812-Ingle-5175-APPROVED.webp`, alt:'Jill McDermott (Co-Chief Scientist, University of Rhode Island) prepares equipment in the Main Lab on Falkor (too).' },
   ];
 
   return (
@@ -32,12 +32,15 @@ function HydrothermalVentsOfTheWesternGalapagos() {
           />
         }
         header_image={headerImage}
+        header_alt='A large cluster of riftia tube worms.'
         footer_image="/assets/images/expeditions/hydrothermal_vents_of_the_western_galapagos/Footer.webp"
+        footer_alt='ROV SuBastian diving on Iguanas Hydrothermal Vent Field in Galapagos National Park of Ecuador.'
       >
         <SectionWithImage
           image="/assets/images/expeditions/hydrothermal_vents_of_the_western_galapagos/Cientifico1.webp"
           image2="/assets/images/expeditions/hydrothermal_vents_of_the_western_galapagos/Cientifico2.webp"
-          alt="Dr. Colleen Hansel"
+          alt=""
+          alt2=""
         />
         <SectionBrands />
         <div className="content">
@@ -70,7 +73,7 @@ function HydrothermalVentsOfTheWesternGalapagos() {
           <p>
             Chief Scientists Roxanne Beinart and Jill McDermott led this expedition in the Galápagos to uncover the mysteries of unexplored hydrothermal vents at the Western Galápagos Spreading Center, or WGSC. The science team examined and sampled the site’s unique chemistry, geology, and biology — revealing variations from nearby vents and across the eastern Pacific. Over the last forty-five years, hydrothermal vents have been uncovered in all five Ocean basins. Much progress has been made in understanding their inner workings, yet they remain one of Earth’s most mysterious and understudied ecosystems. 
           </p>
-          <BubbleImage image={"/assets/images/expeditions/hydrothermal_vents_of_the_western_galapagos/Fkt230812-S0562-055056Z-Approved-VentLandscape.webp"} orientation="right" type={3} />
+          <BubbleImage image={"/assets/images/expeditions/hydrothermal_vents_of_the_western_galapagos/Fkt230812-S0562-055056Z-Approved-VentLandscape.webp"} orientation="right" type={3} alt='Stunning chimneys and geologic structures formed by hydrothermal venting. Iguanas Vent Field, Galapagos Islands.'/>
           <p>
             Beinart and her team explored the WGSC, just a few hundred kilometers from the original site where hydrothermal vent communities were discovered in the late 1970s. The team worked at four under or unexplored deep-sea hydrothermal vent sites along the WGSC in Ecuadorian waters. Two of the sites, Iguanas and Pinguinos, are located within the Galápagos Marine Reserve. These sites had been visited previously by deep-sea research expeditions a few times, most recently in 2015. One site, Navidad, had only been detected previously by a towed camera, so the ROV dives there were the first visit to the site by a deep-submergence vehicle. They also conducted operations at two additional sites to locate previously detected but unconfirmed vent fields and successfully located vents at one of these two sites, now called Sendero del Cangrejo.
           </p>

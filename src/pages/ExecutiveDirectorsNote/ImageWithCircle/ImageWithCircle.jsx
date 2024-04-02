@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { ImageWithCircleContainer } from "./ImageWithCircle.styles";
 
-function ImageWithCircle({ image, alt, circleImage, orientation = "left" }) {
+function ImageWithCircle({ image, alt, circleImage, alt2, orientation = "left" }) {
   const ref = useRef(null);
 
   useEffect(() => {
@@ -31,7 +31,7 @@ function ImageWithCircle({ image, alt, circleImage, orientation = "left" }) {
     <ImageWithCircleContainer orientation={orientation} ref={ref}>
       <div className="circle circle-2" />
       <div className="circle circle-1"></div>
-      <img src={circleImage} alt={alt} className="circleImage" />
+      <img src={circleImage} alt={alt2} className="circleImage" />
       <img src={image} alt={alt} className="image" />
     </ImageWithCircleContainer>
   );

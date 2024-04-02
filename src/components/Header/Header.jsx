@@ -2,13 +2,14 @@ import React from "react";
 import { HeaderContainer } from "./Header.styles.jsx";
 import { useNavigate } from "react-router-dom";
 
-function Header({ children, background }) {
+function Header({ children, background, alt }) {
   const navigate = useNavigate();
 
   return (
     <HeaderContainer>
       <img
         src={`${background ? background : ""}`}
+        alt={alt}
         className="header_image"
       />
       <img src="/assets/images/header_logo.svg" className="header_logo"  onClick={()=>{navigate("/")}}/>

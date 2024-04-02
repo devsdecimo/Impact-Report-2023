@@ -8,11 +8,11 @@ import BubbleImage from "../../../../components/BubbleImage/BubbleImage";
 
 
 
-function SectionWithImage({image, image2 ,alt}) {
+function SectionWithImage({image, image2, alt, alt2}) {
   return (
     <SectionWithImageContainer>
         <div className="d-flex">
-            <BubbleImage type={5} image={image} image2={image2}/>
+            <BubbleImage type={5} image={image} image2={image2} alt={alt} alt2={alt2}/>
             <div className="text-container">
                 <h2 className="title">
                     <span>FKt230602 & FKt231202</span>
