@@ -16,14 +16,30 @@ import YoutubeVideo from "../../../components/YoutubeVideo/YouTubeVideo";
 import ExpeditionsNav from "../ExpeditionsNav";
 
 import headerImage from "/assets/images/expeditions/in_search_of_hydrothermal_lost_cities/Header.webp";
+import MapIframe from "../../../components/MapIframe/MapIframe";
 
 function InSearchOfHydrothermalLostCities() {
   const slides = [
-    { img: image, alt: "Sunrise on the bridge of R/V Falkor (too) during the expedition over the Mid-Atlantic Ridge."},
-    { img: image2, alt: "Large amounts of shrimp (possibly Rimacaris exoculata) were observed on high-temperature hydrothermal vent chimneys with black smoke; the tallest chimney was about 20 meters high." },
-    { img: image3, alt: "Many creatures at hydrothermal vent sites — such as tube worms, mussels, or shrimps — often have symbiotic relationships with chemosynthetic bacteria" },
-    { img: image4, alt: "Scientists look at bathymetry renderings of target destinations, trying to discern the story behind the many geological features of the areas."},
-    { img: image5, alt: "R/V Falkor (too) during the launch and recovery of the Dorado-class mapping AUVs." },
+    {
+      img: image,
+      alt: "Sunrise on the bridge of R/V Falkor (too) during the expedition over the Mid-Atlantic Ridge.",
+    },
+    {
+      img: image2,
+      alt: "Large amounts of shrimp (possibly Rimacaris exoculata) were observed on high-temperature hydrothermal vent chimneys with black smoke; the tallest chimney was about 20 meters high.",
+    },
+    {
+      img: image3,
+      alt: "Many creatures at hydrothermal vent sites — such as tube worms, mussels, or shrimps — often have symbiotic relationships with chemosynthetic bacteria",
+    },
+    {
+      img: image4,
+      alt: "Scientists look at bathymetry renderings of target destinations, trying to discern the story behind the many geological features of the areas.",
+    },
+    {
+      img: image5,
+      alt: "R/V Falkor (too) during the launch and recovery of the Dorado-class mapping AUVs.",
+    },
   ];
 
   return (
@@ -87,11 +103,17 @@ function InSearchOfHydrothermalLostCities() {
             <em>Falkor (too)</em> was a multi-pronged exploration developed to
             accelerate the discovery and characterization of deep-sea
             hydrothermal systems, targeting oceanic core complexes at the
-            Mid-Atlantic Ridge, the world{"'"}s longest underwater mountain range.
-            Oceanic core complexes are locations where mantle rock is exposed to
-            cold seawater.
+            Mid-Atlantic Ridge, the world{"'"}s longest underwater mountain
+            range. Oceanic core complexes are locations where mantle rock is
+            exposed to cold seawater.
           </p>
-          <BubbleImage image={'/assets/images/expeditions/in_search_of_hydrothermal_lost_cities/ChalcopyrateFromBlackSmokerDive.webp'} orientation="left" type={3} />
+          <BubbleImage
+            image={
+              "/assets/images/expeditions/in_search_of_hydrothermal_lost_cities/ChalcopyrateFromBlackSmokerDive.webp"
+            }
+            orientation="left"
+            type={3}
+          />
           <p>
             Locating three active hydrothermal vent fields is the first
             discovery on this section of the Mid-Atlantic Ridge in more than 40
@@ -121,6 +143,7 @@ function InSearchOfHydrothermalLostCities() {
             setting controls hydrothermal chemistry and habitat conditions.
           </p>
           <YoutubeVideo videoId="2RSCnSUe6Nc" />
+          <MapIframe url="https://api.maptiler.com/maps/e368ce32-5d5e-4ea2-baab-95008a16d110/?key=egFVe2SmC2zBUYnGILbj#3.7/22.39536/-54.00255"/>
           <ExpeditionsNav />
         </div>
       </Page>

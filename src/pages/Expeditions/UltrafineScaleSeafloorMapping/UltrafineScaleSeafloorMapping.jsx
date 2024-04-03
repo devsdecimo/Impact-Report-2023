@@ -13,6 +13,7 @@ import ExpeditionsNav from "../ExpeditionsNav";
 import image from "/assets/images/expeditions/ultra_fine_scale_seafloor_mapping/image.webp"
 
 import headerImage from "/assets/images/expeditions/ultra_fine_scale_seafloor_mapping/Header.webp";
+import MapIframe from "../../../components/MapIframe/MapIframe";
 
 function UltrafineScaleSeafloorMapping() {
     const slidesPath = "/assets/images/expeditions/ultra_fine_scale_seafloor_mapping/carousel/";
@@ -80,6 +81,7 @@ function UltrafineScaleSeafloorMapping() {
             The science team observed 15 species previously not known to live in the region and two that are likely new to science. The list includes a specimen of <em>Neopilina galatheae</em>, never before seen in this region. The scientists also uncovered a Pacific White Skate nursery, resulting in the second confirmed deep-sea skate nursery in the Pacific Ocean.
           </p>
           <YoutubeVideo videoId="m7_I4kYlchU" />
+          <MapIframe url="https://api.maptiler.com/maps/6fe4420d-e743-4b15-97e7-3c0da9f2e92b/?key=egFVe2SmC2zBUYnGILbj#4.0/2.83751/-82.34852"/>
           <ExpeditionsNav />
         </div>
       </Page>

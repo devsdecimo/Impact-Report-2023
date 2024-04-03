@@ -10,6 +10,7 @@ import YoutubeVideo from "../../../components/YoutubeVideo/YouTubeVideo";
 import ExpeditionsNav from "../ExpeditionsNav";
 import headerImage from "/assets/images/expeditions/octopus_odyssey/Header.webp";
 import BubbleImage from "../../../components/BubbleImage/BubbleImage";
+import MapIframe from "../../../components/MapIframe/MapIframe";
 
 function OctopusOdyssey() {
   const slidesPath = "/assets/images/expeditions/octopus_odyssey/carousel/";
@@ -184,6 +185,8 @@ function OctopusOdyssey() {
           </p>
           <YoutubeVideo videoId="U5jo9IhO8NA" />
           <YoutubeVideo videoId="JYMaz6AW7f0" />
+          <MapIframe url="https://api.maptiler.com/maps/44b29ef0-7763-4a93-b820-d91ba19f1629/?key=egFVe2SmC2zBUYnGILbj#5.5/9.30641/-85.89859"/>
+          <MapIframe url="https://api.maptiler.com/maps/23ae9b64-e335-44ec-a873-724f08db8a39/?key=egFVe2SmC2zBUYnGILbj#4.1/8.81816/-83.45626"/>
           <ExpeditionsNav />
         </div>
       </Page>

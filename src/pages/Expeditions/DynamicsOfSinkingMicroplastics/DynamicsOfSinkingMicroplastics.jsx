@@ -9,6 +9,7 @@ import Carousel from "../../../components/Carousel/Carousel";
 import YoutubeVideo from "../../../components/YoutubeVideo/YouTubeVideo";
 import ExpeditionsNav from "../ExpeditionsNav";
 import headerImage from "/assets/images/expeditions/dynamics_of_sinking_microplastics/Header.webp";
+import MapIframe from "../../../components/MapIframe/MapIframe";
 
 function DynamicsOfSinkingMicroplastics() {
   const slidesPath = "/assets/images/expeditions/dynamics_of_sinking_microplastics/carousel/";
@@ -123,6 +124,7 @@ function DynamicsOfSinkingMicroplastics() {
             levels in the Ocean.
           </p>
           <YoutubeVideo videoId="D5QFQ_7-RwQ" />
+          <MapIframe url="https://api.maptiler.com/maps/a2ea2297-03c3-4649-ba24-4601f06e98d9/?key=egFVe2SmC2zBUYnGILbj#6.6/7.879/-79.342"/>
           <ExpeditionsNav />
         </div>
       </Page>

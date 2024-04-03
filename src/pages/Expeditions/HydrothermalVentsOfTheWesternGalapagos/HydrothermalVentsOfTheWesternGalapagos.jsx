@@ -11,6 +11,7 @@ import ExpeditionsNav from "../ExpeditionsNav";
 
 import headerImage from "/assets/images/expeditions/hydrothermal_vents_of_the_western_galapagos/Header.webp";
 import BubbleImage from "../../../components/BubbleImage/BubbleImage";
+import MapIframe from "../../../components/MapIframe/MapIframe";
 
 function HydrothermalVentsOfTheWesternGalapagos() {
   const slidesPath = "/assets/images/expeditions/hydrothermal_vents_of_the_western_galapagos/carousel/";
@@ -84,6 +85,7 @@ function HydrothermalVentsOfTheWesternGalapagos() {
             Rich data and samples collected on this expedition will help scientists create a big-picture view of how life on vents functions across time and space, reacting to an ever-changing Earth. The WGSC area is interesting compared to other vent systems and is on its own as a natural laboratory for understanding interactions between geology, chemistry, and biology. 
           </p>
           <YoutubeVideo videoId="YAW2x2OURZA" />
+          <MapIframe url="https://api.maptiler.com/maps/1e625064-cc3b-4d1d-9e18-d6736ca01283/?key=egFVe2SmC2zBUYnGILbj#3.6/3.31779/-86.57269"/>
           <ExpeditionsNav />
         </div>
       </Page>

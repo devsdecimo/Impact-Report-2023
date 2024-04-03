@@ -9,6 +9,7 @@ import Carousel from "../../../components/Carousel/Carousel";
 import YoutubeVideo from "../../../components/YoutubeVideo/YouTubeVideo";
 import ExpeditionsNav from "../ExpeditionsNav";
 import headerImage from "/assets/images/expeditions/the_underworld_of_hydrothermal_vents/Header.webp";
+import MapIframe from "../../../components/MapIframe/MapIframe";
 
 function TheUnderworldOfHydrothermalVents() {
   const slidesPath = "/assets/images/expeditions/the_underworld_of_hydrothermal_vents/carousel/";
@@ -111,6 +112,7 @@ function TheUnderworldOfHydrothermalVents() {
           </p>
           <YoutubeVideo videoId="E4_CCzfwKmw" />
           <YoutubeVideo videoId="neyccYHaAGo" />
+          <MapIframe url="https://api.maptiler.com/maps/3dc91cd0-8f83-474a-bc3e-7ead4e7f322e/?key=egFVe2SmC2zBUYnGILbj#3.46/10.75/-101.25"/>
           <ExpeditionsNav />
         </div>
       </Page>

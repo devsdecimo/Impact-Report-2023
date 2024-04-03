@@ -8,6 +8,7 @@ import Carousel from "../../../components/Carousel/Carousel";
 import YoutubeVideo from "../../../components/YoutubeVideo/YouTubeVideo";
 import ExpeditionsNav from "../ExpeditionsNav";
 import headerImage from "/assets/images/expeditions/health_diagnosis_of_deep_sea_coral/Header.webp";
+import MapIframe from "../../../components/MapIframe/MapIframe";
 
 function HealthDiagnosisOfDeepSeaCoral() {
   const slidesPath =
@@ -133,6 +134,7 @@ function HealthDiagnosisOfDeepSeaCoral() {
             come.
           </p>
           <YoutubeVideo videoId="L7UwooHRrL0" />
+          <MapIframe url="https://api.maptiler.com/maps/a7a9b38d-ff06-436d-b34a-22922c48ed6c/?key=egFVe2SmC2zBUYnGILbj#6.7/18.20646/-66.35670"/>
           <ExpeditionsNav />
         </div>
       </Page>

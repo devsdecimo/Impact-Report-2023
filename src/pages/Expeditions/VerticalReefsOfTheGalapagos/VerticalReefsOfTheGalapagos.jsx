@@ -12,6 +12,7 @@ import ExpeditionsNav from "../ExpeditionsNav";
 import BubbleImage from "../../../components/BubbleImage/BubbleImage";
 import image from "/assets/images/expeditions/vertical_reefs_of_the_galapagos/Burbuja.webp"
 import headerImage from "/assets/images/expeditions/vertical_reefs_of_the_galapagos/Header.webp";
+import MapIframe from "../../../components/MapIframe/MapIframe";
 
 function VerticalReefsOfTheGalapagos() {
     const slidesPath = "/assets/images/expeditions/vertical_reefs_of_the_galapagos/carousel/";
@@ -85,6 +86,7 @@ function VerticalReefsOfTheGalapagos() {
             They deployed a number of advanced technologies, including ultra-high-resolution laser scanning, to create a three-dimensional reconstruction of these cliff reefs. The laser scanner creates a point cloud of data rather than visual imagery and can achieve an incredibly fine resolution of less than two millimeters. Following the expedition, the team is working to create an accessible, digital reconstruction of the cliff-dwelling coral ecosystems—a data visualization that allows everyone, from scientists to second-graders, to visit the deep sea.
           </p>
           <YoutubeVideo videoId="2WRbglQZUl0" />
+          <MapIframe url="https://api.maptiler.com/maps/7c7047c5-0d5a-4209-93ba-38e5fcd60c13/?key=egFVe2SmC2zBUYnGILbj#4.0/3/-90.46"/>
           <ExpeditionsNav />
         </div>
       </Page>
