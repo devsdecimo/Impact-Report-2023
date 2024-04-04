@@ -29,17 +29,17 @@ export const NavMenuContainer = styled.nav`
         transform: scale(1.2);
       }
       &:before {
-        background-color: #3f5970;
+        background-color: #FFFFFF;
       }
       &::after{
-        color: #3f5970;
+        color: #FFFFFF;
       }
     }
 
     &:before {
       content: "";
       display: flex;
-      background-color: rgba(63, 89, 114, 0.7);
+      background-color: rgba(255, 255, 255, 0.7);
       height: 25px;
       width: 25px;
       padding: 1rem;
@@ -48,15 +48,15 @@ export const NavMenuContainer = styled.nav`
       background-repeat: no-repeat;
       background-position: center;
       background-size: 50% 50%;
-      box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+      box-shadow: 3px 3px 10px rgba(15,122,188, 0.5);
       transition: 0.5s;
     }
 
     &::after {
       content: "MENU";
       font-family: "Garamond", Times, serif;
-      color: #3f5970;
-      color: rgba(63, 89, 114, 0.7);
+      color: rgba(255, 255, 255, 0.7);
+      text-shadow: 3px 3px 10px rgba(15,122,188, 0.5);
       font-weight: 900;
       font-size: 1rem;
       padding: 0.2rem;

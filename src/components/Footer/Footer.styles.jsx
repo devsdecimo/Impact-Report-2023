@@ -26,11 +26,14 @@ export const FooterContainer = styled.footer`
       margin: 0;
       color: var(--white);
       font-size: 3vw;
+      line-height: 1;
+      margin: 0;
+      padding: 0;
       font-weight: bold;
-      text-shadow: 0 0 20px rgba(0, 0, 0, 1);
+      text-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
       @media (min-width: 768px) {
-        font-size: 1.7vw;
-        padding: 0.5rem;
+        font-size: 1.25vw;
+        padding: 0.1rem;
       }
     }
   }
