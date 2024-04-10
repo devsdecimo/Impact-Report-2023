@@ -53,7 +53,7 @@ function SharedData() {
       <span className="text text-more">more than</span>
       <span className="text text-articles">press articles</span>
       <span className="numbers-publications numbers">
-        <Counter condition={countersStart}>27</Counter>
+        <Counter condition={countersStart}>28</Counter>
       </span>
       <span className="numbers-articles numbers">
         <Counter condition={countersStart} className={'counter'}>4000</Counter>
