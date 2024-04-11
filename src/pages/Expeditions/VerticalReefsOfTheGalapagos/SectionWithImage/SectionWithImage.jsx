@@ -4,6 +4,7 @@ import IconWithText from "../../../../components/IconWithText/IconWithText";
 import Pin from "/assets/images/icons/pin.svg"
 import Flag from "/assets/images/icons/flag.svg"
 import Discovered from "/assets/images/icons/discovered.svg"
+import Calendar from "/assets/images/icons/calendar.svg"
 import BubbleImage from "../../../../components/BubbleImage/BubbleImage";
 
 
@@ -23,7 +24,7 @@ function SectionWithImage({image,alt}) {
                 <IconWithText  
                     className={'CTA'} 
                     icon={Pin} 
-                    text={"Ecuador"} 
+                    text={"Ecuador and Costa Rica"} 
                     opacity={1}
                 />
                 <IconWithText  
@@ -34,8 +35,14 @@ function SectionWithImage({image,alt}) {
                 />
                 <IconWithText  
                     className={'CTA'} 
+                    icon={Calendar} 
+                    text={"Galápagos Island and la Isla del Coco"} 
+                    opacity={1}
+                />
+                <IconWithText  
+                    className={'CTA'} 
                     icon={Discovered} 
-                    text={"Dr. Katleen Robert"} 
+                    text={<>Dr. Katleen Robert, Memorial University Newfoundland</>} 
                     opacity={1}
                 />
                 </div>

@@ -1,13 +1,12 @@
 import React from "react";
 import { SectionIconsContainer } from "./SectionIcons.styles";
 import IconWithText from "../../../../components/IconWithText/IconWithText";
-import Auv from "/assets/images/icons/auv.svg"
 import Casts from "/assets/images/icons/casts.svg"
 import Days from "/assets/images/icons/days.svg"
 import Dives from "/assets/images/icons/dives.svg"
 import Map from "/assets/images/icons/map.svg"
 import Samples from "/assets/images/icons/samples.svg"
-import Travel from "/assets/images/icons/travel.svg"
+import Data from "/assets/images/icons/data.svg"
 
 
 function SectionIcons() {
@@ -32,9 +31,9 @@ function SectionIcons() {
         <div className="columna">
             <IconWithText  
                 className={'CTA'} 
-                icon={Travel} 
-                numbers='4566'
-                text={"km traveled"} 
+                icon={Data} 
+                numbers='28'
+                text={"terabytes of data collected"} 
                 opacity={1}
             />
             <IconWithText  
@@ -50,7 +49,7 @@ function SectionIcons() {
                 className={'CTA'} 
                 icon={Dives} 
                 numbers='16'
-                text={"ROV dives over 324 hours"} 
+                text={"ROV dives"} 
                 opacity={1}
             />
             <IconWithText  

@@ -4,6 +4,7 @@ import IconWithText from "../../../../components/IconWithText/IconWithText";
 import Pin from "/assets/images/icons/pin.svg"
 import Flag from "/assets/images/icons/flag.svg"
 import Discovered from "/assets/images/icons/discovered.svg"
+import Calendar from "/assets/images/icons/calendar.svg"
 import BubbleImage from "../../../../components/BubbleImage/BubbleImage";
 
 
@@ -34,8 +35,14 @@ function SectionWithImage({image, image2, alt, alt2}) {
                 />
                 <IconWithText  
                     className={'CTA'} 
+                    icon={Calendar} 
+                    text={"13 August - 10 September 2023"} 
+                    opacity={1}
+                />
+                <IconWithText  
+                    className={'CTA'} 
                     icon={Discovered} 
-                    text={<>Drs. Roxanne Beinart and <br className="desktop"/>Jill McDermott</>} 
+                    text={<>Drs. Roxanne Beinart, University of Rhode Island <br/> and Jill McDermott, Lehigh University</>} 
                     opacity={1}
                 />
                 </div>

@@ -10,20 +10,21 @@ import BubbleImage from "../../../components/BubbleImage/BubbleImage";
 import YoutubeVideo from "../../../components/YoutubeVideo/YouTubeVideo";
 import ExpeditionsNav from "../ExpeditionsNav";
 
-import image from "/assets/images/expeditions/ultra_fine_scale_seafloor_mapping/image.webp"
+import image from "/assets/images/expeditions/ultra_fine_scale_seafloor_mapping/image.webp";
 
 import headerImage from "/assets/images/expeditions/ultra_fine_scale_seafloor_mapping/Header.webp";
 import MapIframe from "../../../components/MapIframe/MapIframe";
 
 function UltrafineScaleSeafloorMapping() {
-    const slidesPath = "/assets/images/expeditions/ultra_fine_scale_seafloor_mapping/carousel/";
-    const slides = [
-      { img: `${slidesPath}01-Vent.webp` },
-      { img: `${slidesPath}02-Huellos.webp` },
-      { img: `${slidesPath}03-Julian.webp` },
-      { img: `${slidesPath}04-Sas.webp` },
-      { img: `${slidesPath}05-ControlRoom.webp` },
-    ];
+  const slidesPath =
+    "/assets/images/expeditions/ultra_fine_scale_seafloor_mapping/carousel/";
+  const slides = [
+    { img: `${slidesPath}01-Vent.webp` },
+    { img: `${slidesPath}02-Huellos.webp` },
+    { img: `${slidesPath}03-Julian.webp` },
+    { img: `${slidesPath}04-Sas.webp` },
+    { img: `${slidesPath}05-ControlRoom.webp` },
+  ];
 
   return (
     <PageContainer>
@@ -47,41 +48,117 @@ function UltrafineScaleSeafloorMapping() {
           <h3>Expedition objectives:</h3>
           <ul>
             <li>
-                Evaluate and develop the potential use of interferometric synthetic aperture sonar (InSAS) as a tool for seafloor exploration, classification, and monitoring
+              Evaluate and develop interferometric synthetic aperture sonar, or
+              InSAS, as a tool for seafloor exploration, classification, and
+              monitoring.
             </li>
             <li>
-                Investigate the evolution of hydrothermal vents, especially once they become inactive or extinct
+              Investigate the evolution of hydrothermal vents, especially once
+              they become inactive or extinct.
             </li>
           </ul>
+
+          <p>
+            Seafloor mapping is integral to oceanographic research. Bathymetric
+            data illustrate the seafloor&rsquo;s depth, contours, and physical
+            features, and it is often the first essential step in planning a
+            successful submersible operation. Ship-mounted multibeam sonar
+            produces maps that are 50- to 100-meters in resolution; this means
+            features smaller than 50- to 100-meters are not visible.
+          </p>
+          <BubbleImage image={image} orientation="left" type={3} />
+          <p>
+            During this expedition, led by Chief Scientist Dr. John Jamieson, an
+            international team tested a sonar system new to scientific seafloor
+            mapping,{" "}
+            <a href="https://www.youtube.com/watch?v=m7_I4kYlchU">
+              <u>Interferometric Synthetic Aperture Sonar, or InSAS</u>
+            </a>
+            , which enabled them to locate seafloor features with greater
+            accuracy and produce detailed, high-resolution maps. Combining
+            bathymetric data from multibeam sonar with acoustic imagery gathered
+            by InSAS, the team generated what the researchers liken to a
+            photograph created with sound instead of light. This technology will
+            transform the ability to map, explore, classify, and monitor the
+            seafloor environment in extremely high detail. It{" "}
+            <a href="https://youtu.be/m7_I4kYlchU?si=_yYeMV7x1Ba-lSYX&amp;t=144">
+              <u>
+                dramatically reduces the time needed to explore and locate
+                seafloor features
+              </u>
+            </a>
+            .
+          </p>
+          <p>
+            The discoveries, including a new high-temperature vent field, reveal
+            insights into the distribution of hydrothermal vents along mid-ocean
+            ridges and the distribution of organisms along those vents, which
+            vary among the age of the vent and the amount of venting. As a
+            result, scientists will better understand how these thriving
+            communities evolve once a vent ceases to be active.
+          </p>
+          <p>
+            Additionally, the team observed 15 species previously not known to
+            live in the region and two that are likely new to science. The list
+            includes a rare
+            <em>in situ</em> sighting and specimen collection of a
+            <em>Neopilina galatheae</em>, a limpet-like marine mollusk that has
+            never been seen in this region. The scientists also discovered a
+            Pacific white skate nursery associated with hydrothermal vents, the
+            second confirmed deep-sea skate nursery in the Pacific Ocean.
+          </p>
+          <p>
+            Using InSAS, the science team imaged individual pillows, chimneys,
+            and faults &mdash; features that would not be identifiable in
+            traditional high-resolution multibeam data collected from the
+            vessel. They could determine whether the hydrothermal vents were
+            active or inactive by visualizing the thermal distortion in the
+            imagery caused by the hot fluids. The InSAS data led scientists to
+            discover several active and inactive venting sites on the seafloor,
+            exceeding exploration and sampling expectations for the expedition.
+            Ultimately, the researchers believe InSAS will be a powerful tool
+            for gathering more data on what exactly lies on the ocean bottom.
+            The science team hopes to prove this tool's usefulness and scale its
+            use for governmental and scientific exploration, informing whether
+            certain regions of the seafloor should be protected and if
+            activities such as fishing or deep-sea mining should be prevented.
+          </p>
+
+          <Carousel slides={slides} className="expedition-carousel"></Carousel>
+
           <h3>Resulting highlights:</h3>
           <ul>
             <li>
-                The science team demonstrated that high-quality, incredibly detailed InSAS imagery can be generated from an ROV, proving it can be collected over rough terrain, and expanding the known operating conditions (speed, altitude, swath, terrain variability) under which data can be effectively acquired.
+              Demonstrated that high-quality, detailed InSAS imagery can be
+              generated from an ROV, including over rough terrain, and expanded
+              the known operating conditions &mdash; such as speed, altitude,
+              swath, terrain, and variability &mdash; under which data can be
+              effectively acquired.
             </li>
             <li>
-                Researchers discovered a new high-temperature vent field, which they named Tortugas, located within the caldera of the Los Huellos East volcano. Several new active vent sites and numerous inactive vent fields were also mapped.
+              Discovered a new high-temperature vent field, informally named
+              Tortugas, located within the caldera of the Los Huellos East
+              volcano; several new active vent sites and numerous inactive vent
+              fields were also mapped.
             </li>
             <li>
-                Video footage from ROV <em>SuBastian</em> revealed <a href="https://www.biorxiv.org/content/10.1101/2023.11.28.568903v1.full" target="_blank">the presence of 15 animal species</a> previously not recorded in this region of the Ocean, some of which may be new to science. A skate nursery associated with hydrothermal vents was also discovered. 
+              Video footage revealed the{" "}
+              <a href="https://www.biorxiv.org/content/10.1101/2023.11.28.568903v1.full">
+                <u>presence of 15 animal species previously not recorded</u>
+              </a>{" "}
+              in this region of the Ocean, some of which may be new to science;
+              a skate nursery associated with hydrothermal vents was also
+              discovered and sampled.
             </li>
           </ul>
-          <Carousel slides={slides} className="expedition-carousel"></Carousel>
           <p>
-            The team expertly tested a sonar system new to scientific seafloor mapping, <a href="https://www.youtube.com/watch?v=m7_I4kYlchU" target="_blank">Interferometric Synthetic Aperture Sonar (InSAS)</a>, which enabled them to locate seafloor features with greater accuracy and produce detailed, high-resolution maps. The InSAS technology combines bathymetric data with acoustic imagery, generating detailed maps using sound. Using this technology could transform the ability to map, explore, classify, and monitor the seafloor environment.
+            Permits to conduct research in Ecuador and Galapagos Islands
+            National Park waters: DIRNEA-SNA-019-2023 /
+            MAATE-DPNG/DGA-2023-1543-O / PC-51-23
           </p>
 
-          <BubbleImage image={image} orientation="left" type={3} />
-          <p>
-            Using InSAS, the science team imaged individual pillows, chimneys, and faults — features that would not necessarily be identifiable in traditional high-resolution multibeam data. They were able to determine whether the hydrothermal vents were active or inactive by visualizing the thermal distortion caused by the hot fluids. The combination of InSAS and multibeam mapping by the ROV created high-resolution bathymetry that improved the efficiency of ROV exploration.  Detailed mapping data led the scientists to discover several sites of active and inactive venting on the seafloor,  exceeding their exploration and sampling expectations for the expedition.
-          </p>
-          <p>
-            Overall, the discoveries reveal insights about the distribution of hydrothermal vents along mid-ocean ridges and the distribution of organisms along those vents, which vary in age and degree of venting. Scientists will also be able to understand how these thriving communities evolve once a vent ceases to be active. 
-          </p>
-          <p>
-            The science team observed 15 species previously not known to live in the region and two that are likely new to science. The list includes a specimen of <em>Neopilina galatheae</em>, never before seen in this region. The scientists also uncovered a Pacific White Skate nursery, resulting in the second confirmed deep-sea skate nursery in the Pacific Ocean.
-          </p>
           <YoutubeVideo videoId="m7_I4kYlchU" />
-          <MapIframe url="https://api.maptiler.com/maps/6fe4420d-e743-4b15-97e7-3c0da9f2e92b/?key=egFVe2SmC2zBUYnGILbj#4.0/2.83751/-82.34852"/>
+          <MapIframe url="https://api.maptiler.com/maps/6fe4420d-e743-4b15-97e7-3c0da9f2e92b/?key=egFVe2SmC2zBUYnGILbj#4.0/2.83751/-82.34852" />
           <ExpeditionsNav />
         </div>
       </Page>

@@ -51,7 +51,7 @@ function ReachedData() {
       </span>
       <span className="numbers-social numbers">
         <Counter condition={countersStart} className={"counter"}>33</Counter>{" "}
-        <span className="million">million</span>
+        <span className="million">{" "}million</span>
       </span>
       <span className="text text-reached">Reached</span>
       <span className="text text-people">

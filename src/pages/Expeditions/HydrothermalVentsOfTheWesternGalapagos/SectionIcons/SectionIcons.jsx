@@ -7,7 +7,7 @@ import Days from "/assets/images/icons/days.svg";
 import Dives from "/assets/images/icons/dives.svg";
 import Map from "/assets/images/icons/map.svg";
 import Samples from "/assets/images/icons/samples.svg";
-import Travel from "/assets/images/icons/travel.svg";
+import Data from "/assets/images/icons/data.svg";
 
 function SectionIcons() {
   return (
@@ -31,11 +31,9 @@ function SectionIcons() {
       <div className="columna">
         <IconWithText
           className={"CTA"}
-          icon={Travel}
-          numbers="4261"
-          numbers2="1"
-          separator="."
-          text={"km traveled"}
+          icon={Data}
+          numbers="32"
+          text={"terabytes of data collected"}
           opacity={1}
         />
         <IconWithText

@@ -54,7 +54,6 @@ export const ButtonImageContainer = styled.div`
         height: 16vh;
       }
     }
-    
 
     @media only screen and (min-width: 768px) and (max-height: 1400px) and (orientation: portrait) {
       height: 11vw;

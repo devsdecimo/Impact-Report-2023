@@ -12,15 +12,37 @@ import headerImage from "/assets/images/expeditions/dynamics_of_sinking_micropla
 import MapIframe from "../../../components/MapIframe/MapIframe";
 
 function DynamicsOfSinkingMicroplastics() {
-  const slidesPath = "/assets/images/expeditions/dynamics_of_sinking_microplastics/carousel/";
+  const slidesPath =
+    "/assets/images/expeditions/dynamics_of_sinking_microplastics/carousel/";
   const slides = [
-    { img: `${slidesPath}01-FirstCTDDeployment01.webp`, alt:'Laura Simon Sanchez, Chief Scientist, prepares the UFO water filtration systems.' },
-    { img: `${slidesPath}02-FirstCTDDeployment02.webp`, alt:'The team switches out filters in between pump deployments.' },
-    { img: `${slidesPath}03-FirstCTDDeployment03.webp`, alt:'Alvise Vianello prepares the UFO water filtration systems at sunset near the CTD Launch and Recovery (LARS) system.' },
-    { img: `${slidesPath}04-LauraAndAlviseMc.webp`, alt:'Laura Simon Sanchez, Chief Scientist, handles a water sample near the McLane pump sampler.' },
-    { img: `${slidesPath}05-PeiWenFashionSketches.webp`, alt:'Artist-at-Sea Pei-Wen Jin discusses her fashion design sketch ideas with the research team while on R/V Falkor(too).' },
-    { img: `${slidesPath}06-WaterSamplingAndFiltration01.webp`, alt:'Jeanette Lykkemark works on the UFO water filtration systems.' },
-    { img: `${slidesPath}07-WaterSamplingAndFiltration02.webp`, alt:'Asbjørn Haaning Nielsen (L) and Jeanette Lykkemark monitor data from sensors installed on the CTD.' },
+    {
+      img: `${slidesPath}01-FirstCTDDeployment01.webp`,
+      alt: "Laura Simon Sanchez, Chief Scientist, prepares the UFO water filtration systems.",
+    },
+    {
+      img: `${slidesPath}02-FirstCTDDeployment02.webp`,
+      alt: "The team switches out filters in between pump deployments.",
+    },
+    {
+      img: `${slidesPath}03-FirstCTDDeployment03.webp`,
+      alt: "Alvise Vianello prepares the UFO water filtration systems at sunset near the CTD Launch and Recovery (LARS) system.",
+    },
+    {
+      img: `${slidesPath}04-LauraAndAlviseMc.webp`,
+      alt: "Laura Simon Sanchez, Chief Scientist, handles a water sample near the McLane pump sampler.",
+    },
+    {
+      img: `${slidesPath}05-PeiWenFashionSketches.webp`,
+      alt: "Artist-at-Sea Pei-Wen Jin discusses her fashion design sketch ideas with the research team while on R/V Falkor(too).",
+    },
+    {
+      img: `${slidesPath}06-WaterSamplingAndFiltration01.webp`,
+      alt: "Jeanette Lykkemark works on the UFO water filtration systems.",
+    },
+    {
+      img: `${slidesPath}07-WaterSamplingAndFiltration02.webp`,
+      alt: "Asbjørn Haaning Nielsen (L) and Jeanette Lykkemark monitor data from sensors installed on the CTD.",
+    },
   ];
 
   return (
@@ -47,84 +69,103 @@ function DynamicsOfSinkingMicroplastics() {
           <h3>Expedition objectives:</h3>
           <ul>
             <li>
-              Investigate vertical distribution of microplastics in
-              the water column, with a particular focus on particles
-              as small as 10µm, which is comparable in size to the
-              diameter of a droplet of rain
+              Investigate the vertical distribution of microplastics in the
+              water column, focusing on particles as small as 10&micro;m,
+              comparable in size to a droplet of rain.
             </li>
             <li>
-              Explore the processes that govern the sinking rate
-              of microplastics to the seafloor
+              Explore the processes that govern the sinking rate of
+              microplastics to the seafloor.
             </li>
             <li>
-              Compare two different approaches for collecting
-              microplastics in the water column of the Ocean
+              Compare two different approaches for collecting microplastics in
+              the water column of the Ocean, including a new piece of technology
+              called the AAU-UFO, which is capable of 300-, 10-, and even
+              1-&micro;m filtration of large volumes of water samples; AAU-UFO
+              stands for Aalborg University Universal Filtering Object.
             </li>
           </ul>
+
+          <p>
+            Evidence suggests that microplastics are ubiquitous in the Ocean
+            &mdash; tiny particles of plastic are found throughout the water
+            column. While larger particles, easily visible to the human eye, are
+            commonly seen on the Ocean's surface, much smaller particles are in
+            the water column or accumulate in seafloor sediments. These tiny
+            particles are often only seen when water samples or collected
+            sediments are viewed using a microscope.
+          </p>
+          <p>
+            There is a distinct disparity in the composition of floating
+            microplastics compared to those in the sediment layer. These
+            differences suggest that composition and particle size may influence
+            how microplastics are transported to the deeper marine environment.
+            Understanding of how microplastics move in the marine environment is
+            limited, primarily due to a scarcity of <em>in situ</em>{" "}
+            measurements. The major obstacle to collecting such measurements of
+            microplastics is an issue of scale &mdash; getting large enough
+            water samples and small enough filtration resolution.
+          </p>
+          <p>
+            The main objective of this research expedition in the Gulf of Panama
+            was to investigate the vertical distribution of microplastics along
+            the water column and to explore the processes governing how these
+            pollutants sink to the seafloor. Conducting the research in the Gulf
+            of Panama allowed the science team to collect samples in an
+            understudied area of the Pacific Ocean, where nearly 6% of the
+            global marine trade occurs.
+          </p>
+          <p>
+            Led by Dr. Laura Simon S&aacute;nchez, this expedition&rsquo;s
+            research contributions were critical to advancing <em>in situ</em>{" "}
+            data collection by successfully using a novel piece of equipment
+            called an AAU-UFO, built explicitly for studying microplastics,
+            combined with the McLane large water pump. These measurements were
+            compared against water samples collected by the ship&rsquo;s Niskin
+            bottles from matching depths.
+          </p>
+          <p>
+            Ultimately, researchers are{" "}
+            <a href="https://www.youtube.com/watch?v=D5QFQ_7-RwQ&amp;list=PLJGVqQI3okzZsZYBgPx5DqEYTQZLR2CfH&amp;index=20">
+              <u>
+                building an essential picture of microplastic type and
+                concentration{" "}
+              </u>
+            </a>{" "}
+            across ocean depths and proximity to land. The novel data on the
+            spatial distribution of sub-surface microplastics along the ship
+            traffic area will help inform local authorities on the levels of
+            microplastic pollution in the region, as well as the role of marine
+            traffic as a potential source for some of these pollutants.
+          </p>
+          <Carousel slides={slides} className="expedition-carousel"></Carousel>
+
           <h3>Resulting highlights:</h3>
           <ul>
             <li>
-              The science team collected microplastic samples off the coast
-              of Panama, an important region for global marine trade.
+              Collected microplastic samples off the coast of Panama, an
+              important region for global marine trade and the second largest
+              producer of plastic waste in Latin America.
             </li>
             <li>
-              Experts documented the occurrence and distribution of small
-              microplastics (&lt; 300 µm or the length of a dust mite),
-              providing new insight into how these pollutants are
-              transported from the Ocean’s surface to the seafloor.
+              Documented the occurrence and distribution of small microplastics
+              (&lt; 300 &micro;m &mdash; the length of a dust mite), providing
+              new insight into how these pollutants are transported to the
+              seafloor.
             </li>
             <li>
-              The team conducted a comparison study on two different
-              sampling methodologies — R/V <em>Falkor (too)</em>’s CTD and a
-              McLane large water pump to enhance understanding of
-              the most effective and accurate technique for
-              sampling microplastics in the Ocean.
+              Successfully conducted a comparison study of two different
+              sampling methodologies, one using R/V{" "}
+              <em>Falkor (too)&rsquo;s</em> CTD rosette and a new technology,
+              AAU-UFO, which uses a McLane large water pump, to identify the
+              most effective and accurate technique for sampling microplastics
+              in the Ocean.
             </li>
           </ul>
-          <Carousel slides={slides} className="expedition-carousel"></Carousel>
-          <p>
-            Plastic pollution is pervasive in our Ocean. The most prevalent
-            component of plastic pollution isn’t large pieces of trash
-            floating on the surface but tiny bits of waste called microplastics
-            found throughout the water column. This research took place in the
-            Gulf of Panama, which sees an estimated 14,000 ships transit
-            through the Panama Canal each year and encompassed a wide
-            bathymetric gradient from coastal waters to the deep sea.
-          </p>
-          {/*<BubbleImage image={image} orientation="left" type={3} />*/}
-          <p>
-            Globally, the seafloor is widely recognized as the final
-            repository for microplastics. While larger microplastics
-            are commonly seen on the Ocean's surface, smaller
-            particles are more often observed accumulating in
-            seafloor sediments.
-          </p>
-          <p>
-            There is also a distinct disparity in the composition of
-            floating microplastics compared to those that settle in
-            the sediment layer. These differences suggest that both
-            composition and particle size may play a role in
-            governing how microplastics are transported to deeper
-            marine environments.
-          </p>
-          <p>
-            Our understanding of the vertical movement of microplastics
-            in the marine environment remains limited, primarily due
-            to a scarcity of <em>in situ</em> measurements. Studying
-            microplastics beyond the surface requires building new tools
-            to address knowledge gaps and improve data collection.
-            The major obstacle to studying microplastics in the water
-            column is an issue of scale — getting large enough water
-            samples and small enough filtration resolution. To tackle
-            these challenges, the team used a novel piece of equipment
-            called a UFO built explicitly for studying microplastics.
-            They also used the McLane large water pump and <a href="https://oceanexplorer.noaa.gov/technology/ctd/ctd.html" target="_blank">the CTD</a> to
-            collect water samples from matching depths — building an
-            essential picture of what microplastics exist at different
-            levels in the Ocean.
-          </p>
+          <p>Permit to conduct research in Panama&rsquo;s waters: 170-23</p>
+
           <YoutubeVideo videoId="D5QFQ_7-RwQ" />
-          <MapIframe url="https://api.maptiler.com/maps/a2ea2297-03c3-4649-ba24-4601f06e98d9/?key=egFVe2SmC2zBUYnGILbj#6.6/7.879/-79.342"/>
+          <MapIframe url="https://api.maptiler.com/maps/a2ea2297-03c3-4649-ba24-4601f06e98d9/?key=egFVe2SmC2zBUYnGILbj#6.6/7.879/-79.342" />
           <ExpeditionsNav />
         </div>
       </Page>

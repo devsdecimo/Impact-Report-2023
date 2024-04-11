@@ -14,13 +14,34 @@ function HealthDiagnosisOfDeepSeaCoral() {
   const slidesPath =
     "/assets/images/expeditions/health_diagnosis_of_deep_sea_coral/carousel/";
   const slides = [
-    { img: `${slidesPath}01-Reef_Solaris.webp`, alt: "The developmental chemical sensor (SOLARIS) is used underwater to make measurements of a fleetingly scarce compound called superoxide, a reactive oxygen species."},
-    { img: `${slidesPath}02-ShipToShoreCallWithUPRMstudents.webp`, alt: "Cathrine Hernandez Rodriguez (MS Student, University of Puerto Rico) gives a live ship-to-shore call, taking students on a tour of R/V Falkor (too)'s labs." },
-    { img: `${slidesPath}03-FirstDeploymentMissionControl.webp`, alt: "Marine Technician Julianna Diehl works in Mission Control during the first dive of the Health Diagnostics of Deep-Sea Coral Expedition."},
-    { img: `${slidesPath}04-FirstSampleRecovery.webp`, alt: "A sample of Sargassum on ROV SuBastian." },
-    { img: `${slidesPath}05-Light_coral.webp`, alt:"Some dives during the expedition took place at shallower depths, where ambient light is available." },
-    { img: `${slidesPath}06-SOLARISIntegrationIntoROV.webp`, alt: "In the hangar, scientists calibrate the SOLARIS sensor system that has been attached to the vehicle." },
-    { img: `${slidesPath}07-ProcessingSamplesInTheMainLab.webp`, alt: "In R/V Falkor (too)'s main lab, Jeremy Horowitz (Postdoc, Smithsonian Institution) photographs coral samples before preserving and sealing them." },
+    {
+      img: `${slidesPath}01-Reef_Solaris.webp`,
+      alt: "The developmental chemical sensor (SOLARIS) is used underwater to make measurements of a fleetingly scarce compound called superoxide, a reactive oxygen species.",
+    },
+    {
+      img: `${slidesPath}02-ShipToShoreCallWithUPRMstudents.webp`,
+      alt: "Cathrine Hernandez Rodriguez (MS Student, University of Puerto Rico) gives a live ship-to-shore call, taking students on a tour of R/V Falkor (too)'s labs.",
+    },
+    {
+      img: `${slidesPath}03-FirstDeploymentMissionControl.webp`,
+      alt: "Marine Technician Julianna Diehl works in Mission Control during the first dive of the Health Diagnostics of Deep-Sea Coral Expedition.",
+    },
+    {
+      img: `${slidesPath}04-FirstSampleRecovery.webp`,
+      alt: "A sample of Sargassum on ROV SuBastian.",
+    },
+    {
+      img: `${slidesPath}05-Light_coral.webp`,
+      alt: "Some dives during the expedition took place at shallower depths, where ambient light is available.",
+    },
+    {
+      img: `${slidesPath}06-SOLARISIntegrationIntoROV.webp`,
+      alt: "In the hangar, scientists calibrate the SOLARIS sensor system that has been attached to the vehicle.",
+    },
+    {
+      img: `${slidesPath}07-ProcessingSamplesInTheMainLab.webp`,
+      alt: "In R/V Falkor (too)'s main lab, Jeremy Horowitz (Postdoc, Smithsonian Institution) photographs coral samples before preserving and sealing them.",
+    },
   ];
 
   return (
@@ -47,94 +68,142 @@ function HealthDiagnosisOfDeepSeaCoral() {
           <h3>Expedition objectives:</h3>
           <ul>
             <li>
-              Explore the unknown waters surrounding Puerto Rico and assess the
-              overall productivity, biodiversity, and health of deep-sea corals
+              Explore the waters surrounding Puerto Rico and assess the overall
+              productivity, biodiversity, and health of deep-sea corals.
             </li>
             <li>
-              Integrate and use two newly designed instruments on ROV{" "}
-              <em>SuBastian</em> for measuring reactive oxygen species, or ROS,
-              in situ using an instrument called SOLARIS, and at shallow depths
-              and in the lab using a DISCO device
+              Test two newly designed instruments for measuring reactive oxygen
+              species, or ROS, <em>in situ</em> &mdash; a device called DISCO,
+              which stands for Diver-operated Submersible Chemiluminescent
+              Sensor, for shallow depths and lab measurements, and an instrument
+              mounted on ROV <em>SuBastian</em> for deeper depths called
+              SOLARIS, which stands for Submersible Oceanic Luminescent Analyzer
+              of Reactive Intermediate Species.
             </li>
             <li>
               Evaluate ROS concentration and production in coral gardens that
-              live along biogeochemical gradients and link to ecological,
-              physiological, and evolutionary processes
+              live along biogeochemical gradients and link them to ecological,
+              physiological, and evolutionary processes.
             </li>
           </ul>
-          <h3>Resulting highlights:</h3>
-          <ul>
-            <li>
-              Researchers observed several corals and sponges not previously
-              documented in the region, and they encountered an unexpectedly
-              high density of corals in deep waters along Desecheo Ridge.
-            </li>
-            <li>
-              Researchers detected a burst of the ROS hydrogen peroxide induced
-              by wounding in a deep sea <em>Paramuricead</em>, which could be a
-              mechanism for wound repair in this organism and provide a
-              diagnostic indicator of stress.
-            </li>
-            <li>
-              The science team made the first documented observation of
-              extracellular ROS production by a black coral.
-            </li>
-          </ul>
-          <Carousel slides={slides} className="expedition-carousel"></Carousel>
+
           <p>
             Corals play a foundational role in deep-sea ecosystems by providing
             habitats where invertebrate and fish communities can thrive. Corals
-            produce extracellular reactive oxygen species, or ROS, which are
-            short-lived oxygen-containing molecules. These molecules play an
-            essential role in the health and ecological interactions of all
-            living creatures, as they are needed for breaking down food,
+            produce extracellular{" "}
+            <a href="https://www.youtube.com/watch?v=svYFr892fGQ&amp;list=PLJGVqQI3okzZsZYBgPx5DqEYTQZLR2CfH&amp;index=29">
+              <u>reactive oxygen species, or ROS,</u>
+            </a>{" "}
+            which are short-lived oxygen-containing molecules. These molecules
+            play an essential role in all living creatures' health and
+            ecological interactions, as they are needed for breaking down food,
             fighting off diseases, and healing wounds.
           </p>
           <p>
-            Shallow corals produce ROS hydrogen peroxide, and researchers are
-            determining if elevated signals of hydrogen peroxide can be reliably
-            used as indicators of stress. There is a lack of ROS data for corals
-            living in the deep sea; the mechanisms, role, and impacts of ROS
-            production in deepwater corals are unknown.
+            Previous research by the{" "}
+            <a href="https://www2.whoi.edu/site/hansel-lab/">
+              <u>Hansel Lab</u>
+            </a>{" "}
+            demonstrated that shallow corals produce the ROS hydrogen peroxide.
+            In April of 2023, Chief Scientist Dr. Colleen Hansel led a team of
+            scientists and engineers to investigate whether the detection of
+            elevated hydrogen peroxide signals can be used as an indicator of
+            coral stress. While scientists have been able to study corals in
+            shallow waters, there is a lack of ROS data for deep-sea corals
+            because of their inaccessibility in the deep Ocean. The science team
+            is working to understand the mechanisms, role, and impacts of ROS
+            production in deep-sea corals, and this expedition brought
+            researchers closer to bridging the data gap.
           </p>
           <p>
-            To determine if and how deep-sea corals produce ROS, a
-            first-generation sensor called SOLARIS was integrated onto ROV{" "}
-            <em>SuBastian</em>. SOLARIS is designed to measure ROS in corals in
-            their natural environment. The new sensor was used to achieve the
-            first systematic and targeted investigation of ROS production
-            associated with deep-sea corals and provided essential insights into
-            its controls on coral ecology, physiology, and health. The sensor
-            was designed based on a handheld version developed by the
-            expedition&rsquo;s Chief Scientist, Colleen Hansel; the development
-            of DISCO was funded by Schmidt Marine Technology Partners.
+            ROS must be studied <em>in situ. </em>Collecting samples for lab
+            analysis will not work because the molecules are unstable and react
+            almost instantly with other molecules, vanishing in about 30
+            seconds. To determine if and how deep-sea corals produce ROS,{" "}
+            <a href="https://www.youtube.com/watch?v=7rPfn6T4gLo&amp;list=PLJGVqQI3okzZsZYBgPx5DqEYTQZLR2CfH&amp;index=28">
+              <u>a novel sensor called SOLARIS</u>
+            </a>{" "}
+            was integrated into ROV <em>SuBastian</em>. SOLARIS was designed to
+            measure ROS in the water and at depth &mdash; deep-sea corals&rsquo;
+            natural environment.
           </p>
           <p>
-            The team explored several locations in the waters of Puerto Rico
-            with ROV
-            <em>SuBastian,</em> including Whiting Bank, Desecheo Ridge, and
-            Esperanza Ridge. Overall, the highest measured ROS levels were
-            associated with an
-            <em>Aplysina</em> sponge, possibly due to how the organism excretes
-            fluid and disperses superoxides from within. Additionally, the team
-            documented the first observation of extracellular ROS production by
-            a black coral, which could help scientists better understand how
-            these deep sea environments are reacting to changing oceanic
-            conditions and human activity..
+            The new sensor was used to conduct the first systematic and targeted
+            investigation of ROS production associated with deep-sea corals.
+            SOLARIS provided essential data on coral stress, which led
+            scientists to gain new insights into how ROS influences coral
+            ecology, physiology, and health. The sensor design was based on a
+            handheld version, DISCO. Hansel and a Woods Hole Oceanographic
+            Institution team developed{" "}
+            <a href="https://www.whoi.edu/oceanus/feature/a-disco-in-the-ocean/">
+              <u>both devices</u>
+            </a>
+            , and{" "}
+            <a href="https://schmidtmarine.org/">
+              <u>Schmidt Marine Technology Partners</u>
+            </a>{" "}
+            funded DISCO.
           </p>
           <p>
-            Overall, 400 individuals comprising over 75 species of corals and
-            sponges were measured, collected, and archived during the
-            expedition. A fragment of each sample is archived in museums in
-            Puerto Rico and the Smithsonian Institution. Following all analyses,
-            the science team anticipates learning vital information about ROS
-            concentration and production across depth gradients and among
-            various corals in the waters of Puerto Rico. This new knowledge will
-            inform the management of these critical ecosystems for years to
-            come.
+            The science team explored several locations in the waters off Puerto
+            Rico with ROV <em>SuBastian,</em> including Whiting Bank, Desecheo
+            Ridge, and Esperanza Ridge. They successfully measured high ROS
+            levels for an
+            <em>Aplysina</em> sponge and documented the first observation of
+            extracellular ROS production by a black coral. This information
+            could help scientists better understand how these deep-sea corals
+            are reacting to human activity and changing oceanic conditions.
+          </p>
+          <p>
+            The researchers found that this area of Puerto Rico &mdash; with
+            fewer nutrients in the water column &mdash; has corals managing to
+            survive and proliferate.{" "}
+            <a href="https://www.youtube.com/watch?v=L7UwooHRrL0&amp;list=PLJGVqQI3okzZsZYBgPx5DqEYTQZLR2CfH&amp;index=28">
+              <u>To Hansel</u>
+            </a>
+            , this has the potential to open up a whole new area of science
+            because the corals in Puerto Rico are completely different from what
+            they've seen elsewhere. The ability of corals to thrive despite the
+            availability of nutrients raises exciting new questions about how
+            corals may allocate energy resources in relation to their
+            surroundings. Following analyses, scientists expect to learn about
+            the biogeochemistry of deep-sea corals living in Puerto Rican
+            waters, which will inform the management of these ecosystems for
+            years.
+          </p>
+          <Carousel slides={slides} className="expedition-carousel"></Carousel>
+          <h3>Resulting highlights:</h3>
+          <ul>
+            <li>
+              Encountering a lush forest of deep-sea corals and associated
+              animals living along Desecheo Ridge; the team also observed
+              several corals and sponges not previously documented in the
+              region, expanding the knowledge of what exists there.
+            </li>
+            <li>
+              Detected a burst of ROS hydrogen peroxide in a wounded deep-sea
+              <em>Paramuricead</em>, a genus of Gorgonian-type octocorals, which
+              could be a mechanism for repairing wounds; this also provided a
+              diagnostic indicator of stress.
+            </li>
+            <li>
+              First documented observation of extracellular ROS production by a
+              black coral.
+            </li>
+            <li>
+              Two new ROV-based instruments, SOLARIS and DISCO, were
+              successfully used; these chemiluminescent detectors for measuring
+              reactive oxygen species
+              <em>in situ</em> help scientists bridge a data gap about deep-sea
+              corals and their responses to stress.
+            </li>
+          </ul>
+          <p>
+            Permit to conduct research in Puerto Rican waters: 2023-IC-019
+            (O-VS-PVS15-SJ-01351-01022023)
           </p>
           <YoutubeVideo videoId="L7UwooHRrL0" />
-          <MapIframe url="https://api.maptiler.com/maps/a7a9b38d-ff06-436d-b34a-22922c48ed6c/?key=egFVe2SmC2zBUYnGILbj#6.7/18.20646/-66.35670"/>
+          <MapIframe url="https://api.maptiler.com/maps/a7a9b38d-ff06-436d-b34a-22922c48ed6c/?key=egFVe2SmC2zBUYnGILbj#6.7/18.20646/-66.35670" />
           <ExpeditionsNav />
         </div>
       </Page>

@@ -68,44 +68,42 @@ function InSearchOfHydrothermalLostCities() {
             <li>
               Accelerate discovery and characterization of deep-sea hydrothermal
               systems, targeting oceanic core complexes, which are locations
-              where mantle rock is exposed to cold seawater
+              where mantle rock is exposed to cold seawater.
             </li>
             <li>
-              Find hydrothermal activity on Puys des Folles volcano, an area
-              believed to host only inactive vent structures
+              Find hydrothermal activity in the Puys des Folles vent field, an
+              area believed to host only inactive vent structures.
             </li>
             <li>
-              Demonstrate the effectiveness of using a combination of
-              technologies — such as multibeam sonar from <em>Falkor (too)</em>{" "}
-              and AUVs — to rapidly locate and characterize hydrothermal vents
+              Demonstrate the effectiveness of a{" "}
+              <a href="https://www.youtube.com/watch?v=BFqRPOZqpnw&amp;list=PLJGVqQI3okzZsZYBgPx5DqEYTQZLR2CfH&amp;index=32">
+                <u>nested approach</u>
+              </a>{" "}
+              that uses a combination of technologies to progressively increase
+              the resolution of data collected, making it possible to locate and
+              characterize hydrothermal vents rapidly.
             </li>
           </ul>
-          <h3>Resulting highlights:</h3>
-          <ul>
-            <li>
-              The first research expedition on board R/V <em>Falkor (too)</em>{" "}
-              found high-temperature hydrothermal vent fields present at all
-              three study areas, including Puy des Folles, which was previously
-              thought to be inactive.{" "}
-            </li>
-            <li>
-              The team discovered a new vent field, nicknamed the Birthday Vent.
-            </li>
-            <li>
-              Researchers demonstrated the success of a nested approach, using
-              multibeam sonar, AUVs, CTD casts, and an ROV, to rapidly locate
-              hydrothermal vents on the seafloor.{" "}
-            </li>
-          </ul>
-          <Carousel slides={slides} className="expedition-carousel"></Carousel>
+
           <p>
-            The first scientific expedition of SOI’s new research vessel{" "}
-            <em>Falkor (too)</em> was a multi-pronged exploration developed to
+            In 2000, scientists found a new alkaline hydrothermal vent system on
+            the{" "}
+            <a href="https://new.nsf.gov/news/scientists-discover-secrets-lost-city">
+              <u>Atlantis Massif</u>
+            </a>{" "}
+            and named it the Lost City. Ghostly towers made of limestone sprang
+            from the seafloor, spewing clear liquid, with very few creatures
+            dwelling around them. The scientists found the chemistry vastly
+            different from that of black smoker vents on the nearby Mid-Atlantic
+            Ridge volcanoes. They determined that the reaction creating this
+            type of vent occurs on a geologic formation known as an oceanic core
+            complex, where mantle rock is exposed to cold seawater. These
+            carbonate vents form when the seawater and mantle rock react in a
+            process known as serpentinization. The first scientific expedition
+            aboard the research vessel <em>Falkor (too)</em> was designed to
             accelerate the discovery and characterization of deep-sea
-            hydrothermal systems, targeting oceanic core complexes at the
-            Mid-Atlantic Ridge, the world{"'"}s longest underwater mountain
-            range. Oceanic core complexes are locations where mantle rock is
-            exposed to cold seawater.
+            hydrothermal systems as they searched for new vents like those at
+            Lost City.
           </p>
           <BubbleImage
             image={
@@ -115,35 +113,83 @@ function InSearchOfHydrothermalLostCities() {
             type={3}
           />
           <p>
-            Locating three active hydrothermal vent fields is the first
-            discovery on this section of the Mid-Atlantic Ridge in more than 40
-            years. One of the discovered vent fields was located at the Puy des
-            Folles volcano and has five active sites over 6.95 square miles, or
-            18 square kilometers. High-temperature black smoker vents were found
-            at the Grappe Deux Vent System and Kane Fracture Zone.
+            In the spring of 2023, Chief Scientist Dr. David Butterfield led
+            this expedition to explore a section of the Mid-Atlantic Ridge to
+            locate vents where serpentinization occurs. The study area included
+            Puy des Folles, an on-axis volcano, an oceanic core complex
+            associated with the eastern intersection of the Mid-Atlantic Ridge,
+            the Kane Fracture Zone, and one{" "}
+            <a href="https://en.wikipedia.org/wiki/Fracture_zone">
+              <u>non-transform ridge offset </u>
+            </a>{" "}
+            called Grappe Deux.
           </p>
-
           <p>
-            Hydrothermal mineral deposits at inactive vents on the Mid-Atlantic
-            Ridge could be potential targets for deep-sea mining sites.
-            Proponents of deep-sea mining suggest that mineral extraction does
-            not pose a threat at inactive sites, as they suspect no animals live
-            at these locations. To protect these understudied systems from
-            mining, it is essential to establish where animal communities exist
-            on the mid-Atlantic ridge and their relationship to the surrounding
+            Ultimately, they did not locate any vents like the Lost City type.
+            However, they systematically searched and{" "}
+            <a href="https://www.youtube.com/watch?v=JsOv8Kp1jDE">
+              <u>discovered three active hydrothermal vent fields</u>
+            </a>
+            . One is located at the Puy des Folles volcano, where there are five
+            active sites over 7 square miles or 18 square kilometers. They
+            discovered high-temperature black smoker vents at the Grappe Deux
+            Vent System and Kane Fracture Zone. These were the first new vents
+            located in the region{" "}
+            <a href="https://vents-data.interridge.org/">
+              <u>in more than 40 years</u>
+            </a>
+            .
+          </p>
+          <p>
+            The expedition team&rsquo;s nested approach included Autonomous
+            Underwater Vehicles, or AUVs, to produce high-resolution maps of the
+            seafloor; Miniature Autonomous Plume Recorders mounted alongside a
+            CTD to sense chemical signals in the water column; and ROV
+            <em> SuBastian</em> to conduct visual surveys and sampling of the
+            seafloor. The effectiveness of using a nested approach is evident as
+            it allowed researchers to discover and characterize vent activity in
+            just a few days, which NOAA Oceanographer{" "}
+            <a href="https://youtu.be/BFqRPOZqpnw?si=D1ow8avd7x2u0qaq&amp;t=66">
+              <u>Dr. Sharon Walker describes</u>
+            </a>{" "}
+            as a miraculous timeframe.
+          </p>
+          <p>
+            Discovering active venting at these locations also revealed that the
+            region{" "}
+            <a href="https://www.youtube.com/watch?v=rPxqrxfQ7-E&amp;list=PLJGVqQI3okzZsZYBgPx5DqEYTQZLR2CfH&amp;index=31">
+              <u>hosts thriving ecosystems</u>
+            </a>
+            . To fully protect these fragile habitats, it is essential to
+            understand where animal communities exist on the Mid-Atlantic Ridge
+            around these active vents and their relationship to the surrounding
             geological and chemical conditions.
           </p>
-          <p>
-            The expedition combined the use of Autonomous Underwater Vehicles,
-            or AUVs, to produce high-resolution maps of the seafloor, Miniature
-            Autonomous Plume Recorders to sense the water column, and ROV{" "}
-            <em>SuBastian</em> to conduct visual surveys and sampling of the
-            seafloor. This nested approach demonstrated the effectiveness of
-            combining technologies to illuminate how the current geologic
-            setting controls hydrothermal chemistry and habitat conditions.
-          </p>
+          <Carousel slides={slides} className="expedition-carousel"></Carousel>
+
+          <h3>Resulting highlights include:</h3>
+          <ul>
+            <li>
+              Finding active high-temperature hydrothermal vent fields present
+              at all study areas along a 434-mile stretch of the Mid-Atlantic
+              Ridge, including Puy des Folles, previously thought to be
+              inactive.
+            </li>
+            <li>
+              The discovery of three new vent fields bustling with organisms in
+              areas previously thought to be devoid of life.
+            </li>
+            <li>
+              Demonstrating the success of a nested approach of technologies
+              that rapidly accelerated the time needed{" "}
+              <a href="https://www.youtube.com/watch?v=2RSCnSUe6Nc&amp;list=PLJGVqQI3okzZsZYBgPx5DqEYTQZLR2CfH&amp;index=30">
+                <u>to locate and discover hydrothermal vents</u>
+              </a>{" "}
+              on the seafloor.
+            </li>
+          </ul>
           <YoutubeVideo videoId="2RSCnSUe6Nc" />
-          <MapIframe url="https://api.maptiler.com/maps/e368ce32-5d5e-4ea2-baab-95008a16d110/?key=egFVe2SmC2zBUYnGILbj#3.7/22.39536/-54.00255"/>
+          <MapIframe url="https://api.maptiler.com/maps/e368ce32-5d5e-4ea2-baab-95008a16d110/?key=egFVe2SmC2zBUYnGILbj#3.7/22.39536/-54.00255" />
           <ExpeditionsNav />
         </div>
       </Page>

@@ -16,11 +16,26 @@ function OctopusOdyssey() {
   const slidesPath = "/assets/images/expeditions/octopus_odyssey/carousel/";
 
   const slides = [
-    { img: `${slidesPath}01-Rovs.webp`, alt: "In the Dirty Wet Lab, the research team moves sediment push core samples." },
-    { img: `${slidesPath}02-Octo.webp`, alt: "An octopus — thought to be a species unknown to science — is documented during Dive 531." },
-    { img: `${slidesPath}03-Ship.webp`, alt: "Sergio Cambronero (Scientist, Universidad Nacional) takes part in a ship-to-shore call with a Costa Rican high school." },
-    { img: `${slidesPath}04-Shrimp.webp`, alt: "The expedition located a second site of low temperature (7 degrees Celsius) hydrothermal venting with brooding octopus." },
-    { img: `${slidesPath}05-Baby.webp`, alt: "A new octopus hatchling swims away from its egg near a small outcrop of rock unofficially called El Dorado Hill." },
+    {
+      img: `${slidesPath}01-Rovs.webp`,
+      alt: "In the Dirty Wet Lab, the research team moves sediment push core samples.",
+    },
+    {
+      img: `${slidesPath}02-Octo.webp`,
+      alt: "An octopus — thought to be a species unknown to science — is documented during Dive 531.",
+    },
+    {
+      img: `${slidesPath}03-Ship.webp`,
+      alt: "Sergio Cambronero (Scientist, Universidad Nacional) takes part in a ship-to-shore call with a Costa Rican high school.",
+    },
+    {
+      img: `${slidesPath}04-Shrimp.webp`,
+      alt: "The expedition located a second site of low temperature (7 degrees Celsius) hydrothermal venting with brooding octopus.",
+    },
+    {
+      img: `${slidesPath}05-Baby.webp`,
+      alt: "A new octopus hatchling swims away from its egg near a small outcrop of rock unofficially called El Dorado Hill.",
+    },
   ];
 
   return (
@@ -49,144 +64,113 @@ function OctopusOdyssey() {
           <h3>Expedition objectives:</h3>
           <ul>
             <li>
-              Determine if octopuses are brooding their eggs in warm water at
-              hydrothermal vents at the Dorado Outcrop
+              Determine if octopuses are brooding viable eggs in the warm waters
+              of hydrothermal vents found at the Dorado Outcrop in Costa Rican
+              waters.
             </li>
             <li>
-              Find linkages between fluid-rock alteration, microbial processes,
-              and microbe-animal symbiosis at seamounts in Costa Rica, as well
-              as to broader seafloor-ocean coupling
+              Ascertain linkages between the microbes harnessing energy from the
+              fluids and rocks surrounding them, other microbial processes, and
+              animals inhabiting the seamounts in Costa Rican waters.
             </li>
             <li>
-              Provide hands-on training for shipboard early career scientists
-              and build capacity sharing with scientists from Latin American and
-              Caribbean Countries
-            </li>
-            <li>
-              Return in December to collect new samples and retrieve experiments
-              placed on the seafloor in June of 2023
+              In June, the team deployed microbial colonization experiments and
+              different types of animal shelters; they returned in December to
+              recover the experiments designed to improve understanding of the
+              connections between the life present and the rocks and fluids
+              around these seafloor features.
             </li>
           </ul>
-          <h3>Resulting highlights:</h3>
-          <ul>
-            <li>
-              The team confirmed the Dorado Outcrop in Costa Rica&rsquo;s
-              Pacific waters hosts a year-round octopus nursery with hundreds of{" "}
-              <em>Muusoctopus</em> brooding viable eggs in low-temperature
-              hydrothermal fluids.
-            </li>
-            <li>
-              Scientists believe they have discovered four new octopus species
-              during the Octopus Odyssey and Octopus Odyssey (too) expeditions.
-            </li>
-            <li>
-              Researchers observed a variety of octopus behaviors and carefully
-              collected specimens to allow for identification, and the study of
-              population biology and animal microbiomes.
-            </li>
-            <li>
-              The team located a thriving deep-sea skate nursery on top of
-              Tengosed Seamount in Costa Rican waters and nicknamed it The Skate
-              Park.
-            </li>
-          </ul>
-          <Carousel slides={slides} className="expedition-carousel"></Carousel>
+
           <p>
             In June 2023, Co-chief Scientists Drs. Beth Orcutt and Jorge
             Cort&eacute;s led an international team to map and examine the
-            Dorado Outcrop &mdash; Earth&rsquo;s first-ever discovered octopus
-            nursery. One of their initial goals was to determine if the eggs at
-            the nursery were viable, as past expeditions to the outcrop had
-            never seen evidence of developing embryos.
+            Dorado Outcrop &mdash; the site of the first-discovered octopus
+            nursery, found in 2013. One of their initial goals for this
+            expedition was to determine if the eggs at the nursery were viable,
+            as past expeditions to the outcrop had never seen evidence of
+            developing embryos. The science team documented nurseries with
+            hundreds of <em>Muusoctopus, </em>a genus of deep-sea octopus,
+            brooding viable eggs in low-temperature hydrothermal fluids at the
+            study site.
           </p>
-          <BubbleImage image={'/assets/images/expeditions/octopus_odyssey/FKt230602-Dive-531-Octo-1.webp'} orientation="right" type={3} alt="An octopus — thought to be a species unknown to science — is documented during Dive 531."/>
+          <BubbleImage
+            image={
+              "/assets/images/expeditions/octopus_odyssey/FKt230602-Dive-531-Octo-1.webp"
+            }
+            orientation="right"
+            type={3}
+            alt="An octopus — thought to be a species unknown to science — is documented during Dive 531."
+          />
           <p>
-            The team documented nurseries with hundreds of <em>Muusoctopus </em>
-            species brooding viable eggs in low-temperature hydrothermal fluids
-            at the Dorado Outcrop, the first octopus garden scientists have ever
-            observed. They were amazed by how quickly predators like shrimp and
-            cutthroat eels descended on any unprotected eggs. The predation
-            observations demonstrate how well a mother octopus protects their
-            eggs during the brooding period. Scientists witnessed spectacular
-            scenes of the first moments of life, as baby octopuses emerged from
-            their eggs. ROV <em>SuBastian</em> was able to follow one hatchling
-            for an epic journey over 150 m up into the water column.
-          </p>
-          <p>
-            In December, the team returned to further study the nurseries,
-            examine parts of the seafloor never-before-seen by humans, and
-            collect experiments placed on the seafloor in June. One of the most
-            substantial findings from the expedition is the confirmation that{" "}
-            <em>Muusoctopus</em> nurseries offshore of Costa Rica support baby
-            octopuses throughout the year and not just during the rainy season.
-          </p>
-          <p>
-            Scientists believe they have discovered four new octopus species
-            during the two expeditions; these discoveries will go through a
-            rigorous analysis process to be confirmed and published in the
-            coming months. One octopus may be a new species of{" "}
-            <em>Muusoctopus</em>, which was the only one observed brooding their
-            eggs on low-temperature hydrothermal vents; this adds to the
-            hypothesis that only the <em>Muusoctopus </em>genus has evolved to
-            brood their eggs in warm springs on the seafloor.
+            The team returned in December of 2023 to further study the nurseries
+            and to collect time-series experiments placed at the site in June.
+            As a result, scientists confirmed that <em>Muusoctopus</em>{" "}
+            nurseries offshore of Costa Rica support baby octopuses throughout
+            the year, not just during the rainy season,{" "}
+            <a href="https://www.youtube.com/watch?v=wHAHe2T2dl0&amp;list=PLJGVqQI3okzZsZYBgPx5DqEYTQZLR2CfH&amp;index=8">
+              <u>as observed in June</u>
+            </a>
+            . The team believes they have discovered four new octopus species
+            during the two expeditions; these discoveries will undergo a
+            rigorous analysis and peer review to be confirmed and published in
+            the coming months. One of the discoveries may be a new species of{" "}
+            <em>Muusoctopus</em>, the only type of octopus observed brooding its
+            eggs on the low-temperature hydrothermal vents. This discovery
+            supports the previous hypothesis that only the
+            <em>Muusoctopus </em>genus has evolved to brood their eggs in warm
+            springs on the seafloor.
           </p>
           <p>
             Three different kinds of low-temperature hydrothermal vents were
-            detected, all of which sustain ecosystems teeming with life on the
-            seafloor. This discovery was highlighted by the presence of a
-            thriving deep-sea skate nursery, nicknamed The Skate Park, found at
-            the top of the Tengosed Seamount. The skate eggs also sit in
-            low-temperature hydrothermal vents, but the temperature and fluid
-            chemistry differ from Dorado Outcrop's warm springs. The Pacific
-            white skate is one of the deepest living skate species, and the
-            association of their nurseries with local hydrothermal venting is
-            currently being investigated.
+            detected during the expedition, each sustaining life. Fluid samples
+            collected at these sites allow researchers to study the microbiomes
+            of these unique hydrothermal spring waters to understand what
+            functions microbes perform and how they connect to the microbiomes
+            of animals living in places like these. And, the water samples
+            collected have shown interconnectivity between features, which helps
+            researchers understand the deep sea as a network of connected
+            habitats rather than a series of isolated features.
           </p>
           <p>
-            The observed deep-sea octopus and skate nurseries exhibit all of the
-            characteristics of{" "}
-            <a
-              href="https://www.fao.org/in-action/vulnerable-marine-ecosystems/definitions/en/"
-              target="_blank"
-            >
-              Vulnerable Marine Ecosystems
+            The observed deep-sea octopus and skate nurseries meet definitions
+            of{" "}
+            <a href="https://www.fao.org/in-action/vulnerable-marine-ecosystems/definitions/en/">
+              <u>Vulnerable Marine Ecosystems</u>
             </a>{" "}
             and{" "}
-            <a href="https://gobi.org/ebsas/" target="_blank">
-              Ecologically and Biologically Sensitive Areas
+            <a href="https://gobi.org/ebsas/">
+              <u>Ecologically and Biologically Sensitive Areas</u>
             </a>{" "}
-            because: they are required for the survival of these populations,
-            home to sensitive species slow to recover from disturbance, have
-            high productivity, and are relatively pristine. Seamount ecosystems
-            support highly diverse animal communities on the seafloor and the
-            surrounding Ocean, yet the diversity, connectivity, and ecosystem
-            services of these environments are poorly understood. Detailed
-            studies like those that will result from these expeditions will
-            impact policy and aid in crafting effective conservation management
-            and protection plans, and dual-language outreach helped raise
-            awareness among Costa Rican and regional audiences.
+            because they are essential for the survival of these populations.
+            These nutrient-rich ecosystems are home to sensitive species that
+            are slow to recover from disturbance. The research from this
+            expedition will aid in creating more effective conservation
+            management plans for the country.
           </p>
-          <p>
-            Over{" "}
-            <a
-              href="https://youtu.be/JYMaz6AW7f0?feature=shared"
-              target="_blank"
-            >
-              160 deep-sea animal specimens
-            </a>{" "}
-            collected from these expeditions will be stored at the Museum of
-            Zoology at the University of Costa Rica. The collection marks one of
-            the first times that all biological specimens will be housed within
-            the Latin American country from which they were collected. Housing
-            the collection locally will enable local scientists, students, and
-            the general public to engage and connect with life in the abundant
-            waters that comprise over 92% of Costa Rica&rsquo;s territory, and
-            may lead to informing future marine protections in the region.
-          </p>
+          <Carousel slides={slides} className="expedition-carousel"></Carousel>
+          <h3>Resulting highlights:</h3>
+          <ul>
+            <li>
+              Confirmed the Dorado Outcrop hosts a year-round octopus nursery
+              with hundreds of <em>Muusoctopus</em> brooding viable eggs in
+              low-temperature hydrothermal fluids.
+            </li>
+            <li>
+              Possibly discovered four new octopus species, observed a variety
+              of octopus behaviors, carefully collected specimens for
+              identification, and gained insights into population biology and
+              animal microbiomes.
+            </li>
+            <li>
+              Discovered a thriving deep-sea skate nursery on top of Tengosed
+              Seamount.
+            </li>
+          </ul>
           <YoutubeVideo videoId="U5jo9IhO8NA" />
           <YoutubeVideo videoId="JYMaz6AW7f0" />
-          <MapIframe url="https://api.maptiler.com/maps/44b29ef0-7763-4a93-b820-d91ba19f1629/?key=egFVe2SmC2zBUYnGILbj#5.5/9.30641/-85.89859"/>
-          <MapIframe url="https://api.maptiler.com/maps/23ae9b64-e335-44ec-a873-724f08db8a39/?key=egFVe2SmC2zBUYnGILbj#4.1/8.81816/-83.45626"/>
+          <MapIframe url="https://api.maptiler.com/maps/44b29ef0-7763-4a93-b820-d91ba19f1629/?key=egFVe2SmC2zBUYnGILbj#5.5/9.30641/-85.89859" />
+          <MapIframe url="https://api.maptiler.com/maps/23ae9b64-e335-44ec-a873-724f08db8a39/?key=egFVe2SmC2zBUYnGILbj#4.1/8.81816/-83.45626" />
           <ExpeditionsNav />
         </div>
       </Page>

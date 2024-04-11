@@ -42,8 +42,8 @@ function AWordFromOurFounders() {
         <div className="intro-text">
           <p>
             An epic journey begins with wonder. When we feel a spark of
-            curiosity, spy a new horizon, we can’t help but want to imagine
-            what’s next.
+            curiosity or spy a new horizon, we can&rsquo;t help but want to
+            imagine what&rsquo;s next.
           </p>
         </div>
         <div className="content">
@@ -56,18 +56,27 @@ function AWordFromOurFounders() {
           />
           <p>
             With every expedition in the inaugural year of Schmidt Ocean
-            Institute’s Research Vessel <em>Falkor (too)</em>, scientists
+            Institute&rsquo;s research vessel <em>Falkor (too)</em>, scientists
             brought new insights and images to light. Hundreds of wriggling
             shrimp atop black smoker hydrothermal vents revealed a marine
             community thriving in total darkness at the bottom of the Atlantic.
-            An elusive squid species, rarely captured on film, floated by ROV{" "}
-            <em>SuBastian</em> cameras, pink and feathery even at 2,000 meters
-            beneath the surface. Mother octopuses, tentacles curled around their
-            bodies, protected their precious eggs among dark rocks at the fifth
-            known such site in the world. Tubeworms the size of a forearm living
-            underneath the seafloor, part of a never-before-seen ecosystem, were
-            observed. New massive coral reefs, towering sea mounts, and vast
-            unknown vent fields came thunderously into view.
+            An{" "}
+            <a
+              href="https://www.instagram.com/reel/CxW5ESfOp59/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <u>elusive squid species</u>
+            </a>{" "}
+            , rarely captured on film, floated by ROV <em>SuBastian </em>
+            cameras, pink and feathery even at 2,000 meters beneath the surface.
+            Mother octopuses, tentacles curled around their bodies, protected
+            their precious eggs among dark rocks. Massive coral reefs, towering
+            seamounts, and vast unknown vent fields came thunderously into view.
+            And, with a discovery akin to finding life on another planet,
+            scientists observed tubeworms the length of a forearm living
+            underneath the seafloor &mdash; a thriving ecosystem entirely new to
+            science.
           </p>
           <ImageWithCircle2
             image={Octopus}
@@ -78,22 +87,23 @@ function AWordFromOurFounders() {
           />
           <p>
             The Ocean never ceases to surprise us. With each discovery, we find
-            ourselves asking new questions as well as returning to the ones that
-            have always anchored our work: What can we learn from our Ocean? How
-            does it make our lives possible? And how can we protect it? These
-            questions grow ever more urgent as our planet continues warming, as
-            plastic pollution continues to flow freely into our waterways, and
-            as mining companies seek to dig up — and irrevocably damage — the
-            deep. Every discovery, every day on the water, and every minute
-            spent breathing the oxygen the Ocean creates furthers our resolve to
-            steward the seas and to journey onward.
+            ourselves asking new questions and returning to the ones that have
+            always anchored our work: What can we learn from our Ocean? How does
+            it make our lives possible? And how can we protect it? These
+            questions grow ever more urgent as our planet continues to warm,
+            plastic pollution flows freely into our waterways, and mining
+            companies seek to dig up and irrevocably damage the deep. Every
+            discovery, every minute spent breathing the oxygen the Ocean
+            creates, and every day on the water furthers our resolve to steward
+            the seas and to journey onward.
           </p>
           <p>
-            As our planet’s final frontier continues to fill us with wonder, the
-            lesson we’ve taken from this first year will guide us
-            forDisseminating the Depths: all the rest: the more we seek, the
-            more we find. And, to quote <em>The Neverending Story</em>, having a
-            luck dragon is the only way to go on a quest!
+            As our planet&rsquo;s final frontier continues to fill us with
+            wonder, the lesson we&rsquo;ve taken from this first year will guide
+            us for all the rest: the more we seek, the more we find. And, to
+            quote
+            <em>The Neverending Story</em>, having a luck dragon is the only way
+            to go on a quest!
           </p>
           <p>
             <em>Eric & Wendy Schmidt</em>

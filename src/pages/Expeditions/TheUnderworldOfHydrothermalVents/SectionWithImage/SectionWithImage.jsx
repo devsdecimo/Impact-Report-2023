@@ -1,9 +1,9 @@
 import React from "react";
 import { SectionWithImageContainer } from "./SectionWithImage.styles";
 import IconWithText from "../../../../components/IconWithText/IconWithText";
-import Pin from "/assets/images/icons/pin.svg"
 import Flag from "/assets/images/icons/flag.svg"
 import Discovered from "/assets/images/icons/discovered.svg"
+import Calendar from "/assets/images/icons/calendar.svg"
 import BubbleImage from "../../../../components/BubbleImage/BubbleImage";
 
 
@@ -22,20 +22,20 @@ function SectionWithImage({image, image2 ,alt}) {
                 <div className="icons-container">
                 <IconWithText  
                     className={'CTA'} 
-                    icon={Pin} 
-                    text={"East Pacific Rise"} 
+                    icon={Flag} 
+                    text={"International Waters"} 
                     opacity={1}
                 />
-                <IconWithText  
+                 <IconWithText  
                     className={'CTA'} 
-                    icon={Flag} 
-                    text={"Costa Rica/Panama"} 
+                    icon={Calendar} 
+                    text={"29 June - 28 July 2023"} 
                     opacity={1}
                 />
                 <IconWithText  
                     className={'CTA'} 
                     icon={Discovered} 
-                    text={"Dr. Monika Bright"} 
+                    text={"Dr. Monika Bright, University of Vienna"} 
                     opacity={1}
                 />
                 </div>

@@ -7,7 +7,7 @@ import Days from "/assets/images/icons/days.svg"
 import Dives from "/assets/images/icons/dives.svg"
 import Map from "/assets/images/icons/map.svg"
 import Samples from "/assets/images/icons/samples.svg"
-import Travel from "/assets/images/icons/travel.svg"
+import Data from "/assets/images/icons/data.svg"
 
 
 function SectionIcons() {
@@ -17,26 +17,24 @@ function SectionIcons() {
             <IconWithText  
                 className={'CTA'} 
                 icon={Days} 
-                numbers='32'
+                numbers='31'
                 text={"science days"} 
                 opacity={1}
             />
             <IconWithText  
                 className={'CTA'} 
-                icon={Travel} 
-                numbers='4153'
-                numbers2='8'
-                separator='.'
-                text={"km traveled"} 
+                icon={Map} 
+                numbers='12892'
+                text={"sq km mapped"} 
                 opacity={1}
             />
         </div>
         <div className="columna">
-            <IconWithText  
+        <IconWithText  
                 className={'CTA'} 
-                icon={Casts} 
-                numbers='105'
-                text={"CTD casts"} 
+                icon={Data} 
+                numbers='31'
+                text={"terabytes of data collected"} 
                 opacity={1}
             />
             <IconWithText  
@@ -50,9 +48,9 @@ function SectionIcons() {
         <div className="columna">
             <IconWithText  
                 className={'CTA'} 
-                icon={Auv} 
-                numbers='21'
-                text={"AUV dives"} 
+                icon={Casts} 
+                numbers='105'
+                text={"CTD casts"} 
                 opacity={1}
             />
             <IconWithText  
