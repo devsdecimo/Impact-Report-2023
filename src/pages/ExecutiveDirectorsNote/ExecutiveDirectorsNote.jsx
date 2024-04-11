@@ -90,7 +90,7 @@ function ExecutiveDirectorsNote() {
             <a href="https://schmidtocean.photoshelter.com/search/result/I0000YMVtSU.oC8o?terms=&amp;">
               <u>Nasdaq Exchange screen</u>
             </a>{" "}
-            inNew York&rsquo;s Times Square,{" "}
+            in New York&rsquo;s Times Square,{" "}
             <a href="https://www.cbs.com/shows/video/YBqTWkkVaYdHYFCPIguiXXNrZeCXhldx/">
               <u>CBS Mornings</u>
             </a>

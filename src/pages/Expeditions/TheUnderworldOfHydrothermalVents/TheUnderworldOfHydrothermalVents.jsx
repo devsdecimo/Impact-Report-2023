@@ -84,8 +84,8 @@ function TheUnderworldOfHydrothermalVents() {
           </ul>
 
           <p>
-            Led by Dr. Monika Bright, an international team of scientists on R/V
-            <em>Falkor (too) </em>set out to discover, observe, and document the
+            Led by Dr. Monika Bright, an international team of scientists on R/V{" "}
+            <em>Falkor (too)</em>{" "}set out to discover, observe, and document the
             diversity of life living beneath deep-sea hydrothermal vents. They
             suspected that these ecosystems existed beneath the seafloor, and
             water being sucked into and pumped out of cracks in the surrounding

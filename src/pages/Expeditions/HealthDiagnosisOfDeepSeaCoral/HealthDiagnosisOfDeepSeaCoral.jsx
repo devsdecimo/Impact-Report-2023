@@ -146,10 +146,10 @@ function HealthDiagnosisOfDeepSeaCoral() {
           </p>
           <p>
             The science team explored several locations in the waters off Puerto
-            Rico with ROV <em>SuBastian,</em> including Whiting Bank, Desecheo
+            Rico with ROV{" "}<em>SuBastian,</em>{" "}including Whiting Bank, Desecheo
             Ridge, and Esperanza Ridge. They successfully measured high ROS
-            levels for an
-            <em>Aplysina</em> sponge and documented the first observation of
+            levels for an{" "}
+            <em>Aplysina</em>{" "}sponge and documented the first observation of
             extracellular ROS production by a black coral. This information
             could help scientists better understand how these deep-sea corals
             are reacting to human activity and changing oceanic conditions.
@@ -181,8 +181,8 @@ function HealthDiagnosisOfDeepSeaCoral() {
               region, expanding the knowledge of what exists there.
             </li>
             <li>
-              Detected a burst of ROS hydrogen peroxide in a wounded deep-sea
-              <em>Paramuricead</em>, a genus of Gorgonian-type octocorals, which
+              Detected a burst of ROS hydrogen peroxide in a wounded deep-sea{" "}
+              <em>Paramuricead</em>,{" "}a genus of Gorgonian-type octocorals, which
               could be a mechanism for repairing wounds; this also provided a
               diagnostic indicator of stress.
             </li>
@@ -193,8 +193,8 @@ function HealthDiagnosisOfDeepSeaCoral() {
             <li>
               Two new ROV-based instruments, SOLARIS and DISCO, were
               successfully used; these chemiluminescent detectors for measuring
-              reactive oxygen species
-              <em>in situ</em> help scientists bridge a data gap about deep-sea
+              reactive oxygen species{" "}
+              <em>in situ</em>{" "}help scientists bridge a data gap about deep-sea
               corals and their responses to stress.
             </li>
           </ul>

@@ -18,21 +18,21 @@ function SectionWithImage({image,alt}) {
                 <h2 className="title">
                     <span>FKt231024</span>
                     <span>|</span>
-                    <span>#MappingGalapagosVents</span>
+                    <span>#MappingGalápagosVents</span>
                 </h2>
                 <div className="icons-container">
                 <IconWithText  
                     className={'CTA'} 
                     icon={Pin} 
-                    text={"Ecuador"} 
+                    text={"Galápagos Islands National Park, Ecuador"} 
                     opacity={1}
                 />
-                <IconWithText  
+                {/* <IconWithText  
                     className={'CTA'} 
                     icon={Flag} 
                     text={"Galápagos Rift"} 
                     opacity={1}
-                />
+                /> */}
                 <IconWithText  
                     className={'CTA'} 
                     icon={Calendar} 

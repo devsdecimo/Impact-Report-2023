@@ -32,7 +32,7 @@ function SectionIcons() {
         <IconWithText
           className={"CTA"}
           icon={Data}
-          numbers="36"
+          numbers="35"
           text={"terabytes of data collected"}
           opacity={1}
         />

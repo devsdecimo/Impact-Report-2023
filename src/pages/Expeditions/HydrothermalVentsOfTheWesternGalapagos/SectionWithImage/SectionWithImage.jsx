@@ -18,21 +18,21 @@ function SectionWithImage({image, image2, alt, alt2}) {
                 <h2 className="title">
                     <span>FKt230812</span>
                     <span>|</span>
-                    <span>#GalapagosVents</span>
+                    <span>#GalápagosVents</span>
                 </h2>
                 <div className="icons-container">
                 <IconWithText  
                     className={'CTA'} 
                     icon={Pin} 
-                    text={"Ecuador"} 
+                    text={"Galápagos Islands National Park, Ecuador"}
                     opacity={1}
                 />
-                <IconWithText  
+                {/* <IconWithText  
                     className={'CTA'} 
                     icon={Flag} 
                     text={"Western Galápagos Spreading Center"} 
                     opacity={1}
-                />
+                /> */}
                 <IconWithText  
                     className={'CTA'} 
                     icon={Calendar} 
@@ -42,7 +42,7 @@ function SectionWithImage({image, image2, alt, alt2}) {
                 <IconWithText  
                     className={'CTA'} 
                     icon={Discovered} 
-                    text={<>Drs. Roxanne Beinart, University of Rhode Island <br/> and Jill McDermott, Lehigh University</>} 
+                    text={<>Drs. Roxanne Beinart, University of Rhode Island and <br/>Jill McDermott, Lehigh University</>} 
                     opacity={1}
                 />
                 </div>

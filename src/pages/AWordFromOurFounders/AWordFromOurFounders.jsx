@@ -67,7 +67,7 @@ function AWordFromOurFounders() {
               rel="noreferrer"
             >
               <u>elusive squid species</u>
-            </a>{" "}
+            </a>
             , rarely captured on film, floated by ROV <em>SuBastian </em>
             cameras, pink and feathery even at 2,000 meters beneath the surface.
             Mother octopuses, tentacles curled around their bodies, protected
@@ -101,8 +101,8 @@ function AWordFromOurFounders() {
             As our planet&rsquo;s final frontier continues to fill us with
             wonder, the lesson we&rsquo;ve taken from this first year will guide
             us for all the rest: the more we seek, the more we find. And, to
-            quote
-            <em>The Neverending Story</em>, having a luck dragon is the only way
+            quote{" "}
+            <em>The Neverending Story</em>,{" "}having a luck dragon is the only way
             to go on a quest!
           </p>
           <p>

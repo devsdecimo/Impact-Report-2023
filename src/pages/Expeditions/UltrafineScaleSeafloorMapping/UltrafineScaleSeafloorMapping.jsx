@@ -100,8 +100,8 @@ function UltrafineScaleSeafloorMapping() {
           <p>
             Additionally, the team observed 15 species previously not known to
             live in the region and two that are likely new to science. The list
-            includes a rare
-            <em>in situ</em> sighting and specimen collection of a
+            includes a rare{" "}
+            <em>in situ</em>{" "}sighting and specimen collection of a{" "}
             <em>Neopilina galatheae</em>, a limpet-like marine mollusk that has
             never been seen in this region. The scientists also discovered a
             Pacific white skate nursery associated with hydrothermal vents, the

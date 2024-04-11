@@ -15,7 +15,7 @@ function SectionWithImage({image, image2 ,alt}) {
             <BubbleImage type={4} image={image} alt={alt}/>
             <div className="text-conta5iner">
                 <h2 className="title">
-                    <span>FKt230628</span>
+                    <span>FKt230629</span>
                     <span>|</span>
                     <span>#VentUnderworld</span>
                 </h2>

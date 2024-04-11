@@ -24,19 +24,19 @@ function SectionWithImage({image,alt}) {
                 <IconWithText  
                     className={'CTA'} 
                     icon={Pin} 
-                    text={"Ecuador and Costa Rica"} 
+                    text={<>Galápagos Islands National Park, Ecuador <br/> and Isla del Coco, Costa Rica</>} 
                     opacity={1}
                 />
-                <IconWithText  
+                {/* <IconWithText  
                     className={'CTA'} 
                     icon={Flag} 
                     text={"Galápagos Island and la Isla del Coco"} 
                     opacity={1}
-                />
+                /> */}
                 <IconWithText  
                     className={'CTA'} 
                     icon={Calendar} 
-                    text={"Galápagos Island and la Isla del Coco"} 
+                    text={"18 September - 19 October 2023"} 
                     opacity={1}
                 />
                 <IconWithText  

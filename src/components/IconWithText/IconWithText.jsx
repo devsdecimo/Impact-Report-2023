@@ -68,11 +68,13 @@ function IconWithText({
   }, [numbers]);
 
   useEffect(() => {
-    if (numbers2) {
-      [...numbers2].forEach((digit) => {
-        if (digit == "0") {
-          setDecimalZero(decimalZero + "0");
+    if (numbers2 && typeof numbers2 == 'string') {
+      [...numbers2].every((digit) => {
+        if (digit != "0") {
+          return false;
         }
+          setDecimalZero(decimalZero + "0");
+          return true;
       });
     }
   }, []);

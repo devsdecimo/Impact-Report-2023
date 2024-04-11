@@ -21,15 +21,15 @@ function SectionWithImage({image, image2 ,alt}) {
                     <span>#MicroplasticDynamics</span>
                 </h2>
                 <div className="icons-container">
+                {/* <IconWithText  
+                    className={'CTA'} 
+                    icon={Flag} 
+                    text={"Gulf of Panama"} 
+                    opacity={1}
+                /> */}
                 <IconWithText  
                     className={'CTA'} 
                     icon={Pin} 
-                    text={"Gulf of Panama"} 
-                    opacity={1}
-                />
-                <IconWithText  
-                    className={'CTA'} 
-                    icon={Flag} 
                     text={"Panama"} 
                     opacity={1}
                 />

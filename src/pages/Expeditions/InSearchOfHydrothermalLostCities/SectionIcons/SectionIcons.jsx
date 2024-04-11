@@ -56,7 +56,7 @@ function SectionIcons() {
             <IconWithText  
                 className={'CTA'} 
                 icon={Auv} 
-                numbers='21'
+                numbers='22'
                 text={"AUV and other vehicle deployments"} 
                 opacity={1}
             />
