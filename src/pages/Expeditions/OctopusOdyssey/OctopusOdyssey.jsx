@@ -90,7 +90,7 @@ function OctopusOdyssey() {
             expedition was to determine if the eggs at the nursery were viable,
             as past expeditions to the outcrop had never seen evidence of
             developing embryos. The science team documented nurseries with
-            hundreds of <em>Muusoctopus, </em>a genus of deep-sea octopus,
+            hundreds of{" "}<em>Muusoctopus, </em>{" "}a genus of deep-sea octopus,
             brooding viable eggs in low-temperature hydrothermal fluids at the
             study site.
           </p>
@@ -105,7 +105,7 @@ function OctopusOdyssey() {
           <p>
             The team returned in December of 2023 to further study the nurseries
             and to collect time-series experiments placed at the site in June.
-            As a result, scientists confirmed that <em>Muusoctopus</em>{" "}
+            As a result, scientists confirmed that{" "}<em>Muusoctopus</em>{" "}
             nurseries offshore of Costa Rica support baby octopuses throughout
             the year, not just during the rainy season,{" "}
             <a href="https://www.youtube.com/watch?v=wHAHe2T2dl0&amp;list=PLJGVqQI3okzZsZYBgPx5DqEYTQZLR2CfH&amp;index=8">
@@ -117,7 +117,7 @@ function OctopusOdyssey() {
             the coming months. One of the discoveries may be a new species of{" "}
             <em>Muusoctopus</em>, the only type of octopus observed brooding its
             eggs on the low-temperature hydrothermal vents. This discovery
-            supports the previous hypothesis that only the
+            supports the previous hypothesis that only the{" "}
             <em>Muusoctopus </em>genus has evolved to brood their eggs in warm
             springs on the seafloor.
           </p>
@@ -153,7 +153,7 @@ function OctopusOdyssey() {
           <ul>
             <li>
               Confirmed the Dorado Outcrop hosts a year-round octopus nursery
-              with hundreds of <em>Muusoctopus</em> brooding viable eggs in
+              with hundreds of{" "}<em>Muusoctopus</em>{" "}brooding viable eggs in
               low-temperature hydrothermal fluids.
             </li>
             <li>

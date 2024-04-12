@@ -46,7 +46,7 @@ function NewSpeciesSpotlight() {
             namedBy="Dr. Paula Rodríguez-Flores and co-authors"
             vessel="Falkor"
             vesselAfterText="This species was described using samples also collected on board E/V Nautilus"
-            photo="Schmidt Ocean Institute"
+            photo="Dr. Greg Rouse"
             depth="381"
             depth2="845"
             depthSeparator="-"
@@ -98,7 +98,7 @@ function NewSpeciesSpotlight() {
             italicWords={["Axoniderma wanda", "The Host"]}
             namedBy="Drs. Merrick Ekins and John N. A. Hooper"
             vessel="Falkor"
-            photo="1. Merrick Ekins  or 2. Schmidt Ocean Institute"
+            photo="Merrick Ekins"
             depth="1980"
             year="2020"
             location="Great Barrier Reef, Australia"
