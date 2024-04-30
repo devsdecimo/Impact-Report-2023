@@ -41,7 +41,7 @@ function SectionIcons() {
                 className={'CTA'} 
                 icon={Casts} 
                 numbers='18'
-                text={"CTD casts"} 
+                text={"CTD casts & rosette casts"} 
                 opacity={1}
             />
             <IconWithText  

@@ -7,6 +7,7 @@ function Counter({
   toFixed = 0,
   delay = 0,
   condition,
+  separator=true
 }) {
   const wasRunRef = useRef(false);
   const [counter, setCounter] = useState(0);
@@ -68,7 +69,7 @@ function Counter({
       id={id}
       style={{ display: "inline-block" }}
     >
-      {counter.toFixed(toFixed).replace(/\B(?=(\d{3})+(?!\d))/g, ",")}
+      {separator? counter.toFixed(toFixed).replace(/\B(?=(\d{3})+(?!\d))/g, ","): counter.toFixed(toFixed)}
     </span>
   );
 }

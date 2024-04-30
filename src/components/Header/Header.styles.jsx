@@ -39,9 +39,9 @@ export const HeaderContainer = styled.div`
     gap: 2rem;
 
     img {
-      max-width: 65%;
+      max-width: 50%;
       @media (min-width: 768px) {
-        max-width: 45%;
+        max-width: 40%;
       }
     }
   }

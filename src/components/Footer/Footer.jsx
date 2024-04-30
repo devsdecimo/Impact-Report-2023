@@ -11,9 +11,6 @@ function Footer({children, background, alt}) {
           />
           <div className="footer_content">
             <h1>{children}</h1>
-            <p>The Return of the Luck Dragon </p>
-            <p>2023 Impact Report</p>
-            <p>Schmidt Ocean Institute</p>
           </div>
         </FooterContainer>
       );

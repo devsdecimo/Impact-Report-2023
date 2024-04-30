@@ -1,17 +1,24 @@
 import React from "react";
 import { ParagraphContainer } from "./Paragraph.styles";
 
-
-function Paragraph({title, subtitle, text, italicWords, namedBy, vessel, vesselAfterText, photo}) {
-
-
+function Paragraph({
+  title,
+  subtitle,
+  text,
+  italicWords,
+  namedBy,
+  expedition,
+  vessel,
+  vesselAfterText,
+  photo,
+}) {
   function resaltarPalabras(texto, palabras) {
     // Usamos una expresión regular para buscar todas las palabras en el texto
-    const regex = new RegExp(`\\b(${palabras.join('|')})\\b`, 'gi');
-    palabras = palabras.map(palabra => palabra.toLowerCase());
+    const regex = new RegExp(`\\b(${palabras.join("|")})\\b`, "gi");
+    palabras = palabras.map((palabra) => palabra.toLowerCase());
     // Dividimos el texto en partes usando la expresión regular
     const partes = texto.split(regex);
-  
+
     // Creamos un array para almacenar las partes y resaltamos las palabras coincidentes
     const elementosResaltados = partes.map((parte, index) => {
       if (palabras.includes(parte.toLowerCase())) {
@@ -19,25 +26,33 @@ function Paragraph({title, subtitle, text, italicWords, namedBy, vessel, vesselA
       }
       return parte;
     });
-  
+
     return elementosResaltados;
   }
 
-
   return (
     <ParagraphContainer>
-        <h2>{title}</h2>
-        <h3>{subtitle}</h3>
-        <p className="text">{italicWords && italicWords.length>0 ? resaltarPalabras(text, italicWords) : text}</p>
-        <p class="dato">{title=='Pyrolycus jaco'?'Species named by: '+namedBy:'Species named by: '+namedBy}</p>
-        <p class="dato">Vessel discovered on: R/V  
-          <em className="ml-10">{vessel}</em>
-          <br/>
-          <em>{vesselAfterText&&vesselAfterText}</em>
-        </p>
-        <p class="dato">Photo credit: {photo}</p>
+      <h2>{title}</h2>
+      <h3>{subtitle}</h3>
+      <p className="text">
+        {italicWords && italicWords.length > 0
+          ? resaltarPalabras(text, italicWords)
+          : text}
+      </p>
+      <p class="dato">
+        {title == "Pyrolycus jaco" ? (
+          <>Species named by: {namedBy}</>
+        ) : (
+          <>Species named by: {namedBy}</>
+        )}
+      </p>
+      <p class="dato">
+        Expedition: {expedition} on R/V <em className="ml-10">{vessel}</em>
+        <br />
+        <em>{vesselAfterText && vesselAfterText}</em>
+      </p>
+      <p class="dato">Photo credit: {photo}</p>
     </ParagraphContainer>
-    
   );
 }
 

@@ -73,7 +73,7 @@ function HealthDiagnosisOfDeepSeaCoral() {
             </li>
             <li>
               Test two newly designed instruments for measuring reactive oxygen
-              species, or ROS, <em>in situ</em> &mdash; a device called DISCO,
+              species, or ROS <em>in situ</em> &mdash; a device called DISCO,
               which stands for Diver-operated Submersible Chemiluminescent
               Sensor, for shallow depths and lab measurements, and an instrument
               mounted on ROV <em>SuBastian</em> for deeper depths called
@@ -92,7 +92,7 @@ function HealthDiagnosisOfDeepSeaCoral() {
             habitats where invertebrate and fish communities can thrive. Corals
             produce extracellular{" "}
             <a href="https://www.youtube.com/watch?v=svYFr892fGQ&amp;list=PLJGVqQI3okzZsZYBgPx5DqEYTQZLR2CfH&amp;index=29">
-              <u>reactive oxygen species, or ROS,</u>
+              <u>reactive oxygen species called ROS,</u>
             </a>{" "}
             which are short-lived oxygen-containing molecules. These molecules
             play an essential role in all living creatures' health and
@@ -152,7 +152,7 @@ function HealthDiagnosisOfDeepSeaCoral() {
             <em>Aplysina</em>{" "}sponge and documented the first observation of
             extracellular ROS production by a black coral. This information
             could help scientists better understand how these deep-sea corals
-            are reacting to human activity and changing oceanic conditions.
+            are reacting to human activity and changing ocean conditions.
           </p>
           <p>
             The researchers found that this area of Puerto Rico &mdash; with

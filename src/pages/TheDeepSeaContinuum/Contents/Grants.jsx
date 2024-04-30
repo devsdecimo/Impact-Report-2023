@@ -6,32 +6,26 @@ function Grants({ children }) {
     <>
       <div className="content-group">
         <BubbleImage
-          image="/assets/images/the_deep_sea_continuum/grants/g.webp"
+          image="/assets/images/the_deep_sea_continuum/grants/Local Technology Support.webp"
           className="continuum-image"
           orientation="right"
+          direction="up"
         ></BubbleImage>
-        <h3>University of Rhode Island and Lehigh University</h3>
+        <h3>Local Technology Support</h3>
         <p>
-          Following the{" "}
-          <a href="https://schmidtocean.org/cruise/hydrothermal-vents-of-the-galapagos/" target="_blank">
-            Hydrothermal Vents of the Western Galapagos
+          Grants of up to $5,000 are offered for regional organizations where{" "}
+          <em>Falkor (too)</em> is operating to support participation in{" "}
+          <a href="https://www.youtube.com/@SchmidtOcean/videos?view=2&amp;sort=dd&amp;live_view=503&amp;shelf_id=0">
+            <u>SOI Divestreams</u>
           </a>{" "}
-          expedition, researchers at University of Rhode Island, or URI, and
-          Lehigh University were provided grants to implement a variety of
-          analytical techniques to samples collected at the Western Galapagos
-          Spreading Center. URI will employ a unique population genomics
-          approach to analyze host animals and bacterial symbionts, allowing
-          scientists to better understand population connectivity, diversity,
-          and adaptation of these organisms. Lehigh will use a combination of
-          chemical techniques to investigate the hydrothermal vent fluid
-          dynamics at the spreading center.
-        </p>
-        <p>
-          Combined, this analysis will yield a comprehensive look at how hotspot
-          volcanism impacts fluid chemistry and the associated communities in
-          this unique region. These data analytics grants were the first of
-          their kind for SOI, and we hope to offer support for data analysis in
-          the future.
+          and live{" "}
+          <a href="https://schmidtocean.org/ship-to-shore-program/">
+            <u> Ship-to-Shore Connections</u>
+          </a>
+          . The first of these grants was given to the Charles Darwin Foundation
+          in Ecuador to purchase equipment, including a new laptop, speakers,
+          and a screen, to increase outreach to community groups and create new
+          opportunities to connect with scientists.
         </p>
       </div>
       <div className="content-group">
@@ -43,33 +37,39 @@ function Grants({ children }) {
         ></BubbleImage>
         <h3>MATE ROV</h3>
         <p>
-          SOI was pleased to continue support to the MATE ROV program in 2023.
-          The Schmidt Ocean Coalition provided a one-year grant of $75,000 for
-          first-time MATE team scholarships to lessen the financial barriers to
-          participation in the competition. This funding helped students from
-          underserved and underrepresented communities to participate, leading
-          to broader diversity and inclusion in the MATE ROV competition and,
-          inevitably, to the ocean STEM pipeline.
+          In 2023, the{" "}
+          <a href="https://materovcompetition.org/">
+            <u>MATE ROV Competition</u>
+          </a>{" "}
+          was integrated into the
+          <a href="https://www.mtsociety.org/index.php?option=com_dailyplanetblog&amp;view=entry&amp;year=2023&amp;month=07&amp;day=10&amp;id=288:mts-and-mate-ii-officially-come-together-to-inspire-the-next-generation-of-ocean-leaders">
+            <u>Marine Technology Society</u>
+          </a>
+          , and Schmidt Ocean Institute continued to support this long-running
+          program. The underwater robotics competition for students from
+          elementary to university is designed to engage students with STEM
+          careers, build confidence, and develop professional skills.
         </p>
 
         <p>
-          MATE ROV is an underwater robotics competition for students from
-          elementary level to university. The competition is designed to engage
-          students with STEM careers, build confidence, and develop professional
-          skills. This grant provided funds to rebuild the program post-pandemic
-          and expand its global reach. Their 2023 season highlighted the United
-          Nations Decade of Ocean Science for Sustainable Development,
-          challenging participants to design and build an ROV including the
-          necessary sensors and tooling to support tasks that could aid in
-          combating climate change, provide clean energy, feed our growing
-          global population, monitor ocean health, and preserve maritime
-          history.
+          Schmidt Ocean Institute provided funding to rebuild the program
+          post-pandemic and expand the competition&rsquo;s global reach. Their
+          2023 competition challenge focused on the United Nations Decade of
+          Ocean Science for Sustainable Development. Participants were
+          instructed to design and build a remotely operated vehicle, or ROV,
+          including the necessary sensors and tooling to support tasks that
+          could aid in combating climate change, providing clean energy, feeding
+          our growing global population, monitoring ocean health, and preserving
+          maritime history. The 21st competition, which took place in late June
+          in Longmont, CO, USA, included 59 teams representing more than 1,000
+          students from 11 countries and 18 U.S. states.
         </p>
         <p>
-          655 student participants completed a post competition survey; 86%
-          showed an increased awareness and interest in pursuing STEM careers
-          after building their ROV. The instructors also observed a 91% increase
-          in their students&rsquo; interest in pursuing a STEM career.
+          Six hundred fifty-five students from 2023 completed a post-competition
+          survey; 86% showed an increased awareness and interest in pursuing
+          STEM careers after building their ROV. The instructors also observed a
+          91% increase in their students&rsquo; interest in pursuing a STEM
+          career.
         </p>
       </div>
       <div className="content-group">
@@ -78,192 +78,151 @@ function Grants({ children }) {
           className="continuum-image"
           orientation="right"
         ></BubbleImage>
-        <h3>MTS Oceans Student Poster Competition</h3>
+        <h3>
+          MTS/IEEE - Ocean Engineering Society Global Oceans Student Poster
+          Competition
+        </h3>
         <p>
-          For the third consecutive year, SOI supported awards for the MTS/IEEE
-          Oceans Student Poster Competition, open globally to engineering and
-          science graduate and undergraduate students. This year, the
-          conference, themed
-          <em>Blue Ocean Planet Earth, </em>was held in Limerick, Ireland. The
-          competition fosters and promotes student involvement in the conference
-          and provides exposure to the international ocean science and
-          engineering community. The 2023 awards went to:
+          For the third consecutive year, Schmidt Ocean Institute supported
+          awards for the{" "}
+          <a href="https://ieeeoes.org/oes-beacon/september-2023-oes-beacon/the-student-poster-competition-at-oceans-2023-limerick/">
+            <u>
+              MTS/IEEE Ocean Engineering Society Global Oceans Student Poster
+              Competition,
+            </u>
+          </a>{" "}
+          open to engineering and science graduate and undergraduate students
+          from around the world. This year, the MTS/OES OCEANS conference,
+          themed <em>Blue Ocean Planet Earth, </em>was held in Limerick,
+          Ireland. The competition fosters and promotes student involvement in
+          the conference and allows them to interact with the international
+          ocean science and engineering community. The 2023 awards went to:
         </p>
         <ul>
           <li>
-            First place: Amelia Ritger, University of California Santa Barbara,
-            <em>
-              Developing Low-cost, Simplified, and Open-source Durafet-based pH
-              Instrument Electronics
-            </em>
+            <p>
+              First place: Amelia Ritger, University of California Santa
+              Barbara,{" "}
+              <em>
+                Developing Low-cost, Simplified, and Open-source Durafet-based
+                pH Instrument Electronics
+              </em>
+            </p>
           </li>
           <li>
-            Second place: Jard McFadden, Florida Atlantic University,
-            <em>
-              Design and Failure Analysis of Multi-Component Mooring Lines with
-              Non-Linear Polymer Springs for Floating Offshore Wind Turbines
-            </em>
+            <p>
+              Second place: Jared McFadden, Florida Atlantic University,{" "}
+              <em>
+                Design and Failure Analysis of Multi-Component Mooring Lines
+                with Non-Linear Polymer Springs for Floating Offshore Wind
+                Turbines
+              </em>
+            </p>
           </li>
           <li>
-            Third place: Patrick McGuire, Woods Hole Oceanographic Institution,
-            <em>TideRider: A Low-Cost Coastal Profiling Float</em>
+            <p>
+              Third place: Patrick McGuire, Woods Hole Oceanographic
+              Institution,{" "}
+              <em>TideRider: A Low-Cost Coastal Profiling Float</em>
+            </p>
           </li>
         </ul>
       </div>
-      <div className="content-group">
-        <BubbleImage
-          image="/assets/images/the_deep_sea_continuum/grants/Nautilus Magazine.webp"
-          className="continuum-image"
-          orientation="left"
-          direction="up"
-        ></BubbleImage>
-        <h3>Nautilus Magazine</h3>
-        <p>
-          SOI continued a robust and productive collaboration with{" "}
-          <a href="https://nautil.us/" target="_blank">Nautilus Magazine</a> by exhibiting our
-          Artist-at-Sea collection at Art Basel Miami Beach. More than{" "}
-          <a href="https://schmidtocean.org/collection/artist-at-sea/" target="_blank">
-            40 pieces from our Artist-at-Sea collection
-          </a>{" "}
-          were displayed alongside several ocean-focused events at the Miami
-          Convention Center and the Phillip and Patricia Frost Museum of
-          Science. A series of public events includeD a panel discussion with{" "}
-          <a href="https://schmidtocean.org/apply/artist-residency-program/" target="_blank">
-            Artist-at-Sea
-          </a>{" "}
-          participants Rebecca Rutstein, Carol Mickett and Robert Stackhouse,
-          Lizzy Taber, Michel Droge, and guests Runa Ray and Jane McCarthy
-          (Taiji Terasaki Studios). A film night featured SSOIs award-winning
-          films &ldquo;{" "}
-          <a href="https://www.youtube.com/watch?v=OB8IjCJQMoE" target="_blank">
-            Climate Under Pressure
-          </a>{" "}
-          &rdquo; and &ldquo;{" "}
-          <a href="https://www.youtube.com/watch?v=thYkeWuyVwE" target="_blank">
-            The Art of Exploration
-          </a>
-          ,&rdquo; a live connection to research vessel <em>Falkor (too) </em>
-          added to the Ocean-focused evening. Visitors also received hard copies
-          of Nautilus Magazine&rsquo;s special ocean issue.
-        </p>
-        <p>
-          Nautilus Magazine produces six issues per year, and they have
-          published two special{" "}
-          <a href="https://nautil.us/ocean/?_sp=8d5a6f42-ddf9-4cf0-8162-6f0e20f347b8.1704757030230" target="_blank">
-            Ocean issues in 2023
-          </a>{" "}
-          that included 37 articles on pressing topics like seafloor mapping,
-          the Ocean Census project, and plastic pollution &mdash; three featured
-          SOI expeditions. The articles received more than 521,000 pageviews
-          online and 18,000 print copies were distributed. Nautilus&rsquo;s
-          Ocean vertical has published 135 articles since its launch in 2020 and
-          has received more than two million page views.
-        </p>
-      </div>
+
       <div className="content-group">
         <BubbleImage
           image="/assets/images/the_deep_sea_continuum/grants/National Ocean Sciences Bowl.webp"
           className="continuum-image"
-          orientation="right"
+          orientation="left"
         ></BubbleImage>
         <h3>National Ocean Sciences Bowl</h3>
         <p>
-          The National Ocean Sciences Bowl, or NOSB, took a year hiatus from
-          competition in 2023 to establish its new office within the University
-          Corporation for Atmospheric Research&rsquo;s Center for Ocean
-          Leadership. A SOI grant was instrumental in ushering the program
-          through this time of change, allowing NOSB to retain its staff and
-          begin to plan for the future of the program. With SOI&rsquo;s support,
-          regional competitions will return nationwide in 2024 to allow students
-          to strengthen their experiences with and understanding of marine
-          environments, and showcase their knowledge of the Ocean.
+          The{" "}
+          <a href="https://nosb.org/">
+            <u>National Ocean Sciences Bowl</u>
+          </a>{" "}
+          took a year-long hiatus from competition in 2023 to establish a new
+          office within the University Corporation for Atmospheric
+          Research&rsquo;s Center for Ocean Leadership. A Schmidt Ocean
+          Institute grant was instrumental in ushering the program through this
+          time of change, allowing the organization to retain staff and begin to
+          plan for the program's future. With this support, regional
+          competitions will return in 2024, allowing students to strengthen
+          their understanding of marine environments and showcase their
+          knowledge of the Ocean.
         </p>
       </div>
+
       <div className="content-group">
         <BubbleImage
-          image="/assets/images/the_deep_sea_continuum/grants/Ocean Coalition.webp"
+          image="/assets/images/the_deep_sea_continuum/grants/Nautilus Magazine.webp"
           className="continuum-image"
-          orientation="left"
+          orientation="right"
           direction="up"
         ></BubbleImage>
-        <h3>Ocean Coalition</h3>
+        <h3>Nautilus Magazine</h3>
         <p>
-          Since 2020, a coalition of Schmidt entities, including SOI, 11th Hour
-          Racing, the Schmidt Family Foundation, and Schmidt Marine Technology
-          Partners, have been collaborating to provide joint support for
-          organizations that work to improve inclusion in marine science through
-          education and early career opportunities and training.
-        </p>
-        <p>
-          In 2023, the coalition added seven new grants to its existing
-          portfolio of eleven, bringing its total program to approximately $1.2
-          million. Grants are primarily awarded to projects led by BIPOC
-          individuals and serve BIPOC and/or other historically underrepresented
-          communities worldwide. These grants supported programs focused on
-          education, networking, career training, and professional development
-          opportunities that expand access to Ocean sciences and related fields.
-          The 2023 grantees included Ocean Discovery League, Washington Maritime
-          Blue, Black Women in Ecology, Evolution, and Marine Science,
-          MoonJelly, and more.
+          Nautilus Magazine produces six issues annually and published two{" "}
+          <a href="https://nautil.us/ocean/?_sp=8d5a6f42-ddf9-4cf0-8162-6f0e20f347b8.1704757030230">
+            <u>Ocean Magazines</u>
+          </a>{" "}
+          in 2023. Their special ocean issues included 37 articles on topics
+          such as seafloor mapping, the{" "}
+          <a href="https://nautil.us/race-against-time-to-discover-ocean-life-prompts-launch-of-global-initiative-308560/">
+            <u>Ocean Census project</u>
+          </a>
+          , and plastic pollution. Coverage included Schmidt Ocean
+          Institute&rsquo;s{" "}
+          <a href="https://nautil.us/schmidt-ocean-institute-launches-new-research-vessel-that-will-change-the-face-of-ocean-exploration-308580/?_sp=8d5a6f42-ddf9-4cf0-8162-6f0e20f347b8.1713979093843">
+            <u>
+              <em>Falkor (too)</em> launch
+            </u>
+          </a>
+          ,{" "}
+          <a href="https://nautil.us/the-worlds-first-known-deep-sea-octopus-nursery-401656/">
+            <u>Octopus Odyssey expedition</u>
+          </a>
+          ,{" "}
+          <a href="https://nautil.us/what-an-artist-sees-in-the-deep-sea-362165/">
+            <u>Artist-at-Sea program</u>
+          </a>
+          ,{" "}
+          <a href="https://nautil.us/scientists-discover-three-new-hydrothermal-vent-fields-on-mid-atlantic-ridge-308573/?_sp=8d5a6f42-ddf9-4cf0-8162-6f0e20f347b8.1713979664176">
+            <u>hydrothermal vent discoveries</u>
+          </a>
+          , and more. Nautilus Ocean Magazine distributed 18,000 print copies,
+          and online articles received over 521,000 page views. The
+          ocean-focused vertical has published 135 articles since its launch in
+          2020 and has received more than two million page views online.
         </p>
       </div>
       <div className="content-group">
         <BubbleImage
           image="/assets/images/the_deep_sea_continuum/grants/Ocean Keeling Curve.webp"
           className="continuum-image"
-          orientation="right"
+          orientation="left"
         ></BubbleImage>
         <h3>Ocean Keeling Curve</h3>
         <p>
-          SOI continued support for one of the longest-running daily records of
-          global atmospheric carbon dioxide concentration, the{" "}
-          <a href="https://keelingcurve.ucsd.edu/" target="_blank">
-            Ocean Keeling Curve project.
+          Schmidt Ocean Institute continued to support the data collection of
+          the longest-running global ocean carbon dioxide concentration time
+          series, the{" "}
+          <a href="https://keelingcurve.ucsd.edu/">
+            <u>Ocean Keeling Curve.</u>
           </a>{" "}
-          These measurements are critical for assessing changes in the
-          Ocean&rsquo;s global carbon cycle and are taken at three ocean
-          time-series stations near Bermuda and Hawaii. Bottles of seawater from
-          those stations are delivered to the Scripps Institution of
-          Oceanography for study. Aside from a brief pause during the pandemic,
-          sampling and analysis have been ongoing. A key step in the analytical
+          Aside from a brief pause during the pandemic, sampling and analyses
+          have been ongoing. These measurements are critical for assessing
+          changes in the Ocean&rsquo;s global carbon levels and are taken at
+          ocean time-series stations near Bermuda and Hawaii. Bottles of
+          seawater from those stations are delivered to the Scripps Institution
+          of Oceanography for analysis. An essential step in the analytical
           process went through extensive refurbishment with software and system
-          upgrades this year; the Electronic Constant Volume Manometer is used
-          to measure the amount of extracted CO<sub>2</sub> gas and it is now
-          ready to support future analyses.
+          upgrades this year with the Electronic Constant Volume Manometer, used
+          to measure the amount of extracted CO<sub>2</sub> gas, supporting
+          future analyses.
         </p>
       </div>
-      <div className="content-group">
-        <BubbleImage
-          image="/assets/images/the_deep_sea_continuum/grants/Peerside.webp"
-          className="continuum-image"
-          orientation="left"
-          direction="up"
-        ></BubbleImage>
-        <h3>Peerside</h3>
-        <p>
-          SOI supports the{" "}
-          <a href="https://www.fio.usf.edu/peerside/" target="_blank">
-            Florida Institute of Oceanography&rsquo;s (FIO) Peerside program
-          </a>{" "}
-          for career networking and mentorship in ocean STEAM disciplines.
-          Peerside celebrated its inaugural year with at-sea programming. 16
-          students worked aboard Research Vessel <em>Western Flyer</em>,
-          supported by five mentors who guided their experience and research.
-          The students participated in sediment coring and geophysical mapping
-          with a towed side scan sonar and a sub-bottom profiler. The hands-on
-          experience provided a greater understanding of the history of
-          paleo-hurricane impacts in the Florida region.
-        </p>
-        <p>
-          FIO hosted a welcome and homeporting celebration for the vessel,
-          attended by university officials and dignitaries from around the
-          country, including SOI Executive Director Dr. Jyotika Virmani. SOI
-          believes early career experiences at sea are important for inspiring
-          and encouraging the next generation of scientists, maritime
-          professionals, and educators and celebrates this partnership for
-          working to build a robust ocean science workforce.
-        </p>
-      </div>
+
       <div className="content-group">
         <BubbleImage
           image="/assets/images/the_deep_sea_continuum/grants/University of Puerto Rico.webp"
@@ -272,44 +231,55 @@ function Grants({ children }) {
         ></BubbleImage>
         <h3>University of Puerto Rico</h3>
         <p>
-          During R/V <em>Falkor</em>{" "}
-          <em>(too)</em>&rsquo;s{" "}
-          <a href="https://schmidtocean.org/cruise/health-diagnostics-of-deep-sea-coral/" target="_blank">
-            Health Diagnostics Deep-Sea Coral expedition
-          </a>
-          , SOI provided four University of Puerto Rico students, Leira Centeno
+          During the{" "}
+          <u>
+            <a href="https://schmidtocean.org/cruise/health-diagnostics-of-deep-sea-coral/">
+              Health Diagnostics of Deep-Sea Coral Expedition
+            </a>
+          </u>
+          , four University of Puerto Rico students, Leira Centeno
           Mej&iacute;as, Catherine Hern&aacute;ndez Rodriguez, Juanita
-          Carbelliera Martinez, and Jose Martinez Ortiz, with the opportunity to
-          join the research as at-sea participants. Grant funding allowed the
-          students to take time off from work to participate in career-building
-          at sea without worrying about critical loss of income. The students
-          collected seawater samples to analyze nutrients and carbon chemistry
-          to complement the expedition research with additional seawater data.
-          They also participated in outreach by drafting blog posts and engaging
-          in social media activities.
+          Carbelliera Martinez, and Jose Martinez Ortiz, were provided the
+          opportunity to participate in the research. Grant funding allowed the
+          students to take time off work and focus on their work at sea. The
+          students collected seawater samples to analyze nutrients and carbon
+          chemistry to complement the expedition research with additional
+          seawater data; they also participated in{" "}
+          <a href="https://schmidtocean.org/ship-to-shore-program/">
+            <u>Ship-to-Shore Connections</u>
+          </a>{" "}
+          with classrooms in Puerto Rico.
         </p>
       </div>
+
       <div className="content-group">
         <BubbleImage
-          image="/assets/images/the_deep_sea_continuum/grants/Local Technology Support.webp"
+          image="/assets/images/the_deep_sea_continuum/grants/g.webp"
           className="continuum-image"
           orientation="left"
-          direction="up"
         ></BubbleImage>
-        <h3>Local Technology Support</h3>
+        <h3>University of Rhode Island and Lehigh University</h3>
         <p>
-          This year, SOI granted $5,000 to two organizations in the region where{" "}
-          <em>Falkor (too) </em>teams were working in order to support learning
-          about the Ocean. The Jos&eacute; Fabio Garnier Ugalde School in Costa
-          Rica used the funds to purchase an interactive screen and IT
-          equipment, enriching the students&rsquo; learning experience by
-          watching expedition videos and following the SOI dive streams.
-          Additionally, the Charles Darwin Foundation in Ecuador used the funds
-          to purchase IT equipment, including a new laptop, speakers, and a
-          screen, to increase outreach to community groups and create new
-          opportunities to connect with scientists.
+          Schmidt Ocean Institute provided grants to researchers at the
+          University of Rhode Island and Lehigh University to apply various
+          analytical techniques to samples collected at the Western
+          Gal&aacute;pagos Spreading Center following the{" "}
+          <a href="https://schmidtocean.org/cruise/hydrothermal-vents-of-the-galapagos/">
+            <u>Hydrothermal Vents of the Western Gal&aacute;pagos</u>
+          </a>{" "}
+          expedition. University of Rhode Island researchers will employ a
+          population genomics approach to analyze host animals and bacterial
+          symbionts, allowing scientists to better understand population
+          connectivity, diversity, and adaptation of these organisms. Lehigh
+          researchers will apply techniques that investigate hydrothermal vent
+          fluid dynamics from a variety of geochemical angles, such as inorganic
+          chemistry, gas chemistry, and stable and radioisotopes. Combining the
+          chemistry data with biological, geological, and bathymetric data will
+          yield a comprehensive look at how hotspot volcanism impacts fluid
+          chemistry and the associated communities in this region.
         </p>
       </div>
+
       <div className="content-group">
         <BubbleImage
           image="/assets/images/the_deep_sea_continuum/grants/World Ocean Observatory.webp"
@@ -319,23 +289,131 @@ function Grants({ children }) {
         <h3>World Ocean Observatory</h3>
         <p>
           The{" "}
-          <a href="http://worldoceanexplorer.org/deep-sea-aquarium.html" target="_blank">
-            World Ocean Explorer Observatory
+          <a href="https://www.worldoceanobservatory.org/">
+            <u>World Ocean Observatory</u>
           </a>{" "}
-          continued to develop and expand throughout 2023, resulting in a robust
-          and award-winning virtual aquarium platform. Updates to the aquarium
-          included new curriculum-aligned activities focused on hydrothermal
-          vents, whale falls, and 3D immersive experiences. The team continued
-          to build ocean literacy and interest with new content, live links, and
-          platform optimization for an improved user experience. The
-          education-based aquarium, loaded with SOI imagery and video, grew to
-          include 20,000 new subscribers and won a Gold Award in Digital
-          Simulations from the{" "}
-          <a href="https://www.seriousplayconf.com/international-serious-play-award-programs/" target="_blank">
-            International Serious Play Awards 2023
-          </a>
-          .
+          continued to develop and expand its{" "}
+          <a href="http://worldoceanexplorer.org/deep-sea-aquarium.html">
+            <u>World Ocean Explorer</u>
+          </a>{" "}
+          throughout 2023, resulting in an award-winning virtual aquarium
+          platform. Updates to the aquarium included new curriculum-aligned
+          activities focused on hydrothermal vents, whale falls, and 3D
+          immersive experiences. The team continued to build ocean literacy and
+          interest with new content, live links, and platform optimization for
+          an improved user experience. The education-based aquarium, containing
+          Schmidt Ocean Institute imagery and video, grew to include 20,000 new
+          subscribers and won a Gold Award in Digital Simulations from the
+          International Serious Play Awards 2023.
         </p>
+      </div>
+
+      <div className="content-group">
+        <BubbleImage
+          image="/assets/images/the_deep_sea_continuum/grants/Ocean Coalition.webp"
+          className="continuum-image"
+          orientation="left"
+          direction="up"
+        ></BubbleImage>
+        <h3>Ocean Coalition</h3>
+        <p>
+          Since 2020, a coalition of Schmidt entities, including Schmidt Ocean
+          Institute, Schmidt Family Foundation, and two of its grant-giving
+          programs &mdash; 11th Hour Racing and Schmidt Marine Technology
+          Partners &mdash; have been collaborating to provide joint support for
+          organizations working to improve inclusion in marine science through
+          education and early career opportunities and training.
+        </p>
+        <p>
+          In 2023, the Schmidt Ocean Coalition added seven new grants to its
+          existing portfolio of 11, bringing its total program to approximately
+          $1.2 million. Grants are primarily awarded to projects led by and
+          serving people from underrepresented or marginalized communities
+          worldwide. These grants supported programs focused on education,
+          networking, career training, and professional development
+          opportunities that expand access to ocean sciences and related fields.
+        </p>
+        <p>
+          The 2023 grantees were Black Women in Ecology, Evolution, and Marine
+          Science, The Blueprint Foundation, Deep Ocean Early Career
+          Researchers, Fishadelphia, MATE ROV Competition, Minorities in Shark
+          Sciences, MoonJelly, Mystic Aquarium Sea Research Foundation, Ocean
+          Discovery League, Peerside, SciComm Inclusivity Conference, Teaching
+          With Small Boats Alliance, University of Hawaii for Indigenous Grants,
+          University of the Virgin Islands, Washington Maritime Blue. Here are
+          three examples of Schmidt Ocean Coalition Grants in greater detail.
+        </p>
+
+        <div className="content-group">
+          <h4>MATE ROV</h4>
+          <p>
+            In 2023, the Schmidt Ocean Coalition provided a grant for
+            scholarships to first-time{" "}
+            <a href="https://materovcompetition.org/">
+              <u>MATE ROV Competition</u>
+            </a>{" "}
+            teams to lessen the financial barriers to participation in the
+            competition. This funding helped students from underserved and
+            underrepresented communities join the competition, leading to
+            broader inclusion and diversity in the competition and, inevitably,
+            the ocean STEM pipeline.
+          </p>
+        </div>
+
+        <div className="content-group">
+          <BubbleImage
+            image="/assets/images/the_deep_sea_continuum/grants/Peerside.webp"
+            className="continuum-image"
+            orientation="right"
+            direction="up"
+          ></BubbleImage>
+          <h4>Peerside</h4>
+          <p>
+            The Schmidt Ocean Coalition supported the Florida Institute of
+            Oceanography{" "}
+            <a href="https://www.fio.usf.edu/peerside/">
+              <u>Peerside</u>
+            </a>{" "}
+            program to provide inclusive educational and career training
+            opportunities to increase diversity for sea-going vocations and
+            marine students. Peerside celebrated its inaugural year at sea with
+            programming for 16 students who sailed aboard the research vessel{" "}
+            <em>Western Flyer</em>. Five mentors supported the students, guiding
+            their experience and research. The students participated in sediment
+            coring and geophysical mapping with a towed side-scan sonar and a
+            sub-bottom profiler. The hands-on experience allowed them to study
+            the history of paleo-hurricane impacts in the Florida region.
+          </p>
+          <p>
+            Florida Institute of Oceanography hosted a welcome and homeporting
+            celebration for the vessel, which the Monterey Bay Aquarium Research
+            Institute donated; university officials and dignitaries from around
+            the country, including Schmidt Ocean Institute Executive Director
+            Dr. Jyotika Virmani, attended the event. Early career experiences at
+            sea inspire and encourage the next generation of scientists,
+            maritime professionals, and educators, and this program is working
+            to build a robust ocean science workforce.
+          </p>
+        </div>
+
+        <div className="content-group">
+          <h4>Inclusive SciComm Symposium</h4>
+          <p>
+            Schmidt Ocean Coalition supported the{" "}
+            <a href="https://inclusivescicomm.org/">
+              <u>
+                <strong>Inclusive SciComm Symposium</strong>
+              </u>
+            </a>{" "}
+            in October of 2023. The{" "}
+            <a href="https://inclusivescicomm.org/symposia/">
+              biennial symposium,{" "}
+            </a>{" "}
+            organized by the Metcalf Institute at the University of Rhode
+            Island, brings together people working to shift science and science
+            communication toward a just, equitable, and inclusive future.
+          </p>
+        </div>
       </div>
     </>
   );

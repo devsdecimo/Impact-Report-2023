@@ -143,8 +143,9 @@ function InSearchOfHydrothermalLostCities() {
           <p>
             The expedition team&rsquo;s nested approach included Autonomous
             Underwater Vehicles, or AUVs, to produce high-resolution maps of the
-            seafloor; Miniature Autonomous Plume Recorders mounted alongside a
-            CTD to sense chemical signals in the water column; and ROV
+            seafloor; Miniature Autonomous Plume Recorders mounted onto the
+            ship’s CTD and rosette to sense chemical signals in the water
+            column; and ROV{" "}
             <em> SuBastian</em> to conduct visual surveys and sampling of the
             seafloor. The effectiveness of using a nested approach is evident as
             it allowed researchers to discover and characterize vent activity in

@@ -21,42 +21,43 @@ function DivestreamsAndConnections() {
       />
       <h3>Divestreams and Connections</h3>
       <p>
-        During <em>Falkor (too)&rsquo;s </em>inaugural year<em>, </em>SOI made
-        significant improvements to two popular ship-based outreach initiatives:
-        the ROV Divestream and the Ship-to-Shore program. We added a new crew
-        position &mdash; a multimedia technician &mdash; and rebranded the ROV
-        Livestream as{" "}
-        <a href="https://www.youtube.com/@SchmidtOcean/streams" target="_blank">
-          the SOI Divestream
+        During <em>Falkor (too)&rsquo;s</em> inaugural year, two ship-based
+        outreach initiatives were improved: the ROV Divestream and our
+        Ship-to-Shore Connection program.
+      </p>
+      <p>
+        We renamed the ROV Livestream the{" "}
+        <a href="https://www.youtube.com/@SchmidtOcean/streams">
+          <u>SOI Divestream</u>
         </a>
-        . Working alongside Data Architect Corinne Bassin, the multimedia
-        technician, or MT, reconfigured data overlays into a sleek and
-        accessible design. The ship&rsquo;s mission control room was outfitted
-        with new equipment throughout the year to enhance the Divestream
-        experience for the viewing audience so they can virtually join the
-        science team as they explore deep ocean environments.
+        . Working alongside Head of Data Solutions Corinne Bassin, the
+        multimedia technician, or MMT, reconfigured data overlays into a sleek
+        and accessible design, enhancing the Divestream experience for the
+        viewing audience as they virtually join the science team to explore
+        deep-ocean environments.
       </p>
       <p>
         Scientists are encouraged to narrate the Divestream in the language they
-        feel most comfortable speaking, resulting in numerous hours of Spanish
-        narration and interaction with Spanish-speaking viewers. Some scientists
-        moderated the dive in German and Dutch as well. Throughout the year,
-        more than 300,000 people viewed the Divestream, experiencing science,
-        engineering, and discovery in real time.
+        feel most comfortable speaking; this resulted in numerous hours of
+        Spanish narration and interaction with Spanish-speaking viewers. Some
+        scientists moderated the dives in Dutch, German, and Japanese.
+        Throughout the year, more than 300,000 people experienced science,
+        engineering, and discovery in real time via the Divestream.
       </p>
       <p>
-        Additionally, SOI adapted the Ship-to-Shore program from<em> Falkor</em>{" "}
-        to <em>Falkor (too) </em>with a more efficient{" "}
-        <a href="https://schmidtocean.org/ship-to-shore-program/" target="_blank">
-          sign-up process
+        The Ship-to-Shore Connection program was adapted from <em>Falkor</em> to{" "}
+        <em>Falkor (too)</em> with a more efficient{" "}
+        <a href="https://schmidtocean.org/how-to-apply-for-berths-opportunity-artists-setting-the-course-2023/">
+          <u>sign-up process </u>
         </a>{" "}
-        and a new virtual assembly format. For 2023 and beyond, ship-to-shore
-        encounters will happen primarily with community groups living in the
-        country where the ship is operating. Regular{" "}
-        <a href="https://www.youtube.com/live/wv3_ZsQkixk?feature=shared" target="_blank">
-          SOI Open Houses
+        and a new virtual assembly format. For 2023 and beyond, community groups
+        and schools within the ship&rsquo;s operating region will be given
+        priority for Ship-to-Shore Connections. Regular{" "}
+        <a href="https://www.youtube.com/watch?v=wv3_ZsQkixk">
+          <u>SOI Open Houses</u>
         </a>{" "}
-        will provide ship-to-shore experiences to a broader audience.
+        are livestreamed to SOI&rsquo;s YouTube, providing experiences similar
+        to ship-to-shores to a broader audience.
       </p>
       <p>
         Sixty-two connections occurred during the year, reaching 8,600 people
@@ -64,7 +65,7 @@ function DivestreamsAndConnections() {
         Japan, Spain, Italy, Canada, the Netherlands, and Austria. Twenty-eight
         connections in Spanish reached people living in Latin American
         countries, and a collaboration with the Charles Darwin Foundation
-        resulted in eleven connections reaching over 350 children living on the
+        resulted in eleven connections for over 350 children living on the
         Gal&aacute;pagos islands.
       </p>
     </DisseminatingTheDepths>

@@ -5,7 +5,6 @@ import Page from "../../components/Page/Page";
 import headerImage from "/assets/images/a_limitless_ocean_of_data/Header.webp";
 import BubbleImage from "../../components/BubbleImage/BubbleImage";
 
-
 function ALimistlessOceanOfData() {
   return (
     <PageContainer>
@@ -20,18 +19,72 @@ function ALimistlessOceanOfData() {
         footer_image="/assets/images/a_limitless_ocean_of_data/Footer.webp"
       >
         <div className="content">
-          <BubbleImage image="/assets/images/a_limitless_ocean_of_data/SubastianBothArms.webp" className="limitless-image" type={3} orientation="left"/>
+          <BubbleImage
+            image="/assets/images/a_limitless_ocean_of_data/SubastianBothArms.webp"
+            className="limitless-image"
+            type={3}
+            orientation="left"
+          />
+          <h3>Architecture for Flow</h3>
           <p>
-            One of Schmidt Ocean Institute’s (SOI) objectives is quality data collection. The ship and deployable systems, such as ROV <em>SuBastian</em>, transmit data in a variety of ways, ensuring  timely, correct data. After 18 months of planning and preparation, we were able to test new ship-to-shore data architecture when Research Vessel <em>Falkor (too)</em> left Vigo, Spain at the start of the year. Many of the features could only be completed once systems came online. With the ship underway, our team was able to get all systems ready for the inaugural science expedition.
+            The ship and deployable systems, such as ROV <em>SuBastian,</em>{" "}
+            transmit data in various ways, ensuring timely data collection.
+            After 16 months of planning and preparation, we could begin testing
+            the new ship-to-shore data architecture when the research vessel{" "}
+            <em> Falkor (too)</em> left the shipyard in Vigo, Spain, at the
+            start of 2023. Many of the features could only be completed once
+            systems came online. With the ship underway, our data, IT, and
+            science teams were able to bring systems online for the inaugural
+            science expedition.
           </p>
           <p>
-            SOI employed a variety of open-source tools to ensure accurate data collection, including <a href="https://github.com/OceanDataTools/openvdm" target="_blank">OpenVDM</a>, <a href="https://openrvdas.org/" target="_blank">OpenRVDAS</a>, and <a href="https://www.influxdata.com/" target="_blank">InfluxDB</a>. OpenVDM is a software package supported by SOI and was previously used on <em>Falkor</em>, making it a good choice for <em>Falkor (too)</em>. OpenRVDAS is a newer software package that is becoming more prevalent in research ships around the world.
+            <br />
+            We employed a variety of open-source tools to ensure accurate data
+            collection, including{" "}
+            <a href="https://github.com/OceanDataTools/openvdm">
+              <u>OpenVDM,</u>
+            </a>{" "}
+            <a href="https://openrvdas.org/">
+              <u>OpenRVDAS, and</u>
+            </a>{" "}
+            <a href="https://www.influxdata.com/">
+              <u>InfluxDB. </u>
+            </a>{" "}
+            OpenVDM is a software package supported by Schmidt Ocean Institute
+            and was previously used on <em>Falkor,</em> making it a good choice
+            for <em>Falkor (too).</em> OpenRVDAS is a newer software package
+            that is becoming more prevalent in research ships worldwide. We can
+            push our contributions back into the broader community by building
+            on open-source tools. Employing these systems allows us to capture
+            data, write it to file and to a database, and move it to locations
+            accessible to scientists.
           </p>
           <p>
-            <em>Falkor (too)</em>’s real-time data are written to a database, then incorporated into a highly configurable dashboard that allows marine technicians and scientists at sea to review, search, and analyze data in real time both for scientific analysis and instrument operation. Multiple systems monitor for quality, with alert notifications that help the team address problems quickly. The new platform allows for real-time transformation of raw data; users can apply geophysical or chemical corrections to sensor information, or collect information, such as the drift between various sensors or the calculation of true wind. Automated systems improve reporting and workflows, enabling faster more equipped science at sea and onshore. 
+            Although we set these systems up for the known science
+            instrumentation owned and operated by SOI, these systems are also
+            flexible and configurable for integrating equipment brought on by
+            scientists on a per-expedition basis. On the initial scientific
+            expedition, the success of this approach was evident when we
+            connected a science party&rsquo;s magnetometer to our data
+            acquisition system. The data from the magnetometer was not only
+            saved as part of the expedition products but visualization of the
+            data was made available in real time to scientists aboard.
           </p>
           <p>
-            With this new data architecture on <em>Falkor (too)</em>, SOI is advancing our ability to understand the Ocean.
+            <em>Falkor (too)&rsquo;s</em> real-time data are written to a
+            database and then incorporated into a highly configurable dashboard
+            that allows marine technicians and scientists at sea to review,
+            search, and analyze data in real time. Multiple systems monitor the
+            data for quality, sending alert notifications to the marine
+            technicians on board or the data and IT teams on shore to help them
+            address problems quickly. The new platform allows for real-time
+            transformation of raw data; users can apply geophysical or chemical
+            corrections to sensor information or collect information, such as
+            the drift between various sensors or the calculation of true wind.
+            Automated systems improve reporting and workflows, enabling faster,
+            more equipped science at sea and onshore. With this new data
+            architecture on <em>Falkor (too),</em> we are advancing scientists'
+            ability to understand the Ocean.
           </p>
         </div>
       </Page>

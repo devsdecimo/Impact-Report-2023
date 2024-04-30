@@ -76,7 +76,7 @@ function OctopusOdyssey() {
             <li>
               In June, the team deployed microbial colonization experiments and
               different types of animal shelters; they returned in December to
-              recover the experiments designed to improve understanding of the
+              recover the experiments that were designed to improve understanding of the
               connections between the life present and the rocks and fluids
               around these seafloor features.
             </li>

@@ -60,46 +60,68 @@ function ArtistAtSea() {
           className="artist-image"
           direction="up"
         />
-        <h3>Artist-at-Sea</h3> The{" "}
-        <a href="https://schmidtocean.org/apply/artist-residency-program/" target="_blank">
-          Artist-at-Sea program
+        The{" "}
+        <a href="https://schmidtocean.org/apply/artist-residency-program/">
+          <u>Artist-at-Sea program</u>
         </a>{" "}
-        exhibited in three U.S.-based locations and welcomed seven artists on
-        expeditions in 2023. SOI was thrilled to include artists from the
-        regions to where <em>Falkor (too)</em> was operating, as well as
-        internationally recognized artists such as Max Hooper Schneider, who
-        hosted a live ship tour and presentation of his work for audiences at
-        the Los Angeles Museum of Contemporary Art.
+        exhibited in three U.S. locations and welcomed seven artists on
+        expeditions in 2023, including artists from the regions where{" "}
+        <em>Falkor (too) </em>was operating. We also worked with internationally
+        recognized artist Max Hooper Schneider, who hosted a live ship tour and
+        presentation of his work for audiences at the Los Angeles Museum of
+        Contemporary Art in the U.S.
       </p>
       <p>
         Twenty pieces from the{" "}
-        <a href="https://schmidtocean.org/collection/artist-at-sea/" target="_blank">
-          Artist-at-Sea collection
+        <a href="https://schmidtocean.org/collection/artist-at-sea/">
+          <u>Artist-at-Sea collection</u>
         </a>{" "}
         were displayed at the Port of Seattle in Washington for six months. The
-        exhibition came to a close with a special event in April that included a
-        video presentation and remarks from Dr. David Butterfield, who had just
-        completed <em>Falkor (too)&rsquo;s</em> inaugural science expedition as
-        chief scientist. In May, 13 prints of Artist-at-Sea work and deep sea
-        images from previous expeditions were showcased at the Newport Race
-        Village during The Ocean Race stopover in Rhode Island, U.S.
+        exhibition ended with a special event in April that included a video
+        presentation and remarks from Dr. David Butterfield, senior research
+        scientist for NOAA Pacific Marine Environmental Laboratory, who had just
+        completed <em>Falkor (too)&rsquo;s </em>inaugural expedition as chief
+        scientist. In May, we showcased 13 prints from the Artist-at-Sea
+        collection and deep-sea images from previous expeditions at the Newport
+        Race Village during The Ocean Race stopover in Rhode Island, U.S.
       </p>
       <p>
-        SOI concluded the year by participating in{" "}
-        <a href="https://schmidtocean.org/soi-partners-ocean-programme-art-basel-miami/" target="_blank">
-          Art Basel Miami Beach
+        Schmidt Ocean Institute concluded the year by participating, for the
+        first time, in{" "}
+        <a href="https://schmidtocean.org/soi-partners-ocean-programme-art-basel-miami/">
+          <u>Art Basel Miami Beach</u>
         </a>{" "}
-        for the first time, working in collaboration with Nautilus Magazine.
-        Founded in 1970, Art Basel is one of the world&rsquo;s largest art
-        exhibitions with fairs in Basel, Hong Kong, Paris, and Miami Beach. New
-        works from Artist-at-Sea participants during the inaugural year aboard{" "}
-        <em>Falkor (too)</em> were displayed at the Miami Convention Center and
-        the Phillip and Patricia Frost Science Museum. Artists Michel Droge,
-        Carlos Hiller, Shan Hua, and Max Hooper Schneider debuted their 2023
-        Artist-at-sea pieces at the exhibition, and the Ocean, science, and art
-        were celebrated all week.
+        in collaboration with{" "}
+        <a href="https://nautil.us/">
+          <u>Nautilus Magazine</u>
+        </a>
+        . Founded in 1970, Art Basel is one of the world&rsquo;s largest art
+        exhibitions. More than{" "}
+        <a href="https://schmidtocean.org/collection/artist-at-sea/">
+          <u>40 works of art</u>
+        </a>{" "}
+        were on display alongside several ocean-focused events at the Miami
+        Convention Center and the Phillip and Patricia Frost Museum of Science.
+        A series of public events included a panel discussion with{" "}
+        <a href="https://schmidtocean.org/apply/artist-residency-program/">
+          <u>Artist-at-Sea</u>
+        </a>{" "}
+        participants Rebecca Rutstein, Carol Mickett and Robert Stackhouse,
+        Lizzy Taber, Michel Droge, and guests Runa Ray and Jane McCarthy, who
+        represented Taiji Terasaki Studios. A film night featured SOI&rsquo;s
+        award-winning films &ldquo;{" "}
+        <a href="https://www.youtube.com/watch?v=OB8IjCJQMoE">
+          <u>Climate Under Pressure</u>
+        </a>{" "}
+        &rdquo; and &ldquo;
+        <a href="https://www.youtube.com/watch?v=thYkeWuyVwE">
+          <u>The Art of Exploration</u>
+        </a>
+        ,&rdquo; and a live connection to research vessel <em>Falkor (too)</em>{" "}
+        enriched the evening. Visitors also received hard copies of Nautilus
+        Magazine's Special Ocean Issue.
       </p>
-      <Carousel slides={slides} className="artist-sea-carousel"/>
+      <Carousel slides={slides} className="artist-sea-carousel" />
     </DisseminatingTheDepths>
   );
 }
