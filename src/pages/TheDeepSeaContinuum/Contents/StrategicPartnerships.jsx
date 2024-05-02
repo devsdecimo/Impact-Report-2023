@@ -261,7 +261,7 @@ function StrategicPartnerships() {
           of the seafloor, including five new hydrothermal vent fields, seven
           seamounts, and two new cold-water coral reefs.
         </p>
-        <h3>
+        <p>
           <br />
           In August 2023, Executive Director Dr. Jyotika Virmani presented at
           the Nippon Foundation-GEBCO Alumni Conference in Tokyo. In her
@@ -274,7 +274,7 @@ function StrategicPartnerships() {
           in Monaco, alongside GEBCO week, which celebrated the 120th
           anniversary of the establishment of GEBCO &mdash; the only entity in
           the world with a mandate to produce a map of the entire seafloor.
-        </h3>
+        </p>
       </div>
     </TheDeepSeaContinuum>
   );

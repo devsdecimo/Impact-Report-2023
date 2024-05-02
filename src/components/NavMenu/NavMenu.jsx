@@ -126,8 +126,8 @@ function NavMenu({ className }) {
                   <Link to="/the_deep_sea_continuum/service">Service</Link>
                 </li>
                 <li>
-                  <Link to="/the_deep_sea_continuum/conference_meetings_and_workshops">
-                    Conference Meetings and Workshops
+                  <Link to="/the_deep_sea_continuum/conference_and_meetings">
+                    Conference & Meetings
                   </Link>
                 </li>
                 <li>

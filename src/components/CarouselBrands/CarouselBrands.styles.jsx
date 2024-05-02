@@ -29,9 +29,10 @@ export const SlidesContainer = styled.div`
 
   &.all-visible {
     justify-content: center;
-    column-gap: 2vw;
+    column-gap: 1.5rem;
     transform: none;
     min-width: 80vw;
+    max-width: 100vw;
   }
 `;
 

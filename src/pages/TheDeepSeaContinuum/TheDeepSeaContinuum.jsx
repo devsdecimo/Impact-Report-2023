@@ -24,8 +24,8 @@ function TheDeepSeaContinuum({
     },
     {
       img: "/assets/images/the_deep_sea_continuum/conference/Conference, Meetings, and Workshops.webp",
-      href: "/the_deep_sea_continuum/conference_meetings_and_workshops",
-      text: "Conference Meetings and Workshops",
+      href: "/the_deep_sea_continuum/conference_and_meetings",
+      text: "Conference & Meetings",
     },
     {
       img: "/assets/images/the_deep_sea_continuum/strategic_partnerships/All-Atlantic.webp",

@@ -352,7 +352,7 @@ function Grants({ children }) {
           Discovery League, Peerside, SciComm Inclusivity Conference, Teaching
           With Small Boats Alliance, University of Hawaii for Indigenous Grants,
           University of the Virgin Islands, Washington Maritime Blue. Here are
-          three examples of Schmidt Ocean Coalition Grants in greater detail.
+          three examples of Schmidt Ocean Coalition Grants in greater detail:
         </p>
         <div className="subsection">
           <div className="content-group">

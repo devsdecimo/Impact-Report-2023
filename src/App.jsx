@@ -189,7 +189,7 @@ function App() {
             />
             <Route path="grants" element={<Grants />} />
             <Route path="service" element={<Service />} />
-            <Route path="conference_meetings_and_workshops" element={<ConferenceMeetingsWorkshops />} />
+            <Route path="conference_and_meetings" element={<ConferenceMeetingsWorkshops />} />
             <Route
               path="strategic_partnerships"
               element={<StrategicPartnerships />}
