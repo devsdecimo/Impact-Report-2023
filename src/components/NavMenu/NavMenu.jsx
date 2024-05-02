@@ -68,25 +68,39 @@ function NavMenu({ className }) {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/expeditions/health_diagnosis_of_deep_sea_coral">Health Diagnosis of Deep Sea Coral</Link>
+                  <Link to="/expeditions/health_diagnosis_of_deep_sea_coral">
+                    Health Diagnosis of Deep Sea Coral
+                  </Link>
                 </li>
                 <li>
-                  <Link to="/expeditions/octopus_odyssey">Octopus Odyssey/ Octopus Odyssey (too)</Link>
+                  <Link to="/expeditions/octopus_odyssey">
+                    Octopus Odyssey/ Octopus Odyssey (too)
+                  </Link>
                 </li>
                 <li>
-                  <Link to="/expeditions/the_underworld_of_hydrothermal_vents">The Underworld of Hydrothermal Vents</Link>
+                  <Link to="/expeditions/the_underworld_of_hydrothermal_vents">
+                    The Underworld of Hydrothermal Vents
+                  </Link>
                 </li>
                 <li>
-                  <Link to="/expeditions/dynamics_of_sinking_microplastics">Dynamics of Sinking Microplastics</Link>
+                  <Link to="/expeditions/dynamics_of_sinking_microplastics">
+                    Dynamics of Sinking Microplastics
+                  </Link>
                 </li>
                 <li>
-                  <Link to="/expeditions/hydrothermal_vents_of_the_galapagos">Hydrothermal Vents of the Western Galápagos</Link>
+                  <Link to="/expeditions/hydrothermal_vents_of_the_galapagos">
+                    Hydrothermal Vents of the Western Galápagos
+                  </Link>
                 </li>
                 <li>
-                  <Link to="/expeditions/vertical_reefs_of_the_galapagos">Vertical Reefs of the Galápagos</Link>
+                  <Link to="/expeditions/vertical_reefs_of_the_galapagos">
+                    Vertical Reefs of the Galápagos
+                  </Link>
                 </li>
                 <li>
-                  <Link to="/expeditions/ultra_fine_scale_seafloor_mapping">Ultra Fine-Scale Seafloor Mapping</Link>
+                  <Link to="/expeditions/ultra_fine_scale_seafloor_mapping">
+                    Ultra Fine-Scale Seafloor Mapping
+                  </Link>
                 </li>
               </ul>
             </SubMenu>
@@ -109,8 +123,11 @@ function NavMenu({ className }) {
                   <Link to="/the_deep_sea_continuum/grants">Grants</Link>
                 </li>
                 <li>
-                  <Link to="/the_deep_sea_continuum/thought_leadership">
-                    Thought Leadership
+                  <Link to="/the_deep_sea_continuum/service">Service</Link>
+                </li>
+                <li>
+                  <Link to="/the_deep_sea_continuum/conference_meetings_and_workshops">
+                    Conference Meetings and Workshops
                   </Link>
                 </li>
                 <li>

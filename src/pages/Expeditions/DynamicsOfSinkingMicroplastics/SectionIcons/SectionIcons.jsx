@@ -41,7 +41,7 @@ function SectionIcons() {
           className={"CTA"}
           icon={Casts}
           numbers="16"
-          text={"CTD casts"}
+          text={"CTD & rosette casts"}
           opacity={1}
         />
       </div>

@@ -1,9 +1,20 @@
 import React from "react";
 import BubbleImage from "../../../components/BubbleImage/BubbleImage";
+import TheDeepSeaContinuum from "../TheDeepSeaContinuum";
 
 function Grants({ children }) {
   return (
-    <>
+    <TheDeepSeaContinuum
+        title={
+          <img
+            src="/assets/images/the_deep_sea_continuum/grants/Title.svg"
+            alt="Grants"
+            loading="lazy"
+          />
+        }
+        header_image={"/assets/images/the_deep_sea_continuum/grants/Header.webp"}
+        footer_image="/assets/images/the_deep_sea_continuum/grants/Footer.webp"
+      >
       <div className="content-group">
         <BubbleImage
           image="/assets/images/the_deep_sea_continuum/grants/Local Technology Support.webp"
@@ -41,7 +52,7 @@ function Grants({ children }) {
           <a href="https://materovcompetition.org/">
             <u>MATE ROV Competition</u>
           </a>{" "}
-          was integrated into the
+          was integrated into the{" "}
           <a href="https://www.mtsociety.org/index.php?option=com_dailyplanetblog&amp;view=entry&amp;year=2023&amp;month=07&amp;day=10&amp;id=288:mts-and-mate-ii-officially-come-together-to-inspire-the-next-generation-of-ocean-leaders">
             <u>Marine Technology Society</u>
           </a>
@@ -343,79 +354,83 @@ function Grants({ children }) {
           University of the Virgin Islands, Washington Maritime Blue. Here are
           three examples of Schmidt Ocean Coalition Grants in greater detail.
         </p>
+        <div className="subsection">
+          <div className="content-group">
+            <h4>MATE ROV</h4>
+            <p>
+              In 2023, the Schmidt Ocean Coalition provided a grant for
+              scholarships to first-time{" "}
+              <a href="https://materovcompetition.org/">
+                <u>MATE ROV Competition</u>
+              </a>{" "}
+              teams to lessen the financial barriers to participation in the
+              competition. This funding helped students from underserved and
+              underrepresented communities join the competition, leading to
+              broader inclusion and diversity in the competition and,
+              inevitably, the ocean STEM pipeline.
+            </p>
+          </div>
 
-        <div className="content-group">
-          <h4>MATE ROV</h4>
-          <p>
-            In 2023, the Schmidt Ocean Coalition provided a grant for
-            scholarships to first-time{" "}
-            <a href="https://materovcompetition.org/">
-              <u>MATE ROV Competition</u>
-            </a>{" "}
-            teams to lessen the financial barriers to participation in the
-            competition. This funding helped students from underserved and
-            underrepresented communities join the competition, leading to
-            broader inclusion and diversity in the competition and, inevitably,
-            the ocean STEM pipeline.
-          </p>
-        </div>
+          <div className="content-group">
+            <BubbleImage
+              image="/assets/images/the_deep_sea_continuum/grants/Peerside.webp"
+              className="continuum-image"
+              orientation="right"
+              direction="up"
+            ></BubbleImage>
+            <h4>Peerside</h4>
+            <p>
+              The Schmidt Ocean Coalition supported the Florida Institute of
+              Oceanography{" "}
+              <a href="https://www.fio.usf.edu/peerside/">
+                <u>Peerside</u>
+              </a>{" "}
+              program to provide inclusive educational and career training
+              opportunities to increase diversity for sea-going vocations and
+              marine students. Peerside celebrated its inaugural year at sea
+              with programming for 16 students who sailed aboard the research
+              vessel <em>Western Flyer</em>. Five mentors supported the
+              students, guiding their experience and research. The students
+              participated in sediment coring and geophysical mapping with a
+              towed side-scan sonar and a sub-bottom profiler. The hands-on
+              experience allowed them to study the history of paleo-hurricane
+              impacts in the Florida region.
+            </p>
+            <p>
+              Florida Institute of Oceanography hosted a welcome and homeporting
+              celebration for the vessel, which the Monterey Bay Aquarium
+              Research Institute donated; university officials and dignitaries
+              from around the country, including Schmidt Ocean Institute
+              Executive Director Dr. Jyotika Virmani, attended the event. Early
+              career experiences at sea inspire and encourage the next
+              generation of scientists, maritime professionals, and educators,
+              and this program is working to build a robust ocean science
+              workforce.
+            </p>
+          </div>
 
-        <div className="content-group">
-          <BubbleImage
-            image="/assets/images/the_deep_sea_continuum/grants/Peerside.webp"
-            className="continuum-image"
-            orientation="right"
-            direction="up"
-          ></BubbleImage>
-          <h4>Peerside</h4>
-          <p>
-            The Schmidt Ocean Coalition supported the Florida Institute of
-            Oceanography{" "}
-            <a href="https://www.fio.usf.edu/peerside/">
-              <u>Peerside</u>
-            </a>{" "}
-            program to provide inclusive educational and career training
-            opportunities to increase diversity for sea-going vocations and
-            marine students. Peerside celebrated its inaugural year at sea with
-            programming for 16 students who sailed aboard the research vessel{" "}
-            <em>Western Flyer</em>. Five mentors supported the students, guiding
-            their experience and research. The students participated in sediment
-            coring and geophysical mapping with a towed side-scan sonar and a
-            sub-bottom profiler. The hands-on experience allowed them to study
-            the history of paleo-hurricane impacts in the Florida region.
-          </p>
-          <p>
-            Florida Institute of Oceanography hosted a welcome and homeporting
-            celebration for the vessel, which the Monterey Bay Aquarium Research
-            Institute donated; university officials and dignitaries from around
-            the country, including Schmidt Ocean Institute Executive Director
-            Dr. Jyotika Virmani, attended the event. Early career experiences at
-            sea inspire and encourage the next generation of scientists,
-            maritime professionals, and educators, and this program is working
-            to build a robust ocean science workforce.
-          </p>
-        </div>
-
-        <div className="content-group">
-          <h4>Inclusive SciComm Symposium</h4>
-          <p>
-            Schmidt Ocean Coalition supported the{" "}
-            <a href="https://inclusivescicomm.org/">
-              <u>
-                <strong>Inclusive SciComm Symposium</strong>
-              </u>
-            </a>{" "}
-            in October of 2023. The{" "}
-            <a href="https://inclusivescicomm.org/symposia/">
-              biennial symposium,{" "}
-            </a>{" "}
-            organized by the Metcalf Institute at the University of Rhode
-            Island, brings together people working to shift science and science
-            communication toward a just, equitable, and inclusive future.
-          </p>
+          <div className="content-group">
+            <h4>Inclusive SciComm Symposium</h4>
+            <p>
+              Schmidt Ocean Coalition supported the{" "}
+              <a href="https://inclusivescicomm.org/">
+                <u>
+                  <strong>Inclusive SciComm Symposium</strong>
+                </u>
+              </a>{" "}
+              in October of 2023. The{" "}
+              <a href="https://inclusivescicomm.org/symposia/">
+                biennial symposium,{" "}
+              </a>{" "}
+              organized by the Metcalf Institute at the University of Rhode
+              Island, brings together people working to shift science and
+              science communication toward a just, equitable, and inclusive
+              future.
+            </p>
+          </div>
         </div>
       </div>
-    </>
+    </TheDeepSeaContinuum>
   );
 }
 

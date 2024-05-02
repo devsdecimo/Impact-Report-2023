@@ -4,7 +4,7 @@ export const NavMenuContainer = styled.nav`
   display: contents;
 
   .menuButton {
-    position: fixed;
+    position: absolute;
     border: none;
     background-color: transparent;
     top: 0;
@@ -18,6 +18,7 @@ export const NavMenuContainer = styled.nav`
     justify-content: center;
     gap: 0.25rem;
     @media (min-width: 768px) {
+      position: fixed;
       margin: 3.25rem 4rem;
       transition: 0.5s;
       flex-direction: row-reverse;
@@ -29,17 +30,17 @@ export const NavMenuContainer = styled.nav`
         transform: scale(1.2);
       }
       &:before {
-        background-color: #FFFFFF;
+        background-color: #ffffff;
       }
-      &::after{
-        color: #FFFFFF;
+      &::after {
+        color: #ffffff;
       }
     }
 
     &:before {
       content: "";
       display: flex;
-      background-color: #FFFFFF;
+      background-color: #ffffff;
       height: 25px;
       width: 25px;
       padding: 1rem;
@@ -48,15 +49,15 @@ export const NavMenuContainer = styled.nav`
       background-repeat: no-repeat;
       background-position: center;
       background-size: 50% 50%;
-      box-shadow: 3px 3px 10px rgba(15,122,188, 0.5);
+      box-shadow: 3px 3px 10px rgba(15, 122, 188, 0.5);
       transition: 0.5s;
     }
 
     &::after {
       content: "MENU";
       font-family: "Garamond", Times, serif;
-      color: #FFFFFF;
-      text-shadow: 3px 3px 10px rgba(15,122,188, 0.5);
+      color: #ffffff;
+      text-shadow: 3px 3px 10px rgba(15, 122, 188, 0.5);
       font-weight: 900;
       font-size: 1rem;
       padding: 0.2rem;

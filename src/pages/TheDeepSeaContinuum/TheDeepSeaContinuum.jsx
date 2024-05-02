@@ -1,14 +1,16 @@
 import React from "react";
 import { PageContainer } from "./TheDeepSeaContinuum.styles";
 import Page from "../../components/Page/Page";
-import GeneralButton from "../../components/GeneralButton/GeneralButton";
 import CarouselNav from "../../components/CarouselNav/CarouselNav";
-import { Outlet, useLocation } from "react-router-dom";
+import { Outlet } from "react-router-dom";
+import ScrollToTop from "../../components/ScrollToTop/ScrollToTop";
 
-function TheDeepSeaContinuum() {
-  const location = useLocation();
-  const isActive = (path) => location.pathname === path;
-
+function TheDeepSeaContinuum({
+  children,
+  header_image,
+  footer_image,
+  title,
+}) {
   const navSlides = [
     {
       img: "/assets/images/the_deep_sea_continuum/grants/g.webp",
@@ -16,9 +18,14 @@ function TheDeepSeaContinuum() {
       text: "Grants",
     },
     {
-      img: "/assets/images/the_deep_sea_continuum/thought_leadership/2023_Oceanic_Volcanism_Workshop_Group_picture_Samuel_J_Mitchell_Bristol_University Burbuja.webp",
-      href: "/the_deep_sea_continuum/thought_leadership",
-      text: "Thought Leadership",
+      img: "/assets/images/the_deep_sea_continuum/service/NavSlide.webp",
+      href: "/the_deep_sea_continuum/service",
+      text: "Service",
+    },
+    {
+      img: "/assets/images/the_deep_sea_continuum/conference/Conference, Meetings, and Workshops.webp",
+      href: "/the_deep_sea_continuum/conference_meetings_and_workshops",
+      text: "Conference Meetings and Workshops",
     },
     {
       img: "/assets/images/the_deep_sea_continuum/strategic_partnerships/All-Atlantic.webp",
@@ -26,22 +33,15 @@ function TheDeepSeaContinuum() {
       text: "Strategic Partnerships",
     },
   ];
+
   return (
     <PageContainer>
       <Page
-        title={
-          <img
-            src="/assets/images/the_deep_sea_continuum/Title.svg"
-            alt="By the Numbers"
-            loading="lazy"
-          />
-        }
-        header_image={"/assets/images/the_deep_sea_continuum/Header.webp"}
-        footer_image="/assets/images/the_deep_sea_continuum/Footer.webp"
+        title={title}
+        header_image={header_image}
+        footer_image={footer_image}
       >
-        <div className="content-body">
-          <Outlet />
-        </div>
+        <div className="content-body">{children}</div>
         <CarouselNav slides={navSlides} />
       </Page>
     </PageContainer>

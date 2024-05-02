@@ -69,8 +69,7 @@ function TheUnderworldOfHydrothermalVents() {
           <h3>Expedition objectives:</h3>
           <ul>
             <li>
-              Describe biosphere diversity beneath deep-sea hydrothermal vents
-              &mdash; from microbes to animals.
+              Describe biosphere diversity beneath deep-sea hydrothermal vents from microbes to animals.
             </li>
             <li>
               Clarify the nature and extent of connectivity between biospheres
@@ -125,8 +124,8 @@ function TheUnderworldOfHydrothermalVents() {
             reveal life beneath the surface, pilots used the ROV{" "}
             <em>SuBastian&rsquo;s</em> manipulators to break open and overturn a
             section of the seafloor. When the rocky substrate was overturned,
-            they made a discovery akin to finding life on another planet
-            revealing cavities of lobate lava packed with worms, snails, and
+            they made a discovery akin to finding life on another planet.
+            They revealed cavities of lobate lava packed with worms, snails, and
             chemosynthetic bacteria living in the 23.9 degrees Celsius water. It
             was an entirely new ecosystem!
           </p>
@@ -151,7 +150,7 @@ function TheUnderworldOfHydrothermalVents() {
           </p>
 
           <Carousel slides={slides} className="expedition-carousel"></Carousel>
-          <h3>Resulting highlights:</h3>
+          <h3>Resulting highlights include:</h3>
           <ul>
             <li>
               Discovered an entirely new ecosystem brimming with animal life in

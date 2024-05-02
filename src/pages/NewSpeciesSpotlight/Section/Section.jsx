@@ -9,7 +9,7 @@ import Paragraph from "../Paragraph/Paragraph";
 import BubbleImage from "../../../components/BubbleImage/BubbleImage";
 
 
-function Section({title, subtitle, text, italicWords, namedBy, expedition, vessel, vesselAfterText, photo, depth, depth2, depthSeparator, year, year2, yearSeparator, yearText="", location,size, sizeText, image, alt}) {
+function Section({title, subtitle, text, italicWords, namedBy, featuredBy, expedition, vessel, vesselAfterText, photo, depth, depth2, depthSeparator, year, year2, yearSeparator, yearText="", location,size, sizeText, image, alt}) {
 
 
   function esEntero(numero) {
@@ -39,6 +39,7 @@ function Section({title, subtitle, text, italicWords, namedBy, expedition, vesse
                 text={text}
                 italicWords={italicWords}
                 namedBy={namedBy}
+                featuredBy={featuredBy}
                 expedition={expedition}
                 vessel={vessel}
                 vesselAfterText={vesselAfterText?vesselAfterText:""}

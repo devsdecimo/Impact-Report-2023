@@ -19,9 +19,7 @@ import InSearchOfHydrothermalLostCities from "./pages/Expeditions/InSearchOfHydr
 import OctopusOdyssey from "./pages/Expeditions/OctopusOdyssey/OctopusOdyssey";
 import DynamicsOfSinkingMicroplastics from "./pages/Expeditions/DynamicsOfSinkingMicroplastics/DynamicsOfSinkingMicroplastics";
 import TheUnderworldOfHydrothermalVents from "./pages/Expeditions/TheUnderworldOfHydrothermalVents/TheUnderworldOfHydrothermalVents";
-import TheDeepSeaContinuum from "./pages/TheDeepSeaContinuum/TheDeepSeaContinuum";
 import Grants from "./pages/TheDeepSeaContinuum/Contents/Grants";
-import ThoughtLeadership from "./pages/TheDeepSeaContinuum/Contents/ThoughtLeadership";
 import StrategicPartnerships from "./pages/TheDeepSeaContinuum/Contents/StrategicPartnerships";
 import ArtistAtSea from "./pages/DisseminatingTheDepths/Contents/ArtistAtSea";
 import CommunityBuilding from "./pages/DisseminatingTheDepths/Contents/CommunityBuilding";
@@ -34,6 +32,8 @@ import HydrothermalVentsOfTheWesternGalapagos from "./pages/Expeditions/Hydrothe
 import VerticalReefsOfTheGalapagos from "./pages/Expeditions/VerticalReefsOfTheGalapagos/VerticalReefsOfTheGalapagos";
 import UltrafineScaleSeafloorMapping from "./pages/Expeditions/UltrafineScaleSeafloorMapping/UltrafineScaleSeafloorMapping";
 import LoadScreen from "./components/LoadScreen/LoadScreen";
+import Service from "./pages/TheDeepSeaContinuum/Contents/Service";
+import ConferenceMeetingsWorkshops from "./pages/TheDeepSeaContinuum/Contents/ConferenceMeetingsWorkshops";
 
 // Contexto para el estado de carga
 const LoadingContext = createContext({
@@ -173,16 +173,23 @@ function App() {
             <Route path="press_and_footage" element={<PressAndFootage />} />
             <Route path="on_the_big_screen" element={<OnTheBigScreen />} />
           </Route>
-          <Route
-            path="/the_deep_sea_continuum"
-            element={<TheDeepSeaContinuum />}
-          >
+          <Route path="/the_deep_sea_continuum">
+            <Route
+              index
+              element={
+                <Navigate
+                  to="/the_deep_sea_continuum/grants"
+                  replace
+                />
+              }
+            />
             <Route
               index
               element={<Navigate to="/the_deep_sea_continuum/grants" replace />}
             />
             <Route path="grants" element={<Grants />} />
-            <Route path="thought_leadership" element={<ThoughtLeadership />} />
+            <Route path="service" element={<Service />} />
+            <Route path="conference_meetings_and_workshops" element={<ConferenceMeetingsWorkshops />} />
             <Route
               path="strategic_partnerships"
               element={<StrategicPartnerships />}

@@ -28,8 +28,8 @@ function NewSpeciesSpotlight() {
           <Section
             title="Mundopsis cortesi"
             subtitle="Squat lobster"
-            text="Mundopsis. cortesi is distinguished from other squat lobsters by its distinctive pattern of small tooth-shaped spines on its legs; these spines are also present on the flanks of the body, which are called the pterygostomian flaps."
-            italicWords={["Mundopsis. cortesi"]}
+            text="Mundopsis cortesi is distinguished from other squat lobsters by its distinctive pattern of small tooth-shaped spines on its legs; these spines are also present on the flanks of the body, which are called the pterygostomian flaps."
+            italicWords={["Mundopsis cortesi"]}
             namedBy={
               <a href="https://www.publish.csiro.au/is/Fulltext/IS22030">
                 Dr. Paula Rodríguez Flores and co-authors
@@ -88,8 +88,8 @@ function NewSpeciesSpotlight() {
           <Section
             title="Abyssocladia falkor"
             subtitle="Sponge"
-            text="Carnivorous sponges attach to the seafloor and extend their feeding structures into the water column to capture passing prey and small animals such as crustaceans. This new species is closely related to the Japanese species Abyssocladia. natsushimae, but it has a much smaller and circular body size."
-            italicWords={["A. natsushimae"]}
+            text="Carnivorous sponges attach to the seafloor and extend their feeding structures into the water column to capture passing prey and small animals such as crustaceans. This new species is closely related to the Japanese species Abyssocladia natsushimae, but it has a much smaller and circular body size."
+            italicWords={["Abyssocladia falkor"]}
             namedBy={
               <a href="https://mapress.com/zt/article/view/zootaxa.5293.3.2">
                 Drs. Merrick Ekins and John N.A. Hooper
@@ -170,9 +170,9 @@ function NewSpeciesSpotlight() {
             title="Pyrolycus jaco"
             subtitle="Eelpout fish"
             text="This new species is differentiated from two western Pacific fish with similar genetics by having a shorter head, snout, jaw, and pectoral fins. It is the first vertebrate species to be described from the Jaco Scar hydrothermal seep site and named for its locality and only known habitat, Jaco Scar, on the Pacific Costa Rica margin."
-            namedBy={
+            featuredBy={
               <a href="https://www.mapress.com/zt/article/view/zootaxa.5230.1.5/49763">
-                Dr. Ben Frable and co-authors
+              Dr. Ben Frable and co-authors
               </a>
             }
             expedition={
@@ -217,7 +217,7 @@ function NewSpeciesSpotlight() {
               </>
             }
             vessel="Falkor"
-            vesselAfterText="This species was described using samples also collected on board R/Vs Atlantis and Western Flyer."
+            vesselAfterText="Samples collected on board R/Vs Atlantis and Western Flyer were also used to describe this new species."
             photo="Dr. Greg Rouse"
             depth="3676"
             depth2="3756"

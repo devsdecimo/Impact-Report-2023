@@ -24,12 +24,6 @@ function SectionWithImage({image,alt}) {
                 <IconWithText  
                     className={'CTA'} 
                     icon={Pin} 
-                    text={"San Juan, Puerto Rico"} 
-                    opacity={1}
-                />
-                <IconWithText  
-                    className={'CTA'} 
-                    icon={Flag} 
                     text={"Mid-Atlantic Ridge"} 
                     opacity={1}
                 />

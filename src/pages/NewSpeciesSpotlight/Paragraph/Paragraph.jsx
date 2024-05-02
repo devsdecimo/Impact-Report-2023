@@ -7,6 +7,7 @@ function Paragraph({
   text,
   italicWords,
   namedBy,
+  featuredBy,
   expedition,
   vessel,
   vesselAfterText,
@@ -39,13 +40,7 @@ function Paragraph({
           ? resaltarPalabras(text, italicWords)
           : text}
       </p>
-      <p class="dato">
-        {title == "Pyrolycus jaco" ? (
-          <>Species named by: {namedBy}</>
-        ) : (
-          <>Species named by: {namedBy}</>
-        )}
-      </p>
+      <p class="dato">{namedBy && <>Species named by: {namedBy}</>}{featuredBy && <>Feature named by: {featuredBy}</>}</p>
       <p class="dato">
         Expedition: {expedition} on R/V <em className="ml-10">{vessel}</em>
         <br />

@@ -73,7 +73,7 @@ function HealthDiagnosisOfDeepSeaCoral() {
             </li>
             <li>
               Test two newly designed instruments for measuring reactive oxygen
-              species, or ROS <em>in situ</em> &mdash; a device called DISCO,
+              species called ROS <em>in situ</em> &mdash; a device called DISCO,
               which stands for Diver-operated Submersible Chemiluminescent
               Sensor, for shallow depths and lab measurements, and an instrument
               mounted on ROV <em>SuBastian</em> for deeper depths called
@@ -172,7 +172,7 @@ function HealthDiagnosisOfDeepSeaCoral() {
             years.
           </p>
           <Carousel slides={slides} className="expedition-carousel"></Carousel>
-          <h3>Resulting highlights:</h3>
+          <h3>Resulting highlights include:</h3>
           <ul>
             <li>
               Encountering a lush forest of deep-sea corals and associated

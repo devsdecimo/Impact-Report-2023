@@ -45,7 +45,7 @@ function BubbleImage({
       direction={direction}
       orientation={orientation}
     >
-      {(type === 1 || type === 3) && (
+      {(type === 1 || type === 3 || type === 6) && (
         <>
           <span className="circle circle-1"></span>
           <span className="circle circle-2"></span>

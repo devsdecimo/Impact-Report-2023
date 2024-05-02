@@ -4,27 +4,6 @@ import Carousel from "../../../components/Carousel/Carousel";
 import DisseminatingTheDepths from "../DisseminatingTheDepths";
 
 function ArtistAtSea() {
-  /* CAROUSEL OLD:
-  const slides = [
-    {
-      img: "/assets/images/disseminating_the_depths/artist-at-sea/carousel/Artists_Lab.webp",
-    },
-    {
-      img: "/assets/images/disseminating_the_depths/artist-at-sea/carousel/FalkorToo-Pei-Wen.webp",
-    },
-    {
-      img: "/assets/images/disseminating_the_depths/artist-at-sea/carousel/MaxHooperSchneiderTestsArtInstallation.webp",
-    },
-    {
-      img: "/assets/images/disseminating_the_depths/artist-at-sea/carousel/PeiWenFashionSketches.webp",
-    },
-    {
-      img: "/assets/images/disseminating_the_depths/artist-at-sea/carousel/scitoo-max1Recover1.webp",
-    },
-    {
-      img: "/assets/images/disseminating_the_depths/artist-at-sea/carousel/Shan-DigitalArtist.webp",
-    },
-  ];*/
   const slides = [
     {
       img: "/assets/images/disseminating_the_depths/artist-at-sea/carousel/01-Showcase.webp",

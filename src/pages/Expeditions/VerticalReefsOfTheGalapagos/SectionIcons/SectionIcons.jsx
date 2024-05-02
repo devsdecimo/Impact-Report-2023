@@ -50,7 +50,7 @@ function SectionIcons() {
                 className={'CTA'} 
                 icon={Casts} 
                 numbers='105'
-                text={"CTD casts"} 
+                text={"CTD & rosette casts"} 
                 opacity={1}
             />
             <IconWithText  

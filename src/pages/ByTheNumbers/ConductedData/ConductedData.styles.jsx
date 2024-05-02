@@ -196,7 +196,7 @@ export const ConductedDataContainer = styled.div`
       top: 53%;
       @media (min-width: 768px) {
         font-size: 2.1vw;
-        right: -4%;
+        right: -30%;
         left: unset;
         top: 35%;
       }
@@ -258,7 +258,7 @@ export const ConductedDataContainer = styled.div`
         display: block;
         font-size: 1.5vw;
         top: 97%;
-        right: -31%;
+        right: -43%;
       }
     }
   }

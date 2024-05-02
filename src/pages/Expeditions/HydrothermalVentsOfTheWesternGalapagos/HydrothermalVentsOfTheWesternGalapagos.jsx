@@ -77,10 +77,10 @@ function HydrothermalVentsOfTheWesternGalapagos() {
               tropical Eastern Pacific.
             </li>
             <li>
-              Deploy a new fiber-optic distributed temperature sensor, or DTS,
-              to measure temperature changes that will deepen our understanding
-              of seafloor hydrology and the role of temperature in animal
-              distributions.
+              Deploy a new fiber-optic distributed temperature sensor called a
+              DTS to measure temperature changes that will deepen our
+              understanding of seafloor hydrology and the role of temperature in
+              animal distributions.
             </li>
           </ul>
           <p>
@@ -116,32 +116,32 @@ function HydrothermalVentsOfTheWesternGalapagos() {
           <p>
             The science team, led by Drs. Roxanne Beinart and Jill McDermott,
             explored with ROV <em>SuBastian </em>and an ROV-mounted sonar,
-            conducted CTD casts, collected water samples for microbiology,
-            successfully tested a new fiber-optic DTS device, and produced new
-            high-resolution maps of the region. This expedition represents the
-            most comprehensive sample collection taken at the Iguanas and
-            Pinguinos vent sites and the first at the Navidad and Sendero del
-            Cangrejo vent sites. Samples will help the scientists create a
-            big-picture view of how life on hydrothermal vents functions across
-            time and space, as they offer a comparison to the vents on the
-            eastern portion of the Gal&aacute;pagos Spreading Center. Examining
-            the differences between vents from the same region provides insight
-            and data into their potential connectivity or lack thereof. This
-            comparative data is valuable for ocean decision-makers in boosting
-            protection and establishing regulation, especially as Ecuador,
-            Panama, Columbia, and Costa Rica work together to establish the
-            Eastern Tropical Pacific Marine Corridor, a joint marine protected
-            area.
+            conducted CTD and rosette casts, collected water samples for
+            microbiology, successfully tested a new fiber-optic DTS device, and
+            produced new high-resolution maps of the region. This expedition
+            represents the most comprehensive sample collection taken at the
+            Iguanas and Pinguinos vent sites and the first at the Navidad and
+            Sendero del Cangrejo vent sites. Samples will help the scientists
+            create a big-picture view of how life on hydrothermal vents
+            functions across time and space, as they offer a comparison to the
+            vents on the eastern portion of the Gal&aacute;pagos Spreading
+            Center. Examining the differences between vents from the same region
+            provides insight and data into their potential connectivity or lack
+            thereof. This comparative data is valuable for ocean decision-makers
+            in boosting protection and establishing regulation, especially as
+            Ecuador, Panama, Columbia, and Costa Rica work together to establish
+            the Eastern Tropical Pacific Marine Corridor, a marine protected
+            area that would be managed jointly by these countries.
           </p>
           <Carousel slides={slides} className="expedition-carousel"></Carousel>
 
-          <h3>Resulting highlights:</h3>
+          <h3>Resulting highlights include:</h3>
           <ul>
             <li>
-              Samples collected represent the most comprehensive geological,
-              chemical, and biological samples taken in the Western
-              Gal&aacute;pagos Spreading Center for comparison to sites at the
-              Eastern Gal&aacute;pagos Spreading Center.
+              The most comprehensive geological, chemical, and biological
+              samples collected in the Western Gal&aacute;pagos Spreading Center
+              for comparison to sites at the Eastern Gal&aacute;pagos Spreading
+              Center.
             </li>
             <li>
               Demonstrated the successful use of the DTS device, which measured

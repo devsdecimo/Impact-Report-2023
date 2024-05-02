@@ -1,13 +1,14 @@
 import styled from "styled-components";
 
 export const BubbleImageContainer = styled.span`
+  padding: 0.5rem;
   .circle,
   .image {
     opacity: 0;
     transform: scale(0);
   }
 
-  &.type-1 {
+  &.type-1{
     position: relative;
     display: flex;
     aspect-ratio: 4/3.8;

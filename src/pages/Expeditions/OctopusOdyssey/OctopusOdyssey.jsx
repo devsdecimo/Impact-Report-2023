@@ -76,7 +76,7 @@ function OctopusOdyssey() {
             <li>
               In June, the team deployed microbial colonization experiments and
               different types of animal shelters; they returned in December to
-              recover the experiments that were designed to improve understanding of the
+              recover experiments that were designed to improve understanding of the
               connections between the life present and the rocks and fluids
               around these seafloor features.
             </li>
@@ -149,7 +149,7 @@ function OctopusOdyssey() {
             management plans for the country.
           </p>
           <Carousel slides={slides} className="expedition-carousel"></Carousel>
-          <h3>Resulting highlights:</h3>
+          <h3>Resulting highlights include:</h3>
           <ul>
             <li>
               Confirmed the Dorado Outcrop hosts a year-round octopus nursery

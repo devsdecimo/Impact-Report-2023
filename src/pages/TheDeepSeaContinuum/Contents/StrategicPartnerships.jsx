@@ -1,9 +1,22 @@
 import React from "react";
 import BubbleImage from "../../../components/BubbleImage/BubbleImage";
+import TheDeepSeaContinuum from "../TheDeepSeaContinuum";
 
 function StrategicPartnerships() {
   return (
-    <>
+    <TheDeepSeaContinuum
+      title={
+        <img
+          src="/assets/images/the_deep_sea_continuum/strategic_partnerships/Title.svg"
+          alt="Strategic Partnership"
+          loading="lazy"
+        />
+      }
+      header_image={
+        "/assets/images/the_deep_sea_continuum/strategic_partnerships/Header.webp"
+      }
+      footer_image="/assets/images/the_deep_sea_continuum/strategic_partnerships/Footer.webp"
+    >
       <div className="content-group">
         <BubbleImage
           image="/assets/images/the_deep_sea_continuum/strategic_partnerships/All-Atlantic.webp"
@@ -14,210 +27,31 @@ function StrategicPartnerships() {
         <h3>All-Atlantic Floating University</h3>
         <p>
           Training at sea is critical for preparing new generations of early
-          career ocean professionals and SOI offers multiple at-sea operations
-          opportunities targeting academic and maritime sectors. To strengthen
-          and develop further training at sea in the Atlantic region, greater
-          exchange, collaboration, and sharing best practices between programs
-          is essential. The All-Atlantic Floating University Network was
-          established in 2021 to advance these objectives; SOI is one of the
-          founding members. The network brings together successful at-sea
-          programs working in the Atlantic pole-pole region, and SOI will offer
-          Berths of Opportunity through this network when operating in Atlantic
-          waters.
+          career ocean professionals. The All-Atlantic Floating University
+          Network was established in 2021 to strengthen and develop
+          opportunities in the Atlantic region and to foster greater exchange,
+          collaboration, and sharing of best practices between programs. The
+          network brings together successful at-sea programs working in the
+          Atlantic pole-to-pole region to find ways to increase student
+          sea-going research and training opportunities. Schmidt Ocean Institute
+          became a member in 2023 and will offer Berths of Opportunities through
+          this network when operating in Atlantic waters from 2025-2028.
         </p>
       </div>
       <div className="content-group">
         <BubbleImage
-          image="/assets/images/the_deep_sea_continuum/strategic_partnerships/National Geographic Society.webp"
+          image="/assets/images/the_deep_sea_continuum/strategic_partnerships/BBC.webp"
           className="continuum-image"
           orientation="left"
         ></BubbleImage>
-        <h3>
-          <strong>National Geographic Society</strong>
-        </h3>
+        <h3>BBC</h3>
         <p>
-          SOI and National Geographic Society celebrated bringing the first
-          National Geographic Explorers aboard <em>Falkor (too) </em>as part of
-          a new and exciting strategic partnership. Dr. Laura Simon-Sanchez was
-          the first investigator, and brought her exploration team of four to
-          study microplastic distribution and movement in the water column off
-          the coast of Panama. The{" "}
-          <a href="https://schmidtocean.org/cruise/dynamics-of-sinking-microplastics/" target="_blank">
-            Dynamics of Sinking Microplastics expedition
-          </a>{" "}
-          was{" "}
-          <a href="https://www.cbs.com/shows/video/2bYZkzAy1kVplIKmgUQD_9bz3phVMPra/" target="_blank">
-            covered by CBS Mornings
-          </a>
-          .
-        </p>
-        <p>
-          Dr. Ana-Belen Yanez Suarez, another National Geographic Explorer,
-          expanded on Dr. Simon-Sanchez&rsquo;s research alongside Dr. Katleen
-          Robert during the
-          <a href="https://schmidtocean.org/cruise/vertical-reefs-of-the-galapagos/#about" target="_blank">
-            Vertical Reefs of the Gal&aacute;pagos expedition
-          </a>
-          . Yanez Suarez and the team explored seamounts southwest of Isla del
-          Coco and examined links between coral communities on seamounts in the
-          Gal&aacute;pagos and those in Costa Rica. The researchers observed
-          multiple deep-sea coral species laden with eggs on one of the ROV
-          dives. This research contributes data to inform the management of the
-          Eastern Tropical Pacific Marine Corridor, a network of interconnected
-          marine reserves managed by the governments of Ecuador, Costa Rica,
-          Panama, and Colombia.
-        </p>
-      </div>
-      <div className="content-group">
-        <BubbleImage
-          image="/assets/images/the_deep_sea_continuum/strategic_partnerships/Ocean Biodiversity Virtual Institute (OBVI).webp"
-          className="continuum-image"
-          direction="up"
-          orientation="right"
-        ></BubbleImage>
-        <h3>
-          <strong>Ocean Biodiversity Virtual Institute (OBVI)</strong>
-        </h3>
-        <p>
-          To accelerate society&rsquo;s response to climate change, SOI is
-          partnering with Schmidt Futures&rsquo;{" "}
-          <a href="https://www.schmidtfutures.com/our-work/obvi/" target="_blank">
-            Ocean Biogeochemistry Virtual Institute
-          </a>
-          , or OBVI, tackling challenging data and modeling problems in ocean
-          biogeochemistry research. Together, the organizations are offering to
-          support successful applicants with up to five years of financial
-          resources, research time aboard R/V <em>Falkor (too)</em>, and access
-          to the SOI high-performance computing system.
-        </p>
-        <p>
-          In 2023, the competition received 117 Expressions of Intent from 48
-          countries; 14 of the research teams were invited to submit full
-          proposals representing scientists from the United States, Canada,
-          South Africa, the United Kingdom, Germany, France, Israel, Ghana,
-          Namibia, Brazil, Belgium, Ireland, Italy, Spain, and Madagascar. OBVI
-          expects to award five interdisciplinary, international, and innovative
-          research projects to create this virtual institute. This will address
-          biogeochemical data and modeling problems across systems and scale
-          through new approaches in data collection, integration, and
-          interpretation, improving our understanding of the cycling and storage
-          of carbon in the Ocean and the resilience of marine ecosystems.
-        </p>
-      </div>
-      <div className="content-group">
-        <BubbleImage
-          image="/assets/images/the_deep_sea_continuum/strategic_partnerships/Ocean Census.webp"
-          className="continuum-image"
-          orientation="left"
-        ></BubbleImage>
-        <h3>Ocean Census</h3>
-        <p>
-          Only 10% of ocean life has been discovered. This year, a new
-          collaborative was formed to address this gap in knowledge.{" "}
-          <a href="http://oceancensus.org" target="_blank">Ocean Census</a> was created as an
-          open network of science, business, media, and civil society
-          organizations with the goal of accelerating discovery and protection
-          of ocean life. Founded by The Nippon Foundation and Nekton, SOI joined
-          the global collaborative alliance as a founding member. The
-          undertaking builds on historic efforts such as the late 19th century
-          Challenger Expeditions, which many credit as the origin of modern
-          marine science, and the Census of Marine Life, a decade-long
-          international project launched in 2000 to record the diversity,
-          distribution, and abundance of life in the Ocean.
-        </p>
-        <p>
-          SOI Executive Director Dr. Jyotika Virmani attended the event in April
-          at the Royal Institution, London. She spoke of the need for education
-          and communicating with the public about Ocean wonders as key pillars
-          of success for the census. Since April, SOI has participated in
-          planning discussions focused on establishing taxonomic workshops in
-          developing areas where research will occur and bringing taxonomists on
-          board R/V{" "}
-          <em>Falkor (too) </em>to support this ambitious effort.
-        </p>
-      </div>
-      <div className="content-group">
-        <BubbleImage
-          image="/assets/images/the_deep_sea_continuum/strategic_partnerships/Ocean Rising.webp"
-          className="continuum-image"
-          orientation="right"
-          direction="up"
-        ></BubbleImage>
-        <h3>Ocean Rising</h3>
-        <p>
-          Popular culture challenges and drives how people interact with the
-          world around them. Interweaving aspects of our everyday life &mdash;
-          from clothes we wear to the games we play &mdash; with the undersea
-          world is a powerful avenue for nurturing a new generation of ocean
-          ambassadors.{" "}
-          <a href="https://schmidtocean.org/ocean-rising/" target="_blank">Ocean Rising</a>,{" "}
-          established in 2021 by SOI and Nekton, deepens people&rsquo;s
-          relationship with the Ocean by galvanizing connections through global
-          popular culture. Since the initiative&rsquo;s inception, workshops
-          have brought experts from media, film, publishing, gaming, and fashion
-          together to identify obstacles and opportunities for exploring our
-          Ocean world. Future plans include workshops for arts and sports-themed
-          events in 2024.
-        </p>
-        <p>
-          In 2023, the initiative focused on implementing connections made
-          through the fashion workshop. Global luxury designer Jenny Packham
-          used SOI imagery as inspiration for a resort wear collection that was
-          featured in{" "}
-          <a href="https://www.vogue.com/fashion-shows/resort-2024/jenny-packham" target="_blank">
-            Vogue
-          </a>
-          . Taiwanese designer Pei-Wen Jin{" "}
-          <a href="https://www.youtube.com/watch?v=I5qVjM1Q55s&amp;t=43s" target="_blank">
-            sailed on <em>Falkor (too)</em>
-          </a>{" "}
-          during the{" "}
-          <a href="https://schmidtocean.org/cruise/dynamics-of-sinking-microplastics/" target="_blank">
-            Dynamics of Sinking Microplastics
-          </a>{" "}
-          expedition as an{" "}
-          <a href="https://schmidtocean.org/collection/artist-at-sea/" target="_blank">
-            Artist-at-Sea
-          </a>
-          ; she sketched a sustainable, research vessel-inspired clothing line
-          with plans to implement the designs on the horizon.{" "}
-          <a href="https://www.instagram.com/shanhua.me/" target="_blank">Shan Hua</a>, digital
-          art winner of the Vogue China Fashion Fund, also joined the expedition
-          and worked with Vogue journalists to produce a video about her
-          experience.
-        </p>
-      </div>
-      <div className="content-group">
-        <BubbleImage
-          image="/assets/images/the_deep_sea_continuum/strategic_partnerships/Seabed 2030.webp"
-          className="continuum-image"
-          orientation="left"
-        ></BubbleImage>
-        <h3>Seabed 2030</h3>
-        <p>
-          Since 2019, SOI has played a substantial role as a partner in the{" "}
-          <a href="https://seabed2030.org/" target="_blank">
-            Nippon Foundation-GEBCO Seabed 2030 Project
-          </a>
-          . This international collaboration is working to create a detailed,
-          high-resolution seafloor map by 2030. Only 6% of the ocean floor was
-          mapped to an adequate resolution when the undertaking was launched;
-          today, almost 25% of the seafloor has been mapped, with more than 1
-          million square kilometers of mapping data contributed by SOI. In 2023,
-          the team aboard Research Vessel <em>Falkor (too)</em> mapped 190,025.60 square
-          kilometers of seafloor, including 5 new hydrothermal vent fields, 3
-          seamounts, and 2 new cold water coral reefs.
-        </p>
-        <p>
-          In August of this year, Executive Director Dr. Jyotika Virmani
-          presented at the Nippon Foundation-GEBCO Alumni Conference in Tokyo.
-          In her remarks, she highlighted the power of the alumni network to
-          catalyze technologies for seafloor mapping, which advances ocean
-          discovery for the greater good. In November, SOI sponsored the{" "}
-          <a href="https://www.youtube.com/@mapthegaps/streams" target="_blank">
-            Map the Gaps Conference
-          </a>{" "}
-          in Monaco, alongside GEBCO week.
+          The BBC is an experienced global producer of natural history
+          programming using ground-breaking technology and innovation to reveal
+          to audiences worldwide the extraordinary wonders of nature. In 2023,
+          Schmidt Ocean Institute partnered with BBC for footage sharing and
+          filming during expeditions; this footage will be used for future BBC
+          programming focused on marine wildlife and the deep Ocean.&nbsp;
         </p>
       </div>
       <div className="content-group">
@@ -229,30 +63,220 @@ function StrategicPartnerships() {
         ></BubbleImage>
         <h3>MTS/IEEE</h3>
         <p>
-          SOI&rsquo;s partnership with the Marine Technology Society and IEEE
-          Oceanic Engineering Society, or IEEE-OES, focuses on the effective
-          development and application of marine science and technology for the
-          exploration, understanding, and sustainable use of the Ocean and its
-          resources.
+          Schmidt Ocean Institute&rsquo;s partnership with the Marine Technology
+          Society and IEEE Oceanic Engineering Society, or IEEE-OES, focuses on
+          broadening inclusivity, participation, and hence diversity, in the
+          marine technical and engineering disciplines.
         </p>
         <p>
-          The partnership includes support for students and early career marine
-          technology professionals through a student poster competition, joint
+          The partnership includes support for students and early-career marine
+          technology professionals through student poster competitions, joint
           activities to engage women in marine science and technology, and
-          special events in the United States. This summer, in partnership with
-          IEEE-OES, SOI welcomed{" "}
-          <a href="https://schmidtocean.org/person/monika-aggarwal/" target="_blank">
-            Professor Monika Aggarwal from IIT Delhi, India
+          special events in the United States. In partnership with IEEE-OES this
+          summer, SOI welcomed{" "}
+          <a href="https://schmidtocean.org/person/monika-aggarwal/">
+            Professor Monika Aggarwal
           </a>{" "}
-          on board R/V <em>Falkor (too)</em>{" "}via our berth of opportuntiy
-          program to supplement her expertise in image and signal processing
-          with an at-sea experience. In October, SOI co-sponsored a tour of the
-          R/V{" "}
-          <em>Thomas G. Thompson </em>in Seattle, welcoming the local maritime
-          community to tour the ship.
+          from IIT Delhi, India, on board R/V <em>Falkor (too)</em> via our
+          Berth of Opportunity program. The at-sea experience supplemented her
+          image and signal processing expertise and allowed her to understand
+          life on a research vessel. Additionally, SOI co-sponsored a tour of
+          the R/V <em>Thomas G. Thompson</em> in Seattle in October, welcoming
+          the local marine technology community to tour the ship.
         </p>
       </div>
-    </>
+      <div className="content-group">
+        <BubbleImage
+          image="/assets/images/the_deep_sea_continuum/strategic_partnerships/National Geographic Society.webp"
+          className="continuum-image"
+          orientation="left"
+        ></BubbleImage>
+        <h3>National Geographic Society</h3>
+        <p>
+          As part of a National Geographic Society partnership announced in
+          2022, National Geographic Explorers sailed with Schmidt Ocean
+          Institute for the first time in 2023. Dr. Laura Simon-Sanchez brought
+          her exploration team of four to study microplastic distribution and
+          movement in the water column off the coast of Panama. The{" "}
+          <a href="https://schmidtocean.org/cruise/dynamics-of-sinking-microplastics/">
+            Dynamics of Sinking Microplastics expedition{" "}
+          </a>
+          was{" "}
+          <a href="https://www.cbs.com/shows/video/2bYZkzAy1kVplIKmgUQD_9bz3phVMPra/">
+            covered by Ben Tracy for CBS Mornings
+          </a>
+          . Dr. Ana-Belen Yanez Suarez, another National Geographic Explorer,
+          joined Dr. Katleen Robert for the{" "}
+          <a href="https://schmidtocean.org/cruise/vertical-reefs-of-the-galapagos/#about">
+            Vertical Reefs of the Gal&aacute;pagos expedition
+          </a>
+          . Yanez Suarez and the team explored seamounts southwest of Isla del
+          Coco and examined links between coral communities on seamounts in the
+          Gal&aacute;pagos and those in Costa Rica.&nbsp;
+        </p>
+      </div>
+      <div className="content-group">
+        <BubbleImage
+          image="/assets/images/the_deep_sea_continuum/strategic_partnerships/Ocean Biodiversity Virtual Institute (OBVI).webp"
+          className="continuum-image"
+          direction="up"
+          orientation="right"
+        ></BubbleImage>
+        <h3>Ocean Biodiversity Virtual Institute (OBVI)</h3>
+        <p>
+          To accelerate society&rsquo;s response to climate change, Schmidt
+          Ocean Institute partnered with Schmidt Sciences{" "}
+          <a href="https://www.schmidtfutures.org/our-work-old/obvi/">
+            Ocean Biogeochemistry Virtual Institute, or OBVI
+          </a>
+          , to tackle challenging data and modeling problems in ocean
+          biogeochemistry research. Together, the organizations are offering to
+          support successful applicants with up to five years of financial
+          resources, research time aboard R/V<em> Falkor (too)</em>, and access
+          to the Schmidt Ocean Institute&rsquo;s high-performance computing
+          system.
+        </p>
+        <p>
+          In 2023, the competition received 117 expressions of intent from 48
+          countries; we invited 14 of the research teams to submit full
+          proposals representing scientists from the United States, Canada,
+          South Africa, the United Kingdom, Germany, France, Israel, Ghana,
+          Namibia, Brazil, Belgium, Ireland, Italy, Spain, and Madagascar. OBVI
+          expects to award five interdisciplinary, international, and innovative
+          research projects to create this virtual institute. The awardees will
+          address biogeochemical data and modeling problems across systems and
+          scale through new data collection, integration, and interpretation
+          approaches, improving our understanding of the cycling and storage of
+          carbon in the Ocean and the resilience of marine ecosystems.
+        </p>
+      </div>
+      <div className="content-group">
+        <BubbleImage
+          image="/assets/images/the_deep_sea_continuum/strategic_partnerships/Ocean Census.webp"
+          className="continuum-image"
+          orientation="left"
+        ></BubbleImage>
+        <h3>Ocean Census</h3>
+        <p>
+          Only 10% of ocean life has been discovered, and a new collaboration
+          was formed to address this knowledge gap. The{" "}
+          <a href="https://oceancensus.org/">Ocean Census </a>was created as an
+          open network of science, business, media, and civil society
+          organizations to accelerate the discovery of ocean life. The primary
+          goal will be to discover 100,000 new species within the coming decade
+          and inspire the global community.
+        </p>
+        <p>
+          Founded by The Nippon Foundation and Nekton, Schmidt Ocean Institute
+          joined the initiative as a founding member. The undertaking builds on
+          historic efforts such as the late 19th century Challenger Expeditions,
+          which many credit as the origin of modern marine science, and the
+          Census of Marine Life, a decade-long international project launched in
+          2000 to record the diversity, distribution, and abundance of life in
+          the Ocean.
+        </p>
+        <p>
+          SOI Executive Director Dr. Jyotika Virmani attended a kickoff event as
+          part of the science panel in April at the Royal Institution in London.
+          She spoke of new and emerging technology to detect marine life at the
+          speed and scales needed and the need for research vessels as part of
+          this effort.{" "}
+        </p>
+      </div>
+
+      <div className="content-group">
+        <BubbleImage
+          image="/assets/images/the_deep_sea_continuum/strategic_partnerships/Ocean Rising.webp"
+          className="continuum-image"
+          orientation="right"
+          direction="up"
+        ></BubbleImage>
+        <h3>Ocean Rising</h3>
+        <p>
+          Popular culture challenges and drives how people interact with the
+          world around them. Interweaving aspects of our everyday life &mdash;
+          from the clothes we wear to the games we play &mdash; with the
+          undersea world is a powerful avenue for raising awareness of the
+          Ocean. Established in 2021 by Schmidt Ocean Institute and Nekton,{" "}
+          <a href="https://schmidtocean.org/ocean-rising/">Ocean Rising</a>{" "}
+          deepens people&rsquo;s relationship with the Ocean by galvanizing
+          connections through global popular culture. Since the
+          initiative&rsquo;s inception, workshops have brought media, film, fine
+          art, theater, and fashion experts together to identify obstacles and
+          opportunities for exploring our Ocean world.
+        </p>
+        <p>
+          In 2023, the initiative focused on fashion. Global luxury designer
+          Jenny Packham used SOI imagery as inspiration for a resort wear
+          collection featured in
+          <a href="https://www.vogue.com/fashion-shows/resort-2024/jenny-packham">
+            {" "}
+            Vogue
+          </a>
+          . Taiwanese designer Pei-Wen Jin{" "}
+          <a href="https://www.youtube.com/watch?v=I5qVjM1Q55s&amp;t=43s">
+            sailed on <em>Falkor (too)</em>
+          </a>{" "}
+          during the{" "}
+          <a href="https://schmidtocean.org/cruise/dynamics-of-sinking-microplastics/">
+            Dynamics of Sinking Microplastics
+          </a>{" "}
+          expedition as an{" "}
+          <a href="https://schmidtocean.org/collection/artist-at-sea/">
+            Artist-at-Sea
+          </a>
+          ; she sketched a sustainable, research vessel-inspired clothing line
+          with plans to implement the designs on the horizon. Pei-Wen was
+          selected through a collaboration with Redress via the global
+          competition for early-career fashion designers; Redress is a Hong
+          Kong-based NGO working to accelerate the transition to a circular
+          fashion industry.{" "}
+          <a href="https://www.instagram.com/shanhua.me/">Shan Hua</a>, digital
+          art winner of the Vogue China Fashion Fund, also joined the expedition
+          and worked with Vogue journalists to produce a video about her
+          experience.
+        </p>
+      </div>
+
+      <div className="content-group">
+        <BubbleImage
+          image="/assets/images/the_deep_sea_continuum/strategic_partnerships/Seabed 2030.webp"
+          className="continuum-image"
+          orientation="left"
+        ></BubbleImage>
+        <h3>Seabed 2030</h3>
+        <p>
+          Since 2019, Schmidt Ocean Institute has been a partner in the{" "}
+          <a href="https://seabed2030.org/">
+            Nippon Foundation-GEBCO Seabed 2030 Project
+          </a>
+          , a collaboration of organizations that map the seafloor or have an
+          interest in hydrography. This international collaboration is working
+          to create a detailed, high-resolution seafloor map by 2030. Only 6% of
+          the ocean floor was mapped to an adequate resolution when the
+          undertaking launched in 2016; today, almost 25% of the seafloor has
+          been mapped, with 1.5 million square kilometers of mapping data
+          contributed by Schmidt Ocean Institute. In 2023, the team aboard the
+          research vessel <em>Falkor (too)</em> mapped 190,025 square kilometers
+          of the seafloor, including five new hydrothermal vent fields, seven
+          seamounts, and two new cold-water coral reefs.
+        </p>
+        <h3>
+          <br />
+          In August 2023, Executive Director Dr. Jyotika Virmani presented at
+          the Nippon Foundation-GEBCO Alumni Conference in Tokyo. In her
+          remarks, she highlighted the power of the alum network to develop and
+          use technologies for seafloor mapping, which advances ocean discovery
+          for the greater good. In November, SOI sponsored the{" "}
+          <a href="https://www.youtube.com/@mapthegaps/streams">
+            Map the Gaps Conference
+          </a>{" "}
+          in Monaco, alongside GEBCO week, which celebrated the 120th
+          anniversary of the establishment of GEBCO &mdash; the only entity in
+          the world with a mandate to produce a map of the entire seafloor.
+        </h3>
+      </div>
+    </TheDeepSeaContinuum>
   );
 }
 

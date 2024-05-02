@@ -142,7 +142,7 @@ function VerticalReefsOfTheGalapagos() {
           </p>
           <Carousel slides={slides} className="expedition-carousel"></Carousel>
 
-          <h3>Resulting highlights:</h3>
+          <h3>Resulting highlights include:</h3>
           <ul>
             <li>
               Observed thriving cold-water coral reefs teeming with anemones,

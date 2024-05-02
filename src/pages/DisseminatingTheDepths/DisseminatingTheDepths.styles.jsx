@@ -29,8 +29,9 @@ export const PageContainer = styled.div`
     width: 70vw;
     @media (min-width: 768px) {
       float: left;
-      width: 15.625vw;
+      width: 18vw;
       margin-right: 2rem;
+      max-width: 500px;
     }
   }
 
@@ -38,7 +39,8 @@ export const PageContainer = styled.div`
     width: 70vw;
     @media (min-width: 768px) {
       float: right;
-      width: 15.625vw;
+      width: 18vw;
+      max-width: 500px;
     }
   }
 
@@ -46,7 +48,8 @@ export const PageContainer = styled.div`
     width: 70vw;
     @media (min-width: 768px) {
       float: left;
-      width: 15.625vw;
+      width: 18vw;
+      max-width: 500px;
       margin-right: 2rem;
     }
   }
@@ -55,7 +58,8 @@ export const PageContainer = styled.div`
     width: 70vw;
     @media (min-width: 768px) {
       float: right;
-      width: 15.625vw;
+      width: 18vw;
+      max-width: 500px;
     }
   }
 
@@ -63,7 +67,8 @@ export const PageContainer = styled.div`
     width: 70vw;
     @media (min-width: 768px) {
       float: left;
-      width: 15.625vw;
+      width: 18vw;
+      max-width: 500px;
       margin-right:2rem;
     }
   }

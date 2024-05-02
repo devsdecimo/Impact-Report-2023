@@ -57,7 +57,7 @@ function DynamicsOfSinkingMicroplastics() {
         header_image={headerImage}
         header_alt="Alvise Vianello prepares the UFO water filtration systems."
         footer_image="/assets/images/expeditions/dynamics_of_sinking_microplastics/Footer.webp"
-        footer_alt="The team prepares sensors on the CTD rosette before a deployment."
+        footer_alt="The team prepares sensors on the CTD and rosette before a deployment."
       >
         <SectionWithImage
           image="/assets/images/expeditions/dynamics_of_sinking_microplastics/FKt230802.webp"
@@ -140,7 +140,7 @@ function DynamicsOfSinkingMicroplastics() {
           </p>
           <Carousel slides={slides} className="expedition-carousel"></Carousel>
 
-          <h3>Resulting highlights:</h3>
+          <h3>Resulting highlights include:</h3>
           <ul>
             <li>
               Collected microplastic samples off the coast of Panama, an
@@ -156,7 +156,7 @@ function DynamicsOfSinkingMicroplastics() {
             <li>
               Successfully conducted a comparison study of two different
               sampling methodologies, one using R/V{" "}
-              <em>Falkor (too)&rsquo;s</em> CTD rosette and a new technology,
+              <em>Falkor (too)&rsquo;s</em> CTD and rosette and a new technology,
               AAU-UFO, which uses a McLane large water pump, to identify the
               most effective and accurate technique for sampling microplastics
               in the Ocean.

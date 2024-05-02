@@ -25,7 +25,7 @@ h3 {
   margin: 1em 0;
 }
 
-p{
+p {
   margin: 2rem 0;
 }
 
@@ -37,7 +37,7 @@ li {
   animation: frombottom 1s ease-in-out forwards;
 }
 
-h4{
+h4 {
   color: #737373;
 }
 
@@ -150,18 +150,18 @@ body {
   }
 }
 
-@keyframes frombottomwait{
-  0%{
+@keyframes frombottomwait {
+  0% {
     opacity: 0;
     transform: translateY(50px);
   }
 
-  50%{
+  50% {
     opacity: 0;
     transform: translateY(50px);
   }
 
-  100%{
+  100% {
     opacity: 1;
     transform: translateY(0);
   }
@@ -188,6 +188,7 @@ body {
   text-align: left;
   padding-left: 0;
 }
+
 .tippy-box[data-placement="left"] {
   text-align: right;
   padding-right: 0;
@@ -207,6 +208,7 @@ body {
 
 .mobile {
   display: block;
+
   @media (min-width: 768px) {
     display: none;
   }
@@ -214,7 +216,19 @@ body {
 
 .desktop {
   display: none;
+
   @media (min-width: 768px) {
     display: block;
+  }
+}
+
+body .subsection {
+  padding: 0 2rem;
+  max-width: 1200px;
+  width: calc(80vw - 4rem);
+
+  &>.content-group {
+    width: 100%;
+    max-width: unset;
   }
 }

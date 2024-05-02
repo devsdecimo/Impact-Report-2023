@@ -80,7 +80,7 @@ function UltrafineScaleSeafloorMapping() {
             by InSAS, the team generated what the researchers liken to a
             photograph created with sound instead of light. This technology will
             transform the ability to map, explore, classify, and monitor the
-            seafloor environment in extremely high detail. It{" "}
+            seafloor environment in extremely high detail, and it{" "}
             <a href="https://youtu.be/m7_I4kYlchU?si=_yYeMV7x1Ba-lSYX&amp;t=144">
               <u>
                 dramatically reduces the time needed to explore and locate
@@ -104,8 +104,7 @@ function UltrafineScaleSeafloorMapping() {
             <em>in situ</em>{" "}sighting and specimen collection of a{" "}
             <em>Neopilina galatheae</em>, a limpet-like marine mollusk that has
             never been seen in this region. The scientists also discovered a
-            Pacific white skate nursery associated with hydrothermal vents, the
-            second confirmed deep-sea skate nursery in the Pacific Ocean.
+            Pacific white skate nursery associated with hydrothermal vents.
           </p>
           <p>
             Using InSAS, the science team imaged individual pillows, chimneys,
@@ -119,14 +118,14 @@ function UltrafineScaleSeafloorMapping() {
             Ultimately, the researchers believe InSAS will be a powerful tool
             for gathering more data on what exactly lies on the ocean bottom.
             The science team hopes to prove this tool's usefulness and scale its
-            use for governmental and scientific exploration, informing whether
+            use for government and scientific exploration, informing whether
             certain regions of the seafloor should be protected and if
             activities such as fishing or deep-sea mining should be prevented.
           </p>
 
           <Carousel slides={slides} className="expedition-carousel"></Carousel>
 
-          <h3>Resulting highlights:</h3>
+          <h3>Resulting highlights include:</h3>
           <ul>
             <li>
               Demonstrated that high-quality, detailed InSAS imagery can be

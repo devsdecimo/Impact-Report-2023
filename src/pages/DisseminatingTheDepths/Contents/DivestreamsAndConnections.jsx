@@ -15,7 +15,7 @@ function DivestreamsAndConnections() {
       footer_image="/assets/images/disseminating_the_depths/divestreams_and_connections/Footer.webp"
     >
       <BubbleImage
-        image="/assets/images/disseminating_the_depths/divestreams_and_connections/Divestreams and Connections  -  FKt230812-AndreaShipToShoreGalapagos-20230825-Ingle-1869.webp"
+        image="/assets/images/disseminating_the_depths/divestreams_and_connections/FKt230115-LivestreamTest-20230126-Ingle-9804 (1).webp"
         className="connections-image"
         direction="down"
       />

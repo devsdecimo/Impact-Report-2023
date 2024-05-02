@@ -65,7 +65,7 @@ export const ReachedDataContainer = styled.div`
 
     &-lightblue {
       background-color: #84cbf5;
-      bottom: 17%;
+      bottom: 15.5%;
       right: 28%;
       width: 48%;
       @media (min-width: 768px) {
@@ -122,19 +122,12 @@ export const ReachedDataContainer = styled.div`
 
     &-social {
       font-size: 6.3vw;
-      bottom: 17%;
+      bottom: 15.5%;
       right: 28%;
       width: 48%;
       .counter {
         position: relative;
         padding-right: 2%;
-        /* padding-right: 15%;
-        &::after {
-          content: "+";
-          position: absolute;
-          top: 20%;
-          transform: translateY(-50%);
-        } */
       }
       @media (min-width: 768px) {
         font-size: 1.8vw;
@@ -176,7 +169,7 @@ export const ReachedDataContainer = styled.div`
       text-align: center;
       @media (min-width: 768px) {
         font-size: 1.3vw;
-        right: -100%;
+        right: -123%;
         top: 17%;
         left: unset;
         text-align: left;
@@ -186,7 +179,7 @@ export const ReachedDataContainer = styled.div`
     &-and-more {
       color: #2097d3;
       font-size: 6vw;
-      top: 60%;
+      top: 64%;
       left: 0%;
       text-align: center;
       line-height: 1.5;

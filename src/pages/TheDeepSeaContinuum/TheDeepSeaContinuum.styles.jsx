@@ -31,20 +31,20 @@ export const PageContainer = styled.div`
 
   @media (min-width: 768px) {
     .continuum-image {
-      width: 30vw;
-      max-width: 300px;
+      width: 40vw;
+      max-width: 500px;
     }
   }
 
   @media (min-width: 1400px) {
     .continuum-image {
-      width: 20vw;
+      width: 30vw;
     }
   }
 
   @media (min-width: 1620px) {
     .continuum-image {
-      width: 16vw;
+      width: 20vw;
     }
   }
   /*centrar bubbles en mobile*/
