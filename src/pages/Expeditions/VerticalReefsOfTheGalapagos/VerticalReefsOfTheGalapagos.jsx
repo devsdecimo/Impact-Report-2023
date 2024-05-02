@@ -169,7 +169,6 @@ function VerticalReefsOfTheGalapagos() {
             MAATE-DPNG/DGA-2023-1174-O / PC-51-23 / R-045-2023-OT-CONAGEBIO
           </p>
           <YoutubeVideo videoId="2WRbglQZUl0" />
-          <MapIframe url="https://api.maptiler.com/maps/7c7047c5-0d5a-4209-93ba-38e5fcd60c13/?key=egFVe2SmC2zBUYnGILbj#4.0/3/-90.46" />
           <ExpeditionsNav />
         </div>
       </Page>

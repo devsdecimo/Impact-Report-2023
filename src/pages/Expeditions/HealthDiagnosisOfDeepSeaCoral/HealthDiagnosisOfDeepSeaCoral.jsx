@@ -203,7 +203,6 @@ function HealthDiagnosisOfDeepSeaCoral() {
             (O-VS-PVS15-SJ-01351-01022023)
           </p>
           <YoutubeVideo videoId="L7UwooHRrL0" />
-          <MapIframe url="https://api.maptiler.com/maps/a7a9b38d-ff06-436d-b34a-22922c48ed6c/?key=egFVe2SmC2zBUYnGILbj#6.7/18.20646/-66.35670" />
           <ExpeditionsNav />
         </div>
       </Page>

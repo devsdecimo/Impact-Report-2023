@@ -190,7 +190,6 @@ function InSearchOfHydrothermalLostCities() {
             </li>
           </ul>
           <YoutubeVideo videoId="2RSCnSUe6Nc" />
-          <MapIframe url="https://api.maptiler.com/maps/e368ce32-5d5e-4ea2-baab-95008a16d110/?key=egFVe2SmC2zBUYnGILbj#3.7/22.39536/-54.00255" />
           <ExpeditionsNav />
         </div>
       </Page>

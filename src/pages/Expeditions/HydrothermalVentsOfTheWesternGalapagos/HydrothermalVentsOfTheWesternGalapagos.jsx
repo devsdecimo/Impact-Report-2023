@@ -157,7 +157,6 @@ function HydrothermalVentsOfTheWesternGalapagos() {
             DPNG/DGA-2023-0938-O / PC-51-23
           </p>
           <YoutubeVideo videoId="YAW2x2OURZA" />
-          <MapIframe url="https://api.maptiler.com/maps/1e625064-cc3b-4d1d-9e18-d6736ca01283/?key=egFVe2SmC2zBUYnGILbj#3.6/3.31779/-86.57269" />
           <ExpeditionsNav />
         </div>
       </Page>

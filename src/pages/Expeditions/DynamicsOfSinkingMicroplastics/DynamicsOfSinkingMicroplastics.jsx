@@ -165,7 +165,6 @@ function DynamicsOfSinkingMicroplastics() {
           <p>Permit to conduct research in Panama&rsquo;s waters: 170-23</p>
 
           <YoutubeVideo videoId="D5QFQ_7-RwQ" />
-          <MapIframe url="https://api.maptiler.com/maps/a2ea2297-03c3-4649-ba24-4601f06e98d9/?key=egFVe2SmC2zBUYnGILbj#6.6/7.879/-79.342" />
           <ExpeditionsNav />
         </div>
       </Page>

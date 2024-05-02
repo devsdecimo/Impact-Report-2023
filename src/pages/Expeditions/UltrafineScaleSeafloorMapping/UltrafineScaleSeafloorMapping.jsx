@@ -157,7 +157,6 @@ function UltrafineScaleSeafloorMapping() {
           </p>
 
           <YoutubeVideo videoId="m7_I4kYlchU" />
-          <MapIframe url="https://api.maptiler.com/maps/6fe4420d-e743-4b15-97e7-3c0da9f2e92b/?key=egFVe2SmC2zBUYnGILbj#4.0/2.83751/-82.34852" />
           <ExpeditionsNav />
         </div>
       </Page>
