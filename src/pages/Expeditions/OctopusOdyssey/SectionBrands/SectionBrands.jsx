@@ -17,6 +17,9 @@ import UAF from "/assets/images/brands/uaf-1.svg";
 import UCSC from "/assets/images/brands/UC_Santa_Cruz_logo.svg";
 import SINAC from "/assets/images/brands/sinac.webp";
 
+import IAS from "/assets/images/brands/Institute_for_Advanced_Sustainability_Studies_logo.svg";
+import Boston from "/assets/images/brands/Boston_University_wordmark.svg";
+
 import CarouselBrands from "../../../../components/CarouselBrands/CarouselBrands";
 
 
@@ -39,6 +42,8 @@ function SectionBrands({image,alt}) {
       { img: UCalgary, href: 'https://www.ucalgary.ca/', target: '_blank' , alt:'University of Calgary', orientation: 'vertical'},
       { img: UCSC, href: 'https://www.ucsc.edu/', target: '_blank' , alt:'University of California Santa Cruz', orientation: 'horizontal'},
       { img: WHOI, href: 'https://www.whoi.edu/', target: '_blank' , alt:'Woods Hole Oceanographic Institution', orientation: 'horizontal'},
+      { img: IAS, href: 'https://www.rifs-potsdam.de/en', target: '_blank' , alt:'Institute for Advance Sustainability', orientation: 'vertical'},
+      { img: Boston, href: 'https://www.bu.edu/', target: '_blank' , alt:'Boston University', orientation: 'horizontal'},
     ])
   }, []);
 
