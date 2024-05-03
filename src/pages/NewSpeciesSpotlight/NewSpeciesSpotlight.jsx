@@ -170,7 +170,7 @@ function NewSpeciesSpotlight() {
             title="Pyrolycus jaco"
             subtitle="Eelpout fish"
             text="This new species is differentiated from two western Pacific fish with similar genetics by having a shorter head, snout, jaw, and pectoral fins. It is the first vertebrate species to be described from the Jaco Scar hydrothermal seep site and named for its locality and only known habitat, Jaco Scar, on the Pacific Costa Rica margin."
-            featuredBy={
+            namedBy={
               <a href="https://www.mapress.com/zt/article/view/zootaxa.5230.1.5/49763">
               Dr. Ben Frable and co-authors
               </a>

@@ -145,7 +145,7 @@ function TheUnderworldOfHydrothermalVents() {
               <u>the researchers</u>
             </a>
             , this new knowledge is a reminder that conservation and protection
-            must include what we see on the surface <em>and</em> what is living
+            must include what we see on the surface and what is living
             below.
           </p>
 
