@@ -326,7 +326,7 @@ function Grants({ children }) {
           orientation="left"
           direction="up"
         ></BubbleImage>
-        <h3>Ocean Coalition</h3>
+        <h3>Schmidt Ocean Coalition</h3>
         <p>
           Since 2020, a coalition of Schmidt entities, including Schmidt Ocean
           Institute, Schmidt Family Foundation, and two of its grant-giving
