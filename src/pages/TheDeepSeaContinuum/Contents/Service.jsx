@@ -26,53 +26,53 @@ function Service({ children }) {
         </p>
         <ul>
           <li>
-            <a href="https://www.nationalacademies.org/our-work/2025-2035-decadal-survey-of-ocean-sciences-for-the-national-science-foundation">
+            <a href="https://www.nationalacademies.org/our-work/2025-2035-decadal-survey-of-ocean-sciences-for-the-national-science-foundation" target="_blank" rel="noopener noreferrer">
               Decadal Survey of Ocean Sciences for the National Science
               Foundation
             </a>{" "}
             | Allison Miller
           </li>
           <li>
-            <a href="https://www.weforum.org/friends-of-ocean-action/">
+            <a href="https://www.weforum.org/friends-of-ocean-action/" target="_blank" rel="noopener noreferrer">
               Friends of Ocean Action
             </a>{" "}
             | Dr. Jyotika Virmani
           </li>
           <li>
-            <a href="https://nationalstemchallenge.com/2024">
+            <a href="https://nationalstemchallenge.com/2024" target="_blank" rel="noopener noreferrer">
               National STEM Challenge Advisory Council
             </a>{" "}
             | Dr. Jyotika Virmani
           </li>
           <li>
-            <a href="https://oeab.noaa.gov">
+            <a href="https://oeab.noaa.gov" target="_blank" rel="noopener noreferrer">
               NOAA Ocean Exploration Advisory Board
             </a>{" "}
             | Eric King
           </li>
           <li>
-            <a href="https://www.oceanvisionai.org/">Ocean Vision AI </a>| Dr.
-            Jyotika VIrmani
+            <a href="https://www.oceanvisionai.org/" target="_blank" rel="noopener noreferrer">Ocean Vision AI </a>| Dr.
+            Jyotika Virmani
           </li>
           <li>
-            <a href="https://www.pml.ac.uk/">
+            <a href="https://www.pml.ac.uk/" target="_blank" rel="noopener noreferrer">
               Plymouth Marine Laboratory Board of Trustees
             </a>{" "}
             | Dr. Jyotika Virmani
           </li>
           <li>
-            <a href="https://www.ucar.edu/who-we-are/community-programs/ucp-external-advisory-committee">
+            <a href="https://www.ucar.edu/who-we-are/community-programs/ucp-external-advisory-committee" target="_blank" rel="noopener noreferrer">
               University Corporation for Atmospheric Research Community Programs
               External Advisory Committee
             </a>{" "}
             | Allison Miller
           </li>
           <li>
-            <a href="https://oceandecade.org/publications/ocean-decade-data-information-strategy/">
+            <a href="https://oceandecade.org/publications/ocean-decade-data-information-strategy/" target="_blank" rel="noopener noreferrer">
               UN Decade of Ocean Science for Sustainable Development, Data
               Strategy Implementation Group
             </a>{" "}
-            | Corrine Bassin
+            | Corinne Bassin
           </li>
         </ul>
       </div>

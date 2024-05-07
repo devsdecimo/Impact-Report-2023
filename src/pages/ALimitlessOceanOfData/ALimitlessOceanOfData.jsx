@@ -41,13 +41,13 @@ function ALimistlessOceanOfData() {
             <br />
             We employed a variety of open-source tools to ensure accurate data
             collection, including{" "}
-            <a href="https://github.com/OceanDataTools/openvdm">
+            <a href="https://github.com/OceanDataTools/openvdm" target="_blank" rel="noopener noreferrer">
               <u>OpenVDM,</u>
             </a>{" "}
-            <a href="https://openrvdas.org/">
+            <a href="https://openrvdas.org/" target="_blank" rel="noopener noreferrer">
               <u>OpenRVDAS, and</u>
             </a>{" "}
-            <a href="https://www.influxdata.com/">
+            <a href="https://www.influxdata.com/" target="_blank" rel="noopener noreferrer">
               <u>InfluxDB. </u>
             </a>{" "}
             OpenVDM is a software package supported by Schmidt Ocean Institute

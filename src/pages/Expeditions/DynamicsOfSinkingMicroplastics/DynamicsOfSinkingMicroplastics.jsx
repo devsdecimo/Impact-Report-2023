@@ -126,7 +126,7 @@ function DynamicsOfSinkingMicroplastics() {
           </p>
           <p>
             Ultimately, researchers are{" "}
-            <a href="https://www.youtube.com/watch?v=D5QFQ_7-RwQ&amp;list=PLJGVqQI3okzZsZYBgPx5DqEYTQZLR2CfH&amp;index=20">
+            <a href="https://www.youtube.com/watch?v=D5QFQ_7-RwQ&amp;list=PLJGVqQI3okzZsZYBgPx5DqEYTQZLR2CfH&amp;index=20" target="_blank" rel="noopener noreferrer">
               <u>
                 building an essential picture of microplastic type and
                 concentration{" "}

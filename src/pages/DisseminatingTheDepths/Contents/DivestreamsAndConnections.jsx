@@ -27,7 +27,7 @@ function DivestreamsAndConnections() {
       </p>
       <p>
         We renamed the ROV Livestream the{" "}
-        <a href="https://www.youtube.com/@SchmidtOcean/streams">
+        <a href="https://www.youtube.com/@SchmidtOcean/streams" target="_blank" rel="noopener noreferrer">
           <u>SOI Divestream</u>
         </a>
         . Working alongside Head of Data Solutions Corinne Bassin, the
@@ -47,13 +47,13 @@ function DivestreamsAndConnections() {
       <p>
         The Ship-to-Shore Connection program was adapted from <em>Falkor</em> to{" "}
         <em>Falkor (too)</em> with a more efficient{" "}
-        <a href="https://schmidtocean.org/how-to-apply-for-berths-opportunity-artists-setting-the-course-2023/">
+        <a href="https://schmidtocean.org/how-to-apply-for-berths-opportunity-artists-setting-the-course-2023/" target="_blank" rel="noopener noreferrer">
           <u>sign-up process </u>
         </a>{" "}
         and a new virtual assembly format. For 2023 and beyond, community groups
         and schools within the ship&rsquo;s operating region will be given
         priority for Ship-to-Shore Connections. Regular{" "}
-        <a href="https://www.youtube.com/watch?v=wv3_ZsQkixk">
+        <a href="https://www.youtube.com/watch?v=wv3_ZsQkixk" target="_blank" rel="noopener noreferrer">
           <u>SOI Open Houses</u>
         </a>{" "}
         are livestreamed to SOI&rsquo;s YouTube, providing experiences similar

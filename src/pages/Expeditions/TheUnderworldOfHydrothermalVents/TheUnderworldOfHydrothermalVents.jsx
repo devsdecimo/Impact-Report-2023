@@ -112,11 +112,11 @@ function TheUnderworldOfHydrothermalVents() {
           <p>
             Bright and her team suspected that these mechanisms were taking
             place beneath the surface and set out to resolve this mystery. They{" "}
-            <a href="https://www.youtube.com/watch?v=M7oqvMZriEc&amp;list=PLJGVqQI3okzZsZYBgPx5DqEYTQZLR2CfH&amp;index=22">
+            <a href="https://www.youtube.com/watch?v=M7oqvMZriEc&amp;list=PLJGVqQI3okzZsZYBgPx5DqEYTQZLR2CfH&amp;index=22" target="_blank" rel="noopener noreferrer">
               <u>deployed several experiments</u>
             </a>
             , including a newly designed{" "}
-            <a href="https://www.youtube.com/watch?v=lLo09UflWaQ&amp;list=PLJGVqQI3okzZsZYBgPx5DqEYTQZLR2CfH&amp;index=23">
+            <a href="https://www.youtube.com/watch?v=lLo09UflWaQ&amp;list=PLJGVqQI3okzZsZYBgPx5DqEYTQZLR2CfH&amp;index=23" target="_blank" rel="noopener noreferrer">
               <u>mesh box&ndash;staining gadget</u>
             </a>{" "}
             used at tubeworm clumps to study which animals and microbes are
@@ -141,7 +141,7 @@ function TheUnderworldOfHydrothermalVents() {
             Ultimately, this discovery transforms our scientific understanding
             of ecology and the evolution of animal life at and beneath
             hydrothermal vents in the deep sea. For{" "}
-            <a href="https://www.youtube.com/watch?v=E4_CCzfwKmw&amp;list=PLJGVqQI3okzZsZYBgPx5DqEYTQZLR2CfH&amp;index=21">
+            <a href="https://www.youtube.com/watch?v=E4_CCzfwKmw&amp;list=PLJGVqQI3okzZsZYBgPx5DqEYTQZLR2CfH&amp;index=21" target="_blank" rel="noopener noreferrer">
               <u>the researchers</u>
             </a>
             , this new knowledge is a reminder that conservation and protection

@@ -76,7 +76,7 @@ function InSearchOfHydrothermalLostCities() {
             </li>
             <li>
               Demonstrate the effectiveness of a{" "}
-              <a href="https://www.youtube.com/watch?v=BFqRPOZqpnw&amp;list=PLJGVqQI3okzZsZYBgPx5DqEYTQZLR2CfH&amp;index=32">
+              <a href="https://www.youtube.com/watch?v=BFqRPOZqpnw&amp;list=PLJGVqQI3okzZsZYBgPx5DqEYTQZLR2CfH&amp;index=32" target="_blank" rel="noopener noreferrer">
                 <u>nested approach</u>
               </a>{" "}
               that uses a combination of technologies to progressively increase
@@ -88,7 +88,7 @@ function InSearchOfHydrothermalLostCities() {
           <p>
             In 2000, scientists found a new alkaline hydrothermal vent system on
             the{" "}
-            <a href="https://new.nsf.gov/news/scientists-discover-secrets-lost-city">
+            <a href="https://new.nsf.gov/news/scientists-discover-secrets-lost-city" target="_blank" rel="noopener noreferrer">
               <u>Atlantis Massif</u>
             </a>{" "}
             and named it the Lost City. Ghostly towers made of limestone sprang
@@ -119,7 +119,7 @@ function InSearchOfHydrothermalLostCities() {
             Puy des Folles, an on-axis volcano, an oceanic core complex
             associated with the eastern intersection of the Mid-Atlantic Ridge,
             the Kane Fracture Zone, and one{" "}
-            <a href="https://en.wikipedia.org/wiki/Fracture_zone">
+            <a href="https://en.wikipedia.org/wiki/Fracture_zone" target="_blank" rel="noopener noreferrer">
               <u>non-transform ridge offset </u>
             </a>{" "}
             called Grappe Deux.
@@ -127,7 +127,7 @@ function InSearchOfHydrothermalLostCities() {
           <p>
             Ultimately, they did not locate any vents like the Lost City type.
             However, they systematically searched and{" "}
-            <a href="https://www.youtube.com/watch?v=JsOv8Kp1jDE">
+            <a href="https://www.youtube.com/watch?v=JsOv8Kp1jDE" target="_blank" rel="noopener noreferrer">
               <u>discovered three active hydrothermal vent fields</u>
             </a>
             . One is located at the Puy des Folles volcano, where there are five
@@ -135,7 +135,7 @@ function InSearchOfHydrothermalLostCities() {
             discovered high-temperature black smoker vents at the Grappe Deux
             Vent System and Kane Fracture Zone. These were the first new vents
             located in the region{" "}
-            <a href="https://vents-data.interridge.org/">
+            <a href="https://vents-data.interridge.org/" target="_blank" rel="noopener noreferrer">
               <u>in more than 40 years</u>
             </a>
             .
@@ -150,7 +150,7 @@ function InSearchOfHydrothermalLostCities() {
             seafloor. The effectiveness of using a nested approach is evident as
             it allowed researchers to discover and characterize vent activity in
             just a few days, which NOAA Oceanographer{" "}
-            <a href="https://youtu.be/BFqRPOZqpnw?si=D1ow8avd7x2u0qaq&amp;t=66">
+            <a href="https://youtu.be/BFqRPOZqpnw?si=D1ow8avd7x2u0qaq&amp;t=66" target="_blank" rel="noopener noreferrer">
               <u>Dr. Sharon Walker describes</u>
             </a>{" "}
             as a miraculous timeframe.
@@ -158,7 +158,7 @@ function InSearchOfHydrothermalLostCities() {
           <p>
             Discovering active venting at these locations also revealed that the
             region{" "}
-            <a href="https://www.youtube.com/watch?v=rPxqrxfQ7-E&amp;list=PLJGVqQI3okzZsZYBgPx5DqEYTQZLR2CfH&amp;index=31">
+            <a href="https://www.youtube.com/watch?v=rPxqrxfQ7-E&amp;list=PLJGVqQI3okzZsZYBgPx5DqEYTQZLR2CfH&amp;index=31" target="_blank" rel="noopener noreferrer">
               <u>hosts thriving ecosystems</u>
             </a>
             . To fully protect these fragile habitats, it is essential to
@@ -183,7 +183,7 @@ function InSearchOfHydrothermalLostCities() {
             <li>
               Demonstrating the success of a nested approach of technologies
               that rapidly accelerated the time needed{" "}
-              <a href="https://www.youtube.com/watch?v=2RSCnSUe6Nc&amp;list=PLJGVqQI3okzZsZYBgPx5DqEYTQZLR2CfH&amp;index=30">
+              <a href="https://www.youtube.com/watch?v=2RSCnSUe6Nc&amp;list=PLJGVqQI3okzZsZYBgPx5DqEYTQZLR2CfH&amp;index=30" target="_blank" rel="noopener noreferrer">
                 <u>to locate and discover hydrothermal vents</u>
               </a>{" "}
               on the seafloor.

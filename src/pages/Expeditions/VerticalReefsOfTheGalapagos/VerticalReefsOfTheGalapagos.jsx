@@ -74,7 +74,7 @@ function VerticalReefsOfTheGalapagos() {
             region ideal for this study. While they are understudied compared to
             shallow-water corals, a subset of these deep-dwelling animals is
             even more shrouded in mystery &mdash;{" "}
-            <a href="https://www.youtube.com/watch?v=OYQUPMJyZzE&amp;list=PLJGVqQI3okzZsZYBgPx5DqEYTQZLR2CfH&amp;index=17">
+            <a href="https://www.youtube.com/watch?v=OYQUPMJyZzE&amp;list=PLJGVqQI3okzZsZYBgPx5DqEYTQZLR2CfH&amp;index=17" target="_blank" rel="noopener noreferrer">
               <u>cold-water corals living on cliffs</u>
             </a>
             . The depth and inaccessibility of vertical corals to ship-based

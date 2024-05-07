@@ -74,7 +74,7 @@ function StrategicPartnerships() {
           activities to engage women in marine science and technology, and
           special events in the United States. In partnership with IEEE-OES this
           summer, SOI welcomed{" "}
-          <a href="https://schmidtocean.org/person/monika-aggarwal/">
+          <a href="https://schmidtocean.org/person/monika-aggarwal/" target="_blank" rel="noopener noreferrer">
             Professor Monika Aggarwal
           </a>{" "}
           from IIT Delhi, India, on board R/V <em>Falkor (too)</em> via our
@@ -98,16 +98,16 @@ function StrategicPartnerships() {
           Institute for the first time in 2023. Dr. Laura Simon-Sanchez brought
           her exploration team of four to study microplastic distribution and
           movement in the water column off the coast of Panama. The{" "}
-          <a href="https://schmidtocean.org/cruise/dynamics-of-sinking-microplastics/">
+          <a href="https://schmidtocean.org/cruise/dynamics-of-sinking-microplastics/" target="_blank" rel="noopener noreferrer">
             Dynamics of Sinking Microplastics expedition{" "}
           </a>
           was{" "}
-          <a href="https://www.cbs.com/shows/video/2bYZkzAy1kVplIKmgUQD_9bz3phVMPra/">
+          <a href="https://www.cbs.com/shows/video/2bYZkzAy1kVplIKmgUQD_9bz3phVMPra/" target="_blank" rel="noopener noreferrer">
             covered by Ben Tracy for CBS Mornings
           </a>
           . Dr. Ana-Belen Yanez Suarez, another National Geographic Explorer,
           joined Dr. Katleen Robert for the{" "}
-          <a href="https://schmidtocean.org/cruise/vertical-reefs-of-the-galapagos/#about">
+          <a href="https://schmidtocean.org/cruise/vertical-reefs-of-the-galapagos/#about" target="_blank" rel="noopener noreferrer">
             Vertical Reefs of the Gal&aacute;pagos expedition
           </a>
           . Yanez Suarez and the team explored seamounts southwest of Isla del
@@ -126,7 +126,7 @@ function StrategicPartnerships() {
         <p>
           To accelerate society&rsquo;s response to climate change, Schmidt
           Ocean Institute partnered with Schmidt Sciences{" "}
-          <a href="https://www.schmidtfutures.org/our-work-old/obvi/">
+          <a href="https://www.schmidtfutures.org/our-work-old/obvi/" target="_blank" rel="noopener noreferrer">
             Ocean Biogeochemistry Virtual Institute, or OBVI
           </a>
           , to tackle challenging data and modeling problems in ocean
@@ -160,7 +160,7 @@ function StrategicPartnerships() {
         <p>
           Only 10% of ocean life has been discovered, and a new collaboration
           was formed to address this knowledge gap. The{" "}
-          <a href="https://oceancensus.org/">Ocean Census </a>was created as an
+          <a href="https://oceancensus.org/" target="_blank" rel="noopener noreferrer">Ocean Census </a>was created as an
           open network of science, business, media, and civil society
           organizations to accelerate the discovery of ocean life. The primary
           goal will be to discover 100,000 new species within the coming decade
@@ -198,7 +198,7 @@ function StrategicPartnerships() {
           from the clothes we wear to the games we play &mdash; with the
           undersea world is a powerful avenue for raising awareness of the
           Ocean. Established in 2021 by Schmidt Ocean Institute and Nekton,{" "}
-          <a href="https://schmidtocean.org/ocean-rising/">Ocean Rising</a>{" "}
+          <a href="https://schmidtocean.org/ocean-rising/" target="_blank" rel="noopener noreferrer">Ocean Rising</a>{" "}
           deepens people&rsquo;s relationship with the Ocean by galvanizing
           connections through global popular culture. Since the
           initiative&rsquo;s inception, workshops have brought media, film, fine
@@ -209,20 +209,20 @@ function StrategicPartnerships() {
           In 2023, the initiative focused on fashion. Global luxury designer
           Jenny Packham used SOI imagery as inspiration for a resort wear
           collection featured in
-          <a href="https://www.vogue.com/fashion-shows/resort-2024/jenny-packham">
+          <a href="https://www.vogue.com/fashion-shows/resort-2024/jenny-packham" target="_blank" rel="noopener noreferrer">
             {" "}
             Vogue
           </a>
           . Taiwanese designer Pei-Wen Jin{" "}
-          <a href="https://www.youtube.com/watch?v=I5qVjM1Q55s&amp;t=43s">
+          <a href="https://www.youtube.com/watch?v=I5qVjM1Q55s&amp;t=43s" target="_blank" rel="noopener noreferrer">
             sailed on <em>Falkor (too)</em>
           </a>{" "}
           during the{" "}
-          <a href="https://schmidtocean.org/cruise/dynamics-of-sinking-microplastics/">
+          <a href="https://schmidtocean.org/cruise/dynamics-of-sinking-microplastics/" target="_blank" rel="noopener noreferrer">
             Dynamics of Sinking Microplastics
           </a>{" "}
           expedition as an{" "}
-          <a href="https://schmidtocean.org/collection/artist-at-sea/">
+          <a href="https://schmidtocean.org/collection/artist-at-sea/" target="_blank" rel="noopener noreferrer">
             Artist-at-Sea
           </a>
           ; she sketched a sustainable, research vessel-inspired clothing line
@@ -231,7 +231,7 @@ function StrategicPartnerships() {
           competition for early-career fashion designers; Redress is a Hong
           Kong-based NGO working to accelerate the transition to a circular
           fashion industry.{" "}
-          <a href="https://www.instagram.com/shanhua.me/">Shan Hua</a>, digital
+          <a href="https://www.instagram.com/shanhua.me/" target="_blank" rel="noopener noreferrer">Shan Hua</a>, digital
           art winner of the Vogue China Fashion Fund, also joined the expedition
           and worked with Vogue journalists to produce a video about her
           experience.
@@ -247,7 +247,7 @@ function StrategicPartnerships() {
         <h3>Seabed 2030</h3>
         <p>
           Since 2019, Schmidt Ocean Institute has been a partner in the{" "}
-          <a href="https://seabed2030.org/">
+          <a href="https://seabed2030.org/" target="_blank" rel="noopener noreferrer">
             Nippon Foundation-GEBCO Seabed 2030 Project
           </a>
           , a collaboration of organizations that map the seafloor or have an
@@ -268,7 +268,7 @@ function StrategicPartnerships() {
           remarks, she highlighted the power of the alum network to develop and
           use technologies for seafloor mapping, which advances ocean discovery
           for the greater good. In November, SOI sponsored the{" "}
-          <a href="https://www.youtube.com/@mapthegaps/streams">
+          <a href="https://www.youtube.com/@mapthegaps/streams" target="_blank" rel="noopener noreferrer">
             Map the Gaps Conference
           </a>{" "}
           in Monaco, alongside GEBCO week, which celebrated the 120th

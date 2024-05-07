@@ -108,7 +108,7 @@ function OctopusOdyssey() {
             As a result, scientists confirmed that{" "}<em>Muusoctopus</em>{" "}
             nurseries offshore of Costa Rica support baby octopuses throughout
             the year, not just during the rainy season,{" "}
-            <a href="https://www.youtube.com/watch?v=wHAHe2T2dl0&amp;list=PLJGVqQI3okzZsZYBgPx5DqEYTQZLR2CfH&amp;index=8">
+            <a href="https://www.youtube.com/watch?v=wHAHe2T2dl0&amp;list=PLJGVqQI3okzZsZYBgPx5DqEYTQZLR2CfH&amp;index=8" target="_blank" rel="noopener noreferrer">
               <u>as observed in June</u>
             </a>
             . The team believes they have discovered four new octopus species
@@ -135,11 +135,11 @@ function OctopusOdyssey() {
           <p>
             The observed deep-sea octopus and skate nurseries meet definitions
             of{" "}
-            <a href="https://www.fao.org/in-action/vulnerable-marine-ecosystems/definitions/en/">
+            <a href="https://www.fao.org/in-action/vulnerable-marine-ecosystems/definitions/en/" target="_blank" rel="noopener noreferrer">
               <u>Vulnerable Marine Ecosystems</u>
             </a>{" "}
             and{" "}
-            <a href="https://gobi.org/ebsas/">
+            <a href="https://gobi.org/ebsas/" target="_blank" rel="noopener noreferrer">
               <u>Ecologically and Biologically Sensitive Areas</u>
             </a>{" "}
             because they are essential for the survival of these populations.

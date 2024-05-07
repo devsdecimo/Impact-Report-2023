@@ -91,7 +91,7 @@ function HealthDiagnosisOfDeepSeaCoral() {
             Corals play a foundational role in deep-sea ecosystems by providing
             habitats where invertebrate and fish communities can thrive. Corals
             produce extracellular{" "}
-            <a href="https://www.youtube.com/watch?v=svYFr892fGQ&amp;list=PLJGVqQI3okzZsZYBgPx5DqEYTQZLR2CfH&amp;index=29">
+            <a href="https://www.youtube.com/watch?v=svYFr892fGQ&amp;list=PLJGVqQI3okzZsZYBgPx5DqEYTQZLR2CfH&amp;index=29" target="_blank" rel="noopener noreferrer">
               <u>reactive oxygen species called ROS,</u>
             </a>{" "}
             which are short-lived oxygen-containing molecules. These molecules
@@ -101,7 +101,7 @@ function HealthDiagnosisOfDeepSeaCoral() {
           </p>
           <p>
             Previous research by the{" "}
-            <a href="https://www2.whoi.edu/site/hansel-lab/">
+            <a href="https://www2.whoi.edu/site/hansel-lab/" target="_blank" rel="noopener noreferrer">
               <u>Hansel Lab</u>
             </a>{" "}
             demonstrated that shallow corals produce the ROS hydrogen peroxide.
@@ -120,7 +120,7 @@ function HealthDiagnosisOfDeepSeaCoral() {
             analysis will not work because the molecules are unstable and react
             almost instantly with other molecules, vanishing in about 30
             seconds. To determine if and how deep-sea corals produce ROS,{" "}
-            <a href="https://www.youtube.com/watch?v=7rPfn6T4gLo&amp;list=PLJGVqQI3okzZsZYBgPx5DqEYTQZLR2CfH&amp;index=28">
+            <a href="https://www.youtube.com/watch?v=7rPfn6T4gLo&amp;list=PLJGVqQI3okzZsZYBgPx5DqEYTQZLR2CfH&amp;index=28" target="_blank" rel="noopener noreferrer">
               <u>a novel sensor called SOLARIS</u>
             </a>{" "}
             was integrated into ROV <em>SuBastian</em>. SOLARIS was designed to
@@ -135,11 +135,11 @@ function HealthDiagnosisOfDeepSeaCoral() {
             ecology, physiology, and health. The sensor design was based on a
             handheld version, DISCO. Hansel and a Woods Hole Oceanographic
             Institution team developed{" "}
-            <a href="https://www.whoi.edu/oceanus/feature/a-disco-in-the-ocean/">
+            <a href="https://www.whoi.edu/oceanus/feature/a-disco-in-the-ocean/" target="_blank" rel="noopener noreferrer">
               <u>both devices</u>
             </a>
             , and{" "}
-            <a href="https://schmidtmarine.org/">
+            <a href="https://schmidtmarine.org/" target="_blank" rel="noopener noreferrer">
               <u>Schmidt Marine Technology Partners</u>
             </a>{" "}
             funded DISCO.
@@ -158,7 +158,7 @@ function HealthDiagnosisOfDeepSeaCoral() {
             The researchers found that this area of Puerto Rico &mdash; with
             fewer nutrients in the water column &mdash; has corals managing to
             survive and proliferate.{" "}
-            <a href="https://www.youtube.com/watch?v=L7UwooHRrL0&amp;list=PLJGVqQI3okzZsZYBgPx5DqEYTQZLR2CfH&amp;index=28">
+            <a href="https://www.youtube.com/watch?v=L7UwooHRrL0&amp;list=PLJGVqQI3okzZsZYBgPx5DqEYTQZLR2CfH&amp;index=28" target="_blank" rel="noopener noreferrer">
               <u>To Hansel</u>
             </a>
             , this has the potential to open up a whole new area of science

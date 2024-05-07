@@ -71,7 +71,7 @@ function UltrafineScaleSeafloorMapping() {
             During this expedition, led by Chief Scientist Dr. John Jamieson, an
             international team tested a sonar system new to scientific seafloor
             mapping,{" "}
-            <a href="https://www.youtube.com/watch?v=m7_I4kYlchU">
+            <a href="https://www.youtube.com/watch?v=m7_I4kYlchU" target="_blank" rel="noopener noreferrer">
               <u>Interferometric Synthetic Aperture Sonar, or InSAS</u>
             </a>
             , which enabled them to locate seafloor features with greater
@@ -81,7 +81,7 @@ function UltrafineScaleSeafloorMapping() {
             photograph created with sound instead of light. This technology will
             transform the ability to map, explore, classify, and monitor the
             seafloor environment in extremely high detail, and it{" "}
-            <a href="https://youtu.be/m7_I4kYlchU?si=_yYeMV7x1Ba-lSYX&amp;t=144">
+            <a href="https://youtu.be/m7_I4kYlchU?si=_yYeMV7x1Ba-lSYX&amp;t=144" target="_blank" rel="noopener noreferrer">
               <u>
                 dramatically reduces the time needed to explore and locate
                 seafloor features
@@ -142,7 +142,7 @@ function UltrafineScaleSeafloorMapping() {
             </li>
             <li>
               Video footage revealed the{" "}
-              <a href="https://www.biorxiv.org/content/10.1101/2023.11.28.568903v1.full">
+              <a href="https://www.biorxiv.org/content/10.1101/2023.11.28.568903v1.full" target="_blank" rel="noopener noreferrer">
                 <u>presence of 15 animal species previously not recorded</u>
               </a>{" "}
               in this region of the Ocean, some of which may be new to science;

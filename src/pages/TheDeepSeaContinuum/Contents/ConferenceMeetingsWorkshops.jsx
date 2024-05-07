@@ -39,7 +39,7 @@ function ConferenceMeetingsWorkshops({ children }) {
           attended virtually &mdash; gave updates on their organizational
           activities, reviewed a survey of impacts by Pink Flamingo Society
           members,{" "}
-          <a href="https://oceandecade.org/">the UN Decade of Ocean Science</a>,
+          <a href="https://oceandecade.org/" target="_blank" rel="noopener noreferrer">the UN Decade of Ocean Science</a>,
           Ocean Census, and seabed mapping, and discussed ideas for
           presentations at upcoming meetings.
         </p>
@@ -91,7 +91,7 @@ function ConferenceMeetingsWorkshops({ children }) {
         <p>
           As part of the UN Ocean Decade Strategic Communications Group, Dr.
           Carlie Wiener led a training,{" "}
-          <a href="https://dse.berkeley.edu/science-storytelling">
+          <a href="https://dse.berkeley.edu/science-storytelling" target="_blank" rel="noopener noreferrer">
             Storytelling for Science
           </a>
           , at the University of California Berkeley and Santa Barbara. The
@@ -111,7 +111,7 @@ function ConferenceMeetingsWorkshops({ children }) {
         <h3>UN Decade Foundations Dialogue</h3>
         <p>
           Schmidt Ocean Institute is part of the{" "}
-          <a href="https://www.youtube.com/watch?v=CN8zJo1pwNo">
+          <a href="https://www.youtube.com/watch?v=CN8zJo1pwNo" target="_blank" rel="noopener noreferrer">
             UN Ocean Decade Foundations Dialogues
           </a>
           , and staff attended the Third Foundations Dialogue in Monaco. Dr.
@@ -124,7 +124,7 @@ function ConferenceMeetingsWorkshops({ children }) {
           Ocean Decade. Jyotika and Eric King shared the opportunities and
           bottlenecks for research vessels with other participants. SOI is a
           signatory of the{" "}
-          <a href="https://oceandecade.org/wp-content/uploads/Monaco-Statement.pdf">
+          <a href="https://oceandecade.org/wp-content/uploads/Monaco-Statement.pdf" target="_blank" rel="noopener noreferrer">
             Monaco Statement 2023
           </a>
           , which summarizes the role of the philanthropic community and the
@@ -141,7 +141,7 @@ function ConferenceMeetingsWorkshops({ children }) {
         <h3>Virtual Symposium</h3>
         <p>
           Schmidt Ocean Institute held its second virtual symposium,{" "}
-          <a href="https://schmidtocean.org/setting-the-course-2023/">
+          <a href="https://schmidtocean.org/setting-the-course-2023/" target="_blank" rel="noopener noreferrer">
             Setting the Course
           </a>
           , in the spring of 2023, kicking off our inaugural year of science on
@@ -159,7 +159,7 @@ function ConferenceMeetingsWorkshops({ children }) {
       <div className="content-group">
         <h3>In 2023, Schmidt Ocean Institute sponsored:</h3>
         <h4>
-          <a href="https://oceanworlds.space/">
+          <a href="https://oceanworlds.space/" target="_blank" rel="noopener noreferrer">
             <strong>Network for Ocean Worlds</strong>
           </a>
           <strong>
@@ -179,7 +179,7 @@ function ConferenceMeetingsWorkshops({ children }) {
           orientation="right"
         />
         <p>
-          <a href="https://events.geomar.de/event/165/">
+          <a href="https://events.geomar.de/event/165/" target="_blank" rel="noopener noreferrer">
             <strong>Stronger Together - Oceanic Volcanism</strong>
           </a>
           <strong>, </strong>12 -15 September 2023, Kiel, Germany
@@ -191,7 +191,7 @@ function ConferenceMeetingsWorkshops({ children }) {
           needs.
         </p>
         <p>
-          <a href="https://www.imarest.org/events/oceans-of-knowledge-2023.html">
+          <a href="https://www.imarest.org/events/oceans-of-knowledge-2023.html" target="_blank" rel="noopener noreferrer">
             <strong>
               Beyond Net Zero: The Role of the Ocean in Climate Change
             </strong>
@@ -203,7 +203,7 @@ function ConferenceMeetingsWorkshops({ children }) {
           acceptability of marine carbon dioxide removal.&nbsp;
         </p>
         <p>
-          <a href="https://www.mapthegaps.org/symposium-2023">
+          <a href="https://www.mapthegaps.org/symposium-2023" target="_blank" rel="noopener noreferrer">
             <strong>Map the Gaps</strong>
           </a>
           , 7- 8 November 2023, Monaco&nbsp;

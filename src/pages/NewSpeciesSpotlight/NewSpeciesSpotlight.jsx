@@ -31,12 +31,12 @@ function NewSpeciesSpotlight() {
             text="Mundopsis cortesi is distinguished from other squat lobsters by its distinctive pattern of small tooth-shaped spines on its legs; these spines are also present on the flanks of the body, which are called the pterygostomian flaps."
             italicWords={["Mundopsis cortesi"]}
             namedBy={
-              <a href="https://www.publish.csiro.au/is/Fulltext/IS22030">
+              <a href="https://www.publish.csiro.au/is/Fulltext/IS22030" target="_blank" rel="noopener noreferrer">
                 Dr. Paula Rodríguez Flores and co-authors
               </a>
             }
             expedition={
-              <a href="https://schmidtocean.org/cruise/costa-rican-deep-sea-connections/">
+              <a href="https://schmidtocean.org/cruise/costa-rican-deep-sea-connections/" target="_blank" rel="noopener noreferrer">
                 Costa Rican Deep-Sea Connections
               </a>
             }
@@ -55,12 +55,12 @@ function NewSpeciesSpotlight() {
             subtitle="Squat lobster"
             text="Also known as Galatheid crabs, these animals are not lobsters, rather they are crabs. They have adapted to live in one of the harshest environments in the deep Ocean, and scientists suspect they feed on bacteria living at hydrothermal vents. This species is covered in filamentous bacteria, making it appear as if it is wearing a fuzzy coat."
             namedBy={
-              <a href="https://www.publish.csiro.au/is/Fulltext/IS22030">
+              <a href="https://www.publish.csiro.au/is/Fulltext/IS22030" target="_blank" rel="noopener noreferrer">
                 Dr. Paula Rodríguez-Flores and co-authors
               </a>
             }
             expedition={
-              <a href="https://schmidtocean.org/cruise/costa-rican-deep-sea-connections/">
+              <a href="https://schmidtocean.org/cruise/costa-rican-deep-sea-connections/" target="_blank" rel="noopener noreferrer">
                 Interdisciplinary Investigation of a New Hydrothermal Vent Field
                 and Costa Rican Deep-Sea Connections{" "}
               </a>
@@ -91,12 +91,12 @@ function NewSpeciesSpotlight() {
             text="Carnivorous sponges attach to the seafloor and extend their feeding structures into the water column to capture passing prey and small animals such as crustaceans. This new species is closely related to the Japanese species Abyssocladia natsushimae, but it has a much smaller and circular body size."
             italicWords={["Abyssocladia falkor"]}
             namedBy={
-              <a href="https://mapress.com/zt/article/view/zootaxa.5293.3.2">
+              <a href="https://mapress.com/zt/article/view/zootaxa.5293.3.2" target="_blank" rel="noopener noreferrer">
                 Drs. Merrick Ekins and John N.A. Hooper
               </a>
             }
             expedition={
-              <a href="https://schmidtocean.org/cruise/seamounts_canyons_reefs_coralsea/">
+              <a href="https://schmidtocean.org/cruise/seamounts_canyons_reefs_coralsea/" target="_blank" rel="noopener noreferrer">
                 Seamounts, Canyons, and Reefs of the Coral Sea
               </a>
             }
@@ -116,12 +116,12 @@ function NewSpeciesSpotlight() {
             text="These carnivorous sponges are known for their feeding structures and predatory behavior. This species is similar to Abssocladia falkor, but lacks features used for protection called microspheres and microstronglyes."
             italicWords={["SuBastian’", "Abssocladia falkor"]}
             namedBy={
-              <a href="https://mapress.com/zt/article/view/zootaxa.5293.3.2">
+              <a href="https://mapress.com/zt/article/view/zootaxa.5293.3.2" target="_blank" rel="noopener noreferrer">
                 Drs. Merrick Ekins and John N. A. Hooper
               </a>
             }
             expedition={
-              <a href="https://schmidtocean.org/cruise/seamounts_canyons_reefs_coralsea/">
+              <a href="https://schmidtocean.org/cruise/seamounts_canyons_reefs_coralsea/" target="_blank" rel="noopener noreferrer">
                 Seamounts, Canyons, and Reefs of the Coral Sea
               </a>
             }
@@ -141,17 +141,17 @@ function NewSpeciesSpotlight() {
             text="Axoniderma wanda is unique among closely related examples of this species because they have an external lure originating from the convex face of the body. The species was named for its resemblance to the alien wanderer in the novel and 2013 film, The Host."
             italicWords={["Axoniderma wanda", "The Host"]}
             namedBy={
-              <a href="https://mapress.com/zt/article/view/zootaxa.5293.3.2">
+              <a href="https://mapress.com/zt/article/view/zootaxa.5293.3.2" target="_blank" rel="noopener noreferrer">
                 Drs. Merrick Ekins and John N. A. Hooper
               </a>
             }
             expedition={
               <>
-                <a href="https://schmidtocean.org/cruise/seamounts_canyons_reefs_coralsea/">
+                <a href="https://schmidtocean.org/cruise/seamounts_canyons_reefs_coralsea/" target="_blank" rel="noopener noreferrer">
                   Seamounts, Canyons, and Reefs of the Coral Sea
                 </a>{" "}
                 and{" "}
-                <a href="https://schmidtocean.org/cruise/northern-depths-of-the-great-barrier-reef/">
+                <a href="https://schmidtocean.org/cruise/northern-depths-of-the-great-barrier-reef/" target="_blank" rel="noopener noreferrer">
                   Northern Depths of the Great Barrier Reef
                 </a>
               </>
@@ -171,12 +171,12 @@ function NewSpeciesSpotlight() {
             subtitle="Eelpout fish"
             text="This new species is differentiated from two western Pacific fish with similar genetics by having a shorter head, snout, jaw, and pectoral fins. It is the first vertebrate species to be described from the Jaco Scar hydrothermal seep site and named for its locality and only known habitat, Jaco Scar, on the Pacific Costa Rica margin."
             namedBy={
-              <a href="https://www.mapress.com/zt/article/view/zootaxa.5230.1.5/49763">
+              <a href="https://www.mapress.com/zt/article/view/zootaxa.5230.1.5/49763" target="_blank" rel="noopener noreferrer">
               Dr. Ben Frable and co-authors
               </a>
             }
             expedition={
-              <a href="https://schmidtocean.org/cruise/costa-rican-deep-sea-connections/">
+              <a href="https://schmidtocean.org/cruise/costa-rican-deep-sea-connections/" target="_blank" rel="noopener noreferrer">
                 Costa Rican Deep-Sea Connections
               </a>
             }
@@ -199,19 +199,19 @@ function NewSpeciesSpotlight() {
             text="Ophyrotrocha marinae is found at hydrothermal vents in the Gulf of California, often in great abundance around Oasisia alvinae, a species of deep-sea tubeworm, on microbial mats near active flows. "
             italicWords={["Ophyrotrocha marinae", "Oasisia alvinae"]}
             namedBy={
-              <a href="https://europeanjournaloftaxonomy.eu/index.php/ejt/article/view/2101/8815">
+              <a href="https://europeanjournaloftaxonomy.eu/index.php/ejt/article/view/2101/8815" target="_blank" rel="noopener noreferrer">
                 Dr. Dongsheng Zhang and co-authors
               </a>
             }
             expedition={
               <>
-                <a href="https://schmidtocean.org/cruise/interdisciplinary-investigation-of-new-hydrothermal-vent-field/">
+                <a href="https://schmidtocean.org/cruise/interdisciplinary-investigation-of-new-hydrothermal-vent-field/" target="_blank" rel="noopener noreferrer">
                   {" "}
                   Interdisciplinary Investigation of a New Hydrothermal Vent
                   Field{" "}
                 </a>{" "}
                 and{" "}
-                <a href="https://schmidtocean.org/cruise/interdisciplinary-investigation-of-the-pescadero-basin/">
+                <a href="https://schmidtocean.org/cruise/interdisciplinary-investigation-of-the-pescadero-basin/" target="_blank" rel="noopener noreferrer">
                   Interdisciplinary Investigation of the Pescadero Basin{" "}
                 </a>
               </>
