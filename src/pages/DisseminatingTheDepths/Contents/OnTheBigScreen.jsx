@@ -30,7 +30,7 @@ function OnTheBigScreen({ children }) {
       </p>
       <p>
         ROV<em> SuBastian</em> was the primary source of underwater footage in
-        &ldquo;{" "}
+        &ldquo;
         <a href="https://www.google.com/search?q=Deep+Rising+documentary&amp;client=firefox-b-1-d&amp;sca_esv=596692341&amp;ei=1YWcZcDZAdyv0PEP0PeW2AY&amp;ved=0ahUKEwiAmPfI-c6DAxXcFzQIHdC7BWsQ4dUDCBA&amp;uact=5&amp;oq=Deep+Rising+documentary&amp;gs_lp=Egxnd3Mtd2l6LXNlcnAiF0RlZXAgUmlzaW5nIGRvY3VtZW50YXJ5MgUQLhiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIjEC4YgAQYlwUY3AQY3gQY4AQY9AMY8QMY9QMY9gMY9wPYAQFI5xRQtAJYgBNwAXgBkAEAmAGeAaAB9gmqAQM4LjW4AQPIAQD4AQHCAgoQABhHGNYEGLADwgIIEC4YsQMYgATCAgoQABiABBiKBRhDwgImEC4YsQMYgAQYlwUY3AQY3gQY4AQY9AMY8QMY9QMY9gMY9wPYAQHCAgsQABiABBiKBRiRAsICIxAuGIAEGJcFGNwEGN4EGOAEGPQDGPEDGPUDGPYDGPcD2AEBwgILEAAYgAQYigUYhgPiAwQYACBBiAYBkAYIugYGCAEQARgU&amp;sclient=gws-wiz-serp#fpstate=ive&amp;vld=cid:df1991a1,vid:sFVBqg41jms,st:0" target="_blank" rel="noopener noreferrer">
           <u>Deep Rising</u>
         </a>

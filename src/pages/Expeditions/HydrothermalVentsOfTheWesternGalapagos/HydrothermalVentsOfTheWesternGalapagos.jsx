@@ -27,7 +27,7 @@ function HydrothermalVentsOfTheWesternGalapagos() {
     },
     {
       img: `${slidesPath}FKt230812-S0566-20230824T163304Z-Approved-SubastianBothArmsIgt.webp`,
-      alt: " ROV SuBastian taking samples of hydrothermal vent fluid at Pinguinos (Western Galapagos Spreading Center).",
+      alt: " ROV SuBastian taking samples of hydrothermal vent fluid at Pingüinos (Western Galapagos Spreading Center).",
     },
     {
       img: `${slidesPath}Fkt230812-S0570-20230830T133535Z-scitoo-Grimalditeuthis-APPROVED.webp`,
@@ -120,7 +120,7 @@ function HydrothermalVentsOfTheWesternGalapagos() {
             microbiology, successfully tested a new fiber-optic DTS device, and
             produced new high-resolution maps of the region. This expedition
             represents the most comprehensive sample collection taken at the
-            Iguanas and Pinguinos vent sites and the first at the Navidad and
+            Iguanas and Pingüinos vent sites and the first at the Navidad and
             Sendero del Cangrejo vent sites. Samples will help the scientists
             create a big-picture view of how life on hydrothermal vents
             functions across time and space, as they offer a comparison to the

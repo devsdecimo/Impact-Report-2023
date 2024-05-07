@@ -48,9 +48,10 @@ function BubbleImage({
       {(type === 1 || type === 3 || type === 6) && (
         <>
           <span className="circle circle-1"></span>
-          <span className="circle circle-2"></span>
+          {!image2 && <span className="circle circle-2"></span>}
           <span className="circle circle-3"></span>
           <img src={image} className="circle circle-image" alt={alt}/>
+          {image2&& <img src={image2} className="circle circle-2 circle-2--image" alt={alt2}/>}
         </>
       )}
 

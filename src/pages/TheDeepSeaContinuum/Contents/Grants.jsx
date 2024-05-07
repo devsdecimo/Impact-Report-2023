@@ -24,7 +24,7 @@ function Grants({ children }) {
         ></BubbleImage>
         <h3>Local Technology Support</h3>
         <p>
-          Grants of up to $5,000 are offered for regional organizations where{" "}
+          Grants of up to $5,000 are offered to regional organizations where{" "}
           <em>Falkor (too)</em> is operating to support participation in{" "}
           <a href="https://www.youtube.com/@SchmidtOcean/videos?view=2&amp;sort=dd&amp;live_view=503&amp;shelf_id=0" target="_blank" rel="noopener noreferrer">
             <u>SOI Divestreams</u>
@@ -90,7 +90,7 @@ function Grants({ children }) {
           orientation="right"
         ></BubbleImage>
         <h3>
-          MTS/IEEE - Ocean Engineering Society Global Oceans Student Poster
+          MTS/IEEE - Ocean Engineering Society Global OCEANS Student Poster
           Competition
         </h3>
         <p>
@@ -98,7 +98,7 @@ function Grants({ children }) {
           awards for the{" "}
           <a href="https://ieeeoes.org/oes-beacon/september-2023-oes-beacon/the-student-poster-competition-at-oceans-2023-limerick/" target="_blank" rel="noopener noreferrer">
             <u>
-              MTS/IEEE Ocean Engineering Society Global Oceans Student Poster
+              MTS/IEEE Ocean Engineering Society Global OCEANS Student Poster
               Competition,
             </u>
           </a>{" "}

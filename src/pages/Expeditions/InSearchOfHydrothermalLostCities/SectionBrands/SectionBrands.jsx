@@ -33,7 +33,7 @@ function SectionBrands({image,alt}) {
       { img: PMEL, href: 'https://www.pmel.noaa.gov/', target: '_blank' , alt:'NOAA Pacific Marine Enviromental Laboratory', orientation:'horizontal'},
       { img: OECI, href: 'https://web.uri.edu/oeci/', target: '_blank' , alt:'Ocean Exploration Cooperative Institute', orientation:'horizontal'},
       { img: OKSI, href: 'https://oksi.ai/', target: '_blank' , alt:'Opto-Knowledge Systems', orientation:'horizontal'},
-      { img: PAAaN, href: 'https://ceoas.oregonstate.edu/', target: '_blank' , alt:'Oregon State University', orientation:'vertical'},
+      { img: PAAaN, href: 'https://ceoas.oregonstate.edu/', target: '_blank' , alt:'Oregon State University', orientation:'horizontal'},
       { img: UToronto, href: 'https://www.utoronto.ca/', target: '_blank' , alt:'University of Toronto', orientation:'horizontal'},
       { img: UVIC, href: 'https://www.uvic.ca/', target: '_blank' , alt:'University of Victoria', orientation:'vertical'},
       { img: UW, href: 'https://www.washington.edu/', target: '_blank' , alt:'University of Washington', orientation:'vertical'},

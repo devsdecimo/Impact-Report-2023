@@ -47,6 +47,7 @@ function DisseminatingTheDepths({
         footer_image={footer_image}
       >
         <div className="content-body">{children}</div>
+        <ScrollToTop />
         <CarouselNav slides={navSlides} />
       </Page>
     </PageContainer>

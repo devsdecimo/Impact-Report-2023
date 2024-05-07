@@ -64,7 +64,7 @@ function StrategicPartnerships() {
         <h3>MTS/IEEE-Oceanic Engineering Society</h3>
         <p>
           Schmidt Ocean Institute&rsquo;s partnership with the Marine Technology
-          Society and IEEE Oceanic Engineering Society, or IEEE-OES, focuses on
+          Society and IEEE-Oceanic Engineering Society, or IEEE-OES, focuses on
           broadening inclusivity, participation, and hence diversity, in the
           marine technical and engineering disciplines.
         </p>
@@ -187,6 +187,7 @@ function StrategicPartnerships() {
       <div className="content-group">
         <BubbleImage
           image="/assets/images/the_deep_sea_continuum/strategic_partnerships/Ocean Rising.webp"
+          image2="/assets/images/the_deep_sea_continuum/strategic_partnerships/ocean rising bubble.webp"
           className="continuum-image"
           orientation="right"
           direction="up"

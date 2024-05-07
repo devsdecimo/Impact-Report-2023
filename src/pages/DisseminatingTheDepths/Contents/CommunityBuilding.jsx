@@ -1,8 +1,27 @@
 import React from "react";
 import BubbleImage from "../../../components/BubbleImage/BubbleImage";
 import DisseminatingTheDepths from "../DisseminatingTheDepths";
+import Carousel from "../../../components/Carousel/Carousel";
 
 function CommunityBuilding() {
+  const slides = [
+    {
+      img: "/assets/images/disseminating_the_depths/community_building/carousel/01-IvonneRodriguezTakesWaterSamplesFromSubastian.webp",
+    },
+    {
+      img: "/assets/images/disseminating_the_depths/community_building/carousel/02-PreDiveMainLabMobilisation.webp",
+    },
+    {
+      img: "/assets/images/disseminating_the_depths/community_building/carousel/03-FirstCTDDeployment.webp",
+    },
+    {
+      img: "/assets/images/disseminating_the_depths/community_building/carousel/04-Ashleigh-Naranjo_Aguilar.webp",
+    },
+    {
+      img: "/assets/images/disseminating_the_depths/community_building/carousel/05-ShipToShoreCallCostaRica.webp",
+    },
+  ];
+
   return (
     <DisseminatingTheDepths
       title={
@@ -40,6 +59,8 @@ function CommunityBuilding() {
         and enriching, deepening their ocean understanding and advancing their
         career pathways in ocean science fields.
       </p>
+
+      <Carousel slides={slides} className="artist-sea-carousel" />
     </DisseminatingTheDepths>
   );
 }

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 import Aalborg  from "/assets/images/brands/Aalborg.webp";
 import NAMC from "/assets/images/brands/NAMC.webp";
-import NationalGeo from "/assets/images/brands/National-Geographic.webp";
+import NationalGeo from "/assets/images/brands/natgeo.webp";
 
 import CarouselBrands from "../../../../components/CarouselBrands/CarouselBrands";
 

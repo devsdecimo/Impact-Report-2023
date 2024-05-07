@@ -6,19 +6,22 @@ import DisseminatingTheDepths from "../DisseminatingTheDepths";
 function ArtistAtSea() {
   const slides = [
     {
-      img: "/assets/images/disseminating_the_depths/artist-at-sea/carousel/01-Showcase.webp",
+      img: "/assets/images/disseminating_the_depths/artist-at-sea/carousel/01-Michael.webp",
     },
     {
-      img: "/assets/images/disseminating_the_depths/artist-at-sea/carousel/02-Michael.webp",
+      img: "/assets/images/disseminating_the_depths/artist-at-sea/carousel/02-Max.webp",
     },
     {
-      img: "/assets/images/disseminating_the_depths/artist-at-sea/carousel/03-Max.webp",
+      img: "/assets/images/disseminating_the_depths/artist-at-sea/carousel/03-ArtistAtSeaElena-Naranjo.webp",
     },
     {
       img: "/assets/images/disseminating_the_depths/artist-at-sea/carousel/04-Max2.webp",
     },
     {
       img: "/assets/images/disseminating_the_depths/artist-at-sea/carousel/05-Shan.webp",
+    },
+    {
+      img: "/assets/images/disseminating_the_depths/artist-at-sea/carousel/06-Art_Saving_Frost-Navarro.webp",
     },
   ];
 
@@ -35,7 +38,7 @@ function ArtistAtSea() {
     >
       <p>
         <BubbleImage
-          image="/assets/images/disseminating_the_depths/artist-at-sea/ShanHuaArtistAtSea.webp"
+          image="/assets/images/disseminating_the_depths/artist-at-sea/2023_Oceanic_Volcanism_Workshop_Group_picture_Samuel_J_Mitchell_Bristol_University Burbuja@1x.webp"
           className="artist-image"
           direction="up"
         />
@@ -88,10 +91,10 @@ function ArtistAtSea() {
         participants Rebecca Rutstein, Carol Mickett and Robert Stackhouse,
         Lizzy Taber, Michel Droge, and guests Runa Ray and Jane McCarthy, who
         represented Taiji Terasaki Studios. A film night featured SOI&rsquo;s
-        award-winning films &ldquo;{" "}
+        award-winning films &ldquo;
         <a href="https://www.youtube.com/watch?v=OB8IjCJQMoE" target="_blank" rel="noopener noreferrer">
           <u>Climate Under Pressure</u>
-        </a>{" "}
+        </a>
         &rdquo; and &ldquo;
         <a href="https://www.youtube.com/watch?v=thYkeWuyVwE" target="_blank" rel="noopener noreferrer">
           <u>The Art of Exploration</u>

@@ -191,7 +191,7 @@ function NewSpeciesSpotlight() {
             depth="1746"
             depth2="1795"
             depthSeparator="-"
-            year="2019"
+            year="2009"
             location="Jaco Scar, Costa Rica"
             size="107"
             sizeText="mm"
@@ -229,7 +229,7 @@ function NewSpeciesSpotlight() {
             depthSeparator={<>&nbsp;to&nbsp;</>}
             yearText={
               <>
-                <Counter separator={false}>2018</Counter>{" "}
+                <Counter separator={false}>2005</Counter>{" "}
                 <em>with additional samples collected in</em>{" "}
                 <Counter separator={false}>2021</Counter>{" "}
                 <em>to scientifically describe the species.</em>

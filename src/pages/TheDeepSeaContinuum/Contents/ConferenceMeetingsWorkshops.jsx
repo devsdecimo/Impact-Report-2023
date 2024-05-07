@@ -85,7 +85,7 @@ function ConferenceMeetingsWorkshops({ children }) {
           image="/assets/images/the_deep_sea_continuum/conference/Conference, Meetings, and Workshops_ Storytelling for Science.webp"
           className="continuum-image"
           orientation="left"
-          direction="up"
+          direction="down"
         />
         <h3>Storytelling for Science</h3>
         <p>
@@ -102,6 +102,8 @@ function ConferenceMeetingsWorkshops({ children }) {
           Decade-endorsed actions.
         </p>
       </div>
+      <br className="desktop"/>
+      <br className="desktop" />
       <div className="content-group">
         <BubbleImage
           image="/assets/images/the_deep_sea_continuum/conference/UN Decade Foundations Dialogue.webp"
@@ -196,7 +198,7 @@ function ConferenceMeetingsWorkshops({ children }) {
               Beyond Net Zero: The Role of the Ocean in Climate Change
             </strong>
           </a>
-          , 18 October 2023, London, UK Convened by the Institute of Marine
+          ,<br/> 18 October 2023, London, UK Convened by the Institute of Marine
           Engineering, Science, and Technology, this was the first UK event
           dedicated explicitly to exploring ocean data, information, and the
           knowledge needed to evaluate the effectiveness and environmental

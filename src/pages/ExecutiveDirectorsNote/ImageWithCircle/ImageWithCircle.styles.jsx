@@ -26,8 +26,8 @@ export const ImageWithCircleContainer = styled.div`
     position: absolute;
     height: 75%;
     width: auto;
-    top: -10%;
-    left: 10%;
+    top: -15%;
+    left: 30%;
   }
 
   .image {
@@ -35,18 +35,18 @@ export const ImageWithCircleContainer = styled.div`
     height: 99%;
     width: auto;
     bottom: 0;
-    left: 0;
+    left: -10%;
   }
 
   .circle-1 {
-    height: 78%;
+    height: 95%;
     aspect-ratio: 1 / 1;
     background-color: #80aed8;
     mix-blend-mode: multiply;
     border-radius: 100%;
     position: absolute;
     bottom: 0;
-    left: 0;
+    left: -10%;
   }
   .circle-2 {
     height: 64%;

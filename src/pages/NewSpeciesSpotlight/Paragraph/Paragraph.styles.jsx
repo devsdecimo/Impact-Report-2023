@@ -23,8 +23,5 @@ export const ParagraphContainer = styled.div`
   p.dato{
     margin:1rem 0;
   }
-  .ml-10{
-    margin-left:5px;
-  }
 
 `;

@@ -157,7 +157,7 @@ function DynamicsOfSinkingMicroplastics() {
               Successfully conducted a comparison study of two different
               sampling methodologies, one using R/V{" "}
               <em>Falkor (too)&rsquo;s</em> CTD and rosette and a new technology,
-              AAU-UFO, which uses a McLane large water pump, to identify the
+              an AAU-UFO and a McLane large water pump, to identify the
               most effective and accurate technique for sampling microplastics
               in the Ocean.
             </li>
