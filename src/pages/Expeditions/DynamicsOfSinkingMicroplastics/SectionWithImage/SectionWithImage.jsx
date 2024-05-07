@@ -42,7 +42,7 @@ function SectionWithImage({image, image2 ,alt}) {
                 <IconWithText  
                     className={'CTA'} 
                     icon={Map} 
-                    text={<a href="https://api.maptiler.com/maps/a2ea2297-03c3-4649-ba24-4601f06e98d9/?key=egFVe2SmC2zBUYnGILbj#6.6/7.879/-79.342" target="_blank" rel="noopener noreferrer">Cruise's Track</a>} 
+                    text={<a href="https://api.maptiler.com/maps/a2ea2297-03c3-4649-ba24-4601f06e98d9/?key=egFVe2SmC2zBUYnGILbj#6.6/7.879/-79.342" target="_blank" rel="noopener noreferrer">Ship Track</a>} 
                     opacity={1}
                 />
                 </div>

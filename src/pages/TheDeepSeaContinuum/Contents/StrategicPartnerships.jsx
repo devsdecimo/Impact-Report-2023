@@ -61,7 +61,7 @@ function StrategicPartnerships() {
           orientation="right"
           direction="up"
         ></BubbleImage>
-        <h3>MTS/IEEE</h3>
+        <h3>MTS/IEEE-Oceanic Engineering Society</h3>
         <p>
           Schmidt Ocean Institute&rsquo;s partnership with the Marine Technology
           Society and IEEE Oceanic Engineering Society, or IEEE-OES, focuses on
@@ -122,7 +122,7 @@ function StrategicPartnerships() {
           direction="up"
           orientation="right"
         ></BubbleImage>
-        <h3>Ocean Biodiversity Virtual Institute (OBVI)</h3>
+        <h3>Ocean Biodiversity Virtual Institute</h3>
         <p>
           To accelerate society&rsquo;s response to climate change, Schmidt
           Ocean Institute partnered with Schmidt Sciences{" "}

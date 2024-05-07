@@ -79,7 +79,7 @@ function VerticalReefsOfTheGalapagos() {
             </a>
             . The depth and inaccessibility of vertical corals to ship-based
             sensors present significant hurdles to studying these creatures.
-            Chief Scientist Katleen Robert and a multidisciplinary team
+            Chief Scientist Dr. Katleen Robert and a multidisciplinary team
             addressed these challenges to map and characterize these
             extraordinary habitats.
           </p>
@@ -151,9 +151,9 @@ function VerticalReefsOfTheGalapagos() {
             </li>
             <li>
               Provided key insights into the effectiveness of a long-established
-              marine protected area; the Gal&aacute;pagos Marine Reserve data
+              marine protected area; the Galápagos Marine Reserve data
               supports the management of two local marine protected areas
-              &mdash; Gal&aacute;pagos National Park and Isla del Coco.
+              &mdash; Galápagos National Park and Isla del Coco National Park.
             </li>
             <li>
               Used ultra-high-resolution laser scanning, which has not been

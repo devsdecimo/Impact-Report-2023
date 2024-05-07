@@ -214,21 +214,6 @@ function ConferenceMeetingsWorkshops({ children }) {
           accomplishments in exploration.&nbsp;
         </p>
       </div>
-      <div className="content-group">
-        <h3>All-Atlantic Floating University</h3>
-        <p>
-          Training at sea is critical for preparing new generations of early
-          career ocean professionals. The All-Atlantic Floating University
-          Network was established in 2021 to strengthen and develop
-          opportunities in the Atlantic region and to foster greater exchange,
-          collaboration, and sharing of best practices between programs. The
-          network brings together successful at-sea programs working in the
-          Atlantic pole-to-pole region to find ways to increase student
-          sea-going research and training opportunities. Schmidt Ocean Institute
-          became a member in 2023 and will offer Berths of Opportunities through
-          this network when operating in Atlantic waters from 2025-2028.
-        </p>
-      </div>
     </TheDeepSeaContinuum>
   );
 }

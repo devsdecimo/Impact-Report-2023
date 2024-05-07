@@ -23,8 +23,9 @@ export const IconWithTextContainer = styled.div`
   }
 
   span.ml-10{
-    margin-left:10px;
+    margin-left:4px;
   }
+  
   .text-before{
     flex: 0 0 auto; 
     white-space: nowrap;

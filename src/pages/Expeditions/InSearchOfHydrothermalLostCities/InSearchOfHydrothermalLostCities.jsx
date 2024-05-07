@@ -113,7 +113,7 @@ function InSearchOfHydrothermalLostCities() {
             type={3}
           />
           <p>
-            In the spring of 2023, Chief Scientist Dr. David Butterfield led
+            In March, Chief Scientist Dr. David Butterfield led
             this expedition to explore a section of the Mid-Atlantic Ridge to
             locate vents where serpentinization occurs. The study area included
             Puy des Folles, an on-axis volcano, an oceanic core complex

@@ -42,7 +42,7 @@ function NavMenu({ className }) {
           <li className="submenu">
             <SubMenu
               href="/a_word_from_our_founders"
-              title={"Welcome to a New SOI"}
+              title={"Welcome"}
               toggleMain={toggleMenu}
             >
               <ul>

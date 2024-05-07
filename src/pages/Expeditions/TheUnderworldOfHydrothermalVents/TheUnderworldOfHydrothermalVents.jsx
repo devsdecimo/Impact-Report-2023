@@ -169,7 +169,6 @@ function TheUnderworldOfHydrothermalVents() {
             </li>
           </ul>
           <YoutubeVideo videoId="E4_CCzfwKmw" />
-          <YoutubeVideo videoId="neyccYHaAGo" />
           <ExpeditionsNav />
         </div>
       </Page>

@@ -28,7 +28,7 @@ function TheDeepSeaContinuum({
       text: "Conference & Meetings",
     },
     {
-      img: "/assets/images/the_deep_sea_continuum/strategic_partnerships/All-Atlantic.webp",
+      img: "/assets/images/the_deep_sea_continuum/strategic_partnerships/Bubble.webp",
       href: "/the_deep_sea_continuum/strategic_partnerships",
       text: "Strategic Partnerships",
     },

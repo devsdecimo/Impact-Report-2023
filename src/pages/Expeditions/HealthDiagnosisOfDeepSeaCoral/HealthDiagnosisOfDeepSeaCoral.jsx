@@ -91,7 +91,11 @@ function HealthDiagnosisOfDeepSeaCoral() {
             Corals play a foundational role in deep-sea ecosystems by providing
             habitats where invertebrate and fish communities can thrive. Corals
             produce extracellular{" "}
-            <a href="https://www.youtube.com/watch?v=svYFr892fGQ&amp;list=PLJGVqQI3okzZsZYBgPx5DqEYTQZLR2CfH&amp;index=29" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://www.youtube.com/watch?v=svYFr892fGQ&amp;list=PLJGVqQI3okzZsZYBgPx5DqEYTQZLR2CfH&amp;index=29"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <u>reactive oxygen species called ROS,</u>
             </a>{" "}
             which are short-lived oxygen-containing molecules. These molecules
@@ -101,7 +105,11 @@ function HealthDiagnosisOfDeepSeaCoral() {
           </p>
           <p>
             Previous research by the{" "}
-            <a href="https://www2.whoi.edu/site/hansel-lab/" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://www2.whoi.edu/site/hansel-lab/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <u>Hansel Lab</u>
             </a>{" "}
             demonstrated that shallow corals produce the ROS hydrogen peroxide.
@@ -120,7 +128,11 @@ function HealthDiagnosisOfDeepSeaCoral() {
             analysis will not work because the molecules are unstable and react
             almost instantly with other molecules, vanishing in about 30
             seconds. To determine if and how deep-sea corals produce ROS,{" "}
-            <a href="https://www.youtube.com/watch?v=7rPfn6T4gLo&amp;list=PLJGVqQI3okzZsZYBgPx5DqEYTQZLR2CfH&amp;index=28" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://www.youtube.com/watch?v=7rPfn6T4gLo&amp;list=PLJGVqQI3okzZsZYBgPx5DqEYTQZLR2CfH&amp;index=28"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <u>a novel sensor called SOLARIS</u>
             </a>{" "}
             was integrated into ROV <em>SuBastian</em>. SOLARIS was designed to
@@ -135,41 +147,52 @@ function HealthDiagnosisOfDeepSeaCoral() {
             ecology, physiology, and health. The sensor design was based on a
             handheld version, DISCO. Hansel and a Woods Hole Oceanographic
             Institution team developed{" "}
-            <a href="https://www.whoi.edu/oceanus/feature/a-disco-in-the-ocean/" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://www.whoi.edu/oceanus/feature/a-disco-in-the-ocean/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <u>both devices</u>
             </a>
             , and{" "}
-            <a href="https://schmidtmarine.org/" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://schmidtmarine.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <u>Schmidt Marine Technology Partners</u>
             </a>{" "}
             funded DISCO.
           </p>
           <p>
             The science team explored several locations in the waters off Puerto
-            Rico with ROV{" "}<em>SuBastian,</em>{" "}including Whiting Bank, Desecheo
+            Rico with ROV <em>SuBastian,</em> including Whiting Bank, Desecheo
             Ridge, and Esperanza Ridge. They successfully measured high ROS
-            levels for an{" "}
-            <em>Aplysina</em>{" "}sponge and documented the first observation of
-            extracellular ROS production by a black coral. This information
-            could help scientists better understand how these deep-sea corals
-            are reacting to human activity and changing ocean conditions.
+            levels for an <em>Aplysina</em> sponge and documented the first
+            observation of extracellular ROS production by a black coral. This
+            information could help scientists better understand how these
+            deep-sea corals are reacting to human activity and changing ocean
+            conditions.
           </p>
           <p>
             The researchers found that this area of Puerto Rico &mdash; with
             fewer nutrients in the water column &mdash; has corals managing to
             survive and proliferate.{" "}
-            <a href="https://www.youtube.com/watch?v=L7UwooHRrL0&amp;list=PLJGVqQI3okzZsZYBgPx5DqEYTQZLR2CfH&amp;index=28" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://www.youtube.com/watch?v=L7UwooHRrL0&amp;list=PLJGVqQI3okzZsZYBgPx5DqEYTQZLR2CfH&amp;index=28"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <u>To Hansel</u>
             </a>
             , this has the potential to open up a whole new area of science
             because the corals in Puerto Rico are completely different from what
             they've seen elsewhere. The ability of corals to thrive despite the
-            availability of nutrients raises exciting new questions about how
-            corals may allocate energy resources in relation to their
-            surroundings. Following analyses, scientists expect to learn about
-            the biogeochemistry of deep-sea corals living in Puerto Rican
-            waters, which will inform the management of these ecosystems for
-            years.
+            lack of nutrients raises exciting new questions about how corals may
+            allocate energy resources in relation to their surroundings.
+            Following analyses, scientists expect to learn about the
+            biogeochemistry of deep-sea corals living in Puerto Rican waters,
+            which will inform the management of these ecosystems for years.
           </p>
           <Carousel slides={slides} className="expedition-carousel"></Carousel>
           <h3>Resulting highlights include:</h3>
@@ -182,7 +205,7 @@ function HealthDiagnosisOfDeepSeaCoral() {
             </li>
             <li>
               Detected a burst of ROS hydrogen peroxide in a wounded deep-sea{" "}
-              <em>Paramuricead</em>,{" "}a genus of Gorgonian-type octocorals, which
+              <em>Paramuricead</em>, a genus of Gorgonian-type octocorals, which
               could be a mechanism for repairing wounds; this also provided a
               diagnostic indicator of stress.
             </li>
@@ -193,9 +216,8 @@ function HealthDiagnosisOfDeepSeaCoral() {
             <li>
               Two new ROV-based instruments, SOLARIS and DISCO, were
               successfully used; these chemiluminescent detectors for measuring
-              reactive oxygen species{" "}
-              <em>in situ</em>{" "}help scientists bridge a data gap about deep-sea
-              corals and their responses to stress.
+              reactive oxygen species <em>in situ</em> help scientists bridge a
+              data gap about deep-sea corals and their responses to stress.
             </li>
           </ul>
           <p>

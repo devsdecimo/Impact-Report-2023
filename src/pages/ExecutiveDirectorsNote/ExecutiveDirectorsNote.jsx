@@ -143,7 +143,7 @@ function ExecutiveDirectorsNote() {
             </a>
             ,{" "}
             <a href="https://schmidtocean.org/international-student-competition-support-oceans-2021/" target="_blank" rel="noopener noreferrer">
-              IEEE-Oceanic Engineering Society/Marine Technology Society
+              Marine Technology Society/IEEE-Oceanic Engineering Society
             </a>
             , and the United Nations Educational, Scientific, and Cultural
             Organization on the{" "}

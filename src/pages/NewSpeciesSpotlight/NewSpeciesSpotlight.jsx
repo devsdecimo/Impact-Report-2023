@@ -60,10 +60,15 @@ function NewSpeciesSpotlight() {
               </a>
             }
             expedition={
-              <a href="https://schmidtocean.org/cruise/costa-rican-deep-sea-connections/" target="_blank" rel="noopener noreferrer">
-                Interdisciplinary Investigation of a New Hydrothermal Vent Field
-                and Costa Rican Deep-Sea Connections{" "}
-              </a>
+              <>
+                <a href="https://schmidtocean.org/cruise/costa-rican-deep-sea-connections/" target="_blank" rel="noopener noreferrer">
+                  Interdisciplinary Investigation of a New Hydrothermal Vent Field
+                </a>
+                {" "}and{" "}
+                <a href="https://schmidtocean.org/cruise/costa-rican-deep-sea-connections/"target="_blank" rel="noopener noreferrer">
+                  Costa Rican Deep-Sea Connections{" "}
+                </a>
+              </>
             }
             vessel="Falkor"
             vesselAfterText="Samples collected on board E/V Nautilus were also used to describe this new species."
