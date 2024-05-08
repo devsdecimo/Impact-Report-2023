@@ -61,6 +61,19 @@ export const PageContainer = styled.div`
       width: 18vw;
       max-width: 500px;
     }
+    .circle-3 {
+      top: 56%;
+      left: 88.4%;
+    }
+    .circle-2 {
+      width: 62%;
+      top: 40%;
+      left: 36.29%;
+    }
+    .circle-1 {
+      top: 7%;
+      left: 46.47%;
+    }
   }
 
   .screen-image {
@@ -69,7 +82,7 @@ export const PageContainer = styled.div`
       float: left;
       width: 18vw;
       max-width: 500px;
-      margin-right:2rem;
+      margin-right: 2rem;
     }
   }
 
@@ -86,15 +99,19 @@ export const PageContainer = styled.div`
     max-width: 50vw;
     transition: 1s;
   }
-  
+
   .artist-sea-carousel {
     margin: 2rem 0;
   }
 
-  @media (max-width:767px){
-    .artist-image, .community-image, .press-image, .screen-image, .connections-image{
-      margin:auto;
-      margin-bottom:2rem;
+  @media (max-width: 767px) {
+    .artist-image,
+    .community-image,
+    .press-image,
+    .screen-image,
+    .connections-image {
+      margin: auto;
+      margin-bottom: 2rem;
     }
     /*centrar titulos */
     h3 {

@@ -16,6 +16,7 @@ function PressAndFootage() {
     >
       <BubbleImage
         image="/assets/images/disseminating_the_depths/press_and_footage/Press and Footage  -  FKt230812-RicardoStuartOutreachCall-20230901-Ingle-3776-APPROVED.webp"
+        image2 = "/assets/images/disseminating_the_depths/press_and_footage/Times Square Bubble.webp"
         className="press-image"
         direction="down"
       />
