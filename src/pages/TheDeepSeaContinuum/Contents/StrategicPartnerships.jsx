@@ -12,10 +12,10 @@ function StrategicPartnerships() {
           loading="lazy"
         />
       }
-      header_image={
-        "/assets/images/the_deep_sea_continuum/strategic_partnerships/Header.webp"
-      }
+      header_image="/assets/images/the_deep_sea_continuum/strategic_partnerships/Header.webp"
+      header_alt="At dusk ROV SuBastia is launched for the  fourth day of diving for the Octopus Odyssey (too) FK161005 voyage off Costa Rica"
       footer_image="/assets/images/the_deep_sea_continuum/strategic_partnerships/Footer.webp"
+      footer_alt="Scientific equipment is the main lab of R/V Falkor (too)."
     >
       <div className="content-group">
         <BubbleImage
@@ -23,6 +23,7 @@ function StrategicPartnerships() {
           className="continuum-image"
           direction="up"
           orientation="right"
+          alt="All-Atlantic Floating University logo"
         ></BubbleImage>
         <h3>All-Atlantic Floating University</h3>
         <p>
@@ -33,9 +34,9 @@ function StrategicPartnerships() {
           collaboration, and sharing of best practices between programs. The
           network brings together successful at-sea programs working in the
           Atlantic pole-to-pole region to find ways to increase student
-          sea-going research and training opportunities. Schmidt Ocean Institute
-          became a member in 2023 and will offer Berths of Opportunities through
-          this network when operating in Atlantic waters from 2025-2028.
+          sea-going research and training. Schmidt Ocean Institute became a
+          member in 2023 and will offer Berths of Opportunity through this
+          network when operating in Atlantic waters from 2025-2028.
         </p>
       </div>
       <div className="content-group">
@@ -43,6 +44,7 @@ function StrategicPartnerships() {
           image="/assets/images/the_deep_sea_continuum/strategic_partnerships/BBC.webp"
           className="continuum-image"
           orientation="left"
+          alt="BBC logo"
         ></BubbleImage>
         <h3>BBC</h3>
         <p>
@@ -60,6 +62,7 @@ function StrategicPartnerships() {
           className="continuum-image"
           orientation="right"
           direction="up"
+          alt="Partnership participants are given a tour of R/V Falkor (too)."
         ></BubbleImage>
         <h3>MTS/IEEE-Oceanic Engineering Society</h3>
         <p>
@@ -74,7 +77,11 @@ function StrategicPartnerships() {
           activities to engage women in marine science and technology, and
           special events in the United States. In partnership with IEEE-OES this
           summer, SOI welcomed{" "}
-          <a href="https://schmidtocean.org/person/monika-aggarwal/" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://schmidtocean.org/person/monika-aggarwal/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Professor Monika Aggarwal
           </a>{" "}
           from IIT Delhi, India, on board R/V <em>Falkor (too)</em> via our
@@ -90,6 +97,7 @@ function StrategicPartnerships() {
           image="/assets/images/the_deep_sea_continuum/strategic_partnerships/National Geographic Society.webp"
           className="continuum-image"
           orientation="left"
+          alt="National Geographic Explorer Laura Simon Sanchez handles a water sample near the McLane pump sampler."
         ></BubbleImage>
         <h3>National Geographic Society</h3>
         <p>
@@ -98,16 +106,28 @@ function StrategicPartnerships() {
           Institute for the first time in 2023. Dr. Laura Simon-Sanchez brought
           her exploration team of four to study microplastic distribution and
           movement in the water column off the coast of Panama. The{" "}
-          <a href="https://schmidtocean.org/cruise/dynamics-of-sinking-microplastics/" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://schmidtocean.org/cruise/dynamics-of-sinking-microplastics/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Dynamics of Sinking Microplastics expedition{" "}
           </a>
           was{" "}
-          <a href="https://www.cbs.com/shows/video/2bYZkzAy1kVplIKmgUQD_9bz3phVMPra/" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.cbs.com/shows/video/2bYZkzAy1kVplIKmgUQD_9bz3phVMPra/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             covered by Ben Tracy for CBS Mornings
           </a>
           . Dr. Ana-Belen Yanez Suarez, another National Geographic Explorer,
           joined Dr. Katleen Robert for the{" "}
-          <a href="https://schmidtocean.org/cruise/vertical-reefs-of-the-galapagos/#about" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://schmidtocean.org/cruise/vertical-reefs-of-the-galapagos/#about"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Vertical Reefs of the Gal&aacute;pagos expedition
           </a>
           . Yanez Suarez and the team explored seamounts southwest of Isla del
@@ -121,12 +141,17 @@ function StrategicPartnerships() {
           className="continuum-image"
           direction="up"
           orientation="right"
+          alt="An arrangement of octocoral fans on the sea floor of Ashmore Reef"
         ></BubbleImage>
         <h3>Ocean Biodiversity Virtual Institute</h3>
         <p>
           To accelerate society&rsquo;s response to climate change, Schmidt
           Ocean Institute partnered with Schmidt Sciences{" "}
-          <a href="https://www.schmidtfutures.org/our-work-old/obvi/" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.schmidtfutures.org/our-work-old/obvi/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Ocean Biogeochemistry Virtual Institute, or OBVI
           </a>
           , to tackle challenging data and modeling problems in ocean
@@ -155,16 +180,23 @@ function StrategicPartnerships() {
           image="/assets/images/the_deep_sea_continuum/strategic_partnerships/Ocean Census.webp"
           className="continuum-image"
           orientation="left"
+          alt="Scientists using a deep-sea submersible examine the health of coral reefs off the coast of the Maldives."
         ></BubbleImage>
         <h3>Ocean Census</h3>
         <p>
           Only 10% of ocean life has been discovered, and a new collaboration
           was formed to address this knowledge gap. The{" "}
-          <a href="https://oceancensus.org/" target="_blank" rel="noopener noreferrer">Ocean Census </a>was created as an
-          open network of science, business, media, and civil society
-          organizations to accelerate the discovery of ocean life. The primary
-          goal will be to discover 100,000 new species within the coming decade
-          and inspire the global community.
+          <a
+            href="https://oceancensus.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Ocean Census{" "}
+          </a>
+          was created as an open network of science, business, media, and civil
+          society organizations to accelerate the discovery of ocean life. The
+          primary goal will be to discover 100,000 new species within the coming
+          decade and inspire the global community.
         </p>
         <p>
           Founded by The Nippon Foundation and Nekton, Schmidt Ocean Institute
@@ -191,6 +223,7 @@ function StrategicPartnerships() {
           className="continuum-image"
           orientation="right"
           direction="up"
+          alt="Artist-at-Sea Shan Hua sculpts a piece in R/V Falkor (too)’s main lab."
         ></BubbleImage>
         <h3>Ocean Rising</h3>
         <p>
@@ -199,7 +232,13 @@ function StrategicPartnerships() {
           from the clothes we wear to the games we play &mdash; with the
           undersea world is a powerful avenue for raising awareness of the
           Ocean. Established in 2021 by Schmidt Ocean Institute and Nekton,{" "}
-          <a href="https://schmidtocean.org/ocean-rising/" target="_blank" rel="noopener noreferrer">Ocean Rising</a>{" "}
+          <a
+            href="https://schmidtocean.org/ocean-rising/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Ocean Rising
+          </a>{" "}
           deepens people&rsquo;s relationship with the Ocean by galvanizing
           connections through global popular culture. Since the
           initiative&rsquo;s inception, workshops have brought media, film, fine
@@ -210,20 +249,36 @@ function StrategicPartnerships() {
           In 2023, the initiative focused on fashion. Global luxury designer
           Jenny Packham used SOI imagery as inspiration for a resort wear
           collection featured in
-          <a href="https://www.vogue.com/fashion-shows/resort-2024/jenny-packham" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.vogue.com/fashion-shows/resort-2024/jenny-packham"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             {" "}
             Vogue
           </a>
           . Taiwanese designer Pei-Wen Jin{" "}
-          <a href="https://www.youtube.com/watch?v=I5qVjM1Q55s&amp;t=43s" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.youtube.com/watch?v=I5qVjM1Q55s&amp;t=43s"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             sailed on <em>Falkor (too)</em>
           </a>{" "}
           during the{" "}
-          <a href="https://schmidtocean.org/cruise/dynamics-of-sinking-microplastics/" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://schmidtocean.org/cruise/dynamics-of-sinking-microplastics/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Dynamics of Sinking Microplastics
           </a>{" "}
           expedition as an{" "}
-          <a href="https://schmidtocean.org/collection/artist-at-sea/" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://schmidtocean.org/collection/artist-at-sea/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Artist-at-Sea
           </a>
           ; she sketched a sustainable, research vessel-inspired clothing line
@@ -232,10 +287,16 @@ function StrategicPartnerships() {
           competition for early-career fashion designers; Redress is a Hong
           Kong-based NGO working to accelerate the transition to a circular
           fashion industry.{" "}
-          <a href="https://www.instagram.com/shanhua.me/" target="_blank" rel="noopener noreferrer">Shan Hua</a>, digital
-          art winner of the Vogue China Fashion Fund, also joined the expedition
-          and worked with Vogue journalists to produce a video about her
-          experience.
+          <a
+            href="https://www.instagram.com/shanhua.me/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Shan Hua
+          </a>
+          , digital art winner of the Vogue China Fashion Fund, also joined the
+          expedition and worked with Vogue journalists to produce a video about
+          her experience.
         </p>
       </div>
 
@@ -244,11 +305,16 @@ function StrategicPartnerships() {
           image="/assets/images/the_deep_sea_continuum/strategic_partnerships/Seabed 2030.webp"
           className="continuum-image"
           orientation="left"
+          alt=" A researcher oversees the mapping of new areas in R/V Falkor (too)’s computer lab."
         ></BubbleImage>
         <h3>Seabed 2030</h3>
         <p>
           Since 2019, Schmidt Ocean Institute has been a partner in the{" "}
-          <a href="https://seabed2030.org/" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://seabed2030.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Nippon Foundation-GEBCO Seabed 2030 Project
           </a>
           , a collaboration of organizations that map the seafloor or have an
@@ -263,13 +329,16 @@ function StrategicPartnerships() {
           seamounts, and two new cold-water coral reefs.
         </p>
         <p>
-          <br />
           In August 2023, Executive Director Dr. Jyotika Virmani presented at
           the Nippon Foundation-GEBCO Alumni Conference in Tokyo. In her
           remarks, she highlighted the power of the alum network to develop and
           use technologies for seafloor mapping, which advances ocean discovery
           for the greater good. In November, SOI sponsored the{" "}
-          <a href="https://www.youtube.com/@mapthegaps/streams" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.youtube.com/@mapthegaps/streams"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Map the Gaps Conference
           </a>{" "}
           in Monaco, alongside GEBCO week, which celebrated the 120th

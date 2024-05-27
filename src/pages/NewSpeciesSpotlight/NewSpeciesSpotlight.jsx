@@ -15,7 +15,9 @@ function NewSpeciesSpotlight() {
           />
         }
         header_image="/assets/images/new_species/Header.webp"
+        header_alt="Jaycee Favela (Physical Scientist, USGS - Santa Cruz) monitors the live stream during an ROV dive."
         footer_image="/assets/images/new_species/Footer.webp"
+        footer_alt="Deployment of ROV SuBastian during a night dive off the coast of Costa Rica."
       >
         <div className="intro-text">
           <p>
@@ -48,7 +50,7 @@ function NewSpeciesSpotlight() {
             size="1.5"
             sizeText="cm"
             image="/assets/images/new_species/images/mcortesi3-C.webp"
-            alt="pulpo"
+            alt="Munopsis cortesi, Squat lobster"
           />
           <Section
             title="Munidopsis girguisi"
@@ -61,7 +63,7 @@ function NewSpeciesSpotlight() {
             }
             expedition={
               <>
-                <a href="https://schmidtocean.org/cruise/costa-rican-deep-sea-connections/" target="_blank" rel="noopener noreferrer">
+                <a href="https://schmidtocean.org/cruise/interdisciplinary-investigation-of-new-hydrothermal-vent-field/" target="_blank" rel="noopener noreferrer">
                   Interdisciplinary Investigation of a New Hydrothermal Vent Field
                 </a>
                 {" "}and{" "}
@@ -88,7 +90,7 @@ function NewSpeciesSpotlight() {
             size="3"
             sizeText="cm"
             image="/assets/images/new_species/images/Munidopsis-girguisi-C.webp"
-            alt="pulpo"
+            alt="Munidopsis girguisi, Squat lobster"
           />
           <Section
             title="Abyssocladia falkor"
@@ -113,7 +115,7 @@ function NewSpeciesSpotlight() {
             size="500"
             sizeText="mm²"
             image="/assets/images/new_species/images/Abyssocladia-falkor-C.webp"
-            alt="pulpo"
+            alt="Abyssocladia falkor, Sponge"
           />
           <Section
             title="Abyssocladia jeanvaceleti"
@@ -138,7 +140,7 @@ function NewSpeciesSpotlight() {
             size="120"
             sizeText="mm²"
             image="/assets/images/new_species/images/Abyssocladia-jeanvaceleti-C.webp"
-            alt="pulpo"
+            alt="Abyssocladia jeanvaceleti, Sponge"
           />
           <Section
             title="Axoniderma wanda"
@@ -169,7 +171,7 @@ function NewSpeciesSpotlight() {
             size="30"
             sizeText="mm²"
             image="/assets/images/new_species/images/Axoniderma-wanda-C.webp"
-            alt="pulpo"
+            alt="Axoniderma wanda, Sponge"
           />
           <Section
             title="Pyrolycus jaco"
@@ -196,7 +198,7 @@ function NewSpeciesSpotlight() {
             size="107"
             sizeText="mm"
             image="/assets/images/new_species/images/Pyrolycus-jaco-C.webp"
-            alt="pulpo"
+            alt="Pyrolycus jaco, Eelpout fish"
           />
           <Section
             title="Ophyrotrocha marinae"
@@ -239,7 +241,7 @@ function NewSpeciesSpotlight() {
             size="10.5"
             sizeText="mm"
             image="/assets/images/new_species/images/Ophyrotrocha-marinae-C.webp"
-            alt="pulpo"
+            alt="Ophyrotrocha marinae, Deep-sea polychaete worm"
           />
         </div>
       </Page>

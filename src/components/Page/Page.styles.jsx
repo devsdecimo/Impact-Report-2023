@@ -7,7 +7,8 @@ export const PageContainer = styled.div`
 
   .main_content {
     min-height: 60vh;
-    overflow: hidden;
-    padding-top: 1rem;
+    overflow-x: hidden;
+    overflow-y: visible;
+    padding-top: 4rem;
   }
 `;

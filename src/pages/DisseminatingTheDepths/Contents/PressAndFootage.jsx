@@ -12,11 +12,15 @@ function PressAndFootage() {
         />
       }
       header_image="/assets/images/disseminating_the_depths/press_and_footage//Header.webp"
+      header_alt="Ben Tracy of CBS Mornings speaks with Co-founder Wendy Schmidt about the importance of the Ocean and the cutting-edge technology on the ship."
       footer_image="/assets/images/disseminating_the_depths/press_and_footage/Footer.webp"
+      footer_alt="A Chief Officer oversees the deployment of a lander form the aft deck."
     >
       <BubbleImage
         image="/assets/images/disseminating_the_depths/press_and_footage/Press and Footage  -  FKt230812-RicardoStuartOutreachCall-20230901-Ingle-3776-APPROVED.webp"
+        alt="Stuart Banks of the Charles Darwin Foundation on R/V Falkor (too)’s bridge during a ship-to-shore call."
         image2 = "/assets/images/disseminating_the_depths/press_and_footage/Times Square Bubble.webp"
+        alt2="Deep sea scenes from SOI Galapagos expeditions play on the Nasdaq Exchange big screen in Times Square for New York Climate Week."
         className="press-image"
         direction="down"
       />

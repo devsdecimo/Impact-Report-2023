@@ -16,7 +16,9 @@ function ALimistlessOceanOfData() {
           />
         }
         header_image={headerImage}
+        header_alt="A scientist points at computer monitors in R/V Falkor (too)’s mission control room."
         footer_image="/assets/images/a_limitless_ocean_of_data/Footer.webp"
+        footer_alt="A researcher works in the Dirty Wet Lab where the team is processing sediment samples taken by ROV SuBastian."
       >
         <div className="content">
           <BubbleImage
@@ -24,6 +26,7 @@ function ALimistlessOceanOfData() {
             className="limitless-image"
             type={3}
             orientation="left"
+            alt="ROV SuBastian taking samples of hydrothermal vent fluid at Pinguinos, Western Galapagos Spreading Center."
           />
           <h3>Architecture for Flow</h3>
           <p>
@@ -38,7 +41,6 @@ function ALimistlessOceanOfData() {
             science expedition.
           </p>
           <p>
-            <br />
             We employed a variety of open-source tools to ensure accurate data
             collection, including{" "}
             <a href="https://github.com/OceanDataTools/openvdm" target="_blank" rel="noopener noreferrer">

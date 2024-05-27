@@ -22,7 +22,9 @@ function ByTheNumbers() {
           />
         }
         header_image="/assets/images/by_the_numbers/Header.webp"
+        header_alt="Research Vessel Falkor (too)"
         footer_image="/assets/images/by_the_numbers/Footer.webp"
+        footer_alt="Scientists talk in R/V Falkor (too)’s main lab"
         className="by_the_numbers"
       >
         <div className="content">

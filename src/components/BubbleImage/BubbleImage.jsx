@@ -12,6 +12,7 @@ function BubbleImage({
   className,
   type = 1,
   orientation,
+  style
 }) {
   const ref = useRef(null);
 
@@ -44,6 +45,7 @@ function BubbleImage({
       ref={ref}
       direction={direction}
       orientation={orientation}
+      style={style}
     >
       {(type === 1 || type === 3 || type === 6) && (
         <>

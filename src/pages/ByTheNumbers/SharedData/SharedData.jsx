@@ -41,6 +41,7 @@ function SharedData() {
       <img
         src="/assets/images/by_the_numbers/shared/CircleImage.webp"
         className="circle circle-image"
+        alt="A researcher examines and records sediment cores taken from around hydrothermal vents."
       />
       <div className="circle circle-darkblue"></div>
       <div className="circle circle-lightblue"></div>

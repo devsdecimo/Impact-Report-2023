@@ -42,6 +42,7 @@ function TraveledData() {
       <img
         src="/assets/images/by_the_numbers/traveled/Ship.webp"
         className="ship"
+        alt="Research Vessel Falkor (too)"
       />
 
       <span className="text text-traveled">Traveled</span>

@@ -13,7 +13,9 @@ function Service({ children }) {
         />
       }
       header_image={"/assets/images/the_deep_sea_continuum/service/Header.webp"}
+      header_alt="Josh O’Brien (Marine Technician) watches as the final light fades over Panama City."
       footer_image="/assets/images/the_deep_sea_continuum/service/Footer.webp"
+      footer_alt=""
     >
       <div className="content-group">
         <p>

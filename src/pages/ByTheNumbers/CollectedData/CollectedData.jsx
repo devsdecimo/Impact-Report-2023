@@ -40,6 +40,7 @@ function CollectedData() {
       <img
         src="/assets/images/by_the_numbers/collected/CircleImage.webp"
         className="circle circle-image"
+        alt="Researchers monitor the log of ROV SuBastian during the expedition in the Galapagos Marine Reserve."
       />
       <div className="circle circle-lightblue"></div>
       <div className="circle circle-darkblue"></div>

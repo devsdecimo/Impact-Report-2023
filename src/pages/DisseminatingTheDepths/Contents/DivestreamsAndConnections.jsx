@@ -12,12 +12,15 @@ function DivestreamsAndConnections() {
         />
       }
       header_image="/assets/images/disseminating_the_depths/divestreams_and_connections//Header.webp"
+      header_alt="A researcher narrates an exploratory ROV dive in Spanish off the coast of Puerto Rico."
       footer_image="/assets/images/disseminating_the_depths/divestreams_and_connections/Footer.webp"
+      footer_alt="A University of Puerto Rico student on a live ship-to-shore call, taking students on a virtual tour of R/V Falkor (too)'s labs."
     >
       <BubbleImage
         image="/assets/images/disseminating_the_depths/divestreams_and_connections/FKt230115-LivestreamTest-20230126-Ingle-9804 (1).webp"
         className="connections-image"
         direction="down"
+        alt="A Multimedia Technician uses R/V Falkor (too)'s live streaming system to connect with shoreside colleagues."
       />
       <h3>Divestreams and Connections</h3>
       <p>

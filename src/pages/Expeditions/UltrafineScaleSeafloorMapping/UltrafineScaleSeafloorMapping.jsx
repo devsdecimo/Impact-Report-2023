@@ -19,11 +19,26 @@ function UltrafineScaleSeafloorMapping() {
   const slidesPath =
     "/assets/images/expeditions/ultra_fine_scale_seafloor_mapping/carousel/";
   const slides = [
-    { img: `${slidesPath}01-Vent.webp` },
-    { img: `${slidesPath}02-Huellos.webp` },
-    { img: `${slidesPath}03-Julian.webp` },
-    { img: `${slidesPath}04-Sas.webp` },
-    { img: `${slidesPath}05-ControlRoom.webp` },
+    {
+      img: `${slidesPath}01-Vent.webp`,
+      alt: "Hydrothermal vent ecosystem life, including tube worms, fish, bivalves, and crustaceans.",
+    },
+    {
+      img: `${slidesPath}02-Huellos.webp`,
+      alt: "InSAS image of lava flows (pillow basalts and lobate flows) from the floor of the Los Huellos East caldera.",
+    },
+    {
+      img: `${slidesPath}03-Julian.webp`,
+      alt: "Juliana Diehl and Kaarel Kaspar closely monitor SuBastian's instruments during a test dive.",
+    },
+    {
+      img: `${slidesPath}04-Sas.webp`,
+      alt: "John Jamieson, Chong Chen, and Caroline Gini observe the first successful images from the inSAS sent up from SuBastian while diving.",
+    },
+    {
+      img: `${slidesPath}05-ControlRoom.webp`,
+      alt: "Members of the research team in R/V Falkor (too)’s ROV control room.",
+    },
   ];
 
   return (
@@ -36,7 +51,9 @@ function UltrafineScaleSeafloorMapping() {
           />
         }
         header_image={headerImage}
+        header_alt="Hydrothermal vent ecosystem life, including tube worms, fish, and bivalves."
         footer_image="/assets/images/expeditions/ultra_fine_scale_seafloor_mapping/Footer.webp"
+        footer_alt="The Deep Acoustic Lander is recovered to R/V Falkor (too)’s aft deck."
       >
         <SectionWithImage
           image="/assets/images/expeditions/ultra_fine_scale_seafloor_mapping/Cientifico.webp"
@@ -66,12 +83,21 @@ function UltrafineScaleSeafloorMapping() {
             produces maps that are 50- to 100-meters in resolution; this means
             features smaller than 50- to 100-meters are not visible.
           </p>
-          <BubbleImage image={image} orientation="left" type={3} />
+          <BubbleImage
+            image={image}
+            orientation="left"
+            type={3}
+            alt="Moronke Harris breaks rocks samples to process for bacteria."
+          />
           <p>
             During this expedition, led by Chief Scientist Dr. John Jamieson, an
             international team tested a sonar system new to scientific seafloor
             mapping,{" "}
-            <a href="https://www.youtube.com/watch?v=m7_I4kYlchU" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://www.youtube.com/watch?v=m7_I4kYlchU"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <u>Interferometric Synthetic Aperture Sonar, or InSAS</u>
             </a>
             , which enabled them to locate seafloor features with greater
@@ -81,7 +107,11 @@ function UltrafineScaleSeafloorMapping() {
             photograph created with sound instead of light. This technology will
             transform the ability to map, explore, classify, and monitor the
             seafloor environment in extremely high detail, and it{" "}
-            <a href="https://youtu.be/m7_I4kYlchU?si=_yYeMV7x1Ba-lSYX&amp;t=144" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://youtu.be/m7_I4kYlchU?si=_yYeMV7x1Ba-lSYX&amp;t=144"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <u>
                 dramatically reduces the time needed to explore and locate
                 seafloor features
@@ -100,10 +130,9 @@ function UltrafineScaleSeafloorMapping() {
           <p>
             Additionally, the team observed 15 species previously not known to
             live in the region and two that are likely new to science. The list
-            includes a rare{" "}
-            <em>in situ</em>{" "}sighting and specimen collection of a{" "}
-            <em>Neopilina galatheae</em>, a limpet-like marine mollusk that has
-            never been seen in this region. The scientists also discovered a
+            includes a rare <em>in situ</em> sighting and specimen collection of
+            a <em>Neopilina galatheae</em>, a limpet-like marine mollusk that
+            has never been seen in this region. The scientists also discovered a
             Pacific white skate nursery associated with hydrothermal vents.
           </p>
           <p>
@@ -142,7 +171,11 @@ function UltrafineScaleSeafloorMapping() {
             </li>
             <li>
               Video footage revealed the{" "}
-              <a href="https://www.biorxiv.org/content/10.1101/2023.11.28.568903v1.full" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://www.biorxiv.org/content/10.1101/2023.11.28.568903v1.full"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <u>presence of 15 animal species previously not recorded</u>
               </a>{" "}
               in this region of the Ocean, some of which may be new to science;

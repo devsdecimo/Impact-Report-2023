@@ -18,11 +18,11 @@ function VerticalReefsOfTheGalapagos() {
   const slidesPath =
     "/assets/images/expeditions/vertical_reefs_of_the_galapagos/carousel/";
   const slides = [
-    { img: `${slidesPath}01-Paulina.webp` },
-    { img: `${slidesPath}02-Belen.webp` },
-    { img: `${slidesPath}03-Laser.webp` },
-    { img: `${slidesPath}04-Fantastic.webp` },
-    { img: `${slidesPath}05-Amazing.webp` },
+    { img: `${slidesPath}01-Paulina.webp`, alt:"Researchers prepare a deep-sea coral for RNA research during the expedition in the Galapagos Marine Reserve."},
+    { img: `${slidesPath}02-Belen.webp`, alt:"Ana Belen Yánez Suárez leads ROV SuBastian 600th dive in the waters off Costa Rica." },
+    { img: `${slidesPath}03-Laser.webp`, alt: "(ROV) SuBastian dove on Cacho De Coral, a newly discovered pristine coral reef, equipped with two mapping sensors, including a Micro Insight Laser Scanner." },
+    { img: `${slidesPath}04-Fantastic.webp`, alt:"Eelt seen at Punta Mangle in the Simón Bolívar channel, Galápagos Marine Reserve." },
+    { img: `${slidesPath}05-Amazing.webp`, alt:"Corals seen near Gemales II Seamount in the Galapagos Islands." },
   ];
 
   return (
@@ -35,7 +35,9 @@ function VerticalReefsOfTheGalapagos() {
           />
         }
         header_image={headerImage}
+        header_alt="An area of biodiversity including corals, crustaceans, urchins, anemones, and more, on Cacho De Coral, a newly discovered pristine coral reef."
         footer_image="/assets/images/expeditions/vertical_reefs_of_the_galapagos/Footer.webp"
+        footer_alt="Researchers monitor the log of ROV SuBastian during the expedition in the Galapagos Marine Reserve."
       >
         <SectionWithImage
           image="/assets/images/expeditions/vertical_reefs_of_the_galapagos/Cientifico.webp"
@@ -83,7 +85,7 @@ function VerticalReefsOfTheGalapagos() {
             addressed these challenges to map and characterize these
             extraordinary habitats.
           </p>
-          <BubbleImage image={image} orientation="left" type={3} />
+          <BubbleImage image={image} orientation="left" type={3} alt="Squat lobsters seen at Cacho De Coral in the Galápagos Marine Reserve" />
           <p>
             The science team discovered thriving cold-water coral reefs with a
             high biodiversity of associated organisms in a marine protected area

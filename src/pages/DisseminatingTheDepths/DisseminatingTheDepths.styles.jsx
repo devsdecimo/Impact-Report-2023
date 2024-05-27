@@ -69,6 +69,7 @@ export const PageContainer = styled.div`
       width: 62%;
       top: 40%;
       left: 36.29%;
+      background: transparent;
     }
     .circle-1 {
       top: 7%;

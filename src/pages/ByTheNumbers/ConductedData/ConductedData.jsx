@@ -45,6 +45,7 @@ function ConductedData() {
       <img
         src="/assets/images/by_the_numbers/conducted/Image.webp"
         className="image"
+        alt="Remotely Operated Vehicle SuBastian"
       />
       <div className="circle circle-darkblue"></div>
 

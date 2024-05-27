@@ -45,6 +45,7 @@ function ReachedData() {
       <img
         src="/assets/images/by_the_numbers/reached/Image.webp"
         className="image"
+        alt="A professor presents during a ship-to-shore video call from R/V Falkor (too)."
       />
       <span className="numbers-people numbers">
         <Counter condition={countersStart}>8600</Counter>

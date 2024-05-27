@@ -9,19 +9,19 @@ export const NavMenuContainer = styled.nav`
     background-color: transparent;
     top: 0;
     right: 0;
-    margin: 2rem;
+    margin: 1rem;
     cursor: pointer;
     z-index: 4;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 0.25rem;
     @media (min-width: 768px) {
       position: fixed;
       margin: 3.25rem 4rem;
       transition: 0.5s;
       flex-direction: row-reverse;
+      gap: 0.25rem;
     }
 
     &:hover,
@@ -41,9 +41,9 @@ export const NavMenuContainer = styled.nav`
       content: "";
       display: flex;
       background-color: #ffffff;
-      height: 25px;
-      width: 25px;
-      padding: 1rem;
+      height: 20px;
+      width: 20px;
+      padding: 0.8rem;
       border-radius: 100%;
       background-image: url("/assets/images/MenuButton.svg");
       background-repeat: no-repeat;
@@ -51,6 +51,11 @@ export const NavMenuContainer = styled.nav`
       background-size: 50% 50%;
       box-shadow: 3px 3px 10px rgba(15, 122, 188, 0.5);
       transition: 0.5s;
+      @media (min-width: 768px) {
+        height: 25px;
+        width: 25px;
+        padding: 1rem;
+      }
     }
 
     &::after {
@@ -135,10 +140,21 @@ export const NavMenuContainer = styled.nav`
       @media (min-width: 768px) {
         font-size: 1.5vw;
       }
-      &:hover {
+
+      &.return {
+        justify-self: flex-end;
+        padding-bottom: 2rem;
+
+        font-size: 1rem;
+
         @media (min-width: 768px) {
-          font-size: 1.6vw;
-          transition: 1s;
+          font-size: 1.2vw;
+        }
+
+        &:hover {
+          @media (min-width: 768px) {
+            font-size: 1.3vw;
+          }
         }
       }
     }
@@ -153,15 +169,24 @@ export const NavMenuContainer = styled.nav`
         transition: 2s;
       }
     }
-
     & > ul {
+      list-style: none;
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      height: 100%;
+    }
+
+    & > ul ul {
       display: flex;
       list-style: none;
       flex-direction: column;
       padding: 1rem;
       margin-top: 0;
       text-align: center;
-      justify-content: center;
+      justify-content: start;
       align-items: center;
       gap: 1.5rem;
       margin: 0;

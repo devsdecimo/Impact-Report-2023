@@ -8,7 +8,9 @@ import ScrollToTop from "../../components/ScrollToTop/ScrollToTop";
 function DisseminatingTheDepths({
   children,
   header_image,
+  header_alt,
   footer_image,
+  footer_alt,
   title,
 }) {
   const navSlides = [
@@ -44,7 +46,9 @@ function DisseminatingTheDepths({
       <Page
         title={title}
         header_image={header_image}
+        header_alt={header_alt}
         footer_image={footer_image}
+        footer_alt={footer_alt}
       >
         <div className="content-body">{children}</div>
         <ScrollToTop />

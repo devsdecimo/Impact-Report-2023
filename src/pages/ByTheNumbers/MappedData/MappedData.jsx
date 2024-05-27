@@ -41,6 +41,7 @@ function MappedData() {
       <img
         src="/assets/images/by_the_numbers/mapped/CircleImage1.webp"
         className="circle circle-image1"
+        alt="Multibeam sonar image of a seamount"
       />
 
 

@@ -27,24 +27,39 @@ export const PageContainer = styled.div`
   .continuum-image {
     width: 70vw;
     max-width: 340px;
+
+    &.grants-1-image{
+      
+      @media (min-width: 768px) {
+        margin-top: -5rem;
+      }
+    }
   }
 
   @media (min-width: 768px) {
     .continuum-image {
       width: 40vw;
-      max-width: 500px;
+      max-width: 330px;
+    }
+  }
+
+  @media (min-width: 1280) {
+    .continuum-image {
+      width: 30vw;
+      max-width: 300px;
     }
   }
 
   @media (min-width: 1400px) {
     .continuum-image {
       width: 30vw;
+      max-width: 330px;
     }
   }
 
   @media (min-width: 1620px) {
     .continuum-image {
-      width: 20vw;
+      max-width: 360px;
     }
   }
   /*centrar bubbles en mobile*/

@@ -42,6 +42,7 @@ function ExpeditionsData() {
       <img
         src="/assets/images/by_the_numbers/expeditions/CircleImage.webp"
         className="circle circle-image"
+        alt="A scientist in R/V Falkor (too)’s main lab"
       />
       <div className="circle circle-blue"></div>
       <div className="numbers-expeditions numbers">

@@ -5,32 +5,43 @@ import TheDeepSeaContinuum from "../TheDeepSeaContinuum";
 function Grants({ children }) {
   return (
     <TheDeepSeaContinuum
-        title={
-          <img
-            src="/assets/images/the_deep_sea_continuum/grants/Title.svg"
-            alt="Grants"
-            loading="lazy"
-          />
-        }
-        header_image={"/assets/images/the_deep_sea_continuum/grants/Header.webp"}
-        footer_image="/assets/images/the_deep_sea_continuum/grants/Footer.webp"
-      >
+      title={
+        <img
+          src="/assets/images/the_deep_sea_continuum/grants/Title.svg"
+          alt="Grants"
+          loading="lazy"
+        />
+      }
+      header_image={"/assets/images/the_deep_sea_continuum/grants/Header.webp"}
+      header_alt="The 2023 MATE ROV Ranger class winning team"
+      footer_image="/assets/images/the_deep_sea_continuum/grants/Footer.webp"
+      footer_alt="Scientific equipment is the main lab of  R/V Falkor (too)."
+    >
       <div className="content-group">
         <BubbleImage
           image="/assets/images/the_deep_sea_continuum/grants/Local Technology Support.webp"
-          className="continuum-image"
+          className="continuum-image grants-1-image"
           orientation="right"
-          direction="up"
+          direction="down"
+          alt="Members of science teams on R/V Falkor (too) came ashore to be part of scientific talks as part of the Charles Darwin Foundation’s Environmental Education and Community Outreach Program."
         ></BubbleImage>
         <h3>Local Technology Support</h3>
         <p>
           Grants of up to $5,000 are offered to regional organizations where{" "}
           <em>Falkor (too)</em> is operating to support participation in{" "}
-          <a href="https://www.youtube.com/@SchmidtOcean/videos?view=2&amp;sort=dd&amp;live_view=503&amp;shelf_id=0" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.youtube.com/@SchmidtOcean/videos?view=2&amp;sort=dd&amp;live_view=503&amp;shelf_id=0"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <u>SOI Divestreams</u>
           </a>{" "}
           and live{" "}
-          <a href="https://schmidtocean.org/ship-to-shore-program/" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://schmidtocean.org/ship-to-shore-program/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <u> Ship-to-Shore Connections</u>
           </a>
           . The first of these grants was given to the Charles Darwin Foundation
@@ -44,16 +55,25 @@ function Grants({ children }) {
           image="/assets/images/the_deep_sea_continuum/grants/MATE ROV.webp"
           className="continuum-image"
           orientation="left"
-          direction="up"
+          direction="down"
+          alt="Students compete at the MATE ROV is an underwater robotics competition."
         ></BubbleImage>
         <h3>MATE ROV</h3>
         <p>
           In 2023, the{" "}
-          <a href="https://materovcompetition.org/" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://materovcompetition.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <u>MATE ROV Competition</u>
           </a>{" "}
           was integrated into the{" "}
-          <a href="https://www.mtsociety.org/index.php?option=com_dailyplanetblog&amp;view=entry&amp;year=2023&amp;month=07&amp;day=10&amp;id=288:mts-and-mate-ii-officially-come-together-to-inspire-the-next-generation-of-ocean-leaders" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.mtsociety.org/index.php?option=com_dailyplanetblog&amp;view=entry&amp;year=2023&amp;month=07&amp;day=10&amp;id=288:mts-and-mate-ii-officially-come-together-to-inspire-the-next-generation-of-ocean-leaders"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <u>Marine Technology Society</u>
           </a>
           , and Schmidt Ocean Institute continued to support this long-running
@@ -88,6 +108,7 @@ function Grants({ children }) {
           image="/assets/images/the_deep_sea_continuum/grants/Student Poster Competition.webp"
           className="continuum-image"
           orientation="right"
+          alt="Student Poster Competition from the Marine Technology Society's 2023 Oceans Conference - Limerick."
         ></BubbleImage>
         <h3>
           MTS/IEEE - Ocean Engineering Society Global OCEANS Student Poster
@@ -96,7 +117,11 @@ function Grants({ children }) {
         <p>
           For the third consecutive year, Schmidt Ocean Institute supported
           awards for the{" "}
-          <a href="https://ieeeoes.org/oes-beacon/september-2023-oes-beacon/the-student-poster-competition-at-oceans-2023-limerick/" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://ieeeoes.org/oes-beacon/september-2023-oes-beacon/the-student-poster-competition-at-oceans-2023-limerick/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <u>
               MTS/IEEE Ocean Engineering Society Global OCEANS Student Poster
               Competition,
@@ -145,6 +170,7 @@ function Grants({ children }) {
           image="/assets/images/the_deep_sea_continuum/grants/National Ocean Sciences Bowl.webp"
           className="continuum-image"
           orientation="left"
+          alt="National Ocean Sciences Bowl logo"
         ></BubbleImage>
         <h3>National Ocean Sciences Bowl</h3>
         <p>
@@ -170,35 +196,60 @@ function Grants({ children }) {
           className="continuum-image"
           orientation="right"
           direction="up"
+          alt="Nautilus Magazine - Cover of Ocean Special Issue 2023"
         ></BubbleImage>
         <h3>Nautilus Magazine</h3>
         <p>
           Nautilus Magazine produces six issues annually and published two{" "}
-          <a href="https://nautil.us/ocean/?_sp=8d5a6f42-ddf9-4cf0-8162-6f0e20f347b8.1704757030230" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://nautil.us/ocean/?_sp=8d5a6f42-ddf9-4cf0-8162-6f0e20f347b8.1704757030230"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <u>Ocean Magazines</u>
           </a>{" "}
           in 2023. Their special ocean issues included 37 articles on topics
           such as seafloor mapping, the{" "}
-          <a href="https://nautil.us/race-against-time-to-discover-ocean-life-prompts-launch-of-global-initiative-308560/" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://nautil.us/race-against-time-to-discover-ocean-life-prompts-launch-of-global-initiative-308560/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <u>Ocean Census project</u>
           </a>
           , and plastic pollution. Coverage included Schmidt Ocean
           Institute&rsquo;s{" "}
-          <a href="https://nautil.us/schmidt-ocean-institute-launches-new-research-vessel-that-will-change-the-face-of-ocean-exploration-308580/?_sp=8d5a6f42-ddf9-4cf0-8162-6f0e20f347b8.1713979093843" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://nautil.us/schmidt-ocean-institute-launches-new-research-vessel-that-will-change-the-face-of-ocean-exploration-308580/?_sp=8d5a6f42-ddf9-4cf0-8162-6f0e20f347b8.1713979093843"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <u>
               <em>Falkor (too)</em> launch
             </u>
           </a>
           ,{" "}
-          <a href="https://nautil.us/the-worlds-first-known-deep-sea-octopus-nursery-401656/" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://nautil.us/the-worlds-first-known-deep-sea-octopus-nursery-401656/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <u>Octopus Odyssey expedition</u>
           </a>
           ,{" "}
-          <a href="https://nautil.us/what-an-artist-sees-in-the-deep-sea-362165/" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://nautil.us/what-an-artist-sees-in-the-deep-sea-362165/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <u>Artist-at-Sea program</u>
           </a>
           ,{" "}
-          <a href="https://nautil.us/scientists-discover-three-new-hydrothermal-vent-fields-on-mid-atlantic-ridge-308573/?_sp=8d5a6f42-ddf9-4cf0-8162-6f0e20f347b8.1713979664176" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://nautil.us/scientists-discover-three-new-hydrothermal-vent-fields-on-mid-atlantic-ridge-308573/?_sp=8d5a6f42-ddf9-4cf0-8162-6f0e20f347b8.1713979664176"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <u>hydrothermal vent discoveries</u>
           </a>
           , and more. Nautilus Ocean Magazine distributed 18,000 print copies,
@@ -212,13 +263,18 @@ function Grants({ children }) {
           image="/assets/images/the_deep_sea_continuum/grants/Ocean Keeling Curve.webp"
           className="continuum-image"
           orientation="left"
+          alt="Filling a Keeling Seawater sample bottle while studying the Ocean Keeling Curve."
         ></BubbleImage>
         <h3>Ocean Keeling Curve</h3>
         <p>
           Schmidt Ocean Institute continued to support the data collection of
           the longest-running global ocean carbon dioxide concentration time
           series, the{" "}
-          <a href="https://keelingcurve.ucsd.edu/" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://keelingcurve.ucsd.edu/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <u>Ocean Keeling Curve.</u>
           </a>{" "}
           Aside from a brief pause during the pandemic, sampling and analyses
@@ -239,12 +295,17 @@ function Grants({ children }) {
           image="/assets/images/the_deep_sea_continuum/grants/University of Puerto Rico.webp"
           className="continuum-image"
           orientation="right"
+          alt="A University of Puerto Rico student  gives a live ship-to-shore call, taking students on a tour of R/V Falkor (too)'s labs."
         ></BubbleImage>
         <h3>University of Puerto Rico</h3>
         <p>
           During the{" "}
           <u>
-            <a href="https://schmidtocean.org/cruise/health-diagnostics-of-deep-sea-coral/" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://schmidtocean.org/cruise/health-diagnostics-of-deep-sea-coral/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Health Diagnostics of Deep-Sea Coral Expedition
             </a>
           </u>
@@ -256,7 +317,11 @@ function Grants({ children }) {
           students collected seawater samples to analyze nutrients and carbon
           chemistry to complement the expedition research with additional
           seawater data; they also participated in{" "}
-          <a href="https://schmidtocean.org/ship-to-shore-program/" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://schmidtocean.org/ship-to-shore-program/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <u>Ship-to-Shore Connections</u>
           </a>{" "}
           with classrooms in Puerto Rico.
@@ -268,6 +333,7 @@ function Grants({ children }) {
           image="/assets/images/the_deep_sea_continuum/grants/g.webp"
           className="continuum-image"
           orientation="left"
+          alt="The science team take their seats for the first dive of the cruise - heading towards the first hydrothermal site."
         ></BubbleImage>
         <h3>University of Rhode Island and Lehigh University</h3>
         <p>
@@ -275,7 +341,11 @@ function Grants({ children }) {
           University of Rhode Island and Lehigh University to apply various
           analytical techniques to samples collected at the Western
           Gal&aacute;pagos Spreading Center following the{" "}
-          <a href="https://schmidtocean.org/cruise/hydrothermal-vents-of-the-galapagos/" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://schmidtocean.org/cruise/hydrothermal-vents-of-the-galapagos/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <u>Hydrothermal Vents of the Western Gal&aacute;pagos</u>
           </a>{" "}
           expedition. University of Rhode Island researchers will employ a
@@ -296,15 +366,24 @@ function Grants({ children }) {
           image="/assets/images/the_deep_sea_continuum/grants/World Ocean Observatory.webp"
           className="continuum-image"
           orientation="right"
+          alt="World Ocean Observatory logo"
         ></BubbleImage>
         <h3>World Ocean Observatory</h3>
         <p>
           The{" "}
-          <a href="https://www.worldoceanobservatory.org/" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.worldoceanobservatory.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <u>World Ocean Observatory</u>
           </a>{" "}
           continued to develop and expand its{" "}
-          <a href="http://worldoceanexplorer.org/deep-sea-aquarium.html" target="_blank" rel="noopener noreferrer">
+          <a
+            href="http://worldoceanexplorer.org/deep-sea-aquarium.html"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <u>World Ocean Explorer</u>
           </a>{" "}
           throughout 2023, resulting in an award-winning virtual aquarium
@@ -325,6 +404,7 @@ function Grants({ children }) {
           className="continuum-image"
           orientation="left"
           direction="up"
+          alt="Schmidt Ocean Coalition logos"
         ></BubbleImage>
         <h3>Schmidt Ocean Coalition</h3>
         <p>
@@ -360,7 +440,11 @@ function Grants({ children }) {
             <p>
               In 2023, the Schmidt Ocean Coalition provided a grant for
               scholarships to first-time{" "}
-              <a href="https://materovcompetition.org/" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://materovcompetition.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <u>MATE ROV Competition</u>
               </a>{" "}
               teams to lessen the financial barriers to participation in the
@@ -377,12 +461,17 @@ function Grants({ children }) {
               className="continuum-image"
               orientation="right"
               direction="up"
+              alt="Jyotika Virmani, Monty Graham (Director of the Florida Institute of Oceanography), and Heidi Cullen (MBARI). The donated research vessel Western Flyer is being used by Florida Institute of Oceanography to create a new model for ocean science education."
             ></BubbleImage>
             <h4>Peerside</h4>
             <p>
               The Schmidt Ocean Coalition supported the Florida Institute of
               Oceanography{" "}
-              <a href="https://www.fio.usf.edu/peerside/" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://www.fio.usf.edu/peerside/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <u>Peerside</u>
               </a>{" "}
               program to provide inclusive educational and career training
@@ -413,13 +502,19 @@ function Grants({ children }) {
             <h4>Inclusive SciComm Symposium</h4>
             <p>
               Schmidt Ocean Coalition supported the{" "}
-              <a href="https://inclusivescicomm.org/" target="_blank" rel="noopener noreferrer">
-                <u>
-                  <strong>Inclusive SciComm Symposium</strong>
-                </u>
+              <a
+                href="https://inclusivescicomm.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <u>Inclusive SciComm Symposium</u>
               </a>{" "}
               in October of 2023. The{" "}
-              <a href="https://inclusivescicomm.org/symposia/" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://inclusivescicomm.org/symposia/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 biennial symposium,{" "}
               </a>{" "}
               organized by the Metcalf Institute at the University of Rhode

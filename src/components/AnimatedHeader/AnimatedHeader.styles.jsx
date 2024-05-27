@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const AnimatedHeaderContainer = styled.div`
   position: relative;
   max-width: 100vw;
+  overflow: hidden;
 
   .header_logo {
     position: absolute;
@@ -20,9 +21,12 @@ export const AnimatedHeaderContainer = styled.div`
   }
 
   .header_image {
-    width: 100%;
+    width: 110%;
     max-height: 91vh;
     object-fit: cover;
+    @media (min-width: 768px) {
+      width: 100%;
+    }
   }
 
   .header_content {

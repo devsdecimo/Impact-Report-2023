@@ -56,8 +56,8 @@ function HydrothermalVentsOfTheWesternGalapagos() {
         <SectionWithImage
           image="/assets/images/expeditions/hydrothermal_vents_of_the_western_galapagos/Cientifico1.webp"
           image2="/assets/images/expeditions/hydrothermal_vents_of_the_western_galapagos/Cientifico2.webp"
-          alt=""
-          alt2=""
+          alt="Chief Scientists Drs. Roxanne Beinart and Jill McDermot"
+          alt2="Chief Scientists Drs. Roxanne Beinart and Jill McDermott"
         />
         <SectionBrands />
         <div className="content">

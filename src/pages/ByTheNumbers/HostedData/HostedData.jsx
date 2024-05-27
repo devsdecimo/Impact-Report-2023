@@ -44,11 +44,13 @@ function HostedData() {
       <img
         src="/assets/images/by_the_numbers/hosted/CircleImage.webp"
         className="circle circle-image"
+        alt="Alvise Vianello prepares the UFO water filtration systems at sunset near the CTD Launch and Recovery (LARS) system."
       />
 
       <img
         src="/assets/images/by_the_numbers/hosted/Image.webp"
         className="image"
+        alt="Researcher holding sample, researchers expressing relief"
       />
 
       <span className="numbers-expeditions numbers">

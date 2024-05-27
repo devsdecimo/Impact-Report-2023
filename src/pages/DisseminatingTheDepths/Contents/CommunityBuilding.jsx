@@ -31,12 +31,15 @@ function CommunityBuilding() {
         />
       }
       header_image="/assets/images/disseminating_the_depths/community_building//Header.webp"
+      header_alt="Researchers examine a water sample under a microscope in R/V Falkor (too)’s main lab."
       footer_image="/assets/images/disseminating_the_depths/community_building/Footer.webp"
+      footer_alt="Partnership participants are given a tour of R/V Falkor (too)."
     >
       <BubbleImage
-        image="/assets/images/disseminating_the_depths/community_building/Community Building  -  Presentation-20231012-CD_Foundation-Galapagos-3.webp"
+        image="/assets/images/disseminating_the_depths/community_building/Community Building.webp"
         className="community-image"
         direction="up"
+        alt="(L-R) Audrey Siegel (Video Producer, Vogue China), Taiwanese designer Pei-Wen Jin (Artist-at-Sea), and Professor Monika Aggarwal from IIT Delhi (partnership with IEEE-OES), tour Falkor (too)'s hangar during the Dynamics of Sinking Microplastics expedition."
       />
       <h3>Commmunity Building</h3>
       <p>

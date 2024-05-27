@@ -24,16 +24,21 @@ export const PageContainer = styled.div`
       /* grid-template-areas: "img1 p1 p1" "img1 p2 img2" "p3 p3 p3" "p4 p4 p4"; */
       /* grid-template-columns: 25% 37.5% 37.5%; */
       /* grid-template-rows: repeat(3, auto); */
-    display: block;
-
+      display: block;
     }
     @media (min-width: 1400px) {
       /* grid-template-areas: "img1 p1 p1" "p2 p2 img2" "p3 p3 p3" "p4 p4 p4"; */
     }
   }
 
+  .limitless-image {
+    @media (min-width: 768px) {
+      width: 20vw;
+      max-width: 330px;
+    }
+  }
+
   .content p {
     width: 100%;
   }
-
 `;

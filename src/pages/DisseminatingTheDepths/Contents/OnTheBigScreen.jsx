@@ -12,12 +12,15 @@ function OnTheBigScreen({ children }) {
         />
       }
       header_image="/assets/images/disseminating_the_depths/on_the_big_screen//Header.webp"
+      header_alt="Poster for “Deep Rising,” a full-length documentary film narrated by Hollywood leading man Jason Momoa that premiered at the prestigious Sundance "
       footer_image="/assets/images/disseminating_the_depths/on_the_big_screen/Footer.webp"
+      footer_alt="Off the coast of Puerto Rico, coral is documented at a shallow depth where ambient light is available."
     >
       <BubbleImage
         image="/assets/images/disseminating_the_depths/on_the_big_screen/On the Big Screen  -  Deep_Rising-Poster_vertical.webp"
         className="screen-image"
         direction="up"
+        alt="Poster for the documentary “Deep Rising” showing a red solitary hydroid."
       />
       <h3>On the Big Screen</h3>
       <p>

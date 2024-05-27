@@ -6,22 +6,24 @@ import DisseminatingTheDepths from "../DisseminatingTheDepths";
 function ArtistAtSea() {
   const slides = [
     {
-      img: "/assets/images/disseminating_the_depths/artist-at-sea/carousel/01-Michael.webp",
-    },
-    {
       img: "/assets/images/disseminating_the_depths/artist-at-sea/carousel/02-Max.webp",
+      alt:"Max Hooper Schneider observes his first work of art before it is deployed on the seafloor."
     },
     {
       img: "/assets/images/disseminating_the_depths/artist-at-sea/carousel/03-ArtistAtSeaElena-Naranjo.webp",
+      alt: "Artist-at-Sea Elena Alonso Fernández"
     },
     {
       img: "/assets/images/disseminating_the_depths/artist-at-sea/carousel/04-Max2.webp",
+      alt: "One of Max Hooper Schneider’s sculptural works is recovered from a hydrothermal vent field by ROV SuBastian."
     },
     {
       img: "/assets/images/disseminating_the_depths/artist-at-sea/carousel/05-Shan.webp",
+      alt: "Artist-at-Sea Shan Hua discusses data with Marine Tech Kaarel Kaspar Rais in R/V Falkor (too)’s computer lab."
     },
     {
       img: "/assets/images/disseminating_the_depths/artist-at-sea/carousel/06-Art_Saving_Frost-Navarro.webp",
+      alt: "The Art of Saving the Ocean Event, Frost Science Miami. Includes artwork by Artist-at-Sea participants."
     },
   ];
 
@@ -34,13 +36,16 @@ function ArtistAtSea() {
         />
       }
       header_image="/assets/images/disseminating_the_depths/artist-at-sea//Header.webp"
+      header_alt="Carlos Hiller and Michel Droge on R/V Falkor (too)'s helideck with some of their paintings."
       footer_image="/assets/images/disseminating_the_depths/artist-at-sea/Footer.webp"
+      footer_alt="Michel Droge begins work in their small sketchbook."
     >
       <p>
         <BubbleImage
           image="/assets/images/disseminating_the_depths/artist-at-sea/2023_Oceanic_Volcanism_Workshop_Group_picture_Samuel_J_Mitchell_Bristol_University Burbuja@1x.webp"
           className="artist-image"
           direction="up"
+          alt="Michel Droge (Artist, Bates College) puts down the bruses and picks up a container to assist the science team with removing samples from ROV SuBastian."
         />
         The{" "}
         <a href="https://schmidtocean.org/apply/artist-residency-program/" target="_blank" rel="noopener noreferrer">

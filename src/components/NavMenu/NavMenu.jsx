@@ -38,6 +38,7 @@ function NavMenu({ className }) {
             className="menu_logo"
           />
         </Link>
+        <ul>
         <ul onClick={toggleMenu}>
           <li className="submenu">
             <SubMenu
@@ -168,6 +169,12 @@ function NavMenu({ className }) {
                 </li>
               </ul>
             </SubMenu>
+          </li>
+        </ul>
+          <li className="return">
+            <Link to="http://schmidtocean.org/">
+              Return to schmidtocean.org
+            </Link>
           </li>
         </ul>
       </div>
